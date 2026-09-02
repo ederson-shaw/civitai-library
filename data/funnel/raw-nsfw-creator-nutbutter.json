@@ -1,0 +1,329 @@
+[
+  {
+    "id": 502468,
+    "name": "bigASP 🐍",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "nutbutter",
+      "href": "https://civitai.com/users/nutbutter"
+    },
+    "stats": {
+      "downloadCount": 50322,
+      "thumbsUpCount": 2248,
+      "thumbsDownCount": 26,
+      "commentCount": 263,
+      "tippedAmountCount": 27266,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:54+00:00"
+    },
+    "lastUpdated": "2024-10-25T04:07:13.492Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/502468",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88c910ee-0c3b-4593-9b58-5b80bcdb1699/width=450/36427260.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88c910ee-0c3b-4593-9b58-5b80bcdb1699/original=true/36427260.jpeg"
+    },
+    "versions": [
+      {
+        "id": 991916,
+        "name": "v2.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-10-25T04:07:13.492Z",
+        "downloadUrl": "https://civitai.com/api/download/models/991916",
+        "files": [
+          {
+            "name": "bigasp_v20.safetensors",
+            "type": "Model",
+            "sizeKB": 6775430.353515625
+          }
+        ]
+      },
+      {
+        "id": 558487,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-06-08T07:58:28.587Z",
+        "downloadUrl": "https://civitai.com/api/download/models/558487",
+        "files": [
+          {
+            "name": "bigasp_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6775429.966796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80819,
+    "name": "Subreddit V7",
+    "type": "Checkpoint",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "nutbutter",
+      "href": "https://civitai.com/users/nutbutter"
+    },
+    "stats": {
+      "downloadCount": 13258,
+      "thumbsUpCount": 1050,
+      "thumbsDownCount": 1,
+      "commentCount": 27,
+      "tippedAmountCount": 50,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:54+00:00"
+    },
+    "lastUpdated": "2023-06-22T18:27:51.803Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/80819",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228b2b27-e4fd-46e0-af8b-e6440d75e567/width=450/1247417.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228b2b27-e4fd-46e0-af8b-e6440d75e567/original=true/1247417.jpeg"
+    },
+    "versions": [
+      {
+        "id": 101754,
+        "name": "v7.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-06-22T18:27:51.803Z",
+        "downloadUrl": "https://civitai.com/api/download/models/101754",
+        "files": [
+          {
+            "name": "subredditV7_v70.safetensors",
+            "type": "Model",
+            "sizeKB": 3924781.13671875
+          }
+        ]
+      },
+      {
+        "id": 85746,
+        "name": "v4.0",
+        "baseModel": "SD 1.4",
+        "updatedAt": "2023-05-30T19:05:52.861Z",
+        "downloadUrl": "https://civitai.com/api/download/models/85746",
+        "files": [
+          {
+            "name": "subredditV7_v40.safetensors",
+            "type": "Model",
+            "sizeKB": 3924781.142578125
+          }
+        ]
+      },
+      {
+        "id": 89583,
+        "name": "v5.0",
+        "baseModel": "SD 1.4",
+        "updatedAt": "2023-06-05T06:07:29.168Z",
+        "downloadUrl": "https://civitai.com/api/download/models/89583",
+        "files": [
+          {
+            "name": "subredditV7_v50.safetensors",
+            "type": "Model",
+            "sizeKB": 3924781.142578125
+          }
+        ]
+      },
+      {
+        "id": 96312,
+        "name": "v6.0",
+        "baseModel": "SD 1.4",
+        "updatedAt": "2023-06-15T04:40:23.498Z",
+        "downloadUrl": "https://civitai.com/api/download/models/96312",
+        "files": [
+          {
+            "name": "subredditV7_v60.safetensors",
+            "type": "Model",
+            "sizeKB": 3924781.13671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5308,
+    "name": "Subreddit V3",
+    "type": "Checkpoint",
+    "baseModel": "SD 1.4",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "nutbutter",
+      "href": "https://civitai.com/users/nutbutter"
+    },
+    "stats": {
+      "downloadCount": 11875,
+      "thumbsUpCount": 1737,
+      "thumbsDownCount": 3,
+      "commentCount": 14,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:54+00:00"
+    },
+    "lastUpdated": "2023-01-26T06:27:01.662Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/5308",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e017234d-750c-4374-f548-fdcdd7e12f00/width=450/53678.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e017234d-750c-4374-f548-fdcdd7e12f00/original=true/53678.jpeg"
+    },
+    "versions": [
+      {
+        "id": 6154,
+        "name": "39423",
+        "baseModel": "SD 1.4",
+        "updatedAt": "2023-01-26T06:27:01.662Z",
+        "downloadUrl": "https://civitai.com/api/download/models/6154",
+        "files": [
+          {
+            "name": "subredditV3_39423.safetensors",
+            "type": "Model",
+            "sizeKB": 4001747.194335938
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1789765,
+    "name": "bigASP 🧪 v2.5",
+    "type": "Checkpoint",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "nutbutter",
+      "href": "https://civitai.com/users/nutbutter"
+    },
+    "stats": {
+      "downloadCount": 4946,
+      "thumbsUpCount": 280,
+      "thumbsDownCount": 2,
+      "commentCount": 80,
+      "tippedAmountCount": 600,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:46+00:00"
+    },
+    "lastUpdated": "2025-07-19T08:08:48.952Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1789765",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e32acc8-92cf-4b0a-9f85-8552d39cf59e/width=450/89148144.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e32acc8-92cf-4b0a-9f85-8552d39cf59e/original=true/89148144.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2025412,
+        "name": "v2.5",
+        "baseModel": "Other",
+        "updatedAt": "2025-07-19T08:08:48.952Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2025412",
+        "files": [
+          {
+            "name": "bigaspV25_v25.safetensors",
+            "type": "Model",
+            "sizeKB": 6775430.353515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2870704,
+    "name": "🐍 bigASP 3 - Alpha",
+    "type": "Checkpoint",
+    "baseModel": "Flux.2 Klein 9B-base",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "nutbutter",
+      "href": "https://civitai.com/users/nutbutter"
+    },
+    "stats": {
+      "downloadCount": 174,
+      "thumbsUpCount": 27,
+      "thumbsDownCount": 0,
+      "commentCount": 13,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:46+00:00"
+    },
+    "lastUpdated": "2026-08-19T00:17:28.614Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2870704",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8aba07da-8861-4e8d-a896-d74cb24d316c/width=450/140116362.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8aba07da-8861-4e8d-a896-d74cb24d316c/original=true/140116362.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3243521,
+        "name": "rl2",
+        "baseModel": "Flux.2 Klein 9B-base",
+        "updatedAt": "2026-08-19T00:17:28.614Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3243521",
+        "files": [
+          {
+            "name": "Bigasp3Alpha_rl2.safetensors",
+            "type": "Model",
+            "sizeKB": 17731626.3515625
+          }
+        ]
+      },
+      {
+        "id": 3243442,
+        "name": "Base",
+        "baseModel": "Flux.2 Klein 9B-base",
+        "updatedAt": "2026-08-19T00:00:48.360Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3243442",
+        "files": [
+          {
+            "name": "Bigasp3Alpha_base.safetensors",
+            "type": "Model",
+            "sizeKB": 17731626.140625
+          }
+        ]
+      }
+    ]
+  }
+]

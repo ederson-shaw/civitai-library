@@ -1,0 +1,91 @@
+[
+  {
+    "id": 430454,
+    "name": "Anteros XXXL",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "erotes_anteros",
+      "href": "https://civitai.com/users/erotes_anteros"
+    },
+    "stats": {
+      "downloadCount": 27453,
+      "thumbsUpCount": 749,
+      "thumbsDownCount": 11,
+      "commentCount": 0,
+      "tippedAmountCount": 2120,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:53+00:00"
+    },
+    "lastUpdated": "2024-05-01T18:30:04.176Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/430454",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5aae1089-86da-425b-81f9-e1d82256c2d0/width=450/11267920.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5aae1089-86da-425b-81f9-e1d82256c2d0/original=true/11267920.jpeg"
+    },
+    "versions": [
+      {
+        "id": 479579,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-05-01T18:30:04.176Z",
+        "downloadUrl": "https://civitai.com/api/download/models/479579",
+        "files": [
+          {
+            "name": "anterosXXXL_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 13550569.5703125
+          },
+          {
+            "name": "anterosXXXL_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6775457.046875
+          },
+          {
+            "name": "anterosXXXL_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6938868.833984375
+          }
+        ]
+      },
+      {
+        "id": 489986,
+        "name": "v0.9 - Unrefined",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-05-06T17:05:52.217Z",
+        "downloadUrl": "https://civitai.com/api/download/models/489986",
+        "files": [
+          {
+            "name": "anterosXXXL_v09Unrefined.safetensors",
+            "type": "Model",
+            "sizeKB": 6775472.9296875
+          }
+        ]
+      },
+      {
+        "id": 490014,
+        "name": "v0.8 - Raw",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-05-06T17:23:40.813Z",
+        "downloadUrl": "https://civitai.com/api/download/models/490014",
+        "files": [
+          {
+            "name": "anterosXXXL_v08Raw.safetensors",
+            "type": "Model",
+            "sizeKB": 13550505.93359375
+          }
+        ]
+      }
+    ]
+  }
+]

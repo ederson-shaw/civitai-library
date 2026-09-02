@@ -1,0 +1,3532 @@
+[
+  {
+    "id": 1007385,
+    "name": "Hunyuan 🌻 AllInOne",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "LatentDream",
+      "href": "https://civitai.com/users/LatentDream"
+    },
+    "stats": {
+      "downloadCount": 41756,
+      "thumbsUpCount": 1469,
+      "thumbsDownCount": 8,
+      "commentCount": 0,
+      "tippedAmountCount": 15540,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-06T10:37:47.861Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1007385",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a20a40b9-3d08-4d25-a9a4-84a525e9bc44/width=450/60618723.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a20a40b9-3d08-4d25-a9a4-84a525e9bc44/original=true/60618723.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1378643,
+        "name": "✔All Versions 𝟭.𝟱🟩🟧🟪",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-06T10:37:47.861Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1378643",
+        "files": [
+          {
+            "name": "hunyuanAllinone_AllVersions.zip",
+            "type": "Archive",
+            "sizeKB": 162.9169921875
+          }
+        ]
+      },
+      {
+        "id": 1498674,
+        "name": "✔️Official I2V  (v2)",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-06T09:43:58.965Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1498674",
+        "files": [
+          {
+            "name": "hunyuanAllinone_OfficialI2VV2.zip",
+            "type": "Archive",
+            "sizeKB": 67.998046875
+          }
+        ]
+      },
+      {
+        "id": 1448046,
+        "name": "HUN🟪Ultra | 1.4",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-22T17:39:52.126Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1448046",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunUltra14.zip",
+            "type": "Archive",
+            "sizeKB": 106.6298828125
+          }
+        ]
+      },
+      {
+        "id": 1338341,
+        "name": "HUN🟪Ultra☕1.2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-27T18:37:55.600Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1338341",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunUltra12.zip",
+            "type": "Archive",
+            "sizeKB": 37.6044921875
+          }
+        ]
+      },
+      {
+        "id": 1300289,
+        "name": "HUN🟧Advanced☕1.4",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-18T18:22:38.785Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1300289",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced14.zip",
+            "type": "Archive",
+            "sizeKB": 34.439453125
+          }
+        ]
+      },
+      {
+        "id": 1291318,
+        "name": "HUN | Advanced☕1.3",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-16T17:14:29.296Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1291318",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced13.zip",
+            "type": "Archive",
+            "sizeKB": 25.8876953125
+          }
+        ]
+      },
+      {
+        "id": 1283286,
+        "name": "HUN | Advanced☕1.2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-14T18:03:05.969Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1283286",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced12.zip",
+            "type": "Archive",
+            "sizeKB": 21.5498046875
+          }
+        ]
+      },
+      {
+        "id": 1274679,
+        "name": "HUN | Advanced☕1.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-12T18:53:36.978Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1274679",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced11.zip",
+            "type": "Archive",
+            "sizeKB": 16.1318359375
+          }
+        ]
+      },
+      {
+        "id": 1370211,
+        "name": "HUN🟩Basic+Upscale",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-04T09:44:41.552Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1370211",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunBasicUpscale.zip",
+            "type": "Archive",
+            "sizeKB": 8.849609375
+          },
+          {
+            "name": "hunyuanAllinone_hunBasicUpscale.zip",
+            "type": "Archive",
+            "sizeKB": 7.8916015625
+          }
+        ]
+      },
+      {
+        "id": 1261498,
+        "name": "HUN🟩Basic",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-09T17:22:57.157Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1261498",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunBasic.zip",
+            "type": "Archive",
+            "sizeKB": 7.341796875
+          }
+        ]
+      },
+      {
+        "id": 1268455,
+        "name": "HUN | BASIC Tea☕",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-11T09:36:47.341Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1268455",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunBASICTea.zip",
+            "type": "Archive",
+            "sizeKB": 10.3154296875
+          }
+        ]
+      },
+      {
+        "id": 1269859,
+        "name": "HUN | Hybrid +NegPrompt",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-11T17:23:02.667Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1269859",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunHybridNegprompt.zip",
+            "type": "Archive",
+            "sizeKB": 11.3134765625
+          }
+        ]
+      },
+      {
+        "id": 1134602,
+        "name": "❌All In One + 2x Upscale",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-06T09:13:45.835Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1134602",
+        "files": [
+          {
+            "name": "hunyuanAllinone_AllInOne2xUpscale.zip",
+            "type": "Archive",
+            "sizeKB": 16.6923828125
+          }
+        ]
+      },
+      {
+        "id": 1132492,
+        "name": "❌ALL IN ONE",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-05T16:51:13.614Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1132492",
+        "files": [
+          {
+            "name": "hunyuanAllinone_ALLINONE.zip",
+            "type": "Archive",
+            "sizeKB": 11.02734375
+          }
+        ]
+      },
+      {
+        "id": 1129519,
+        "name": "❌VIDEO to VIDEO",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-04T19:04:32.214Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1129519",
+        "files": [
+          {
+            "name": "hunyuanAllinone_VIDEOToVIDEO.zip",
+            "type": "Archive",
+            "sizeKB": 8.8720703125
+          }
+        ]
+      },
+      {
+        "id": 1129282,
+        "name": "❌TEXT to VIDEO",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-04T17:37:49.714Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1129282",
+        "files": [
+          {
+            "name": "hunyuanAllinone_TEXTToVIDEO.zip",
+            "type": "Archive",
+            "sizeKB": 7.18359375
+          }
+        ]
+      },
+      {
+        "id": 1472084,
+        "name": "update! v1.5",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-28T10:44:00.135Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1472084",
+        "files": [
+          {
+            "name": "hunyuanAllinone_updateV15.zip",
+            "type": "Archive",
+            "sizeKB": 142.1083984375
+          }
+        ]
+      },
+      {
+        "id": 1498872,
+        "name": "Official I2V 1.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-06T10:56:41.935Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1498872",
+        "files": [
+          {
+            "name": "hunyuanAllinone_officialI2V11.zip",
+            "type": "Archive",
+            "sizeKB": 9.0107421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1180764,
+    "name": "Img2Vid  𝑽𝟐 ▪ Hunyuan ▪ LeapFusion Lora V2",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "LatentDream",
+      "href": "https://civitai.com/users/LatentDream"
+    },
+    "stats": {
+      "downloadCount": 10773,
+      "thumbsUpCount": 465,
+      "thumbsDownCount": 4,
+      "commentCount": 80,
+      "tippedAmountCount": 250,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-25T14:58:43.003Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1180764",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aff7d0b8-1605-4756-b2c7-373d9ed3840d/width=450/53828793.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aff7d0b8-1605-4756-b2c7-373d9ed3840d/original=true/53828793.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1328798,
+        "name": "Hun I2V  | lora v2 | 1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-25T14:58:43.003Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1328798",
+        "files": [
+          {
+            "name": "img2vidHunyuan_hunI2VLoraV210.zip",
+            "type": "Archive",
+            "sizeKB": 8.7275390625
+          }
+        ]
+      },
+      {
+        "id": 1353666,
+        "name": "Hun I2V  | lora v1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-31T10:56:39.963Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1353666",
+        "files": [
+          {
+            "name": "img2vidHunyuan_hunI2VLoraV1.zip",
+            "type": "Archive",
+            "sizeKB": 3.6396484375
+          }
+        ]
+      },
+      {
+        "id": 1337596,
+        "name": "Hun I2V  | lora",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-27T15:05:14.082Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1337596",
+        "files": [
+          {
+            "name": "img2vidHunyuan_hunI2VLora.zip",
+            "type": "Archive",
+            "sizeKB": 3.6923828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1131397,
+    "name": "V4 DeJanked Image 2 Video Hunyuan Magic with Flux and Refiner Speed Hack",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "saturngfx",
+      "href": "https://civitai.com/users/saturngfx"
+    },
+    "stats": {
+      "downloadCount": 9193,
+      "thumbsUpCount": 205,
+      "thumbsDownCount": 3,
+      "commentCount": 41,
+      "tippedAmountCount": 1000,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-24T20:48:44.080Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1131397",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab3245c3-1c1d-46cd-b1b5-20ed01f81c1c/width=450/53956330.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab3245c3-1c1d-46cd-b1b5-20ed01f81c1c/original=true/53956330.mp4"
+    },
+    "versions": [
+      {
+        "id": 1325653,
+        "name": "v4",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-24T20:48:44.080Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1325653",
+        "files": [
+          {
+            "name": "v4DejankedImage2Video_v4.zip",
+            "type": "Archive",
+            "sizeKB": 21.6484375
+          }
+        ]
+      },
+      {
+        "id": 1306148,
+        "name": "v3.51",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-20T01:54:46.815Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1306148",
+        "files": [
+          {
+            "name": "v4DejankedImage2Video_v351.zip",
+            "type": "Archive",
+            "sizeKB": 17.4443359375
+          }
+        ]
+      },
+      {
+        "id": 1298496,
+        "name": "v3.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-18T09:30:22.238Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1298496",
+        "files": [
+          {
+            "name": "v4DejankedImage2Video_v31.zip",
+            "type": "Archive",
+            "sizeKB": 14.41796875
+          }
+        ]
+      },
+      {
+        "id": 1280811,
+        "name": "v3.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-14T03:50:26.183Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1280811",
+        "files": [
+          {
+            "name": "v4DejankedImage2Video_v30.zip",
+            "type": "Archive",
+            "sizeKB": 13.5546875
+          }
+        ]
+      },
+      {
+        "id": 1276688,
+        "name": "v2.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-13T05:40:05.943Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1276688",
+        "files": [
+          {
+            "name": "v4DejankedImage2Video_v20.zip",
+            "type": "Archive",
+            "sizeKB": 11.4072265625
+          }
+        ]
+      },
+      {
+        "id": 1271935,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-12T04:17:21.037Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1271935",
+        "files": [
+          {
+            "name": "v4DejankedImage2Video_v10.zip",
+            "type": "Archive",
+            "sizeKB": 8.9375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1081086,
+    "name": "ComfyUI Hunyuan text to video using LoRAs",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "gblue",
+      "href": "https://civitai.com/users/gblue"
+    },
+    "stats": {
+      "downloadCount": 8028,
+      "thumbsUpCount": 233,
+      "thumbsDownCount": 2,
+      "commentCount": 21,
+      "tippedAmountCount": 843,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-05T18:04:10.227Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1081086",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eefa55e5-ea13-45f7-b693-3c4d56a2135a/width=450/49747608.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eefa55e5-ea13-45f7-b693-3c4d56a2135a/original=true/49747608.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1244929,
+        "name": "v1.1 lora",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-05T18:04:10.227Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1244929",
+        "files": [
+          {
+            "name": "comfyuiHunyuanTextTo_v11Lora.zip",
+            "type": "Archive",
+            "sizeKB": 2.578125
+          }
+        ]
+      },
+      {
+        "id": 1213840,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2024-12-28T21:53:55.593Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1213840",
+        "files": [
+          {
+            "name": "comfyuiHunyuanTextTo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.197265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1189383,
+    "name": "Hunyuan - Image2Video (Jan/2025) - obsolete",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 25,
+    "creator": {
+      "username": "Sam_A",
+      "href": "https://civitai.com/users/Sam_A"
+    },
+    "stats": {
+      "downloadCount": 7433,
+      "thumbsUpCount": 333,
+      "thumbsDownCount": 5,
+      "commentCount": 70,
+      "tippedAmountCount": 1010,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-27T23:54:05.752Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1189383",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6c03cac-3578-4207-9251-aecfc5cf6783/width=450/54276555.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6c03cac-3578-4207-9251-aecfc5cf6783/original=true/54276555.mp4"
+    },
+    "versions": [
+      {
+        "id": 1339380,
+        "name": "v1.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-27T23:54:05.752Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1339380",
+        "files": [
+          {
+            "name": "hunyuanImage2videoJan_v11.zip",
+            "type": "Archive",
+            "sizeKB": 1573.7353515625
+          }
+        ]
+      },
+      {
+        "id": 1338985,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-27T22:13:54.416Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1338985",
+        "files": [
+          {
+            "name": "hunyuanImage2videoJan_v10.zip",
+            "type": "Archive",
+            "sizeKB": 821.591796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1134115,
+    "name": "Hunyuan YAW 6.7 (Yet another workflow) T2V I2V V2V audio, extend, random-lora, preview pause, upscale, multi-res, interpolate,prompt save/load,teacache,new interface, Fast",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "thejsn",
+      "href": "https://civitai.com/users/thejsn"
+    },
+    "stats": {
+      "downloadCount": 6652,
+      "thumbsUpCount": 218,
+      "thumbsDownCount": 0,
+      "commentCount": 50,
+      "tippedAmountCount": 6890,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-14T03:13:17.866Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1134115",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/166c725e-43b6-41e6-b27c-7a7210f86169/width=450/69896494.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/166c725e-43b6-41e6-b27c-7a7210f86169/original=true/69896494.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1660273,
+        "name": "v6.9",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-14T03:13:17.866Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1660273",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v69.zip",
+            "type": "Archive",
+            "sizeKB": 46.443359375
+          }
+        ]
+      },
+      {
+        "id": 1517699,
+        "name": "v6.7",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-11T02:35:23.745Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1517699",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v67.zip",
+            "type": "Archive",
+            "sizeKB": 46.357421875
+          }
+        ]
+      },
+      {
+        "id": 1513146,
+        "name": "v6.61",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-09T23:30:27.318Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1513146",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v661.zip",
+            "type": "Archive",
+            "sizeKB": 41.865234375
+          }
+        ]
+      },
+      {
+        "id": 1504514,
+        "name": "v6.5",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-07T21:26:40.239Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1504514",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v65.zip",
+            "type": "Archive",
+            "sizeKB": 41.900390625
+          }
+        ]
+      },
+      {
+        "id": 1475614,
+        "name": "v6.41",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-01T07:15:14.652Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1475614",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v641.zip",
+            "type": "Archive",
+            "sizeKB": 39.5009765625
+          }
+        ]
+      },
+      {
+        "id": 1493864,
+        "name": "v6.41 alt-layout",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-05T05:30:48.034Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1493864",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v641AltLayout.zip",
+            "type": "Archive",
+            "sizeKB": 41.259765625
+          }
+        ]
+      },
+      {
+        "id": 1437994,
+        "name": "v6.2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-23T19:46:36.886Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1437994",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v62.zip",
+            "type": "Archive",
+            "sizeKB": 37.9072265625
+          }
+        ]
+      },
+      {
+        "id": 1437510,
+        "name": "v6.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-20T04:07:37.275Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1437510",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v61.zip",
+            "type": "Archive",
+            "sizeKB": 27.1826171875
+          }
+        ]
+      },
+      {
+        "id": 1424889,
+        "name": "v5.3",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-17T04:55:38.871Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1424889",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v53.zip",
+            "type": "Archive",
+            "sizeKB": 21.28515625
+          }
+        ]
+      },
+      {
+        "id": 1422295,
+        "name": "v5.2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-16T18:55:39.231Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1422295",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v52.zip",
+            "type": "Archive",
+            "sizeKB": 20.6357421875
+          }
+        ]
+      },
+      {
+        "id": 1419822,
+        "name": "v5.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-16T03:39:36.412Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1419822",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v51.zip",
+            "type": "Archive",
+            "sizeKB": 18.744140625
+          }
+        ]
+      },
+      {
+        "id": 1418763,
+        "name": "v5",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-15T22:08:42.550Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1418763",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v5.zip",
+            "type": "Archive",
+            "sizeKB": 19.1005859375
+          }
+        ]
+      },
+      {
+        "id": 1284900,
+        "name": "v4.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-15T02:47:45.672Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1284900",
+        "files": [
+          {
+            "name": "hunyuanYAW67YetAnotherWorkflowT2VI2VV2V_v41.zip",
+            "type": "Archive",
+            "sizeKB": 11.0263671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1157296,
+    "name": "ComfyUI Hunyuan image to video using LoRAs",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "gblue",
+      "href": "https://civitai.com/users/gblue"
+    },
+    "stats": {
+      "downloadCount": 6322,
+      "thumbsUpCount": 137,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-10T02:01:39.047Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1157296",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3e1c61e-3eac-4278-b6d3-e7f43489bcb9/width=450/69066924.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3e1c61e-3eac-4278-b6d3-e7f43489bcb9/original=true/69066924.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1643143,
+        "name": "v1.1 clip vision",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-10T02:01:39.047Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1643143",
+        "files": [
+          {
+            "name": "comfyuiHunyuanImageTo_v11ClipVision.zip",
+            "type": "Archive",
+            "sizeKB": 3.1337890625
+          }
+        ]
+      },
+      {
+        "id": 1301642,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-19T01:27:18.596Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1301642",
+        "files": [
+          {
+            "name": "comfyuiHunyuanImageTo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.6513671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1091192,
+    "name": "Hunyuan Video i2v + v2v + Low Vram with upscale | Modular Image Gen i2i + CNET + Upscale",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Daemonrat",
+      "href": "https://civitai.com/users/Daemonrat"
+    },
+    "stats": {
+      "downloadCount": 3717,
+      "thumbsUpCount": 81,
+      "thumbsDownCount": 3,
+      "commentCount": 18,
+      "tippedAmountCount": 200,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-01T06:11:02.361Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1091192",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228d6e61-0584-4526-ba5d-e52ef3acfa7e/width=450/55100865.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228d6e61-0584-4526-ba5d-e52ef3acfa7e/original=true/55100865.mp4"
+    },
+    "versions": [
+      {
+        "id": 1356833,
+        "name": "v1.99",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-01T06:11:02.361Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1356833",
+        "files": [
+          {
+            "name": "hunyuanVideoI2vV2vLowVramWith_v199.zip",
+            "type": "Archive",
+            "sizeKB": 3159.1982421875
+          }
+        ]
+      },
+      {
+        "id": 1225541,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2024-12-31T23:32:13.629Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1225541",
+        "files": [
+          {
+            "name": "hunyuanVideoI2vV2vLowVramWith_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.107421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1278247,
+    "name": "Skyreels (Hunyuan) Img2Vid",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 19,
+    "creator": {
+      "username": "Sam_A",
+      "href": "https://civitai.com/users/Sam_A"
+    },
+    "stats": {
+      "downloadCount": 3519,
+      "thumbsUpCount": 165,
+      "thumbsDownCount": 2,
+      "commentCount": 25,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-21T08:19:13.668Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1278247",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a37ea189-0098-407a-a4bf-08fbd2eaa41b/width=450/59180374.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a37ea189-0098-407a-a4bf-08fbd2eaa41b/original=true/59180374.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1442085,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-21T08:19:13.668Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1442085",
+        "files": [
+          {
+            "name": "skyreelsHunyuan_v10.zip",
+            "type": "Archive",
+            "sizeKB": 987.048828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1211594,
+    "name": "Hunyuan video t2v with facedetailer POC",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "iljoe",
+      "href": "https://civitai.com/users/iljoe"
+    },
+    "stats": {
+      "downloadCount": 3270,
+      "thumbsUpCount": 162,
+      "thumbsDownCount": 1,
+      "commentCount": 20,
+      "tippedAmountCount": 140,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-18T23:52:33.986Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1211594",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/412aec72-262d-4dfe-b9d3-e4c25a251d32/width=450/58084303.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/412aec72-262d-4dfe-b9d3-e4c25a251d32/original=true/58084303.mp4"
+    },
+    "versions": [
+      {
+        "id": 1432811,
+        "name": "v1.2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-18T23:52:33.986Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1432811",
+        "files": [
+          {
+            "name": "hunyuanVideoT2vWith_v12.zip",
+            "type": "Archive",
+            "sizeKB": 13.2861328125
+          }
+        ]
+      },
+      {
+        "id": 1419411,
+        "name": "v1.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-16T01:56:01.259Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1419411",
+        "files": [
+          {
+            "name": "hunyuanVideoT2vWith_v11.zip",
+            "type": "Archive",
+            "sizeKB": 13.14453125
+          }
+        ]
+      },
+      {
+        "id": 1364710,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-03T01:50:02.121Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1364710",
+        "files": [
+          {
+            "name": "hunyuanVideoT2vWith_v10.zip",
+            "type": "Archive",
+            "sizeKB": 9.1689453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1219744,
+    "name": "🚨 Hunyuan - Triple LoRA - Fast Workflow - RAM offload  (720p on 3090) BY  BIZARRO🚨",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "mckenna",
+      "href": "https://civitai.com/users/mckenna"
+    },
+    "stats": {
+      "downloadCount": 2899,
+      "thumbsUpCount": 158,
+      "thumbsDownCount": 3,
+      "commentCount": 39,
+      "tippedAmountCount": 2160,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-08T17:24:31.706Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1219744",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abca54b7-ca02-47ac-9b31-6a4ff06b4142/width=450/56595025.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abca54b7-ca02-47ac-9b31-6a4ff06b4142/original=true/56595025.mp4"
+    },
+    "versions": [
+      {
+        "id": 1388373,
+        "name": "v1.5 720P",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-08T17:24:31.706Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1388373",
+        "files": [
+          {
+            "name": "HunyuanTripleLoraFastWorkflowRAM_v15720P.zip",
+            "type": "Archive",
+            "sizeKB": 6.591796875
+          }
+        ]
+      },
+      {
+        "id": 1374109,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-05T07:37:41.367Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1374109",
+        "files": [
+          {
+            "name": "HunyuanTripleLoraFastWorkflowRAM_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.8623046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1328592,
+    "name": "Hunyuan WF - Img2Vid FAST",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 13,
+    "creator": {
+      "username": "Sam_A",
+      "href": "https://civitai.com/users/Sam_A"
+    },
+    "stats": {
+      "downloadCount": 2065,
+      "thumbsUpCount": 59,
+      "thumbsDownCount": 0,
+      "commentCount": 6,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-03-08T20:15:16.640Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1328592",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/01d4b860-c181-4416-926e-1758e65e77d8/width=450/62323638.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/01d4b860-c181-4416-926e-1758e65e77d8/original=true/62323638.mp4"
+    },
+    "versions": [
+      {
+        "id": 1508338,
+        "name": "v1.1 - ComfyUi Sampler",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-08T20:15:16.640Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1508338",
+        "files": [
+          {
+            "name": "hunyuanWFImg2vidFAST_v11ComfyuiSampler.zip",
+            "type": "Archive",
+            "sizeKB": 1177.1123046875
+          }
+        ]
+      },
+      {
+        "id": 1500072,
+        "name": "v1.0 - Kijai Nodes",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-06T18:20:40.516Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1500072",
+        "files": [
+          {
+            "name": "hunyuanWFImg2vidFAST_v10KijaiNodes.zip",
+            "type": "Archive",
+            "sizeKB": 1176.3603515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1270930,
+    "name": "Hunyuan Video T2V/V2V Flexible LoRA Workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 17,
+    "creator": {
+      "username": "PEERLESS",
+      "href": "https://civitai.com/users/PEERLESS"
+    },
+    "stats": {
+      "downloadCount": 1972,
+      "thumbsUpCount": 69,
+      "thumbsDownCount": 0,
+      "commentCount": 7,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-21T05:48:03.569Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1270930",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62c880b1-59e2-4970-9ae1-c7531da3737e/width=450/59290300.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62c880b1-59e2-4970-9ae1-c7531da3737e/original=true/59290300.mp4"
+    },
+    "versions": [
+      {
+        "id": 1441737,
+        "name": "V1.11",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-21T05:48:03.569Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1441737",
+        "files": [
+          {
+            "name": "hunyuanVideoT2VV2V_v111.zip",
+            "type": "Archive",
+            "sizeKB": 6386.2333984375
+          }
+        ]
+      },
+      {
+        "id": 1436309,
+        "name": "v1.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-19T21:46:38.643Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1436309",
+        "files": [
+          {
+            "name": "hunyuanVideoT2VV2V_v11.zip",
+            "type": "Archive",
+            "sizeKB": 3566.7890625
+          }
+        ]
+      },
+      {
+        "id": 1433686,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-19T10:36:01.970Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1433686",
+        "files": [
+          {
+            "name": "hunyuanVideoT2VV2V_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3447.2314453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1424691,
+    "name": "Hunyuan Video Install [With Video Tutorial]",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "tingtingin",
+      "href": "https://civitai.com/users/tingtingin"
+    },
+    "stats": {
+      "downloadCount": 1940,
+      "thumbsUpCount": 16,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-02T04:51:47.398Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1424691",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1aeb8e2-eff9-4d68-ab77-7ec2852eef31/width=450/67386316.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1aeb8e2-eff9-4d68-ab77-7ec2852eef31/original=true/67386316.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1610347,
+        "name": "Txt2Vid Basic",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-02T04:51:47.398Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1610347",
+        "files": [
+          {
+            "name": "hunyuanVideoInstallWith_txt2vidBasic.zip",
+            "type": "Archive",
+            "sizeKB": 2.9248046875
+          }
+        ]
+      },
+      {
+        "id": 1610387,
+        "name": "Img2Vid Basic",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-02T04:51:50.302Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1610387",
+        "files": [
+          {
+            "name": "hunyuanVideoInstallWith_img2vidBasic.zip",
+            "type": "Archive",
+            "sizeKB": 3.3935546875
+          }
+        ]
+      },
+      {
+        "id": 1610397,
+        "name": "Txt2Vid Optimized",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-02T04:51:53.656Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1610397",
+        "files": [
+          {
+            "name": "hunyuanVideoInstallWith_txt2vidOptimized.zip",
+            "type": "Archive",
+            "sizeKB": 3.265625
+          }
+        ]
+      },
+      {
+        "id": 1610398,
+        "name": "Img2Vid Optimized",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-02T04:51:56.572Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1610398",
+        "files": [
+          {
+            "name": "hunyuanVideoInstallWith_img2vidOptimized.zip",
+            "type": "Archive",
+            "sizeKB": 4.123046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1338440,
+    "name": "Hunyuan I2V gguf workflows",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 13,
+    "creator": {
+      "username": "TTangSlgy",
+      "href": "https://civitai.com/users/TTangSlgy"
+    },
+    "stats": {
+      "downloadCount": 1615,
+      "thumbsUpCount": 55,
+      "thumbsDownCount": 1,
+      "commentCount": 6,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-03-09T14:37:50.531Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Image",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1338440",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/35682bf0-bfb3-4443-9c83-362c526cfcdf/width=450/62480918.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/35682bf0-bfb3-4443-9c83-362c526cfcdf/original=true/62480918.mp4"
+    },
+    "versions": [
+      {
+        "id": 1511431,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-09T14:37:50.531Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1511431",
+        "files": [
+          {
+            "name": "hunyuanI2VGguf_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.892578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2147481,
+    "name": "HunyuanVideo 1.5 Ultimate T2V & I2V Packaged",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Vionex",
+      "href": "https://civitai.com/users/Vionex"
+    },
+    "stats": {
+      "downloadCount": 1580,
+      "thumbsUpCount": 33,
+      "thumbsDownCount": 1,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-11-22T06:32:39.041Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2147481",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3d38682-3c5e-4c9c-8e4c-66ede8d96569/width=450/111118224.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3d38682-3c5e-4c9c-8e4c-66ede8d96569/original=true/111118224.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2428912,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-11-22T06:32:39.041Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2428912",
+        "files": [
+          {
+            "name": "hunyuanvideo15Ultimate_v10.zip",
+            "type": "Archive",
+            "sizeKB": 11.5947265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1125631,
+    "name": "Hunyuan Video Workflow for High VRAM Savings",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "nelwyn2541",
+      "href": "https://civitai.com/users/nelwyn2541"
+    },
+    "stats": {
+      "downloadCount": 1315,
+      "thumbsUpCount": 37,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-10T15:07:36.257Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1125631",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f73f5cd4-4e5a-43ba-b32d-ef4172615084/width=450/50745231.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f73f5cd4-4e5a-43ba-b32d-ef4172615084/original=true/50745231.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1265204,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-10T15:07:36.257Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1265204",
+        "files": [
+          {
+            "name": "hunyuanVideoWorkflowFor_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.1181640625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1170767,
+    "name": "ComfyUI Hunyuan video to video using LoRAs",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 13,
+    "creator": {
+      "username": "gblue",
+      "href": "https://civitai.com/users/gblue"
+    },
+    "stats": {
+      "downloadCount": 1198,
+      "thumbsUpCount": 46,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 20,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-22T19:18:11.085Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1170767",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6046459c-e51c-4106-95dc-be024b0c429f/width=450/53273137.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6046459c-e51c-4106-95dc-be024b0c429f/original=true/53273137.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1317231,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-22T19:18:11.085Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1317231",
+        "files": [
+          {
+            "name": "comfyuiHunyuanVideoTo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.5634765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1239444,
+    "name": "FAST HUNYUAN 🤯 8-12 gb In 7 steps Lora and Upscale",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "Lw24AI",
+      "href": "https://civitai.com/users/Lw24AI"
+    },
+    "stats": {
+      "downloadCount": 1188,
+      "thumbsUpCount": 38,
+      "thumbsDownCount": 2,
+      "commentCount": 6,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-10T16:38:55.031Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1239444",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5f00648-7c2c-4a68-b842-1032a5088575/width=450/56989952.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5f00648-7c2c-4a68-b842-1032a5088575/original=true/56989952.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1396868,
+        "name": "Fast FAST HUNYUAN v2.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-10T16:38:55.031Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1396868",
+        "files": [
+          {
+            "name": "fastHUNYUAN812GbIn7_fastFASTHUNYUANV20.zip",
+            "type": "Archive",
+            "sizeKB": 4.4599609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1202556,
+    "name": "Hunyuan FastVideo + Lora (Tested on 12Gb)",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "alceman",
+      "href": "https://civitai.com/users/alceman"
+    },
+    "stats": {
+      "downloadCount": 1002,
+      "thumbsUpCount": 44,
+      "thumbsDownCount": 0,
+      "commentCount": 7,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-31T13:47:24.286Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1202556",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fcf56649-fbe2-4b04-8aa5-4fa289390466/width=450/54961174.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fcf56649-fbe2-4b04-8aa5-4fa289390466/original=true/54961174.mp4"
+    },
+    "versions": [
+      {
+        "id": 1354120,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-31T13:47:24.286Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1354120",
+        "files": [
+          {
+            "name": "hunyuanFastvideoLora_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.025390625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1141893,
+    "name": "Hunyuan | T2V |  Upscale + Interpolation",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "dutchit288",
+      "href": "https://civitai.com/users/dutchit288"
+    },
+    "stats": {
+      "downloadCount": 975,
+      "thumbsUpCount": 44,
+      "thumbsDownCount": 1,
+      "commentCount": 7,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-14T22:13:13.796Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1141893",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2138e698-5112-4a0d-a9c9-c8590053f62d/width=450/51657898.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2138e698-5112-4a0d-a9c9-c8590053f62d/original=true/51657898.mp4"
+    },
+    "versions": [
+      {
+        "id": 1284165,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-14T22:13:13.796Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1284165",
+        "files": [
+          {
+            "name": "hunyuanT2VUpscale_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.7548828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1375389,
+    "name": "ComfyTinker's HunYuan Text 2 Video workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "ComfyTinker",
+      "href": "https://civitai.com/users/ComfyTinker"
+    },
+    "stats": {
+      "downloadCount": 764,
+      "thumbsUpCount": 45,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-03-19T20:45:56.318Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1375389",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7041d008-768a-459f-bac0-58b1070fda7f/width=450/64509963.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7041d008-768a-459f-bac0-58b1070fda7f/original=true/64509963.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1554053,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-19T20:45:56.318Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1554053",
+        "files": [
+          {
+            "name": "comfytinkersHunyuanText_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.8974609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1505523,
+    "name": "Hunyuan 3D 2.0 Workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan 1",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AiVerse",
+      "href": "https://civitai.com/users/AiVerse"
+    },
+    "stats": {
+      "downloadCount": 719,
+      "thumbsUpCount": 21,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-24T14:31:49.765Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1505523",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60048398-c0ab-4480-84d6-31c85ad67f7e/width=450/72035030.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60048398-c0ab-4480-84d6-31c85ad67f7e/original=true/72035030.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1702998,
+        "name": "v2.0",
+        "baseModel": "Hunyuan 1",
+        "updatedAt": "2025-04-24T14:31:49.765Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1702998",
+        "files": [
+          {
+            "name": "hunyuan3D20Workflow_v20.zip",
+            "type": "Archive",
+            "sizeKB": 7.2265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1150384,
+    "name": "V3 Final! DeJanked Speed Hack Hunyuan T2V Final Boss",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "saturngfx",
+      "href": "https://civitai.com/users/saturngfx"
+    },
+    "stats": {
+      "downloadCount": 716,
+      "thumbsUpCount": 38,
+      "thumbsDownCount": 1,
+      "commentCount": 13,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-24T04:10:18.657Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1150384",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/613183c4-cafa-47c4-8b39-b1dc0e03671e/width=450/53565304.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/613183c4-cafa-47c4-8b39-b1dc0e03671e/original=true/53565304.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1322672,
+        "name": "v3",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-24T04:10:18.657Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1322672",
+        "files": [
+          {
+            "name": "v3FinalDejankedSpeedHack_v3.zip",
+            "type": "Archive",
+            "sizeKB": 9.2890625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1276735,
+    "name": "skyreels-hunyuan-I2V-workflow",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AbdallahAlswa80",
+      "href": "https://civitai.com/users/AbdallahAlswa80"
+    },
+    "stats": {
+      "downloadCount": 685,
+      "thumbsUpCount": 14,
+      "thumbsDownCount": 0,
+      "commentCount": 6,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-20T20:59:30.871Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1276735",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a308c66a-684a-44d6-9992-fcea9f64d754/width=450/59079315.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a308c66a-684a-44d6-9992-fcea9f64d754/original=true/59079315.mp4"
+    },
+    "versions": [
+      {
+        "id": 1440307,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2025-02-20T20:59:30.871Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1440307",
+        "files": [
+          {
+            "name": "skyreelsHunyuanI2V_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.814453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1292130,
+    "name": "DJZ SkyReels i2v Workflow Pack",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "driftjohnson",
+      "href": "https://civitai.com/users/driftjohnson"
+    },
+    "stats": {
+      "downloadCount": 661,
+      "thumbsUpCount": 34,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-24T22:32:44.170Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1292130",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf096be2-1fbb-4e86-bd22-538c96d6b93b/width=450/60070891.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf096be2-1fbb-4e86-bd22-538c96d6b93b/original=true/60070891.mp4"
+    },
+    "versions": [
+      {
+        "id": 1458205,
+        "name": "v1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-24T22:32:44.170Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1458205",
+        "files": [
+          {
+            "name": "djzSkyreelsI2v_v1.zip",
+            "type": "Archive",
+            "sizeKB": 25.982421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1515362,
+    "name": "framepack image 2 video work flow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "jasonflame",
+      "href": "https://civitai.com/users/jasonflame"
+    },
+    "stats": {
+      "downloadCount": 605,
+      "thumbsUpCount": 12,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-27T06:35:06.014Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1515362",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/778f6942-0d5c-4966-b4b2-225bc48f506c/width=450/72605577.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/778f6942-0d5c-4966-b4b2-225bc48f506c/original=true/72605577.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1714330,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-27T06:35:06.014Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1714330",
+        "files": [
+          {
+            "name": "framepackImage2Video_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.0458984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2247503,
+    "name": "The One-Image Workflow: A Forge-Style Static Design for Wan Image, Z-Image, Qwen-Image, Flux2 & Others",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 T2V-A14B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Iory98",
+      "href": "https://civitai.com/users/Iory98"
+    },
+    "stats": {
+      "downloadCount": 527,
+      "thumbsUpCount": 25,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-12-23T16:27:56.653Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2247503",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78094e59-1d77-46ba-a4d1-219ec4cf0cdb/width=450/114905929.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78094e59-1d77-46ba-a4d1-219ec4cf0cdb/original=true/114905929.mp4"
+    },
+    "versions": [
+      {
+        "id": 2530083,
+        "name": "v1.0",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-12-23T16:27:56.653Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2530083",
+        "files": [
+          {
+            "name": "theOneImageWorkflowAForgeStyle_v10.zip",
+            "type": "Archive",
+            "sizeKB": 76480.3916015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1283759,
+    "name": "HV_Basic_Adapt_MultiLora_T2T_I2V_V2V_1.0",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Adaptalab0r",
+      "href": "https://civitai.com/users/Adaptalab0r"
+    },
+    "stats": {
+      "downloadCount": 523,
+      "thumbsUpCount": 35,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-02-22T19:19:53.524Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1283759",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/548c66c4-6589-4760-9387-38793f79b2d4/width=450/59456284.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/548c66c4-6589-4760-9387-38793f79b2d4/original=true/59456284.mp4"
+    },
+    "versions": [
+      {
+        "id": 1448406,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-22T19:19:53.524Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1448406",
+        "files": [
+          {
+            "name": "hvBasicAdaptMultiloraT2T_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2330.9814453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 636653,
+    "name": "HunyuanDiT  Inpainting workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan 1",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "ttplanet",
+      "href": "https://civitai.com/users/ttplanet"
+    },
+    "stats": {
+      "downloadCount": 483,
+      "thumbsUpCount": 19,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2024-08-10T16:49:27.474Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Image"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/636653",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ec3c720-8df2-44f6-9bff-65ca4cf9b762/width=450/23655127.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ec3c720-8df2-44f6-9bff-65ca4cf9b762/original=true/23655127.jpeg"
+    },
+    "versions": [
+      {
+        "id": 711824,
+        "name": "v1.0",
+        "baseModel": "Hunyuan 1",
+        "updatedAt": "2024-08-10T16:49:27.474Z",
+        "downloadUrl": "https://civitai.com/api/download/models/711824",
+        "files": [
+          {
+            "name": "hunyuanditInpainting_v10.zip",
+            "type": "Archive",
+            "sizeKB": 1401.720703125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1618121,
+    "name": "Hunyuan High Quality Workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "Nuwanda_",
+      "href": "https://civitai.com/users/Nuwanda_"
+    },
+    "stats": {
+      "downloadCount": 453,
+      "thumbsUpCount": 21,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-25T11:24:35.962Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1618121",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e7ebdf6-38d3-409c-8105-9113a202fb5e/width=450/78393361.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e7ebdf6-38d3-409c-8105-9113a202fb5e/original=true/78393361.mp4"
+    },
+    "versions": [
+      {
+        "id": 1831232,
+        "name": "Hunyuan High Quality Work",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-25T11:24:35.962Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1831232",
+        "files": [
+          {
+            "name": "hunyuanHighQuality_hunyuanHighQuality.zip",
+            "type": "Archive",
+            "sizeKB": 8.4248046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1182089,
+    "name": "Hunyuan | LLM Prompter | T2V | Upscale",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "dutchit288",
+      "href": "https://civitai.com/users/dutchit288"
+    },
+    "stats": {
+      "downloadCount": 452,
+      "thumbsUpCount": 12,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-01-25T21:52:36.465Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1182089",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aaa46539-b1c1-4aad-9d57-c0085e8c3be9/width=450/53886132.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aaa46539-b1c1-4aad-9d57-c0085e8c3be9/original=true/53886132.mp4"
+    },
+    "versions": [
+      {
+        "id": 1330355,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-25T21:52:36.465Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1330355",
+        "files": [
+          {
+            "name": "hunyuanLLMPrompterT2V_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.9814453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1518002,
+    "name": "Hunyuan 3D 2.0 Mini Turbo Mesh Only",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "ncreature",
+      "href": "https://civitai.com/users/ncreature"
+    },
+    "stats": {
+      "downloadCount": 429,
+      "thumbsUpCount": 15,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-27T20:49:46.184Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1518002",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad95ead4-6596-4bf4-89b5-80c6c277bea1/width=450/72717562.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad95ead4-6596-4bf4-89b5-80c6c277bea1/original=true/72717562.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1717442,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-04-27T20:49:46.184Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1717442",
+        "files": [
+          {
+            "name": "hunyuan3D20MiniTurbo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 1014.4365234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1561412,
+    "name": "HunYuan 3D V2 Workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan 1",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 297,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-09T15:06:37.771Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1561412",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/399b2019-27e5-4ad1-b688-c707fd576d6a/width=450/75211952.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/399b2019-27e5-4ad1-b688-c707fd576d6a/original=true/75211952.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1766886,
+        "name": "v1.0",
+        "baseModel": "Hunyuan 1",
+        "updatedAt": "2025-05-09T15:06:37.771Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1766886",
+        "files": [
+          {
+            "name": "hunyuan3DV2Workflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.9287109375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2173398,
+    "name": "Friendly Hunyuan Video 1.5",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "RusselX",
+      "href": "https://civitai.com/users/RusselX"
+    },
+    "stats": {
+      "downloadCount": 280,
+      "thumbsUpCount": 10,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-12-06T20:24:04.481Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2173398",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b9b7208-8dfa-4738-a9f3-9af42017b544/width=450/112889022.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b9b7208-8dfa-4738-a9f3-9af42017b544/original=true/112889022.mp4"
+    },
+    "versions": [
+      {
+        "id": 2477554,
+        "name": "v1.2 (Soundtrack Edition)",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-12-06T20:24:04.481Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2477554",
+        "files": [
+          {
+            "name": "friendlyHunyuanVideo1_v12SoundtrackEdition.zip",
+            "type": "Archive",
+            "sizeKB": 22.3232421875
+          }
+        ]
+      },
+      {
+        "id": 2447482,
+        "name": "v1.0.1 fixed (I2V & T2V)",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-11-28T16:51:06.326Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2447482",
+        "files": [
+          {
+            "name": "friendlyHunyuanVideo1_v101FixedI2VT2V.zip",
+            "type": "Archive",
+            "sizeKB": 24.421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1527495,
+    "name": "Hunyuan Video 12-16G video memory playable video workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 237,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-30T13:58:59.413Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1527495",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2d029f-2e68-4f82-a17c-2a6270b96fbe/width=450/74344981.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2d029f-2e68-4f82-a17c-2a6270b96fbe/original=true/74344981.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1728253,
+        "name": "V2V-v2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-30T13:58:59.413Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1728253",
+        "files": [
+          {
+            "name": "hunyuanVideo1216GVideo_v2vV2.zip",
+            "type": "Archive",
+            "sizeKB": 2.818359375
+          }
+        ]
+      },
+      {
+        "id": 1728241,
+        "name": "V2V",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-30T13:54:03.707Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1728241",
+        "files": [
+          {
+            "name": "hunyuanVideo1216GVideo_v2v.zip",
+            "type": "Archive",
+            "sizeKB": 2.9326171875
+          }
+        ]
+      },
+      {
+        "id": 1728245,
+        "name": "I2V",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-30T13:57:25.409Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1728245",
+        "files": [
+          {
+            "name": "hunyuanVideo1216GVideo_i2v.zip",
+            "type": "Archive",
+            "sizeKB": 1.9296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2423803,
+    "name": "Capybara (Edit Videos) i2v Workflow ( Hunyuan Video )",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AiVerse",
+      "href": "https://civitai.com/users/AiVerse"
+    },
+    "stats": {
+      "downloadCount": 211,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-02-26T13:17:19.452Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2423803",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52a085fc-7a79-49a5-9125-d42739c99bfb/width=450/122443982.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52a085fc-7a79-49a5-9125-d42739c99bfb/original=true/122443982.mp4"
+    },
+    "versions": [
+      {
+        "id": 2725132,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2026-02-26T13:17:19.452Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2725132",
+        "files": [
+          {
+            "name": "capybaraEditVideosI2v_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.4619140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1584080,
+    "name": "Super Accelerated AccVideo Consistency Repair HunYuan Chart Raw Video",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 149,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-15T17:57:00.113Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1584080",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/210fad2b-694f-4016-ae91-b27099cd3de0/width=450/76456353.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/210fad2b-694f-4016-ae91-b27099cd3de0/original=true/76456353.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1792533,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-15T17:57:00.113Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1792533",
+        "files": [
+          {
+            "name": "superAcceleratedAccvideo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.8037109375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1587213,
+    "name": "HunYuan video first and last frames special tuning optimized first and last frames V1",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 127,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-16T16:33:20.308Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1587213",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0b48a5a-4c72-423d-b06c-52e5dffcd9b7/width=450/76639157.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0b48a5a-4c72-423d-b06c-52e5dffcd9b7/original=true/76639157.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1796091,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-16T16:33:20.308Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1796091",
+        "files": [
+          {
+            "name": "hunyuanVideoFirstAndLast_v10.zip",
+            "type": "Archive",
+            "sizeKB": 7.7236328125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1530894,
+    "name": "enhance a video video enhancement and official fp8 HunYuan video",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 119,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-01T12:57:31.335Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1530894",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/054f489e-d8ca-4a67-8b5b-6f739cf2d5f1/width=450/74608982.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/054f489e-d8ca-4a67-8b5b-6f739cf2d5f1/original=true/74608982.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1732074,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-01T12:57:31.335Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1732074",
+        "files": [
+          {
+            "name": "enhanceAVideoVideo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.6572265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1530900,
+    "name": "8x accelerated non-KJ native HunYuan video Fastvideo workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 117,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-01T12:59:11.242Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1530900",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b59166ea-e98e-4b75-89cb-956b510d1cee/width=450/74609265.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b59166ea-e98e-4b75-89cb-956b510d1cee/original=true/74609265.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1732079,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-01T12:59:11.242Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1732079",
+        "files": [
+          {
+            "name": "8xAcceleratedNonKJNative_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.7822265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1529833,
+    "name": "HunYuan non-KJ high quality GGUF quantized Vincennes video workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 112,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-01T05:51:23.001Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1529833",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6b2ad0df-c706-4b0a-b5bc-0fd23b65b178/width=450/74606386.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6b2ad0df-c706-4b0a-b5bc-0fd23b65b178/original=true/74606386.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1730891,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-01T05:51:23.001Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1730891",
+        "files": [
+          {
+            "name": "hunyuanNonKJHighQuality_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.802734375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2387820,
+    "name": "AUTO-SEND FILES PRIVATE/SECURE 🔐: ComfyUI Output Folder >> Encrypt >> Send to GoogleDrive / Dropbox 😎👍",
+    "type": "Workflows",
+    "baseModel": "ZImageTurbo",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "machinepaintingai",
+      "href": "https://civitai.com/users/machinepaintingai"
+    },
+    "stats": {
+      "downloadCount": 109,
+      "thumbsUpCount": 6,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-02-13T06:02:25.425Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2387820",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b84d3bcf-602d-4325-9765-eb73715f340f/width=450/120923609.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b84d3bcf-602d-4325-9765-eb73715f340f/original=true/120923609.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2684979,
+        "name": "v1.0.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-02-13T06:02:25.425Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2684979",
+        "files": [
+          {
+            "name": "autoSENDFILESPRIVATESECUREComfyuiOutput_v100.zip",
+            "type": "Archive",
+            "sizeKB": 2.61328125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1530874,
+    "name": "8X speed up Tencent HunYuan fastvideo and STG workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 99,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-01T12:49:40.161Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1530874",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/715a3b8b-6924-4b89-946a-271a6037fa98/width=450/74608077.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/715a3b8b-6924-4b89-946a-271a6037fa98/original=true/74608077.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1732049,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-01T12:49:40.161Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1732049",
+        "files": [
+          {
+            "name": "8xSpeedUpTencentHunyuan_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.1484375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1527602,
+    "name": "Hunyuan 12G playable hybrid video lora control workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 90,
+      "thumbsUpCount": 0,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-30T14:33:31.590Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1527602",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cabdbb75-4a8e-48a1-ba16-495aca5b12d7/width=450/74366090.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cabdbb75-4a8e-48a1-ba16-495aca5b12d7/original=true/74366090.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1728360,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-30T14:33:31.590Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1728360",
+        "files": [
+          {
+            "name": "hunyuan12GPlayableHybrid_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.44140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1558331,
+    "name": "Artifact Combo! HunYuanCombo Accelerated Dolora HD Repair Workflow V3",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 86,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-08T18:21:31.975Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1558331",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59fe8708-1545-4f1e-a8aa-e7cb556920d4/width=450/75031240.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59fe8708-1545-4f1e-a8aa-e7cb556920d4/original=true/75031240.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1763426,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-08T18:21:31.975Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1763426",
+        "files": [
+          {
+            "name": "artifactComboHunyuancombo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.2666015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1527419,
+    "name": "Hunyuan version of the SORA Vincent video frame filling workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 82,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-04-30T13:31:03.419Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1527419",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db7eb8d0-1081-4ca0-9c82-cf98129c3ef7/width=450/73278774.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db7eb8d0-1081-4ca0-9c82-cf98129c3ef7/original=true/73278774.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1728161,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-04-30T13:31:03.419Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1728161",
+        "files": [
+          {
+            "name": "hunyuanVersionOfTheSORA_v10.zip",
+            "type": "Archive",
+            "sizeKB": 1.8388671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1582689,
+    "name": "Comfy official hybrid new version of Tucson video Replace model accelerated workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 81,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-15T09:14:00.954Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1582689",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad4ca92d-75ff-44a7-afa1-980fe9baf75b/width=450/76390006.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad4ca92d-75ff-44a7-afa1-980fe9baf75b/original=true/76390006.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1790980,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-15T09:14:00.954Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1790980",
+        "files": [
+          {
+            "name": "comfyOfficialHybridNew_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.708984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1582683,
+    "name": "KJ version of hybrid first and last frames strong consistency Toussaint video color chase workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 74,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-15T09:08:52.573Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1582683",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7faba1c-2315-4a7e-be27-3ea907cc5391/width=450/76389450.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7faba1c-2315-4a7e-be27-3ea907cc5391/original=true/76389450.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1790974,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-15T09:08:52.573Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1790974",
+        "files": [
+          {
+            "name": "kjVersionOfHybridFirstAnd_v10.zip",
+            "type": "Archive",
+            "sizeKB": 7.724609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1529817,
+    "name": "edit flow hybrid video inversion workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 74,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-01T05:45:20.321Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1529817",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23f0c69d-7fda-4493-bdeb-bfdc66c41d82/width=450/73435314.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23f0c69d-7fda-4493-bdeb-bfdc66c41d82/original=true/73435314.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1730873,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-01T05:45:20.321Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1730873",
+        "files": [
+          {
+            "name": "editFlowHybridVideo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.541015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2048997,
+    "name": "Video Sound Generator-Hunyuan Foley-workflow",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIGC_Singularity",
+      "href": "https://civitai.com/users/AIGC_Singularity"
+    },
+    "stats": {
+      "downloadCount": 72,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-10-16T10:05:16.320Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2048997",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e3a3e44-94f5-4bd0-bf3e-6fda82154264/width=450/106304958.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e3a3e44-94f5-4bd0-bf3e-6fda82154264/original=true/106304958.mp4"
+    },
+    "versions": [
+      {
+        "id": 2318954,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-10-16T10:05:16.320Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2318954",
+        "files": [
+          {
+            "name": "videoSoundGenerator_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.19921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1915898,
+    "name": "Ultra-Powerful! Holistic Foley Video Sound Effects Workflow",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 70,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-08-31T15:15:40.477Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1915898",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11678480-24fe-455d-90d3-4a0abea7f502/width=450/97578923.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11678480-24fe-455d-90d3-4a0abea7f502/original=true/97578923.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2168456,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-08-31T15:15:40.477Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2168456",
+        "files": [
+          {
+            "name": "ultraPowerfulHolistic_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.2158203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1529827,
+    "name": "Cross-mixed cue word hybrid video workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 56,
+      "thumbsUpCount": 0,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-05-01T05:49:33.582Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1529827",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/444ed6ac-5821-4a0d-b153-c363114c8731/width=450/74804529.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/444ed6ac-5821-4a0d-b153-c363114c8731/original=true/74804529.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1730883,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-05-01T05:49:33.582Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1730883",
+        "files": [
+          {
+            "name": "crossMixedCueWord_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.29296875
+          }
+        ]
+      }
+    ]
+  }
+]

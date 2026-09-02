@@ -1,27 +1,27 @@
-# OPEN — state & queue
+# OPEN — civitai-library state (2026-09-02 ~04:30)
 
-## state
-Hostile R1 GRADED: 17 findings, all real. Fixes applied by manager: DREAM:28 legal contradiction (takedown path killed), CRITERIA v1.1 (period-stats fiction → snapshot deltas; comment-recency closed NOT PULLABLE; anti-farm block: ratio floor 500dl, curator-verified completeness, quality-gated mentions, tier-locked override; usage axis added = the thesis signal; vram demoted to badge; composite formula defined; nsfw parity = per-lane normalization; mirror = json-only never zips), legal file gains unresolved-probes section (CDN sig expiry, off-github-or-nothing for unlocked build), codex ideas deduped 57KB→21KB. Gate-jump owned: garimpo v0 shipped before convergence (owner pushed parallel; state file had lied "no code yet" — this line is the receipt). In flight: garimpo v0.1 (bg_62928c18: snapshots+deltas, usage/honesty collector, nsfw clamp probe fail-loud, CDN sig probe), UX census lean retry write-file-early (bg_ae89c4e0).
+## WHERE WE ARE
+v1 site CONDEMNED by owner (see docs/FAILURE-ANALYSIS-R1.md). Rebuild in flight per docs/REBUILD-SPEC.md (binding).
 
-## owner decision RESOLVED (2026-09-01, his words: "padrão é simplesmente permitir... n seria sua responsabilidade decidir isso")
-NSFW lane: FULL previews allowed (blurred until header toggle, SFW default view — UX choice, not censorship). Hosting risk owned by owner; if github objects → rehost on another provider. No further platform self-censoring. Legal doc kept as analysis record; owner override is the binding decision.
+## LANDED
+- data/funnel/: 5786 deduped candidates / 12699 pulled / 42 slices (garimpo3.py; workflows+persona+nsfw+video lanes, community seeds chroma/biglust/lustify/araminta/anteros/bigasp pulled)
+- data/funnel/scored.json: composite per stage w/ REAL anchors (PERSONA ratio_p75 .127 dl_p90 64k; NSFW .125/76k; MOTION .047/5.1k) — score.py
+- data/funnel/clusters.json: 68 near-dup families, 82 cuts — cluster.py
+- data/funnel/vision-shortlists.json: top-250 x {PERSONA,NSFW,MOTION} (anime-base pre-filtered; MOTION motion_era tagged modern/legacy)
+- data/models.json: v2 enrichment done (17 entries, open_closed/vram_class/tradeoff/verdict_keep/license_note; "63" was inflated commit msg)
+- docs/{FAILURE-ANALYSIS-R1,REBUILD-SPEC}.md committed
 
-## queue
-- P0 close (after bg land): CONVERGED-PLAN.md = IA final (ux-census + codex direction + first-60s) + criteria v1.1 ratified + lane/task-axes model (3 lanes + task axes image/t2v/i2v-audio/voice/face — resolves i2v orphan #7 REQUIREMENTS:38) + hostile R2 on converged plan
-- P1 rest: curation layer on real data (manual names/tiers/scores per CRITERIA v1.1 on the 100+ candidates) + rank-keeper cadence
-- P2: static site v1 (vanilla, lanes, cards, nsfw toggle per owner decision, import guides)
-- P3: polish + micro-interactions + hostile design review + mobile
-- P4: publish under ederson-shaw (per-command GH_TOKEN) + handoff link
+## FLYING (2 codex procs)
+- codex site-v2 (pid 483141, /tmp/codex-site-v2.log): sitegen v2 rewrite — 6 stage JSON contracts + layers class, honest empty states, --demo flagged synthetic only
+- codex vision probe (pid 483755, /tmp/codex-vision-probe.log): calibrating realism/anime/quality/nsfw classifier on 20 persona previews -> research/vision-probe-report.md
 
-## blockers (need owner)
-- none. nsfw decision resolved (allow).
+## NEXT QUEUE
+1. vision probe lands -> BIG VISION PASS on shortlists (300-750 previews; label realism/quality/nsfwLevel; PERSONA realism grouping + NSFW subgrouping)
+2. stage-fit + tradeoff curation pass on vision-labeled finalists (the lane-fit axis EXECUTED, finally)
+3. codex site-v2 lands -> inject data/staged/<stage>.json -> build
+4. MY browser grading every stage (hover=play, expand, nsfw-on, previews, fonts) — adversary w/ BLOCK power — owner sees ONLY after this gate
+5. publish gh-pages ederson-shaw
 
-## decisions log
-- 2026-09-02 owner-drawn error list (his message: quality work was reactive to his pushes): mechanisms bound — (1) numeric constant in any doc requires calibration receipt in same commit else BLOCKED; (2) every manager "done" names its validation verb executed (command/calibration/diff) unprompted; (3) "he says" predictions scored against his next actual message, misses stay visible here. Root pattern named: done meant "artifact exists", never "artifact validated".
-- publish under ederson-shaw per explicit owner request this session (owner.md "prefer edersonff" overridden by live spec)
-- static site on github pages, no server ever (sheol doctrine)
-- organize by lane/use + task, NOT by model brand (owner hint)
-- nsfw: toggle off default; public pages build carries ZERO explicit imagery (github bans pornographic CG content — receipt in research/legal-pages-policy.md); nsfw lane = full metadata + civitai link-out; optional "unlocked" full-preview build as downloadable artifact, never served from pages
-- naming/curation manual, one-by-one, english
-- garimpo = adapt existing censused tool, never from zero (assembly law)
-- rank-keeper (unasked idea): scheduled re-validation script re-pulls stats so rankings never rot
+## RULES LIVE
+- commits: manager only, serial. nothing ships ungraded. /tmp is 100% FULL — use /home or stdin, never /tmp writes.
+- owner defaults: nsfw ON, no hero, mouse-first click-minimal, fonts 18/20px+, open-source-leaning lens

@@ -1,0 +1,617 @@
+[
+  {
+    "id": 573152,
+    "name": "LUSTIFY! [NSFW checkpoint]",
+    "type": "Checkpoint",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "coyotte",
+      "href": "https://civitai.com/users/coyotte"
+    },
+    "stats": {
+      "downloadCount": 382924,
+      "thumbsUpCount": 14340,
+      "thumbsDownCount": 55,
+      "commentCount": 783,
+      "tippedAmountCount": 220261,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:45+00:00"
+    },
+    "lastUpdated": "2026-07-25T15:19:15.426Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/573152",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d86e7cd4-78d5-4bc6-ae66-8e80439dd798/width=450/125772779.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d86e7cd4-78d5-4bc6-ae66-8e80439dd798/original=true/125772779.mp4"
+    },
+    "versions": [
+      {
+        "id": 3112728,
+        "name": "v10 (Krea 2)",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-07-25T15:19:15.426Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3112728",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v10Krea2.safetensors",
+            "type": "Model",
+            "sizeKB": 12519647.48046875
+          },
+          {
+            "name": "lustifyNSFWCheckpoint_v10Krea2.safetensors",
+            "type": "Other",
+            "sizeKB": 12840795.6171875
+          },
+          {
+            "name": "lustifyNSFWCheckpoint_v10Krea2.safetensors",
+            "type": "Other",
+            "sizeKB": 25667328.921875
+          },
+          {
+            "name": "lustifyNSFWCheckpoint_v10Krea2.safetensors",
+            "type": "Other",
+            "sizeKB": 25667294.21191406
+          },
+          {
+            "name": "lustifyNSFWCheckpoint_v10Krea2.gguf",
+            "type": "Other",
+            "sizeKB": 4902904
+          },
+          {
+            "name": "lustifyNSFWCheckpoint_v10Krea2.gguf",
+            "type": "Other",
+            "sizeKB": 8116372.03125
+          },
+          {
+            "name": "lustifyNSFWCheckpoint_v10Krea2.safetensors",
+            "type": "Other",
+            "sizeKB": 12840795.6171875
+          }
+        ]
+      },
+      {
+        "id": 3045803,
+        "name": "ZENITH (V9)",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-07-04T15:47:05.684Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3045803",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_zenithV9.safetensors",
+            "type": "Model",
+            "sizeKB": 6775530.751953125
+          }
+        ]
+      },
+      {
+        "id": 2808677,
+        "name": "APEX (V8)",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-04-13T17:15:09.078Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2808677",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_apexV8.safetensors",
+            "type": "Model",
+            "sizeKB": 6775434.033203125
+          }
+        ]
+      },
+      {
+        "id": 2875936,
+        "name": "APEX 🎨INPAINTING🎨",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-04-20T07:49:05.389Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2875936",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_apexINPAINTING.safetensors",
+            "type": "Model",
+            "sizeKB": 6775482.142578125
+          }
+        ]
+      },
+      {
+        "id": 2155386,
+        "name": "GGWP (V7)",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-09-18T20:07:08.673Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2155386",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_ggwpV7.safetensors",
+            "type": "Model",
+            "sizeKB": 6775487.923828125
+          }
+        ]
+      },
+      {
+        "id": 1569593,
+        "name": "OLT (FIXED TEXTURES)",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-23T12:05:00.212Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1569593",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_oltFIXEDTEXTURES.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.875
+          }
+        ]
+      },
+      {
+        "id": 1094291,
+        "name": "ENDGAME",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-24T18:02:53.929Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1094291",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_endgame.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.875
+          }
+        ]
+      },
+      {
+        "id": 1588039,
+        "name": "OLT 🎨INPAINTING🎨",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-27T18:38:33.518Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1588039",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_oltINPAINTING.safetensors",
+            "type": "Model",
+            "sizeKB": 6775460.517578125
+          }
+        ]
+      },
+      {
+        "id": 1099200,
+        "name": "ENDGAME ⚡DMD2⚡",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-25T20:30:45.257Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1099200",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_endgameDMD2.safetensors",
+            "type": "Model",
+            "sizeKB": 6775455.931640625
+          }
+        ]
+      },
+      {
+        "id": 926965,
+        "name": "v4.0 alpha",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-10-06T13:45:10.453Z",
+        "downloadUrl": "https://civitai.com/api/download/models/926965",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v40Alpha.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.392578125
+          }
+        ]
+      },
+      {
+        "id": 938628,
+        "name": "v4.0 ⚡DMD2⚡",
+        "baseModel": "SDXL Lightning",
+        "updatedAt": "2024-10-09T19:53:09.075Z",
+        "downloadUrl": "https://civitai.com/api/download/models/938628",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v40DMD2.safetensors",
+            "type": "Model",
+            "sizeKB": 6775438.056640625
+          }
+        ]
+      },
+      {
+        "id": 708635,
+        "name": "v2.0 alpha",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-09T17:34:32.878Z",
+        "downloadUrl": "https://civitai.com/api/download/models/708635",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v20Alpha.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.875
+          }
+        ]
+      },
+      {
+        "id": 715933,
+        "name": "v2.0 🎨INPAINTING🎨",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-12T07:22:10.203Z",
+        "downloadUrl": "https://civitai.com/api/download/models/715933",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v20-inpainting.safetensors",
+            "type": "Model",
+            "sizeKB": 6775467.392578125
+          }
+        ]
+      },
+      {
+        "id": 638929,
+        "name": "v1.0 alpha",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-12T14:01:44.455Z",
+        "downloadUrl": "https://civitai.com/api/download/models/638929",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v10Alpha.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.392578125
+          }
+        ]
+      },
+      {
+        "id": 709664,
+        "name": "v2.0 ⚡LIGHTNING⚡",
+        "baseModel": "SDXL Lightning",
+        "updatedAt": "2024-08-09T20:03:42.383Z",
+        "downloadUrl": "https://civitai.com/api/download/models/709664",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v20LIGHTNING.safetensors",
+            "type": "Model",
+            "sizeKB": 6775437.072265625
+          }
+        ]
+      },
+      {
+        "id": 639425,
+        "name": "v1.0 ⚡LIGHTNING⚡",
+        "baseModel": "SDXL Lightning",
+        "updatedAt": "2024-07-13T10:20:37.106Z",
+        "downloadUrl": "https://civitai.com/api/download/models/639425",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_v10LIGHTNING.safetensors",
+            "type": "Model",
+            "sizeKB": 6973382.080078125
+          }
+        ]
+      },
+      {
+        "id": 1510911,
+        "name": "OLT (ONE LAST TIME)",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-09T13:34:25.514Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1510911",
+        "files": [
+          {
+            "name": "lustifyNSFWCheckpoint_oltONELASTTIME.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.392578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 428826,
+    "name": "DAMN! [Illustrious/Pony Realistic Model]",
+    "type": "Checkpoint",
+    "baseModel": "Illustrious",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "coyotte",
+      "href": "https://civitai.com/users/coyotte"
+    },
+    "stats": {
+      "downloadCount": 47385,
+      "thumbsUpCount": 3038,
+      "thumbsDownCount": 20,
+      "commentCount": 0,
+      "tippedAmountCount": 6288,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:45+00:00"
+    },
+    "lastUpdated": "2025-07-23T20:20:23.569Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/428826",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0b97fe0-c6fd-40de-8161-bed2461bdf5c/width=450/90053142.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0b97fe0-c6fd-40de-8161-bed2461bdf5c/original=true/90053142.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2041009,
+        "name": "v5.0 (Illustrious/NoobAI)",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-07-23T20:20:23.569Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2041009",
+        "files": [
+          {
+            "name": "damnIllustriousPony_v50IllustriousNoobai.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.0234375
+          }
+        ]
+      },
+      {
+        "id": 1809238,
+        "name": "REBORN (Illustrious) v4.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-05-19T20:33:17.538Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1809238",
+        "files": [
+          {
+            "name": "damnIllustriousPony_rebornIllustriousV40.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.0390625
+          }
+        ]
+      },
+      {
+        "id": 695277,
+        "name": "v3.0 (OUTDATED)",
+        "baseModel": "Pony",
+        "updatedAt": "2024-08-04T10:38:14.204Z",
+        "downloadUrl": "https://civitai.com/api/download/models/695277",
+        "files": [
+          {
+            "name": "damnIllustriousPony_v30OUTDATED.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.392578125
+          }
+        ]
+      },
+      {
+        "id": 697794,
+        "name": "v3.0 LIGHTNING 8 Steps",
+        "baseModel": "SDXL Lightning",
+        "updatedAt": "2024-08-05T08:18:21.612Z",
+        "downloadUrl": "https://civitai.com/api/download/models/697794",
+        "files": [
+          {
+            "name": "damnIllustriousPony_v30LIGHTNING8Steps.safetensors",
+            "type": "Model",
+            "sizeKB": 6775438.455078125
+          }
+        ]
+      },
+      {
+        "id": 477764,
+        "name": "v1.0 (OUTDATED)",
+        "baseModel": "Pony",
+        "updatedAt": "2024-04-30T20:01:19.776Z",
+        "downloadUrl": "https://civitai.com/api/download/models/477764",
+        "files": [
+          {
+            "name": "damnIllustriousPony_v10OUTDATED.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.875
+          },
+          {
+            "name": "sdxl_vae.safetensors",
+            "type": "VAE",
+            "sizeKB": 326798.01171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1439962,
+    "name": "LEAKCORE (LEAKED NUDES STYLE, Realism, Amateur)",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "coyotte",
+      "href": "https://civitai.com/users/coyotte"
+    },
+    "stats": {
+      "downloadCount": 45069,
+      "thumbsUpCount": 3356,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 1010,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:53+00:00"
+    },
+    "lastUpdated": "2025-04-06T10:47:33.323Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1439962",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2cf06439-99c2-4074-9ce4-149fab737bf8/width=450/68302196.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2cf06439-99c2-4074-9ce4-149fab737bf8/original=true/68302196.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1627770,
+        "name": "v1.0 (LUSTIFY)",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-04-06T10:47:33.323Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1627770",
+        "files": [
+          {
+            "name": "leaked_nudes_style_v1_fixed.safetensors",
+            "type": "Model",
+            "sizeKB": 42781.98828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2503119,
+    "name": "Lustify Workflows [Krea 2, SDXL]",
+    "type": "Workflows",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "coyotte",
+      "href": "https://civitai.com/users/coyotte"
+    },
+    "stats": {
+      "downloadCount": 27321,
+      "thumbsUpCount": 389,
+      "thumbsDownCount": 0,
+      "commentCount": 58,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:45+00:00"
+    },
+    "lastUpdated": "2026-07-24T09:02:01.749Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2503119",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7dad5410-1334-4e03-9bfe-52b7b3bc7f43/width=450/137640578.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7dad5410-1334-4e03-9bfe-52b7b3bc7f43/original=true/137640578.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3159388,
+        "name": "KREA 2 Edit 🪄",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-07-24T09:02:01.749Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3159388",
+        "files": [
+          {
+            "name": "lustifyWorkflowsKrea2_krea2Edit.json",
+            "type": "Config",
+            "sizeKB": 62.9736328125
+          }
+        ]
+      },
+      {
+        "id": 3123550,
+        "name": "KREA 2 🎨",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-07-12T20:10:16.710Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3123550",
+        "files": [
+          {
+            "name": "lustifyWorkflowsKrea2_krea2.json",
+            "type": "Config",
+            "sizeKB": 118.8994140625
+          }
+        ]
+      },
+      {
+        "id": 2813771,
+        "name": "SDXL NON-DMD2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-03-29T17:15:00.440Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2813771",
+        "files": [
+          {
+            "name": "lustifyWorkflowsKrea2_sdxlNONDMD2.zip",
+            "type": "Archive",
+            "sizeKB": 17.4033203125
+          }
+        ]
+      },
+      {
+        "id": 2813782,
+        "name": "SDXL DMD2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-03-29T17:15:05.387Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2813782",
+        "files": [
+          {
+            "name": "lustifyWorkflowsKrea2_sdxlDMD2.zip",
+            "type": "Archive",
+            "sizeKB": 17.7587890625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1535424,
+    "name": "SLAVPUNK (Slav/Russian aesthetic lora)",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "coyotte",
+      "href": "https://civitai.com/users/coyotte"
+    },
+    "stats": {
+      "downloadCount": 777,
+      "thumbsUpCount": 103,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 620,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:45+00:00"
+    },
+    "lastUpdated": "2025-05-02T18:05:46.344Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Image"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1535424",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33897b65-2c0d-43d7-afd0-ea66b496a2ec/width=450/73750285.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33897b65-2c0d-43d7-afd0-ea66b496a2ec/original=true/73750285.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1737309,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-05-02T18:05:46.344Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1737309",
+        "files": [
+          {
+            "name": "russia_aesthetic_v1.safetensors",
+            "type": "Model",
+            "sizeKB": 445784.515625
+          }
+        ]
+      }
+    ]
+  }
+]

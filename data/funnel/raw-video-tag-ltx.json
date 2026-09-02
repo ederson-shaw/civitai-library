@@ -1,0 +1,4584 @@
+[
+  {
+    "id": 2443867,
+    "name": "LTX-2.3 22B GGUF WORKFLOWS 12GB VRAM",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Urabewe",
+      "href": "https://civitai.com/users/Urabewe"
+    },
+    "stats": {
+      "downloadCount": 19621,
+      "thumbsUpCount": 310,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 1860,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-21T18:07:24.937Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2443867",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc8110ba-4b34-4ad4-8a33-798693041dd9/width=450/128216070.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc8110ba-4b34-4ad4-8a33-798693041dd9/original=true/128216070.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2879736,
+        "name": "v1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-21T18:07:24.937Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2879736",
+        "files": [
+          {
+            "name": "ltx2322BGGUFWORKFLOWS_v11.zip",
+            "type": "Archive",
+            "sizeKB": 61.2568359375
+          }
+        ]
+      },
+      {
+        "id": 2747788,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-03-06T01:46:39.220Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2747788",
+        "files": [
+          {
+            "name": "ltx2322BGGUFWORKFLOWS_v10.zip",
+            "type": "Archive",
+            "sizeKB": 47.2919921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2663838,
+    "name": "PlagueKind - Minimax H3 Sparse  Attention - LTX Workflow - Ease of use - Eros | Sulphur Compatible | FaceID",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "Plaguekind",
+      "href": "https://civitai.com/users/Plaguekind"
+    },
+    "stats": {
+      "downloadCount": 17992,
+      "thumbsUpCount": 388,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 2705,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-31T23:27:18.987Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2663838",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69fe571b-0b23-4919-a1a8-4f2f5057110e/width=450/141447586.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69fe571b-0b23-4919-a1a8-4f2f5057110e/original=true/141447586.mp4"
+    },
+    "versions": [
+      {
+        "id": 3285534,
+        "name": "H3 v8",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-31T23:27:18.987Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3285534",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V8.json",
+            "type": "Config",
+            "sizeKB": 126.6787109375
+          }
+        ]
+      },
+      {
+        "id": 3220455,
+        "name": "LTX V8.0",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-11T23:16:11.763Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3220455",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_ltxV80.json",
+            "type": "Config",
+            "sizeKB": 73.42578125
+          }
+        ]
+      },
+      {
+        "id": 3277901,
+        "name": "H3 v7",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-29T15:34:35.393Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3277901",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V7.json",
+            "type": "Config",
+            "sizeKB": 100.24609375
+          }
+        ]
+      },
+      {
+        "id": 3266262,
+        "name": "H3 v6",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-25T16:59:40.930Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3266262",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V6.json",
+            "type": "Config",
+            "sizeKB": 94.001953125
+          }
+        ]
+      },
+      {
+        "id": 3260326,
+        "name": "H3 v5.6",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-23T22:38:11.466Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3260326",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V56.json",
+            "type": "Config",
+            "sizeKB": 88.599609375
+          }
+        ]
+      },
+      {
+        "id": 3256488,
+        "name": "H3 5.5",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-22T20:19:58.718Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3256488",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h355.json",
+            "type": "Config",
+            "sizeKB": 90.4912109375
+          }
+        ]
+      },
+      {
+        "id": 3252211,
+        "name": "H3 v5.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-21T15:17:08.065Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3252211",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V50.json",
+            "type": "Config",
+            "sizeKB": 90.9365234375
+          }
+        ]
+      },
+      {
+        "id": 3242875,
+        "name": "H3 v4.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-18T19:25:42.078Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3242875",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V40.json",
+            "type": "Config",
+            "sizeKB": 87.03515625
+          }
+        ]
+      },
+      {
+        "id": 3219462,
+        "name": "H3 v3.1",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-11T15:49:17.692Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3219462",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V31.json",
+            "type": "Config",
+            "sizeKB": 69.1279296875
+          }
+        ]
+      },
+      {
+        "id": 3217261,
+        "name": "H3 v3.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-10T22:54:35.179Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3217261",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V30.json",
+            "type": "Config",
+            "sizeKB": 69.2578125
+          }
+        ]
+      },
+      {
+        "id": 3216257,
+        "name": "H3 v2.1",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-10T15:12:02.221Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3216257",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V21.json",
+            "type": "Config",
+            "sizeKB": 44.96875
+          }
+        ]
+      },
+      {
+        "id": 3213657,
+        "name": "H3 v2.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-09T17:55:40.902Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3213657",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V20.json",
+            "type": "Config",
+            "sizeKB": 43.1884765625
+          }
+        ]
+      },
+      {
+        "id": 3198279,
+        "name": "H3 v1.5",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-04T17:57:30.446Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3198279",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V15.json",
+            "type": "Config",
+            "sizeKB": 41.203125
+          }
+        ]
+      },
+      {
+        "id": 3195342,
+        "name": "H3 v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-03T19:49:57.229Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3195342",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_h3V10.json",
+            "type": "Config",
+            "sizeKB": 39.4736328125
+          }
+        ]
+      },
+      {
+        "id": 3181994,
+        "name": "LTX v7.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-30T16:19:06.693Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3181994",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_ltxV70.json",
+            "type": "Config",
+            "sizeKB": 77.0546875
+          }
+        ]
+      },
+      {
+        "id": 3113930,
+        "name": "v6.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-09T18:01:24.839Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3113930",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v60.json",
+            "type": "Config",
+            "sizeKB": 68.3310546875
+          },
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v60.json",
+            "type": "Config",
+            "sizeKB": 69.6171875
+          }
+        ]
+      },
+      {
+        "id": 3102221,
+        "name": "v5.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-05T20:38:52.231Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3102221",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v50.json",
+            "type": "Config",
+            "sizeKB": 68.462890625
+          },
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v50.json",
+            "type": "Config",
+            "sizeKB": 69.4091796875
+          }
+        ]
+      },
+      {
+        "id": 3089838,
+        "name": "v4.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-02T00:41:46.371Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3089838",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v40.json",
+            "type": "Config",
+            "sizeKB": 129.6298828125
+          },
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v40.json",
+            "type": "Config",
+            "sizeKB": 128.4462890625
+          }
+        ]
+      },
+      {
+        "id": 3056527,
+        "name": "v3.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-21T16:10:55.557Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3056527",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v30.json",
+            "type": "Config",
+            "sizeKB": 67.318359375
+          }
+        ]
+      },
+      {
+        "id": 3001185,
+        "name": "v2.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-03T10:57:02.755Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3001185",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v20.json",
+            "type": "Config",
+            "sizeKB": 64.5498046875
+          }
+        ]
+      },
+      {
+        "id": 2991263,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-30T22:39:51.352Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2991263",
+        "files": [
+          {
+            "name": "plaguekindMinimaxH3SparseAttention_v10.json",
+            "type": "Config",
+            "sizeKB": 64.5498046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2498991,
+    "name": "📜 DaSiWa LTX2.3 Workflows | I2V | FLF2V | T2V | Audio 📜",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 23,
+    "creator": {
+      "username": "Darksidewalker",
+      "href": "https://civitai.com/users/Darksidewalker"
+    },
+    "stats": {
+      "downloadCount": 16472,
+      "thumbsUpCount": 675,
+      "thumbsDownCount": 4,
+      "commentCount": 0,
+      "tippedAmountCount": 1750,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-24T02:43:12.766Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2498991",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1011e25-9341-47c0-92e5-0d31b8599704/width=450/125895903.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1011e25-9341-47c0-92e5-0d31b8599704/original=true/125895903.mp4"
+    },
+    "versions": [
+      {
+        "id": 2809128,
+        "name": "OmniForge C-LTX23 v4.8",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-24T02:43:12.766Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2809128",
+        "files": [
+          {
+            "name": "DasiwaLTX23WorkflowsI2VFLF2V_omniforgeCLTX23V48.json",
+            "type": "Config",
+            "sizeKB": 278.041015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2490060,
+    "name": "LTX2.3 TI2V Text and Image to Video Speed Up Version (NSFW)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 4065,
+      "thumbsUpCount": 50,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-24T09:59:58.069Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2490060",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8af43e79-1d37-442f-8f27-3739b500731c/width=450/125225378.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8af43e79-1d37-442f-8f27-3739b500731c/original=true/125225378.mp4"
+    },
+    "versions": [
+      {
+        "id": 2799351,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-24T09:59:58.069Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2799351",
+        "files": [
+          {
+            "name": "ltx23TI2VTextAndImageTo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 33.7705078125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2676452,
+    "name": "LTX 2.3/Eros Seed Hunter Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "foxydits",
+      "href": "https://civitai.com/users/foxydits"
+    },
+    "stats": {
+      "downloadCount": 3669,
+      "thumbsUpCount": 167,
+      "thumbsDownCount": 1,
+      "commentCount": 34,
+      "tippedAmountCount": 2510,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-07-22T19:07:53.344Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2676452",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4ee5d42-11a4-472f-8984-2a94f2971a9b/width=450/137499966.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4ee5d42-11a4-472f-8984-2a94f2971a9b/original=true/137499966.mp4"
+    },
+    "versions": [
+      {
+        "id": 3154481,
+        "name": "v2",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-22T19:07:53.344Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3154481",
+        "files": [
+          {
+            "name": "ltx23ErosSeedHunter_v2.json",
+            "type": "Config",
+            "sizeKB": 229.076171875
+          }
+        ]
+      },
+      {
+        "id": 3005205,
+        "name": "v1.6",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-04T22:04:06.581Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3005205",
+        "files": [
+          {
+            "name": "ltx23ErosSeedHunter_v16.json",
+            "type": "Config",
+            "sizeKB": 223.5478515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2445141,
+    "name": "LTX 2.3 Workflow ( T2V & I2V )",
+    "type": "Workflows",
+    "baseModel": "LTXV2",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AiVerse",
+      "href": "https://civitai.com/users/AiVerse"
+    },
+    "stats": {
+      "downloadCount": 3567,
+      "thumbsUpCount": 61,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 100,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-06T14:00:51.521Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2445141",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75cda66e-1d85-4291-8a92-ea88ace5654f/width=450/123343395.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75cda66e-1d85-4291-8a92-ea88ace5654f/original=true/123343395.mp4"
+    },
+    "versions": [
+      {
+        "id": 2749232,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-03-06T14:00:51.521Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2749232",
+        "files": [
+          {
+            "name": "ltx23WorkflowT2VI2V_v10.zip",
+            "type": "Archive",
+            "sizeKB": 20.9521484375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 866210,
+    "name": "IT'S ALIVE! |  Ultimate IMAGE to VIDEO suite | LTX/Cog/PyramidFlow",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "LatentDream",
+      "href": "https://civitai.com/users/LatentDream"
+    },
+    "stats": {
+      "downloadCount": 3552,
+      "thumbsUpCount": 174,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 870,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2024-12-02T20:34:14.342Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "Sell",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/866210",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4b083fe-6c40-40b6-b27a-a41ef07c53d2/width=450/43435647.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4b083fe-6c40-40b6-b27a-a41ef07c53d2/original=true/43435647.mp4"
+    },
+    "versions": [
+      {
+        "id": 1122726,
+        "name": "v9.02",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-02T20:34:14.342Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1122726",
+        "files": [
+          {
+            "name": "itsALIVEUltimateIMAGETo_v902.zip",
+            "type": "Archive",
+            "sizeKB": 97.986328125
+          }
+        ]
+      },
+      {
+        "id": 1104567,
+        "name": "v8.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-11-27T10:07:35.604Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1104567",
+        "files": [
+          {
+            "name": "itsALIVEUltimateIMAGETo_v80.zip",
+            "type": "Archive",
+            "sizeKB": 894.6064453125
+          }
+        ]
+      },
+      {
+        "id": 1010923,
+        "name": "v7.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-10-30T19:33:02.853Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1010923",
+        "files": [
+          {
+            "name": "itsALIVEUltimateIMAGETo_v70.zip",
+            "type": "Archive",
+            "sizeKB": 152.6904296875
+          }
+        ]
+      },
+      {
+        "id": 986816,
+        "name": "v4.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-10-23T15:49:24.875Z",
+        "downloadUrl": "https://civitai.com/api/download/models/986816",
+        "files": [
+          {
+            "name": "itsALIVEUltimateIMAGETo_v40.zip",
+            "type": "Archive",
+            "sizeKB": 17.0771484375
+          }
+        ]
+      },
+      {
+        "id": 980648,
+        "name": "v2.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-10-21T19:23:24.666Z",
+        "downloadUrl": "https://civitai.com/api/download/models/980648",
+        "files": [
+          {
+            "name": "itsALIVEUltimateIMAGETo_v20.zip",
+            "type": "Archive",
+            "sizeKB": 0.2060546875
+          }
+        ]
+      },
+      {
+        "id": 969294,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-10-18T13:16:13.852Z",
+        "downloadUrl": "https://civitai.com/api/download/models/969294",
+        "files": [
+          {
+            "name": "itsALIVEUltimateIMAGETo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 0.2060546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2550125,
+    "name": "LTX 2.3 and 2.5 simple",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.5",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "sy0ww4bb1984",
+      "href": "https://civitai.com/users/sy0ww4bb1984"
+    },
+    "stats": {
+      "downloadCount": 3493,
+      "thumbsUpCount": 96,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 1020,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-26T21:31:04.735Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2550125",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/858b7e33-09f7-4df6-b431-e3e30c72ad2d/width=450/140937740.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/858b7e33-09f7-4df6-b431-e3e30c72ad2d/original=true/140937740.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3270057,
+        "name": "Full Tutorial",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-26T21:31:04.735Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3270057",
+        "files": [
+          {
+            "name": "ltx23And25Simple_fullTutorial.zip",
+            "type": "Archive",
+            "sizeKB": 66140.751953125
+          }
+        ]
+      },
+      {
+        "id": 3250025,
+        "name": "Img2vid Tutorial",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-20T23:40:05.287Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3250025",
+        "files": [
+          {
+            "name": "ltx23And25Simple_img2vidTutorial.zip",
+            "type": "Archive",
+            "sizeKB": 65405.8017578125
+          }
+        ]
+      },
+      {
+        "id": 3240176,
+        "name": "2.5 Img2vid",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-08-17T23:50:58.122Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3240176",
+        "files": [
+          {
+            "name": "ltx23And25Simple_25Img2vid.zip",
+            "type": "Archive",
+            "sizeKB": 11909.1171875
+          }
+        ]
+      },
+      {
+        "id": 3229791,
+        "name": "2.5 vid2vid",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-15T01:01:30.637Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3229791",
+        "files": [
+          {
+            "name": "ltx23And25Simple_25Vid2vid.zip",
+            "type": "Archive",
+            "sizeKB": 7927.5244140625
+          }
+        ]
+      },
+      {
+        "id": 3152023,
+        "name": "Vid2Vid",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-21T23:44:27.968Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3152023",
+        "files": [
+          {
+            "name": "ltx23And25Simple_vid2vid.zip",
+            "type": "Archive",
+            "sizeKB": 254.671875
+          }
+        ]
+      },
+      {
+        "id": 3143011,
+        "name": "Img2Vid",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-19T02:30:06.088Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3143011",
+        "files": [
+          {
+            "name": "ltx23And25Simple_img2vid.zip",
+            "type": "Archive",
+            "sizeKB": 104030.9453125
+          }
+        ]
+      },
+      {
+        "id": 2869540,
+        "name": "v1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-18T08:42:08.515Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2869540",
+        "files": [
+          {
+            "name": "ltx23And25Simple_v11.zip",
+            "type": "Archive",
+            "sizeKB": 269352.568359375
+          }
+        ]
+      },
+      {
+        "id": 2865837,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-17T06:49:01.455Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2865837",
+        "files": [
+          {
+            "name": "ltx23And25Simple_v10.zip",
+            "type": "Archive",
+            "sizeKB": 85368.2978515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2475570,
+    "name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "raretutor",
+      "href": "https://civitai.com/users/raretutor"
+    },
+    "stats": {
+      "downloadCount": 3239,
+      "thumbsUpCount": 69,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-18T17:03:57.527Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2475570",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/width=450/124575015.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4"
+    },
+    "versions": [
+      {
+        "id": 2783332,
+        "name": "v1.2",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-18T17:03:57.527Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2783332",
+        "files": [
+          {
+            "name": "ltx2322BGGUFSafetensors12GBVRAM_v12.zip",
+            "type": "Archive",
+            "sizeKB": 23.8662109375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2294829,
+    "name": "Friendly LTX-2 T2V+I2V+Lipsync",
+    "type": "Workflows",
+    "baseModel": "LTXV2",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "RusselX",
+      "href": "https://civitai.com/users/RusselX"
+    },
+    "stats": {
+      "downloadCount": 3103,
+      "thumbsUpCount": 81,
+      "thumbsDownCount": 0,
+      "commentCount": 17,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-02-28T11:56:03.317Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2294829",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/width=450/122670081.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4"
+    },
+    "versions": [
+      {
+        "id": 2730725,
+        "name": "UniVibe v1.2 (Lipsync)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-28T11:56:03.317Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2730725",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_univibeV12Lipsync.zip",
+            "type": "Archive",
+            "sizeKB": 39.419921875
+          }
+        ]
+      },
+      {
+        "id": 2671679,
+        "name": "UniVibe 1.1 (Lipsync)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-08T14:49:12.457Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2671679",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_univibe11Lipsync.zip",
+            "type": "Archive",
+            "sizeKB": 36.2568359375
+          }
+        ]
+      },
+      {
+        "id": 2629718,
+        "name": "UniVibe 1.0.2 (Lipsync)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-25T21:07:32.316Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2629718",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_univibe102Lipsync.zip",
+            "type": "Archive",
+            "sizeKB": 36.064453125
+          }
+        ]
+      },
+      {
+        "id": 2603287,
+        "name": "v1.0 (GGUF Low VRAM)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-16T20:20:32.015Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2603287",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_v10GGUFLowVRAM.zip",
+            "type": "Archive",
+            "sizeKB": 26.365234375
+          }
+        ]
+      },
+      {
+        "id": 2586881,
+        "name": "v1.0 (fp8 dev) HQ",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-11T08:40:04.549Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2586881",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_v10Fp8DevHQ.zip",
+            "type": "Archive",
+            "sizeKB": 5392.7099609375
+          }
+        ]
+      },
+      {
+        "id": 2582320,
+        "name": "v1.0 Distilled fp8",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-09T21:19:24.839Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2582320",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_v10DistilledFp8.zip",
+            "type": "Archive",
+            "sizeKB": 22.7197265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2558574,
+    "name": "LTX2.3 Video Gen with Low VRAM(NSFW)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 2642,
+      "thumbsUpCount": 48,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-20T01:16:19.402Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2558574",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42493c6b-96e9-436d-8612-8cb7dd6c4ce7/width=450/128026245.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42493c6b-96e9-436d-8612-8cb7dd6c4ce7/original=true/128026245.mp4"
+    },
+    "versions": [
+      {
+        "id": 2875277,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-20T01:16:19.402Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2875277",
+        "files": [
+          {
+            "name": "ltx23VideoGenWithLow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 24.7890625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2299899,
+    "name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "raretutor",
+      "href": "https://civitai.com/users/raretutor"
+    },
+    "stats": {
+      "downloadCount": 2582,
+      "thumbsUpCount": 61,
+      "thumbsDownCount": 1,
+      "commentCount": 11,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-01-18T11:43:04.234Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2299899",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/width=450/117889046.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4"
+    },
+    "versions": [
+      {
+        "id": 2608545,
+        "name": "v1.1",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-18T11:43:04.234Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2608545",
+        "files": [
+          {
+            "name": "ltx2ForLowHighVRAMGGUFT2VI2VWith_v11.zip",
+            "type": "Archive",
+            "sizeKB": 19.7666015625
+          }
+        ]
+      },
+      {
+        "id": 2587897,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-11T16:16:44.478Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2587897",
+        "files": [
+          {
+            "name": "ltx2ForLowHighVRAMGGUFT2VI2VWith_v10.zip",
+            "type": "Archive",
+            "sizeKB": 19.7060546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2688482,
+    "name": "LTX 2.3/Eros FFLF Seed Hunter Multiroll Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "foxydits",
+      "href": "https://civitai.com/users/foxydits"
+    },
+    "stats": {
+      "downloadCount": 2447,
+      "thumbsUpCount": 106,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 600,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-07-22T19:14:53.697Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2688482",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/122c89b2-4d7d-4999-8c1e-86bc08ab30d3/width=450/137499768.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/122c89b2-4d7d-4999-8c1e-86bc08ab30d3/original=true/137499768.mp4"
+    },
+    "versions": [
+      {
+        "id": 3154489,
+        "name": "v2.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-22T19:14:53.697Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3154489",
+        "files": [
+          {
+            "name": "ltx23ErosFFLFSeed_v20.json",
+            "type": "Config",
+            "sizeKB": 273.57421875
+          }
+        ]
+      },
+      {
+        "id": 3053576,
+        "name": "v1.6 | 2-STAGE UPDATE",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-20T18:58:20.628Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3053576",
+        "files": [
+          {
+            "name": "ltx23ErosFFLFSeed_v162STAGEUPDATE.json",
+            "type": "Config",
+            "sizeKB": 266.77734375
+          }
+        ]
+      },
+      {
+        "id": 3018659,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-09T21:06:25.058Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3018659",
+        "files": [
+          {
+            "name": "ltx23ErosFFLFSeed_v10.json",
+            "type": "Config",
+            "sizeKB": 303.2685546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2633002,
+    "name": "Ltx 2.3 Fix Face Workflow ( 10Eros )",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "AiVerse",
+      "href": "https://civitai.com/users/AiVerse"
+    },
+    "stats": {
+      "downloadCount": 2287,
+      "thumbsUpCount": 57,
+      "thumbsDownCount": 1,
+      "commentCount": 8,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-05-18T14:29:31.834Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2633002",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72bcef03-73a8-4087-9479-ad324f1100a7/width=450/131106283.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72bcef03-73a8-4087-9479-ad324f1100a7/original=true/131106283.mp4"
+    },
+    "versions": [
+      {
+        "id": 2956251,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-18T14:29:31.834Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2956251",
+        "files": [
+          {
+            "name": "ltx23FixFaceWorkflow_v10.json",
+            "type": "Config",
+            "sizeKB": 161.6533203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2720649,
+    "name": "LTX Director 2 SEED HUNTER workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "foxydits",
+      "href": "https://civitai.com/users/foxydits"
+    },
+    "stats": {
+      "downloadCount": 2278,
+      "thumbsUpCount": 81,
+      "thumbsDownCount": 0,
+      "commentCount": 9,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-06-21T22:12:19.524Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2720649",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e96ca1b4-4973-4415-8c36-78fd1a7a0cd0/width=450/134465920.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e96ca1b4-4973-4415-8c36-78fd1a7a0cd0/original=true/134465920.mp4"
+    },
+    "versions": [
+      {
+        "id": 3057414,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-21T22:12:19.524Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3057414",
+        "files": [
+          {
+            "name": "ltxDirector2SEED_v10.json",
+            "type": "Config",
+            "sizeKB": 191.490234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2650639,
+    "name": "LTX 2.3 12GB GGUF DIRECTOR",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Urabewe",
+      "href": "https://civitai.com/users/Urabewe"
+    },
+    "stats": {
+      "downloadCount": 2186,
+      "thumbsUpCount": 53,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-05-25T15:33:14.320Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2650639",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3c76e4e-a664-436c-a169-279e2793b9f5/width=450/131805046.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3c76e4e-a664-436c-a169-279e2793b9f5/original=true/131805046.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2976333,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-25T15:33:14.320Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2976333",
+        "files": [
+          {
+            "name": "ltx2312GBGGUF_v10.zip",
+            "type": "Archive",
+            "sizeKB": 10.80859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 978170,
+    "name": "ltx-video (txt2vid - img2vid)- 77oussam",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "77ossam",
+      "href": "https://civitai.com/users/77ossam"
+    },
+    "stats": {
+      "downloadCount": 2148,
+      "thumbsUpCount": 46,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2024-11-24T16:21:05.327Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/978170",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e38f39be-d241-4949-8084-ed0c9958d8c9/width=450/41857041.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e38f39be-d241-4949-8084-ed0c9958d8c9/original=true/41857041.mp4"
+    },
+    "versions": [
+      {
+        "id": 1095517,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-11-24T16:21:05.327Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1095517",
+        "files": [
+          {
+            "name": "ltxVideoTxt2vidImg2vid_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.96484375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2533175,
+    "name": "LTX 2.3 – Image + Audio + Video (IC-LoRA - Union Control / Detailer) to Video",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "Thalion7",
+      "href": "https://civitai.com/users/Thalion7"
+    },
+    "stats": {
+      "downloadCount": 1979,
+      "thumbsUpCount": 67,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-10T19:58:53.415Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2533175",
+    "preview": {
+      "url_width450": null,
+      "url_original": null
+    },
+    "versions": [
+      {
+        "id": 2846957,
+        "name": "v1.2",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-10T19:58:53.415Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2846957",
+        "files": [
+          {
+            "name": "ltx23ImageAudioVideoICLora_v12.zip",
+            "type": "Archive",
+            "sizeKB": 14.5166015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2512462,
+    "name": "LTX2.3 I2V First Last Frame (Infinite Intermediate Frames)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 1906,
+      "thumbsUpCount": 55,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-02T09:11:53.681Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2512462",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc657037-b709-408b-a27c-70516b857fe0/width=450/126163655.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc657037-b709-408b-a27c-70516b857fe0/original=true/126163655.mp4"
+    },
+    "versions": [
+      {
+        "id": 2824049,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-02T09:11:53.681Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2824049",
+        "files": [
+          {
+            "name": "ltx23I2VFirstLastFrame_v10.zip",
+            "type": "Archive",
+            "sizeKB": 18.880859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1250209,
+    "name": "LTX i2v with Camera Control",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "N0NSens",
+      "href": "https://civitai.com/users/N0NSens"
+    },
+    "stats": {
+      "downloadCount": 1697,
+      "thumbsUpCount": 66,
+      "thumbsDownCount": 0,
+      "commentCount": 9,
+      "tippedAmountCount": 404,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-04-26T20:13:41.172Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1250209",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/width=450/72509479.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/original=true/72509479.mp4"
+    },
+    "versions": [
+      {
+        "id": 1712681,
+        "name": "v1.4 Dev",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-26T20:13:41.172Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1712681",
+        "files": [
+          {
+            "name": "ltxI2vWithCamera_v14Dev.zip",
+            "type": "Archive",
+            "sizeKB": 15.6611328125
+          }
+        ]
+      },
+      {
+        "id": 1712655,
+        "name": "v1.4 Dist",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-26T20:05:41.171Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1712655",
+        "files": [
+          {
+            "name": "ltxI2vWithCamera_v14Dist.zip",
+            "type": "Archive",
+            "sizeKB": 15.7294921875
+          }
+        ]
+      },
+      {
+        "id": 1409347,
+        "name": "v1.3",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-02-13T15:45:42.632Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1409347",
+        "files": [
+          {
+            "name": "ltxI2vWithCamera_v13.zip",
+            "type": "Archive",
+            "sizeKB": 19.77734375
+          }
+        ]
+      },
+      {
+        "id": 1507381,
+        "name": "v1.2",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-03-08T15:16:44.038Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1507381",
+        "files": [
+          {
+            "name": "ltxI2vWithCamera_v12.zip",
+            "type": "Archive",
+            "sizeKB": 22.42578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2498927,
+    "name": "Text-to-Speech with Voice Clone in LTX 2.3",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "darkroast175696",
+      "href": "https://civitai.com/users/darkroast175696"
+    },
+    "stats": {
+      "downloadCount": 1684,
+      "thumbsUpCount": 66,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-06T01:26:40.347Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2498927",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74edf4c2-3a80-4c3b-99cc-1cbe70294a53/width=450/126545198.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74edf4c2-3a80-4c3b-99cc-1cbe70294a53/original=true/126545198.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2834400,
+        "name": "v1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-06T01:26:40.347Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2834400",
+        "files": [
+          {
+            "name": "textToSpeechWithVoice_v11.zip",
+            "type": "Archive",
+            "sizeKB": 9.2333984375
+          }
+        ]
+      },
+      {
+        "id": 2809053,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-27T21:39:14.570Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2809053",
+        "files": [
+          {
+            "name": "textToSpeechWithVoice_v10.zip",
+            "type": "Archive",
+            "sizeKB": 9.23828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2605143,
+    "name": "LTX2.3 Sulphur Multi Frame  Video Gen(NSFW)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 1567,
+      "thumbsUpCount": 32,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-05-07T06:18:18.561Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2605143",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4828fb5-f5a7-41b6-8aae-95e3fa63ff14/width=450/129916954.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4828fb5-f5a7-41b6-8aae-95e3fa63ff14/original=true/129916954.mp4"
+    },
+    "versions": [
+      {
+        "id": 2925202,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-07T06:18:18.561Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2925202",
+        "files": [
+          {
+            "name": "ltx23SulphurMultiFrame_v10.zip",
+            "type": "Archive",
+            "sizeKB": 17.56640625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2451936,
+    "name": "LTX 2.3 FLF2V",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "TheGeekyGhost",
+      "href": "https://civitai.com/users/TheGeekyGhost"
+    },
+    "stats": {
+      "downloadCount": 1530,
+      "thumbsUpCount": 44,
+      "thumbsDownCount": 0,
+      "commentCount": 7,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-19T15:18:07.455Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2451936",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/982be044-8d08-4860-849e-c91c56448add/width=450/127978582.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/982be044-8d08-4860-849e-c91c56448add/original=true/127978582.mp4"
+    },
+    "versions": [
+      {
+        "id": 2873721,
+        "name": "LTX 2.3 KJ Stripped 1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-19T15:18:07.455Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2873721",
+        "files": [
+          {
+            "name": "ltx23FLF2V_ltx23KJStripped11.zip",
+            "type": "Archive",
+            "sizeKB": 12.0458984375
+          }
+        ]
+      },
+      {
+        "id": 2770881,
+        "name": "RTX Upscale Version",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-14T04:33:12.840Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2770881",
+        "files": [
+          {
+            "name": "ltx23FLF2V_rtxUpscaleVersion.zip",
+            "type": "Archive",
+            "sizeKB": 4.8896484375
+          }
+        ]
+      },
+      {
+        "id": 2757034,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-03-09T02:20:33.669Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2757034",
+        "files": [
+          {
+            "name": "ltx23FLF2V_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.54296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2638144,
+    "name": "LTX Director",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "ApexArtist1",
+      "href": "https://civitai.com/users/ApexArtist1"
+    },
+    "stats": {
+      "downloadCount": 1528,
+      "thumbsUpCount": 46,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-05-20T15:25:33.771Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2638144",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec38d720-4c22-4bf0-be29-058be2118196/width=450/131300295.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec38d720-4c22-4bf0-be29-058be2118196/original=true/131300295.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2962065,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-20T15:25:33.771Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2962065",
+        "files": [
+          {
+            "name": "ltxDirector_v10.json",
+            "type": "Config",
+            "sizeKB": 64.49609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1499559,
+    "name": "LTXV Photo Animator",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "CornyShed",
+      "href": "https://civitai.com/users/CornyShed"
+    },
+    "stats": {
+      "downloadCount": 1451,
+      "thumbsUpCount": 66,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-04-23T13:08:12.919Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1499559",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbf3ea87-e3ca-4ccd-a19b-46eeadd346eb/width=450/71834568.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbf3ea87-e3ca-4ccd-a19b-46eeadd346eb/original=true/71834568.mp4"
+    },
+    "versions": [
+      {
+        "id": 1696347,
+        "name": "v0.9.5",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-23T13:08:12.919Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1696347",
+        "files": [
+          {
+            "name": "ltxvPhotoAnimator_v095.zip",
+            "type": "Archive",
+            "sizeKB": 13.623046875
+          }
+        ]
+      },
+      {
+        "id": 1696404,
+        "name": "Example Images",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-23T13:05:04.559Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1696404",
+        "files": [
+          {
+            "name": "ltxvPhotoAnimator_exampleImages.zip",
+            "type": "Archive",
+            "sizeKB": 16512.0830078125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2501383,
+    "name": "LTX2.3 | Z-Image + Ollama T2I to I2V | 12GB Friendly",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 29,
+    "creator": {
+      "username": "dutchit288",
+      "href": "https://civitai.com/users/dutchit288"
+    },
+    "stats": {
+      "downloadCount": 1225,
+      "thumbsUpCount": 34,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-28T21:24:06.681Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2501383",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31e11c56-0b24-4800-8e0c-d44c0ba9bef2/width=450/125685616.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31e11c56-0b24-4800-8e0c-d44c0ba9bef2/original=true/125685616.mp4"
+    },
+    "versions": [
+      {
+        "id": 2811827,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-28T21:24:06.681Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2811827",
+        "files": [
+          {
+            "name": "ltx23ZImageOllamaT2ITo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 28.9716796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1096868,
+    "name": "(Video Tutorial Resources) LTX Sequencing workflow to create long video clips (new model!)",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Grockster",
+      "href": "https://civitai.com/users/Grockster"
+    },
+    "stats": {
+      "downloadCount": 1173,
+      "thumbsUpCount": 55,
+      "thumbsDownCount": 1,
+      "commentCount": 12,
+      "tippedAmountCount": 100,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-01-02T17:14:59.743Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1096868",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8fe7c2b4-f2c9-48ec-8769-90092c795d4c/width=450/49128193.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8fe7c2b4-f2c9-48ec-8769-90092c795d4c/original=true/49128193.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1232070,
+        "name": "Alpha",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-01-02T17:14:59.743Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1232070",
+        "files": [
+          {
+            "name": "VideoTutorialResourcesLTX_alpha.zip",
+            "type": "Archive",
+            "sizeKB": 37.4052734375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1367664,
+    "name": "LTXV Keyframe Interpolation and Img2Video Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 13,
+    "creator": {
+      "username": "katsumend",
+      "href": "https://civitai.com/users/katsumend"
+    },
+    "stats": {
+      "downloadCount": 1134,
+      "thumbsUpCount": 44,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-03-18T06:26:55.118Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1367664",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/197cc3aa-2ce7-4b27-80ca-3b1939bdb4f4/width=450/64052348.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/197cc3aa-2ce7-4b27-80ca-3b1939bdb4f4/original=true/64052348.mp4"
+    },
+    "versions": [
+      {
+        "id": 1545125,
+        "name": "v2.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-03-18T06:26:55.118Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1545125",
+        "files": [
+          {
+            "name": "ltxvKeyframe_v20.zip",
+            "type": "Archive",
+            "sizeKB": 70.9404296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1493076,
+    "name": "LTXVideo 13B 0.9.7 Distilled Workflow - T2V or I2V with optional captioning/LLM/audio gen",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "phazei",
+      "href": "https://civitai.com/users/phazei"
+    },
+    "stats": {
+      "downloadCount": 1120,
+      "thumbsUpCount": 27,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-05-18T04:24:34.910Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1493076",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17ba3bef-817d-49c8-add5-515ff5645d5d/width=450/76952630.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17ba3bef-817d-49c8-add5-515ff5645d5d/original=true/76952630.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1802132,
+        "name": "v2.1",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-18T04:24:34.910Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1802132",
+        "files": [
+          {
+            "name": "ltxvideo13B097DistilledWorkflow_v21.zip",
+            "type": "Archive",
+            "sizeKB": 27.783203125
+          }
+        ]
+      },
+      {
+        "id": 1798134,
+        "name": "v2.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-17T05:02:17.669Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1798134",
+        "files": [
+          {
+            "name": "ltxvideo13B097DistilledWorkflow_v20.zip",
+            "type": "Archive",
+            "sizeKB": 27.2607421875
+          }
+        ]
+      },
+      {
+        "id": 1689017,
+        "name": "v1.1",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-21T04:25:39.735Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1689017",
+        "files": [
+          {
+            "name": "ltxvideo13B097DistilledWorkflow_v11.zip",
+            "type": "Archive",
+            "sizeKB": 16.166015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2296675,
+    "name": "LTX2.0 Image to Video Speed Up Version(Auto Prompt)",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 1010,
+      "thumbsUpCount": 36,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-01-10T14:00:52.226Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2296675",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2479c463-969a-4f1f-a635-31c591332ca9/width=450/116984544.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2479c463-969a-4f1f-a635-31c591332ca9/original=true/116984544.mp4"
+    },
+    "versions": [
+      {
+        "id": 2584364,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-10T14:00:52.226Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2584364",
+        "files": [
+          {
+            "name": "ltx20ImageToVideoSpeedUp_v10.zip",
+            "type": "Archive",
+            "sizeKB": 16.57421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1029628,
+    "name": "EML_LTX_STG_TTV-ITV-IM_v1.1",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "EmilHaybullin",
+      "href": "https://civitai.com/users/EmilHaybullin"
+    },
+    "stats": {
+      "downloadCount": 1001,
+      "thumbsUpCount": 26,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2024-12-12T14:09:51.817Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1029628",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a2c7917-9015-4861-ad97-98167ad58b1c/width=450/45111379.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a2c7917-9015-4861-ad97-98167ad58b1c/original=true/45111379.mp4"
+    },
+    "versions": [
+      {
+        "id": 1154871,
+        "name": "v1.1",
+        "baseModel": "LTXV",
+        "updatedAt": "2024-12-12T14:09:51.817Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1154871",
+        "files": [
+          {
+            "name": "emlLTXSTGTTVITVIMV11_v11.zip",
+            "type": "Archive",
+            "sizeKB": 13206.5673828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2526171,
+    "name": "LTX 2.3 Video Detailer and Upscaler",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "cantrollmyrs",
+      "href": "https://civitai.com/users/cantrollmyrs"
+    },
+    "stats": {
+      "downloadCount": 976,
+      "thumbsUpCount": 24,
+      "thumbsDownCount": 1,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-07T19:01:24.672Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2526171",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8223498e-9f4d-4ebe-a978-ec9587e6d2ed/width=450/126732139.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8223498e-9f4d-4ebe-a978-ec9587e6d2ed/original=true/126732139.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2839132,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-07T19:01:24.672Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2839132",
+        "files": [
+          {
+            "name": "ltx23VideoDetailerAnd_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.390625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2871874,
+    "name": "Video upscale workflow for Low VRAM (Extreme FAST)",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 11,
+    "creator": {
+      "username": "biosal",
+      "href": "https://civitai.com/users/biosal"
+    },
+    "stats": {
+      "downloadCount": 949,
+      "thumbsUpCount": 35,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-28T23:46:17.967Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2871874",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15d71af9-5277-4b08-9ac2-67df8f9528d6/width=450/141142390.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15d71af9-5277-4b08-9ac2-67df8f9528d6/original=true/141142390.mp4"
+    },
+    "versions": [
+      {
+        "id": 3275949,
+        "name": "v2.1",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-28T23:46:17.967Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3275949",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v21.json",
+            "type": "Config",
+            "sizeKB": 44.74609375
+          }
+        ]
+      },
+      {
+        "id": 3261128,
+        "name": "v2.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-24T03:56:01.385Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3261128",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v20.json",
+            "type": "Config",
+            "sizeKB": 42.109375
+          }
+        ]
+      },
+      {
+        "id": 3246375,
+        "name": "v1.1",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-19T20:37:18.523Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3246375",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v11.json",
+            "type": "Config",
+            "sizeKB": 28.107421875
+          }
+        ]
+      },
+      {
+        "id": 3244831,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-19T10:46:48.764Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3244831",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v10.json",
+            "type": "Config",
+            "sizeKB": 26.3369140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2503016,
+    "name": "LTX 2.3 Add Audio to Existing Video by WW",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "WickedWays",
+      "href": "https://civitai.com/users/WickedWays"
+    },
+    "stats": {
+      "downloadCount": 869,
+      "thumbsUpCount": 40,
+      "thumbsDownCount": 0,
+      "commentCount": 7,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-29T13:40:58.005Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2503016",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ea398d9-d1bc-4a7e-92bc-b2457331a65b/width=450/125755930.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ea398d9-d1bc-4a7e-92bc-b2457331a65b/original=true/125755930.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2813696,
+        "name": "Add Audio to Video",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-29T13:40:58.005Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2813696",
+        "files": [
+          {
+            "name": "ltx23AddAudioToExisting_addAudioToVideo.zip",
+            "type": "Archive",
+            "sizeKB": 7.759765625
+          }
+        ]
+      },
+      {
+        "id": 2813660,
+        "name": "Add Audio to Webp",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-29T13:37:25.101Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2813660",
+        "files": [
+          {
+            "name": "ltx23AddAudioToExisting_addAudioToWebp.zip",
+            "type": "Archive",
+            "sizeKB": 7.6513671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2314541,
+    "name": "LTX2.0_First and last frames_I2V_Automatic prompt",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "BiuBoomFlow",
+      "href": "https://civitai.com/users/BiuBoomFlow"
+    },
+    "stats": {
+      "downloadCount": 844,
+      "thumbsUpCount": 32,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-01-16T21:06:25.082Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2314541",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/854305df-58cb-4062-ab6d-d525044c4fcb/width=450/117710262.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/854305df-58cb-4062-ab6d-d525044c4fcb/original=true/117710262.mp4"
+    },
+    "versions": [
+      {
+        "id": 2604004,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-16T21:06:25.082Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2604004",
+        "files": [
+          {
+            "name": "ltx20FirstAndLastFrames_v10.zip",
+            "type": "Archive",
+            "sizeKB": 25.26953125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2490072,
+    "name": "LTX2.3 TI2V Audio Image Driven Digital Human",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 843,
+      "thumbsUpCount": 37,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-24T10:04:50.848Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2490072",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/width=450/125225669.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/original=true/125225669.mp4"
+    },
+    "versions": [
+      {
+        "id": 2799363,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-24T10:04:50.848Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2799363",
+        "files": [
+          {
+            "name": "ltx23TI2VAudioImage_v10.zip",
+            "type": "Archive",
+            "sizeKB": 34.46875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2506770,
+    "name": "LTX 2.3 Audio + Image to Video For Semi-Creative Slop",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 29,
+    "creator": {
+      "username": "Ponder_Stibbons",
+      "href": "https://civitai.com/users/Ponder_Stibbons"
+    },
+    "stats": {
+      "downloadCount": 787,
+      "thumbsUpCount": 22,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-31T00:00:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2506770",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bd395e3-e9ca-485e-97f2-fe8e7ba9c62e/width=450/125917946.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bd395e3-e9ca-485e-97f2-fe8e7ba9c62e/original=true/125917946.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2817773,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-31T00:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2817773",
+        "files": [
+          {
+            "name": "ltx23AudioImageToVideo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 1237.984375
+          }
+        ]
+      },
+      {
+        "id": 2820181,
+        "name": "v1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-31T21:27:43.792Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2820181",
+        "files": [
+          {
+            "name": "ltx23AudioImageToVideo_v11.zip",
+            "type": "Archive",
+            "sizeKB": 1563.2958984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1492506,
+    "name": "LTX 0.9.6_Distil i2v, With Conditioning",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "devilkkw",
+      "href": "https://civitai.com/users/devilkkw"
+    },
+    "stats": {
+      "downloadCount": 784,
+      "thumbsUpCount": 30,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-04-20T23:19:21.198Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1492506",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cadf9bf1-204e-4b8d-8b75-d55680e52064/width=450/71342534.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cadf9bf1-204e-4b8d-8b75-d55680e52064/original=true/71342534.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1688363,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-20T23:19:21.198Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1688363",
+        "files": [
+          {
+            "name": "ltx096DistilI2vWith_v10.zip",
+            "type": "Archive",
+            "sizeKB": 1157.0888671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2729421,
+    "name": "LTX Director Motion Brush",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 13,
+    "creator": {
+      "username": "exportAnything",
+      "href": "https://civitai.com/users/exportAnything"
+    },
+    "stats": {
+      "downloadCount": 552,
+      "thumbsUpCount": 28,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-06-25T09:19:39.465Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2729421",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/136cab29-93ca-4741-ac81-3e689c69cbe9/width=450/134810282.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/136cab29-93ca-4741-ac81-3e689c69cbe9/original=true/134810282.mp4"
+    },
+    "versions": [
+      {
+        "id": 3068276,
+        "name": "LTX Director Motion Brush",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-25T09:19:39.465Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3068276",
+        "files": [
+          {
+            "name": "ltxDirectorMotion_ltxDirectorMotion.zip",
+            "type": "Archive",
+            "sizeKB": 17.04296875
+          }
+        ]
+      },
+      {
+        "id": 3073729,
+        "name": "GGUF_Low_VRAM",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-27T04:50:24.861Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3073729",
+        "files": [
+          {
+            "name": "ltxDirectorMotion_ggufLowVRAM.zip",
+            "type": "Archive",
+            "sizeKB": 19.5634765625
+          }
+        ]
+      },
+      {
+        "id": 3073740,
+        "name": "Low VRAM",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-27T04:55:59.441Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3073740",
+        "files": [
+          {
+            "name": "ltxDirectorMotion_lowVRAM.zip",
+            "type": "Archive",
+            "sizeKB": 20.43359375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2462680,
+    "name": "LTX 2.3 First Frame, Last Frame GGUF Video Animate",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIMotionStudio",
+      "href": "https://civitai.com/users/AIMotionStudio"
+    },
+    "stats": {
+      "downloadCount": 552,
+      "thumbsUpCount": 24,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-03-13T12:34:46.864Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2462680",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88e3bbc2-c653-486f-84b2-534d8d0c5e3d/width=450/124029193.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88e3bbc2-c653-486f-84b2-534d8d0c5e3d/original=true/124029193.mp4"
+    },
+    "versions": [
+      {
+        "id": 2768948,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-13T12:34:46.864Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2768948",
+        "files": [
+          {
+            "name": "ltx23FirstFrameLast_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.841796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2512392,
+    "name": "LTX 2.3 Video to Video Fast with GGUF",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "cantrollmyrs",
+      "href": "https://civitai.com/users/cantrollmyrs"
+    },
+    "stats": {
+      "downloadCount": 540,
+      "thumbsUpCount": 13,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-02T08:19:26.580Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2512392",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4176480-0d7a-4374-8705-59e441af4a6d/width=450/126161380.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4176480-0d7a-4374-8705-59e441af4a6d/original=true/126161380.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2823971,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-02T08:19:26.580Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2823971",
+        "files": [
+          {
+            "name": "ltx23VideoToVideoFast_v10.zip",
+            "type": "Archive",
+            "sizeKB": 13.5908203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2793299,
+    "name": "LTX 2.3 MSR v2 ( Multi Subject Reference) WORKFLOW",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "TheAiBlueprint",
+      "href": "https://civitai.com/users/TheAiBlueprint"
+    },
+    "stats": {
+      "downloadCount": 515,
+      "thumbsUpCount": 21,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-07-20T16:00:26.640Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2793299",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4051301-0c8a-4b27-bb99-78582e84cd1e/width=450/137293496.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4051301-0c8a-4b27-bb99-78582e84cd1e/original=true/137293496.mp4"
+    },
+    "versions": [
+      {
+        "id": 3148124,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-20T16:00:26.640Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3148124",
+        "files": [
+          {
+            "name": "ltx23MSRV2MultiSubject_v10.json",
+            "type": "Config",
+            "sizeKB": 64.794921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1598046,
+    "name": "LTX video 0.9.7  13B",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "ApexArtist1",
+      "href": "https://civitai.com/users/ApexArtist1"
+    },
+    "stats": {
+      "downloadCount": 504,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-05-19T16:26:17.046Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1598046",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a762e96-f179-41aa-b2ef-a2a78cb18fc1/width=450/77252544.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a762e96-f179-41aa-b2ef-a2a78cb18fc1/original=true/77252544.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1808371,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-19T16:26:17.046Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1808371",
+        "files": [
+          {
+            "name": "ltxVideo09713B_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.921875
+          },
+          {
+            "name": "ltxVideo09713B_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2314536,
+    "name": "LTX2.0_I2V_Automatic prompt",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "BiuBoomFlow",
+      "href": "https://civitai.com/users/BiuBoomFlow"
+    },
+    "stats": {
+      "downloadCount": 488,
+      "thumbsUpCount": 18,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-01-16T21:03:12.086Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2314536",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9e977ef-bed0-484a-ac85-6837454fd386/width=450/117709975.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9e977ef-bed0-484a-ac85-6837454fd386/original=true/117709975.mp4"
+    },
+    "versions": [
+      {
+        "id": 2603998,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-16T21:03:12.086Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2603998",
+        "files": [
+          {
+            "name": "ltx20I2VAutomatic_v10.zip",
+            "type": "Archive",
+            "sizeKB": 23.416015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2683916,
+    "name": "ComfyUI LTX 2.3 Singularity FLFV First and Last Frame(NSFW)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 474,
+      "thumbsUpCount": 14,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-06-08T02:10:19.244Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2683916",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98c2633a-2da9-486b-86ce-7ecc2cd726d1/width=450/133146096.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98c2633a-2da9-486b-86ce-7ecc2cd726d1/original=true/133146096.mp4"
+    },
+    "versions": [
+      {
+        "id": 3013634,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-08T02:10:19.244Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3013634",
+        "files": [
+          {
+            "name": "comfyuiLTX23Singularity_v10.zip",
+            "type": "Archive",
+            "sizeKB": 21.3388671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2523106,
+    "name": "Ltx 2.3 Custom Motion (IC Lora) Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "AiVerse",
+      "href": "https://civitai.com/users/AiVerse"
+    },
+    "stats": {
+      "downloadCount": 470,
+      "thumbsUpCount": 15,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-06T14:00:14.994Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2523106",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14d4753d-af09-4e2b-8224-705255a60f46/width=450/126601880.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14d4753d-af09-4e2b-8224-705255a60f46/original=true/126601880.mp4"
+    },
+    "versions": [
+      {
+        "id": 2835797,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-06T14:00:14.994Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2835797",
+        "files": [
+          {
+            "name": "ltx23CustomMotionIC_v10.zip",
+            "type": "Archive",
+            "sizeKB": 9.7158203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2775115,
+    "name": "LTX 2.3 - Long V2V (with GGUF)",
+    "type": "Workflows",
+    "baseModel": "LTXV2",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "trashkollector175",
+      "href": "https://civitai.com/users/trashkollector175"
+    },
+    "stats": {
+      "downloadCount": 456,
+      "thumbsUpCount": 14,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-07-24T21:29:12.201Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2775115",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7178dcdd-c5a6-4291-9f81-d6e63d37d3c4/width=450/137206238.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7178dcdd-c5a6-4291-9f81-d6e63d37d3c4/original=true/137206238.mp4"
+    },
+    "versions": [
+      {
+        "id": 3161032,
+        "name": "v1.2",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-07-24T21:29:12.201Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3161032",
+        "files": [
+          {
+            "name": "ltx23LongV2VWithGGUF_v12.zip",
+            "type": "Archive",
+            "sizeKB": 20.314453125
+          }
+        ]
+      },
+      {
+        "id": 3145510,
+        "name": "v1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-19T19:48:12.288Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3145510",
+        "files": [
+          {
+            "name": "ltx23LongV2VWithGGUF_v11.zip",
+            "type": "Archive",
+            "sizeKB": 20.501953125
+          }
+        ]
+      },
+      {
+        "id": 3124850,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-07-13T04:42:11.974Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3124850",
+        "files": [
+          {
+            "name": "ltx23LongV2VWithGGUF_v10.json",
+            "type": "Config",
+            "sizeKB": 99.8046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1326162,
+    "name": "ComfyUI — LTX-V Technomancy",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "RedPinkRetro",
+      "href": "https://civitai.com/users/RedPinkRetro"
+    },
+    "stats": {
+      "downloadCount": 440,
+      "thumbsUpCount": 26,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-03-11T00:44:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1326162",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/267c4b9b-88f4-4c16-af80-0bf44aaf3ffd/width=450/62785315.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/267c4b9b-88f4-4c16-af80-0bf44aaf3ffd/original=true/62785315.mp4"
+    },
+    "versions": [
+      {
+        "id": 1517350,
+        "name": "v2",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-03-11T00:44:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1517350",
+        "files": [
+          {
+            "name": "comfyuiLTXV_v2.zip",
+            "type": "Archive",
+            "sizeKB": 47.1904296875
+          }
+        ]
+      },
+      {
+        "id": 1497256,
+        "name": "v1",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-03-06T01:03:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1497256",
+        "files": [
+          {
+            "name": "comfyuiLTXV_v1.zip",
+            "type": "Archive",
+            "sizeKB": 15.705078125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2879660,
+    "name": "🎬 LTX 2.5: Motion Sync | Seamless Rapid Workflow | Superfast RTX Upscaling🎬",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.5",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "BopStar",
+      "href": "https://civitai.com/users/BopStar"
+    },
+    "stats": {
+      "downloadCount": 433,
+      "thumbsUpCount": 30,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-25T09:01:34.530Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2879660",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4853da46-8b5d-4f09-a78c-c53332234fbe/width=450/140782373.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4853da46-8b5d-4f09-a78c-c53332234fbe/original=true/140782373.mp4"
+    },
+    "versions": [
+      {
+        "id": 3265066,
+        "name": "Flyv2.0",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-25T09:01:34.530Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3265066",
+        "files": [
+          {
+            "name": "LTX25MotionSyncSeamlessRapid_flyv20.json",
+            "type": "Config",
+            "sizeKB": 236.935546875
+          }
+        ]
+      },
+      {
+        "id": 3254520,
+        "name": "Fastv1.0",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-22T07:22:13.295Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3254520",
+        "files": [
+          {
+            "name": "LTX25MotionSyncSeamlessRapid_fastv10.zip",
+            "type": "Archive",
+            "sizeKB": 13937.763671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1551322,
+    "name": "Recursive Image to Videol",
+    "type": "Workflows",
+    "baseModel": "Wan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "ryanontheinside",
+      "href": "https://civitai.com/users/ryanontheinside"
+    },
+    "stats": {
+      "downloadCount": 404,
+      "thumbsUpCount": 19,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-05-06T19:46:06.159Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1551322",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f03a2be4-92ec-412e-aa11-549fa53f67e5/width=450/74627087.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f03a2be4-92ec-412e-aa11-549fa53f67e5/original=true/74627087.mp4"
+    },
+    "versions": [
+      {
+        "id": 1755493,
+        "name": "WAN Infinite Video",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-05-06T19:46:06.159Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1755493",
+        "files": [
+          {
+            "name": "recursiveImageTo_wanInfiniteVideo.zip",
+            "type": "Archive",
+            "sizeKB": 2249.0947265625
+          }
+        ]
+      },
+      {
+        "id": 1755379,
+        "name": "LTX Infinite Video",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-06T19:47:09.238Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1755379",
+        "files": [
+          {
+            "name": "recursiveImageTo_ltxInfiniteVideo.zip",
+            "type": "Archive",
+            "sizeKB": 2248.146484375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2772148,
+    "name": "LTX 2.5 _ text and image to video",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.5",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "saeedkhalili",
+      "href": "https://civitai.com/users/saeedkhalili"
+    },
+    "stats": {
+      "downloadCount": 385,
+      "thumbsUpCount": 11,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-25T07:07:21.552Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2772148",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16784b50-33a3-461e-8622-54a3ad424a56/width=450/140775548.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16784b50-33a3-461e-8622-54a3ad424a56/original=true/140775548.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3264800,
+        "name": "v2.0",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-25T07:07:21.552Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3264800",
+        "files": [
+          {
+            "name": "ltx25TextAndImageTo_v20.json",
+            "type": "Config",
+            "sizeKB": 108.025390625
+          }
+        ]
+      },
+      {
+        "id": 3121270,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-12T03:04:46.848Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3121270",
+        "files": [
+          {
+            "name": "ltx25TextAndImageTo_v10.json",
+            "type": "Config",
+            "sizeKB": 100.6259765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2434596,
+    "name": "LTX2 Img and Audio to Video",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "TheGeekyGhost",
+      "href": "https://civitai.com/users/TheGeekyGhost"
+    },
+    "stats": {
+      "downloadCount": 346,
+      "thumbsUpCount": 16,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-19T15:20:15.985Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2434596",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/df92bb8a-38c2-4b8b-8a7e-8fb428e84878/width=450/127978678.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/df92bb8a-38c2-4b8b-8a7e-8fb428e84878/original=true/127978678.mp4"
+    },
+    "versions": [
+      {
+        "id": 2873732,
+        "name": "LTX 2.3 KJ Stripped 1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-19T15:20:15.985Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2873732",
+        "files": [
+          {
+            "name": "ltx2ImgAndAudioTo_ltx23KJStripped11.zip",
+            "type": "Archive",
+            "sizeKB": 12.0458984375
+          }
+        ]
+      },
+      {
+        "id": 2737372,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-03-02T12:05:15.252Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2737372",
+        "files": [
+          {
+            "name": "ltx2ImgAndAudioTo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 15.4990234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2568753,
+    "name": "LTX 2.3 - WW's Distilled Enhancer Experiment",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "WickedWays",
+      "href": "https://civitai.com/users/WickedWays"
+    },
+    "stats": {
+      "downloadCount": 336,
+      "thumbsUpCount": 16,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-04-24T06:45:47.617Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2568753",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d2bfa5f-938b-4dbc-983b-12b9a4290c7a/width=450/128444663.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d2bfa5f-938b-4dbc-983b-12b9a4290c7a/original=true/128444663.mp4"
+    },
+    "versions": [
+      {
+        "id": 2886408,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-24T06:45:47.617Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2886408",
+        "files": [
+          {
+            "name": "ltx23WwsDistilled_v10.json",
+            "type": "Config",
+            "sizeKB": 120.0380859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2314523,
+    "name": "LTX2.0_T2V_Automatic prompt",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "BiuBoomFlow",
+      "href": "https://civitai.com/users/BiuBoomFlow"
+    },
+    "stats": {
+      "downloadCount": 283,
+      "thumbsUpCount": 17,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-01-16T20:59:20.176Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2314523",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a80e3718-02a3-4b1b-9477-787a34949dd8/width=450/117709523.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a80e3718-02a3-4b1b-9477-787a34949dd8/original=true/117709523.mp4"
+    },
+    "versions": [
+      {
+        "id": 2603985,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-16T20:59:20.176Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2603985",
+        "files": [
+          {
+            "name": "ltx20T2VAutomatic_v10.zip",
+            "type": "Archive",
+            "sizeKB": 22.3701171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2825528,
+    "name": "LTX 2.3 Play - EZ - L10N 💙💛",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "L10n_H34r7",
+      "href": "https://civitai.com/users/L10n_H34r7"
+    },
+    "stats": {
+      "downloadCount": 255,
+      "thumbsUpCount": 14,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-15T12:23:49.634Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2825528",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9495ef62-d95e-463f-9ac0-4afc1762aaa2/width=450/138428738.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9495ef62-d95e-463f-9ac0-4afc1762aaa2/original=true/138428738.mp4"
+    },
+    "versions": [
+      {
+        "id": 3231338,
+        "name": "v1.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-08-15T12:23:49.634Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3231338",
+        "files": [
+          {
+            "name": "ltx23PlayEZL10N_v11.json",
+            "type": "Config",
+            "sizeKB": 39.8193359375
+          }
+        ]
+      },
+      {
+        "id": 3200312,
+        "name": "LTX Play L10n V1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-08-05T11:54:49.538Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3200312",
+        "files": [
+          {
+            "name": "ltx23PlayEZL10N_ltxPlayL10nV1.json",
+            "type": "Config",
+            "sizeKB": 39.9267578125
+          }
+        ]
+      },
+      {
+        "id": 3187708,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-08-01T11:13:47.152Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3187708",
+        "files": [
+          {
+            "name": "ltx23PlayEZL10N_v10.json",
+            "type": "Config",
+            "sizeKB": 56.5283203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1526586,
+    "name": "ltx T2V/I2V Generate Video assessment workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 232,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-04-30T07:53:25.034Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1526586",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f5b59f2d-2cae-4136-9059-a04baa731d8d/width=450/74506772.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f5b59f2d-2cae-4136-9059-a04baa731d8d/original=true/74506772.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1727247,
+        "name": "I2V",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-30T07:53:25.034Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1727247",
+        "files": [
+          {
+            "name": "ltxT2VI2VGenerateVideo_i2v.zip",
+            "type": "Archive",
+            "sizeKB": 2.3291015625
+          }
+        ]
+      },
+      {
+        "id": 1727238,
+        "name": "LTX T2V",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-30T07:49:59.206Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1727238",
+        "files": [
+          {
+            "name": "ltxT2VI2VGenerateVideo_ltxT2V.zip",
+            "type": "Archive",
+            "sizeKB": 2.41015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2803304,
+    "name": "LTX 2.3 3D Real workflow ( 3D Render To Realistic Video)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "TheAiBlueprint",
+      "href": "https://civitai.com/users/TheAiBlueprint"
+    },
+    "stats": {
+      "downloadCount": 201,
+      "thumbsUpCount": 14,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-07-24T16:00:27.725Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2803304",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc764095-0dd9-4466-960a-cb916aa443bf/width=450/137668084.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc764095-0dd9-4466-960a-cb916aa443bf/original=true/137668084.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3160501,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-24T16:00:27.725Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3160501",
+        "files": [
+          {
+            "name": "ltx233DRealWorkflow3D_v10.json",
+            "type": "Config",
+            "sizeKB": 126.423828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2294482,
+    "name": "LTX 2.0 Smart Prompt Dynamic Enhancement with Accelerated Camera Movement for Low-VRAM Version Text-to-Video V1",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 175,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-01-09T18:43:38.884Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2294482",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec9fe742-ef7b-46c6-926e-ddce8e34615e/width=450/116893203.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec9fe742-ef7b-46c6-926e-ddce8e34615e/original=true/116893203.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2581946,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-09T18:43:38.884Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2581946",
+        "files": [
+          {
+            "name": "ltx20SmartPromptDynamic_v10.zip",
+            "type": "Archive",
+            "sizeKB": 15.0341796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1526604,
+    "name": "LTXTricks Extreme Video Reversal Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 168,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-04-30T08:03:28.898Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1526604",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d22dfb69-8193-4d7f-b8b2-d288af1957d2/width=450/73236895.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d22dfb69-8193-4d7f-b8b2-d288af1957d2/original=true/73236895.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1727266,
+        "name": "RF-Solver-Eidt",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-30T08:03:28.898Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1727266",
+        "files": [
+          {
+            "name": "ltxtricksExtremeVideo_rfSolverEidt.zip",
+            "type": "Archive",
+            "sizeKB": 4.95703125
+          }
+        ]
+      },
+      {
+        "id": 1727260,
+        "name": "RF-Inversion",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-30T08:01:51.662Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1727260",
+        "files": [
+          {
+            "name": "ltxtricksExtremeVideo_rfInversion.zip",
+            "type": "Archive",
+            "sizeKB": 4.4609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2866454,
+    "name": "Part_04_-_LTX_Video_Workflows",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "ShotGutter338",
+      "href": "https://civitai.com/users/ShotGutter338"
+    },
+    "stats": {
+      "downloadCount": 146,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-18T09:47:28.558Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2866454",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e0e29fb-bbed-45b3-96e8-c8802363f191/width=450/140058896.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e0e29fb-bbed-45b3-96e8-c8802363f191/original=true/140058896.mp4"
+    },
+    "versions": [
+      {
+        "id": 3241290,
+        "name": "v0.02",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-08-18T09:47:28.558Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3241290",
+        "files": [
+          {
+            "name": "part04LTXVideo_v002.zip",
+            "type": "Archive",
+            "sizeKB": 8671.890625
+          }
+        ]
+      },
+      {
+        "id": 3238329,
+        "name": "v0.01",
+        "baseModel": "Flux.2 Klein 9B",
+        "updatedAt": "2026-08-17T11:40:59.225Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3238329",
+        "files": [
+          {
+            "name": "part04LTXVideo_v001.zip",
+            "type": "Archive",
+            "sizeKB": 8661.998046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2660867,
+    "name": "PlagueKind Nodes - LTX Compatible LoRA Stack + Unified Resize Tools (ComfyUI)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Plaguekind",
+      "href": "https://civitai.com/users/Plaguekind"
+    },
+    "stats": {
+      "downloadCount": 136,
+      "thumbsUpCount": 9,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 100,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-05-29T17:16:31.398Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2660867",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a8045e2-79f1-4894-9e46-42cd9c0568c6/width=450/132227396.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a8045e2-79f1-4894-9e46-42cd9c0568c6/original=true/132227396.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2987830,
+        "name": "v1.1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-29T17:16:31.398Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2987830",
+        "files": [
+          {
+            "name": "plaguekindNodesLTXCompatible_v110.zip",
+            "type": "Archive",
+            "sizeKB": 86.990234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2892501,
+    "name": "Image Prompt Enhancer compatible with Qwen 3.8 9B (Extreme Fast)",
+    "type": "Workflows",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "biosal",
+      "href": "https://civitai.com/users/biosal"
+    },
+    "stats": {
+      "downloadCount": 131,
+      "thumbsUpCount": 6,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-27T00:05:35.202Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2892501",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89d19341-4aa5-4a6c-9d1f-fc5c26c34232/width=450/140941376.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89d19341-4aa5-4a6c-9d1f-fc5c26c34232/original=true/140941376.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3270348,
+        "name": "v1.0",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-27T00:05:35.202Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3270348",
+        "files": [
+          {
+            "name": "imagePromptEnhancerCompatible_v10.json",
+            "type": "Config",
+            "sizeKB": 17.9619140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1529679,
+    "name": "Ltx 0.91 new model text/graphic raw video workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 131,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-05-01T04:48:23.875Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1529679",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/483f0c03-e614-4bab-b866-0340277f2887/width=450/74517176.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/483f0c03-e614-4bab-b866-0340277f2887/original=true/74517176.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1730733,
+        "name": "i2V",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-01T04:48:23.875Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1730733",
+        "files": [
+          {
+            "name": "ltx091NewModelText_i2v.zip",
+            "type": "Archive",
+            "sizeKB": 6.021484375
+          }
+        ]
+      },
+      {
+        "id": 1730721,
+        "name": "T2V",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-01T04:45:24.719Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1730721",
+        "files": [
+          {
+            "name": "ltx091NewModelText_t2v.zip",
+            "type": "Archive",
+            "sizeKB": 8.7265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2754564,
+    "name": "LTX-2.3 Image Upscaler - Apple Silicon / Mac (GGUF port)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "bambushu",
+      "href": "https://civitai.com/users/bambushu"
+    },
+    "stats": {
+      "downloadCount": 107,
+      "thumbsUpCount": 9,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-07-05T07:24:14.721Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2754564",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac9a191e-5a57-46a3-8c14-e768ab35f3be/width=450/135787970.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac9a191e-5a57-46a3-8c14-e768ab35f3be/original=true/135787970.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3099293,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-05T07:24:14.721Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3099293",
+        "files": [
+          {
+            "name": "ltx23ImageUpscalerApple_v10.json",
+            "type": "Config",
+            "sizeKB": 19.005859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2808963,
+    "name": "[Workflow] LTX2.3 Lip Sync · Image + Audio to Video For Anime",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FloyoAI",
+      "href": "https://civitai.com/users/FloyoAI"
+    },
+    "stats": {
+      "downloadCount": 105,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-07-26T14:12:22.783Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2808963",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7663c6b6-7dec-4106-b5d1-121a39c2d4fe/width=450/138071324.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7663c6b6-7dec-4106-b5d1-121a39c2d4fe/original=true/138071324.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3167535,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-26T14:12:22.783Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3167535",
+        "files": [
+          {
+            "name": "WorkflowLTX23LipSyncImage_v10.json",
+            "type": "Config",
+            "sizeKB": 219.7802734375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1534526,
+    "name": "LTx Tucson Video Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 104,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-05-02T12:43:29.494Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1534526",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a79e43a-ce98-4a75-948b-38ea809b72fa/width=450/76374147.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a79e43a-ce98-4a75-948b-38ea809b72fa/original=true/76374147.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1736260,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-02T12:43:29.494Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1736260",
+        "files": [
+          {
+            "name": "ltxTucsonVideo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.0625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2866679,
+    "name": "[Workflow] LTX 2.3 and LTXDirector for Video Generation",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FloyoAI",
+      "href": "https://civitai.com/users/FloyoAI"
+    },
+    "stats": {
+      "downloadCount": 81,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2026-08-17T13:00:40.482Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2866679",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5455c94-2e9d-4a6f-8f3c-6f522b3cb462/width=450/139979561.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5455c94-2e9d-4a6f-8f3c-6f522b3cb462/original=true/139979561.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3238605,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-08-17T13:00:40.482Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3238605",
+        "files": [
+          {
+            "name": "WorkflowLTX23And_v10.json",
+            "type": "Config",
+            "sizeKB": 95.3798828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1529674,
+    "name": "Ltx 0.91 new model text/graphic raw video workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 69,
+      "thumbsUpCount": 1,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:14+00:00"
+    },
+    "lastUpdated": "2025-05-02T13:16:48.484Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1529674",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb9465af-49d2-4c4a-bd0b-0320b0241b91/width=450/74793105.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb9465af-49d2-4c4a-bd0b-0320b0241b91/original=true/74793105.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1730715,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-02T13:16:48.484Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1730715",
+        "files": [
+          {
+            "name": "ltx091NewModelText_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.021484375
+          }
+        ]
+      }
+    ]
+  }
+]

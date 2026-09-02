@@ -1,0 +1,20 @@
+{
+ "generated": "2026-09-02T00:59:03",
+ "cuts": [
+  {
+   "stage": "MOTION",
+   "cut": 817,
+   "reason": "downloads < 500 (anti-farm floor)"
+  },
+  {
+   "stage": "NSFW",
+   "cut": 145,
+   "reason": "downloads < 500 (anti-farm floor)"
+  },
+  {
+   "stage": "PERSONA",
+   "cut": 420,
+   "reason": "downloads < 500 (anti-farm floor)"
+  }
+ ]
+}

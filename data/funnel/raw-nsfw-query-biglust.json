@@ -1,0 +1,857 @@
+[
+  {
+    "id": 575395,
+    "name": "Big Lust",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "waterdrinker",
+      "href": "https://civitai.com/users/waterdrinker"
+    },
+    "stats": {
+      "downloadCount": 110783,
+      "thumbsUpCount": 3729,
+      "thumbsDownCount": 13,
+      "commentCount": 0,
+      "tippedAmountCount": 11958,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2024-11-20T15:47:30.905Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Image",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/575395",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83797d58-8805-4772-8604-c8b72b7a092e/width=450/41146710.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83797d58-8805-4772-8604-c8b72b7a092e/original=true/41146710.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1081768,
+        "name": "v1.6",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-20T15:47:30.905Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1081768",
+        "files": [
+          {
+            "name": "bigLust_v16.safetensors",
+            "type": "Model",
+            "sizeKB": 6775447.595703125
+          }
+        ]
+      },
+      {
+        "id": 929239,
+        "name": "v1.5",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-10-07T03:56:27.104Z",
+        "downloadUrl": "https://civitai.com/api/download/models/929239",
+        "files": [
+          {
+            "name": "bigLust_v15.safetensors",
+            "type": "Model",
+            "sizeKB": 6775451.556640625
+          }
+        ]
+      },
+      {
+        "id": 641504,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-15T13:08:37.229Z",
+        "downloadUrl": "https://civitai.com/api/download/models/641504",
+        "files": [
+          {
+            "name": "bigLust_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6973390.431640625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1004554,
+    "name": "BigLustyDonutMix (NSFW Realism)",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "DonutsDelivery",
+      "href": "https://civitai.com/users/DonutsDelivery"
+    },
+    "stats": {
+      "downloadCount": 15500,
+      "thumbsUpCount": 754,
+      "thumbsDownCount": 5,
+      "commentCount": 0,
+      "tippedAmountCount": 7000,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-02-11T14:10:21.660Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Image",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1004554",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65e4077f-6968-4f96-8fd8-167b554b59dd/width=450/57416818.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65e4077f-6968-4f96-8fd8-167b554b59dd/original=true/57416818.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1400578,
+        "name": "v1.2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-02-11T14:10:21.660Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1400578",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v12.safetensors",
+            "type": "Model",
+            "sizeKB": 6775842.673828125
+          }
+        ]
+      },
+      {
+        "id": 1216061,
+        "name": "v1.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-29T12:13:18.086Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1216061",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v11.safetensors",
+            "type": "Model",
+            "sizeKB": 6775436.658203125
+          }
+        ]
+      },
+      {
+        "id": 1220325,
+        "name": "v1.1B",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-30T16:08:04.431Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1220325",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v11B.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.962890625
+          }
+        ]
+      },
+      {
+        "id": 1125902,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-03T18:45:41.108Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1125902",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6775435.416015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 764149,
+    "name": "Big Lust NSFW - Explicit RAW Photography",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "AgitoRivers",
+      "href": "https://civitai.com/users/AgitoRivers"
+    },
+    "stats": {
+      "downloadCount": 6367,
+      "thumbsUpCount": 381,
+      "thumbsDownCount": 1,
+      "commentCount": 8,
+      "tippedAmountCount": 1380,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2024-09-16T11:28:24.176Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/764149",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c83cd85-6795-4b70-980c-07dd42df0198/width=450/29704348.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c83cd85-6795-4b70-980c-07dd42df0198/original=true/29704348.jpeg"
+    },
+    "versions": [
+      {
+        "id": 854747,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-09-16T11:28:24.176Z",
+        "downloadUrl": "https://civitai.com/api/download/models/854747",
+        "files": [
+          {
+            "name": "SDXL_RAW_photography.safetensors",
+            "type": "Model",
+            "sizeKB": 223114.90234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2695944,
+    "name": "BigLust1.7",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "dh1d",
+      "href": "https://civitai.com/users/dh1d"
+    },
+    "stats": {
+      "downloadCount": 897,
+      "thumbsUpCount": 33,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2026-06-12T21:06:12.072Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2695944",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14a391ed-f057-4697-9fca-87de204823ec/width=450/133598289.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14a391ed-f057-4697-9fca-87de204823ec/original=true/133598289.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3027248,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-06-12T21:06:12.072Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3027248",
+        "files": [
+          {
+            "name": "biglust17_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6775439.962890625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1920585,
+    "name": "FootJob (Big Lust 1.6)",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "SynthCeIebreaker",
+      "href": "https://civitai.com/users/SynthCeIebreaker"
+    },
+    "stats": {
+      "downloadCount": 523,
+      "thumbsUpCount": 39,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-09-02T03:57:03.911Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1920585",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f47e8860-7009-4f40-b9a8-50c2f6d02912/width=450/97881643.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f47e8860-7009-4f40-b9a8-50c2f6d02912/original=true/97881643.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2173808,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-09-02T03:57:03.911Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2173808",
+        "files": [
+          {
+            "name": "FootJob.safetensors",
+            "type": "Model",
+            "sizeKB": 223099.67578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1377544,
+    "name": "Sunburned (Big Lust)",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "DangerD",
+      "href": "https://civitai.com/users/DangerD"
+    },
+    "stats": {
+      "downloadCount": 828,
+      "thumbsUpCount": 37,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-03-20T12:19:56.257Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1377544",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91612fcd-884a-4d54-9c1a-fd7c2dbdf710/width=450/64648654.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91612fcd-884a-4d54-9c1a-fd7c2dbdf710/original=true/64648654.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1556466,
+        "name": "V1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-20T12:19:56.257Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1556466",
+        "files": [
+          {
+            "name": "Sunburned.safetensors",
+            "type": "Model",
+            "sizeKB": 223101.68359375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1889681,
+    "name": "Glory Hole (Big Lust 1.6)",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "SynthCeIebreaker",
+      "href": "https://civitai.com/users/SynthCeIebreaker"
+    },
+    "stats": {
+      "downloadCount": 878,
+      "thumbsUpCount": 50,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-08-22T18:14:16.472Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1889681",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321bef47-bd20-407b-b552-f5fecfb7c791/width=450/95864163.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321bef47-bd20-407b-b552-f5fecfb7c791/original=true/95864163.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2138925,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-08-22T18:14:16.472Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2138925",
+        "files": [
+          {
+            "name": "Glory_Hole.safetensors",
+            "type": "Model",
+            "sizeKB": 223101.68359375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1931887,
+    "name": "Cock on her face (Big Lust 1.6)",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "SynthCeIebreaker",
+      "href": "https://civitai.com/users/SynthCeIebreaker"
+    },
+    "stats": {
+      "downloadCount": 796,
+      "thumbsUpCount": 45,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-09-05T23:46:22.095Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1931887",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b33928ad-2d0b-4501-8351-be13175f5faa/width=450/98607346.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b33928ad-2d0b-4501-8351-be13175f5faa/original=true/98607346.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2186544,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-09-05T23:46:22.095Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2186544",
+        "files": [
+          {
+            "name": "Cock_on_her_face.safetensors",
+            "type": "Model",
+            "sizeKB": 223099.19140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2482434,
+    "name": "Better Pussy BigLust_16",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "megidd055",
+      "href": "https://civitai.com/users/megidd055"
+    },
+    "stats": {
+      "downloadCount": 860,
+      "thumbsUpCount": 43,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2026-03-21T13:36:23.333Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2482434",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/735fb25c-c6b6-44ae-84e8-187c31a65273/width=450/124892371.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/735fb25c-c6b6-44ae-84e8-187c31a65273/original=true/124892371.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2790989,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-03-21T13:36:23.333Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2790989",
+        "files": [
+          {
+            "name": "Pussy.safetensors",
+            "type": "Model",
+            "sizeKB": 41860.76171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1822821,
+    "name": "AI Girl 01 - Big Lust LoRA",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "Hikarias",
+      "href": "https://civitai.com/users/Hikarias"
+    },
+    "stats": {
+      "downloadCount": 1885,
+      "thumbsUpCount": 40,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-07-30T05:30:22.768Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1822821",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81aff2a7-feee-4cb1-8bed-b073c6dfcc99/width=450/91319301.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81aff2a7-feee-4cb1-8bed-b073c6dfcc99/original=true/91319301.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2062752,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-07-30T05:30:22.768Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2062752",
+        "files": [
+          {
+            "name": "k4ty0-step00001800.safetensors",
+            "type": "Model",
+            "sizeKB": 181341.82421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1604808,
+    "name": "2D Style for Biglust",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 28,
+    "creator": {
+      "username": "AIDivision",
+      "href": "https://civitai.com/users/AIDivision"
+    },
+    "stats": {
+      "downloadCount": 337,
+      "thumbsUpCount": 27,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-05-21T12:45:35.778Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1604808",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed70d6d3-df91-41e5-9ded-25b045941cdc/width=450/77603355.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed70d6d3-df91-41e5-9ded-25b045941cdc/original=true/77603355.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1816045,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-05-21T12:45:35.778Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1816045",
+        "files": [
+          {
+            "name": "2dstyle_v2.safetensors",
+            "type": "Model",
+            "sizeKB": 166560.29296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1359295,
+    "name": "Futanari Huge Flaccid Penis DMD2 [Biglust/Lustify/BigLove/BigAsp]",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "Zenpand",
+      "href": "https://civitai.com/users/Zenpand"
+    },
+    "stats": {
+      "downloadCount": 4084,
+      "thumbsUpCount": 306,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 500,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-03-15T11:31:49.077Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1359295",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4ea2f1d-7b24-4091-a70e-68d65c0d8f13/width=450/63641757.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4ea2f1d-7b24-4091-a70e-68d65c0d8f13/original=true/63641757.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1535516,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-15T11:31:49.077Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1535516",
+        "files": [
+          {
+            "name": "HugeFlaccid.safetensors",
+            "type": "Model",
+            "sizeKB": 223099.76171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1359613,
+    "name": "Futanari Huge Erect Penis SDXL DMD2 [Biglust/Lustify/BigLove/BigAsp]",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "Zenpand",
+      "href": "https://civitai.com/users/Zenpand"
+    },
+    "stats": {
+      "downloadCount": 4520,
+      "thumbsUpCount": 301,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-03-15T13:14:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1359613",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3195867f-12a5-4847-addf-e0fa0bfdcde4/width=450/63655572.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3195867f-12a5-4847-addf-e0fa0bfdcde4/original=true/63655572.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1535887,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-15T13:14:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1535887",
+        "files": [
+          {
+            "name": "Huge erect.safetensors",
+            "type": "Model",
+            "sizeKB": 223100.36328125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1373491,
+    "name": "Futanari Huge Bulge + Flaccid Penis SDXL DMD2 [Biglust/Lustify/BigLove/BigAsp]",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "Zenpand",
+      "href": "https://civitai.com/users/Zenpand"
+    },
+    "stats": {
+      "downloadCount": 1946,
+      "thumbsUpCount": 160,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2025-03-19T08:40:56.860Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1373491",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa726dcd-cbe5-4222-95e0-c6253716519a/width=450/64400021.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa726dcd-cbe5-4222-95e0-c6253716519a/original=true/64400021.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1551854,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-19T08:40:56.860Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1551854",
+        "files": [
+          {
+            "name": "bulgelust.safetensors",
+            "type": "Model",
+            "sizeKB": 223099.33203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 914740,
+    "name": "SL_Nude - Sri Lankan Nude V1 - Big Lust",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "Ceylon_Ai",
+      "href": "https://civitai.com/users/Ceylon_Ai"
+    },
+    "stats": {
+      "downloadCount": 649,
+      "thumbsUpCount": 53,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:06+00:00"
+    },
+    "lastUpdated": "2024-11-04T13:11:19.742Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/914740",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92ef5836-0304-47ad-b0ae-527ad2620c79/width=450/38283477.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92ef5836-0304-47ad-b0ae-527ad2620c79/original=true/38283477.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1023798,
+        "name": "V1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-04T13:11:19.742Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1023798",
+        "files": [
+          {
+            "name": "SL_Nude.safetensors",
+            "type": "Model",
+            "sizeKB": 223103.51171875
+          }
+        ]
+      }
+    ]
+  }
+]

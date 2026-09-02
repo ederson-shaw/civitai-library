@@ -1,0 +1,1783 @@
+[
+  {
+    "id": 2834514,
+    "name": "Minimax H3 T2V / I2V / REF2V Advanced Filmmaking Workflow | All Speedups + QoL Features",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "foxydits",
+      "href": "https://civitai.com/users/foxydits"
+    },
+    "stats": {
+      "downloadCount": 17017,
+      "thumbsUpCount": 597,
+      "thumbsDownCount": 1,
+      "commentCount": 106,
+      "tippedAmountCount": 2210,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-16T00:15:43.651Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2834514",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/859cb6d2-ee4c-4551-baff-4005cf5f581d/width=450/139821277.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/859cb6d2-ee4c-4551-baff-4005cf5f581d/original=true/139821277.mp4"
+    },
+    "versions": [
+      {
+        "id": 3233131,
+        "name": "v2.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-16T00:15:43.651Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3233131",
+        "files": [
+          {
+            "name": "minimaxH3T2VI2VREF2VAdvanced_v20.json",
+            "type": "Config",
+            "sizeKB": 126.2392578125
+          }
+        ]
+      },
+      {
+        "id": 3218087,
+        "name": "v1.8",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-11T05:58:27.986Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3218087",
+        "files": [
+          {
+            "name": "minimaxH3T2VI2VREF2VAdvanced_v18.json",
+            "type": "Config",
+            "sizeKB": 91.4521484375
+          }
+        ]
+      },
+      {
+        "id": 3201486,
+        "name": "v1.6",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-05T19:52:15.115Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3201486",
+        "files": [
+          {
+            "name": "minimaxH3T2VI2VREF2VAdvanced_v16.json",
+            "type": "Config",
+            "sizeKB": 87.7041015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2831976,
+    "name": "Minimax H3: EZ  | Turbo . Optimal . RTX Upscale . LTX Refine | R2VA . ITVA . T2VA . FL2VA",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "mrweaz",
+      "href": "https://civitai.com/users/mrweaz"
+    },
+    "stats": {
+      "downloadCount": 13414,
+      "thumbsUpCount": 270,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-29T07:05:42.372Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2831976",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eada5d86-2b03-4c58-841f-8f573a9fcf39/width=450/141172693.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eada5d86-2b03-4c58-841f-8f573a9fcf39/original=true/141172693.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3276744,
+        "name": "V4.1 - LTX 2.5 Refiner",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-29T07:05:42.372Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3276744",
+        "files": [
+          {
+            "name": "minimaxH3EZTurboOptimalRTXUpscale_v41LTX25Refiner.json",
+            "type": "Config",
+            "sizeKB": 173.498046875
+          }
+        ]
+      },
+      {
+        "id": 3208667,
+        "name": "v3.6 - REMADE",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-08T05:05:57.274Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3208667",
+        "files": [
+          {
+            "name": "minimaxH3EZTurboOptimalRTXUpscale_v36REMADE.json",
+            "type": "Config",
+            "sizeKB": 134.126953125
+          }
+        ]
+      },
+      {
+        "id": 3205415,
+        "name": "v2.2.1 - DONT USE",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-07T04:17:57.811Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3205415",
+        "files": [
+          {
+            "name": "minimaxH3EZTurboOptimalRTXUpscale_v221DONTUSE.json",
+            "type": "Config",
+            "sizeKB": 130.140625
+          }
+        ]
+      },
+      {
+        "id": 3195696,
+        "name": "v1.1 - DONT USE",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-03T22:25:20.036Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3195696",
+        "files": [
+          {
+            "name": "minimaxH3EZTurboOptimalRTXUpscale_v11DONTUSE.json",
+            "type": "Config",
+            "sizeKB": 58.3017578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2318224,
+    "name": "nnegret | Simple workflows collection Minimax FluxKlein",
+    "type": "Workflows",
+    "baseModel": "Flux.2 Klein 9B",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "nnegret",
+      "href": "https://civitai.com/users/nnegret"
+    },
+    "stats": {
+      "downloadCount": 3247,
+      "thumbsUpCount": 73,
+      "thumbsDownCount": 0,
+      "commentCount": 6,
+      "tippedAmountCount": 100,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-02-25T13:48:41.420Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2318224",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/764b336f-60cc-4700-b999-69faec3987b3/width=450/122338363.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/764b336f-60cc-4700-b999-69faec3987b3/original=true/122338363.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2722507,
+        "name": "Klein anything 2 anime",
+        "baseModel": "Flux.2 Klein 9B",
+        "updatedAt": "2026-02-25T13:48:41.420Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2722507",
+        "files": [
+          {
+            "name": "nnegretSimpleWorkflows_kleinAnything2Anime.zip",
+            "type": "Archive",
+            "sizeKB": 4.0087890625
+          }
+        ]
+      },
+      {
+        "id": 2659083,
+        "name": "Klein Detailerupscaler",
+        "baseModel": "Flux.2 Klein 9B-base",
+        "updatedAt": "2026-02-04T10:04:45.107Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2659083",
+        "files": [
+          {
+            "name": "nnegretSimpleWorkflows_klein.zip",
+            "type": "Archive",
+            "sizeKB": 4.0380859375
+          }
+        ]
+      },
+      {
+        "id": 2608063,
+        "name": "Klein T2I",
+        "baseModel": "Flux.2 D",
+        "updatedAt": "2026-01-18T07:25:26.346Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2608063",
+        "files": [
+          {
+            "name": "nnegretSimpleWorkflows_kleinT2I.zip",
+            "type": "Archive",
+            "sizeKB": 2.654296875
+          }
+        ]
+      },
+      {
+        "id": 2608090,
+        "name": "Klein multiple angles",
+        "baseModel": "Flux.2 D",
+        "updatedAt": "2026-01-18T07:33:20.910Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2608090",
+        "files": [
+          {
+            "name": "nnegretSimpleWorkflows_kleinMultipleAngles.zip",
+            "type": "Archive",
+            "sizeKB": 3.486328125
+          }
+        ]
+      },
+      {
+        "id": 2608105,
+        "name": "Klein DualImageEdit",
+        "baseModel": "Flux.2 D",
+        "updatedAt": "2026-01-18T07:40:42.079Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2608105",
+        "files": [
+          {
+            "name": "nnegretSimpleWorkflows_kleinDualimageedit.zip",
+            "type": "Archive",
+            "sizeKB": 3.4873046875
+          }
+        ]
+      },
+      {
+        "id": 2608099,
+        "name": "Klein SingleImageEdit",
+        "baseModel": "Flux.2 D",
+        "updatedAt": "2026-01-18T07:38:04.118Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2608099",
+        "files": [
+          {
+            "name": "nnegretSimpleWorkflows_kleinSingleimageedit.zip",
+            "type": "Archive",
+            "sizeKB": 3.263671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2890123,
+    "name": "Minimax Speed x 6 Workflow (Sage+Sol+Latent upscale)",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Deno2026",
+      "href": "https://civitai.com/users/Deno2026"
+    },
+    "stats": {
+      "downloadCount": 2833,
+      "thumbsUpCount": 77,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-26T01:25:35.214Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2890123",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e3c71d5-2e06-4e44-a5cf-fbd77c252251/width=450/140851695.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e3c71d5-2e06-4e44-a5cf-fbd77c252251/original=true/140851695.mp4"
+    },
+    "versions": [
+      {
+        "id": 3267402,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-26T01:25:35.214Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3267402",
+        "files": [
+          {
+            "name": "minimaxSpeedX6Workflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 35.8310546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2837418,
+    "name": "MiniMax H3 Ref2VA | All Inputs + Turbo mode + LTX 2.3 Upscaler + NVIDIA VSR + Frame Interpolation",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "LatentHeart",
+      "href": "https://civitai.com/users/LatentHeart"
+    },
+    "stats": {
+      "downloadCount": 2636,
+      "thumbsUpCount": 89,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-07T22:50:48.974Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2837418",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1152ff67-198b-4ff6-9bd9-b37e0aaefe54/width=450/139052605.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1152ff67-198b-4ff6-9bd9-b37e0aaefe54/original=true/139052605.mp4"
+    },
+    "versions": [
+      {
+        "id": 3202526,
+        "name": "0.1 (Beta)",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-07T22:50:48.974Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3202526",
+        "files": [
+          {
+            "name": "minimaxH3Ref2vaAllInputsTurboMode_01Beta.json",
+            "type": "Config",
+            "sizeKB": 340.1240234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2839091,
+    "name": "MiniMax Workflow | Auto Prompt R2V + Anime",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "Deno2026",
+      "href": "https://civitai.com/users/Deno2026"
+    },
+    "stats": {
+      "downloadCount": 2615,
+      "thumbsUpCount": 85,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-27T21:52:32.827Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2839091",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5de6ec63-8e24-4e44-a721-6bf2c17562e1/width=450/141031930.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5de6ec63-8e24-4e44-a721-6bf2c17562e1/original=true/141031930.mp4"
+    },
+    "versions": [
+      {
+        "id": 3272907,
+        "name": "v2.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-27T21:52:32.827Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3272907",
+        "files": [
+          {
+            "name": "minimaxWorkflowAuto_v20.json",
+            "type": "Config",
+            "sizeKB": 46.5859375
+          }
+        ]
+      },
+      {
+        "id": 3204591,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-06T21:27:50.822Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3204591",
+        "files": [
+          {
+            "name": "minimaxWorkflowAuto_v10.json",
+            "type": "Config",
+            "sizeKB": 79.5380859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2832408,
+    "name": "MiniMax H3 Multi-Refs  Video Gen  Accelerated Version(Native NSFW)",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 2191,
+      "thumbsUpCount": 54,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-20T02:49:38.977Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2832408",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c2045c6c-e3e8-40b8-99eb-9b9849b495e2/width=450/139486315.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c2045c6c-e3e8-40b8-99eb-9b9849b495e2/original=true/139486315.mp4"
+    },
+    "versions": [
+      {
+        "id": 3247198,
+        "name": "Latent Up+Local Prompt",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-20T02:49:38.977Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3247198",
+        "files": [
+          {
+            "name": "minimaxH3MultiRefsVideoGen_latentUpLocalPrompt.zip",
+            "type": "Archive",
+            "sizeKB": 17.45703125
+          }
+        ]
+      },
+      {
+        "id": 3221540,
+        "name": "Dual Sampler Version",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-12T09:52:46.823Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3221540",
+        "files": [
+          {
+            "name": "minimaxH3MultiRefsVideoGen_dualSamplerVersion.zip",
+            "type": "Archive",
+            "sizeKB": 15.416015625
+          }
+        ]
+      },
+      {
+        "id": 3196253,
+        "name": "Basic Version",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-04T02:06:15.824Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3196253",
+        "files": [
+          {
+            "name": "minimaxH3MultiRefsVideoGen_basicVersion.zip",
+            "type": "Archive",
+            "sizeKB": 10.697265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2857494,
+    "name": "Minimax H3 [T2V-R2V-FL2V/Speedup/RIFE/RTX-UPSCALER]",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "Caphaomuoi",
+      "href": "https://civitai.com/users/Caphaomuoi"
+    },
+    "stats": {
+      "downloadCount": 1429,
+      "thumbsUpCount": 48,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-24T16:43:16.202Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2857494",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ff953114-c51a-47cd-b2af-7aaf35e0f96d/width=450/141162489.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ff953114-c51a-47cd-b2af-7aaf35e0f96d/original=true/141162489.mp4"
+    },
+    "versions": [
+      {
+        "id": 3262770,
+        "name": "v1.9",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-24T16:43:16.202Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3262770",
+        "files": [
+          {
+            "name": "minimaxH3T2VR2VFL2V_v19.json",
+            "type": "Config",
+            "sizeKB": 276.412109375
+          },
+          {
+            "name": "minimaxH3T2VR2VFL2V_v19.txt",
+            "type": "Config",
+            "sizeKB": 0.841796875
+          }
+        ]
+      },
+      {
+        "id": 3232675,
+        "name": "v1.5",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-15T20:49:03.113Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3232675",
+        "files": [
+          {
+            "name": "minimaxH3T2VR2VFL2V_v15.json",
+            "type": "Config",
+            "sizeKB": 131.7373046875
+          },
+          {
+            "name": "minimaxH3T2VR2VFL2V_v15.txt",
+            "type": "Config",
+            "sizeKB": 0.841796875
+          }
+        ]
+      },
+      {
+        "id": 3227504,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-14T08:37:24.655Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3227504",
+        "files": [
+          {
+            "name": "minimaxH3T2VR2VFL2V_v10.json",
+            "type": "Config",
+            "sizeKB": 111.259765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2838553,
+    "name": "MiniMax H3 Reference-to-Video | 8 Images  2X Speed Boost 🚀",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "TheAiBlueprint",
+      "href": "https://civitai.com/users/TheAiBlueprint"
+    },
+    "stats": {
+      "downloadCount": 1229,
+      "thumbsUpCount": 37,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-06T16:30:13.436Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2838553",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c78f764e-681d-4798-825d-a1a75eac22dc/width=450/138935067.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c78f764e-681d-4798-825d-a1a75eac22dc/original=true/138935067.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3203923,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-06T16:30:13.436Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3203923",
+        "files": [
+          {
+            "name": "minimaxH3ReferenceToVideo8_v10.json",
+            "type": "Config",
+            "sizeKB": 69.443359375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2834586,
+    "name": "MiniMax-H3 Pseudo Image Generation Workflow",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "reverentelusarca",
+      "href": "https://civitai.com/users/reverentelusarca"
+    },
+    "stats": {
+      "downloadCount": 1104,
+      "thumbsUpCount": 36,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-04T23:16:41.017Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2834586",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a79505c-929e-4b47-8735-30cf0983578e/width=450/138772482.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a79505c-929e-4b47-8735-30cf0983578e/original=true/138772482.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3198895,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-04T23:16:41.017Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3198895",
+        "files": [
+          {
+            "name": "minimaxH3PseudoImage_v10.json",
+            "type": "Config",
+            "sizeKB": 18.5869140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2849510,
+    "name": "MiniMax Workflow | Audio to Video R2V",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "Deno2026",
+      "href": "https://civitai.com/users/Deno2026"
+    },
+    "stats": {
+      "downloadCount": 975,
+      "thumbsUpCount": 35,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-11T02:08:55.260Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2849510",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bb5b628-45b3-469a-93f7-c98991b6e08e/width=450/139359226.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bb5b628-45b3-469a-93f7-c98991b6e08e/original=true/139359226.mp4"
+    },
+    "versions": [
+      {
+        "id": 3217630,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-11T02:08:55.260Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3217630",
+        "files": [
+          {
+            "name": "minimaxWorkflowAudioTo_v10.json",
+            "type": "Config",
+            "sizeKB": 48.21875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2871874,
+    "name": "Video upscale workflow for Low VRAM (Extreme FAST)",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 11,
+    "creator": {
+      "username": "biosal",
+      "href": "https://civitai.com/users/biosal"
+    },
+    "stats": {
+      "downloadCount": 949,
+      "thumbsUpCount": 35,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-28T23:46:17.967Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2871874",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15d71af9-5277-4b08-9ac2-67df8f9528d6/width=450/141142390.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15d71af9-5277-4b08-9ac2-67df8f9528d6/original=true/141142390.mp4"
+    },
+    "versions": [
+      {
+        "id": 3275949,
+        "name": "v2.1",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-28T23:46:17.967Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3275949",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v21.json",
+            "type": "Config",
+            "sizeKB": 44.74609375
+          }
+        ]
+      },
+      {
+        "id": 3261128,
+        "name": "v2.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-24T03:56:01.385Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3261128",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v20.json",
+            "type": "Config",
+            "sizeKB": 42.109375
+          }
+        ]
+      },
+      {
+        "id": 3246375,
+        "name": "v1.1",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-19T20:37:18.523Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3246375",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v11.json",
+            "type": "Config",
+            "sizeKB": 28.107421875
+          }
+        ]
+      },
+      {
+        "id": 3244831,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-19T10:46:48.764Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3244831",
+        "files": [
+          {
+            "name": "videoUpscaleWorkflowFor_v10.json",
+            "type": "Config",
+            "sizeKB": 26.3369140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2896536,
+    "name": "MiniMax H3 Reference to Video - keep the same person in any scene",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "Stable_Yogi",
+      "href": "https://civitai.com/users/Stable_Yogi"
+    },
+    "stats": {
+      "downloadCount": 887,
+      "thumbsUpCount": 39,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-28T14:41:07.015Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2896536",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d599eab6-c8fb-4a78-8756-7be7bb30f1b2/width=450/141171627.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d599eab6-c8fb-4a78-8756-7be7bb30f1b2/original=true/141171627.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3274872,
+        "name": "Turbo 8 step",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-28T14:41:07.015Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3274872",
+        "files": [
+          {
+            "name": "minimaxH3ReferenceToVideo_turbo8Step.json",
+            "type": "Config",
+            "sizeKB": 29.5087890625
+          }
+        ]
+      },
+      {
+        "id": 3274652,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-28T13:50:55.089Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3274652",
+        "files": [
+          {
+            "name": "minimaxH3ReferenceToVideo_v10.json",
+            "type": "Config",
+            "sizeKB": 28.994140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2833248,
+    "name": "Friendly Lite MiniMax H3 (T2V, I2V, FLF, LLM)",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "RusselX",
+      "href": "https://civitai.com/users/RusselX"
+    },
+    "stats": {
+      "downloadCount": 869,
+      "thumbsUpCount": 27,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-28T19:34:08.285Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2833248",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a409ced1-63b2-4c20-ba01-a7674eac4b41/width=450/141124344.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a409ced1-63b2-4c20-ba01-a7674eac4b41/original=true/141124344.mp4"
+    },
+    "versions": [
+      {
+        "id": 3275531,
+        "name": "v1.0.1 Turbo Upscale fix",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-28T19:34:08.285Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3275531",
+        "files": [
+          {
+            "name": "friendlyLiteMinimaxH3T2V_v101TurboUpscaleFix.json",
+            "type": "Config",
+            "sizeKB": 253.048828125
+          }
+        ]
+      },
+      {
+        "id": 3197298,
+        "name": "v1.0 optimal",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-04T11:35:55.953Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3197298",
+        "files": [
+          {
+            "name": "friendlyLiteMinimaxH3T2V_v10Optimal.json",
+            "type": "Config",
+            "sizeKB": 156.0234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2836967,
+    "name": "MiniMax-H3 - Reference to Video Workflow",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "joeygambino",
+      "href": "https://civitai.com/users/joeygambino"
+    },
+    "stats": {
+      "downloadCount": 752,
+      "thumbsUpCount": 26,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-06T20:48:09.405Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2836967",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3f56e9d-a82e-407e-a42c-97a24a96f020/width=450/138953518.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3f56e9d-a82e-407e-a42c-97a24a96f020/original=true/138953518.mp4"
+    },
+    "versions": [
+      {
+        "id": 3204575,
+        "name": "v1.1",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-06T20:48:09.405Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3204575",
+        "files": [
+          {
+            "name": "minimaxH3ReferenceTo_v11.zip",
+            "type": "Archive",
+            "sizeKB": 6684.66796875
+          }
+        ]
+      },
+      {
+        "id": 3201984,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-06T00:15:55.978Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3201984",
+        "files": [
+          {
+            "name": "minimaxH3ReferenceTo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6678.3828125
+          },
+          {
+            "name": "minimaxH3ReferenceTo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 1.857421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2869791,
+    "name": "MiniMax H3 Video to Video Edit Workflow",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "TheAiBlueprint",
+      "href": "https://civitai.com/users/TheAiBlueprint"
+    },
+    "stats": {
+      "downloadCount": 718,
+      "thumbsUpCount": 29,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-18T16:01:14.492Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2869791",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/57a748e5-c031-45e7-963c-e56d66c6570e/width=450/140084655.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/57a748e5-c031-45e7-963c-e56d66c6570e/original=true/140084655.mp4"
+    },
+    "versions": [
+      {
+        "id": 3242327,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-18T16:01:14.492Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3242327",
+        "files": [
+          {
+            "name": "minimaxH3VideoToVideo_v10.json",
+            "type": "Config",
+            "sizeKB": 80.6845703125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2896636,
+    "name": "MiniMax H3 Turbo - the same clips, twice as fast",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Stable_Yogi",
+      "href": "https://civitai.com/users/Stable_Yogi"
+    },
+    "stats": {
+      "downloadCount": 501,
+      "thumbsUpCount": 35,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-30T16:33:48.137Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2896636",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f39d93b-8798-4595-920d-8fb1b2aef39d/width=450/141316346.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f39d93b-8798-4595-920d-8fb1b2aef39d/original=true/141316346.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3274800,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-30T16:33:48.137Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3274800",
+        "files": [
+          {
+            "name": "minimaxH3TurboTheSame_v10.json",
+            "type": "Config",
+            "sizeKB": 27.0048828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2872135,
+    "name": "Minimax H3 FLF2V I2V T2V Infinite Extend motion context workflow",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Ravix_of_fourhorn",
+      "href": "https://civitai.com/users/Ravix_of_fourhorn"
+    },
+    "stats": {
+      "downloadCount": 492,
+      "thumbsUpCount": 18,
+      "thumbsDownCount": 0,
+      "commentCount": 7,
+      "tippedAmountCount": 100,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-19T12:24:45.055Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2872135",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2cf7c29-1286-4739-bb73-deb703e10ada/width=450/140161832.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2cf7c29-1286-4739-bb73-deb703e10ada/original=true/140161832.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3245144,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-19T12:24:45.055Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3245144",
+        "files": [
+          {
+            "name": "minimaxH3FLF2VI2VT2V_v10.json",
+            "type": "Config",
+            "sizeKB": 250.7001953125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2847150,
+    "name": "Minimax.. simple",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "sy0ww4bb1984",
+      "href": "https://civitai.com/users/sy0ww4bb1984"
+    },
+    "stats": {
+      "downloadCount": 447,
+      "thumbsUpCount": 13,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-10T02:40:48.162Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2847150",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c044737b-fae1-4801-9ab9-c1cf30333450/width=450/139272416.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c044737b-fae1-4801-9ab9-c1cf30333450/original=true/139272416.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3214767,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-10T02:40:48.162Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3214767",
+        "files": [
+          {
+            "name": "minimaxSimple_v10.zip",
+            "type": "Archive",
+            "sizeKB": 14186.30078125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2848053,
+    "name": "FisherKing-MiniMax-H3-[FL2VA]-I2V-ReferenceWorkflow-v1.0 [Low VRAM]",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "fisherking786",
+      "href": "https://civitai.com/users/fisherking786"
+    },
+    "stats": {
+      "downloadCount": 417,
+      "thumbsUpCount": 26,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-10T12:30:40.381Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2848053",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9a40bed-ad44-41ed-96f0-ceb032a0cb0a/width=450/139307483.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9a40bed-ad44-41ed-96f0-ceb032a0cb0a/original=true/139307483.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3215845,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-10T12:30:40.381Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3215845",
+        "files": [
+          {
+            "name": "fisherkingMinimaxH3FL2VAI2V_v10.json",
+            "type": "Config",
+            "sizeKB": 29.482421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2873711,
+    "name": "-DepriveD- MiniMax H3 All-in-One | 7+3 Latent Upscale + FPS + RTX | T2V & Reference",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "DepriveD_AI",
+      "href": "https://civitai.com/users/DepriveD_AI"
+    },
+    "stats": {
+      "downloadCount": 393,
+      "thumbsUpCount": 18,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-20T02:20:01.113Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2873711",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86228994-f494-4bb0-9518-72947c1c1b6e/width=450/140220817.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86228994-f494-4bb0-9518-72947c1c1b6e/original=true/140220817.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3247095,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-20T02:20:01.113Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3247095",
+        "files": [
+          {
+            "name": "DeprivedMinimaxH3AllInOne73Latent_v10.json",
+            "type": "Config",
+            "sizeKB": 191.10546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2835862,
+    "name": "Audio2Video Minimax H3 Workflow",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "ultimo_intento",
+      "href": "https://civitai.com/users/ultimo_intento"
+    },
+    "stats": {
+      "downloadCount": 369,
+      "thumbsUpCount": 13,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-05T13:31:45.185Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2835862",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b734ebb9-0310-47f8-ac80-6fc6561316eb/width=450/138833244.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b734ebb9-0310-47f8-ac80-6fc6561316eb/original=true/138833244.mp4"
+    },
+    "versions": [
+      {
+        "id": 3200552,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-05T13:31:45.185Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3200552",
+        "files": [
+          {
+            "name": "audio2videoMinimaxH3_v10.json",
+            "type": "Config",
+            "sizeKB": 28.751953125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2846309,
+    "name": "FisherKing-MiniMax-H3-[4Steps]-T2V-ReferenceWorkflow-v1.0 [Low VRAM]",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "fisherking786",
+      "href": "https://civitai.com/users/fisherking786"
+    },
+    "stats": {
+      "downloadCount": 279,
+      "thumbsUpCount": 12,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-09T18:10:18.617Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2846309",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a50d5f72-ad6a-42b8-a25b-26325925458b/width=450/139235267.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a50d5f72-ad6a-42b8-a25b-26325925458b/original=true/139235267.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3213689,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-09T18:10:18.617Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3213689",
+        "files": [
+          {
+            "name": "fisherkingMinimaxH34steps_v10.json",
+            "type": "Config",
+            "sizeKB": 22.189453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2860939,
+    "name": "4‑MiniMax‑H3 All‑in‑One Workflow V2, No VRAM Out‑of‑Memory Across All Modes, Secondary Sampling for Face Artifact Prevention, Asset Management, Audio Locking, Skill‑Based Dialogue",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Astral_xm",
+      "href": "https://civitai.com/users/Astral_xm"
+    },
+    "stats": {
+      "downloadCount": 207,
+      "thumbsUpCount": 6,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-15T14:41:20.296Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2860939",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d46512e-5d65-4e77-a069-8820e416ee8d/width=450/139785484.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d46512e-5d65-4e77-a069-8820e416ee8d/original=true/139785484.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3231762,
+        "name": "v2.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-15T14:41:20.296Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3231762",
+        "files": [
+          {
+            "name": "4MinimaxH3AllInOneWorkflowV2NoVRAMOutOf_v20.json",
+            "type": "Config",
+            "sizeKB": 48.970703125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2901812,
+    "name": "MiniMax H3 first and last frame - hand it both ends of the shot",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "Stable_Yogi",
+      "href": "https://civitai.com/users/Stable_Yogi"
+    },
+    "stats": {
+      "downloadCount": 159,
+      "thumbsUpCount": 18,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-31T17:41:17.894Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2901812",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d9d979e-00cb-4d20-b6f7-da5052855fd6/width=450/141318252.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d9d979e-00cb-4d20-b6f7-da5052855fd6/original=true/141318252.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3281284,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-31T17:41:17.894Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3281284",
+        "files": [
+          {
+            "name": "minimaxH3FirstAndLastFrame_v10.json",
+            "type": "Config",
+            "sizeKB": 29.00390625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2892501,
+    "name": "Image Prompt Enhancer compatible with Qwen 3.8 9B (Extreme Fast)",
+    "type": "Workflows",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "biosal",
+      "href": "https://civitai.com/users/biosal"
+    },
+    "stats": {
+      "downloadCount": 131,
+      "thumbsUpCount": 6,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-27T00:05:35.202Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2892501",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89d19341-4aa5-4a6c-9d1f-fc5c26c34232/width=450/140941376.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89d19341-4aa5-4a6c-9d1f-fc5c26c34232/original=true/140941376.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3270348,
+        "name": "v1.0",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-27T00:05:35.202Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3270348",
+        "files": [
+          {
+            "name": "imagePromptEnhancerCompatible_v10.json",
+            "type": "Config",
+            "sizeKB": 17.9619140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2860921,
+    "name": "1‑MiniMax‑H3 Text‑to‑Video Workflow V1‑Optimized Prompts for Official Context‑IR API",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Astral_xm",
+      "href": "https://civitai.com/users/Astral_xm"
+    },
+    "stats": {
+      "downloadCount": 90,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2026-08-15T14:34:00.147Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2860921",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a389ca21-f3b6-4df1-b0d5-7c96b4fc310b/width=450/139784826.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a389ca21-f3b6-4df1-b0d5-7c96b4fc310b/original=true/139784826.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3231743,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-15T14:34:00.147Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3231743",
+        "files": [
+          {
+            "name": "1MinimaxH3TextToVideo_v10.json",
+            "type": "Config",
+            "sizeKB": 22.107421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2107588,
+    "name": "Brie's Wan21 Lazy Remover",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "slipperygem",
+      "href": "https://civitai.com/users/slipperygem"
+    },
+    "stats": {
+      "downloadCount": 74,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:51:15+00:00"
+    },
+    "lastUpdated": "2025-11-07T10:56:48.632Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2107588",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9232625a-ebff-4ee6-ad97-5938772bbaf5/width=450/109274996.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9232625a-ebff-4ee6-ad97-5938772bbaf5/original=true/109274996.mp4"
+    },
+    "versions": [
+      {
+        "id": 2384317,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-11-07T10:56:48.632Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2384317",
+        "files": [
+          {
+            "name": "briesWan21Lazy_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4124.7822265625
+          }
+        ]
+      }
+    ]
+  }
+]

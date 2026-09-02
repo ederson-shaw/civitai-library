@@ -1,0 +1,893 @@
+[
+  {
+    "id": 463163,
+    "name": "The Araminta Experiment (SDXL+Flux)",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "aramintastudio",
+      "href": "https://civitai.com/users/aramintastudio"
+    },
+    "stats": {
+      "downloadCount": 45832,
+      "thumbsUpCount": 1720,
+      "thumbsDownCount": 9,
+      "commentCount": 0,
+      "tippedAmountCount": 11767,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2025-08-08T21:48:14.399Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/463163",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd8cf8d8-f8b8-4417-99b3-a1a9f58f391c/width=450/93096289.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd8cf8d8-f8b8-4417-99b3-a1a9f58f391c/original=true/93096289.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2094233,
+        "name": "Fv6",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-08-08T21:48:14.399Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2094233",
+        "files": [
+          {
+            "name": "theAramintaExperiment_fv6.safetensors",
+            "type": "Model",
+            "sizeKB": 6775520.845703125
+          }
+        ]
+      },
+      {
+        "id": 1645959,
+        "name": "Gv4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-04-10T19:33:52.308Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1645959",
+        "files": [
+          {
+            "name": "theAramintaExperiment_gv4.safetensors",
+            "type": "Model",
+            "sizeKB": 6775531.564453125
+          }
+        ]
+      },
+      {
+        "id": 624942,
+        "name": "Cv6",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:37:26.918Z",
+        "downloadUrl": "https://civitai.com/api/download/models/624942",
+        "files": [
+          {
+            "name": "theAramintaExperiment_cv6.safetensors",
+            "type": "Model",
+            "sizeKB": 7136805
+          }
+        ]
+      },
+      {
+        "id": 742904,
+        "name": "Flux1-A1",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-20T14:38:51.043Z",
+        "downloadUrl": "https://civitai.com/api/download/models/742904",
+        "files": [
+          {
+            "name": "theAramintaExperiment_flux1A1.safetensors",
+            "type": "Model",
+            "sizeKB": 16842330.68359375
+          }
+        ]
+      },
+      {
+        "id": 1536255,
+        "name": "Fv5",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-15T15:32:39.405Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1536255",
+        "files": [
+          {
+            "name": "theAramintaExperiment_fv5.safetensors",
+            "type": "Model",
+            "sizeKB": 6775521.556640625
+          }
+        ]
+      },
+      {
+        "id": 1436074,
+        "name": "Fv4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-02-19T20:19:39.387Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1436074",
+        "files": [
+          {
+            "name": "theAramintaExperiment_fv4.safetensors",
+            "type": "Model",
+            "sizeKB": 6938915.671875
+          }
+        ]
+      },
+      {
+        "id": 1286901,
+        "name": "Fv3",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-01-15T16:21:05.878Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1286901",
+        "files": [
+          {
+            "name": "theAramintaExperiment_fv3.safetensors",
+            "type": "Model",
+            "sizeKB": 6938914.078125
+          }
+        ]
+      },
+      {
+        "id": 691668,
+        "name": "Ev4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-03T02:12:56.288Z",
+        "downloadUrl": "https://civitai.com/api/download/models/691668",
+        "files": [
+          {
+            "name": "theAramintaExperiment_ev4.safetensors",
+            "type": "Model",
+            "sizeKB": 6938868.171875
+          }
+        ]
+      },
+      {
+        "id": 1192070,
+        "name": "Gv2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-22T17:43:44.982Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1192070",
+        "files": [
+          {
+            "name": "theAramintaExperiment_gv2.safetensors",
+            "type": "Model",
+            "sizeKB": 6938909.7109375
+          }
+        ]
+      },
+      {
+        "id": 1065300,
+        "name": "Gv1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-16T02:46:21.513Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1065300",
+        "files": [
+          {
+            "name": "theAramintaExperiment_gv1.safetensors",
+            "type": "Model",
+            "sizeKB": 6938911.9609375
+          }
+        ]
+      },
+      {
+        "id": 1030766,
+        "name": "Fv2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-05T16:32:36.354Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1030766",
+        "files": [
+          {
+            "name": "theAramintaExperiment_fv2.safetensors",
+            "type": "Model",
+            "sizeKB": 6938869.3671875
+          }
+        ]
+      },
+      {
+        "id": 716653,
+        "name": "Fv1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-12T16:15:31.915Z",
+        "downloadUrl": "https://civitai.com/api/download/models/716653",
+        "files": [
+          {
+            "name": "theAramintaExperiment_fv1.safetensors",
+            "type": "Model",
+            "sizeKB": 6938868.9140625
+          }
+        ]
+      },
+      {
+        "id": 536013,
+        "name": "Bv4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:37:36.994Z",
+        "downloadUrl": "https://civitai.com/api/download/models/536013",
+        "files": [
+          {
+            "name": "theAramintaExperiment_bv4.safetensors",
+            "type": "Model",
+            "sizeKB": 6775475.986328125
+          }
+        ]
+      },
+      {
+        "id": 671903,
+        "name": "Ev3",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:32:52.669Z",
+        "downloadUrl": "https://civitai.com/api/download/models/671903",
+        "files": [
+          {
+            "name": "theAramintaExperiment_ev3.safetensors",
+            "type": "Model",
+            "sizeKB": 7136807.90625
+          }
+        ]
+      },
+      {
+        "id": 650776,
+        "name": "Ev2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:37:46.165Z",
+        "downloadUrl": "https://civitai.com/api/download/models/650776",
+        "files": [
+          {
+            "name": "theAramintaExperiment_ev2.safetensors",
+            "type": "Model",
+            "sizeKB": 7136808.171875
+          }
+        ]
+      },
+      {
+        "id": 647842,
+        "name": "Ev1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:37:52.932Z",
+        "downloadUrl": "https://civitai.com/api/download/models/647842",
+        "files": [
+          {
+            "name": "theAramintaExperiment_ev1.safetensors",
+            "type": "Model",
+            "sizeKB": 7136804.8046875
+          }
+        ]
+      },
+      {
+        "id": 561766,
+        "name": "Cv5",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:37:59.049Z",
+        "downloadUrl": "https://civitai.com/api/download/models/561766",
+        "files": [
+          {
+            "name": "theAramintaExperiment_cv5.safetensors",
+            "type": "Model",
+            "sizeKB": 6775478.400390625
+          }
+        ]
+      },
+      {
+        "id": 546394,
+        "name": "Cv4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:38:05.271Z",
+        "downloadUrl": "https://civitai.com/api/download/models/546394",
+        "files": [
+          {
+            "name": "theAramintaExperiment_cv4.safetensors",
+            "type": "Model",
+            "sizeKB": 6775477.486328125
+          }
+        ]
+      },
+      {
+        "id": 525427,
+        "name": "Cv3",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-25T22:38:12.424Z",
+        "downloadUrl": "https://civitai.com/api/download/models/525427",
+        "files": [
+          {
+            "name": "theAramintaExperiment_cv3.safetensors",
+            "type": "Model",
+            "sizeKB": 6775496.150390625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 582369,
+    "name": "araminta-glamourphotography (Chroma+SDXL+Flux)",
+    "type": "LORA",
+    "baseModel": "Other",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "aramintastudio",
+      "href": "https://civitai.com/users/aramintastudio"
+    },
+    "stats": {
+      "downloadCount": 2927,
+      "thumbsUpCount": 173,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 100,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2025-08-18T14:44:22.892Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/582369",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31e08fb0-d074-48fe-91aa-da08fa2ff742/width=450/95028027.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31e08fb0-d074-48fe-91aa-da08fa2ff742/original=true/95028027.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2125972,
+        "name": "ChromaHD1-2000-v1",
+        "baseModel": "Other",
+        "updatedAt": "2025-08-18T14:44:22.892Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2125972",
+        "files": [
+          {
+            "name": "araminta-chroma-glamourphotography_2000.safetensors",
+            "type": "Model",
+            "sizeKB": 109497.640625
+          }
+        ]
+      },
+      {
+        "id": 2125969,
+        "name": "ChromaHD1-500-v1",
+        "baseModel": "Other",
+        "updatedAt": "2025-08-18T14:52:08.017Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2125969",
+        "files": [
+          {
+            "name": "araminta-chroma-glamourphotography_500.safetensors",
+            "type": "Model",
+            "sizeKB": 109497.640625
+          }
+        ]
+      },
+      {
+        "id": 772166,
+        "name": "Flux1-v1",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-26T20:56:11.403Z",
+        "downloadUrl": "https://civitai.com/api/download/models/772166",
+        "files": [
+          {
+            "name": "araminta-glamourphotography_f1_v1_3000.safetensors",
+            "type": "Model",
+            "sizeKB": 167938.9375
+          }
+        ]
+      },
+      {
+        "id": 649655,
+        "name": "SDXL-v1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-16T20:19:37.475Z",
+        "downloadUrl": "https://civitai.com/api/download/models/649655",
+        "files": [
+          {
+            "name": "araminta-s-glamourphotography.safetensors",
+            "type": "Model",
+            "sizeKB": 223130.16796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 567214,
+    "name": "araminta-amazing people",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 11,
+    "creator": {
+      "username": "aramintastudio",
+      "href": "https://civitai.com/users/aramintastudio"
+    },
+    "stats": {
+      "downloadCount": 1115,
+      "thumbsUpCount": 94,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2024-07-09T19:09:17.385Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Rent",
+        "RentCivit",
+        "Image"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/567214",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6ba9608-f2cd-4a4c-b997-6982c69e4bf7/width=450/19131050.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6ba9608-f2cd-4a4c-b997-6982c69e4bf7/original=true/19131050.jpeg"
+    },
+    "versions": [
+      {
+        "id": 632107,
+        "name": "SDXL-v1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-09T19:09:17.385Z",
+        "downloadUrl": "https://civitai.com/api/download/models/632107",
+        "files": [
+          {
+            "name": "araminta-amazing_people.safetensors",
+            "type": "Model",
+            "sizeKB": 223106.48046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 564889,
+    "name": "araminta-microbokeh",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "aramintastudio",
+      "href": "https://civitai.com/users/aramintastudio"
+    },
+    "stats": {
+      "downloadCount": 544,
+      "thumbsUpCount": 50,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 500,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2024-07-08T17:54:10.711Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/564889",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0cf9504f-62b2-4ca0-8aef-ece9eaea3734/width=450/18988919.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0cf9504f-62b2-4ca0-8aef-ece9eaea3734/original=true/18988919.jpeg"
+    },
+    "versions": [
+      {
+        "id": 629543,
+        "name": "V1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-08T17:54:10.711Z",
+        "downloadUrl": "https://civitai.com/api/download/models/629543",
+        "files": [
+          {
+            "name": "araminta-microbokeh.safetensors",
+            "type": "Model",
+            "sizeKB": 223101.80078125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2838872,
+    "name": "Araminta Frazetta Style [Krea2]",
+    "type": "LORA",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "aramintastudio",
+      "href": "https://civitai.com/users/aramintastudio"
+    },
+    "stats": {
+      "downloadCount": 263,
+      "thumbsUpCount": 35,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2026-08-06T20:13:37.450Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2838872",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbe61742-a1e4-4cb5-a285-2f436d858ef9/width=450/138953390.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbe61742-a1e4-4cb5-a285-2f436d858ef9/original=true/138953390.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3204319,
+        "name": "v1.0",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-06T20:13:37.450Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3204319",
+        "files": [
+          {
+            "name": "araminta-krea2-s-frankfrazetta_5000.safetensors",
+            "type": "Model",
+            "sizeKB": 446398
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 516989,
+    "name": "Araminta Soft Focus 3D",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "alvdansen",
+      "href": "https://civitai.com/users/alvdansen"
+    },
+    "stats": {
+      "downloadCount": 267,
+      "thumbsUpCount": 28,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2024-06-16T17:23:31.574Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/516989",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f64df3f-8f43-4ede-bf3f-7be0197225db/width=450/16027882.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f64df3f-8f43-4ede-bf3f-7be0197225db/original=true/16027882.jpeg"
+    },
+    "versions": [
+      {
+        "id": 574502,
+        "name": "Araminta Soft Focus 3D",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-06-16T17:23:31.574Z",
+        "downloadUrl": "https://civitai.com/api/download/models/574502",
+        "files": [
+          {
+            "name": "Araminta_Soft_Focus_3D-000013.safetensors",
+            "type": "Model",
+            "sizeKB": 223102.23828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2840840,
+    "name": "Araminta Better Krea [Krea2]",
+    "type": "LORA",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "aramintastudio",
+      "href": "https://civitai.com/users/aramintastudio"
+    },
+    "stats": {
+      "downloadCount": 487,
+      "thumbsUpCount": 28,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2026-08-07T18:32:16.829Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2840840",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83be34d7-9cca-4683-ab04-df9b3ac26ee1/width=450/139035881.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83be34d7-9cca-4683-ab04-df9b3ac26ee1/original=true/139035881.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3206848,
+        "name": "Glamour Photography",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-07T18:32:16.829Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3206848",
+        "files": [
+          {
+            "name": "araminta-krea2-glamour-photography_15000.safetensors",
+            "type": "Model",
+            "sizeKB": 446397.9921875
+          }
+        ]
+      },
+      {
+        "id": 3207171,
+        "name": "Beautiful People",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-07T18:33:43.805Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3207171",
+        "files": [
+          {
+            "name": "araminta-krea2-beautiful-people-v2-15000.safetensors",
+            "type": "Model",
+            "sizeKB": 446397.9921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 501024,
+    "name": "Araminta K Illustrated",
+    "type": "LORA",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "alvdansen",
+      "href": "https://civitai.com/users/alvdansen"
+    },
+    "stats": {
+      "downloadCount": 291,
+      "thumbsUpCount": 16,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2024-06-08T11:20:32.236Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/501024",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e05490-d8be-42d3-b8d9-b3b40a95cbae/width=450/15050138.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e05490-d8be-42d3-b8d9-b3b40a95cbae/original=true/15050138.jpeg"
+    },
+    "versions": [
+      {
+        "id": 558797,
+        "name": "v2.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-06-08T11:20:32.236Z",
+        "downloadUrl": "https://civitai.com/api/download/models/558797",
+        "files": [
+          {
+            "name": "Araminta_K_Illustrated-000018.safetensors",
+            "type": "Model",
+            "sizeKB": 223102.90234375
+          }
+        ]
+      },
+      {
+        "id": 558785,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": null,
+        "downloadUrl": "https://civitai.com/api/download/models/558785",
+        "files": [
+          {
+            "name": "Araminta_K_Illustrated-000016.safetensors",
+            "type": "Model",
+            "sizeKB": 223102.90234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1044544,
+    "name": "The Araminta Experiment (Flux) GGUF Q4_K_S",
+    "type": "Checkpoint",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "The_D4r0z_",
+      "href": "https://civitai.com/users/The_D4r0z_"
+    },
+    "stats": {
+      "downloadCount": 532,
+      "thumbsUpCount": 36,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2024-12-16T22:58:21.490Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1044544",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e947dd62-883b-404d-8062-44226c602ab2/width=450/45899579.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e947dd62-883b-404d-8062-44226c602ab2/original=true/45899579.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1171973,
+        "name": "Flux1-A1",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-12-16T22:58:21.490Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1171973",
+        "files": [
+          {
+            "name": "theAramintaExperimentFlux_flux1A1.gguf",
+            "type": "Model",
+            "sizeKB": 6640447.15625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1875979,
+    "name": "Raver - Araminta Experiment",
+    "type": "Checkpoint",
+    "baseModel": "Pony",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "GreatHunt",
+      "href": "https://civitai.com/users/GreatHunt"
+    },
+    "stats": {
+      "downloadCount": 233,
+      "thumbsUpCount": 11,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2025-08-17T18:52:04.513Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1875979",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f569042-3bea-40c2-9ea8-dec9eabcd6ff/width=450/94872950.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f569042-3bea-40c2-9ea8-dec9eabcd6ff/original=true/94872950.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2123344,
+        "name": "v1.0",
+        "baseModel": "Pony",
+        "updatedAt": "2025-08-17T18:52:04.513Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2123344",
+        "files": [
+          {
+            "name": "raverAraminta_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6938847.0390625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 685479,
+    "name": "Soft Pasty Illustration (Flux)",
+    "type": "LORA",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "alvdansen",
+      "href": "https://civitai.com/users/alvdansen"
+    },
+    "stats": {
+      "downloadCount": 289,
+      "thumbsUpCount": 60,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 100,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:20+00:00"
+    },
+    "lastUpdated": "2024-08-25T15:28:02.062Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/685479",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dfd0ca68-3c35-4145-aa73-bead4a63a53b/width=450/26093410.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dfd0ca68-3c35-4145-aa73-bead4a63a53b/original=true/26093410.jpeg"
+    },
+    "versions": [
+      {
+        "id": 767186,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-25T15:28:02.062Z",
+        "downloadUrl": "https://civitai.com/api/download/models/767186",
+        "files": [
+          {
+            "name": "araminta_k_softpasty_diffusion_flux.safetensors",
+            "type": "Model",
+            "sizeKB": 440627.8046875
+          }
+        ]
+      }
+    ]
+  }
+]

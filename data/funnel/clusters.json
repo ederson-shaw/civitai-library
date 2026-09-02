@@ -1,0 +1,1559 @@
+{
+ "families": 68,
+ "cut_total": 82,
+ "note": "kept best by ratio+downloads; cuts listed for transparency panel",
+ "report": [
+  {
+   "family": " [krea]",
+   "keep": {
+    "id": 2907294,
+    "name": "遮天-林佳",
+    "stats": {
+     "downloadCount": 28,
+     "thumbsUpCount": 5,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:47+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2907234,
+     "name": "遮天-颜如玉"
+    },
+    {
+     "id": 2907111,
+     "name": "遮天-姚曦"
+    },
+    {
+     "id": 2907384,
+     "name": "遮天-西王母"
+    },
+    {
+     "id": 2907344,
+     "name": "遮天-李小曼"
+    },
+    {
+     "id": 2907082,
+     "name": "择天记-天海圣后"
+    }
+   ]
+  },
+  {
+   "family": " [illustrious]",
+   "keep": {
+    "id": 481765,
+    "name": "AIイラストおじさん",
+    "stats": {
+     "downloadCount": 49408,
+     "thumbsUpCount": 8422,
+     "thumbsDownCount": 4,
+     "commentCount": 30,
+     "tippedAmountCount": 167768,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:50:46+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 795765,
+     "name": "Illustrious-XL"
+    },
+    {
+     "id": 1334875,
+     "name": "dR-jm"
+    },
+    {
+     "id": 2906145,
+     "name": "董白 娇蛮烂漫【三国杀】"
+    },
+    {
+     "id": 2664011,
+     "name": "洛克王国世界截图修脸工具"
+    }
+   ]
+  },
+  {
+   "family": "babe chroma pack part sarcastic tofu [chroma]",
+   "keep": {
+    "id": 2114742,
+    "name": "Chroma AI Babe Pack (Part 04) by Sarcastic TOFU",
+    "stats": {
+     "downloadCount": 772,
+     "thumbsUpCount": 24,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:02+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2114739,
+     "name": "Chroma AI Babe Pack (Part 03) by Sarcastic TOFU"
+    },
+    {
+     "id": 2103919,
+     "name": "Chroma AI Babe Pack (Part 01) by Sarcastic TOFU"
+    },
+    {
+     "id": 2106026,
+     "name": "Chroma AI Babe Pack (Part 02) by Sarcastic TOFU"
+    }
+   ]
+  },
+  {
+   "family": "anima [anima]",
+   "keep": {
+    "id": 2458426,
+    "name": "Anima",
+    "stats": {
+     "downloadCount": 208467,
+     "thumbsUpCount": 9507,
+     "thumbsDownCount": 34,
+     "commentCount": 0,
+     "tippedAmountCount": 317868,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:37+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2560840,
+     "name": "Anima Turbo LoRA"
+    },
+    {
+     "id": 2634839,
+     "name": "简单自用Anima文生图"
+    },
+    {
+     "id": 2797077,
+     "name": "Anima Checkpoint"
+    }
+   ]
+  },
+  {
+   "family": " [flux.1]",
+   "keep": {
+    "id": 193526,
+    "name": ".•°¤* 𝓥𝓲𝓷𝓽𝓪𝓰𝓮 𝓥𝓲𝓫𝓮𝓼 *¤°•.",
+    "stats": {
+     "downloadCount": 2573,
+     "thumbsUpCount": 396,
+     "thumbsDownCount": 0,
+     "commentCount": 4,
+     "tippedAmountCount": 1200,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:25+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 618692,
+     "name": "FLUX"
+    },
+    {
+     "id": 618486,
+     "name": "FLUX.1"
+    }
+   ]
+  },
+  {
+   "family": "realistic vision [flux.1]",
+   "keep": {
+    "id": 648905,
+    "name": "Vision Realistic FLUX",
+    "stats": {
+     "downloadCount": 2127,
+     "thumbsUpCount": 139,
+     "thumbsDownCount": 0,
+     "commentCount": 3,
+     "tippedAmountCount": 10,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:25+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 619656,
+     "name": "Vision Realistic"
+    },
+    {
+     "id": 687925,
+     "name": "Vision Realistic LoRA"
+    }
+   ]
+  },
+  {
+   "family": "tester [flux.1]",
+   "keep": {
+    "id": 652483,
+    "name": "FLUX Lora Tester",
+    "stats": {
+     "downloadCount": 4529,
+     "thumbsUpCount": 292,
+     "thumbsDownCount": 1,
+     "commentCount": 20,
+     "tippedAmountCount": 10470,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:18+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 629642,
+     "name": "Flux Style Tester"
+    },
+    {
+     "id": 813093,
+     "name": "【FLUX】LoRA TESTER"
+    }
+   ]
+  },
+  {
+   "family": "subreddit [sd]",
+   "keep": {
+    "id": 5308,
+    "name": "Subreddit V3",
+    "stats": {
+     "downloadCount": 11875,
+     "thumbsUpCount": 1737,
+     "thumbsDownCount": 3,
+     "commentCount": 14,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:54:54+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 80819,
+     "name": "Subreddit V7"
+    }
+   ]
+  },
+  {
+   "family": "chroma sss [illustrious]",
+   "keep": {
+    "id": 1770368,
+    "name": "sss chroma - v1.0",
+    "stats": {
+     "downloadCount": 333,
+     "thumbsUpCount": 71,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:03+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1724403,
+     "name": "sss chroma - v1.0 2.2-2.5D"
+    }
+   ]
+  },
+  {
+   "family": "ahegao [other]",
+   "keep": {
+    "id": 42558,
+    "name": "Ahegao",
+    "stats": {
+     "downloadCount": 13681,
+     "thumbsUpCount": 2039,
+     "thumbsDownCount": 0,
+     "commentCount": 6,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:00+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 8505,
+     "name": "Ahegao"
+    }
+   ]
+  },
+  {
+   "family": "chainsaw makima man [sd]",
+   "keep": {
+    "id": 73254,
+    "name": "Makima (Chainsaw Man) LoRA",
+    "stats": {
+     "downloadCount": 4206,
+     "thumbsUpCount": 510,
+     "thumbsDownCount": 0,
+     "commentCount": 1,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:25+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 5373,
+     "name": "Makima (Chainsaw Man) LoRA"
+    }
+   ]
+  },
+  {
+   "family": "color flat [anima]",
+   "keep": {
+    "id": 611048,
+    "name": "Flat Color Style [AN/IL/Pony]",
+    "stats": {
+     "downloadCount": 9780,
+     "thumbsUpCount": 1259,
+     "thumbsDownCount": 0,
+     "commentCount": 6,
+     "tippedAmountCount": 710,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:49:45+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1132089,
+     "name": "Flat Color - Style"
+    }
+   ]
+  },
+  {
+   "family": "hentai ray [sd]",
+   "keep": {
+    "id": 172276,
+    "name": "Hentai X-ray",
+    "stats": {
+     "downloadCount": 11008,
+     "thumbsUpCount": 1403,
+     "thumbsDownCount": 1,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:01+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 3938,
+     "name": "X-Ray Hentai 2.5"
+    }
+   ]
+  },
+  {
+   "family": "anima mix [anima]",
+   "keep": {
+    "id": 996495,
+    "name": "Ri-mix - [Illustrious + Anima]",
+    "stats": {
+     "downloadCount": 45879,
+     "thumbsUpCount": 5346,
+     "thumbsDownCount": 9,
+     "commentCount": 0,
+     "tippedAmountCount": 3850,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:38+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 996220,
+     "name": "Ri-mix - Style LORA [ Illustrious + Anima]"
+    }
+   ]
+  },
+  {
+   "family": "96yottea [illustrious]",
+   "keep": {
+    "id": 1031927,
+    "name": "96yottea | Style LoRa",
+    "stats": {
+     "downloadCount": 11876,
+     "thumbsUpCount": 2110,
+     "thumbsDownCount": 1,
+     "commentCount": 0,
+     "tippedAmountCount": 10,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:13+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 966483,
+     "name": "96YOTTEA style | Illustrious"
+    }
+   ]
+  },
+  {
+   "family": "cowgirl position [sd]",
+   "keep": {
+    "id": 66701,
+    "name": "Cowgirl Position | LoRA",
+    "stats": {
+     "downloadCount": 14533,
+     "thumbsUpCount": 1844,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 124,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:00+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 30432,
+     "name": "Cowgirl Position "
+    }
+   ]
+  },
+  {
+   "family": "realism stable yogi [pony]",
+   "keep": {
+    "id": 1098033,
+    "name": "Realism Lora By Stable Yogi (Pony)",
+    "stats": {
+     "downloadCount": 72114,
+     "thumbsUpCount": 4160,
+     "thumbsDownCount": 4,
+     "commentCount": 0,
+     "tippedAmountCount": 1120,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:50:50+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 166609,
+     "name": "Realism By Stable Yogi (Pony)"
+    }
+   ]
+  },
+  {
+   "family": "anima rdbt [anima]",
+   "keep": {
+    "id": 2356447,
+    "name": "RDBT | Anima",
+    "stats": {
+     "downloadCount": 24188,
+     "thumbsUpCount": 941,
+     "thumbsDownCount": 5,
+     "commentCount": 0,
+     "tippedAmountCount": 2300,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:49:31+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2364703,
+     "name": "RDBT | Anima [lora]"
+    }
+   ]
+  },
+  {
+   "family": "man one punch tatsumaki [sd]",
+   "keep": {
+    "id": 72759,
+    "name": "Tatsumaki (One Punch Man) LoRA",
+    "stats": {
+     "downloadCount": 1909,
+     "thumbsUpCount": 296,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:25+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 27909,
+     "name": "Tatsumaki - One Punch Man"
+    }
+   ]
+  },
+  {
+   "family": "animagine [sdxl]",
+   "keep": {
+    "id": 260267,
+    "name": "Animagine XL V3.1",
+    "stats": {
+     "downloadCount": 280907,
+     "thumbsUpCount": 18666,
+     "thumbsDownCount": 28,
+     "commentCount": 0,
+     "tippedAmountCount": 346117,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:35+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1188071,
+     "name": "Animagine XL 4.0"
+    }
+   ]
+  },
+  {
+   "family": "toonyou [sd]",
+   "keep": {
+    "id": 92834,
+    "name": "ToonYou - JP",
+    "stats": {
+     "downloadCount": 23835,
+     "thumbsUpCount": 3857,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 640,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:39+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 30240,
+     "name": "ToonYou"
+    }
+   ]
+  },
+  {
+   "family": "artist rpg tools zovya [sd]",
+   "keep": {
+    "id": 8951,
+    "name": "A to Zovya RPG Artist's Tools LoRA",
+    "stats": {
+     "downloadCount": 13081,
+     "thumbsUpCount": 1414,
+     "thumbsDownCount": 0,
+     "commentCount": 10,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:13+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 8124,
+     "name": "A-Zovya RPG Artist Tools"
+    }
+   ]
+  },
+  {
+   "family": "harem miaomiao [anima]",
+   "keep": {
+    "id": 431957,
+    "name": "MiaoMiao 3D Harem",
+    "stats": {
+     "downloadCount": 27448,
+     "thumbsUpCount": 2412,
+     "thumbsDownCount": 7,
+     "commentCount": 0,
+     "tippedAmountCount": 437020,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:49:43+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 934764,
+     "name": "MiaoMiao Harem"
+    }
+   ]
+  },
+  {
+   "family": "realism stable yogi [illustrious]",
+   "keep": {
+    "id": 1304531,
+    "name": "Realism Lora By Stable Yogi (Illustrious)",
+    "stats": {
+     "downloadCount": 10244,
+     "thumbsUpCount": 679,
+     "thumbsDownCount": 3,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:13+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 974693,
+     "name": "Realism Illustrious By Stable Yogi"
+    }
+   ]
+  },
+  {
+   "family": "cartoon disney pixar type [sd]",
+   "keep": {
+    "id": 75650,
+    "name": "Disney Pixar Cartoon type B",
+    "stats": {
+     "downloadCount": 52271,
+     "thumbsUpCount": 4686,
+     "thumbsDownCount": 2,
+     "commentCount": 0,
+     "tippedAmountCount": 2530,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:38+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 65203,
+     "name": "Disney Pixar Cartoon Type A"
+    }
+   ]
+  },
+  {
+   "family": "image [zimageturbo]",
+   "keep": {
+    "id": 2168935,
+    "name": "Z Image Turbo",
+    "stats": {
+     "downloadCount": 93169,
+     "thumbsUpCount": 8562,
+     "thumbsDownCount": 37,
+     "commentCount": 0,
+     "tippedAmountCount": 2231,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:37+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2233584,
+     "name": "Z Image Turbo"
+    }
+   ]
+  },
+  {
+   "family": "official photorealism protogen release [sd]",
+   "keep": {
+    "id": 3666,
+    "name": "Protogen x3.4 (Photorealism) Official Release",
+    "stats": {
+     "downloadCount": 73185,
+     "thumbsUpCount": 7084,
+     "thumbsDownCount": 8,
+     "commentCount": 0,
+     "tippedAmountCount": 70,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:37+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 3816,
+     "name": "Protogen x5.3 (Photorealism) Official Release"
+    }
+   ]
+  },
+  {
+   "family": " [sd]",
+   "keep": {
+    "id": 39044,
+    "name": "C3",
+    "stats": {
+     "downloadCount": 10764,
+     "thumbsUpCount": 931,
+     "thumbsDownCount": 0,
+     "commentCount": 42,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:06+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 110053,
+     "name": "t3"
+    }
+   ]
+  },
+  {
+   "family": "klein [flux.2]",
+   "keep": {
+    "id": 2322332,
+    "name": "Flux.2 Klein",
+    "stats": {
+     "downloadCount": 34310,
+     "thumbsUpCount": 1435,
+     "thumbsDownCount": 10,
+     "commentCount": 0,
+     "tippedAmountCount": 110,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:49:45+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2332424,
+     "name": "Flux 2 Klein"
+    }
+   ]
+  },
+  {
+   "family": "realism stable yogi [sdxl]",
+   "keep": {
+    "id": 1100721,
+    "name": "Realism Lora By Stable Yogi (SDXL)",
+    "stats": {
+     "downloadCount": 25339,
+     "thumbsUpCount": 1478,
+     "thumbsDownCount": 2,
+     "commentCount": 5,
+     "tippedAmountCount": 1000,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:10+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1423965,
+     "name": "Realism SDXL By Stable Yogi"
+    }
+   ]
+  },
+  {
+   "family": "image qwen [qwen]",
+   "keep": {
+    "id": 1864281,
+    "name": "Qwen-Image",
+    "stats": {
+     "downloadCount": 46489,
+     "thumbsUpCount": 989,
+     "thumbsDownCount": 2,
+     "commentCount": 34,
+     "tippedAmountCount": 1100,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:26+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1841581,
+     "name": "Qwen-Image WF"
+    }
+   ]
+  },
+  {
+   "family": "famegrid [sdxl]",
+   "keep": {
+    "id": 1368634,
+    "name": "FameGrid XL [LORA]",
+    "stats": {
+     "downloadCount": 6719,
+     "thumbsUpCount": 526,
+     "thumbsDownCount": 1,
+     "commentCount": 8,
+     "tippedAmountCount": 30,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:21+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1693257,
+     "name": "Famegrid SDXL [Checkpoint]"
+    }
+   ]
+  },
+  {
+   "family": "analog diffusion [sd]",
+   "keep": {
+    "id": 1265,
+    "name": "Analog Diffusion",
+    "stats": {
+     "downloadCount": 14841,
+     "thumbsUpCount": 1701,
+     "thumbsDownCount": 1,
+     "commentCount": 13,
+     "tippedAmountCount": 109,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:16+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 19118,
+     "name": "Analog Diffusion Lora"
+    }
+   ]
+  },
+  {
+   "family": "epicphotoxl [sdxl]",
+   "keep": {
+    "id": 1003950,
+    "name": "epiCPhotoXL",
+    "stats": {
+     "downloadCount": 8712,
+     "thumbsUpCount": 559,
+     "thumbsDownCount": 1,
+     "commentCount": 0,
+     "tippedAmountCount": 10,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:17+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 299086,
+     "name": "epiCPhotoXL LoRA"
+    }
+   ]
+  },
+  {
+   "family": "emotion puppeteer [sd]",
+   "keep": {
+    "id": 4940,
+    "name": "Emotion-Puppeteer",
+    "stats": {
+     "downloadCount": 2037,
+     "thumbsUpCount": 302,
+     "thumbsDownCount": 0,
+     "commentCount": 25,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:20+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 11998,
+     "name": "Emotion-Puppeteer-LoRA"
+    }
+   ]
+  },
+  {
+   "family": "reality stoked [sd]",
+   "keep": {
+    "id": 112198,
+    "name": "Stoked Reality",
+    "stats": {
+     "downloadCount": 2217,
+     "thumbsUpCount": 172,
+     "thumbsDownCount": 0,
+     "commentCount": 2,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:19+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 86526,
+     "name": "Stoked Reality"
+    }
+   ]
+  },
+  {
+   "family": "cinero [illustrious]",
+   "keep": {
+    "id": 1249605,
+    "name": "CinEro Illustrious",
+    "stats": {
+     "downloadCount": 1625,
+     "thumbsUpCount": 132,
+     "thumbsDownCount": 1,
+     "commentCount": 10,
+     "tippedAmountCount": 2975,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:20+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1353624,
+     "name": "CinEro Illustrious V5"
+    }
+   ]
+  },
+  {
+   "family": "double exposure [sd]",
+   "keep": {
+    "id": 1146,
+    "name": "Double Exposure for SD 1.x",
+    "stats": {
+     "downloadCount": 1781,
+     "thumbsUpCount": 377,
+     "thumbsDownCount": 0,
+     "commentCount": 2,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:20+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 90633,
+     "name": "Double exposure / 双重曝光 / 二重露光 / 더블 노출"
+    }
+   ]
+  },
+  {
+   "family": "dreamlike photoreal [sd]",
+   "keep": {
+    "id": 1276,
+    "name": "Dreamlike Photoreal",
+    "stats": {
+     "downloadCount": 1498,
+     "thumbsUpCount": 180,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:20+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 3811,
+     "name": "Dreamlike Photoreal 2.0"
+    }
+   ]
+  },
+  {
+   "family": "assorted female nobodies [sd]",
+   "keep": {
+    "id": 99154,
+    "name": "SL Assorted Female Nobodies",
+    "stats": {
+     "downloadCount": 36001,
+     "thumbsUpCount": 1425,
+     "thumbsDownCount": 0,
+     "commentCount": 17,
+     "tippedAmountCount": 878,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:02+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 162836,
+     "name": "SL Assorted Female Nobodies 2"
+    }
+   ]
+  },
+  {
+   "family": "ideal pirsus realism [sd]",
+   "keep": {
+    "id": 301419,
+    "name": "Pirsus Ideal Realism",
+    "stats": {
+     "downloadCount": 922,
+     "thumbsUpCount": 75,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 420,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:27+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 424583,
+     "name": "Pirsus Ideal Realism"
+    }
+   ]
+  },
+  {
+   "family": "anime realistic [illustrious]",
+   "keep": {
+    "id": 536084,
+    "name": "Realistic Anime Style (Illustrious/Pony/FLUX)",
+    "stats": {
+     "downloadCount": 13787,
+     "thumbsUpCount": 1507,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 250,
+     "period": null,
+     "pulled_at": "2026-09-02T03:50:06+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2660054,
+     "name": "Anime to Realistic WF"
+    }
+   ]
+  },
+  {
+   "family": "hunyuan workflow [hunyuan]",
+   "keep": {
+    "id": 1505523,
+    "name": "Hunyuan 3D 2.0 Workflow",
+    "stats": {
+     "downloadCount": 719,
+     "thumbsUpCount": 21,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:15+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1561412,
+     "name": "HunYuan 3D V2 Workflow"
+    }
+   ]
+  },
+  {
+   "family": "graphic ltx new raw text video [ltxv]",
+   "keep": {
+    "id": 1529679,
+    "name": "Ltx 0.91 new model text/graphic raw video workflow",
+    "stats": {
+     "downloadCount": 131,
+     "thumbsUpCount": 2,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:14+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1529674,
+     "name": "Ltx 0.91 new model text/graphic raw video workflow"
+    }
+   ]
+  },
+  {
+   "family": "startendframes wan2 [wan]",
+   "keep": {
+    "id": 1835564,
+    "name": "【WAN2.2】StartEndFrames",
+    "stats": {
+     "downloadCount": 2683,
+     "thumbsUpCount": 119,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 10,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:12+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1389820,
+     "name": "【WAN2.1】StartEndFrames"
+    }
+   ]
+  },
+  {
+   "family": "img video wan2 [wan]",
+   "keep": {
+    "id": 1824577,
+    "name": "【WAN2.2】IMG to VIDEO",
+    "stats": {
+     "downloadCount": 24885,
+     "thumbsUpCount": 816,
+     "thumbsDownCount": 6,
+     "commentCount": 0,
+     "tippedAmountCount": 2131,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:17+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1309369,
+     "name": "【WAN2.1】IMG to VIDEO"
+    }
+   ]
+  },
+  {
+   "family": "txt video wan2 [wan]",
+   "keep": {
+    "id": 1830480,
+    "name": "【WAN2.2】TXT to VIDEO",
+    "stats": {
+     "downloadCount": 4478,
+     "thumbsUpCount": 142,
+     "thumbsDownCount": 0,
+     "commentCount": 27,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:12+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1309324,
+     "name": "【WAN2.1】TXT to VIDEO"
+    }
+   ]
+  },
+  {
+   "family": "control fun video wan2 [wan]",
+   "keep": {
+    "id": 1564573,
+    "name": "【WAN2.1】FUN VIDEO CONTROL",
+    "stats": {
+     "downloadCount": 1056,
+     "thumbsUpCount": 42,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:12+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1878919,
+     "name": "【WAN2.2】FUN VIDEO CONTROL"
+    }
+   ]
+  },
+  {
+   "family": "engineered expansion generator image qwen3 remix [wan]",
+   "keep": {
+    "id": 2107905,
+    "name": "Wan2.2 Remix V2 + Qwen3 VL Reverse-Engineered Expansion Image-to-Video Generator V2",
+    "stats": {
+     "downloadCount": 483,
+     "thumbsUpCount": 8,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:12+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2107920,
+     "name": "Wan2.2 Remix V2 + Qwen3 VL Reverse-Engineered Expansion Image-to-Video Generator V2"
+    }
+   ]
+  },
+  {
+   "family": "image text wan [wan]",
+   "keep": {
+    "id": 1757056,
+    "name": "Wan 2.1 Text to Image",
+    "stats": {
+     "downloadCount": 6558,
+     "thumbsUpCount": 149,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:19+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1857423,
+     "name": "Wan 2.2 Text to Image"
+    }
+   ]
+  },
+  {
+   "family": "accelerated high multitalk player quality single [wan]",
+   "keep": {
+    "id": 1702958,
+    "name": "MultiTalk Single-Player KJ High-Quality Accelerated Stable Version",
+    "stats": {
+     "downloadCount": 252,
+     "thumbsUpCount": 5,
+     "thumbsDownCount": 0,
+     "commentCount": 2,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:12+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1702928,
+     "name": "MultiTalk Single-Player KJ High-Quality Accelerated Stable Version"
+    }
+   ]
+  },
+  {
+   "family": "body challenge comfy control full image [wan]",
+   "keep": {
+    "id": 1947189,
+    "name": "Comfy Challenge 4 + Qwen + image + Wan 2.2 + S2V Full-Body Pose Control V1",
+    "stats": {
+     "downloadCount": 161,
+     "thumbsUpCount": 6,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:13+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1947173,
+     "name": "Comfy Challenge 4 + Qwen + image + Wan 2.2 + Vace Full-Body Pose Control V1"
+    }
+   ]
+  },
+  {
+   "family": "accelerated edition enlargement fusionx image video [wan]",
+   "keep": {
+    "id": 1686300,
+    "name": "FusionX Accelerated Edition Video Image Enlargement",
+    "stats": {
+     "downloadCount": 136,
+     "thumbsUpCount": 7,
+     "thumbsDownCount": 0,
+     "commentCount": 1,
+     "tippedAmountCount": 0,
+     "period": null,
+     "pulled_at": "2026-09-02T03:51:13+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1686284,
+     "name": "FusionX Accelerated Edition Video Image Enlargement"
+    }
+   ]
+  },
+  {
+   "family": "inpaint [flux.1]",
+   "keep": {
+    "id": 790080,
+    "name": "【FLUX】INPAINT",
+    "stats": {
+     "downloadCount": 15240,
+     "thumbsUpCount": 330,
+     "thumbsDownCount": 1,
+     "commentCount": 0,
+     "tippedAmountCount": 730,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:17+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 673429,
+     "name": "FLUX INPAINT"
+    }
+   ]
+  },
+  {
+   "family": "background change choice image product transfer [sdxl]",
+   "keep": {
+    "id": 413826,
+    "name": "Change product background with the image of your choice using Style Transfer.",
+    "stats": {
+     "downloadCount": 914,
+     "thumbsUpCount": 67,
+     "thumbsDownCount": 1,
+     "commentCount": 1,
+     "tippedAmountCount": 0,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:25+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 413803,
+     "name": "Change product background with the image of your choice using Style Transfer."
+    }
+   ]
+  },
+  {
+   "family": "upscale workflow [flux.1]",
+   "keep": {
+    "id": 850420,
+    "name": "UPSCALE WORKFLOW WITH FLUX TURBO LORA",
+    "stats": {
+     "downloadCount": 5596,
+     "thumbsUpCount": 118,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 10,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:20+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 627955,
+     "name": "Flux Upscale Workflow"
+    }
+   ]
+  },
+  {
+   "family": "image upscaler [zimageturbo]",
+   "keep": {
+    "id": 2247757,
+    "name": "Z Image Turbo with 4K Upscaler",
+    "stats": {
+     "downloadCount": 5408,
+     "thumbsUpCount": 118,
+     "thumbsDownCount": 0,
+     "commentCount": 12,
+     "tippedAmountCount": 260,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:20+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2728893,
+     "name": "Image Upscaler - SX CU"
+    }
+   ]
+  },
+  {
+   "family": "beginner builder character comfyui consistent dataset [flux.2]",
+   "keep": {
+    "id": 2430168,
+    "name": "ComfyUI beginner friendly Flux.2 Klein Consistent Character Dataset Builder (With Prompt Saver) Workflow by Sarcastic TOFU",
+    "stats": {
+     "downloadCount": 1140,
+     "thumbsUpCount": 66,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 21120,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:25+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2325916,
+     "name": "ComfyUI beginner friendly Flux.2 Klein 4B GGUF Simple Fast Consistent Character Dataset Builder Workflow by Sarcastic TOFU"
+    }
+   ]
+  },
+  {
+   "family": "anima simple workflow [anima]",
+   "keep": {
+    "id": 2818074,
+    "name": "Anima simple workflow",
+    "stats": {
+     "downloadCount": 546,
+     "thumbsUpCount": 34,
+     "thumbsDownCount": 0,
+     "commentCount": 3,
+     "tippedAmountCount": 0,
+     "period": "Month",
+     "pulled_at": "2026-09-02T03:48:35+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2809738,
+     "name": "A Simple Anima Workflow"
+    }
+   ]
+  },
+  {
+   "family": "dev gguf ltx rebels [ltxv2]",
+   "keep": {
+    "id": 2297090,
+    "name": "Rebels LTX-2 Dev (GGUF)",
+    "stats": {
+     "downloadCount": 1889,
+     "thumbsUpCount": 51,
+     "thumbsDownCount": 1,
+     "commentCount": 15,
+     "tippedAmountCount": 10,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:48:30+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2443478,
+     "name": "Rebels LTX-2.3 Dev (GGUF)"
+    }
+   ]
+  },
+  {
+   "family": "beginner cloth comfyui friendly gguf klein [flux.2]",
+   "keep": {
+    "id": 2443347,
+    "name": "ComfyUI beginner friendly Flux.2 Klein 9B GGUF Simple Cloth Swap Workflow by Sarcastic TOFU",
+    "stats": {
+     "downloadCount": 777,
+     "thumbsUpCount": 34,
+     "thumbsDownCount": 0,
+     "commentCount": 5,
+     "tippedAmountCount": 8020,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:48:32+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2336342,
+     "name": "ComfyUI beginner friendly Flux.2 Klein 4B GGUF Simple Cloth Swap Workflow by Sarcastic TOFU"
+    }
+   ]
+  },
+  {
+   "family": "beginner comfyui fast flawless friendly gguf [flux.2]",
+   "keep": {
+    "id": 2320172,
+    "name": "ComfyUI beginner friendly Flux.2 Klein 4B GGUF Simple Flawless Fast Headswap Workflow by Sarcastic TOFU",
+    "stats": {
+     "downloadCount": 1283,
+     "thumbsUpCount": 49,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 7780,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:48:30+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2418667,
+     "name": "ComfyUI beginner friendly Flux.2 Klein 9B GGUF Simple Flawless Fast Headswap Workflows by Sarcastic TOFU"
+    }
+   ]
+  },
+  {
+   "family": "beginner comfyui friendly image loras sarcastic [zimageturbo]",
+   "keep": {
+    "id": 2172979,
+    "name": "ComfyUI beginner friendly Z-Image Turbo Text-to-Image with LORAs Workflow by Sarcastic TOFU",
+    "stats": {
+     "downloadCount": 1317,
+     "thumbsUpCount": 45,
+     "thumbsDownCount": 0,
+     "commentCount": 3,
+     "tippedAmountCount": 23910,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:48:30+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2173008,
+     "name": "ComfyUI beginner friendly Z-Image Turbo Image-to-Image with LORAs Workflow by Sarcastic TOFU"
+    }
+   ]
+  },
+  {
+   "family": "depth klein refcontrol reference workflow [flux.2]",
+   "keep": {
+    "id": 2655452,
+    "name": "Workflow: RefControl FLUX.2 Klein 9B – Reference Depth LoRA",
+    "stats": {
+     "downloadCount": 539,
+     "thumbsUpCount": 30,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:48:34+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2657247,
+     "name": "Workflow - RefControl FLUX.2 Klein 4B – Reference Depth LoRA"
+    }
+   ]
+  },
+  {
+   "family": "image video wan [wan]",
+   "keep": {
+    "id": 2572452,
+    "name": "Wan 2.2 image to video",
+    "stats": {
+     "downloadCount": 1051,
+     "thumbsUpCount": 27,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:48:34+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1410742,
+     "name": "Wan 2.1 Image to Video"
+    }
+   ]
+  },
+  {
+   "family": "basic beginner pulid simple workflow [flux.1]",
+   "keep": {
+    "id": 1033132,
+    "name": "[FLUX] PuLID + LORA simple workflow (Basic, Beginner)",
+    "stats": {
+     "downloadCount": 1772,
+     "thumbsUpCount": 48,
+     "thumbsDownCount": 0,
+     "commentCount": 4,
+     "tippedAmountCount": 0,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:48:01+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 1032821,
+     "name": "[FLUX] PuLID simple workflow (Beginner, Basic)"
+    }
+   ]
+  },
+  {
+   "family": "anima workflow [anima]",
+   "keep": {
+    "id": 2680315,
+    "name": "Anima Workflow",
+    "stats": {
+     "downloadCount": 943,
+     "thumbsUpCount": 25,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": "Year",
+     "pulled_at": "2026-09-02T03:48:10+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2682832,
+     "name": "すてぃっくワークフロー　Anima Workflow"
+    }
+   ]
+  },
+  {
+   "family": "anima base controlnet face hand image [anima]",
+   "keep": {
+    "id": 2629463,
+    "name": "Anima Base Image-to-Image + ControlNet Face & Hand Repair Workflow",
+    "stats": {
+     "downloadCount": 519,
+     "thumbsUpCount": 18,
+     "thumbsDownCount": 0,
+     "commentCount": 0,
+     "tippedAmountCount": 0,
+     "period": "AllTime",
+     "pulled_at": "2026-09-02T03:49:08+00:00"
+    }
+   },
+   "cut": [
+    {
+     "id": 2629473,
+     "name": "Anima Base Text-to-Image + ControlNet Face & Hand Repair Workflow"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,878 @@
+[
+  {
+    "id": 605283,
+    "name": "DonutsDeliveryMix V4 - NSFW Photorealism",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "DonutsDelivery",
+      "href": "https://civitai.com/users/DonutsDelivery"
+    },
+    "stats": {
+      "downloadCount": 35805,
+      "thumbsUpCount": 1476,
+      "thumbsDownCount": 8,
+      "commentCount": 0,
+      "tippedAmountCount": 1219,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:52+00:00"
+    },
+    "lastUpdated": "2025-05-03T04:45:23.915Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Image",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/605283",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9237661a-9f0d-4995-a8f5-ad815abc2303/width=450/73852235.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9237661a-9f0d-4995-a8f5-ad815abc2303/original=true/73852235.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1739105,
+        "name": "v4.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-05-03T04:45:23.915Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1739105",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v41.safetensors",
+            "type": "Model",
+            "sizeKB": 6775441.017578125
+          }
+        ]
+      },
+      {
+        "id": 1715406,
+        "name": "V4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-04-27T13:11:14.026Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1715406",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v4.safetensors",
+            "type": "Model",
+            "sizeKB": 6775437.017578125
+          }
+        ]
+      },
+      {
+        "id": 1096215,
+        "name": "v3.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-24T20:57:31.498Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1096215",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v30.safetensors",
+            "type": "Model",
+            "sizeKB": 6775434.986328125
+          }
+        ]
+      },
+      {
+        "id": 1113755,
+        "name": "v3.0 Hyperealism",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-30T05:29:59.816Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1113755",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v30Hyperealism.safetensors",
+            "type": "Model",
+            "sizeKB": 6775434.736328125
+          }
+        ]
+      },
+      {
+        "id": 1101804,
+        "name": "v3.0 ⚡DMD2⚡ (4-step)",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-11-26T13:24:33.509Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1101804",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v30DMD24Step.safetensors",
+            "type": "Model",
+            "sizeKB": 6775435.642578125
+          }
+        ]
+      },
+      {
+        "id": 743355,
+        "name": "v2.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-19T21:31:41.940Z",
+        "downloadUrl": "https://civitai.com/api/download/models/743355",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v20.safetensors",
+            "type": "Model",
+            "sizeKB": 6775435.837890625
+          }
+        ]
+      },
+      {
+        "id": 909272,
+        "name": "v2.1 Hyperealism",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-09-30T22:25:16.584Z",
+        "downloadUrl": "https://civitai.com/api/download/models/909272",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v21Hyperealism.safetensors",
+            "type": "Model",
+            "sizeKB": 6775437.064453125
+          }
+        ]
+      },
+      {
+        "id": 962705,
+        "name": "v2.0 4-step Lightning",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-10-16T13:38:50.757Z",
+        "downloadUrl": "https://civitai.com/api/download/models/962705",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v204StepLightning.safetensors",
+            "type": "Model",
+            "sizeKB": 6775433.111328125
+          }
+        ]
+      },
+      {
+        "id": 743611,
+        "name": "v2.0 Hyperealism",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-19T22:04:02.091Z",
+        "downloadUrl": "https://civitai.com/api/download/models/743611",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v20Hyperealism.safetensors",
+            "type": "Model",
+            "sizeKB": 6775436.666015625
+          }
+        ]
+      },
+      {
+        "id": 676593,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-07-27T18:42:29.232Z",
+        "downloadUrl": "https://civitai.com/api/download/models/676593",
+        "files": [
+          {
+            "name": "donutsdeliverymixV4_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6973415.134765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2169381,
+    "name": "Krea2 Turbo Workflow + Upscale + Edit + Uncen",
+    "type": "Workflows",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "DonutsDelivery",
+      "href": "https://civitai.com/users/DonutsDelivery"
+    },
+    "stats": {
+      "downloadCount": 25077,
+      "thumbsUpCount": 447,
+      "thumbsDownCount": 10,
+      "commentCount": 55,
+      "tippedAmountCount": 250,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:44+00:00"
+    },
+    "lastUpdated": "2026-08-31T22:54:01.596Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2169381",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f73d705d-9b95-4753-98be-a1176de38613/width=450/113174158.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f73d705d-9b95-4753-98be-a1176de38613/original=true/113174158.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3285460,
+        "name": "v2.6",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-31T22:54:01.596Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3285460",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v26.zip",
+            "type": "Archive",
+            "sizeKB": 18.640625
+          }
+        ]
+      },
+      {
+        "id": 3278361,
+        "name": "v2.5",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-29T18:26:56.415Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3278361",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v25.zip",
+            "type": "Archive",
+            "sizeKB": 18.0244140625
+          }
+        ]
+      },
+      {
+        "id": 3235755,
+        "name": "v2.4",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-16T16:41:15.261Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3235755",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v24.zip",
+            "type": "Archive",
+            "sizeKB": 17.9931640625
+          }
+        ]
+      },
+      {
+        "id": 3228601,
+        "name": "v2.3",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-14T16:39:04.657Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3228601",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v23.zip",
+            "type": "Archive",
+            "sizeKB": 17.1865234375
+          }
+        ]
+      },
+      {
+        "id": 3220426,
+        "name": "v2.2",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-11T22:55:14.192Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3220426",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v22.zip",
+            "type": "Archive",
+            "sizeKB": 16.05078125
+          }
+        ]
+      },
+      {
+        "id": 3138090,
+        "name": "v2.1",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-07-17T08:52:31.087Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3138090",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v21.zip",
+            "type": "Archive",
+            "sizeKB": 15.4541015625
+          }
+        ]
+      },
+      {
+        "id": 3100849,
+        "name": "v1.9",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-07-05T10:52:27.308Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3100849",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v19.zip",
+            "type": "Archive",
+            "sizeKB": 159.2802734375
+          }
+        ]
+      },
+      {
+        "id": 3072705,
+        "name": "v1.8",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-06-26T20:02:59.679Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3072705",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v18.json",
+            "type": "Config",
+            "sizeKB": 228.65234375
+          }
+        ]
+      },
+      {
+        "id": 2948815,
+        "name": "v1.7 (subgraph edit)",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-05-16T00:47:05.388Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2948815",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v17SubgraphEdit.zip",
+            "type": "Archive",
+            "sizeKB": 25.3671875
+          }
+        ]
+      },
+      {
+        "id": 2839829,
+        "name": "v1.6",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-04-08T02:09:10.615Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2839829",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v16.zip",
+            "type": "Archive",
+            "sizeKB": 21.8935546875
+          }
+        ]
+      },
+      {
+        "id": 2549737,
+        "name": "v1.5",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-30T13:03:50.381Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2549737",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v15.zip",
+            "type": "Archive",
+            "sizeKB": 19.984375
+          }
+        ]
+      },
+      {
+        "id": 2485236,
+        "name": "v1.4",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-09T02:35:13.290Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2485236",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v14.zip",
+            "type": "Archive",
+            "sizeKB": 22.9931640625
+          }
+        ]
+      },
+      {
+        "id": 2478050,
+        "name": "v1.3",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-06T22:28:38.694Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2478050",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v13.zip",
+            "type": "Archive",
+            "sizeKB": 21.2900390625
+          }
+        ]
+      },
+      {
+        "id": 2449571,
+        "name": "v1.2",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-11-29T08:38:39.279Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2449571",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v12.zip",
+            "type": "Archive",
+            "sizeKB": 15.158203125
+          }
+        ]
+      },
+      {
+        "id": 2444244,
+        "name": "v1.1",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-11-27T13:34:13.919Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2444244",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v11.zip",
+            "type": "Archive",
+            "sizeKB": 132.0888671875
+          }
+        ]
+      },
+      {
+        "id": 2442946,
+        "name": "v1.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-11-27T01:51:19.420Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2442946",
+        "files": [
+          {
+            "name": "krea2TurboWorkflowUpscale_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4382.533203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1004554,
+    "name": "BigLustyDonutMix (NSFW Realism)",
+    "type": "Checkpoint",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 60,
+    "creator": {
+      "username": "DonutsDelivery",
+      "href": "https://civitai.com/users/DonutsDelivery"
+    },
+    "stats": {
+      "downloadCount": 15500,
+      "thumbsUpCount": 754,
+      "thumbsDownCount": 5,
+      "commentCount": 0,
+      "tippedAmountCount": 7000,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:52+00:00"
+    },
+    "lastUpdated": "2025-02-11T14:10:21.660Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Image",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1004554",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65e4077f-6968-4f96-8fd8-167b554b59dd/width=450/57416818.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65e4077f-6968-4f96-8fd8-167b554b59dd/original=true/57416818.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1400578,
+        "name": "v1.2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-02-11T14:10:21.660Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1400578",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v12.safetensors",
+            "type": "Model",
+            "sizeKB": 6775842.673828125
+          }
+        ]
+      },
+      {
+        "id": 1216061,
+        "name": "v1.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-29T12:13:18.086Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1216061",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v11.safetensors",
+            "type": "Model",
+            "sizeKB": 6775436.658203125
+          }
+        ]
+      },
+      {
+        "id": 1220325,
+        "name": "v1.1B",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-30T16:08:04.431Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1220325",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v11B.safetensors",
+            "type": "Model",
+            "sizeKB": 6775432.962890625
+          }
+        ]
+      },
+      {
+        "id": 1125902,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-03T18:45:41.108Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1125902",
+        "files": [
+          {
+            "name": "biglustydonutmixNSFW_v10.safetensors",
+            "type": "Model",
+            "sizeKB": 6775435.416015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 664292,
+    "name": "DonutsDelivery SDXL Workflow (Simplified) - Upscale, Facedetailer, Ipadapter",
+    "type": "Workflows",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "DonutsDelivery",
+      "href": "https://civitai.com/users/DonutsDelivery"
+    },
+    "stats": {
+      "downloadCount": 12101,
+      "thumbsUpCount": 293,
+      "thumbsDownCount": 0,
+      "commentCount": 43,
+      "tippedAmountCount": 4720,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:44+00:00"
+    },
+    "lastUpdated": "2025-04-27T12:47:14.274Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/664292",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65105fed-6720-4abc-816e-81eb43623ecf/width=450/68629190.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65105fed-6720-4abc-816e-81eb43623ecf/original=true/68629190.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1715446,
+        "name": "MiniDonut v6",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-04-27T12:47:14.274Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1715446",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_minidonutV6.zip",
+            "type": "Archive",
+            "sizeKB": 38.7802734375
+          }
+        ]
+      },
+      {
+        "id": 1634678,
+        "name": "MiniDonut v5",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-04-07T22:36:17.133Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1634678",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_minidonutV5.zip",
+            "type": "Archive",
+            "sizeKB": 74.0234375
+          }
+        ]
+      },
+      {
+        "id": 1512182,
+        "name": "MiniDonut v4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-09T17:51:22.634Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1512182",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_minidonutV4.zip",
+            "type": "Archive",
+            "sizeKB": 65.6865234375
+          }
+        ]
+      },
+      {
+        "id": 1446298,
+        "name": "MiniDonut V3",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-02-22T07:36:18.754Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1446298",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_minidonutV3.zip",
+            "type": "Archive",
+            "sizeKB": 59.7373046875
+          }
+        ]
+      },
+      {
+        "id": 1394864,
+        "name": "MiniDonut V2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-02-10T04:02:26.876Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1394864",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_minidonutV2.zip",
+            "type": "Archive",
+            "sizeKB": 56.8046875
+          }
+        ]
+      },
+      {
+        "id": 1216028,
+        "name": "MiniDonut V1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-12-29T11:49:56.715Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1216028",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_minidonutV1.zip",
+            "type": "Archive",
+            "sizeKB": 54.345703125
+          }
+        ]
+      },
+      {
+        "id": 909416,
+        "name": "v1.3 Hotfixed",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-09-30T23:34:19.495Z",
+        "downloadUrl": "https://civitai.com/api/download/models/909416",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_v13Hotfixed.zip",
+            "type": "Archive",
+            "sizeKB": 53.20703125
+          }
+        ]
+      },
+      {
+        "id": 757158,
+        "name": "v1.2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-23T03:06:50.910Z",
+        "downloadUrl": "https://civitai.com/api/download/models/757158",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_v12.zip",
+            "type": "Archive",
+            "sizeKB": 31.9228515625
+          }
+        ]
+      },
+      {
+        "id": 745319,
+        "name": "v1.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-20T07:55:19.912Z",
+        "downloadUrl": "https://civitai.com/api/download/models/745319",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_v11.zip",
+            "type": "Archive",
+            "sizeKB": 24.775390625
+          }
+        ]
+      },
+      {
+        "id": 743412,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-08-19T20:42:22.072Z",
+        "downloadUrl": "https://civitai.com/api/download/models/743412",
+        "files": [
+          {
+            "name": "donutsdeliverySDXLWorkflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 23.859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 642062,
+    "name": "Flux NF4 Native Upscale + Face+eye detailer Workflow",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "DonutsDelivery",
+      "href": "https://civitai.com/users/DonutsDelivery"
+    },
+    "stats": {
+      "downloadCount": 3944,
+      "thumbsUpCount": 137,
+      "thumbsDownCount": 0,
+      "commentCount": 6,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T03:53:44+00:00"
+    },
+    "lastUpdated": "2024-08-18T23:42:42.018Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/642062",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/540e9882-a16a-4e3d-801a-01a9a5870d4c/width=450/25701407.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/540e9882-a16a-4e3d-801a-01a9a5870d4c/original=true/25701407.jpeg"
+    },
+    "versions": [
+      {
+        "id": 739652,
+        "name": "v3.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-18T23:42:42.018Z",
+        "downloadUrl": "https://civitai.com/api/download/models/739652",
+        "files": [
+          {
+            "name": "fluxNF4NativeUpscale_v30.zip",
+            "type": "Archive",
+            "sizeKB": 7.3134765625
+          }
+        ]
+      },
+      {
+        "id": 757445,
+        "name": "v4.0 bugged",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-23T05:07:13.156Z",
+        "downloadUrl": "https://civitai.com/api/download/models/757445",
+        "files": [
+          {
+            "name": "fluxNF4NativeUpscale_v40Bugged.zip",
+            "type": "Archive",
+            "sizeKB": 10.34765625
+          }
+        ]
+      },
+      {
+        "id": 723420,
+        "name": "v2.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-15T00:11:41.001Z",
+        "downloadUrl": "https://civitai.com/api/download/models/723420",
+        "files": [
+          {
+            "name": "fluxNF4NativeUpscale_v20.zip",
+            "type": "Archive",
+            "sizeKB": 4.8056640625
+          }
+        ]
+      },
+      {
+        "id": 718149,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-13T01:22:47.158Z",
+        "downloadUrl": "https://civitai.com/api/download/models/718149",
+        "files": [
+          {
+            "name": "fluxNF4NativeUpscale_v10.zip",
+            "type": "Archive",
+            "sizeKB": 7.84375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2289127,
+    "name": "ZiT - RandomMergeTime V4",
+    "type": "Checkpoint",
+    "baseModel": "ZImageTurbo",
+    "nsfwLevel": 28,
+    "creator": {
+      "username": "DonutsDelivery",
+      "href": "https://civitai.com/users/DonutsDelivery"
+    },
+    "stats": {
+      "downloadCount": 1715,
+      "thumbsUpCount": 82,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T03:54:52+00:00"
+    },
+    "lastUpdated": "2026-05-03T21:31:55.173Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2289127",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36897dd3-c802-4b75-805d-91faa0da0653/width=450/129527035.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36897dd3-c802-4b75-805d-91faa0da0653/original=true/129527035.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2916360,
+        "name": "V3.1",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-05-03T21:31:55.173Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2916360",
+        "files": [
+          {
+            "name": "zitRandommergetimeV4_v31.safetensors",
+            "type": "Diffusion Model",
+            "sizeKB": 12021363.65625
+          }
+        ]
+      },
+      {
+        "id": 2918747,
+        "name": "V4 (fixed)",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-05-04T18:25:12.772Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2918747",
+        "files": [
+          {
+            "name": "zitRandommergetimeV4_v4Fixed.safetensors",
+            "type": "Diffusion Model",
+            "sizeKB": 12021363.65625
+          }
+        ]
+      }
+    ]
+  }
+]
