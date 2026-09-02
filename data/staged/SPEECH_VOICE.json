@@ -1,6 +1,6 @@
 {
  "stage": "SPEECH_VOICE",
- "generated": "2026-09-02T04:06:57+00:00",
+ "generated": "2026-09-02T04:10:37+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -1520,6 +1520,162 @@
    },
    "heuristic": {
     "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-realtime-tts-2",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Realtime TTS-2",
+   "purpose": "#1 cloning board at 1123 with instant 5-15s cloning; loses the provider-voice board to sonic 3.6",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "fastest",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "#1 cloning board at 1123 with instant 5-15s cloning; loses the provider-voice board to sonic 3.6",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-sonic-3.6",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Sonic 3.6",
+   "purpose": "#1 provider voice at 1282 with ~90ms time-to-first-audio; cloning board lost to realtime tts-2 (1119 vs 1123)",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "max-quality",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "#1 provider voice at 1282 with ~90ms time-to-first-audio; cloning board lost to realtime tts-2 (1119 vs 1123)",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-breeze-tts-2",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Breeze TTS 2",
+   "purpose": "top open tts at 1212 provider elo, 6 ahead of gemini 3.1 flash tts; license and vram still unverified",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "unknown",
+   "tradeoff": "best-free",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "top open tts at 1212 provider elo, 6 ahead of gemini 3.1 flash tts; license and vram still unverified",
+   "license_note": "license text not yet checked — verify before commercial use",
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-kokoro-82m",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Kokoro 82M",
+   "purpose": "runs on cpu where the api leaders need cloud; 1056 elo is 156 below breeze tts 2 — the zero-cost draft voice",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "6",
+   "tradeoff": "low vram",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "runs on cpu where the api leaders need cloud; 1056 elo is 156 below breeze tts 2 — the zero-cost draft voice",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
     "layer": null,
     "era": null
    }

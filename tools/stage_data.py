@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FUNNEL = ROOT / "data" / "funnel"
 STAGED = ROOT / "data" / "staged"
-STAGES = ["PERSONA", "MOTION", "SPEECH_VOICE", "CAMERA_ANGLE", "ADS", "NSFW", "LAYERS"]
+STAGES = ["PERSONA", "MOTION", "SPEECH_VOICE", "CAMERA_ANGLE", "ADS", "NSFW", "LAYERS", "MODELS"]
 
 TALK = re.compile(r"talk|lip.?sync|speech|voice|narrat|s2v", re.I)
 CAM = re.compile(r"camera|angle|pose|perspect|fov", re.I)
@@ -79,6 +79,42 @@ def entry_shape(e, label):
     }
 
 
+def engine_entry(e, pulled_at):
+    return {
+        "id": f"engine-{e.get('task')}-{(e.get('name') or '').lower().replace(' ', '-')[:30]}",
+        "kind": "engine",
+        "our_name": None,
+        "source_name": e.get("name"),
+        "purpose": e.get("verdict_keep"),
+        "composite": None, "tier": None,
+        "visual_class": "n/a", "quality": None, "nsfw_bucket": None,
+        "name_fit": None, "review_flag": False,
+        "baseModel": None,
+        "vram_class": e.get("vram_class"),
+        "tradeoff": e.get("tradeoff"),
+        "open_closed": e.get("open_closed"),
+        "stats": {"downloadCount": None, "thumbsUpCount": None},
+        "pulled_at": pulled_at,
+        "preview": {}, "gallery": [], "stacks_on": [],
+        "verdict_keep": e.get("verdict_keep"),
+        "license_note": e.get("license_note"),
+        "civitai_url": None, "model_url": e.get("source_url"),
+        "requirements": {"models": [], "nodes": []},
+        "heuristic": {"lane": f"models.json {e.get('task')}", "layer": None, "era": None},
+    }
+
+
+def merge_engines(buckets):
+    models = ROOT / "data" / "models.json"
+    if not models.exists():
+        return
+    d = json.loads(models.read_text())
+    pulled_at = d.get("generated_at")
+    for e in d.get("entries", []):
+        if e.get("task") == "voice":
+            buckets["SPEECH_VOICE"].append(engine_entry(e, pulled_at))
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -105,6 +141,11 @@ def main():
                 continue
             if stage in buckets:
                 buckets[stage].append(rec)
+    merge_engines(buckets)
+    models = ROOT / "data" / "models.json"
+    if models.exists():
+        d = json.loads(models.read_text())
+        buckets["MODELS"] = [engine_entry(e, d.get("generated_at")) for e in d.get("entries", [])]
     STAGED.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     for stage in STAGES:

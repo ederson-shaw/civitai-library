@@ -1,0 +1,670 @@
+{
+ "stage": "MODELS",
+ "generated": "2026-09-02T04:10:37+00:00",
+ "note": "auto-staged from funnel+vision; curation pass owns final fields",
+ "entries": [
+  {
+   "id": "engine-image-gpt-image-2",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "GPT Image 2",
+   "purpose": "beats every open model on prompt adherence and text-in-image at 1380 elo; costs $211/1k images and never runs local",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "max-quality",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "beats every open model on prompt adherence and text-in-image at 1380 elo; costs $211/1k images and never runs local",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json image",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-image-mai-image-2.6-preview",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "MAI-Image-2.6-Preview",
+   "purpose": "1324 photorealistic, 56 behind gpt image 2; api access still unconfirmed, so nothing to wire yet",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "max-quality",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "1324 photorealistic, 56 behind gpt image 2; api access still unconfirmed, so nothing to wire yet",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json image",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-image-ideogram-4.0",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Ideogram 4.0",
+   "purpose": "the open-weight image pick at 1219, 21 ahead of flux.2 dev turbo; local vram unverified",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "unknown",
+   "tradeoff": "best-free",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "the open-weight image pick at 1219, 21 ahead of flux.2 dev turbo; local vram unverified",
+   "license_note": "ideogram open model terms unverified — check commercial use before shipping",
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json image",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-face-consistency-pulid-flux",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "PuLID-FLUX",
+   "purpose": "tightest face lock on flux pipelines without training; beats instantid on flux but is flux-only",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "8",
+   "tradeoff": "purpose: flux face lock",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "tightest face lock on flux pipelines without training; beats instantid on flux but is flux-only",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json face-consistency",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-face-consistency-instantid",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "InstantID",
+   "purpose": "highest identity fidelity on sdxl; loses to pulid on flux and over-anchors prompts",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "8",
+   "tradeoff": "purpose: sdxl face lock",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "highest identity fidelity on sdxl; loses to pulid on flux and over-anchors prompts",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json face-consistency",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-face-consistency-character-lora",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Character LoRA",
+   "purpose": "highest ceiling when you can train on 50+ images; costs 4-8h on a 4090 vs one reference image for adapters",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "12",
+   "tradeoff": "max-quality",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "highest ceiling when you can train on 50+ images; costs 4-8h on a 4090 vs one reference image for adapters",
+   "license_note": "license varies by training set — check base model and dataset rights",
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json face-consistency",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-t2v-gemini-omni-1.1-flash",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Gemini Omni 1.1 Flash",
+   "purpose": "leads arena t2v at 1515; loses the aa audio board to wan 3.0 (1237 vs 1242) and never leaves the cloud",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "max-quality",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "leads arena t2v at 1515; loses the aa audio board to wan 3.0 (1237 vs 1242) and never leaves the cloud",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json t2v",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-t2v-wan-3.0",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Wan 3.0",
+   "purpose": "tops the aa audio board at 1242; absent from arena's top ranks so far and open-weights status unconfirmed",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "audio-native",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "tops the aa audio board at 1242; absent from arena's top ranks so far and open-weights status unconfirmed",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json t2v",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-t2v-minimax-h3",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "MiniMax H3",
+   "purpose": "best open-weights t2v on both boards (1227 aa); 12gb floor with heavy offload, 24gb comfortable",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "12",
+   "tradeoff": "best-free",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "best open-weights t2v on both boards (1227 aa); 12gb floor with heavy offload, 24gb comfortable",
+   "license_note": "community license excludes eu, uk, kr, usa — covers output videos too; commercial license only via comfy reseller",
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json t2v",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-t2v-ltx-2.5-pro",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "LTX-2.5 Pro",
+   "purpose": "second open t2v at 1060, 167 behind minimax h3; single-pass audio, local vram unverified",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "unknown",
+   "tradeoff": "audio-native",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "second open t2v at 1060, 167 behind minimax h3; single-pass audio, local vram unverified",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json t2v",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-i2v-audio-minimax-h3",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "MiniMax H3",
+   "purpose": "#1 i2v overall at 1494 and the only local native stereo audio path; same territorial license as the t2v entry",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "12",
+   "tradeoff": "best-free",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "#1 i2v overall at 1494 and the only local native stereo audio path; same territorial license as the t2v entry",
+   "license_note": "community license excludes eu, uk, kr, usa — covers output videos too; commercial license only via comfy reseller",
+   "civitai_url": null,
+   "model_url": "https://arena.ai/leaderboard/image-to-video",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json i2v-audio",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-i2v-audio-seedance-2.0",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Seedance 2.0",
+   "purpose": "the defined-speech pick — lip-syncs to uploaded audio (3 refs, up to 15s); 121 ahead of kling 3.0, behind minimax h3 overall",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "audio-native",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "the defined-speech pick — lip-syncs to uploaded audio (3 refs, up to 15s); 121 ahead of kling 3.0, behind minimax h3 overall",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://arena.ai/leaderboard/image-to-video",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json i2v-audio",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-i2v-audio-kling-3.0",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Kling 3.0",
+   "purpose": "voice binding from a 5-30s sample is unique, but #17 at 1356, 121 behind seedance; reviewers rank its audio below veo 3.1",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "audio-native",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "voice binding from a 5-30s sample is unique, but #17 at 1356, 121 behind seedance; reviewers rank its audio below veo 3.1",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://arena.ai/leaderboard/image-to-video",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json i2v-audio",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-realtime-tts-2",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Realtime TTS-2",
+   "purpose": "#1 cloning board at 1123 with instant 5-15s cloning; loses the provider-voice board to sonic 3.6",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "fastest",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "#1 cloning board at 1123 with instant 5-15s cloning; loses the provider-voice board to sonic 3.6",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-sonic-3.6",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Sonic 3.6",
+   "purpose": "#1 provider voice at 1282 with ~90ms time-to-first-audio; cloning board lost to realtime tts-2 (1119 vs 1123)",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "cloud",
+   "tradeoff": "max-quality",
+   "open_closed": "api-only",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "#1 provider voice at 1282 with ~90ms time-to-first-audio; cloning board lost to realtime tts-2 (1119 vs 1123)",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-breeze-tts-2",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Breeze TTS 2",
+   "purpose": "top open tts at 1212 provider elo, 6 ahead of gemini 3.1 flash tts; license and vram still unverified",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "unknown",
+   "tradeoff": "best-free",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "top open tts at 1212 provider elo, 6 ahead of gemini 3.1 flash tts; license and vram still unverified",
+   "license_note": "license text not yet checked — verify before commercial use",
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": "engine-voice-kokoro-82m",
+   "kind": "engine",
+   "our_name": null,
+   "source_name": "Kokoro 82M",
+   "purpose": "runs on cpu where the api leaders need cloud; 1056 elo is 156 below breeze tts 2 — the zero-cost draft voice",
+   "composite": null,
+   "tier": null,
+   "visual_class": "n/a",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": false,
+   "baseModel": null,
+   "vram_class": "6",
+   "tradeoff": "low vram",
+   "open_closed": "open-weights",
+   "stats": {
+    "downloadCount": null,
+    "thumbsUpCount": null
+   },
+   "pulled_at": "2026-09-02",
+   "preview": {},
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": "runs on cpu where the api leaders need cloud; 1056 elo is 156 below breeze tts 2 — the zero-cost draft voice",
+   "license_note": null,
+   "civitai_url": null,
+   "model_url": "https://artificialanalysis.ai",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": "models.json voice",
+    "layer": null,
+    "era": null
+   }
+  }
+ ]
+}
