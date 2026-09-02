@@ -311,6 +311,41 @@ def merge_galleries(buckets):
     print(f"galleries merged: {imgs} entries, {vids} video previews", file=sys.stderr)
 
 
+def vet_galleries(buckets):
+    f = FUNNEL / "vision-labels4.json"
+    if not f.exists():
+        return
+    verdicts = {}
+    for line in f.read_text().splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            o = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        verdicts[(str(o.get("entry")), o.get("idx"))] = o.get("visual_class")
+    stripped = kept_frames = 0
+    for e in buckets.get("PERSONA", []):
+        if e.get("visual_class") != "realism-photoreal":
+            continue
+        gal = e.get("gallery") or []
+        if len(gal) < 2:
+            continue
+        vetted_url = (e.get("preview") or {}).get("url_width450")
+        new_gal = []
+        for i, u in enumerate(gal):
+            if i == 0 or u == vetted_url:
+                new_gal.append(u)
+            elif verdicts.get((str(e.get("id")), i)) == "realism-photoreal":
+                new_gal.append(u)
+            else:
+                stripped += 1
+        e["gallery"] = new_gal
+        kept_frames += len(new_gal)
+    print(f"galleries vetted: {kept_frames} frames kept, {stripped} stripped (fail-closed)", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -343,6 +378,7 @@ def main():
     attach_downloads(buckets)
     polish_entries(buckets)
     merge_galleries(buckets)
+    vet_galleries(buckets)
     emit_cuts()
     models = ROOT / "data" / "models.json"
     if models.exists():
