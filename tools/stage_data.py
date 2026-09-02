@@ -158,6 +158,24 @@ def apply_decisions(buckets):
     print(f"curation decisions applied: {applied}", file=sys.stderr)
 
 
+def merge_requirements(buckets):
+    f = FUNNEL / "requirements.json"
+    if not f.exists():
+        return
+    try:
+        req = json.loads(f.read_text())
+    except json.JSONDecodeError:
+        return
+    merged = 0
+    for stage in buckets:
+        for e in buckets[stage]:
+            r = req.get(str(e.get("id")))
+            if r and isinstance(r, dict) and not r.get("error") and not (e.get("requirements") or {}).get("models"):
+                e["requirements"] = {"models": r.get("models") or [], "nodes": r.get("nodes") or []}
+                merged += 1
+    print(f"requirements merged: {merged} entries", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -186,6 +204,7 @@ def main():
                 buckets[stage].append(rec)
     merge_engines(buckets)
     apply_decisions(buckets)
+    merge_requirements(buckets)
     models = ROOT / "data" / "models.json"
     if models.exists():
         d = json.loads(models.read_text())
