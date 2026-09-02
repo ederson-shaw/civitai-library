@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://civitai.com/api/v1/models?limit=50&types=LORA&types=Checkpoint&sort=Highest%20Rated&period=Month",
+    "status": 200,
+    "items": 50,
+    "at": "2026-09-02T01:47:13+00:00"
+  },
+  {
+    "url": "https://civitai.com/api/v1/models?limit=50&types=Workflows&sort=Highest%20Rated",
+    "status": 200,
+    "items": 50,
+    "at": "2026-09-02T01:47:14+00:00"
+  },
+  {
+    "url": "https://civitai.com/api/v1/models?limit=50&types=LORA&sort=Highest%20Rated&period=Month&nsfw=true",
+    "status": 200,
+    "items": 50,
+    "at": "2026-09-02T01:47:15+00:00"
+  }
+]

@@ -1,0 +1,5500 @@
+[
+  {
+    "id": 339604,
+    "name": "How to Generate Multiple Different Characters, Mix Characters, and/or Minimize Color Contamination | Regional Prompt, Adetailer, and Inpaint | My Workflow",
+    "type": "Workflows",
+    "baseModel": "Illustrious",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "FallenIncursio",
+      "href": "https://civitai.com/users/FallenIncursio"
+    },
+    "stats": {
+      "downloadCount": 18127,
+      "thumbsUpCount": 3820,
+      "thumbsDownCount": 6,
+      "commentCount": 183,
+      "tippedAmountCount": 9529,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-01-27T19:30:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/339604",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d889a20-0227-4949-ba2f-0bce3dfec39a/width=450/54242711.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d889a20-0227-4949-ba2f-0bce3dfec39a/original=true/54242711.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1338388,
+        "name": "4. Forge Couple Advanced",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-01-27T19:30:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1338388",
+        "files": [
+          {
+            "name": "howToGenerateMultipleDifferentCharacters_4ForgeCoupleAdvanced.zip",
+            "type": "Archive",
+            "sizeKB": 6444.75390625
+          }
+        ]
+      },
+      {
+        "id": 428285,
+        "name": "3. Regional Prompt (Mask)",
+        "baseModel": "Pony",
+        "updatedAt": "2024-04-05T01:27:20.650Z",
+        "downloadUrl": "https://civitai.com/api/download/models/428285",
+        "files": [
+          {
+            "name": "howToGenerateMultipleDifferentCharacters_3RegionalPromptMask.zip",
+            "type": "Archive",
+            "sizeKB": 17939.453125
+          }
+        ]
+      },
+      {
+        "id": 403892,
+        "name": "2. Adetailer",
+        "baseModel": "Pony",
+        "updatedAt": "2024-03-21T20:16:38.382Z",
+        "downloadUrl": "https://civitai.com/api/download/models/403892",
+        "files": [
+          {
+            "name": "howToGenerateMultipleDifferentCharacters_2Adetailer.zip",
+            "type": "Archive",
+            "sizeKB": 12552.57421875
+          }
+        ]
+      },
+      {
+        "id": 380265,
+        "name": "1. Regional Prompt Matrix",
+        "baseModel": "Pony",
+        "updatedAt": "2024-03-08T01:59:02.060Z",
+        "downloadUrl": "https://civitai.com/api/download/models/380265",
+        "files": [
+          {
+            "name": "howToGenerateMultipleDifferentCharacters_1RegionalPrompt.zip",
+            "type": "Archive",
+            "sizeKB": 12068.787109375
+          }
+        ]
+      },
+      {
+        "id": 610058,
+        "name": "0.5 Installation Guide",
+        "baseModel": "Pony",
+        "updatedAt": "2024-06-30T20:16:56.582Z",
+        "downloadUrl": "https://civitai.com/api/download/models/610058",
+        "files": [
+          {
+            "name": "howToGenerateMultipleDifferentCharacters_05InstallationGuide.zip",
+            "type": "Archive",
+            "sizeKB": 133.1103515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1309369,
+    "name": "【WAN2.1】IMG to VIDEO",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "UmeAiRT",
+      "href": "https://civitai.com/users/UmeAiRT"
+    },
+    "stats": {
+      "downloadCount": 102875,
+      "thumbsUpCount": 3281,
+      "thumbsDownCount": 12,
+      "commentCount": 0,
+      "tippedAmountCount": 20151,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-05-27T20:59:42.374Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1309369",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c708cd5-07f9-4301-a4d1-8030e9d3e396/width=450/132038137.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c708cd5-07f9-4301-a4d1-8030e9d3e396/original=true/132038137.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2947948,
+        "name": "v4.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2026-05-27T20:59:42.374Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2947948",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v40.zip",
+            "type": "Archive",
+            "sizeKB": 4.91015625
+          },
+          {
+            "name": "WAN21IMGToVIDEO_v40.zip",
+            "type": "Archive",
+            "sizeKB": 5.05859375
+          }
+        ]
+      },
+      {
+        "id": 2433294,
+        "name": "v3.0",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2025-11-23T15:44:23.674Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2433294",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v30.zip",
+            "type": "Archive",
+            "sizeKB": 28.310546875
+          }
+        ]
+      },
+      {
+        "id": 1988525,
+        "name": "🟡 v2.4 (simple)",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-08T16:24:20.166Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1988525",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V24Simple.zip",
+            "type": "Archive",
+            "sizeKB": 17.18359375
+          }
+        ]
+      },
+      {
+        "id": 1803449,
+        "name": "🔴 v2.3 (complete)",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-05-18T12:27:47.696Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1803449",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V23Complete.zip",
+            "type": "Archive",
+            "sizeKB": 32.1162109375
+          }
+        ]
+      },
+      {
+        "id": 1751145,
+        "name": "🔴 v2.2",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-05-05T19:31:03.936Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1751145",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V22.zip",
+            "type": "Archive",
+            "sizeKB": 40.873046875
+          }
+        ]
+      },
+      {
+        "id": 1715492,
+        "name": "🟡 v2.1",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-27T12:51:42.587Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1715492",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V21.zip",
+            "type": "Archive",
+            "sizeKB": 8.26171875
+          }
+        ]
+      },
+      {
+        "id": 1686112,
+        "name": "🔴 v2.1",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-20T11:45:20.117Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1686112",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V21.zip",
+            "type": "Archive",
+            "sizeKB": 20.5126953125
+          }
+        ]
+      },
+      {
+        "id": 1633133,
+        "name": "🔴 v2.0",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-07T14:42:31.357Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1633133",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V20.zip",
+            "type": "Archive",
+            "sizeKB": 39.5390625
+          }
+        ]
+      },
+      {
+        "id": 1613089,
+        "name": "🔴 v1.8.1",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-02T18:38:43.936Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1613089",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V181.zip",
+            "type": "Archive",
+            "sizeKB": 10.2578125
+          }
+        ]
+      },
+      {
+        "id": 1613082,
+        "name": "🟡 v1.8",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-02T18:36:34.522Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1613082",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V18.zip",
+            "type": "Archive",
+            "sizeKB": 8.759765625
+          }
+        ]
+      },
+      {
+        "id": 1609621,
+        "name": "🔴 v1.8",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-01T20:38:55.911Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1609621",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V18.zip",
+            "type": "Archive",
+            "sizeKB": 10.2236328125
+          }
+        ]
+      },
+      {
+        "id": 1600436,
+        "name": "🟡 v1.7",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-30T16:00:48.696Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1600436",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V17.zip",
+            "type": "Archive",
+            "sizeKB": 8.53125
+          }
+        ]
+      },
+      {
+        "id": 1592466,
+        "name": "🔴 v1.7",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-28T20:58:37.835Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1592466",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_V17.zip",
+            "type": "Archive",
+            "sizeKB": 9.845703125
+          }
+        ]
+      },
+      {
+        "id": 1580339,
+        "name": "v1.6",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-25T19:35:57.424Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1580339",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v16.zip",
+            "type": "Archive",
+            "sizeKB": 8.15234375
+          }
+        ]
+      },
+      {
+        "id": 1566011,
+        "name": "v1.5",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-22T15:40:07.802Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1566011",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v15.zip",
+            "type": "Archive",
+            "sizeKB": 8.4033203125
+          }
+        ]
+      },
+      {
+        "id": 1562697,
+        "name": "v1.4",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-21T21:05:58.073Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1562697",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v14.zip",
+            "type": "Archive",
+            "sizeKB": 8.078125
+          }
+        ]
+      },
+      {
+        "id": 1529049,
+        "name": "v1.3",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-13T20:06:42.916Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1529049",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v13.zip",
+            "type": "Archive",
+            "sizeKB": 7.767578125
+          }
+        ]
+      },
+      {
+        "id": 1520660,
+        "name": "v1.2",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-11T19:21:04.977Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1520660",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v12.zip",
+            "type": "Archive",
+            "sizeKB": 7.056640625
+          }
+        ]
+      },
+      {
+        "id": 1504090,
+        "name": "v1.1",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-03-07T19:18:27.573Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1504090",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v11.zip",
+            "type": "Archive",
+            "sizeKB": 7.6611328125
+          }
+        ]
+      },
+      {
+        "id": 1477639,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-03-01T18:40:50.772Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1477639",
+        "files": [
+          {
+            "name": "WAN21IMGToVIDEO_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.2236328125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1386234,
+    "name": "ComfyUI Image Workflows",
+    "type": "Workflows",
+    "baseModel": "Illustrious",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "Legendaer",
+      "href": "https://civitai.com/users/Legendaer"
+    },
+    "stats": {
+      "downloadCount": 87771,
+      "thumbsUpCount": 2854,
+      "thumbsDownCount": 5,
+      "commentCount": 0,
+      "tippedAmountCount": 6240,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-08-25T16:00:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1386234",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c8abd62-0fd0-47b7-a04f-6ebdc53d97e9/width=450/140799960.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c8abd62-0fd0-47b7-a04f-6ebdc53d97e9/original=true/140799960.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3265669,
+        "name": "V38",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-08-25T16:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3265669",
+        "files": [
+          {
+            "name": "comfyuiImage_v38.zip",
+            "type": "Archive",
+            "sizeKB": 112.8447265625
+          }
+        ]
+      },
+      {
+        "id": 3107550,
+        "name": "V37",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-07-07T17:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3107550",
+        "files": [
+          {
+            "name": "comfyuiImage_v37.zip",
+            "type": "Archive",
+            "sizeKB": 154.27734375
+          }
+        ]
+      },
+      {
+        "id": 3036553,
+        "name": "V36",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-06-15T19:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3036553",
+        "files": [
+          {
+            "name": "comfyuiImage_v36.zip",
+            "type": "Archive",
+            "sizeKB": 153.8232421875
+          }
+        ]
+      },
+      {
+        "id": 2939840,
+        "name": "V35",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-05-12T18:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2939840",
+        "files": [
+          {
+            "name": "comfyuiImage_v35.zip",
+            "type": "Archive",
+            "sizeKB": 121.693359375
+          }
+        ]
+      },
+      {
+        "id": 2879502,
+        "name": "V34",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-04-21T18:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2879502",
+        "files": [
+          {
+            "name": "comfyuiImage_v34.zip",
+            "type": "Archive",
+            "sizeKB": 117.8544921875
+          }
+        ]
+      },
+      {
+        "id": 2811282,
+        "name": "V33",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-03-28T18:45:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2811282",
+        "files": [
+          {
+            "name": "comfyuiImage_v33.zip",
+            "type": "Archive",
+            "sizeKB": 82.55859375
+          }
+        ]
+      },
+      {
+        "id": 2771218,
+        "name": "V32",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-03-14T11:30:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2771218",
+        "files": [
+          {
+            "name": "comfyuiImage_v32.zip",
+            "type": "Archive",
+            "sizeKB": 86.75390625
+          }
+        ]
+      },
+      {
+        "id": 2709612,
+        "name": "V31",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-02-21T16:15:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2709612",
+        "files": [
+          {
+            "name": "comfyuiImage_v31.zip",
+            "type": "Archive",
+            "sizeKB": 83.5185546875
+          }
+        ]
+      },
+      {
+        "id": 2671715,
+        "name": "V30",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-02-08T18:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2671715",
+        "files": [
+          {
+            "name": "comfyuiImage_v30.zip",
+            "type": "Archive",
+            "sizeKB": 73.4423828125
+          }
+        ]
+      },
+      {
+        "id": 2606486,
+        "name": "V29",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-01-17T19:01:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2606486",
+        "files": [
+          {
+            "name": "comfyuiImage_v29.zip",
+            "type": "Archive",
+            "sizeKB": 74.130859375
+          }
+        ]
+      },
+      {
+        "id": 2575178,
+        "name": "V28",
+        "baseModel": "Illustrious",
+        "updatedAt": "2026-01-07T19:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2575178",
+        "files": [
+          {
+            "name": "comfyuiImage_v28.zip",
+            "type": "Archive",
+            "sizeKB": 54.8798828125
+          }
+        ]
+      },
+      {
+        "id": 2527236,
+        "name": "V27",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-12-22T19:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2527236",
+        "files": [
+          {
+            "name": "comfyuiImage_v27.zip",
+            "type": "Archive",
+            "sizeKB": 52.595703125
+          }
+        ]
+      },
+      {
+        "id": 2503228,
+        "name": "V26",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-12-14T17:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2503228",
+        "files": [
+          {
+            "name": "comfyuiImage_v26.zip",
+            "type": "Archive",
+            "sizeKB": 56.3828125
+          }
+        ]
+      },
+      {
+        "id": 2472873,
+        "name": "V25",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-12-05T14:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2472873",
+        "files": [
+          {
+            "name": "comfyuiImage_v25.zip",
+            "type": "Archive",
+            "sizeKB": 54.4013671875
+          }
+        ]
+      },
+      {
+        "id": 2439068,
+        "name": "V24",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-11-25T19:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2439068",
+        "files": [
+          {
+            "name": "comfyuiImage_v24.zip",
+            "type": "Archive",
+            "sizeKB": 53.548828125
+          }
+        ]
+      },
+      {
+        "id": 2415679,
+        "name": "V23",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-11-17T19:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2415679",
+        "files": [
+          {
+            "name": "comfyuiImage_v23.zip",
+            "type": "Archive",
+            "sizeKB": 54.8505859375
+          }
+        ]
+      },
+      {
+        "id": 2385407,
+        "name": "V22",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-11-07T19:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2385407",
+        "files": [
+          {
+            "name": "comfyuiImage_v22.zip",
+            "type": "Archive",
+            "sizeKB": 54.57421875
+          }
+        ]
+      },
+      {
+        "id": 2352102,
+        "name": "V21",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-10-27T19:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2352102",
+        "files": [
+          {
+            "name": "comfyuiImage_v21.zip",
+            "type": "Archive",
+            "sizeKB": 55.5693359375
+          }
+        ]
+      },
+      {
+        "id": 2290135,
+        "name": "V20",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-10-07T11:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2290135",
+        "files": [
+          {
+            "name": "comfyuiImage_v20.zip",
+            "type": "Archive",
+            "sizeKB": 74.85546875
+          }
+        ]
+      },
+      {
+        "id": 2254522,
+        "name": "V19",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-09-26T16:00:14.445Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2254522",
+        "files": [
+          {
+            "name": "comfyuiImage_v19.zip",
+            "type": "Archive",
+            "sizeKB": 82.8359375
+          }
+        ]
+      },
+      {
+        "id": 2195562,
+        "name": "V18",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-09-08T15:57:13.817Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2195562",
+        "files": [
+          {
+            "name": "comfyuiImage_v18.zip",
+            "type": "Archive",
+            "sizeKB": 74.130859375
+          }
+        ]
+      },
+      {
+        "id": 2160922,
+        "name": "V17",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-08-29T14:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2160922",
+        "files": [
+          {
+            "name": "comfyuiImage_v17.zip",
+            "type": "Archive",
+            "sizeKB": 73.412109375
+          }
+        ]
+      },
+      {
+        "id": 2131911,
+        "name": "V16",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-08-20T11:38:23.313Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2131911",
+        "files": [
+          {
+            "name": "comfyuiImage_v16.zip",
+            "type": "Archive",
+            "sizeKB": 70.630859375
+          }
+        ]
+      },
+      {
+        "id": 2092800,
+        "name": "V15",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-08-08T11:02:24.839Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2092800",
+        "files": [
+          {
+            "name": "comfyuiImage_v15.zip",
+            "type": "Archive",
+            "sizeKB": 59.05859375
+          }
+        ]
+      },
+      {
+        "id": 2068274,
+        "name": "V14",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-07-31T17:57:43.034Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2068274",
+        "files": [
+          {
+            "name": "comfyuiImage_v14.zip",
+            "type": "Archive",
+            "sizeKB": 58.1220703125
+          }
+        ]
+      },
+      {
+        "id": 2036516,
+        "name": "V13",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-07-22T12:07:34.214Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2036516",
+        "files": [
+          {
+            "name": "comfyuiImage_v13.zip",
+            "type": "Archive",
+            "sizeKB": 45.6650390625
+          }
+        ]
+      },
+      {
+        "id": 2009563,
+        "name": "V12",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-07-14T17:04:26.787Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2009563",
+        "files": [
+          {
+            "name": "comfyuiImage_v12.zip",
+            "type": "Archive",
+            "sizeKB": 45.541015625
+          }
+        ]
+      },
+      {
+        "id": 1956413,
+        "name": "V11",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-06-29T14:31:00.717Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1956413",
+        "files": [
+          {
+            "name": "comfyuiImage_v11.zip",
+            "type": "Archive",
+            "sizeKB": 50.052734375
+          }
+        ]
+      },
+      {
+        "id": 1887843,
+        "name": "V10",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-06-10T10:07:38.054Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1887843",
+        "files": [
+          {
+            "name": "comfyuiImage_v10.zip",
+            "type": "Archive",
+            "sizeKB": 53.5146484375
+          }
+        ]
+      },
+      {
+        "id": 1825028,
+        "name": "V9.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-05-23T18:49:51.450Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1825028",
+        "files": [
+          {
+            "name": "comfyuiImage_v90.zip",
+            "type": "Archive",
+            "sizeKB": 47.3740234375
+          }
+        ]
+      },
+      {
+        "id": 1791668,
+        "name": "V8.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-05-15T13:38:02.787Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1791668",
+        "files": [
+          {
+            "name": "comfyuiImage_v80.zip",
+            "type": "Archive",
+            "sizeKB": 31.896484375
+          }
+        ]
+      },
+      {
+        "id": 1740575,
+        "name": "V7.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-05-03T13:41:22.524Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1740575",
+        "files": [
+          {
+            "name": "comfyuiImage_v70.zip",
+            "type": "Archive",
+            "sizeKB": 33.18359375
+          }
+        ]
+      },
+      {
+        "id": 1706871,
+        "name": "V6.5",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-04-25T13:23:37.644Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1706871",
+        "files": [
+          {
+            "name": "comfyuiImage_v65.zip",
+            "type": "Archive",
+            "sizeKB": 18.0771484375
+          }
+        ]
+      },
+      {
+        "id": 1681430,
+        "name": "V6.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-04-19T08:03:54.984Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1681430",
+        "files": [
+          {
+            "name": "comfyuiImage_v60.zip",
+            "type": "Archive",
+            "sizeKB": 17.078125
+          }
+        ]
+      },
+      {
+        "id": 1666805,
+        "name": "V5.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-04-15T16:03:10.970Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1666805",
+        "files": [
+          {
+            "name": "comfyuiImage_v50.zip",
+            "type": "Archive",
+            "sizeKB": 17.419921875
+          }
+        ]
+      },
+      {
+        "id": 1653204,
+        "name": "V4.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-04-12T14:36:27.887Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1653204",
+        "files": [
+          {
+            "name": "comfyuiImage_v40.zip",
+            "type": "Archive",
+            "sizeKB": 16.9638671875
+          }
+        ]
+      },
+      {
+        "id": 1628835,
+        "name": "V3.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-04-06T15:31:28.277Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1628835",
+        "files": [
+          {
+            "name": "comfyuiImage_v30.zip",
+            "type": "Archive",
+            "sizeKB": 14.5986328125
+          }
+        ]
+      },
+      {
+        "id": 1569721,
+        "name": "V2.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-03-23T11:06:48.318Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1569721",
+        "files": [
+          {
+            "name": "comfyuiImage_v20.zip",
+            "type": "Archive",
+            "sizeKB": 11.4404296875
+          }
+        ]
+      },
+      {
+        "id": 1566550,
+        "name": "V1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-03-22T17:51:12.384Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1566550",
+        "files": [
+          {
+            "name": "comfyuiImage_v10.zip",
+            "type": "Archive",
+            "sizeKB": 10.556640625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 372584,
+    "name": "ipiv's Morph - img2vid AnimateDiff LCM / Hyper-SD",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 13,
+    "creator": {
+      "username": "ipiv",
+      "href": "https://civitai.com/users/ipiv"
+    },
+    "stats": {
+      "downloadCount": 34320,
+      "thumbsUpCount": 2433,
+      "thumbsDownCount": 5,
+      "commentCount": 0,
+      "tippedAmountCount": 12643,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2024-04-26T16:34:42.806Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/372584",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e27071f-dbf9-42fc-8478-df3eed79336a/width=450/10821533.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e27071f-dbf9-42fc-8478-df3eed79336a/original=true/10821533.mp4"
+    },
+    "versions": [
+      {
+        "id": 469548,
+        "name": "v3.0 (Hyper-SD + v3 mm)",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-04-26T16:34:42.806Z",
+        "downloadUrl": "https://civitai.com/api/download/models/469548",
+        "files": [
+          {
+            "name": "ipivsMorphImg2vid_v30HyperSDV3Mm.zip",
+            "type": "Archive",
+            "sizeKB": 8.5791015625
+          }
+        ]
+      },
+      {
+        "id": 426894,
+        "name": "v2.0 (4 Reference images)",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-04-03T21:51:57.030Z",
+        "downloadUrl": "https://civitai.com/api/download/models/426894",
+        "files": [
+          {
+            "name": "ipivsMorphImg2vid_v204ReferenceImages.zip",
+            "type": "Archive",
+            "sizeKB": 8.28125
+          }
+        ]
+      },
+      {
+        "id": 416171,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-03-28T20:39:54.383Z",
+        "downloadUrl": "https://civitai.com/api/download/models/416171",
+        "files": [
+          {
+            "name": "ipivsMorphImg2vid_v10.zip",
+            "type": "Archive",
+            "sizeKB": 8.0380859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 618578,
+    "name": "FLUX.1-DEV & Kontext Workflows Megapack",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "Daedalus_7",
+      "href": "https://civitai.com/users/Daedalus_7"
+    },
+    "stats": {
+      "downloadCount": 107938,
+      "thumbsUpCount": 2327,
+      "thumbsDownCount": 6,
+      "commentCount": 0,
+      "tippedAmountCount": 2071,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2024-08-03T13:50:37.633Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/618578",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a572e018-4976-4711-9a16-ce52f3749cea/width=450/45309387.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a572e018-4976-4711-9a16-ce52f3749cea/original=true/45309387.jpeg"
+    },
+    "versions": [
+      {
+        "id": 693048,
+        "name": "🟢 F.1 img2img 1.3",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-03T13:50:37.633Z",
+        "downloadUrl": "https://civitai.com/api/download/models/693048",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1Img2img13.zip",
+            "type": "Archive",
+            "sizeKB": 6.54296875
+          }
+        ]
+      },
+      {
+        "id": 1956938,
+        "name": "🟢 F.1 Kontext 1.4",
+        "baseModel": "Flux.1 Kontext",
+        "updatedAt": "2025-06-29T17:42:02.023Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1956938",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1Kontext14.zip",
+            "type": "Archive",
+            "sizeKB": 18.24609375
+          }
+        ]
+      },
+      {
+        "id": 767027,
+        "name": "🟢F.1 text2img 4.5",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-25T14:41:25.080Z",
+        "downloadUrl": "https://civitai.com/api/download/models/767027",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1Text2img45.zip",
+            "type": "Archive",
+            "sizeKB": 16.5234375
+          }
+        ]
+      },
+      {
+        "id": 783820,
+        "name": "🟢F.1 text2img 4.5 LLM",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-29T18:40:49.857Z",
+        "downloadUrl": "https://civitai.com/api/download/models/783820",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1Text2img45LLM.zip",
+            "type": "Archive",
+            "sizeKB": 16.458984375
+          }
+        ]
+      },
+      {
+        "id": 1852029,
+        "name": "🟢SDXL-2-Flux v4.6 NSFW",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2025-05-31T09:49:45.053Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1852029",
+        "files": [
+          {
+            "name": "flux1DEVKontext_SDXL2FluxV46NSFW.zip",
+            "type": "Archive",
+            "sizeKB": 17.216796875
+          }
+        ]
+      },
+      {
+        "id": 692658,
+        "name": "🟢F.1 Inpainting 2.2",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-03T10:09:14.170Z",
+        "downloadUrl": "https://civitai.com/api/download/models/692658",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1Inpainting22.zip",
+            "type": "Archive",
+            "sizeKB": 4.8037109375
+          }
+        ]
+      },
+      {
+        "id": 1863998,
+        "name": "🟢 F.1 Fill Inpaint 1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2025-06-03T15:25:07.858Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1863998",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1FillInpaint10.zip",
+            "type": "Archive",
+            "sizeKB": 2.923828125
+          }
+        ]
+      },
+      {
+        "id": 1160343,
+        "name": "🟢F.1 Redux 4.5",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-12-13T18:29:33.535Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1160343",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1Redux45.zip",
+            "type": "Archive",
+            "sizeKB": 16.658203125
+          }
+        ]
+      },
+      {
+        "id": 1221567,
+        "name": "🟢 F.1 Style Changer 1.1",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-12-30T20:37:10.006Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1221567",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1StyleChanger11.zip",
+            "type": "Archive",
+            "sizeKB": 10.0927734375
+          }
+        ]
+      },
+      {
+        "id": 704462,
+        "name": "🟢F.1 Outpainting 1.1",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-07T19:38:33.904Z",
+        "downloadUrl": "https://civitai.com/api/download/models/704462",
+        "files": [
+          {
+            "name": "flux1DEVKontext_F1Outpainting11.zip",
+            "type": "Archive",
+            "sizeKB": 2.3056640625
+          }
+        ]
+      },
+      {
+        "id": 771991,
+        "name": "🔴SD to F.1 v2.3 Ult",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-26T19:28:36.861Z",
+        "downloadUrl": "https://civitai.com/api/download/models/771991",
+        "files": [
+          {
+            "name": "flux1DEVKontext_SDToF1V23Ult.zip",
+            "type": "Archive",
+            "sizeKB": 9.86328125
+          }
+        ]
+      },
+      {
+        "id": 722766,
+        "name": "🔴HighResFix 1.8 CN Ups",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-14T18:40:55.120Z",
+        "downloadUrl": "https://civitai.com/api/download/models/722766",
+        "files": [
+          {
+            "name": "flux1DEVKontext_Highresfix18CNUps.zip",
+            "type": "Archive",
+            "sizeKB": 13.1376953125
+          }
+        ]
+      },
+      {
+        "id": 696290,
+        "name": "🔴HighRes-Fix 1.8 CN",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-04T18:19:33.240Z",
+        "downloadUrl": "https://civitai.com/api/download/models/696290",
+        "files": [
+          {
+            "name": "flux1DEVKontext_HighresFix18CN.zip",
+            "type": "Archive",
+            "sizeKB": 11.7666015625
+          }
+        ]
+      },
+      {
+        "id": 703980,
+        "name": "🔴text2img 1.3 CN",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-07T15:54:48.324Z",
+        "downloadUrl": "https://civitai.com/api/download/models/703980",
+        "files": [
+          {
+            "name": "flux1DEVKontext_Text2img13CN.zip",
+            "type": "Archive",
+            "sizeKB": 9.3740234375
+          }
+        ]
+      },
+      {
+        "id": 722760,
+        "name": "🔴text2img 1.3 CN Upscale",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-14T18:36:58.149Z",
+        "downloadUrl": "https://civitai.com/api/download/models/722760",
+        "files": [
+          {
+            "name": "flux1DEVKontext_Text2img13CNUpscale.zip",
+            "type": "Archive",
+            "sizeKB": 10.625
+          }
+        ]
+      },
+      {
+        "id": 766124,
+        "name": "🔴text2img 1.3 Adetailer",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-25T09:38:21.662Z",
+        "downloadUrl": "https://civitai.com/api/download/models/766124",
+        "files": [
+          {
+            "name": "flux1DEVKontext_Text2img13Adetailer.zip",
+            "type": "Archive",
+            "sizeKB": 5.8642578125
+          }
+        ]
+      },
+      {
+        "id": 724359,
+        "name": "🔴SD to F.1 CN Ups 1.3",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-15T08:33:21.968Z",
+        "downloadUrl": "https://civitai.com/api/download/models/724359",
+        "files": [
+          {
+            "name": "flux1DEVKontext_SDToF1CNUps13.zip",
+            "type": "Archive",
+            "sizeKB": 12.1669921875
+          }
+        ]
+      },
+      {
+        "id": 714346,
+        "name": "🔴SD to FLUX 1.3 CN",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-11T16:35:12.147Z",
+        "downloadUrl": "https://civitai.com/api/download/models/714346",
+        "files": [
+          {
+            "name": "flux1DEVKontext_SDToFLUX13CN.zip",
+            "type": "Archive",
+            "sizeKB": 10.6279296875
+          }
+        ]
+      },
+      {
+        "id": 695150,
+        "name": "🔴Upscaler 1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-04T08:52:19.855Z",
+        "downloadUrl": "https://civitai.com/api/download/models/695150",
+        "files": [
+          {
+            "name": "flux1DEVKontext_Upscaler10.zip",
+            "type": "Archive",
+            "sizeKB": 1.126953125
+          }
+        ]
+      },
+      {
+        "id": 692442,
+        "name": "🔴High-res Fix 1.3 LITE",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-03T07:37:20.990Z",
+        "downloadUrl": "https://civitai.com/api/download/models/692442",
+        "files": [
+          {
+            "name": "flux1DEVKontext_HighResFix13LITE.zip",
+            "type": "Archive",
+            "sizeKB": 2.474609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1818841,
+    "name": "WAN 2.2 Workflow T2V-I2V-T2I (Kijai Wrapper)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 T2V-A14B",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "pgc",
+      "href": "https://civitai.com/users/pgc"
+    },
+    "stats": {
+      "downloadCount": 64199,
+      "thumbsUpCount": 2153,
+      "thumbsDownCount": 28,
+      "commentCount": 359,
+      "tippedAmountCount": 5533,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-07-28T22:22:38.339Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1818841",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd2e523d-2e5c-44ab-bfac-a5aab1931fb4/width=450/91061722.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd2e523d-2e5c-44ab-bfac-a5aab1931fb4/original=true/91061722.mp4"
+    },
+    "versions": [
+      {
+        "id": 2058285,
+        "name": "v1.8.5",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-07-28T22:22:38.339Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2058285",
+        "files": [
+          {
+            "name": "wan22WorkflowT2VI2VT2I_v185.zip",
+            "type": "Archive",
+            "sizeKB": 66024.212890625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 111463,
+    "name": "Searge-SDXL: EVOLVED v4.3.2 - Optimized Workflow for ComfyUI - 2023-11-13 - txt2img, img2img, inpaint, revision, controlnet, loras, FreeU v1 & v2, ...",
+    "type": "Workflows",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "searge",
+      "href": "https://civitai.com/users/searge"
+    },
+    "stats": {
+      "downloadCount": 46699,
+      "thumbsUpCount": 1756,
+      "thumbsDownCount": 3,
+      "commentCount": 0,
+      "tippedAmountCount": 37657,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2023-10-22T19:30:45.129Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/111463",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53f24bdc-082a-4bba-a511-86618730e327/width=450/3104281.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53f24bdc-082a-4bba-a511-86618730e327/original=true/3104281.jpeg"
+    },
+    "versions": [
+      {
+        "id": 194582,
+        "name": "v4.3.2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-10-22T19:30:45.129Z",
+        "downloadUrl": "https://civitai.com/api/download/models/194582",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v432.zip",
+            "type": "Archive",
+            "sizeKB": 23727.1201171875
+          }
+        ]
+      },
+      {
+        "id": 175830,
+        "name": "v4.2.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-10-04T14:26:44.552Z",
+        "downloadUrl": "https://civitai.com/api/download/models/175830",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v421.zip",
+            "type": "Archive",
+            "sizeKB": 23680.1474609375
+          }
+        ]
+      },
+      {
+        "id": 155893,
+        "name": "v4.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-09-05T16:11:54.312Z",
+        "downloadUrl": "https://civitai.com/api/download/models/155893",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v41.zip",
+            "type": "Archive",
+            "sizeKB": 23670.41796875
+          }
+        ]
+      },
+      {
+        "id": 152631,
+        "name": "v4.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-08-31T18:25:14.289Z",
+        "downloadUrl": "https://civitai.com/api/download/models/152631",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v40.zip",
+            "type": "Archive",
+            "sizeKB": 23625.0751953125
+          }
+        ]
+      },
+      {
+        "id": 149410,
+        "name": "v3.999",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-08-27T09:45:20.169Z",
+        "downloadUrl": "https://civitai.com/api/download/models/149410",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v3999.zip",
+            "type": "Archive",
+            "sizeKB": 23704.1865234375
+          }
+        ]
+      },
+      {
+        "id": 136230,
+        "name": "v3.4",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-08-08T00:53:46.189Z",
+        "downloadUrl": "https://civitai.com/api/download/models/136230",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v34.zip",
+            "type": "Archive",
+            "sizeKB": 26268.1748046875
+          }
+        ]
+      },
+      {
+        "id": 134672,
+        "name": "v3.2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-08-06T03:13:30.084Z",
+        "downloadUrl": "https://civitai.com/api/download/models/134672",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v32.zip",
+            "type": "Archive",
+            "sizeKB": 25302.0380859375
+          }
+        ]
+      },
+      {
+        "id": 133738,
+        "name": "v3.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-08-04T20:26:37.077Z",
+        "downloadUrl": "https://civitai.com/api/download/models/133738",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v31.zip",
+            "type": "Archive",
+            "sizeKB": 29468.8896484375
+          }
+        ]
+      },
+      {
+        "id": 132179,
+        "name": "v3.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-08-03T02:06:12.309Z",
+        "downloadUrl": "https://civitai.com/api/download/models/132179",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v30.zip",
+            "type": "Archive",
+            "sizeKB": 29449.033203125
+          }
+        ]
+      },
+      {
+        "id": 130616,
+        "name": "v2.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-07-31T23:59:38.255Z",
+        "downloadUrl": "https://civitai.com/api/download/models/130616",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v21.zip",
+            "type": "Archive",
+            "sizeKB": 21560.658203125
+          }
+        ]
+      },
+      {
+        "id": 128945,
+        "name": "v2.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-07-29T22:17:26.844Z",
+        "downloadUrl": "https://civitai.com/api/download/models/128945",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_v20.zip",
+            "type": "Archive",
+            "sizeKB": 26363.76171875
+          }
+        ]
+      },
+      {
+        "id": 127446,
+        "name": "wf v1.2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-07-27T21:24:06.938Z",
+        "downloadUrl": "https://civitai.com/api/download/models/127446",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_wfV12.zip",
+            "type": "Archive",
+            "sizeKB": 17.095703125
+          }
+        ]
+      },
+      {
+        "id": 127441,
+        "name": "ext v1.0.2",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-07-27T21:24:02.773Z",
+        "downloadUrl": "https://civitai.com/api/download/models/127441",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_extV102.zip",
+            "type": "Archive",
+            "sizeKB": 17778.5185546875
+          }
+        ]
+      },
+      {
+        "id": 126748,
+        "name": "wf v1.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-07-27T00:11:29.583Z",
+        "downloadUrl": "https://civitai.com/api/download/models/126748",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_wfV11.zip",
+            "type": "Archive",
+            "sizeKB": 10.853515625
+          }
+        ]
+      },
+      {
+        "id": 120253,
+        "name": "wf v1.0",
+        "baseModel": "SDXL 0.9",
+        "updatedAt": "2023-07-18T10:31:31.383Z",
+        "downloadUrl": "https://civitai.com/api/download/models/120253",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_wfV10.zip",
+            "type": "Archive",
+            "sizeKB": 45.3798828125
+          }
+        ]
+      },
+      {
+        "id": 120366,
+        "name": "ext v1.0.1",
+        "baseModel": "SDXL 0.9",
+        "updatedAt": "2023-07-18T13:13:12.365Z",
+        "downloadUrl": "https://civitai.com/api/download/models/120366",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_extV101.zip",
+            "type": "Archive",
+            "sizeKB": 2122.6376953125
+          }
+        ]
+      },
+      {
+        "id": 124584,
+        "name": "cbox v1.1",
+        "baseModel": "SDXL 0.9",
+        "updatedAt": "2023-07-24T03:15:39.580Z",
+        "downloadUrl": "https://civitai.com/api/download/models/124584",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_cboxV11.zip",
+            "type": "Archive",
+            "sizeKB": 14.0390625
+          }
+        ]
+      },
+      {
+        "id": 123663,
+        "name": "cbox v1.0",
+        "baseModel": "SDXL 0.9",
+        "updatedAt": "2023-07-23T02:04:01.526Z",
+        "downloadUrl": "https://civitai.com/api/download/models/123663",
+        "files": [
+          {
+            "name": "seargeSDXLEVOLVEDV432OptimizedWorkflowForComfyui_cboxV10.zip",
+            "type": "Archive",
+            "sizeKB": 13.6005859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1007385,
+    "name": "Hunyuan 🌻 AllInOne",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "LatentDream",
+      "href": "https://civitai.com/users/LatentDream"
+    },
+    "stats": {
+      "downloadCount": 41756,
+      "thumbsUpCount": 1469,
+      "thumbsDownCount": 8,
+      "commentCount": 0,
+      "tippedAmountCount": 15540,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-02-06T10:37:47.861Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1007385",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a20a40b9-3d08-4d25-a9a4-84a525e9bc44/width=450/60618723.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a20a40b9-3d08-4d25-a9a4-84a525e9bc44/original=true/60618723.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1378643,
+        "name": "✔All Versions 𝟭.𝟱🟩🟧🟪",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-06T10:37:47.861Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1378643",
+        "files": [
+          {
+            "name": "hunyuanAllinone_AllVersions.zip",
+            "type": "Archive",
+            "sizeKB": 162.9169921875
+          }
+        ]
+      },
+      {
+        "id": 1498674,
+        "name": "✔️Official I2V  (v2)",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-06T09:43:58.965Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1498674",
+        "files": [
+          {
+            "name": "hunyuanAllinone_OfficialI2VV2.zip",
+            "type": "Archive",
+            "sizeKB": 67.998046875
+          }
+        ]
+      },
+      {
+        "id": 1448046,
+        "name": "HUN🟪Ultra | 1.4",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-22T17:39:52.126Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1448046",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunUltra14.zip",
+            "type": "Archive",
+            "sizeKB": 106.6298828125
+          }
+        ]
+      },
+      {
+        "id": 1338341,
+        "name": "HUN🟪Ultra☕1.2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-27T18:37:55.600Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1338341",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunUltra12.zip",
+            "type": "Archive",
+            "sizeKB": 37.6044921875
+          }
+        ]
+      },
+      {
+        "id": 1300289,
+        "name": "HUN🟧Advanced☕1.4",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-18T18:22:38.785Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1300289",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced14.zip",
+            "type": "Archive",
+            "sizeKB": 34.439453125
+          }
+        ]
+      },
+      {
+        "id": 1291318,
+        "name": "HUN | Advanced☕1.3",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-16T17:14:29.296Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1291318",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced13.zip",
+            "type": "Archive",
+            "sizeKB": 25.8876953125
+          }
+        ]
+      },
+      {
+        "id": 1283286,
+        "name": "HUN | Advanced☕1.2",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-14T18:03:05.969Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1283286",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced12.zip",
+            "type": "Archive",
+            "sizeKB": 21.5498046875
+          }
+        ]
+      },
+      {
+        "id": 1274679,
+        "name": "HUN | Advanced☕1.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-12T18:53:36.978Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1274679",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunAdvanced11.zip",
+            "type": "Archive",
+            "sizeKB": 16.1318359375
+          }
+        ]
+      },
+      {
+        "id": 1370211,
+        "name": "HUN🟩Basic+Upscale",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-04T09:44:41.552Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1370211",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunBasicUpscale.zip",
+            "type": "Archive",
+            "sizeKB": 8.849609375
+          },
+          {
+            "name": "hunyuanAllinone_hunBasicUpscale.zip",
+            "type": "Archive",
+            "sizeKB": 7.8916015625
+          }
+        ]
+      },
+      {
+        "id": 1261498,
+        "name": "HUN🟩Basic",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-09T17:22:57.157Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1261498",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunBasic.zip",
+            "type": "Archive",
+            "sizeKB": 7.341796875
+          }
+        ]
+      },
+      {
+        "id": 1268455,
+        "name": "HUN | BASIC Tea☕",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-11T09:36:47.341Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1268455",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunBASICTea.zip",
+            "type": "Archive",
+            "sizeKB": 10.3154296875
+          }
+        ]
+      },
+      {
+        "id": 1269859,
+        "name": "HUN | Hybrid +NegPrompt",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-11T17:23:02.667Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1269859",
+        "files": [
+          {
+            "name": "hunyuanAllinone_hunHybridNegprompt.zip",
+            "type": "Archive",
+            "sizeKB": 11.3134765625
+          }
+        ]
+      },
+      {
+        "id": 1134602,
+        "name": "❌All In One + 2x Upscale",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-06T09:13:45.835Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1134602",
+        "files": [
+          {
+            "name": "hunyuanAllinone_AllInOne2xUpscale.zip",
+            "type": "Archive",
+            "sizeKB": 16.6923828125
+          }
+        ]
+      },
+      {
+        "id": 1132492,
+        "name": "❌ALL IN ONE",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-05T16:51:13.614Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1132492",
+        "files": [
+          {
+            "name": "hunyuanAllinone_ALLINONE.zip",
+            "type": "Archive",
+            "sizeKB": 11.02734375
+          }
+        ]
+      },
+      {
+        "id": 1129519,
+        "name": "❌VIDEO to VIDEO",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-04T19:04:32.214Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1129519",
+        "files": [
+          {
+            "name": "hunyuanAllinone_VIDEOToVIDEO.zip",
+            "type": "Archive",
+            "sizeKB": 8.8720703125
+          }
+        ]
+      },
+      {
+        "id": 1129282,
+        "name": "❌TEXT to VIDEO",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-04T17:37:49.714Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1129282",
+        "files": [
+          {
+            "name": "hunyuanAllinone_TEXTToVIDEO.zip",
+            "type": "Archive",
+            "sizeKB": 7.18359375
+          }
+        ]
+      },
+      {
+        "id": 1472084,
+        "name": "update! v1.5",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-02-28T10:44:00.135Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1472084",
+        "files": [
+          {
+            "name": "hunyuanAllinone_updateV15.zip",
+            "type": "Archive",
+            "sizeKB": 142.1083984375
+          }
+        ]
+      },
+      {
+        "id": 1498872,
+        "name": "Official I2V 1.1",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-03-06T10:56:41.935Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1498872",
+        "files": [
+          {
+            "name": "hunyuanAllinone_officialI2V11.zip",
+            "type": "Archive",
+            "sizeKB": 9.0107421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 208005,
+    "name": "JBOOGX & MACHINE LEARNER ANIMATEDIFF WORKFLOW - Vid2Vid + ControlNet + Latent Upscale + Upscale ControlNet Pass + Multi Image IPAdapter + ReActor Face Swap",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "jboogx_creative",
+      "href": "https://civitai.com/users/jboogx_creative"
+    },
+    "stats": {
+      "downloadCount": 17383,
+      "thumbsUpCount": 1469,
+      "thumbsDownCount": 0,
+      "commentCount": 97,
+      "tippedAmountCount": 21865,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2024-03-25T21:18:17.821Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/208005",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2cd6cb2-d7f1-4029-974e-5897cec90cd3/width=450/8564828.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2cd6cb2-d7f1-4029-974e-5897cec90cd3/original=true/8564828.jpeg"
+    },
+    "versions": [
+      {
+        "id": 411102,
+        "name": "v 4.0 - UPDATED IPADAPTER",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-03-25T21:18:17.821Z",
+        "downloadUrl": "https://civitai.com/api/download/models/411102",
+        "files": [
+          {
+            "name": "jboogxMACHINELEARNERANIMATEDIFFWORKFLOW_v40UPDATEDIPADAPTER.zip",
+            "type": "Archive",
+            "sizeKB": 10.7763671875
+          }
+        ]
+      },
+      {
+        "id": 290817,
+        "name": "v3.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-01-08T05:07:22.941Z",
+        "downloadUrl": "https://civitai.com/api/download/models/290817",
+        "files": [
+          {
+            "name": "jboogxMACHINELEARNERANIMATEDIFFWORKFLOW_v30.zip",
+            "type": "Archive",
+            "sizeKB": 3108.451171875
+          }
+        ]
+      },
+      {
+        "id": 263809,
+        "name": "v2.5 - Multi Crop IPAdapt",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-12-15T23:20:48.090Z",
+        "downloadUrl": "https://civitai.com/api/download/models/263809",
+        "files": [
+          {
+            "name": "jboogxMACHINELEARNERANIMATEDIFFWORKFLOW_v25MultiCropIpadapt.zip",
+            "type": "Archive",
+            "sizeKB": 2712.419921875
+          }
+        ]
+      },
+      {
+        "id": 254315,
+        "name": "v2.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-12-07T21:36:58.749Z",
+        "downloadUrl": "https://civitai.com/api/download/models/254315",
+        "files": [
+          {
+            "name": "jboogxMACHINELEARNERANIMATEDIFFWORKFLOW_v20.zip",
+            "type": "Archive",
+            "sizeKB": 2253.341796875
+          }
+        ]
+      },
+      {
+        "id": 234228,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-11-21T21:14:44.381Z",
+        "downloadUrl": "https://civitai.com/api/download/models/234228",
+        "files": [
+          {
+            "name": "jboogxMACHINELEARNERANIMATEDIFFWORKFLOW_v10.zip",
+            "type": "Archive",
+            "sizeKB": 681.9189453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1598938,
+    "name": "Smooth Workflow (txt2img)",
+    "type": "Workflows",
+    "baseModel": "ZImageBase",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "DigitalPastel",
+      "href": "https://civitai.com/users/DigitalPastel"
+    },
+    "stats": {
+      "downloadCount": 22299,
+      "thumbsUpCount": 1250,
+      "thumbsDownCount": 1,
+      "commentCount": 75,
+      "tippedAmountCount": 4290,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-02-10T22:30:19.725Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1598938",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f4458b0-7a08-4db1-b6b4-27abfca422f1/width=450/120596270.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f4458b0-7a08-4db1-b6b4-27abfca422f1/original=true/120596270.mp4"
+    },
+    "versions": [
+      {
+        "id": 2676993,
+        "name": "Smooth Workflow v.4",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-02-10T22:30:19.725Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2676993",
+        "files": [
+          {
+            "name": "smoothWorkflowTxt2img_smoothWorkflowV4.zip",
+            "type": "Archive",
+            "sizeKB": 10.126953125
+          }
+        ]
+      },
+      {
+        "id": 1967502,
+        "name": "Smooth Workflow v3.1",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-07-02T23:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1967502",
+        "files": [
+          {
+            "name": "smoothWorkflowTxt2img_smoothWorkflowV31.zip",
+            "type": "Archive",
+            "sizeKB": 7.607421875
+          }
+        ]
+      },
+      {
+        "id": 1871460,
+        "name": "Smooth Workflow v3",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-06-05T20:43:38.548Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1871460",
+        "files": [
+          {
+            "name": "smoothWorkflowTxt2img_smoothWorkflowV3.zip",
+            "type": "Archive",
+            "sizeKB": 6.681640625
+          }
+        ]
+      },
+      {
+        "id": 1837153,
+        "name": "Smooth Worflow v2",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-05-27T02:59:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1837153",
+        "files": [
+          {
+            "name": "smoothWorkflowTxt2img_smoothWorflowV2.zip",
+            "type": "Archive",
+            "sizeKB": 6.4443359375
+          }
+        ]
+      },
+      {
+        "id": 1809377,
+        "name": "Smooth_Workflow v1",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-05-20T00:15:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1809377",
+        "files": [
+          {
+            "name": "smoothWorkflowTxt2img_smoothWorkflowV1.zip",
+            "type": "Archive",
+            "sizeKB": 6.0732421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1823089,
+    "name": "📜 DaSiWa Wan2.2 Workflows | I2V | SVI 2.0 | FLF2V 📜",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 23,
+    "creator": {
+      "username": "Darksidewalker",
+      "href": "https://civitai.com/users/Darksidewalker"
+    },
+    "stats": {
+      "downloadCount": 44651,
+      "thumbsUpCount": 1174,
+      "thumbsDownCount": 5,
+      "commentCount": 0,
+      "tippedAmountCount": 5480,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-02-22T11:23:42.028Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Image",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1823089",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ade753bf-6d91-4b7b-a53c-3fce618d046f/width=450/117265409.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ade753bf-6d91-4b7b-a53c-3fce618d046f/original=true/117265409.mp4"
+    },
+    "versions": [
+      {
+        "id": 2712329,
+        "name": "FastFidelity C-AiO v9.1",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2026-02-22T11:23:42.028Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2712329",
+        "files": [
+          {
+            "name": "DasiwaWan22WorkflowsI2VSVI2_fastfidelityCAioV91.json",
+            "type": "Config",
+            "sizeKB": 274.5068359375
+          }
+        ]
+      },
+      {
+        "id": 2580650,
+        "name": "FastFidelity C-SVI v4.3",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2026-01-09T10:19:39.061Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2580650",
+        "files": [
+          {
+            "name": "DasiwaWan22WorkflowsI2VSVI2_fastfidelityCSVIV43.json",
+            "type": "Config",
+            "sizeKB": 695.91796875
+          }
+        ]
+      },
+      {
+        "id": 2375008,
+        "name": "SwarmUI Basic",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-11-04T08:26:26.067Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2375008",
+        "files": [
+          {
+            "name": "DasiwaWan22WorkflowsI2VSVI2_swarmuiBasic.zip",
+            "type": "Archive",
+            "sizeKB": 0.6044921875
+          }
+        ]
+      },
+      {
+        "id": 2405252,
+        "name": "Backend Test v1.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-11-14T10:17:58.339Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2405252",
+        "files": [
+          {
+            "name": "DasiwaWan22WorkflowsI2VSVI2_backendTestV10.zip",
+            "type": "Archive",
+            "sizeKB": 3.58984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 128556,
+    "name": "ComfyUI inpaint workflow | Updated for anima",
+    "type": "Workflows",
+    "baseModel": "Anima",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "PotatCat",
+      "href": "https://civitai.com/users/PotatCat"
+    },
+    "stats": {
+      "downloadCount": 21562,
+      "thumbsUpCount": 986,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 2350,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-07-13T11:45:01.851Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/128556",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27b31383-78e4-425e-8661-bced647bc007/width=450/136588861.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27b31383-78e4-425e-8661-bced647bc007/original=true/136588861.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3125639,
+        "name": "Anima v.1 Beta",
+        "baseModel": "Anima",
+        "updatedAt": "2026-07-13T11:45:01.851Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3125639",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_animaV1Beta.zip",
+            "type": "Archive",
+            "sizeKB": 12.3310546875
+          }
+        ]
+      },
+      {
+        "id": 2979081,
+        "name": "Anima v0.9",
+        "baseModel": "Other",
+        "updatedAt": "2026-05-26T14:33:38.595Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2979081",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_animaV09.zip",
+            "type": "Archive",
+            "sizeKB": 9.6220703125
+          }
+        ]
+      },
+      {
+        "id": 2476571,
+        "name": "XL V2.15-maskopacity",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-12-06T13:10:19.843Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2476571",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_xlV215Maskopacity.zip",
+            "type": "Archive",
+            "sizeKB": 7.1484375
+          }
+        ]
+      },
+      {
+        "id": 2468880,
+        "name": "XL V2.12-colormatch",
+        "baseModel": "Other",
+        "updatedAt": "2025-12-04T07:41:10.501Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2468880",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_xlV212Colormatch.zip",
+            "type": "Archive",
+            "sizeKB": 5.6474609375
+          }
+        ]
+      },
+      {
+        "id": 1919315,
+        "name": "XL V2fix",
+        "baseModel": "Other",
+        "updatedAt": "2025-06-19T08:21:38.063Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1919315",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_xlV2fix.zip",
+            "type": "Archive",
+            "sizeKB": 4.8916015625
+          }
+        ]
+      },
+      {
+        "id": 1193590,
+        "name": "XL V2",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-23T01:43:44.696Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1193590",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_xlV2.zip",
+            "type": "Archive",
+            "sizeKB": 4.1416015625
+          }
+        ]
+      },
+      {
+        "id": 789704,
+        "name": "XL 1.1",
+        "baseModel": "Other",
+        "updatedAt": "2024-08-31T10:17:09.040Z",
+        "downloadUrl": "https://civitai.com/api/download/models/789704",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_xl11.zip",
+            "type": "Archive",
+            "sizeKB": 3.3720703125
+          }
+        ]
+      },
+      {
+        "id": 256787,
+        "name": "1.5 V3.1",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-12-09T16:40:40.516Z",
+        "downloadUrl": "https://civitai.com/api/download/models/256787",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_15V31.zip",
+            "type": "Archive",
+            "sizeKB": 5.3232421875
+          }
+        ]
+      },
+      {
+        "id": 236213,
+        "name": "1.5 V3.05",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-11-23T13:10:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/236213",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_15V305.zip",
+            "type": "Archive",
+            "sizeKB": 5.4921875
+          }
+        ]
+      },
+      {
+        "id": 190249,
+        "name": "1.5 V2.02",
+        "baseModel": "Other",
+        "updatedAt": "2023-10-19T19:14:09.249Z",
+        "downloadUrl": "https://civitai.com/api/download/models/190249",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_15V202.zip",
+            "type": "Archive",
+            "sizeKB": 3.9892578125
+          }
+        ]
+      },
+      {
+        "id": 205177,
+        "name": "v2.02_ALT_V2",
+        "baseModel": "Other",
+        "updatedAt": "2023-10-30T10:21:05.192Z",
+        "downloadUrl": "https://civitai.com/api/download/models/205177",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_v202ALTV2.zip",
+            "type": "Archive",
+            "sizeKB": 3.619140625
+          }
+        ]
+      },
+      {
+        "id": 203814,
+        "name": "v2.02_ALT",
+        "baseModel": "Other",
+        "updatedAt": "2023-10-29T12:52:16.699Z",
+        "downloadUrl": "https://civitai.com/api/download/models/203814",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_v202ALT.zip",
+            "type": "Archive",
+            "sizeKB": 3.6142578125
+          }
+        ]
+      },
+      {
+        "id": 188561,
+        "name": "v2.0",
+        "baseModel": "Other",
+        "updatedAt": "2023-10-18T16:55:29.870Z",
+        "downloadUrl": "https://civitai.com/api/download/models/188561",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_v20.zip",
+            "type": "Archive",
+            "sizeKB": 5.00390625
+          }
+        ]
+      },
+      {
+        "id": 146728,
+        "name": "v1.09",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-08-23T13:27:17.573Z",
+        "downloadUrl": "https://civitai.com/api/download/models/146728",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_v109.zip",
+            "type": "Archive",
+            "sizeKB": 645.990234375
+          }
+        ]
+      },
+      {
+        "id": 141184,
+        "name": "v1.08",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-08-15T12:00:09.889Z",
+        "downloadUrl": "https://civitai.com/api/download/models/141184",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_v108.zip",
+            "type": "Archive",
+            "sizeKB": 647.1123046875
+          }
+        ]
+      },
+      {
+        "id": 140771,
+        "name": "V1.0",
+        "baseModel": "Other",
+        "updatedAt": "2023-08-14T21:44:31.210Z",
+        "downloadUrl": "https://civitai.com/api/download/models/140771",
+        "files": [
+          {
+            "name": "comfyuiInpaintWorkflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2927.048828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21100,
+    "name": "ComfyUI Multi-Subject Workflows",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "Bocian",
+      "href": "https://civitai.com/users/Bocian"
+    },
+    "stats": {
+      "downloadCount": 18185,
+      "thumbsUpCount": 952,
+      "thumbsDownCount": 5,
+      "commentCount": 60,
+      "tippedAmountCount": 1140,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-08-30T17:19:40.065Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/21100",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42b2dec2-1c27-4bb8-9252-aea82cebcc24/width=450/97412373.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42b2dec2-1c27-4bb8-9252-aea82cebcc24/original=true/97412373.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2165199,
+        "name": "Latent Couple Pose v1.1",
+        "baseModel": "Other",
+        "updatedAt": "2025-08-30T17:19:40.065Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2165199",
+        "files": [
+          {
+            "name": "comfyuiMultiSubject_latentCouplePoseV11.zip",
+            "type": "Archive",
+            "sizeKB": 47.3515625
+          }
+        ]
+      },
+      {
+        "id": 87255,
+        "name": "Latent Couple v6.1",
+        "baseModel": "Other",
+        "updatedAt": "2023-06-01T20:45:43.394Z",
+        "downloadUrl": "https://civitai.com/api/download/models/87255",
+        "files": [
+          {
+            "name": "comfyuiMultiSubject_latentCoupleV61.zip",
+            "type": "Archive",
+            "sizeKB": 35.91796875
+          }
+        ]
+      },
+      {
+        "id": 539807,
+        "name": "(Deprecated) Region LoRA+",
+        "baseModel": "Other",
+        "updatedAt": "2024-05-30T19:16:14.758Z",
+        "downloadUrl": "https://civitai.com/api/download/models/539807",
+        "files": [
+          {
+            "name": "comfyuiMultiSubject_DeprecatedRegionLora.zip",
+            "type": "Archive",
+            "sizeKB": 33.2255859375
+          }
+        ]
+      },
+      {
+        "id": 105117,
+        "name": "(Deprecated) Region Lora",
+        "baseModel": "Other",
+        "updatedAt": "2023-06-27T10:33:11.528Z",
+        "downloadUrl": "https://civitai.com/api/download/models/105117",
+        "files": [
+          {
+            "name": "comfyuiMultiSubject_DeprecatedRegionLora.zip",
+            "type": "Archive",
+            "sizeKB": 39.740234375
+          }
+        ]
+      },
+      {
+        "id": 94130,
+        "name": "(Deprecated) InteractOP",
+        "baseModel": "Other",
+        "updatedAt": "2023-06-11T22:33:12.152Z",
+        "downloadUrl": "https://civitai.com/api/download/models/94130",
+        "files": [
+          {
+            "name": "comfyuiMultiSubject_DeprecatedInteractop.zip",
+            "type": "Archive",
+            "sizeKB": 36.9462890625
+          }
+        ]
+      },
+      {
+        "id": 102921,
+        "name": "Legacy Workflows",
+        "baseModel": "Other",
+        "updatedAt": "2023-06-24T12:36:32.744Z",
+        "downloadUrl": "https://civitai.com/api/download/models/102921",
+        "files": [
+          {
+            "name": "comfyuiMultiSubject_legacyWorkflows.zip",
+            "type": "Archive",
+            "sizeKB": 590.935546875
+          }
+        ]
+      },
+      {
+        "id": 2168962,
+        "name": "Update Notification Push",
+        "baseModel": "Other",
+        "updatedAt": "2025-08-31T18:16:28.464Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2168962",
+        "files": [
+          {
+            "name": "comfyuiMultiSubject_updateNotification.zip",
+            "type": "Archive",
+            "sizeKB": 33.271484375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2253524,
+    "name": "Moody Simple Zimage Turbo/Distilled Workflow",
+    "type": "Workflows",
+    "baseModel": "ZImageTurbo",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "catlover1937",
+      "href": "https://civitai.com/users/catlover1937"
+    },
+    "stats": {
+      "downloadCount": 46460,
+      "thumbsUpCount": 947,
+      "thumbsDownCount": 1,
+      "commentCount": 45,
+      "tippedAmountCount": 200,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-05-21T04:04:59.813Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2253524",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1580ca1-a629-4d0b-9f64-b8cd7a9c5a29/width=450/131350135.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1580ca1-a629-4d0b-9f64-b8cd7a9c5a29/original=true/131350135.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2963441,
+        "name": "v7.0 + SDA",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-05-21T04:04:59.813Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2963441",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v70SDA.zip",
+            "type": "Archive",
+            "sizeKB": 21.96875
+          }
+        ]
+      },
+      {
+        "id": 2818678,
+        "name": "v6.0 + SDA",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-03-31T08:51:25.570Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2818678",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v60SDA.zip",
+            "type": "Archive",
+            "sizeKB": 17.8583984375
+          }
+        ]
+      },
+      {
+        "id": 2789841,
+        "name": "v5.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-03-21T04:37:48.467Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2789841",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v50.zip",
+            "type": "Archive",
+            "sizeKB": 14.7646484375
+          }
+        ]
+      },
+      {
+        "id": 2723767,
+        "name": "v4.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-02-26T00:39:38.240Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2723767",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v40.zip",
+            "type": "Archive",
+            "sizeKB": 11.8447265625
+          }
+        ]
+      },
+      {
+        "id": 2615522,
+        "name": "v3.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-20T22:13:48.513Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2615522",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v30.zip",
+            "type": "Archive",
+            "sizeKB": 10.2998046875
+          }
+        ]
+      },
+      {
+        "id": 2595021,
+        "name": "v2.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-13T21:16:24.872Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2595021",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v20.zip",
+            "type": "Archive",
+            "sizeKB": 7.39453125
+          }
+        ]
+      },
+      {
+        "id": 2536798,
+        "name": "v1.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-26T06:12:44.934Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2536798",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.376953125
+          }
+        ]
+      },
+      {
+        "id": 2557450,
+        "name": "v1.0 + facedetailer",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-02T06:13:14.406Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2557450",
+        "files": [
+          {
+            "name": "moodySimpleZimageTurbo_v10Facedetailer.zip",
+            "type": "Archive",
+            "sizeKB": 8.15625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1215102,
+    "name": "SDXL PONY ILLUSTRIOUS DMD2 Workflow By Stable Yogi",
+    "type": "Workflows",
+    "baseModel": "Illustrious",
+    "nsfwLevel": 29,
+    "creator": {
+      "username": "Stable_Yogi",
+      "href": "https://civitai.com/users/Stable_Yogi"
+    },
+    "stats": {
+      "downloadCount": 32693,
+      "thumbsUpCount": 944,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-12-04T00:01:02.406Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1215102",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08d1ee68-4176-4b57-83be-3d926a0497c3/width=450/112543200.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08d1ee68-4176-4b57-83be-3d926a0497c3/original=true/112543200.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2467862,
+        "name": "v2.0",
+        "baseModel": "Illustrious",
+        "updatedAt": "2025-12-04T00:01:02.406Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2467862",
+        "files": [
+          {
+            "name": "sdxlPONYILLUSTRIOUSDMD2_v20.zip",
+            "type": "Archive",
+            "sizeKB": 11.017578125
+          }
+        ]
+      },
+      {
+        "id": 1368721,
+        "name": "v1.0-FIX",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-02-03T23:54:22.361Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1368721",
+        "files": [
+          {
+            "name": "sdxlPONYILLUSTRIOUSDMD2_v10FIX.zip",
+            "type": "Archive",
+            "sizeKB": 6923.3798828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2345999,
+    "name": "Moody ZIB (Zimage Base) + ZIT (Zimage Turbo) Simple Workflow",
+    "type": "Workflows",
+    "baseModel": "ZImageBase",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "catlover1937",
+      "href": "https://civitai.com/users/catlover1937"
+    },
+    "stats": {
+      "downloadCount": 37640,
+      "thumbsUpCount": 890,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 1030,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-05-12T08:44:38.565Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2345999",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/179b516d-416b-403e-86c6-61043080d405/width=450/130466868.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/179b516d-416b-403e-86c6-61043080d405/original=true/130466868.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2938998,
+        "name": "v7.0 ZIB + ZIT",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-05-12T08:44:38.565Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2938998",
+        "files": [
+          {
+            "name": "moodyZIBZimageBaseZIT_v70ZIBZIT.zip",
+            "type": "Archive",
+            "sizeKB": 21.7255859375
+          }
+        ]
+      },
+      {
+        "id": 2876955,
+        "name": "v6.0 ZIB+ZIT",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-04-20T17:08:50.514Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2876955",
+        "files": [
+          {
+            "name": "moodyZIBZimageBaseZIT_v60ZIBZIT.zip",
+            "type": "Archive",
+            "sizeKB": 18.119140625
+          }
+        ]
+      },
+      {
+        "id": 2843180,
+        "name": "V5.0 ZIB+ZIT",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-04-09T09:19:46.982Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2843180",
+        "files": [
+          {
+            "name": "moodyZIBZimageBaseZIT_v50ZIBZIT.zip",
+            "type": "Archive",
+            "sizeKB": 18.0703125
+          }
+        ]
+      },
+      {
+        "id": 2786477,
+        "name": "V4.0 ZIB+ZIT",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-03-19T20:50:13.492Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2786477",
+        "files": [
+          {
+            "name": "moodyZIBZimageBaseZIT_v40ZIBZIT.zip",
+            "type": "Archive",
+            "sizeKB": 14.91015625
+          }
+        ]
+      },
+      {
+        "id": 2714069,
+        "name": "v3.0 ZIB + ZIT",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-02-23T00:30:56.096Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2714069",
+        "files": [
+          {
+            "name": "moodyZIBZimageBaseZIT_v30ZIBZIT.zip",
+            "type": "Archive",
+            "sizeKB": 14.3359375
+          }
+        ]
+      },
+      {
+        "id": 2641838,
+        "name": "v2.0 Dual KSampler",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-01-29T22:34:53.924Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2641838",
+        "files": [
+          {
+            "name": "moodyZIBZimageBaseZIT_v20DualKsampler.zip",
+            "type": "Archive",
+            "sizeKB": 12.73828125
+          }
+        ]
+      },
+      {
+        "id": 2638767,
+        "name": "v1.0 Two Passes",
+        "baseModel": "ZImageBase",
+        "updatedAt": "2026-01-28T21:06:44.891Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2638767",
+        "files": [
+          {
+            "name": "moodyZIBZimageBaseZIT_v10TwoPasses.zip",
+            "type": "Archive",
+            "sizeKB": 11.8134765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1719863,
+    "name": "Wan2.1 14B i2v (Native|GGUF) Self-Forcing(lightx2v) Single/Dual Sampling",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 27,
+    "creator": {
+      "username": "Lannfield",
+      "href": "https://civitai.com/users/Lannfield"
+    },
+    "stats": {
+      "downloadCount": 21232,
+      "thumbsUpCount": 872,
+      "thumbsDownCount": 0,
+      "commentCount": 54,
+      "tippedAmountCount": 1640,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-07-24T02:04:15.373Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1719863",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/097e2bf9-e65a-4c03-bd40-f1bc78c34dca/width=450/90106807.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/097e2bf9-e65a-4c03-bd40-f1bc78c34dca/original=true/90106807.mp4"
+    },
+    "versions": [
+      {
+        "id": 2041861,
+        "name": "🟩v3 (SingleSamp)",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-24T02:04:15.373Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2041861",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V3Singlesamp.zip",
+            "type": "Archive",
+            "sizeKB": 46.4638671875
+          }
+        ]
+      },
+      {
+        "id": 2047064,
+        "name": "🟨v3 (DualSamp)",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-25T15:55:00.076Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2047064",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V3Dualsamp.zip",
+            "type": "Archive",
+            "sizeKB": 49.576171875
+          }
+        ]
+      },
+      {
+        "id": 2017255,
+        "name": "🟥v2.1 (SingleSamp) Old",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-16T22:00:23.551Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2017255",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V21SinglesampOld.zip",
+            "type": "Archive",
+            "sizeKB": 40.80078125
+          }
+        ]
+      },
+      {
+        "id": 2012182,
+        "name": "🟥v2.1 (DualSamp) Old",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-15T11:26:44.195Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2012182",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V21DualsampOld.zip",
+            "type": "Archive",
+            "sizeKB": 41.5
+          }
+        ]
+      },
+      {
+        "id": 1972141,
+        "name": "🟥v2.0 (Expanded) Old",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-04T19:08:40.420Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1972141",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V20ExpandedOld.zip",
+            "type": "Archive",
+            "sizeKB": 19.46875
+          }
+        ]
+      },
+      {
+        "id": 1993028,
+        "name": "🟥v2.0 (Compacted) Old",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-09T23:55:08.409Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1993028",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V20CompactedOld.zip",
+            "type": "Archive",
+            "sizeKB": 13.1904296875
+          }
+        ]
+      },
+      {
+        "id": 1998222,
+        "name": "🟥v2.0 (Simplified) Old",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-11T14:28:36.524Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1998222",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V20SimplifiedOld.zip",
+            "type": "Archive",
+            "sizeKB": 9.0361328125
+          }
+        ]
+      },
+      {
+        "id": 1946320,
+        "name": "🟥v1.0 - Old",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-06-28T20:25:17.234Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1946320",
+        "files": [
+          {
+            "name": "wan2114BI2vNativeGGUFSelf_V10Old.zip",
+            "type": "Archive",
+            "sizeKB": 14.8095703125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 995093,
+    "name": "LTX IMAGE to VIDEO with STG, CAPTION & CLIP EXTEND workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 15,
+    "creator": {
+      "username": "tremolo28",
+      "href": "https://civitai.com/users/tremolo28"
+    },
+    "stats": {
+      "downloadCount": 31370,
+      "thumbsUpCount": 830,
+      "thumbsDownCount": 3,
+      "commentCount": 132,
+      "tippedAmountCount": 5304,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-05-15T14:38:58.083Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/995093",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/862154ec-905c-4dab-9c8d-6f99882c5e76/width=450/76429056.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/862154ec-905c-4dab-9c8d-6f99882c5e76/original=true/76429056.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1791896,
+        "name": "v9.5 (LTX0.9.7Dist)",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-15T14:38:58.083Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1791896",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v95LTX097dist.zip",
+            "type": "Archive",
+            "sizeKB": 875.5400390625
+          }
+        ]
+      },
+      {
+        "id": 1775110,
+        "name": "v9.0 (LTX 0.9.7)",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-05-11T13:07:49.595Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1775110",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v90LTX097.zip",
+            "type": "Archive",
+            "sizeKB": 817.095703125
+          }
+        ]
+      },
+      {
+        "id": 1710369,
+        "name": "v8.0 (LTX 0.9.6)",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-04-26T08:57:40.400Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1710369",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v80LTX096.zip",
+            "type": "Archive",
+            "sizeKB": 891.4755859375
+          }
+        ]
+      },
+      {
+        "id": 1511863,
+        "name": "v7.0 (LTX 0.9.5)",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-03-09T16:13:40.668Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1511863",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v70LTX095.zip",
+            "type": "Archive",
+            "sizeKB": 949.7587890625
+          }
+        ]
+      },
+      {
+        "id": 1265470,
+        "name": "v6.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2025-01-10T16:40:25.630Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1265470",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v60.zip",
+            "type": "Archive",
+            "sizeKB": 2013.5625
+          }
+        ]
+      },
+      {
+        "id": 1191358,
+        "name": "v5.0 (Model 0.9.1)",
+        "baseModel": "LTXV",
+        "updatedAt": "2024-12-22T11:51:25.890Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1191358",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v50Model091.zip",
+            "type": "Archive",
+            "sizeKB": 883.40625
+          }
+        ]
+      },
+      {
+        "id": 1174021,
+        "name": "v4.0 (Model 0.9)",
+        "baseModel": "LTXV",
+        "updatedAt": "2024-12-17T14:13:56.956Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1174021",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v40Model09.zip",
+            "type": "Archive",
+            "sizeKB": 512.064453125
+          }
+        ]
+      },
+      {
+        "id": 1142358,
+        "name": "v3.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2024-12-08T14:54:58.200Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1142358",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v30.zip",
+            "type": "Archive",
+            "sizeKB": 866.1376953125
+          }
+        ]
+      },
+      {
+        "id": 1122054,
+        "name": "v2.1",
+        "baseModel": "LTXV",
+        "updatedAt": "2024-12-02T15:56:57.917Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1122054",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v21.zip",
+            "type": "Archive",
+            "sizeKB": 527.326171875
+          }
+        ]
+      },
+      {
+        "id": 1118629,
+        "name": "v2.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-12-01T15:34:12.120Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1118629",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v20.zip",
+            "type": "Archive",
+            "sizeKB": 815.4169921875
+          }
+        ]
+      },
+      {
+        "id": 1114995,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2024-11-30T14:25:18.968Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1114995",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_v10.zip",
+            "type": "Archive",
+            "sizeKB": 522.9052734375
+          }
+        ]
+      },
+      {
+        "id": 1155974,
+        "name": "Experimental",
+        "baseModel": "LTXV",
+        "updatedAt": "2024-12-12T12:13:20.816Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1155974",
+        "files": [
+          {
+            "name": "ltxIMAGEToVIDEOWithSTG_experimental.zip",
+            "type": "Archive",
+            "sizeKB": 539.421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2184844,
+    "name": "Z-Image Base & Turbo Pro Grade Workflow I2I/T2I (Low or High VRAM)",
+    "type": "Workflows",
+    "baseModel": "ZImageTurbo",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "lonecatone23",
+      "href": "https://civitai.com/users/lonecatone23"
+    },
+    "stats": {
+      "downloadCount": 32243,
+      "thumbsUpCount": 826,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 1210,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-08-26T22:28:07.820Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2184844",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de03f49a-3767-4bbd-a487-7f12ce6c16c2/width=450/140299133.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de03f49a-3767-4bbd-a487-7f12ce6c16c2/original=true/140299133.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3270198,
+        "name": "V21.0.3 Sigmas & Light 🔦",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-08-26T22:28:07.820Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3270198",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v2103SigmasLight.json",
+            "type": "Config",
+            "sizeKB": 596.2802734375
+          }
+        ]
+      },
+      {
+        "id": 3249579,
+        "name": "20.3.3 Oops fix",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-08-20T19:33:09.015Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3249579",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_2033OopsFix.json",
+            "type": "Config",
+            "sizeKB": 638.115234375
+          }
+        ]
+      },
+      {
+        "id": 3241412,
+        "name": "20.2 LC123 Node upgrades",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-08-18T09:46:52.778Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3241412",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_202LC123NodeUpgrades.json",
+            "type": "Config",
+            "sizeKB": 518.9931640625
+          }
+        ]
+      },
+      {
+        "id": 3229636,
+        "name": "v20.1.2.1 LC123 Nodes",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-08-14T23:42:42.628Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3229636",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v20121LC123Nodes.zip",
+            "type": "Archive",
+            "sizeKB": 3865.63671875
+          }
+        ]
+      },
+      {
+        "id": 3210270,
+        "name": "v19 Upgrades",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-08-08T17:02:04.712Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3210270",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v19Upgrades.zip",
+            "type": "Archive",
+            "sizeKB": 22387.474609375
+          }
+        ]
+      },
+      {
+        "id": 3168420,
+        "name": "v18 Overhauled 🧠 Brains",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-07-26T18:27:58.100Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3168420",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v18OverhauledBrains.zip",
+            "type": "Archive",
+            "sizeKB": 17943.6435546875
+          }
+        ]
+      },
+      {
+        "id": 3111495,
+        "name": "V17.0 Sampler Options",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-07-08T22:28:32.746Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3111495",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v170SamplerOptions.zip",
+            "type": "Archive",
+            "sizeKB": 16893.3955078125
+          }
+        ]
+      },
+      {
+        "id": 3101587,
+        "name": "v16.0 Sam3 Detailers!!!",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-07-05T16:31:12.654Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3101587",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v160Sam3Detailers.zip",
+            "type": "Archive",
+            "sizeKB": 21148.4296875
+          }
+        ]
+      },
+      {
+        "id": 3057573,
+        "name": "V15 Sampler Upgrade",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-06-21T23:11:55.984Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3057573",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v15SamplerUpgrade.zip",
+            "type": "Archive",
+            "sizeKB": 17134.126953125
+          }
+        ]
+      },
+      {
+        "id": 3005486,
+        "name": "v14.0 Detailer overhaul",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-06-05T00:58:47.509Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3005486",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v140DetailerOverhaul.zip",
+            "type": "Archive",
+            "sizeKB": 16979.9365234375
+          }
+        ]
+      },
+      {
+        "id": 2970820,
+        "name": "V13.1.2 Cnet Overhaul",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-05-23T18:19:51.197Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2970820",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v1312CnetOverhaul.zip",
+            "type": "Archive",
+            "sizeKB": 9107.3046875
+          }
+        ]
+      },
+      {
+        "id": 2938404,
+        "name": "V12 Inpaint & Overhaul",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-05-12T02:38:24.113Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2938404",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v12InpaintOverhaul.zip",
+            "type": "Archive",
+            "sizeKB": 12449.986328125
+          }
+        ]
+      },
+      {
+        "id": 2853153,
+        "name": "V11.3 Crop & detailer",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-04-13T00:26:17.101Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2853153",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v113CropDetailer.zip",
+            "type": "Archive",
+            "sizeKB": 8277.3623046875
+          }
+        ]
+      },
+      {
+        "id": 2829863,
+        "name": "V10.0.3 Upgrades",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-04-09T11:53:03.077Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2829863",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v1003Upgrades.zip",
+            "type": "Archive",
+            "sizeKB": 13543.619140625
+          }
+        ]
+      },
+      {
+        "id": 2754228,
+        "name": "V9.3 Realism overhaul",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-03-08T05:12:44.350Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2754228",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v93RealismOverhaul.zip",
+            "type": "Archive",
+            "sizeKB": 15002.328125
+          }
+        ]
+      },
+      {
+        "id": 2713644,
+        "name": "V8.0 upgrades + Qwen adv",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-02-25T20:10:05.066Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2713644",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v80UpgradesQwenAdv.zip",
+            "type": "Archive",
+            "sizeKB": 11539.57421875
+          }
+        ]
+      },
+      {
+        "id": 2672346,
+        "name": "v7.0 easy swap edition",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-02-08T19:39:15.649Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2672346",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v70EasySwapEdition.zip",
+            "type": "Archive",
+            "sizeKB": 7707.6572265625
+          }
+        ]
+      },
+      {
+        "id": 2648774,
+        "name": "v6.3 GGUF & Better prompt",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-02-04T03:08:04.536Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2648774",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v63GGUFBetterPrompt.zip",
+            "type": "Archive",
+            "sizeKB": 2059.734375
+          }
+        ]
+      },
+      {
+        "id": 2635587,
+        "name": "V6.2 Z-Image Base",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-27T19:54:48.155Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2635587",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v62ZImageBase.zip",
+            "type": "Archive",
+            "sizeKB": 2188.912109375
+          }
+        ]
+      },
+      {
+        "id": 2621338,
+        "name": "v6.0 prompt enhancer",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-22T23:51:15.938Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2621338",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v60PromptEnhancer.zip",
+            "type": "Archive",
+            "sizeKB": 2183.30078125
+          }
+        ]
+      },
+      {
+        "id": 2606685,
+        "name": "V5.3 CKPT option added",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-17T19:25:33.926Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2606685",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v53CKPTOptionAdded.zip",
+            "type": "Archive",
+            "sizeKB": 2038.708984375
+          }
+        ]
+      },
+      {
+        "id": 2575926,
+        "name": "V5.2.1 Pro grade",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-07T22:22:27.439Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2575926",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v521ProGrade.zip",
+            "type": "Archive",
+            "sizeKB": 2079.2607421875
+          }
+        ]
+      },
+      {
+        "id": 2545381,
+        "name": "V4.1.4 seed var enhance",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-29T03:06:26.102Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2545381",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v414SeedVarEnhance.zip",
+            "type": "Archive",
+            "sizeKB": 10084.66015625
+          }
+        ]
+      },
+      {
+        "id": 2527921,
+        "name": "v4.0.1 Inpaint",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-22T22:18:56.628Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2527921",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v401Inpaint.zip",
+            "type": "Archive",
+            "sizeKB": 8045.173828125
+          }
+        ]
+      },
+      {
+        "id": 2520504,
+        "name": "V3.0 Cnet Seed VR2",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-20T13:18:07.280Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2520504",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v30CnetSeedVR2.zip",
+            "type": "Archive",
+            "sizeKB": 7657.7236328125
+          }
+        ]
+      },
+      {
+        "id": 2504657,
+        "name": "v2.1 CNET",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-15T01:19:57.418Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2504657",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v21CNET.zip",
+            "type": "Archive",
+            "sizeKB": 14740.466796875
+          }
+        ]
+      },
+      {
+        "id": 2491364,
+        "name": "V2.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-11T18:36:32.203Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2491364",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v20.zip",
+            "type": "Archive",
+            "sizeKB": 16563.205078125
+          }
+        ]
+      },
+      {
+        "id": 2478821,
+        "name": "v1.2",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-07T03:43:20.008Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2478821",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v12.zip",
+            "type": "Archive",
+            "sizeKB": 5888.3095703125
+          }
+        ]
+      },
+      {
+        "id": 2460057,
+        "name": "v1.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2025-12-01T20:04:46.850Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2460057",
+        "files": [
+          {
+            "name": "zImageBaseTurboProGrade_v10.zip",
+            "type": "Archive",
+            "sizeKB": 15754.9423828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 258054,
+    "name": "Ultra Upscale",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Kuurumin",
+      "href": "https://civitai.com/users/Kuurumin"
+    },
+    "stats": {
+      "downloadCount": 19292,
+      "thumbsUpCount": 822,
+      "thumbsDownCount": 4,
+      "commentCount": 0,
+      "tippedAmountCount": 19010,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2024-05-02T00:44:51.170Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/258054",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91e60b8a-58ca-467c-b03c-3387cb0e84d2/width=450/11291498.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91e60b8a-58ca-467c-b03c-3387cb0e84d2/original=true/11291498.jpeg"
+    },
+    "versions": [
+      {
+        "id": 480203,
+        "name": "SD 1.5 - 3.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-05-02T00:44:51.170Z",
+        "downloadUrl": "https://civitai.com/api/download/models/480203",
+        "files": [
+          {
+            "name": "ultraUpscale_sd1530.zip",
+            "type": "Archive",
+            "sizeKB": 745.4775390625
+          }
+        ]
+      },
+      {
+        "id": 366016,
+        "name": "SDXL Lightning - 1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2024-02-28T21:24:44.332Z",
+        "downloadUrl": "https://civitai.com/api/download/models/366016",
+        "files": [
+          {
+            "name": "ultraUpscale_sdxlLightning10.zip",
+            "type": "Archive",
+            "sizeKB": 966.974609375
+          }
+        ]
+      },
+      {
+        "id": 305576,
+        "name": "SD 1.5 - 2.2",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-01-20T04:15:36.582Z",
+        "downloadUrl": "https://civitai.com/api/download/models/305576",
+        "files": [
+          {
+            "name": "ultraUpscale_sd1522.zip",
+            "type": "Archive",
+            "sizeKB": 4559.791015625
+          }
+        ]
+      },
+      {
+        "id": 292184,
+        "name": "SD 1.5 - 2.1",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-01-09T08:43:14.232Z",
+        "downloadUrl": "https://civitai.com/api/download/models/292184",
+        "files": [
+          {
+            "name": "ultraUpscale_sd1521.zip",
+            "type": "Archive",
+            "sizeKB": 769.458984375
+          }
+        ]
+      },
+      {
+        "id": 290986,
+        "name": "SD 1.5 - 2.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-01-08T08:46:04.027Z",
+        "downloadUrl": "https://civitai.com/api/download/models/290986",
+        "files": [
+          {
+            "name": "ultraUpscale_sd1520.zip",
+            "type": "Archive",
+            "sizeKB": 3008.607421875
+          }
+        ]
+      },
+      {
+        "id": 290983,
+        "name": "SD 1.5 - 1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-01-08T08:36:05.428Z",
+        "downloadUrl": "https://civitai.com/api/download/models/290983",
+        "files": [
+          {
+            "name": "ultraUpscale_sd1510.zip",
+            "type": "Archive",
+            "sizeKB": 682.408203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1824577,
+    "name": "【WAN2.2】IMG to VIDEO",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "UmeAiRT",
+      "href": "https://civitai.com/users/UmeAiRT"
+    },
+    "stats": {
+      "downloadCount": 24883,
+      "thumbsUpCount": 816,
+      "thumbsDownCount": 6,
+      "commentCount": 0,
+      "tippedAmountCount": 2131,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-05-28T17:20:55.460Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1824577",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8efd4902-4243-4bd3-b412-20f06ad46b4b/width=450/132126448.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8efd4902-4243-4bd3-b412-20f06ad46b4b/original=true/132126448.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2985176,
+        "name": "v2.1",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2026-05-28T17:20:55.460Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2985176",
+        "files": [
+          {
+            "name": "WAN22IMGToVIDEO_v21.zip",
+            "type": "Archive",
+            "sizeKB": 5.087890625
+          }
+        ]
+      },
+      {
+        "id": 2947997,
+        "name": "v2.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2026-05-15T18:07:23.862Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2947997",
+        "files": [
+          {
+            "name": "WAN22IMGToVIDEO_v20.zip",
+            "type": "Archive",
+            "sizeKB": 5.05859375
+          }
+        ]
+      },
+      {
+        "id": 2123563,
+        "name": "v1.3",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-17T20:04:36.682Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2123563",
+        "files": [
+          {
+            "name": "WAN22IMGToVIDEO_v13.zip",
+            "type": "Archive",
+            "sizeKB": 50.384765625
+          }
+        ]
+      },
+      {
+        "id": 2077046,
+        "name": "v1.2",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2025-08-03T10:16:12.967Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2077046",
+        "files": [
+          {
+            "name": "WAN22IMGToVIDEO_v12.zip",
+            "type": "Archive",
+            "sizeKB": 48.26171875
+          }
+        ]
+      },
+      {
+        "id": 2075225,
+        "name": "v1.1",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2025-08-02T20:25:52.372Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2075225",
+        "files": [
+          {
+            "name": "WAN22IMGToVIDEO_v11.zip",
+            "type": "Archive",
+            "sizeKB": 48.1484375
+          }
+        ]
+      },
+      {
+        "id": 2068437,
+        "name": "v1.0 (AIO)",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2025-07-31T18:53:57.245Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2068437",
+        "files": [
+          {
+            "name": "WAN22IMGToVIDEO_v10AIO.zip",
+            "type": "Archive",
+            "sizeKB": 10.578125
+          }
+        ]
+      },
+      {
+        "id": 2064775,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-30T18:54:11.592Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2064775",
+        "files": [
+          {
+            "name": "WAN22IMGToVIDEO_v10.zip",
+            "type": "Archive",
+            "sizeKB": 23.8544921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2426853,
+    "name": "Anima Workflows",
+    "type": "Workflows",
+    "baseModel": "Anima",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "Legendaer",
+      "href": "https://civitai.com/users/Legendaer"
+    },
+    "stats": {
+      "downloadCount": 26387,
+      "thumbsUpCount": 799,
+      "thumbsDownCount": 1,
+      "commentCount": 81,
+      "tippedAmountCount": 211,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-08-14T16:00:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2426853",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec8ac914-0e06-4779-a2c5-9c79098a665b/width=450/139695086.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec8ac914-0e06-4779-a2c5-9c79098a665b/original=true/139695086.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3228344,
+        "name": "V8.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-08-14T16:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3228344",
+        "files": [
+          {
+            "name": "animaWorkflows_v80.zip",
+            "type": "Archive",
+            "sizeKB": 87.72265625
+          },
+          {
+            "name": "animaWorkflows_v80.zip",
+            "type": "Archive",
+            "sizeKB": 87.7841796875
+          }
+        ]
+      },
+      {
+        "id": 3083777,
+        "name": "V7.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-06-30T16:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3083777",
+        "files": [
+          {
+            "name": "animaWorkflows_v70.zip",
+            "type": "Archive",
+            "sizeKB": 83.22265625
+          }
+        ]
+      },
+      {
+        "id": 3009252,
+        "name": "V6.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-06-06T17:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3009252",
+        "files": [
+          {
+            "name": "animaWorkflows_v60.zip",
+            "type": "Archive",
+            "sizeKB": 79.587890625
+          }
+        ]
+      },
+      {
+        "id": 2942524,
+        "name": "V5.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-05-13T18:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2942524",
+        "files": [
+          {
+            "name": "animaWorkflows_v50.zip",
+            "type": "Archive",
+            "sizeKB": 55.484375
+          }
+        ]
+      },
+      {
+        "id": 2857981,
+        "name": "V4.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-04-14T18:50:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2857981",
+        "files": [
+          {
+            "name": "animaWorkflows_v40.zip",
+            "type": "Archive",
+            "sizeKB": 53.3154296875
+          }
+        ]
+      },
+      {
+        "id": 2789988,
+        "name": "V3.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-03-21T08:15:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2789988",
+        "files": [
+          {
+            "name": "animaWorkflows_v30.zip",
+            "type": "Archive",
+            "sizeKB": 32.0712890625
+          }
+        ]
+      },
+      {
+        "id": 2743955,
+        "name": "V2.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-03-04T18:30:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2743955",
+        "files": [
+          {
+            "name": "animaWorkflows_v20.zip",
+            "type": "Archive",
+            "sizeKB": 30.7412109375
+          }
+        ]
+      },
+      {
+        "id": 2728615,
+        "name": "V1.0",
+        "baseModel": "Anima",
+        "updatedAt": "2026-02-27T18:55:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2728615",
+        "files": [
+          {
+            "name": "animaWorkflows_v10.zip",
+            "type": "Archive",
+            "sizeKB": 18.1015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1513601,
+    "name": "GonzaLomo SDXL Workflows",
+    "type": "Workflows",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "GBRX",
+      "href": "https://civitai.com/users/GBRX"
+    },
+    "stats": {
+      "downloadCount": 29509,
+      "thumbsUpCount": 782,
+      "thumbsDownCount": 2,
+      "commentCount": 31,
+      "tippedAmountCount": 1210,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-05-23T18:00:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1513601",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a80e4762-0f9a-4689-aba9-ac3f5bf654a4/width=450/131530942.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a80e4762-0f9a-4689-aba9-ac3f5bf654a4/original=true/131530942.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2968737,
+        "name": "v4.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2026-05-23T18:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2968737",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v40.zip",
+            "type": "Archive",
+            "sizeKB": 9.2265625
+          }
+        ]
+      },
+      {
+        "id": 2159775,
+        "name": "v3.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-08-29T05:45:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2159775",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v31.zip",
+            "type": "Archive",
+            "sizeKB": 6.1806640625
+          }
+        ]
+      },
+      {
+        "id": 2216871,
+        "name": "IPAdapter",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-09-15T03:02:12.147Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2216871",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_ipadapter.zip",
+            "type": "Archive",
+            "sizeKB": 6.43359375
+          }
+        ]
+      },
+      {
+        "id": 2094961,
+        "name": "v3.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-08-09T04:00:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2094961",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v30.zip",
+            "type": "Archive",
+            "sizeKB": 6.0166015625
+          }
+        ]
+      },
+      {
+        "id": 2139755,
+        "name": "v3.0 Standalone Refiner",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-08-23T01:30:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2139755",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v30StandaloneRefiner.zip",
+            "type": "Archive",
+            "sizeKB": 4.15234375
+          }
+        ]
+      },
+      {
+        "id": 2033642,
+        "name": "v3.0 LittleASP Refiner",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-07-21T18:32:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2033642",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v30LittleaspRefiner.zip",
+            "type": "Archive",
+            "sizeKB": 6.1171875
+          }
+        ]
+      },
+      {
+        "id": 2030454,
+        "name": "v3.0 BigASP2.5 Refiner",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-07-20T19:10:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2030454",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v30Bigasp25Refiner.zip",
+            "type": "Archive",
+            "sizeKB": 6.2509765625
+          }
+        ]
+      },
+      {
+        "id": 1875485,
+        "name": "v2.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-06-07T00:15:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1875485",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v20.zip",
+            "type": "Archive",
+            "sizeKB": 4.380859375
+          }
+        ]
+      },
+      {
+        "id": 1982908,
+        "name": "v1.0 Non-DMD",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-07-07T03:59:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1982908",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v10NonDMD.zip",
+            "type": "Archive",
+            "sizeKB": 5.5185546875
+          }
+        ]
+      },
+      {
+        "id": 1715584,
+        "name": "v1.1",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-04-27T13:19:09.971Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1715584",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v11.zip",
+            "type": "Archive",
+            "sizeKB": 3.2255859375
+          }
+        ]
+      },
+      {
+        "id": 1712360,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2025-04-26T18:57:15.380Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1712360",
+        "files": [
+          {
+            "name": "gonzalomoSDXL_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.173828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2354193,
+    "name": "LTX-2.3 All-In-One workflow for RTX 3060 with 12 GB VRAM + 32 GB RAM",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "arkinson",
+      "href": "https://civitai.com/users/arkinson"
+    },
+    "stats": {
+      "downloadCount": 30342,
+      "thumbsUpCount": 740,
+      "thumbsDownCount": 6,
+      "commentCount": 0,
+      "tippedAmountCount": 1296,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-05-13T20:12:38.337Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2354193",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/129e5816-9897-48e2-af68-1ef7d53484f8/width=450/124064240.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/129e5816-9897-48e2-af68-1ef7d53484f8/original=true/124064240.mp4"
+    },
+    "versions": [
+      {
+        "id": 2942921,
+        "name": "v4.4",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-13T20:12:38.337Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2942921",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v44.json",
+            "type": "Config",
+            "sizeKB": 457.4140625
+          }
+        ]
+      },
+      {
+        "id": 2887190,
+        "name": "v4.3",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-24T13:17:52.391Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2887190",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v43.json",
+            "type": "Config",
+            "sizeKB": 453.3310546875
+          }
+        ]
+      },
+      {
+        "id": 2839499,
+        "name": "v4.2",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-07T22:19:59.467Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2839499",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v42.zip",
+            "type": "Archive",
+            "sizeKB": 42.9306640625
+          }
+        ]
+      },
+      {
+        "id": 2839368,
+        "name": "v4.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-07T21:11:27.484Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2839368",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v41.zip",
+            "type": "Archive",
+            "sizeKB": 42.958984375
+          }
+        ]
+      },
+      {
+        "id": 2838481,
+        "name": "v4.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-07T13:33:28.093Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2838481",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v40.zip",
+            "type": "Archive",
+            "sizeKB": 43.0693359375
+          }
+        ]
+      },
+      {
+        "id": 2808422,
+        "name": "v3.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-27T16:32:57.187Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2808422",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v30.zip",
+            "type": "Archive",
+            "sizeKB": 42.310546875
+          }
+        ]
+      },
+      {
+        "id": 2770103,
+        "name": "v2.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-13T21:29:42.520Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2770103",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v20.zip",
+            "type": "Archive",
+            "sizeKB": 52.6513671875
+          }
+        ]
+      },
+      {
+        "id": 2753545,
+        "name": "LTX-2.3 v1.1",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-03-07T23:46:02.496Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2753545",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_ltx23V11.zip",
+            "type": "Archive",
+            "sizeKB": 45.232421875
+          }
+        ]
+      },
+      {
+        "id": 2752976,
+        "name": "LTX-2.3 v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-03-07T19:21:28.364Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2752976",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_ltx23V10.zip",
+            "type": "Archive",
+            "sizeKB": 42.0146484375
+          }
+        ]
+      },
+      {
+        "id": 2729148,
+        "name": "v1.3",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-27T22:07:01.423Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2729148",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v13.zip",
+            "type": "Archive",
+            "sizeKB": 43.7568359375
+          }
+        ]
+      },
+      {
+        "id": 2719962,
+        "name": "v1.2",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-24T17:35:47.743Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2719962",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v12.zip",
+            "type": "Archive",
+            "sizeKB": 42.6611328125
+          }
+        ]
+      },
+      {
+        "id": 2647783,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-31T20:03:46.344Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2647783",
+        "files": [
+          {
+            "name": "ltx23AllInOneWorkflowForRTX_v10.zip",
+            "type": "Archive",
+            "sizeKB": 42.7236328125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 559596,
+    "name": "DP's - Vid2Vid AniamteDiff LCM dance transfer",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 11,
+    "creator": {
+      "username": "downpink",
+      "href": "https://civitai.com/users/downpink"
+    },
+    "stats": {
+      "downloadCount": 8981,
+      "thumbsUpCount": 708,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 1250,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-02-08T13:37:18.775Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/559596",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33fa0774-a573-4203-9515-d9528905d27f/width=450/56562912.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33fa0774-a573-4203-9515-d9528905d27f/original=true/56562912.mp4"
+    },
+    "versions": [
+      {
+        "id": 1387622,
+        "name": "v1.5",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2025-02-08T13:37:18.775Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1387622",
+        "files": [
+          {
+            "name": "dpsVid2vidAniamtediff_v15.zip",
+            "type": "Archive",
+            "sizeKB": 6550.4931640625
+          }
+        ]
+      },
+      {
+        "id": 805106,
+        "name": "v1.4",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-09-04T12:22:13.159Z",
+        "downloadUrl": "https://civitai.com/api/download/models/805106",
+        "files": [
+          {
+            "name": "dpsVid2vidAniamtediff_v14.zip",
+            "type": "Archive",
+            "sizeKB": 14468.365234375
+          }
+        ]
+      },
+      {
+        "id": 713139,
+        "name": "v1.3",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-08-11T05:38:54.817Z",
+        "downloadUrl": "https://civitai.com/api/download/models/713139",
+        "files": [
+          {
+            "name": "dpsVid2vidAniamtediff_v13.zip",
+            "type": "Archive",
+            "sizeKB": 8022.029296875
+          }
+        ]
+      },
+      {
+        "id": 643099,
+        "name": "v1.2",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-07-14T05:04:11.826Z",
+        "downloadUrl": "https://civitai.com/api/download/models/643099",
+        "files": [
+          {
+            "name": "dpsVid2vidAniamtediff_v12.zip",
+            "type": "Archive",
+            "sizeKB": 11081.66796875
+          }
+        ]
+      },
+      {
+        "id": 623107,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-07-06T03:00:58.403Z",
+        "downloadUrl": "https://civitai.com/api/download/models/623107",
+        "files": [
+          {
+            "name": "dpsVid2vidAniamtediff_v10.zip",
+            "type": "Archive",
+            "sizeKB": 10520.6728515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2553704,
+    "name": "LTX2.3 All in one [SFW / NSFW] - LTX Director + ID LoRA + ControlNet + Detailer + Upscaler + Interpolator",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 19,
+    "creator": {
+      "username": "LatentHeart",
+      "href": "https://civitai.com/users/LatentHeart"
+    },
+    "stats": {
+      "downloadCount": 31493,
+      "thumbsUpCount": 696,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 1870,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-06-22T08:46:21.385Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2553704",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b135f154-9662-48bf-926f-230ce9843bd5/width=450/134481656.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b135f154-9662-48bf-926f-230ce9843bd5/original=true/134481656.mp4"
+    },
+    "versions": [
+      {
+        "id": 3057263,
+        "name": "v4.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-06-22T08:46:21.385Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3057263",
+        "files": [
+          {
+            "name": "ltx23AllInOneSFWNSFWLTXDirectorID_v40.zip",
+            "type": "Archive",
+            "sizeKB": 198.052734375
+          }
+        ]
+      },
+      {
+        "id": 2968029,
+        "name": "v3.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-23T02:14:09.811Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2968029",
+        "files": [
+          {
+            "name": "ltx23AllInOneSFWNSFWLTXDirectorID_v30.zip",
+            "type": "Archive",
+            "sizeKB": 124.7197265625
+          }
+        ]
+      },
+      {
+        "id": 2946365,
+        "name": "v2.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-15T13:12:48.300Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2946365",
+        "files": [
+          {
+            "name": "ltx23AllInOneSFWNSFWLTXDirectorID_v21.json",
+            "type": "Config",
+            "sizeKB": 628.9462890625
+          }
+        ]
+      },
+      {
+        "id": 2923500,
+        "name": "v2.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-06T15:05:38.832Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2923500",
+        "files": [
+          {
+            "name": "ltx23AllInOneSFWNSFWLTXDirectorID_v20.json",
+            "type": "Config",
+            "sizeKB": 601.8544921875
+          }
+        ]
+      },
+      {
+        "id": 2869945,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-23T20:29:44.406Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2869945",
+        "files": [
+          {
+            "name": "ltx23AllInOneSFWNSFWLTXDirectorID_v10.zip",
+            "type": "Archive",
+            "sizeKB": 48.0625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2498991,
+    "name": "📜 DaSiWa LTX2.3 Workflows | I2V | FLF2V | T2V | Audio 📜",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 23,
+    "creator": {
+      "username": "Darksidewalker",
+      "href": "https://civitai.com/users/Darksidewalker"
+    },
+    "stats": {
+      "downloadCount": 16470,
+      "thumbsUpCount": 675,
+      "thumbsDownCount": 4,
+      "commentCount": 0,
+      "tippedAmountCount": 1750,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2026-04-24T02:43:12.766Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2498991",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1011e25-9341-47c0-92e5-0d31b8599704/width=450/125895903.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1011e25-9341-47c0-92e5-0d31b8599704/original=true/125895903.mp4"
+    },
+    "versions": [
+      {
+        "id": 2809128,
+        "name": "OmniForge C-LTX23 v4.8",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-24T02:43:12.766Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2809128",
+        "files": [
+          {
+            "name": "DasiwaLTX23WorkflowsI2VFLF2V_omniforgeCLTX23V48.json",
+            "type": "Config",
+            "sizeKB": 278.041015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1853617,
+    "name": "Daxamur's WAN 2.2 Workflows v1.2.1 (FLF2V | T2V | I2V | GGUF | Easy Bypass | Experimental True Endless Generation)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Daxamur",
+      "href": "https://civitai.com/users/Daxamur"
+    },
+    "stats": {
+      "downloadCount": 24130,
+      "thumbsUpCount": 667,
+      "thumbsDownCount": 2,
+      "commentCount": 0,
+      "tippedAmountCount": 5501,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-08-30T19:57:34.387Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1853617",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc3f4bc5-b71a-4b98-965f-05fd6ef8608e/width=450/97433139.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc3f4bc5-b71a-4b98-965f-05fd6ef8608e/original=true/97433139.mp4"
+    },
+    "versions": [
+      {
+        "id": 2165679,
+        "name": "FLF2V v1.2.1",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-30T19:57:34.387Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2165679",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_flf2vV121.zip",
+            "type": "Archive",
+            "sizeKB": 14.634765625
+          }
+        ]
+      },
+      {
+        "id": 2165698,
+        "name": "FLF2V v1.2.1 | GGUF",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-30T20:06:35.601Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2165698",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_flf2vV121GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 14.19921875
+          }
+        ]
+      },
+      {
+        "id": 2165705,
+        "name": "I2V v1.2.1",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-30T20:09:42.771Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2165705",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_i2vV121.zip",
+            "type": "Archive",
+            "sizeKB": 13.447265625
+          }
+        ]
+      },
+      {
+        "id": 2165710,
+        "name": "I2V v1.2.1 | GGUF",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-30T20:11:33.077Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2165710",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_i2vV121GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 13.5048828125
+          }
+        ]
+      },
+      {
+        "id": 2165722,
+        "name": "T2V v1.2.1",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-30T20:13:55.325Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2165722",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_t2vV121.zip",
+            "type": "Archive",
+            "sizeKB": 12.5712890625
+          }
+        ]
+      },
+      {
+        "id": 2165728,
+        "name": "T2V v1.2.1 | GGUF",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-30T20:15:17.747Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2165728",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_t2vV121GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 12.3603515625
+          }
+        ]
+      },
+      {
+        "id": 2141022,
+        "name": "(Exp) I2V v1.3.1",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-23T11:21:58.083Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2141022",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_ExpI2VV131.zip",
+            "type": "Archive",
+            "sizeKB": 32.8349609375
+          }
+        ]
+      },
+      {
+        "id": 2141025,
+        "name": "(Exp) I2V v1.3.1 | GGUF",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-23T11:23:10.711Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2141025",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_ExpI2VV131GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 32.9296875
+          }
+        ]
+      },
+      {
+        "id": 2140996,
+        "name": "(Exp) T2V v1.3.1",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-24T02:45:32.881Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2140996",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_ExpT2VV131.zip",
+            "type": "Archive",
+            "sizeKB": 34.2060546875
+          }
+        ]
+      },
+      {
+        "id": 2141010,
+        "name": "(Exp) T2V v1.3.1 | GGUF",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-23T11:20:02.921Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2141010",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_ExpT2VV131GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 34.322265625
+          }
+        ]
+      },
+      {
+        "id": 2115051,
+        "name": "(Old) I2V v1.2",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-15T04:38:47.573Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2115051",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldI2VV12.zip",
+            "type": "Archive",
+            "sizeKB": 13.111328125
+          }
+        ]
+      },
+      {
+        "id": 2119709,
+        "name": "(Old) I2V v1.2 | GGUF",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-16T16:52:33.710Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2119709",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldI2VV12GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 13.2158203125
+          }
+        ]
+      },
+      {
+        "id": 2107117,
+        "name": "(Old) I2V v1.1",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-12T16:26:24.485Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2107117",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldI2VV11.zip",
+            "type": "Archive",
+            "sizeKB": 11.3740234375
+          }
+        ]
+      },
+      {
+        "id": 2114210,
+        "name": "(Old) I2V v1.1 | MMAUDIO",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-14T21:32:49.848Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2114210",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldI2VV11MMAUDIO.zip",
+            "type": "Archive",
+            "sizeKB": 13.3828125
+          }
+        ]
+      },
+      {
+        "id": 2110743,
+        "name": "(Old) I2V v1.1 | GGUF",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-13T19:51:49.164Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2110743",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldI2VV11GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 11.7841796875
+          },
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldI2VV11GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 11.7841796875
+          }
+        ]
+      },
+      {
+        "id": 2100249,
+        "name": "(Old) I2V v1.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-08-10T18:52:24.829Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2100249",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldI2VV10.zip",
+            "type": "Archive",
+            "sizeKB": 11.2529296875
+          }
+        ]
+      },
+      {
+        "id": 2115056,
+        "name": "(Old) T2V v1.2",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-15T04:42:50.292Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2115056",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV12.zip",
+            "type": "Archive",
+            "sizeKB": 11.6533203125
+          },
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV12.zip",
+            "type": "Archive",
+            "sizeKB": 11.6533203125
+          }
+        ]
+      },
+      {
+        "id": 2119716,
+        "name": "(Old) T2V v1.2 | GGUF",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-16T16:54:33.047Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2119716",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV12GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 11.6884765625
+          }
+        ]
+      },
+      {
+        "id": 2106953,
+        "name": "(Old) T2V v1.1",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-12T15:20:59.106Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2106953",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV11.zip",
+            "type": "Archive",
+            "sizeKB": 10.263671875
+          }
+        ]
+      },
+      {
+        "id": 2114092,
+        "name": "(Old) T2V v1.1 | MMAUDIO",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-14T20:40:53.883Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2114092",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV11MMAUDIO.zip",
+            "type": "Archive",
+            "sizeKB": 12.3876953125
+          }
+        ]
+      },
+      {
+        "id": 2110865,
+        "name": "(Old) T2V v1.1 | GGUF",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-13T20:02:25.296Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2110865",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV11GGUF.zip",
+            "type": "Archive",
+            "sizeKB": 11.0615234375
+          }
+        ]
+      },
+      {
+        "id": 2108978,
+        "name": "(Old) T2V v1.1 | BS",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-13T05:39:56.778Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2108978",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV11BS.zip",
+            "type": "Archive",
+            "sizeKB": 10.8837890625
+          }
+        ]
+      },
+      {
+        "id": 2097744,
+        "name": "(Old) T2V v1.0",
+        "baseModel": "Wan Video 2.2 T2V-A14B",
+        "updatedAt": "2025-08-10T01:21:31.104Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2097744",
+        "files": [
+          {
+            "name": "daxamursWAN22WorkflowsV121FLF2VT2V_OldT2VV10.zip",
+            "type": "Archive",
+            "sizeKB": 10.0712890625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1092466,
+    "name": "Hunyuan 2step t2v and upscale",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "bonetrousers",
+      "href": "https://civitai.com/users/bonetrousers"
+    },
+    "stats": {
+      "downloadCount": 15919,
+      "thumbsUpCount": 666,
+      "thumbsDownCount": 1,
+      "commentCount": 67,
+      "tippedAmountCount": 2280,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2025-01-17T12:54:42.988Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1092466",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76697fa1-bdc7-4aba-b2cb-5e14823f5562/width=450/52187193.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76697fa1-bdc7-4aba-b2cb-5e14823f5562/original=true/52187193.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1294744,
+        "name": "v1.7",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-17T12:54:42.988Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1294744",
+        "files": [
+          {
+            "name": "hunyuan2stepT2vAnd_v17.zip",
+            "type": "Archive",
+            "sizeKB": 6.0068359375
+          }
+        ]
+      },
+      {
+        "id": 1268281,
+        "name": "v1.6",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-11T08:31:09.312Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1268281",
+        "files": [
+          {
+            "name": "hunyuan2stepT2vAnd_v16.zip",
+            "type": "Archive",
+            "sizeKB": 5.046875
+          }
+        ]
+      },
+      {
+        "id": 1243590,
+        "name": "v1.5",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-05T11:12:49.300Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1243590",
+        "files": [
+          {
+            "name": "hunyuan2stepT2vAnd_v15.zip",
+            "type": "Archive",
+            "sizeKB": 5.068359375
+          }
+        ]
+      },
+      {
+        "id": 1227014,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2025-01-01T11:00:07.430Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1227014",
+        "files": [
+          {
+            "name": "hunyuan2stepT2vAnd_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.4716796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1048302,
+    "name": "HunyuanVideo 12GB VRAM Workflow",
+    "type": "Workflows",
+    "baseModel": "Hunyuan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Inner_Reflections_AI",
+      "href": "https://civitai.com/users/Inner_Reflections_AI"
+    },
+    "stats": {
+      "downloadCount": 16879,
+      "thumbsUpCount": 665,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 15249,
+      "period": null,
+      "pulled_at": "2026-09-02T01:47:14+00:00"
+    },
+    "lastUpdated": "2024-12-18T04:29:20.569Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1048302",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffb0e419-b86d-455c-ad27-b7e904e0841f/width=450/46147247.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffb0e419-b86d-455c-ad27-b7e904e0841f/original=true/46147247.mp4"
+    },
+    "versions": [
+      {
+        "id": 1176230,
+        "name": "v1.0",
+        "baseModel": "Hunyuan Video",
+        "updatedAt": "2024-12-18T04:29:20.569Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1176230",
+        "files": [
+          {
+            "name": "hunyuanvideo12GBVRAM_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.8486328125
+          }
+        ]
+      }
+    ]
+  }
+]
