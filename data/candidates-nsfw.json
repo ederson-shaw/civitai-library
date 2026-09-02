@@ -10,13 +10,13 @@
       "href": "https://civitai.com/users/VelvetS"
     },
     "stats": {
-      "downloadCount": 234075,
-      "thumbsUpCount": 14538,
+      "downloadCount": 234077,
+      "thumbsUpCount": 14539,
       "thumbsDownCount": 6,
       "commentCount": 142,
       "tippedAmountCount": 13716,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-13T23:38:20.136Z",
     "earlyAccessInfo": null,
@@ -457,9 +457,41 @@
         ]
       }
     ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f00d224b-128b-4ea2-90c7-8af2cd2ebab7/width=450/f00d224b-128b-4ea2-90c7-8af2cd2ebab7.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/914a886f-6fb1-447a-8991-4060b77ffe9d/width=450/914a886f-6fb1-447a-8991-4060b77ffe9d.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d604565-f94f-4ede-9810-1323b2addb98/width=450/3d604565-f94f-4ede-9810-1323b2addb98.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67ad9e00-cb4d-426a-9b25-c3ecb45abfce/width=450/67ad9e00-cb4d-426a-9b25-c3ecb45abfce.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3df2f04-360f-493d-b8a6-e5de9aeb9b89/width=450/c3df2f04-360f-493d-b8a6-e5de9aeb9b89.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a4a12a9-2146-4340-a3ee-a08a2594a394/width=450/6a4a12a9-2146-4340-a3ee-a08a2594a394.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
     "usage": {
       "posted_images_est": "71",
-      "reactions_sum": 2535,
+      "reactions_sum": 2536,
       "meta_match": true
     }
   },
@@ -480,7 +512,7 @@
       "commentCount": 47,
       "tippedAmountCount": 31980,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-27T23:22:18.306Z",
     "earlyAccessInfo": null,
@@ -611,6 +643,28 @@
         ]
       }
     ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a64a072-670f-41ff-8ee5-e8a11d67b5fb/width=450/1a64a072-670f-41ff-8ee5-e8a11d67b5fb.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f84579d-359a-4c37-8eaf-3a0dedde56a7/width=450/1f84579d-359a-4c37-8eaf-3a0dedde56a7.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b8e054f-ace5-498d-a70e-c571c52a818c/width=450/0b8e054f-ace5-498d-a70e-c571c52a818c.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/543c8b1e-73e2-4f39-9893-cef55706df34/width=450/543c8b1e-73e2-4f39-9893-cef55706df34.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
     "usage": {
       "posted_images_est": "4",
       "reactions_sum": 158,
@@ -628,13 +682,13 @@
       "href": "https://civitai.com/users/ai_build_art"
     },
     "stats": {
-      "downloadCount": 177422,
+      "downloadCount": 177428,
       "thumbsUpCount": 8358,
       "thumbsDownCount": 6,
       "commentCount": 0,
       "tippedAmountCount": 2730,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-23T11:54:47.410Z",
     "earlyAccessInfo": null,
@@ -779,6 +833,7 @@
         ]
       }
     ],
+    "gallery": [],
     "usage": {
       "posted_images_est": "0",
       "reactions_sum": 0,
@@ -796,13 +851,13 @@
       "href": "https://civitai.com/users/m99"
     },
     "stats": {
-      "downloadCount": 157097,
-      "thumbsUpCount": 8288,
+      "downloadCount": 157112,
+      "thumbsUpCount": 8290,
       "thumbsDownCount": 14,
       "commentCount": 0,
       "tippedAmountCount": 15922,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-23T09:36:55.678Z",
     "earlyAccessInfo": null,
@@ -1005,6 +1060,7 @@
         ]
       }
     ],
+    "gallery": [],
     "usage": {
       "posted_images_est": "0",
       "reactions_sum": 0,
@@ -1022,13 +1078,13 @@
       "href": "https://civitai.com/users/UnholyDesiresStudio"
     },
     "stats": {
-      "downloadCount": 94561,
+      "downloadCount": 94566,
       "thumbsUpCount": 7722,
       "thumbsDownCount": 3,
       "commentCount": 0,
       "tippedAmountCount": 662951,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-09-01T18:30:00.000Z",
     "earlyAccessInfo": null,
@@ -1315,6 +1371,23 @@
         ]
       }
     ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97d34e56-0a04-4c23-9953-d45867249a47/width=450/97d34e56-0a04-4c23-9953-d45867249a47.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6634b004-c3cd-4899-90a2-5cdce90b2b32/width=450/6634b004-c3cd-4899-90a2-5cdce90b2b32.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c3b1a2e-1760-435c-9935-957dd5d4f96b/width=450/6c3b1a2e-1760-435c-9935-957dd5d4f96b.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
     "usage": {
       "posted_images_est": "3",
       "reactions_sum": 20,
@@ -1332,13 +1405,13 @@
       "href": "https://civitai.com/users/NoelleKFC"
     },
     "stats": {
-      "downloadCount": 78790,
+      "downloadCount": 78794,
       "thumbsUpCount": 6956,
       "thumbsDownCount": 6,
       "commentCount": 0,
       "tippedAmountCount": 1020,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-04T02:15:31.664Z",
     "earlyAccessInfo": null,
@@ -1595,109 +1668,17 @@
         ]
       }
     ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/654ad680-6266-49cc-b26f-d67c5c41f4c2/width=450/654ad680-6266-49cc-b26f-d67c5c41f4c2.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": false
+      }
+    ],
     "usage": {
       "posted_images_est": "1",
       "reactions_sum": 2,
       "meta_match": false
-    }
-  },
-  {
-    "id": 667086,
-    "name": "NSFW MASTER",
-    "type": "LORA",
-    "baseModel": "Krea 2",
-    "nsfwLevel": 31,
-    "creator": {
-      "username": "Shopon_Skp",
-      "href": "https://civitai.com/users/Shopon_Skp"
-    },
-    "stats": {
-      "downloadCount": 224437,
-      "thumbsUpCount": 6313,
-      "thumbsDownCount": 25,
-      "commentCount": 0,
-      "tippedAmountCount": 573,
-      "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
-    },
-    "lastUpdated": "2026-08-15T22:38:27.971Z",
-    "earlyAccessInfo": null,
-    "license": {
-      "allowCommercialUse": [
-        "Image",
-        "RentCivit",
-        "Rent"
-      ],
-      "allowNoCredit": true,
-      "allowDerivatives": false
-    },
-    "source_url": "https://civitai.com/models/667086",
-    "preview": {
-      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/785be42b-0815-490e-a2f2-6e8395f0ce7a/width=450/139816321.jpeg",
-      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/785be42b-0815-490e-a2f2-6e8395f0ce7a/original=true/139816321.jpeg"
-    },
-    "versions": [
-      {
-        "id": 3232953,
-        "name": "Krea2_Turbo - v1.0",
-        "baseModel": "Krea 2",
-        "updatedAt": "2026-08-15T22:38:27.971Z",
-        "downloadUrl": "https://civitai.com/api/download/models/3232953",
-        "files": [
-          {
-            "name": "SKP-NSFW_Master_Krea2_turbo.safetensors",
-            "type": "Model",
-            "sizeKB": 1828355.201171875
-          }
-        ]
-      },
-      {
-        "id": 2904324,
-        "name": "Z-Image Turbo V2",
-        "baseModel": "ZImageTurbo",
-        "updatedAt": "2026-04-29T16:07:57.547Z",
-        "downloadUrl": "https://civitai.com/api/download/models/2904324",
-        "files": [
-          {
-            "name": "NSFW_master_ZIT_000017532.safetensors",
-            "type": "Model",
-            "sizeKB": 606784.1171875
-          }
-        ]
-      },
-      {
-        "id": 2607212,
-        "name": "Z-Image Turbo V1",
-        "baseModel": "ZImageTurbo",
-        "updatedAt": "2026-01-17T23:21:45.485Z",
-        "downloadUrl": "https://civitai.com/api/download/models/2607212",
-        "files": [
-          {
-            "name": "NSFW_master_ZIT_000008766.safetensors",
-            "type": "Model",
-            "sizeKB": 1213504.234375
-          }
-        ]
-      },
-      {
-        "id": 746602,
-        "name": "v1.0",
-        "baseModel": "Flux.1 D",
-        "updatedAt": "2024-08-20T15:10:47.906Z",
-        "downloadUrl": "https://civitai.com/api/download/models/746602",
-        "files": [
-          {
-            "name": "NSFW_master.safetensors",
-            "type": "Model",
-            "sizeKB": 167938.8125
-          }
-        ]
-      }
-    ],
-    "usage": {
-      "posted_images_est": "4",
-      "reactions_sum": 123,
-      "meta_match": true
     }
   },
   {
@@ -1711,13 +1692,13 @@
       "href": "https://civitai.com/users/Ashen3"
     },
     "stats": {
-      "downloadCount": 234067,
-      "thumbsUpCount": 6312,
+      "downloadCount": 234090,
+      "thumbsUpCount": 6314,
       "thumbsDownCount": 13,
-      "commentCount": 0,
+      "commentCount": 370,
       "tippedAmountCount": 25108,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-12T01:49:48.167Z",
     "earlyAccessInfo": null,
@@ -1936,9 +1917,162 @@
         ]
       }
     ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4625e21-b7da-453a-9ea8-dec042c601e9/width=450/c4625e21-b7da-453a-9ea8-dec042c601e9.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/763e8c50-8d60-48e2-b377-4c37986f6cc6/width=450/763e8c50-8d60-48e2-b377-4c37986f6cc6.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a849108e-f7a9-41dd-bc1c-d2e535e1fc57/width=450/a849108e-f7a9-41dd-bc1c-d2e535e1fc57.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7b3ba7c2-d27c-46c5-88f1-3b7b13f9ce72/width=450/7b3ba7c2-d27c-46c5-88f1-3b7b13f9ce72.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8e6b757-c8b1-4ea9-809f-33732f097f26/width=450/c8e6b757-c8b1-4ea9-809f-33732f097f26.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebeba5c9-06fd-47b9-b24e-e611e306fe9d/width=450/ebeba5c9-06fd-47b9-b24e-e611e306fe9d.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
     "usage": {
       "posted_images_est": "100+",
-      "reactions_sum": 13305,
+      "reactions_sum": 13431,
+      "meta_match": true
+    }
+  },
+  {
+    "id": 667086,
+    "name": "NSFW MASTER",
+    "type": "LORA",
+    "baseModel": "Krea 2",
+    "nsfwLevel": 31,
+    "creator": {
+      "username": "Shopon_Skp",
+      "href": "https://civitai.com/users/Shopon_Skp"
+    },
+    "stats": {
+      "downloadCount": 224443,
+      "thumbsUpCount": 6314,
+      "thumbsDownCount": 25,
+      "commentCount": 0,
+      "tippedAmountCount": 573,
+      "period": "Month",
+      "pulled_at": "2026-09-02T02:47:18+00:00"
+    },
+    "lastUpdated": "2026-08-15T22:38:27.971Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/667086",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/785be42b-0815-490e-a2f2-6e8395f0ce7a/width=450/139816321.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/785be42b-0815-490e-a2f2-6e8395f0ce7a/original=true/139816321.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3232953,
+        "name": "Krea2_Turbo - v1.0",
+        "baseModel": "Krea 2",
+        "updatedAt": "2026-08-15T22:38:27.971Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3232953",
+        "files": [
+          {
+            "name": "SKP-NSFW_Master_Krea2_turbo.safetensors",
+            "type": "Model",
+            "sizeKB": 1828355.201171875
+          }
+        ]
+      },
+      {
+        "id": 2904324,
+        "name": "Z-Image Turbo V2",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-04-29T16:07:57.547Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2904324",
+        "files": [
+          {
+            "name": "NSFW_master_ZIT_000017532.safetensors",
+            "type": "Model",
+            "sizeKB": 606784.1171875
+          }
+        ]
+      },
+      {
+        "id": 2607212,
+        "name": "Z-Image Turbo V1",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-01-17T23:21:45.485Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2607212",
+        "files": [
+          {
+            "name": "NSFW_master_ZIT_000008766.safetensors",
+            "type": "Model",
+            "sizeKB": 1213504.234375
+          }
+        ]
+      },
+      {
+        "id": 746602,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-08-20T15:10:47.906Z",
+        "downloadUrl": "https://civitai.com/api/download/models/746602",
+        "files": [
+          {
+            "name": "NSFW_master.safetensors",
+            "type": "Model",
+            "sizeKB": 167938.8125
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca8261b0-2dad-427e-a794-4c108394e697/width=450/ca8261b0-2dad-427e-a794-4c108394e697.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fa70739-2f31-44d3-8889-c9f299152b9d/width=450/5fa70739-2f31-44d3-8889-c9f299152b9d.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68bc13a0-a3f6-4fbd-be35-1e787648ecfb/width=450/68bc13a0-a3f6-4fbd-be35-1e787648ecfb.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e18c7262-7167-4e40-8a92-bf896f3caf7e/width=450/e18c7262-7167-4e40-8a92-bf896f3caf7e.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "4",
+      "reactions_sum": 123,
       "meta_match": true
     }
   },
@@ -1953,13 +2087,13 @@
       "href": "https://civitai.com/users/alejnd77"
     },
     "stats": {
-      "downloadCount": 113905,
+      "downloadCount": 113913,
       "thumbsUpCount": 6231,
       "thumbsDownCount": 11,
       "commentCount": 0,
       "tippedAmountCount": 1952,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-07T23:55:14.262Z",
     "earlyAccessInfo": null,
@@ -2090,6 +2224,7 @@
         ]
       }
     ],
+    "gallery": [],
     "usage": {
       "posted_images_est": "0",
       "reactions_sum": 0,
@@ -2107,13 +2242,13 @@
       "href": "https://civitai.com/users/N4Talent"
     },
     "stats": {
-      "downloadCount": 40388,
+      "downloadCount": 40389,
       "thumbsUpCount": 5675,
       "thumbsDownCount": 6,
       "commentCount": 17,
       "tippedAmountCount": 550,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-26T19:06:33.135Z",
     "earlyAccessInfo": null,
@@ -2176,6 +2311,38 @@
         ]
       }
     ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1899a852-1816-4c91-b9f3-91c096b21607/width=450/1899a852-1816-4c91-b9f3-91c096b21607.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa4d8043-1801-4658-85d4-bbca101c9969/width=450/fa4d8043-1801-4658-85d4-bbca101c9969.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08136dfb-a154-4412-83ba-faa1776b30e4/width=450/08136dfb-a154-4412-83ba-faa1776b30e4.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba383095-d2f3-4188-8b6a-d560809ea028/width=450/ba383095-d2f3-4188-8b6a-d560809ea028.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b9ec046-a6cf-459c-9bae-adc6b5a352d7/width=450/8b9ec046-a6cf-459c-9bae-adc6b5a352d7.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5ee280f-e236-4372-a674-63bba04d6555/width=450/b5ee280f-e236-4372-a674-63bba04d6555.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": false
+      }
+    ],
     "usage": {
       "posted_images_est": "7",
       "reactions_sum": 47,
@@ -2199,7 +2366,7 @@
       "commentCount": 0,
       "tippedAmountCount": 385,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-12T19:03:42.224Z",
     "earlyAccessInfo": null,
@@ -2287,7 +2454,44 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60692eb8-c7c2-415c-8e8b-5b46e421b884/width=450/60692eb8-c7c2-415c-8e8b-5b46e421b884.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/503208f5-1232-4db8-8b2f-a6fa7fc36106/width=450/503208f5-1232-4db8-8b2f-a6fa7fc36106.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7f2df01d-d402-4004-8436-d58ce76eeee7/width=450/7f2df01d-d402-4004-8436-d58ce76eeee7.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/328d4ddd-8144-47d4-b43b-7ca3ca4994db/width=450/328d4ddd-8144-47d4-b43b-7ca3ca4994db.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfc137ff-6bcf-474c-ba87-17f511494715/width=450/cfc137ff-6bcf-474c-ba87-17f511494715.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c57f1377-49a0-4ccd-87d8-81af65f48bce/width=450/c57f1377-49a0-4ccd-87d8-81af65f48bce.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "90",
+      "reactions_sum": 235,
+      "meta_match": true
+    }
   },
   {
     "id": 861840,
@@ -2300,13 +2504,13 @@
       "href": "https://civitai.com/users/getphat"
     },
     "stats": {
-      "downloadCount": 75484,
+      "downloadCount": 75485,
       "thumbsUpCount": 4284,
       "thumbsDownCount": 17,
       "commentCount": 0,
       "tippedAmountCount": 5165,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-18T16:04:49.803Z",
     "earlyAccessInfo": null,
@@ -2617,7 +2821,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 253347,
@@ -2630,13 +2840,13 @@
       "href": "https://civitai.com/users/reggiemccorthy1457"
     },
     "stats": {
-      "downloadCount": 39728,
-      "thumbsUpCount": 4245,
+      "downloadCount": 39729,
+      "thumbsUpCount": 4246,
       "thumbsDownCount": 3,
       "commentCount": 20,
       "tippedAmountCount": 10871,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-17T00:52:25.673Z",
     "earlyAccessInfo": null,
@@ -2852,7 +3062,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 57573,
@@ -2871,7 +3087,7 @@
       "commentCount": 0,
       "tippedAmountCount": 320,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-20T03:54:47.541Z",
     "earlyAccessInfo": null,
@@ -2946,7 +3162,39 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfbeb174-27d7-41b1-9fcd-c70aa17ee9a5/width=450/cfbeb174-27d7-41b1-9fcd-c70aa17ee9a5.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9f974be-2ce1-44fa-86cf-0e96c5087fed/width=450/f9f974be-2ce1-44fa-86cf-0e96c5087fed.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2bc814ec-3131-4b66-b097-cddedb7e29c8/width=450/2bc814ec-3131-4b66-b097-cddedb7e29c8.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0f12d3f-706f-4d04-88a0-3a6d79f19df4/width=450/f0f12d3f-706f-4d04-88a0-3a6d79f19df4.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/02ea733d-bf28-4ba0-84f9-ae5c90a89ce2/width=450/02ea733d-bf28-4ba0-84f9-ae5c90a89ce2.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "5",
+      "reactions_sum": 76,
+      "meta_match": true
+    }
   },
   {
     "id": 196908,
@@ -2965,7 +3213,7 @@
       "commentCount": 0,
       "tippedAmountCount": 778,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-11T08:29:14.011Z",
     "earlyAccessInfo": null,
@@ -3038,7 +3286,29 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13eccd79-5071-4302-b67b-7bf427c99105/width=450/13eccd79-5071-4302-b67b-7bf427c99105.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b78f796d-b253-42e3-9630-2848b239041d/width=450/b78f796d-b253-42e3-9630-2848b239041d.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9bf1361c-c2b2-4b14-971a-4e6dc1c74a9b/width=450/9bf1361c-c2b2-4b14-971a-4e6dc1c74a9b.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "3",
+      "reactions_sum": 68,
+      "meta_match": true
+    }
   },
   {
     "id": 1269557,
@@ -3051,13 +3321,13 @@
       "href": "https://civitai.com/users/ComfyTinker"
     },
     "stats": {
-      "downloadCount": 51715,
+      "downloadCount": 51720,
       "thumbsUpCount": 3573,
       "thumbsDownCount": 3,
       "commentCount": 0,
       "tippedAmountCount": 6170,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-25T02:56:10.389Z",
     "earlyAccessInfo": null,
@@ -3283,7 +3553,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 8980,
@@ -3296,13 +3572,13 @@
       "href": "https://civitai.com/users/Gtonero"
     },
     "stats": {
-      "downloadCount": 26778,
+      "downloadCount": 26780,
       "thumbsUpCount": 3511,
       "thumbsDownCount": 0,
       "commentCount": 0,
       "tippedAmountCount": 1218,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-25T04:49:43.310Z",
     "earlyAccessInfo": null,
@@ -3417,7 +3693,29 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4547dfbe-b2f3-4695-b338-16518ec1456f/width=450/4547dfbe-b2f3-4695-b338-16518ec1456f.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b1953e6-cc8f-4677-aff8-a30b53cb8a0a/width=450/0b1953e6-cc8f-4677-aff8-a30b53cb8a0a.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c275117e-75c6-4d19-88f3-2c668635ab45/width=450/c275117e-75c6-4d19-88f3-2c668635ab45.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "3",
+      "reactions_sum": 15,
+      "meta_match": false
+    }
   },
   {
     "id": 107576,
@@ -3430,13 +3728,13 @@
       "href": "https://civitai.com/users/smoonHacker"
     },
     "stats": {
-      "downloadCount": 43013,
+      "downloadCount": 43015,
       "thumbsUpCount": 3457,
       "thumbsDownCount": 2,
       "commentCount": 0,
       "tippedAmountCount": 4640,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-11T21:47:02.235Z",
     "earlyAccessInfo": null,
@@ -3498,7 +3796,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 1133519,
@@ -3511,13 +3815,13 @@
       "href": "https://civitai.com/users/Goofy_Ai"
     },
     "stats": {
-      "downloadCount": 12037,
+      "downloadCount": 12038,
       "thumbsUpCount": 3428,
       "thumbsDownCount": 2,
       "commentCount": 0,
       "tippedAmountCount": 89,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-31T21:31:18.072Z",
     "earlyAccessInfo": null,
@@ -3563,7 +3867,29 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/02ef2f4f-203f-4a0d-b1a0-c662f442ffcb/width=450/02ef2f4f-203f-4a0d-b1a0-c662f442ffcb.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8b147dc-a40e-49d7-8cf7-9adb8ccdab9e/width=450/d8b147dc-a40e-49d7-8cf7-9adb8ccdab9e.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/006d88a5-c159-49f6-b4a3-ce8390e2f7ac/width=450/006d88a5-c159-49f6-b4a3-ce8390e2f7ac.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "3",
+      "reactions_sum": 162,
+      "meta_match": false
+    }
   },
   {
     "id": 1175632,
@@ -3576,13 +3902,13 @@
       "href": "https://civitai.com/users/HshiKoi"
     },
     "stats": {
-      "downloadCount": 69591,
+      "downloadCount": 69594,
       "thumbsUpCount": 3245,
       "thumbsDownCount": 1,
       "commentCount": 0,
       "tippedAmountCount": 400418,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-18T11:05:44.685Z",
     "earlyAccessInfo": null,
@@ -4440,7 +4766,24 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46b57f5c-f77b-412e-9588-9b10110a7e33/width=450/46b57f5c-f77b-412e-9588-9b10110a7e33.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b861e850-674a-4fbb-b202-83d2570c6eb9/width=450/b861e850-674a-4fbb-b202-83d2570c6eb9.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "2",
+      "reactions_sum": 18,
+      "meta_match": false
+    }
   },
   {
     "id": 395005,
@@ -4459,7 +4802,7 @@
       "commentCount": 0,
       "tippedAmountCount": 258,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-04T10:21:40.571Z",
     "earlyAccessInfo": null,
@@ -4560,7 +4903,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 1586542,
@@ -4573,13 +4922,13 @@
       "href": "https://civitai.com/users/Zoropaton"
     },
     "stats": {
-      "downloadCount": 22212,
+      "downloadCount": 22214,
       "thumbsUpCount": 3060,
       "thumbsDownCount": 1,
       "commentCount": 0,
       "tippedAmountCount": 0,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-14T00:00:00.000Z",
     "earlyAccessInfo": null,
@@ -4667,7 +5016,44 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbfeaa62-3b85-4969-99e2-919e74c2ec26/width=450/cbfeaa62-3b85-4969-99e2-919e74c2ec26.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9eb1ee5a-802e-4675-b4d3-3b198f5d742b/width=450/9eb1ee5a-802e-4675-b4d3-3b198f5d742b.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd18bddf-bf71-442f-8d54-a6dc1c80a044/width=450/cd18bddf-bf71-442f-8d54-a6dc1c80a044.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/559f7df5-676d-4b74-91af-5c918ab24373/width=450/559f7df5-676d-4b74-91af-5c918ab24373.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4184904d-b88e-46db-bdbd-a7e04c5587ce/width=450/4184904d-b88e-46db-bdbd-a7e04c5587ce.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56d0afd6-a570-4cb9-8b09-63f2e7569615/width=450/56d0afd6-a570-4cb9-8b09-63f2e7569615.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "48",
+      "reactions_sum": 1621,
+      "meta_match": true
+    }
   },
   {
     "id": 107474,
@@ -4680,13 +5066,13 @@
       "href": "https://civitai.com/users/Goofy_Ai"
     },
     "stats": {
-      "downloadCount": 19787,
+      "downloadCount": 19788,
       "thumbsUpCount": 2989,
       "thumbsDownCount": 0,
       "commentCount": 0,
       "tippedAmountCount": 33033,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-09-01T12:39:41.363Z",
     "earlyAccessInfo": null,
@@ -4774,7 +5160,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 92671,
@@ -4793,7 +5185,7 @@
       "commentCount": 0,
       "tippedAmountCount": 1384,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-10T20:25:35.413Z",
     "earlyAccessInfo": null,
@@ -4909,7 +5301,19 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27516cf5-f016-4c21-9015-49738fde678c/width=450/27516cf5-f016-4c21-9015-49738fde678c.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "1",
+      "reactions_sum": 303,
+      "meta_match": false
+    }
   },
   {
     "id": 633524,
@@ -4922,13 +5326,13 @@
       "href": "https://civitai.com/users/ZyloO"
     },
     "stats": {
-      "downloadCount": 23555,
+      "downloadCount": 23558,
       "thumbsUpCount": 2816,
       "thumbsDownCount": 1,
       "commentCount": 12,
       "tippedAmountCount": null,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-09T13:15:00.000Z",
     "earlyAccessInfo": null,
@@ -4974,7 +5378,44 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aaaece7e-71e0-4afc-b6fb-2bd5d7f6d497/width=450/aaaece7e-71e0-4afc-b6fb-2bd5d7f6d497.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9aea669-ef75-4fe5-b567-32b4b8a7deda/width=450/e9aea669-ef75-4fe5-b567-32b4b8a7deda.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1dcaf3e-9022-4f0e-85e0-c086b1cd9efc/width=450/e1dcaf3e-9022-4f0e-85e0-c086b1cd9efc.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": false
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20c2b5ed-5198-4a7c-8544-0387a9eafedf/width=450/20c2b5ed-5198-4a7c-8544-0387a9eafedf.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": false
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/061a0467-9273-4dd9-843a-0b5cd96479b3/width=450/061a0467-9273-4dd9-843a-0b5cd96479b3.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": false
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22ddc033-8afb-4ac3-8ce1-264c8591c3e9/width=450/22ddc033-8afb-4ac3-8ce1-264c8591c3e9.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": false
+      }
+    ],
+    "usage": {
+      "posted_images_est": "100+",
+      "reactions_sum": 3867,
+      "meta_match": true
+    }
   },
   {
     "id": 1979448,
@@ -4987,13 +5428,13 @@
       "href": "https://civitai.com/users/Zoropaton"
     },
     "stats": {
-      "downloadCount": 25034,
+      "downloadCount": 25041,
       "thumbsUpCount": 2771,
       "thumbsDownCount": 2,
       "commentCount": 31,
       "tippedAmountCount": 920,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-07T00:00:00.000Z",
     "earlyAccessInfo": null,
@@ -5053,7 +5494,44 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb1843ef-b10f-4bc2-8403-5fec7a49feb1/width=450/fb1843ef-b10f-4bc2-8403-5fec7a49feb1.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eceb9430-4424-4ebe-8020-132a55e778a6/width=450/eceb9430-4424-4ebe-8020-132a55e778a6.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43f8a6da-8237-4c08-a52d-a0e8d19ced56/width=450/43f8a6da-8237-4c08-a52d-a0e8d19ced56.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d0133f76-1b81-4869-9d24-9f0c4e32a4f7/width=450/d0133f76-1b81-4869-9d24-9f0c4e32a4f7.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a4652eb-a2a3-475c-b00d-e74677abd531/width=450/5a4652eb-a2a3-475c-b00d-e74677abd531.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e177bc2-0bf6-4af3-807e-91e386e7b4b0/width=450/3e177bc2-0bf6-4af3-807e-91e386e7b4b0.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "100+",
+      "reactions_sum": 16870,
+      "meta_match": true
+    }
   },
   {
     "id": 29215,
@@ -5072,7 +5550,7 @@
       "commentCount": 0,
       "tippedAmountCount": 80,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-11T20:27:30.555Z",
     "earlyAccessInfo": null,
@@ -5221,7 +5699,44 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5925744-cca2-48fd-a249-eebeaba058f9/width=450/d5925744-cca2-48fd-a249-eebeaba058f9.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2526ab0a-6986-4cd3-bcca-c723fc019eab/width=450/2526ab0a-6986-4cd3-bcca-c723fc019eab.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f5a4c2e0-a5ae-4693-a182-bbd5c0098243/width=450/f5a4c2e0-a5ae-4693-a182-bbd5c0098243.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a83a3674-ae69-4a68-b9b5-6bb262945df3/width=450/a83a3674-ae69-4a68-b9b5-6bb262945df3.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/375bcc10-f935-4e5e-916f-b59926ef5d0d/width=450/375bcc10-f935-4e5e-916f-b59926ef5d0d.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      },
+      {
+        "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08dd49cc-b19b-4426-8055-10d3b7296ec7/width=450/08dd49cc-b19b-4426-8055-10d3b7296ec7.jpeg",
+        "nsfwLevel": "None",
+        "has_meta": true
+      }
+    ],
+    "usage": {
+      "posted_images_est": "30",
+      "reactions_sum": 236,
+      "meta_match": true
+    }
   },
   {
     "id": 645017,
@@ -5234,13 +5749,13 @@
       "href": "https://civitai.com/users/suteakasuteakasuteka434"
     },
     "stats": {
-      "downloadCount": 24417,
+      "downloadCount": 24418,
       "thumbsUpCount": 2660,
       "thumbsDownCount": 0,
       "commentCount": 0,
       "tippedAmountCount": 1538,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-14T22:01:39.947Z",
     "earlyAccessInfo": null,
@@ -5302,7 +5817,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 831683,
@@ -5315,13 +5836,13 @@
       "href": "https://civitai.com/users/Shrekman17"
     },
     "stats": {
-      "downloadCount": 38672,
+      "downloadCount": 38676,
       "thumbsUpCount": 2583,
       "thumbsDownCount": 2,
       "commentCount": 0,
       "tippedAmountCount": 354728,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-27T04:04:14.634Z",
     "earlyAccessInfo": null,
@@ -5719,7 +6240,13 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   },
   {
     "id": 347111,
@@ -5732,13 +6259,13 @@
       "href": "https://civitai.com/users/Ototuns"
     },
     "stats": {
-      "downloadCount": 20183,
+      "downloadCount": 20184,
       "thumbsUpCount": 2572,
       "thumbsDownCount": 0,
       "commentCount": 0,
       "tippedAmountCount": 500,
       "period": "Month",
-      "pulled_at": "2026-09-02T02:11:08+00:00"
+      "pulled_at": "2026-09-02T02:47:18+00:00"
     },
     "lastUpdated": "2026-08-20T19:01:48.790Z",
     "earlyAccessInfo": null,
@@ -5811,6 +6338,12 @@
           }
         ]
       }
-    ]
+    ],
+    "gallery": [],
+    "usage": {
+      "posted_images_est": "0",
+      "reactions_sum": 0,
+      "meta_match": false
+    }
   }
 ]

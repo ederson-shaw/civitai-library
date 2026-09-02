@@ -1,6 +1,7 @@
 {
-  "checked": 5,
+  "checked": 10,
   "urls_rotated": 0,
+  "compared_across": "live",
   "sample_old": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40fd8976-4f6e-460f-83c9-4f092319525e/original=true/126161650.jpeg",
   "sample_new": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b85e0746-43e4-42f6-a663-43c49c597048/original=true/139400223.jpeg"
 }

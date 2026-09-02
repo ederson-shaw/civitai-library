@@ -1,0 +1,1303 @@
+[
+  {
+    "id": 339604,
+    "our_name": "Two Characters, One Frame — No Color Bleed",
+    "purpose": "Put two different characters in the same picture without their colors and outfits leaking into each other.",
+    "verdict_line": "Best-explained multi-character technique on the list (18k downloads, 3.8k thumbs), but its version names are A1111/Forge extension terms — a ComfyUI guide has to verify what's actually inside before this stays.",
+    "locks": [
+      "identity",
+      "clothing"
+    ],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Any Pony/Illustrious (SDXL-family) checkpoint you already use — not bundled",
+          "folder": "models/checkpoints/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "low",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Version names (Forge Couple, ADetailer, Regional Prompt Matrix) are A1111/Forge extension terms — OPEN the zips and confirm whether any are ComfyUI JSONs; if Forge-only, cut or re-annotate as technique reference with our own ComfyUI recipe. Pin version 4 'Forge Couple Advanced' (id 1338388) as the current head. nsfwLevel 7 — below the blur gate."
+  },
+  {
+    "id": 1309369,
+    "our_name": "Still to Moving Shot — Wan I2V Starter",
+    "purpose": "Turn a finished picture into a short moving clip — the standard first step from image lanes into video.",
+    "verdict_line": "The most-downloaded video workflow on the list (103k) and it followed Wan into 2.2 — the default 'my first video' pick if the node list inside checks out.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Wan 2.2 I2V A14B diffusion model",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "Wan VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "umt5-xxl text encoder",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "CLIP Vision (image encoder for I2V)",
+          "folder": "models/clip_vision/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "KJNodes (typical for UmeAiRT packs — verify)",
+          "manager_search": "KJNodes"
+        },
+        {
+          "name": "Video Helper Suite (typical for UmeAiRT packs — verify)",
+          "manager_search": "Video Helper Suite"
+        }
+      ]
+    },
+    "duration": "~5s clip per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Title says WAN2.1 but v4.0 (id 2947948) targets Wan Video 2.2 I2V-A14B — pin that version and correct the framing; open the zip to confirm which variants ship (LightX2V? GGUF?) and the real node list, which is inferred here from UmeAiRT's usual stack, not verified."
+  },
+  {
+    "id": 1386234,
+    "our_name": "The Evergreen Anime Image Pack",
+    "purpose": "A maintained-monthly pack of polished anime-image graphs (generate, detail, upscale) so you're never stuck on a stale workflow.",
+    "verdict_line": "39 versions without a gap for a year and a half is the strongest maintenance record in the image lane — the 'just keep it current' default for anime stills.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "portrait",
+      "upscale"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Illustrious/Pony (SDXL-family) checkpoint, user's choice — not bundled",
+          "folder": "models/checkpoints/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Open the V38 zip (id 3265669): extract the real node list and count the separate graphs (10KB-to-155KB growth suggests detailer/upscale stages joined over time). nsfwLevel 31 — mature-lane placement + blur gate decision. Same maintainer as the Anima pack (id 2426853) — candidate for a maintainer spotlight cross-link."
+  },
+  {
+    "id": 372584,
+    "our_name": "Low-VRAM Character Morph — AnimateDiff LCM",
+    "purpose": "Animate or morph an existing character on cheap SD1.5 hardware when 14B video models won't fit on the card.",
+    "verdict_line": "The pragmatic fallback: 34k downloads on hardware everyone owns, but SD1.5 quality and a 2024 update ceiling — position it explicitly as the low-end lane, never the headline.",
+    "locks": [
+      "identity"
+    ],
+    "inputs": [
+      "image"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "6",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "SD 1.5 checkpoint",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "AnimateDiff motion module (SD1.5)",
+          "folder": "models/animatediff_models/"
+        },
+        {
+          "our_ref": "Hyper-SD / LCM LoRA (SD1.5, few-step)",
+          "folder": "models/loras/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "AnimateDiff Evolved",
+          "manager_search": "AnimateDiff Evolved"
+        },
+        {
+          "name": "Video Helper Suite",
+          "manager_search": "Video Helper Suite"
+        }
+      ]
+    },
+    "duration": "~2s loop per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "v3.0 = Hyper-SD variant (id 469548) — confirm the exact motion-module filename it loads; untouched since 2024-04 — needs_retest on current ComfyUI before any badge; preview is an mp4 morph (good gallery asset if license permits caching)."
+  },
+  {
+    "id": 618578,
+    "our_name": "Flux Studio in a Box — Generate + Instruct-Edit",
+    "purpose": "One pack that both makes photoreal images (Flux Dev) and edits them from written instructions (Kontext) — the closest thing to downloading a whole photo studio.",
+    "verdict_line": "The most complete Flux desk on the shelf (19 pipelines: Kontext edit, Fill inpaint, Redux variations, outpaint, upscale) and the most-downloaded entry of all 30 — flagship ads-lane pick, with the Flux Dev license as the one landmine.",
+    "locks": [
+      "identity"
+    ],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "portrait",
+      "edit",
+      "upscale"
+    ],
+    "audio": [],
+    "vram_badge": "12",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "FLUX.1 Dev checkpoint (fp8)",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "FLUX.1 Kontext Dev (instruct-editing model)",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "FLUX.1 Fill Dev (inpaint model)",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "FLUX.1 Redux (image-variation adapter)",
+          "folder": "models/style_models/"
+        },
+        {
+          "our_ref": "FLUX VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "clip_l + T5-XXL text encoders",
+          "folder": "models/text_encoders/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "high",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Requirements above are the PACK superset — each of the 19 zips is one pipeline needing a subset; build per-workflow 'What you need' lists after opening them. Pin the Kontext 1.4 version (id 1956938) as the flagship for instruction-editing. LICENSE LANDMINE: civitai pills say commercial OK, but BFL's FLUX.1 [dev] license restricts commercial output — resolve before ads-lane promotion."
+  },
+  {
+    "id": 1818841,
+    "our_name": "Wan 2.2 Full Studio — Text, Image to Video, Even Stills",
+    "purpose": "All three Wan 2.2 modes (text-to-video, image-to-video, text-to-image) behind one download built on Kijai's WanVideoWrapper.",
+    "verdict_line": "66MB single download with 6k reactions behind it — the 'everything included' Wan option; verify what those 66MB actually contain before recommending it over lighter packs.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "reel",
+      "portrait"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Wan 2.2 T2V-A14B + I2V-A14B diffusion models (Kijai wrapper may expect its own models/wan/ layout — verify)",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "umt5 text encoder",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "CLIP Vision",
+          "folder": "models/clip_vision/"
+        },
+        {
+          "our_ref": "Wan VAE",
+          "folder": "models/vae/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "WanVideoWrapper (Kijai)",
+          "manager_search": "WanVideoWrapper"
+        },
+        {
+          "name": "KJNodes",
+          "manager_search": "KJNodes"
+        }
+      ]
+    },
+    "duration": "~5-10s clips (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "66MB is enormous for a 'workflow' — inspect the zip (docs? sample media? bundled extras?) before the import block makes claims; Kijai's wrapper uses its own folder conventions, so confirm folder hints from the actual loader nodes; pin v1.8.5 (id 2058285); 359 comments = active support thread worth mining for breakage reports."
+  },
+  {
+    "id": 111463,
+    "our_name": "SDXL Control Room — Every Knob on One Canvas",
+    "purpose": "Swap node-spaghetti for a parameter panel: text-to-image, image-to-image, inpaint, revision, controlnet, LoRAs and FreeU all switchable inside one graph.",
+    "verdict_line": "The most-tipped entry on the whole list (37k in tips) and still the best answer to 'I don't want to re-wire ComfyUI' — but it froze in 2023, so it ships as a classic, not a default.",
+    "locks": [],
+    "inputs": [
+      "text",
+      "image",
+      "pose"
+    ],
+    "outputs": [
+      "portrait",
+      "edit",
+      "upscale"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "SDXL checkpoint",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "SDXL ControlNet models (optional, per mode)",
+          "folder": "models/controlnet/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "SeargeSDXL (the workflow IS this custom-node pack)",
+          "manager_search": "SeargeSDXL"
+        }
+      ]
+    },
+    "duration": null,
+    "confidence": "high",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Stale since 2023-10 — MUST carry needs_retest status (ComfyUI API moved more than once since); the 23MB zip bundles the SeargeSDXL node pack itself — confirm it still installs and runs on current ComfyUI; pin v4.3.2 (id 194582)."
+  },
+  {
+    "id": 1007385,
+    "our_name": "Hunyuan Video Ladder — Basic to Ultra",
+    "purpose": "Start at Basic Hunyuan video generation, climb to Advanced/Ultra with upscale when it works — one download, difficulty tiers inside.",
+    "verdict_line": "The friendliest Hunyuan on-ramp (tiered difficulty is rare on this list), but its 17-version emoji soup needs our pin-one-and-say-why treatment more than any entry here.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image",
+      "video"
+    ],
+    "outputs": [
+      "reel",
+      "upscale"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "HunyuanVideo transformer (fp8)",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "Hunyuan VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "Hunyuan text encoder (LLAVA/CLIP family)",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "upscaler model (Basic+Upscale / AllInOne tiers)",
+          "folder": "models/upscale_models/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": "~5s per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Version picker: 'All Versions 1.5' bundle (id 1378643) vs 'Official I2V v2' (id 1498674) — decide ONE pin. The coffee emoji tiers are tea-cache speedups — decode and say so in plain words. Which custom-node stack (Kijai HunyuanVideoWrapper vs native nodes) is unverified — open the zip. License: credit REQUIRED and commercial limited to Image/RentCivit — reflect in license pills."
+  },
+  {
+    "id": 208005,
+    "our_name": "Footage to Anime, Face Locked",
+    "purpose": "Restyle a real video clip into animation while keeping one chosen face consistent across every frame.",
+    "verdict_line": "The full legacy stack (vid2vid + ControlNet + IPAdapter + ReActor + two upscale passes) in one graph — exactly what footage-to-anime wants, but its license forbids commercial use AND derivatives.",
+    "locks": [
+      "identity"
+    ],
+    "inputs": [
+      "video",
+      "reference-face",
+      "pose"
+    ],
+    "outputs": [
+      "reel",
+      "edit"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "SD 1.5 checkpoint",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "AnimateDiff motion module (SD1.5)",
+          "folder": "models/animatediff_models/"
+        },
+        {
+          "our_ref": "ControlNet openpose (SD1.5)",
+          "folder": "models/controlnet/"
+        },
+        {
+          "our_ref": "IPAdapter SD1.5",
+          "folder": "models/ipadapter/"
+        },
+        {
+          "our_ref": "ReActor / insightface model",
+          "folder": "models/insightface/"
+        },
+        {
+          "our_ref": "upscaler model",
+          "folder": "models/upscale_models/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "AnimateDiff Evolved",
+          "manager_search": "AnimateDiff Evolved"
+        },
+        {
+          "name": "IPAdapter Plus",
+          "manager_search": "IPAdapter Plus"
+        },
+        {
+          "name": "ReActor Face Swap",
+          "manager_search": "ReActor Node"
+        },
+        {
+          "name": "Video Helper Suite",
+          "manager_search": "Video Helper Suite"
+        }
+      ]
+    },
+    "duration": "output length = input clip (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "LICENSE BLOCKER: allowCommercialUse is empty AND allowDerivatives is false — our enriched-JSON redistribution is arguably a derivative; owner must decide (link-out only?) before this ships. v2.5-v3.0 zips are 2.7-3.1MB (bundled assets?) vs v4.0's 10KB — inspect both. SD1.5-era pipeline: group with 372584 and 559596 as the legacy lane. Highest tip-to-download ratio on the whole list (1.26) — community pays for this exact job."
+  },
+  {
+    "id": 1598938,
+    "our_name": "One-Prompt Z-Image — Zero Fiddling",
+    "purpose": "Type one prompt, get a smooth finished-looking image on the newest 2026 base — the anti-workflow workflow.",
+    "verdict_line": "22k downloads on a months-old base by doing literally nothing fancy — keep it as the 'simplest possible start' card, though its license is among the most restrictive on the list.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Z-Image Base checkpoint (verify whether its text encoder ships inside or as a separate file)",
+          "folder": "models/diffusion_models/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "License: commercial = RentCivit ONLY, no derivatives, credit required — the enriched-JSON redistribution question is sharpest here (same family as 208005's blocker). nsfwLevel 31 gate. Z-Image family is the 2026 freshness asset — pin Smooth Workflow v4 (id 2676993, ZImageBase). Node list unverified — open zip."
+  },
+  {
+    "id": 1823089,
+    "our_name": "First-to-Last Frame Director — Wan 2.2",
+    "purpose": "Hand Wan your starting AND ending frame and let it invent the motion between — direct a shot by its endpoints.",
+    "verdict_line": "First-last-frame is the director's trick most I2V packs skip, and DaSiWa pairs it with SVI speed tricks — the auteur pick of the Wan lane if the 696KB annotated JSON imports cleanly.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "image",
+      "text"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Wan 2.2 I2V A14B diffusion model",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "Wan VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "umt5 text encoder",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "CLIP Vision",
+          "folder": "models/clip_vision/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "SVI — Sparse Video Inference (inferred from 'SVI 2.0' in title — verify)",
+          "manager_search": "Sparse Video Inference"
+        },
+        {
+          "name": "KJNodes (inferred — verify)",
+          "manager_search": "KJNodes"
+        }
+      ]
+    },
+    "duration": "~5s per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Files are 275-696KB raw JSONs — heavily annotated or embedded-media graphs; open one and confirm the real node dependencies (SVI authorship, Kijai wrapper or native) before the import block. Pin 'FastFidelity C-AiO v9.1' (id 2712329). nsfwLevel 23 gate. Same creator as the LTX pack (id 2498991) — cross-link."
+  },
+  {
+    "id": 128556,
+    "our_name": "Remove or Replace Anything — Inpaint, Current-Gen",
+    "purpose": "Paint over any region of a photo (swap a product, fix a hand, change clothes) with everything outside the mask untouched.",
+    "verdict_line": "A continuously-updated inpaint graph for three years that jumped to the Anima base within weeks of its release — exactly the maintenance pattern we want, on the exact task ad people need most.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "image",
+      "text"
+    ],
+    "outputs": [
+      "edit"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Anima checkpoint (current line) or SDXL checkpoint (XL line)",
+          "folder": "models/checkpoints/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "ColorMatch (inferred from 'colormatch' version name — verify)",
+          "manager_search": "ColorMatch"
+        }
+      ]
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Pin decision: 'Anima v.1 Beta' (id 3125639) is newest but Beta — consider pinning 'XL V2.15-maskopacity' (id 2476571) as stable and noting the Anima line exists. License: NO commercial use at all + credit required — flag to owner. 'maskopacity'/'colormatch' version names imply node deps — verify from the zip."
+  },
+  {
+    "id": 21100,
+    "our_name": "Two People, Two Prompts — Latent Couple",
+    "purpose": "Give each person in a scene their own prompt and position so neither one overwrites the other.",
+    "verdict_line": "The original ComfyUI multi-subject technique (18k downloads since 2023, still updated in 2025 with a pose-driven variant) — the native answer to the same problem the Forge pack at id 339604 solves differently.",
+    "locks": [
+      "identity",
+      "clothing"
+    ],
+    "inputs": [
+      "text",
+      "pose"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Your SD 1.5 or SDXL checkpoint — not bundled (confirm which family the current version targets)",
+          "folder": "models/checkpoints/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "ComfyUI Latent Couple",
+          "manager_search": "ComfyUI Latent Couple"
+        }
+      ]
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "baseModel says 'Other' — confirm which checkpoint family 'Latent Couple Pose v1.1' (id 2165199) actually targets before writing the import block. Creator marks older versions deprecated — mirror that hygiene in our changelog field. handoff_next candidate: 339604 (the Forge-side regional approach) — A/B them in the lane."
+  },
+  {
+    "id": 2253524,
+    "our_name": "Ten-Second Moody Portraits — Z-Image Turbo",
+    "purpose": "Distilled few-step generation tuned for moody portraits — iterate at the speed you can type.",
+    "verdict_line": "46k downloads by being the fastest decent image on the block; v7's '+SDA' addition is explained nowhere in the metadata — a small decode job stands between this and shipping.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Z-Image Turbo (distilled) checkpoint",
+          "folder": "models/diffusion_models/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Decode '+ SDA' in v7.0 (id 2963441) — new node? extra model? segment-anything detailer? — from the zip before publishing. A 'v1.0 + facedetailer' variant exists (id 2557450) — decide whether that's the better pin for portrait work. License: RentCivit-only commercial, no derivatives, credit required (same creator as 2345999 — identical flags). nsfwLevel 31 gate."
+  },
+  {
+    "id": 1215102,
+    "our_name": "Fast-Draft Anime Gen — DMD2 Few-Step",
+    "purpose": "Pony/Illustrious images in a handful of steps instead of thirty — for exploring ideas fast, not final renders.",
+    "verdict_line": "32k downloads on one simple idea done right; the 6.9MB v1.0 zip probably bundles the DMD2 LoRA itself, which would make this the zero-extra-downloads fast lane — verify, because that rewrites the whole requirements panel.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Illustrious/Pony (SDXL-family) checkpoint",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "DMD2 few-step LoRA (SDXL) — unless v1.0 zip bundles it, verify",
+          "folder": "models/loras/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "v1.0-FIX zip is 6.9MB vs v2.0's 11KB — open both: if v1 bundles the DMD2 LoRA, pin v1.0-FIX (id 1368721) and shrink requirements to checkpoint-only. nsfwLevel 29 gate. License: commercial Image+RentCivit only, no derivatives, credit required."
+  },
+  {
+    "id": 2345999,
+    "our_name": "Two-Pass Z-Image — Base Quality, Turbo Speed",
+    "purpose": "Split generation across Z-Image Base and Turbo so you pay for quality only where it's needed.",
+    "verdict_line": "The interesting engineering take on Z-Image (dual-sampler two-pass while everyone else ships single-pass) and 37k downloads say the idea landed — decode the pass order before we can explain it in one line.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Z-Image Base checkpoint",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "Z-Image Turbo checkpoint (BOTH required)",
+          "folder": "models/diffusion_models/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Pass direction unclear from metadata ('Two Passes' v1, 'Dual KSampler' v2, v7 current) — open v7.0 (id 2938998) and document which model runs which pass and why. License flags identical to 2253524 (same creator). nsfwLevel 31 gate. Node list unverified — open zip."
+  },
+  {
+    "id": 1719863,
+    "our_name": "Long Takes Without Drift — Wan Self-Forcing",
+    "purpose": "Chain Wan clips into longer videos that keep the same subject instead of melting after five seconds.",
+    "verdict_line": "Self-forcing is THE technique for long-form Wan and this is its cleanest packaging (21k downloads, single/dual sampling, GGUF twins) — the keystone requirement is the lightx2v LoRA, and only the zip can name it.",
+    "locks": [
+      "identity"
+    ],
+    "inputs": [
+      "image",
+      "text"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "12",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Wan2.1 14B I2V 480p — native fp8 or GGUF quant",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "lightx2v self-forcing rollout LoRA (the keystone — exact filename from zip)",
+          "folder": "models/loras/"
+        },
+        {
+          "our_ref": "umt5 text encoder",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "CLIP Vision",
+          "folder": "models/clip_vision/"
+        },
+        {
+          "our_ref": "Wan VAE",
+          "folder": "models/vae/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "ComfyUI-GGUF (for the GGUF variants)",
+          "manager_search": "GGUF"
+        }
+      ]
+    },
+    "duration": "10s+ per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "The lightx2v LoRA filename and folder are make-or-break — extract from the zip before publishing. Pin decision between v3 SingleSamp (id 2041861) and v3 DualSamp (id 2047064) — document the quality/speed tradeoff in one line. nsfwLevel 27 gate."
+  },
+  {
+    "id": 995093,
+    "our_name": "Quick Clip from a Still — LTX with Quality Tricks",
+    "purpose": "Fast image-to-video on LTX with STG quality guidance and automatic captioning of your start image.",
+    "verdict_line": "The most hands-on LTX-0.9.x workflow here (12 versions chasing every model release) — but LTX-2 arrived after it, so it ships as the budget/legacy LTX slot next to the newer 2.3 entries.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "image",
+      "text"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "12",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "LTX-Video 0.9.7 distilled checkpoint",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "caption model for the CAPTION stage — which VLM? decode from zip",
+          "folder": "models/checkpoints/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": "~5-10s per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Decode CAPTION (which VLM node and model?) and CLIP EXTEND (context-window extension node?) from the v9.5 zip (id 1791896) — those two are the entry's differentiators AND its unknown deps. Position against the three LTX-2.3 entries (2354193, 2553704, 2498991) in one comparison row. nsfwLevel 15 gate. Zips ~500-950KB — likely annotated graphs, inspect."
+  },
+  {
+    "id": 2184844,
+    "our_name": "Z-Image Pro Rig — Prompt to Print",
+    "purpose": "The maximalist Z-Image desk: Qwen prompt enhancement, detailers, controlnet, inpaint and a GGUF low-VRAM mode, all switchable.",
+    "verdict_line": "The most actively-developed thing on this entire list (21 major versions, Dec 2025 to Aug 2026) — recommend for power users, but its model appetite (Qwen, SAM3, LC123) is the real price of admission.",
+    "locks": [],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "portrait",
+      "edit",
+      "upscale"
+    ],
+    "audio": [],
+    "vram_badge": "12",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Z-Image Base + Z-Image Turbo checkpoints",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "Qwen prompt-enhancer model (folder convention unverified)",
+          "folder": "models/LLM/"
+        },
+        {
+          "our_ref": "SAM3 (Segment Anything 3) for the detailers",
+          "folder": "models/sams/"
+        },
+        {
+          "our_ref": "upscaler model",
+          "folder": "models/upscale_models/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Newest files are raw 596-638KB JSONs (V21.0.3, id 3270198) while the v19 zip was 22MB — inspect what the big zips bundle (Qwen? SAM3? example galleries?). Decode the 'LC123' custom-node pack name from the JSON. Low/high-VRAM variants = the TWO import blocks to publish. nsfwLevel 31 gate. License: no derivatives — enrichment flag."
+  },
+  {
+    "id": 258054,
+    "our_name": "Print-Ready Multi-Pass Upscale",
+    "purpose": "Take a finished image to print resolution through several upscale passes instead of one mushy 4x blowup.",
+    "verdict_line": "19k downloads and 19k in tips — people literally pay for this one; a simple job done thoroughly, with both SD1.5 and SDXL-Lightning variants included.",
+    "locks": [],
+    "inputs": [
+      "image"
+    ],
+    "outputs": [
+      "upscale"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "SD 1.5 checkpoint (SD line) or SDXL Lightning checkpoint",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "upscaler model(s) — exact .pth names from the zip",
+          "folder": "models/upscale_models/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Ultimate SD Upscale (inferred from multi-pass structure — verify)",
+          "manager_search": "Ultimate SD Upscale"
+        }
+      ]
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Open the zip: which upscaler files are expected (4x-UltraSharp? ESRGAN?) — that IS the whole requirements panel. Pin per audience: 'SD 1.5 - 3.0' (id 480203) vs 'SDXL Lightning - 1.0' (id 366016). Mid-version zips run 3-4.5MB — check for bundled assets. Last update 2024-05 — mild staleness check."
+  },
+  {
+    "id": 1824577,
+    "our_name": "Still to Moving Shot — Wan 2.2 Edition",
+    "purpose": "The current-generation rebuild of UmeAiRT's image-to-video starter, native to Wan 2.2.",
+    "verdict_line": "Clean and current, but it now overlaps its own sibling — the WAN2.1 pack's v4.0 also targets 2.2 — keep exactly ONE UmeAiRT I2V card and fold the other into it.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Wan 2.2 I2V A14B diffusion model",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "Wan VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "umt5 text encoder",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "CLIP Vision",
+          "folder": "models/clip_vision/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "KJNodes (typical for UmeAiRT packs — verify)",
+          "manager_search": "KJNodes"
+        },
+        {
+          "name": "Video Helper Suite (typical for UmeAiRT packs — verify)",
+          "manager_search": "Video Helper Suite"
+        }
+      ]
+    },
+    "duration": "~5s per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Dedupe decision vs id 1309369 (whose v4.0 also targets Wan 2.2): recommend keeping THIS one (native 2.2 line, pin v2.1 id 2985176) and marking 1309369 as the Wan2.1 archive entry. Verify node list from the zip."
+  },
+  {
+    "id": 2426853,
+    "our_name": "Always-Current Anima Image Pack",
+    "purpose": "Monthly-maintained image workflows for the brand-new Anima base — the same reliability pattern as the Evergreen Anime Pack, one generation newer.",
+    "verdict_line": "The newest-base bet on the list: 8 versions in 6 months on a weeks-old model family — top marks for freshness, lowest certainty on requirements; ship as 'watch this space' with the panel marked unverified.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Anima checkpoint — size and encoder needs unverified (newest base on the list)",
+          "folder": "models/checkpoints/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": null,
+    "confidence": "low",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Anima family is weeks old — the VRAM badge is a guess from SDXL-class sizing; verify checkpoint file size and whether a separate text encoder is needed from the V8.0 zip (id 3228344). Requirements panel fully unverified until that zip is opened. nsfwLevel 31 gate. Maintainer Legendaer = same as 1386234 — maintainer-spotlight candidate."
+  },
+  {
+    "id": 1513601,
+    "our_name": "SDXL Realism Set — Refiners + Face Reference",
+    "purpose": "Polished realistic SDXL generation with swappable refiner checkpoints, plus one IPAdapter variant for keeping the same face.",
+    "verdict_line": "29k downloads and a genuinely thoughtful variant tree (standalone refiner, BigASP 2.5, LittleASP, IPAdapter) — good honest mid-tier; the refiner checkpoints are separate downloads the panel must name by file.",
+    "locks": [
+      "identity"
+    ],
+    "inputs": [
+      "text",
+      "reference-face"
+    ],
+    "outputs": [
+      "portrait"
+    ],
+    "audio": [],
+    "vram_badge": "8",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "SDXL main checkpoint (which pairing? verify from zip)",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "Refiner checkpoint: BigASP 2.5 / LittleASP / standalone — separate downloads",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "IPAdapter SD1.5/SDXL (IPAdapter variant only)",
+          "folder": "models/ipadapter/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "IPAdapter Plus (IPAdapter variant only)",
+          "manager_search": "IPAdapter Plus"
+        }
+      ]
+    },
+    "duration": null,
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Refiner checkpoints are separate civitai downloads — exact names and links from the zip + creator description before the panel ships. A 'v1.0 Non-DMD' variant exists, implying the default line uses a DMD few-step LoRA — verify which. nsfwLevel 31 gate. Pin v4.0 (id 2968737)."
+  },
+  {
+    "id": 2354193,
+    "our_name": "LTX-2.3 on a 3060 — 12GB All-In-One",
+    "purpose": "Current-generation LTX video tuned explicitly for a 12GB card — the budget-rig answer to 'can I even do video?'.",
+    "verdict_line": "The name IS the value proposition (30k downloads from people with 3060s) — recommend it hard, but the 12GB claim needs our own GPU run before any tested badge.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "12",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "LTX-2.3 checkpoint(s) — exact files from the JSON",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "LTX VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "LTX text encoder",
+          "folder": "models/text_encoders/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": "~5-10s per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "VRAM badge is straight from the title (RTX 3060 12GB + 32GB RAM) — our own run must reproduce it before the verification badge. Decode which modes the 'All-In-One' JSON (v4.4, id 2942921) actually wires (T2V? I2V? upscale pass?). License: commercial RentCivit-only + no derivatives — flag. SFW (nsfwLevel 3) — good ads-lane default."
+  },
+  {
+    "id": 559596,
+    "our_name": "Dance Move Transfer — Any Character",
+    "purpose": "Take the motion from a dance video and put it on your own character.",
+    "verdict_line": "The clearest single-purpose entry here (motion transfer, nothing else) with 100+ community results — but SD1.5-only and untouched since early 2025; keep only if the dance/meme use case is a lane priority.",
+    "locks": [
+      "identity"
+    ],
+    "inputs": [
+      "video",
+      "pose"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "6",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "SD 1.5 checkpoint",
+          "folder": "models/checkpoints/"
+        },
+        {
+          "our_ref": "AnimateDiff motion module (SD1.5)",
+          "folder": "models/animatediff_models/"
+        },
+        {
+          "our_ref": "LCM LoRA (SD1.5)",
+          "folder": "models/loras/"
+        },
+        {
+          "our_ref": "ControlNet DWPose/OpenPose (SD1.5)",
+          "folder": "models/controlnet/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "AnimateDiff Evolved",
+          "manager_search": "AnimateDiff Evolved"
+        },
+        {
+          "name": "ControlNet Auxiliary Preprocessors (DWPose)",
+          "manager_search": "ControlNet Auxiliary Preprocessors"
+        },
+        {
+          "name": "Video Helper Suite",
+          "manager_search": "Video Helper Suite"
+        }
+      ]
+    },
+    "duration": "output = source clip length (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "v1.2/v1.4 zips are 11-14MB — probably bundle motion modules or examples; inspect (could shrink the requirements list). nsfwLevel 11 → blur gate. Cross-link 208005 (same-era stack, broader use case). Dance-source videos carry music copyright — a one-line note for the guide."
+  },
+  {
+    "id": 2553704,
+    "our_name": "Same Face, Directed Shots — LTX-2.3 Suite",
+    "purpose": "Keep ONE consistent person across LTX-2.3 video shots with an ID LoRA, then direct the camera, detail, upscale and interpolate — the persona-video pipeline in one download.",
+    "verdict_line": "The most complete identity-locked video suite on the list and the closest thing to our persona-reel north star — ID LoRA + Director + detailer + interpolator is exactly the stack the personas lane keeps asking for.",
+    "locks": [
+      "identity",
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image",
+      "reference-face"
+    ],
+    "outputs": [
+      "reel",
+      "upscale"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "LTX-2.3 base checkpoint",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "LTX ID LoRA (identity keystone — exact file from zip)",
+          "folder": "models/loras/"
+        },
+        {
+          "our_ref": "LTX ControlNet",
+          "folder": "models/controlnet/"
+        },
+        {
+          "our_ref": "upscaler model",
+          "folder": "models/upscale_models/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Frame Interpolation / RIFE",
+          "manager_search": "Frame Interpolation"
+        }
+      ]
+    },
+    "duration": "~5-10s per run (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "ID LoRA exact file and folder are the keystone requirement — extract from the v4.0 zip (id 3057263). Decode 'LTX Director': Lightricks node pack or technique name? SFW/NSFW dual claim + nsfwLevel 19 — check the content-class split rules. LTX-2 has native audio but the title doesn't claim it — check the graph before tagging audio."
+  },
+  {
+    "id": 2498991,
+    "our_name": "Sound-On Video in One Pass — LTX-2.3",
+    "purpose": "LTX-2.3 video WITH generated audio in the same run — no separate sound pass.",
+    "verdict_line": "The only entry claiming native audio, a genuine differentiator — but it is one 278KB file whose name says OmniForge, and if that is not ComfyUI this card dies at import.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "LTX-2.3 checkpoint (audio component? decode from JSON)",
+          "folder": "models/diffusion_models/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": "~10s per run (est)",
+    "confidence": "low",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "BLOCKER-CHECK FIRST: filename reads 'omniforgeCLTX23V48.json' — OmniForge is a Forge-family UI, NOT ComfyUI; test-import in ComfyUI before this entry survives curation. Audio enum cannot express 'generated synced sound' (it is neither narration nor music) — if the entry survives, propose an 'sfx' audio value to the owner rather than mistagging. Single version, 2026-04, nsfwLevel 23 gate."
+  },
+  {
+    "id": 1853617,
+    "our_name": "Wan 2.2 Every Mode, GGUF-Friendly, With Sound",
+    "purpose": "All Wan 2.2 modes (image-to-video, text-to-video, first-last-frame), each with a GGUF low-VRAM twin, plus MMAudio variants for sound — and it's the rare fully-SFW suite.",
+    "verdict_line": "The best-organized Wan suite for normal people: every mode spelled out as native/GGUF/silent/MMAudio variants in the version names, nsfwLevel 1 — this is the ads-lane default Wan pick.",
+    "locks": [
+      "scene"
+    ],
+    "inputs": [
+      "text",
+      "image"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "music"
+    ],
+    "vram_badge": "12",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "Wan 2.2 I2V-A14B + T2V-A14B — native or GGUF quant (GGUF via ComfyUI-GGUF)",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "umt5 text encoder",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "CLIP Vision",
+          "folder": "models/clip_vision/"
+        },
+        {
+          "our_ref": "Wan VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "MMAudio model (sound variants — folder convention unverified)",
+          "folder": "models/mmaudio/"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "ComfyUI-GGUF (GGUF variants)",
+          "manager_search": "GGUF"
+        },
+        {
+          "name": "ComfyUI-MMAudio (sound variants)",
+          "manager_search": "MMAudio"
+        }
+      ]
+    },
+    "duration": "~5s+ per run; experimental endless mode longer (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "The 'music' tag is the nearest enum for MMAudio synced ambient/SFX — owner may want an 'sfx' value added to the vocabulary rather than this stretch. Decode the 'BS' variant (block swap?) and stability of 'True Endless' (experimental). MMAudio adds its own model download — confirm the folder from the zip. nsfwLevel 1 = SFW lane placement, rare among Wan packs and valuable for ads."
+  },
+  {
+    "id": 1092466,
+    "our_name": "Two-Step Hunyuan Video, Upscale Included",
+    "purpose": "Hunyuan text-to-video in two diffusion steps with the upscale pass already wired — the fast path when Hunyuan is the look you want.",
+    "verdict_line": "15k downloads of a genuinely simple idea (distill + built-in upscale) with 67 comments of community tuning — the specialist's speed option next to the AllInOne tier ladder.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "reel",
+      "upscale"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "16",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "HunyuanVideo transformer",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "2-step distill LoRA (lightx2v? — exact filename from zip)",
+          "folder": "models/loras/"
+        },
+        {
+          "our_ref": "Hunyuan VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "Hunyuan text encoder",
+          "folder": "models/text_encoders/"
+        },
+        {
+          "our_ref": "upscaler model",
+          "folder": "models/upscale_models/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": "~5s per run, fast (est)",
+    "confidence": "med",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "Which 2-step distill LoRA — extract the exact filename from the v1.7 zip (id 1294744). Skim the 67 comments for known breakage on current ComfyUI before pinning. Lane layout: this = speed, id 1007385 = quality tiers, id 1048302 = bare-bones budget — position all three against each other."
+  },
+  {
+    "id": 1048302,
+    "our_name": "Hunyuan on a 12GB Card — Bare Bones",
+    "purpose": "The minimal Hunyuan graph that fits a 12GB card — no frills, one 2.8KB file.",
+    "verdict_line": "16.8k downloads and 15k in tips prove the need; but a single untouched file from December 2024 means it ships with a needs-retest badge or not at all.",
+    "locks": [],
+    "inputs": [
+      "text"
+    ],
+    "outputs": [
+      "reel"
+    ],
+    "audio": [
+      "silent"
+    ],
+    "vram_badge": "12",
+    "requirements": {
+      "models": [
+        {
+          "our_ref": "HunyuanVideo transformer (fp8)",
+          "folder": "models/diffusion_models/"
+        },
+        {
+          "our_ref": "Hunyuan VAE",
+          "folder": "models/vae/"
+        },
+        {
+          "our_ref": "Hunyuan text encoder",
+          "folder": "models/text_encoders/"
+        }
+      ],
+      "nodes": []
+    },
+    "duration": "~5s per run (est)",
+    "confidence": "low",
+    "curated_by": "agent-draft-v1",
+    "curation_notes": "2.8KB single JSON from 2024-12 — import-test on current ComfyUI with current Hunyuan model naming before anything else; strongest needs_retest candidate per the verification section. Inputs assumed text-only (t2v) — confirm from the graph. Superseded question vs 1092466 (2-step) for the budget-Hunyuan slot — maybe keep exactly one."
+  }
+]

@@ -14,12 +14,17 @@ Provenance (assembly law, refs cloned at /tmp/garimpo-refs/):
   period stats, growth between snapshots is the only real time axis),
   /images usage walk (#5/#17), nsfw clamp probe (#10), cdn sig probe (#15).
   History + usage live in collectors.py, probes in probes.py.
+- v0.2 2026-09-02, hostile R2 receipts: gallery collector (#3 — every entry
+  carries images[] now), full usage walk (#7 — all entries, not top-10),
+  weekly sig-recheck probe (#13 — compares stored urls across the two newest
+  snapshots; single-date fallback = candidates file vs live fetch, n=10).
 
 IN:  optional --nsfw (only honored when ~/.config/civitai/api.key exists).
-OUT: data/candidates-{persona,workflows,nsfw}.json, data/pull_log.json,
-     data/nsfw_probe.json, data/cdn_probe.json,
-     data/snapshots/YYYY-MM-DD/<same filenames> (last 30 kept) +
-     data/snapshots/deltas.json ({"history": false} until 2 dates exist).
+OUT: data/candidates-{persona,workflows,nsfw}.json (gallery[] + usage on
+      every entry), data/pull_log.json, data/nsfw_probe.json,
+      data/cdn_probe.json (compared_across: dates or live),
+      data/snapshots/YYYY-MM-DD/<same filenames> (last 30 kept) +
+      data/snapshots/deltas.json ({"history": false} until 2 dates exist).
 """
 import json
 import sys
@@ -30,8 +35,9 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
-from collectors import enrich_lane_usage, write_snapshot, write_deltas
-from probes import nsfw_clamp_probe, cdn_sig_probe
+from collectors import (enrich_lane_gallery, enrich_lane_usage,
+                        write_snapshot, write_deltas)
+from probes import nsfw_clamp_probe, sig_recheck_probe
 
 API = "https://civitai.com/api/v1/models"
 KEY_FILE = Path.home() / ".config/civitai/api.key"
@@ -173,8 +179,6 @@ def main():
     if not key:
         print("no api key at ~/.config/civitai/api.key, pulling SFW only", file=sys.stderr)
 
-    old_persona_path = DATA_DIR / "candidates-persona.json"
-
     persona = harvest({"name": "persona", "period": "Month"},
                       "limit=50&types=LORA&types=Checkpoint&sort=Highest%20Rated&period=Month",
                       40, key)
@@ -195,13 +199,14 @@ def main():
     write_json("candidates-nsfw.json", nsfw_lane)
 
     for name in SNAPSHOT_FILES[:3]:
+        enrich_lane_gallery(DATA_DIR / name, key, http_get, thumb450)
         enrich_lane_usage(DATA_DIR / name, key, http_get)
 
     clamped = False
     if args.nsfw and key and isinstance(nsfw_lane, list):
         clamped = nsfw_clamp_probe([c.get("id") for c in nsfw_lane],
                                    DATA_DIR / "nsfw_probe.json", key, http_get)
-    cdn_sig_probe(old_persona_path, persona, DATA_DIR / "cdn_probe.json", key, http_get)
+    sig_recheck_probe(DATA_DIR, DATA_DIR / "cdn_probe.json", key, http_get)
 
     write_json("pull_log.json", PULL_LOG)
     write_snapshot(DATA_DIR, now()[:10], SNAPSHOT_FILES)
