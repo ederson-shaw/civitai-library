@@ -25,11 +25,11 @@ stale awesome-list: dead links, updated 8 months ago, no previews, civitai score
 
 ## sad paths
 - civitai api changes / rate limits → cache layer + key + respect limits
-- github pages vs adult content → nsfw off by default, blurred previews, explicit imagery loads only after toggle; fallback: sfw build public + full build as downloadable artifact
+- github pages vs adult content → BINDING (legal-pages-policy.md): lane C = metadata + custom curation + civitai link-out, ZERO explicit imagery on pages build, ever. Toggle-gated explicit imagery on pages = REJECTED IDEA (AUP takedown risk). Blurred non-explicit previews allowed behind toggle. Any "unlocked" full-preview build lives OFF github entirely or does not exist.
 - key revoked → sfw garimpo continues, nsfw degrades gracefully
 - flows go stale (base model deprecated) → freshness decay in score + stale flag
-- civitai cdn hotlink breaks → cache thumbnails locally (license permitting) or metadata-only cards
-- rank rot → rank-keeper script re-validates on schedule
+- civitai cdn hotlink breaks → CDN sig-expiry probe queued (garimpo v0.1); local caching ONLY after license analysis lands in legal file (currently unresolved — do not cache)
+- rank rot → rank-keeper script re-validates on schedule; snapshots from day one
 
 ## simulation
 marcus, ad guy, phone, 22:47. opens link. taps "ads lane". first card: S-tier "product shot → talking spokesperson", runs on his 16GB card. swipes 3 previews. taps import → workflow json + model list + one command each. 6 minutes, no civitai account. he texts the link to his designer.

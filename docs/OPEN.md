@@ -1,17 +1,20 @@
 # OPEN — state & queue
 
 ## state
-P1 in progress — garimpo v0 SHIPPED + first real pull landed: 100 candidates on disk (persona 40, workflows 30, nsfw 30 — key delivered by owner, verified working, preview 200s). P0 closing in parallel: hostile review R1 running (bg_6535ed4d), UX census retrying (bg_4fbb1198). CONVERGED-PLAN.md next when both land.
+Hostile R1 GRADED: 17 findings, all real. Fixes applied by manager: DREAM:28 legal contradiction (takedown path killed), CRITERIA v1.1 (period-stats fiction → snapshot deltas; comment-recency closed NOT PULLABLE; anti-farm block: ratio floor 500dl, curator-verified completeness, quality-gated mentions, tier-locked override; usage axis added = the thesis signal; vram demoted to badge; composite formula defined; nsfw parity = per-lane normalization; mirror = json-only never zips), legal file gains unresolved-probes section (CDN sig expiry, off-github-or-nothing for unlocked build), codex ideas deduped 57KB→21KB. Gate-jump owned: garimpo v0 shipped before convergence (owner pushed parallel; state file had lied "no code yet" — this line is the receipt). In flight: garimpo v0.1 (bg_62928c18: snapshots+deltas, usage/honesty collector, nsfw clamp probe fail-loud, CDN sig probe), UX census lean retry write-file-early (bg_ae89c4e0).
+
+## owner decision pending (surfaced by hostile #8/#9)
+NSFW lane previews on github pages — options: (a) metadata-only forever (safest), (b) blurred NON-explicit previews behind toggle + link-out (carve-out, moderate), (c) full nsfw build hosted OFF-github (owner's own host — only path to real previews). Default while undecided: (b).
 
 ## queue
-- P0 close: hostile findings → fix criteria/plan → CONVERGED-PLAN.md (final IA from ux-census + codex 100 ideas + first-60-seconds; criteria final; model leaderboards format) → hostile round 2 on converged plan
-- P1 rest: curation layer (manual names/tiers/scores on the 100 candidates → curated.json) + rank-keeper stub
-- P2: static site v1 (vanilla, lanes, cards, nsfw toggle, import guides)
+- P0 close (after bg land): CONVERGED-PLAN.md = IA final (ux-census + codex direction + first-60s) + criteria v1.1 ratified + lane/task-axes model (3 lanes + task axes image/t2v/i2v-audio/voice/face — resolves i2v orphan #7 REQUIREMENTS:38) + hostile R2 on converged plan
+- P1 rest: curation layer on real data (manual names/tiers/scores per CRITERIA v1.1 on the 100+ candidates) + rank-keeper cadence
+- P2: static site v1 (vanilla, lanes, cards, nsfw toggle per owner decision, import guides)
 - P3: polish + micro-interactions + hostile design review + mobile
-- P4: publish under ederson-shaw (per-command GH_TOKEN, never gh auth switch) + handoff link
+- P4: publish under ederson-shaw (per-command GH_TOKEN) + handoff link
 
 ## blockers (need owner)
-- none — key delivered. owner actions pending: none.
+- nsfw preview decision (above) — everything else runs on default (b)
 
 ## decisions log
 - publish under ederson-shaw per explicit owner request this session (owner.md "prefer edersonff" overridden by live spec)

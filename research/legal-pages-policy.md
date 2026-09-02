@@ -17,6 +17,12 @@ source: https://civitai.com/content/tos (2026-08-26 version) §11.4
 - scraping/data-mining banned EXCEPT "through interfaces we expressly provide for automated access, such as our public API or official MCP server... accessed with your own valid credentials and within any applicable rate limits"
 - => garimpo via public REST API + owner key = explicitly authorized use
 
+## unresolved (post hostile R1 #15 — probes queued, decisions pending)
+- CDN re-display + sig expiry: image.civitai.com URLs are signature-shaped; expiry behavior UNPROBED (garimpo v0.1 probe: re-fetch same model ids, diff image URLs). Local caching of thumbnails FORBIDDEN until this section carries an answer.
+- mirror policy (DECIDED): workflow JSON extracted only, never zip archives (uninspectable, can embed explicit imagery = AUP backdoor); redistribution gated on license fields per entry, logged.
+- "unlocked" nsfw build: github RELEASES are still github-hosted under the same AUP — "not served from pages" is NOT a safety line. Any full-preview nsfw build must live off-github entirely (owner host/drive) or not exist. OFF-GITHUB or NOTHING.
+- textual nsfw lane metadata on pages: names/purpose lines linking to explicit civitai pages — gray zone under AUP "pornographic content" carve-outs; mitigation = professional wording, educational curation framing, opt-in toggle default off. Residual risk accepted until owner rules.
+
 ## civitai api facts already confirmed by official docs (detail census lands in civitai-api-census.md)
 source: https://developer.civitai.com/site/ + /site/reference/images + /site/guide/authentication
 - public REST api v1: models, model-versions, images, articles, collections, creators, tags, users
