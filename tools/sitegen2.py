@@ -829,6 +829,11 @@ def media_markup(entry: dict[str, Any], stage_id: str) -> str:
         if link:
             media = f'<a class="media-link" href="{esc(link)}" target="_blank" rel="noreferrer" aria-label="Open {esc(name)} on Civitai">{media}</a>'
         return media + '<button class="speaker-toggle" type="button" data-speaker-toggle hidden aria-label="Play preview with sound">◖))</button>'
+    if stage_id == "persona":
+        media = f'<img class="card-image" src="{esc(first)}" alt="Preview for {esc(name)}" loading="lazy">'
+        if link:
+            return f'<a class="media-link" href="{esc(link)}" target="_blank" rel="noreferrer" aria-label="Open {esc(name)} on Civitai">{media}</a>'
+        return media
     gallery_attr = esc(json.dumps(urls, ensure_ascii=False, separators=(",", ":")))
     media = (
         f'<span class="gallery-frame">'

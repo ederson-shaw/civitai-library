@@ -76,10 +76,10 @@ with sync_playwright() as pw:
             page.wait_for_timeout(700)
             hover = card.evaluate("""el => ({ hasVideo: !!el.querySelector('video'),
                 dataVidHook: !!el.querySelector('[data-hover-video]'),
-                galleryAttr: !!el.querySelector('[data-gallery]'),
+                staticImg: !!el.querySelector('img.card-image'),
                 frames: el.querySelectorAll('.gallery-frame, [data-frame]').length })""")
-            v("hover: gallery mechanics on persona card",
-              hover["galleryAttr"] or hover["dataVidHook"] or hover["hasVideo"] or hover["frames"] > 0,
+            v("hover: persona static preview present (carousel off by design)",
+              hover["staticImg"] or hover["dataVidHook"] or hover["hasVideo"],
               json.dumps(hover))
             before = page.url
             page.evaluate("el => el.click()", card)

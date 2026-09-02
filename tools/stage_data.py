@@ -283,6 +283,10 @@ def polish_entries(buckets):
                 e["purpose"] = "your persona presenting a product — host style ad shot"
             if stage == "LAYERS" and not e.get("stacks_on"):
                 e["stacks_on"] = [e["baseModel"]] if e.get("baseModel") else ["any base"]
+            if stage == "PERSONA" and e.get("visual_class") == "realism-photoreal" \
+                    and re.search(r"niji|anime|manga|illustrat|cartoon|toon|comic|cel |2\.5d|semi.?real", e.get("source_name") or "", re.I):
+                e["visual_class"] = "anime-illustration"
+                e["curated_note"] = "name-flagged: anime-family marker in source name — forced out of photoreal default (R4 conservative rule)"
     print("polish: photoreal +12, tradeoff chips, human purposes applied", file=sys.stderr)
 
 
@@ -346,6 +350,47 @@ def vet_galleries(buckets):
     print(f"galleries vetted: {kept_frames} frames kept, {stripped} stripped (fail-closed)", file=sys.stderr)
 
 
+def vet_galleries_strict(buckets):
+    f = FUNNEL / "vision-labels5.json"
+    if not f.exists():
+        return
+    verdicts = {}
+    for line in f.read_text().splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            o = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        verdicts[(str(o.get("entry")), o.get("idx"))] = o.get("visual_class")
+    stripped = 0
+    flipped = 0
+    for e in buckets.get("PERSONA", []):
+        if e.get("visual_class") != "realism-photoreal":
+            continue
+        gal = e.get("gallery") or []
+        vetted_url = (e.get("preview") or {}).get("url_width450")
+        v0 = verdicts.get((str(e.get("id")), 0))
+        if v0 is not None and v0 != "realism-photoreal":
+            e["visual_class"] = "anime-illustration"
+            e["curated_note"] = "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip"
+            flipped += 1
+            continue
+        if len(gal) < 2:
+            continue
+        new_gal = []
+        for i, u in enumerate(gal):
+            if i == 0 or u == vetted_url:
+                new_gal.append(u)
+            elif verdicts.get((str(e.get("id")), i)) == "realism-photoreal":
+                new_gal.append(u)
+            else:
+                stripped += 1
+        e["gallery"] = new_gal
+    print(f"strict re-vet: {stripped} frames stripped, {flipped} entries flipped to anime (preview itself stylized)", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -379,6 +424,7 @@ def main():
     polish_entries(buckets)
     merge_galleries(buckets)
     vet_galleries(buckets)
+    vet_galleries_strict(buckets)
     emit_cuts()
     models = ROOT / "data" / "models.json"
     if models.exists():

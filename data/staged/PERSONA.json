@@ -1,6 +1,6 @@
 {
  "stage": "PERSONA",
- "generated": "2026-09-02T06:49:09+00:00",
+ "generated": "2026-09-02T07:11:48+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -711,8 +711,7 @@
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9319cf37-fca6-4f53-8b4a-25d325bf5c01/original=true/841116.jpeg"
    },
    "gallery": [
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9319cf37-fca6-4f53-8b4a-25d325bf5c01/width=450/841116.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45a9e1ad-ce9c-43e7-a1f0-89daf2b5848a/width=450/45a9e1ad-ce9c-43e7-a1f0-89daf2b5848a.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9319cf37-fca6-4f53-8b4a-25d325bf5c01/width=450/841116.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": "realism Q8 high-conf, majicMIX realistic portrait family — persona job",
@@ -881,7 +880,6 @@
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/432575e2-6d0a-49d8-8ad8-f92cd962ac0e/width=450/432575e2-6d0a-49d8-8ad8-f92cd962ac0e.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/174f86d0-22df-46ef-81aa-80ebfd576c89/width=450/174f86d0-22df-46ef-81aa-80ebfd576c89.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3d980f4-8ca1-45f4-8d59-f8b42ff3c85a/width=450/b3d980f4-8ca1-45f4-8d59-f8b42ff3c85a.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71dfead1-4c00-471f-97ae-2d60398b4263/width=450/71dfead1-4c00-471f-97ae-2d60398b4263.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/693be455-c156-4549-91fe-ca6001ab2ddc/width=450/693be455-c156-4549-91fe-ca6001ab2ddc.jpeg"
    ],
    "stacks_on": [],
@@ -1615,7 +1613,7 @@
    "purpose": null,
    "composite": 31.6,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
@@ -1665,7 +1663,8 @@
     "url": "https://civitai.com/api/download/models/129974",
     "size_mb": 2033
    },
-   "disk_mb": 2033
+   "disk_mb": 2033,
+   "curated_note": "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip"
   },
   {
    "id": 681901,
@@ -2117,7 +2116,7 @@
    "purpose": null,
    "composite": 31.5,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
@@ -2139,7 +2138,15 @@
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/318bf62b-fb35-473a-8d7a-a9d57f27530b/original=true/134790566.jpeg"
    },
    "gallery": [
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/318bf62b-fb35-473a-8d7a-a9d57f27530b/width=450/134790566.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/318bf62b-fb35-473a-8d7a-a9d57f27530b/width=450/134790566.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3ae5030-b173-4a65-ad9c-234f261719da/width=450/f3ae5030-b173-4a65-ad9c-234f261719da.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa35d569-154d-450f-b94c-63d2a1c21c97/width=450/fa35d569-154d-450f-b94c-63d2a1c21c97.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf1c5068-bbf4-4bb4-a658-c7e2b0c524ff/width=450/bf1c5068-bbf4-4bb4-a658-c7e2b0c524ff.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7ed4be6-0f2d-432b-a917-7f56bec1475d/width=450/f7ed4be6-0f2d-432b-a917-7f56bec1475d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f55e1c9-7243-4f48-9b6c-a42620acd79e/width=450/2f55e1c9-7243-4f48-9b6c-a42620acd79e.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/daadd02b-cd01-4a0c-83bd-85b80465e163/width=450/daadd02b-cd01-4a0c-83bd-85b80465e163.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac658f6b-a96a-4684-bc62-ef7d79a13311/width=450/ac658f6b-a96a-4684-bc62-ef7d79a13311.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8438371-2a36-4cef-980d-5a666b02b9a2/width=450/d8438371-2a36-4cef-980d-5a666b02b9a2.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": null,
@@ -2161,7 +2168,8 @@
     "url": "https://civitai.com/api/download/models/3066467",
     "size_mb": 264
    },
-   "disk_mb": 264
+   "disk_mb": 264,
+   "curated_note": "name-flagged: anime-family marker in source name — forced out of photoreal default (R4 conservative rule)"
   },
   {
    "id": 23167,
@@ -2292,8 +2300,7 @@
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e29e5b22-3eb9-4807-c664-63ad605a5100/original=true/313048.jpeg"
    },
    "gallery": [
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e29e5b22-3eb9-4807-c664-63ad605a5100/width=450/313048.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/669ed757-be72-487a-9a5c-6d84156b9100/width=450/669ed757-be72-487a-9a5c-6d84156b9100.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e29e5b22-3eb9-4807-c664-63ad605a5100/width=450/313048.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": null,
@@ -2554,7 +2561,7 @@
    "purpose": null,
    "composite": 31.5,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
@@ -2576,7 +2583,15 @@
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6d23e4c-7c9b-4475-b9f4-b7428850544f/original=true/1200576.jpeg"
    },
    "gallery": [
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6d23e4c-7c9b-4475-b9f4-b7428850544f/width=450/1200576.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6d23e4c-7c9b-4475-b9f4-b7428850544f/width=450/1200576.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af450934-bc16-4ce0-8e73-bc81227e8487/width=450/af450934-bc16-4ce0-8e73-bc81227e8487.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6fc20e37-7a91-46e1-9dd5-fcb8e527f627/width=450/6fc20e37-7a91-46e1-9dd5-fcb8e527f627.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c653c681-fc6e-48b8-8c66-ad2e430cec2c/width=450/c653c681-fc6e-48b8-8c66-ad2e430cec2c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcd410db-9e56-41e2-8f8b-9e3198d583e8/width=450/dcd410db-9e56-41e2-8f8b-9e3198d583e8.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/efe429d7-abb0-41b7-8f09-a3d2389c40f5/width=450/efe429d7-abb0-41b7-8f09-a3d2389c40f5.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8139986f-9453-493c-aaa4-3f2d90b44521/width=450/8139986f-9453-493c-aaa4-3f2d90b44521.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4c6ce60-ccea-493c-a66b-cf267c50f18d/width=450/d4c6ce60-ccea-493c-a66b-cf267c50f18d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d886e9ce-b864-49c5-b807-745d043d3e0c/width=450/d886e9ce-b864-49c5-b807-745d043d3e0c.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": null,
@@ -2598,7 +2613,8 @@
     "url": "https://civitai.com/api/download/models/99101",
     "size_mb": 4302
    },
-   "disk_mb": 4302
+   "disk_mb": 4302,
+   "curated_note": "name-flagged: anime-family marker in source name — forced out of photoreal default (R4 conservative rule)"
   },
   {
    "id": 6925,
@@ -2630,8 +2646,6 @@
    },
    "gallery": [
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0795dfb9-386a-4ba3-df43-d6c512370e00/width=450/76860.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13962779-ac0c-4344-e4f6-f51195737d00/width=450/13962779-ac0c-4344-e4f6-f51195737d00.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9290d512-aef1-40f0-3af7-ecf8e07d7100/width=450/9290d512-aef1-40f0-3af7-ecf8e07d7100.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/df2d3eff-a2ea-478e-86b6-7f33d4bc9cc6/width=450/df2d3eff-a2ea-478e-86b6-7f33d4bc9cc6.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/553fd3a0-5513-476d-99b2-dfd02c49ef00/width=450/553fd3a0-5513-476d-99b2-dfd02c49ef00.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0c404bd-2fc2-47a1-1e40-c7108f48f900/width=450/e0c404bd-2fc2-47a1-1e40-c7108f48f900.jpeg"
@@ -3259,7 +3273,7 @@
    "purpose": "image beats name: photoreal Q8 despite 'Ink' name — calibration rule applied",
    "composite": 31.4,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
@@ -3297,7 +3311,7 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "image beats name: photoreal Q8 despite 'Ink' name — calibration rule applied",
+   "curated_note": "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip",
    "type": "Checkpoint",
    "version_url": "https://civitai.com/models/1540?modelVersionId=1476476",
    "download": {
@@ -3954,9 +3968,7 @@
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1a06057-bc50-4b71-f22e-1d774ecf0a00/width=450/430427.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/322d93cf-621e-46f0-430f-2289c1392c00/width=450/322d93cf-621e-46f0-430f-2289c1392c00.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7509de48-cb1b-44b9-ff44-99a6a810f700/width=450/7509de48-cb1b-44b9-ff44-99a6a810f700.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7be9beed-9a4a-49f2-8a78-36c03d3eba00/width=450/7be9beed-9a4a-49f2-8a78-36c03d3eba00.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d05051f3-7fa2-451a-8e02-e4d829403b00/width=450/d05051f3-7fa2-451a-8e02-e4d829403b00.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b7c2e314-7e4e-4f2f-4d0a-16c98667cb00/width=450/b7c2e314-7e4e-4f2f-4d0a-16c98667cb00.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d05051f3-7fa2-451a-8e02-e4d829403b00/width=450/d05051f3-7fa2-451a-8e02-e4d829403b00.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": null,
@@ -4112,11 +4124,9 @@
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9533df34-359f-4dbc-909d-dac6a3ab2081/width=450/1242325.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/921d6a42-9269-4f72-bc25-b354c24ae629/width=450/921d6a42-9269-4f72-bc25-b354c24ae629.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2698457d-ecff-49b1-9e4d-353003d9428a/width=450/2698457d-ecff-49b1-9e4d-353003d9428a.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0498539e-c675-4c59-aa37-f35ae7cc8c0c/width=450/0498539e-c675-4c59-aa37-f35ae7cc8c0c.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b4d51fc-d81b-4216-803f-43b794ce2a51/width=450/5b4d51fc-d81b-4216-803f-43b794ce2a51.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9533df34-359f-4dbc-909d-dac6a3ab2081/width=450/9533df34-359f-4dbc-909d-dac6a3ab2081.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0d5cbf0-3a85-4a21-a8ce-bbf6ad076fd2/width=450/e0d5cbf0-3a85-4a21-a8ce-bbf6ad076fd2.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/856318ac-e680-4bee-896d-3e236f745268/width=450/856318ac-e680-4bee-896d-3e236f745268.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0d5cbf0-3a85-4a21-a8ce-bbf6ad076fd2/width=450/e0d5cbf0-3a85-4a21-a8ce-bbf6ad076fd2.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": "realism Q8 cosplay scene — costume variety IS persona content work",
@@ -4260,7 +4270,7 @@
    "purpose": null,
    "composite": 31.3,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
@@ -4282,7 +4292,15 @@
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aad7058f-2158-414d-c3a7-8faa69d50900/original=true/173908.jpeg"
    },
    "gallery": [
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aad7058f-2158-414d-c3a7-8faa69d50900/width=450/173908.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aad7058f-2158-414d-c3a7-8faa69d50900/width=450/173908.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4ec06ec6-2974-4d44-c55a-1bc881ed7700/width=450/4ec06ec6-2974-4d44-c55a-1bc881ed7700.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aad7058f-2158-414d-c3a7-8faa69d50900/width=450/aad7058f-2158-414d-c3a7-8faa69d50900.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56b83b5f-a3d5-4a65-6039-ae6151947000/width=450/56b83b5f-a3d5-4a65-6039-ae6151947000.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e10cec20-bfc3-4047-daf2-a28fa84ae900/width=450/e10cec20-bfc3-4047-daf2-a28fa84ae900.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a896bb24-63ae-4121-7ae8-e5582a98be00/width=450/a896bb24-63ae-4121-7ae8-e5582a98be00.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54b2172e-689f-40d1-efe8-d32c302a9000/width=450/54b2172e-689f-40d1-efe8-d32c302a9000.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34b7f20b-0c8d-453d-9c33-67336224aed8/width=450/34b7f20b-0c8d-453d-9c33-67336224aed8.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b7166866-4f4c-4df8-e0c3-f05733dfed00/width=450/b7166866-4f4c-4df8-e0c3-f05733dfed00.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": null,
@@ -4304,7 +4322,8 @@
     "url": "https://civitai.com/api/download/models/13958",
     "size_mb": 144
    },
-   "disk_mb": 144
+   "disk_mb": 144,
+   "curated_note": "name-flagged: anime-family marker in source name — forced out of photoreal default (R4 conservative rule)"
   },
   {
    "id": 86277,
@@ -4716,10 +4735,7 @@
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ff4e683-589d-4f94-c931-349fcf55bd00/original=true/564966.jpeg"
    },
    "gallery": [
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ff4e683-589d-4f94-c931-349fcf55bd00/width=450/564966.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7fbbb450-39e4-48a6-b736-876c6885e447/width=450/7fbbb450-39e4-48a6-b736-876c6885e447.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58f76e64-957c-4aa8-786a-b8b54e282000/width=450/58f76e64-957c-4aa8-786a-b8b54e282000.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d79fd87b-5ec6-4fc7-78bc-144d0af1d100/width=450/d79fd87b-5ec6-4fc7-78bc-144d0af1d100.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ff4e683-589d-4f94-c931-349fcf55bd00/width=450/564966.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": null,
@@ -4901,7 +4917,7 @@
    "purpose": null,
    "composite": 31.2,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
@@ -4952,7 +4968,8 @@
     "url": "https://civitai.com/api/download/models/17988",
     "size_mb": 72
    },
-   "disk_mb": 72
+   "disk_mb": 72,
+   "curated_note": "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip"
   },
   {
    "id": 10415,
@@ -5180,7 +5197,7 @@
    "purpose": "realism Q7 medium-conf hooded scene — verify with 2nd preview",
    "composite": 31.1,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
@@ -5216,7 +5233,7 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "realism Q7 medium-conf hooded scene — verify with 2nd preview",
+   "curated_note": "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip",
    "type": "Checkpoint",
    "version_url": "https://civitai.com/models/11193?modelVersionId=13259",
    "download": {
@@ -5494,7 +5511,7 @@
    "purpose": null,
    "composite": 31.1,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
@@ -5541,7 +5558,8 @@
     "url": "https://civitai.com/api/download/models/70453",
     "size_mb": 2033
    },
-   "disk_mb": 2033
+   "disk_mb": 2033,
+   "curated_note": "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip"
   },
   {
    "id": 10028,
@@ -5572,9 +5590,7 @@
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/991f0217-2501-4106-957a-fcc7643f7061/original=true/707744.jpeg"
    },
    "gallery": [
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/991f0217-2501-4106-957a-fcc7643f7061/width=450/707744.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8b38e4a-a470-418c-8b21-4cebbb60a530/width=450/e8b38e4a-a470-418c-8b21-4cebbb60a530.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5208fbf5-4d10-4dd7-a5fe-e8d5a293b8c3/width=450/5208fbf5-4d10-4dd7-a5fe-e8d5a293b8c3.jpeg"
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/991f0217-2501-4106-957a-fcc7643f7061/width=450/707744.jpeg"
    ],
    "stacks_on": [],
    "verdict_keep": null,
@@ -6084,10 +6100,7 @@
    },
    "gallery": [
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72f9a1b4-ddec-4dfa-6a2f-d678474ba300/width=450/277507.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6776cfe4-4a5e-4ffc-ae8c-718dadead53b/width=450/6776cfe4-4a5e-4ffc-ae8c-718dadead53b.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90d42a9a-7949-4474-9a8a-c93be814f8e8/width=450/90d42a9a-7949-4474-9a8a-c93be814f8e8.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4265561-d2ca-4676-d3c0-e9778f116200/width=450/f4265561-d2ca-4676-d3c0-e9778f116200.jpeg",
-    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1012d450-3cdf-4fa2-aadc-9ae1cda0a1ec/width=450/1012d450-3cdf-4fa2-aadc-9ae1cda0a1ec.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/49bfbe4a-6e71-47b8-364a-90678d141d00/width=450/49bfbe4a-6e71-47b8-364a-90678d141d00.jpeg",
     "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0fb511f5-bda3-435c-685e-479860ee0000/width=450/0fb511f5-bda3-435c-685e-479860ee0000.jpeg"
    ],
@@ -87928,7 +87941,7 @@
    "purpose": null,
    "composite": 32.0,
    "tier": "S-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 6,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
@@ -87968,7 +87981,8 @@
     "name": "aiInfluencerDATASET_v30Beta.zip",
     "folder": "workflows/",
     "url": "https://civitai.com/api/download/models/2665484"
-   }
+   },
+   "curated_note": "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip"
   },
   {
    "id": 900984,
@@ -87977,7 +87991,7 @@
    "purpose": null,
    "composite": 31.2,
    "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
+   "visual_class": "anime-illustration",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
@@ -88015,7 +88029,8 @@
     "name": "fluxConsistentRealisticCharacter_v10.zip",
     "folder": "workflows/",
     "url": "https://civitai.com/api/download/models/1008137"
-   }
+   },
+   "curated_note": "strict re-vet: the preview frame itself reads stylized — entry moved behind the anime chip"
   }
  ]
 }
