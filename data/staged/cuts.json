@@ -1,0 +1,515 @@
+{
+ "note": "manager curation cuts — the honesty panel",
+ "stages": {
+  "ADS": {
+   "count": 2,
+   "cuts": [
+    {
+     "id": "2791097",
+     "name": "Lonecat's 🎨Post Production Module",
+     "reason": "dark post-production node graph Q4"
+    },
+    {
+     "id": "2788910",
+     "name": "Flux Klein 9b Production Workflow - FoxFurEssence",
+     "reason": "UI + 3D render Q6"
+    }
+   ]
+  },
+  "CAMERA_ANGLE": {
+   "count": 8,
+   "cuts": [
+    {
+     "id": "1310339",
+     "name": "Ultra Detailer / Generator / Upscaler | txt2img, img2img | Separate & All in One -- General Purpose",
+     "reason": "UI-only Q3"
+    },
+    {
+     "id": "1881818",
+     "name": "Copy pose from any image - Flux Kontext workflow",
+     "reason": "tiny node screenshot Q4"
+    },
+    {
+     "id": "914293",
+     "name": "PRO PHOTOSHOOT ULTIMATE - FLUX CONSISTENT CHARACTER & CLOTHES + PULID+ OPENPOSE + LORA",
+     "reason": "promo camera graphic, no results shown"
+    },
+    {
+     "id": "2189594",
+     "name": "qwen image edit 2509 next scene and camera angles lora workflow",
+     "reason": "dark UI Q4"
+    },
+    {
+     "id": "326837",
+     "name": "ComfyUI image-morphing low-VRAM LCM video animation workflow with poses",
+     "reason": "Q5 small UI screenshot"
+    },
+    {
+     "id": "2190433",
+     "name": "Z-image Turbo Controlnet workflow (Pose, Depth, Canny)",
+     "reason": "UI + dog outputs Q5"
+    },
+    {
+     "id": "541709",
+     "name": "ComfyUI Workflow SDXL/Pony - Image Generation, Upscale, Face Detailer with Control Net (Canny, Scribble, Tile, Depth, Openpose) + Batch Upscaling",
+     "reason": "node UI Q5"
+    },
+    {
+     "id": "1963971",
+     "name": "controlnet openpose SDXL perfect",
+     "reason": "openpose UI Q4"
+    }
+   ]
+  },
+  "LAYERS": {
+   "count": 3,
+   "cuts": [
+    {
+     "id": "147751",
+     "name": "DarkLight",
+     "reason": "Q6 text-covered preview"
+    },
+    {
+     "id": "78056",
+     "name": "SakushiMix (finished)",
+     "reason": "checkpoint mix, not a layer — misrouted"
+    },
+    {
+     "id": "5693",
+     "name": "beautiful detailed eyes,",
+     "reason": "corrupted preview (green bands) Q1"
+    }
+   ]
+  },
+  "MOTION": {
+   "count": 49,
+   "cuts": [
+    {
+     "id": "208005",
+     "name": "JBOOGX & MACHINE LEARNER ANIMATEDIFF WORKFLOW - Vid2Vid + ControlNet + Latent Upscale + Upscale ControlNet Pass + Multi Image IPAdapter + ReActor Face Swap",
+     "reason": "UI-dominated preview"
+    },
+    {
+     "id": "1598938",
+     "name": "Smooth Workflow (txt2img)",
+     "reason": "txt2img not motion + UI"
+    },
+    {
+     "id": "559596",
+     "name": "DP's - Vid2Vid AniamteDiff LCM dance transfer",
+     "reason": "unreadable preview"
+    },
+    {
+     "id": "1080711",
+     "name": "ComfyUi Regional Prompter Workflow | Now with Anima",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "138176",
+     "name": "Capybara's SDXL Workflow v1.4",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "138397",
+     "name": "Winstons Workflow Collection",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "448101",
+     "name": "Sprite Sheet Maker",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "652483",
+     "name": "FLUX Lora Tester",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "128556",
+     "name": "ComfyUI inpaint workflow | Updated for anima",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "420163",
+     "name": "Abominable Workflows",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2654416",
+     "name": "Anima can edit images! | Testing Anima-Edit loras and IC-methods",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2805529",
+     "name": "Krea2 ID Edit Pro Grade Character Dataset Creator w/ autotagger",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2135932",
+     "name": "Ultimate AI Video Workflow — Qwen-Edit 2509 + Wan Animate 2.2 + SeedVR2 Upscaler",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "1189383",
+     "name": "Hunyuan - Image2Video (Jan/2025) - obsolete",
+     "reason": "self-declared obsolete"
+    },
+    {
+     "id": "1278247",
+     "name": "Skyreels (Hunyuan) Img2Vid",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "866210",
+     "name": "IT'S ALIVE! |  Ultimate IMAGE to VIDEO suite | LTX/Cog/PyramidFlow",
+     "reason": "broadcast test card Q2"
+    },
+    {
+     "id": "145921",
+     "name": "Product Photo Composer SD1.5 (Advertising Photos with Invoke AI 3.1.1)",
+     "reason": "ADS owns it (cross-stage)"
+    },
+    {
+     "id": "2047895",
+     "name": "Сonsistency characters  | Generate characters only by image and prompt, without character's Lora! | IL\\NoobAI Edit",
+     "reason": "child character — hard no"
+    },
+    {
+     "id": "2339837",
+     "name": "Eazy Regional Prompter - Illustrious Workflow for ComfyUI",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "1403746",
+     "name": "comfyui多人工作流",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "1963403",
+     "name": "Qwen character creator",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2184867",
+     "name": "SeedVarianceEnhancer (optimized for Z-Image Turbo)",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "177171",
+     "name": "ComfyUI Prompt Reader Node",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "162746",
+     "name": "UltimateComfyUI Workflows and Tools Collection Bundle AIO",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2031587",
+     "name": "[Qwen_edit_2509] Simple Consistent character pose changer (workflow)",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "413936",
+     "name": "Oil Painting | Style Transfer SDXL Workflow",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "313594",
+     "name": "JBOOGX & MACHINE LEARNER ANIMATELCM WORKFLOW - Vid2Vid + ControlNet + IPAdapter + HighResFix + ReActor Face Swap",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "385453",
+     "name": "Genfill",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "315994",
+     "name": "Atomix Txt2Img Workflow",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "1180262",
+     "name": "FLUX LoRA trainer 2.0 (discontinued)",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "1180764",
+     "name": "Img2Vid  𝑽𝟐 ▪ Hunyuan ▪ LeapFusion Lora V2",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2489459",
+     "name": "Moody Anime to Real Workflow",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "350524",
+     "name": "JBOOGX & THE MACHINE LEARNER'S  ANIMATELCM SUBJECT & BACKGROUND ISOLATION via INVERTMASK VID2VID + HIGHRESFIX",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "589258",
+     "name": "ComfyUI 2D Image to 3D OBJ Integration Workflow by LOVIS!",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2213075",
+     "name": "Amazing Z-Comics Workflow",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "290152",
+     "name": "Anime2Photo | ComfyUI workflow",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2179273",
+     "name": "【Z-IMG】TXT to IMG",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "234424",
+     "name": "ComfyUI - One Button Dataset Generator",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2189190",
+     "name": "Illustrious/ Pony/ SDXL Pro Grade Workflow (Low or High VRAM)",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "1388756",
+     "name": "区域绘制工作流-Regional Prompter workflow—Densediffusion+Controlnet",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "182828",
+     "name": "Live-Action to Anime Video (Workflow)",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "624564",
+     "name": "Flux Alchemy",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "1129181",
+     "name": "Hunyuan Video / Wan LoRA training toolkit",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "777391",
+     "name": "jboogx UltimateLCM AnimateDiff Vid2Vid workflow!  Everything you need, nothing you don't!",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "2141207",
+     "name": "Wan 2.2 I2V: HD/FHD resolution, but much faster",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "258054",
+     "name": "Ultra Upscale",
+     "reason": "upscaler but UI-only preview"
+    },
+    {
+     "id": "872281",
+     "name": "Autopopulate Civitai Resources & Lora Triggers📚🎨",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "735795",
+     "name": "ComfyUI Prompt Gallery",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    },
+    {
+     "id": "643144",
+     "name": "2人のキャラクターを描き分け / GenerateTwoDifferentCharacters",
+     "reason": "workflow-UI preview shows no result / out of motion lane"
+    }
+   ]
+  },
+  "PERSONA": {
+   "count": 31,
+   "cuts": [
+    {
+     "id": "941345",
+     "name": "Hoseki - LustrousMix [Anima v1.0]",
+     "reason": "anime Q9 — no anime-persona home in spec; label data survives in funnel"
+    },
+    {
+     "id": "18207",
+     "name": "Ether Real Mix",
+     "reason": "anime Q9 soft-mismatch 'Real' name — the condemned wave pattern"
+    },
+    {
+     "id": "11896",
+     "name": "Raiden Shogun | Realistic Genshin LORA",
+     "reason": "anime hard-mismatch 'Realistic Genshin' — liar detector confirmed"
+    },
+    {
+     "id": "46023",
+     "name": "XeroxRealMix",
+     "reason": "anime hard-mismatch 'XeroxReal' — name lies, image anime"
+    },
+    {
+     "id": "11367",
+     "name": "Tifa_meenow",
+     "reason": "NO PREVIEW available — spec: no preview = no render, no blank cards"
+    },
+    {
+     "id": "7252",
+     "name": "CharTurnerBeta - Lora (EXPERIMENTAL)",
+     "reason": "ref-sheet preview shows no render output"
+    },
+    {
+     "id": "73305",
+     "name": "zyd232's Ink Style",
+     "reason": "ink cartoon video-preview, out of lane"
+    },
+    {
+     "id": "6213",
+     "name": "Dark Magician Girl LoRA",
+     "reason": "anime character LoRA"
+    },
+    {
+     "id": "11701",
+     "name": "Yoneyama Mai Style",
+     "reason": "anime artist style"
+    },
+    {
+     "id": "4830",
+     "name": "Shenhe - LoRA Collection of Trauter's",
+     "reason": "anime character"
+    },
+    {
+     "id": "618752",
+     "name": "Shiny Nai style for pony / illustrious/anima | Goofy AI",
+     "reason": "anime style"
+    },
+    {
+     "id": "7706",
+     "name": "Shirt Tug Pose (LORA)",
+     "reason": "anime pose LoRA — wrong ecosystem for realism pipeline"
+    },
+    {
+     "id": "21722",
+     "name": "Vivid Impactful Style (Yoneyama Mai [米山 舞]  Style Likeness) - LoRA/LoCon",
+     "reason": "anime style"
+    },
+    {
+     "id": "5042",
+     "name": "WLOP Style LoRA",
+     "reason": "painterly anime style"
+    },
+    {
+     "id": "24833",
+     "name": "Minimalist Anime Style",
+     "reason": "minimalist anime"
+    },
+    {
+     "id": "14978",
+     "name": "啥玩意完犊子（大概是一种古早画风）- old fish",
+     "reason": "anime Q5 crude 9-panel"
+    },
+    {
+     "id": "18323",
+     "name": "小人书·连环画  xiaorenshu",
+     "reason": "ink-wash artwork out of lane"
+    },
+    {
+     "id": "47800",
+     "name": "Game icon Institute_mode",
+     "reason": "icon reference sheet"
+    },
+    {
+     "id": "5041",
+     "name": "Cheese Daddy's Landscapes mix",
+     "reason": "landscape-only checkpoint out of lane"
+    },
+    {
+     "id": "14605",
+     "name": "Howls Moving Castle , Interior / Scenery LoRA ( Ghibli Style ) v3",
+     "reason": "scenery"
+    },
+    {
+     "id": "7984",
+     "name": "Figma Anime Figures",
+     "reason": "physical figure"
+    },
+    {
+     "id": "11203",
+     "name": "Glass Sculptures",
+     "reason": "glass sculpture object"
+    },
+    {
+     "id": "11031",
+     "name": "Fantasy World",
+     "reason": "environment only"
+    },
+    {
+     "id": "60724",
+     "name": "KIDS ILLUSTRATION",
+     "reason": "children illustration out of lane"
+    },
+    {
+     "id": "8949",
+     "name": "Jim Lee (DC Comics / Marvel) Style LoRA",
+     "reason": "comic book style — drawn, not realism persona"
+    },
+    {
+     "id": "11718",
+     "name": "Dungeons N Waifu's - v2.2 - (2.5D FANTASY MODEL)",
+     "reason": "text-heavy fantasy cover frame, no clear render"
+    },
+    {
+     "id": "100435",
+     "name": "Character Design Sheet (HELPER) (3-PERSPECTIVES)+(COLOR PALETTE) - Z-IMAGE TURBO | Illustrious XL | FLUX | XL PONY | SD 1.5 - by YeiyeiArt",
+     "reason": "anime design sheet tool"
+    },
+    {
+     "id": "7094",
+     "name": "Arcane Style LoRA",
+     "reason": "Arcane drawn style"
+    },
+    {
+     "id": "20330",
+     "name": "Three Delicacy Wonton (三餡馄饨Mix)",
+     "reason": "painterly anime"
+    },
+    {
+     "id": "5200",
+     "name": "2B (NieR:Automata) LoRA / YorHA edition",
+     "reason": "anime character LoRA (2B)"
+    },
+    {
+     "id": "4404",
+     "name": "Sci-Fi Diffusion v1.0",
+     "reason": "sci-fi environment only"
+    }
+   ]
+  },
+  "SPEECH_VOICE": {
+   "count": 3,
+   "cuts": [
+    {
+     "id": "2028402",
+     "name": "InfiniteTalk TTS BGM Foley US IP",
+     "reason": "UI screenshot Q5, redundant"
+    },
+    {
+     "id": "363141",
+     "name": "Animatediff SparseCtrl img2img2vid 4/8frames2VideoPrediction LLM SD15",
+     "reason": "sparse-ctrl animation = motion function, not speech"
+    },
+    {
+     "id": "1923801",
+     "name": "Microsoft Vibe Voice Text To Speech Example Workflow",
+     "reason": "UI Q5, example wrapper"
+    }
+   ]
+  }
+ }
+}

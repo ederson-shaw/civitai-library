@@ -176,6 +176,27 @@ def merge_requirements(buckets):
     print(f"requirements merged: {merged} entries", file=sys.stderr)
 
 
+def emit_cuts():
+    f = FUNNEL / "curation-decisions.json"
+    if not f.exists():
+        return
+    dec = json.loads(f.read_text())
+    scored = json.loads((FUNNEL / "scored.json").read_text())
+    names = {}
+    for blob in scored["stages"].values():
+        for e in blob["entries"]:
+            names.setdefault(str(e.get("id")), e.get("name"))
+    cuts = {}
+    for cid, d in dec.items():
+        if d.get("action") == "cut":
+            cuts.setdefault(d.get("stage_from") or "?", []).append(
+                {"id": cid, "name": names.get(cid, "?"), "reason": d.get("reason")})
+    out = {"note": "manager curation cuts — the honesty panel",
+           "stages": {k: {"count": len(v), "cuts": v} for k, v in sorted(cuts.items())}}
+    (ROOT / "data" / "staged" / "cuts.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
+    print(f"cuts.json: {sum(len(v) for v in cuts.values())} cuts across {len(cuts)} stages", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -205,6 +226,7 @@ def main():
     merge_engines(buckets)
     apply_decisions(buckets)
     merge_requirements(buckets)
+    emit_cuts()
     models = ROOT / "data" / "models.json"
     if models.exists():
         d = json.loads(models.read_text())
