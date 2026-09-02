@@ -8,12 +8,13 @@
   const selected = {base: null, layer: [], motion: null, voice: null};
   const exactVersion = (url) => typeof url === 'string' && (/modelVersionId=/.test(url) || /\/model-versions\//.test(url));
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const formatSize = (value) => `${Math.round(Number(value) || 0)} MB`;
+  const formatSize = (value) => value == null || !Number.isFinite(Number(value)) ? '—' : `${Math.round(Number(value))} MB`;
 
   const cards = [...document.querySelectorAll('.entry-card')];
   const filterChips = [...document.querySelectorAll('.filter-chip')];
   const searchInput = document.querySelector('#entry-search');
-  let activeFacet = '';
+  const defaultVisualFacet = document.querySelector('[data-default-filter]')?.dataset.filterFacet || '';
+  let activeFacet = defaultVisualFacet;
   const syncUrl = () => {
     const url = new URL(window.location.href);
     const query = (searchInput?.value || '').trim();
@@ -24,33 +25,34 @@
   const cardFacets = (card) => {
     try { return JSON.parse(card.dataset.facets || '[]'); } catch (error) { return []; }
   };
+  const visualClassFor = (facet) => facet.startsWith('visual:') ? facet.slice('visual:'.length).trim() : '';
+  const activeVisualClass = () => visualClassFor(activeFacet) || visualClassFor(defaultVisualFacet);
   const updateStyleVisibility = () => {
-    const animeMode = page === 'persona' && activeFacet === 'style: anime';
+    const animeMode = activeVisualClass() === 'anime-illustration';
     document.querySelectorAll('.persona-anime-option').forEach((option) => { option.hidden = !animeMode; });
+    document.querySelectorAll('[data-visual-cluster]').forEach((cluster) => {
+      cluster.hidden = cluster.dataset.visualCluster !== activeVisualClass();
+    });
   };
   const matches = (card, query, facet = '') => {
     const textMatch = !query || (card.dataset.search || '').includes(query);
-    const animeMode = page === 'persona' && (activeFacet === 'style: anime' || facet === 'style: anime');
-    const isAnime = card.dataset.style === 'anime-illustration';
-    const styleMatch = page !== 'persona' || (animeMode ? isAnime : !isAnime);
-    const facetMatch = !facet || (facet === 'style: anime' ? isAnime : cardFacets(card).includes(facet));
-    return textMatch && styleMatch && facetMatch;
+    const requestedVisual = visualClassFor(facet);
+    const visualTarget = requestedVisual || activeVisualClass();
+    const visualMatch = !visualTarget || card.dataset.style === visualTarget;
+    const facetMatch = !facet || Boolean(requestedVisual) || cardFacets(card).includes(facet);
+    return textMatch && visualMatch && facetMatch;
   };
   const updateFilters = () => {
     const query = (searchInput?.value || '').trim().toLowerCase();
+    if (activeFacet && !cards.some((card) => matches(card, query, activeFacet))) activeFacet = defaultVisualFacet;
     cards.forEach((card) => { card.hidden = !matches(card, query, activeFacet); });
-    const animeCluster = document.querySelector('[data-anime-cluster]');
-    if (animeCluster) animeCluster.hidden = !(page === 'persona' && activeFacet === 'style: anime');
-    const allCount = cards.filter((card) => matches(card, query)).length;
-    const allNode = document.querySelector('[data-all-count]');
-    if (allNode) allNode.textContent = allCount;
     filterChips.forEach((chip) => {
       const facet = chip.dataset.filterFacet || '';
       if (!facet) return;
       const count = cards.filter((card) => matches(card, query, facet)).length;
       const countNode = chip.querySelector('b');
       if (countNode) countNode.textContent = count;
-      chip.disabled = count === 0 && activeFacet !== facet;
+      chip.hidden = count === 0;
     });
     filterChips.forEach((chip) => chip.setAttribute('aria-pressed', String((chip.dataset.filterFacet || '') === activeFacet)));
     updateStyleVisibility();
@@ -157,11 +159,11 @@
     selectedItems().forEach((item) => {
       const models = Array.isArray(item.models) ? item.models : [];
       models.forEach((model) => {
-        if (!model.name || !model.folder || model.size_mb == null || !exactVersion(model.url)) return;
+        if (!model.name) return;
         const key = `${model.name}|${model.url}`;
         if (seen.has(key)) return;
         seen.add(key);
-        rows.push({name: model.name, folder: model.folder, size: model.size_mb, url: model.url});
+        rows.push({name: model.name, folder: model.folder || 'folder unknown', size: model.size_mb == null ? null : Number(model.size_mb), url: model.url || item.exact_url || ''});
       });
     });
     return rows;
@@ -169,21 +171,23 @@
 
   const updateStack = () => {
     const items = selectedItems();
-    const vram = items.reduce((sum, item) => sum + (Number(item.vram) || 0), 0);
-    const disk = items.reduce((sum, item) => sum + (Number(item.disk) || 0), 0);
     updatePlan();
     updateSelectionVisuals();
     const vramNode = document.querySelector('[data-stack-vram]');
     const diskNode = document.querySelector('[data-stack-disk]');
-    if (vramNode) vramNode.textContent = `${vram} GB`;
-    if (diskNode) diskNode.textContent = formatSize(disk);
     const rows = manifestRows();
+    const vramKnown = items.length > 0 && items.every((item) => item.vram != null && Number.isFinite(Number(item.vram)));
+    const vram = items.reduce((sum, item) => sum + (Number(item.vram) || 0), 0);
+    const knownDiskRows = rows.filter((row) => row.size != null && Number.isFinite(row.size));
+    const disk = knownDiskRows.reduce((sum, row) => sum + row.size, 0);
+    if (vramNode) vramNode.textContent = vramKnown ? `${vram} GB` : '—';
+    if (diskNode) diskNode.textContent = knownDiskRows.length ? formatSize(disk) : '—';
     const manifest = document.querySelector('[data-stack-manifest]');
     const copyButton = document.querySelector('[data-copy-all]');
     if (manifest) {
-      manifest.innerHTML = rows.map((row) => `<div class="manifest-row"><strong>${escapeHtml(row.name)}</strong><span>${escapeHtml(row.folder)} · ${formatSize(row.size)}</span><a href="${escapeHtml(row.url)}" target="_blank" rel="noreferrer">exact version ↗</a></div>`).join('');
+      manifest.innerHTML = rows.length ? rows.map((row) => `<div class="manifest-row"><strong>${escapeHtml(row.name)}</strong><span>${escapeHtml(row.folder)} · ${formatSize(row.size)}</span>${row.url ? `<a href="${escapeHtml(row.url)}" target="_blank" rel="noreferrer">open file link ↗</a>` : '<span>link unavailable</span>'}</div>`).join('') : '<p class="manifest-empty">No manifest rows recorded for this selection.</p>';
     }
-    if (copyButton) copyButton.disabled = rows.length === 0;
+    if (copyButton) copyButton.disabled = !rows.some((row) => row.url);
   };
 
   document.querySelectorAll('.stack-option').forEach((option) => {
@@ -209,7 +213,7 @@
 
   const copyButton = document.querySelector('[data-copy-all]');
   if (copyButton) copyButton.addEventListener('click', async () => {
-    const rows = manifestRows();
+    const rows = manifestRows().filter((row) => row.url);
     const status = document.querySelector('[data-copy-status]');
     try {
       await navigator.clipboard.writeText(rows.map((row) => row.url).join('\n'));
@@ -239,24 +243,79 @@
     });
   });
 
-  document.querySelectorAll('[data-gallery-surface]').forEach((surface) => {
-    const image = surface.querySelector('img[data-gallery]');
-    if (!image) return;
+  let activeGalleryCard = null;
+  let activeGalleryTimer = null;
+  const galleryIndexes = new WeakMap();
+  const stopGallery = () => {
+    if (activeGalleryTimer) window.clearInterval(activeGalleryTimer);
+    activeGalleryTimer = null;
+  };
+  const startGallery = (card, surface, image) => {
     let gallery;
     try { gallery = JSON.parse(image.dataset.gallery || '[]'); } catch (error) { gallery = []; }
+    if (activeGalleryCard === card && activeGalleryTimer) return;
+    stopGallery();
+    activeGalleryCard = card;
     if (gallery.length < 2) return;
-    surface.addEventListener('mousemove', (event) => {
-      const bounds = surface.getBoundingClientRect();
-      const ratio = Math.max(0, Math.min(0.999, (event.clientX - bounds.left) / bounds.width));
-      image.src = gallery[Math.floor(ratio * gallery.length)];
+    let index = galleryIndexes.get(card) || 0;
+    const advance = () => {
+      index = (index + 1) % gallery.length;
+      const visible = surface.querySelector('.gallery-image.is-visible') || image;
+      const next = surface.querySelector('.gallery-image:not(.is-visible)') || image;
+      if (next === visible) return;
+      next.src = gallery[index];
+      next.classList.add('is-visible');
+      visible.classList.remove('is-visible');
+      galleryIndexes.set(card, index);
+    };
+    activeGalleryTimer = window.setInterval(advance, 1200);
+  };
+  document.querySelectorAll('[data-gallery-surface]').forEach((surface) => {
+    const image = surface.querySelector('img[data-gallery]');
+    const card = surface.closest('.entry-card');
+    if (!card) return;
+    card.addEventListener('mouseenter', () => {
+      if (image) {
+        startGallery(card, surface, image);
+        return;
+      }
+      stopGallery();
+      activeGalleryCard = card;
     });
-    surface.addEventListener('mouseleave', () => { image.src = gallery[0]; });
   });
 
+  let pageHadUserGesture = false;
+  document.addEventListener('pointerdown', () => { pageHadUserGesture = true; }, true);
+  document.addEventListener('keydown', () => { pageHadUserGesture = true; }, true);
+  const setSpeakerState = (video, visible) => {
+    const toggle = video.closest('.card-media')?.querySelector('[data-speaker-toggle]');
+    if (toggle) toggle.hidden = !visible;
+  };
+  const playVideo = (video) => {
+    video.dataset.audioAttempt = pageHadUserGesture ? 'after-gesture' : 'autoplay';
+    video.muted = false;
+    video.play().then(() => setSpeakerState(video, false)).catch(() => {
+      video.muted = true;
+      setSpeakerState(video, true);
+      video.play().catch(() => {});
+    });
+  };
   document.querySelectorAll('[data-hover-video]').forEach((video) => {
-    video.addEventListener('mouseenter', () => { video.play().catch(() => {}); });
+    video.addEventListener('mouseenter', () => { playVideo(video); });
     video.addEventListener('mouseleave', () => { video.pause(); video.currentTime = 0; });
+    const toggle = video.closest('.card-media')?.querySelector('[data-speaker-toggle]');
+    if (toggle) toggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      pageHadUserGesture = true;
+      playVideo(video);
+    });
   });
+  document.addEventListener('click', (event) => {
+    pageHadUserGesture = true;
+    if (event.target.closest('[data-speaker-toggle]')) return;
+    const hoveredVideo = [...document.querySelectorAll('[data-hover-video]')].find((video) => video.matches(':hover'));
+    if (hoveredVideo) playVideo(hoveredVideo);
+  }, true);
 
   updateStack();
 })();

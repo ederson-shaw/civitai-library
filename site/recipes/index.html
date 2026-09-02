@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>recipes · Pipeline workbench</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-page="recipes">
+  <header class="topbar">
+    <a class="wordmark" href="../persona/"><span class="wordmark-mark">//</span><span>pipeline / v2</span></a>
+    <div class="topbar-status"><span class="status-dot"></span> local staged data <span class="status-divider"></span> NSFW ON</div>
+  </header>
+  <nav class="stage-nav" aria-label="Pipeline stages">
+    <div class="stage-nav-inner">
+      <a class="stage-link" href="../persona/" data-stage="persona"><span>01</span>Persona</a>
+<a class="stage-link" href="../motion/" data-stage="motion"><span>02</span>Motion</a>
+<a class="stage-link" href="../speech-voice/" data-stage="speech-voice"><span>03</span>Speech &amp; Voice</a>
+<a class="stage-link" href="../camera-angle/" data-stage="camera-angle"><span>04</span>Camera &amp; Angle</a>
+<a class="stage-link" href="../ads/" data-stage="ads"><span>05</span>Ads Assembly</a>
+<a class="stage-link" href="../nsfw/" data-stage="nsfw"><span>06</span>NSFW / OF</a>
+<a class="stage-link layer-link" href="../layers/" data-stage="layers"><span>+</span>Layers</a>
+<a class="stage-link recipes-link is-active" href="../recipes/" data-stage="recipes">recipes</a>
+    </div>
+  </nav>
+  <main class="workbench">
+    <section class="recipes-page"><div class="recipes-intro"><p class="eyebrow">Workflow recipes</p><h1>recipes</h1><p>Known combinations of stages, models, and layers.</p></div><section class="recipe-list" aria-label="Workflow recipes">
+    <article class="recipe-card">
+      <div class="recipe-card-heading"><h2>realistic persona base — the daily driver</h2><span class="recipe-total">2059 MB disk</span></div>
+      <p class="recipe-purpose"><span class="purpose-label">Use</span>one checkpoint + one skin layer = your influencer&#x27;s face engine</p>
+      <ol class="recipe-steps"><li><span class="recipe-stage"><a href="../persona/">PERSONA</a></span><strong>majicMIX sombre 麦橘唯美</strong><span class="recipe-why">photoreal base, top composite after realism boost</span></li><li><span class="recipe-stage"><a href="../layers/">LAYERS</a></span><strong>real_skin</strong><span class="recipe-why">natural skin, kills the plastic look</span></li></ol>
+    </article>
+
+    <article class="recipe-card">
+      <div class="recipe-card-heading"><h2>talking post — photo speaks</h2><span class="recipe-total">2033 MB disk</span></div>
+      <p class="recipe-purpose"><span class="purpose-label">Use</span>your persona photo says the script with lip movement</p>
+      <ol class="recipe-steps"><li><span class="recipe-stage"><a href="../persona/">PERSONA</a></span><strong>majicMIX sombre 麦橘唯美</strong><span class="recipe-why">generate the still</span></li><li><span class="recipe-stage"><a href="../speech-voice/">SPEECH_VOICE</a></span><strong>LTX-2.5 Image Audio to Video - Lipsync</strong><span class="recipe-why">image + audio -&gt; talking video</span></li></ol>
+    </article>
+
+    <article class="recipe-card">
+      <div class="recipe-card-heading"><h2>product ad — persona presents</h2><span class="recipe-total">2033 MB disk</span></div>
+      <p class="recipe-purpose"><span class="purpose-label">Use</span>host-style ad shot with your persona</p>
+      <ol class="recipe-steps"><li><span class="recipe-stage"><a href="../persona/">PERSONA</a></span><strong>majicMIX sombre 麦橘唯美</strong><span class="recipe-why">the face</span></li><li><span class="recipe-stage"><a href="../ads/">ADS</a></span><strong>Change product background with the image of your choice using Style Transfer.</strong><span class="recipe-why">product scene, host framing</span></li><li><span class="recipe-stage"><a href="../camera-angle/">CAMERA_ANGLE</a></span><strong>Flux Klein 9b Character Compositor - Multi-Angle</strong><span class="recipe-why">angles of the same person</span></li></ol>
+    </article>
+
+    <article class="recipe-card">
+      <div class="recipe-card-heading"><h2>still -&gt; short clip (fast)</h2><span class="recipe-total">0 MB disk</span></div>
+      <p class="recipe-purpose"><span class="purpose-label">Use</span>animate a finished image cheaply</p>
+      <ol class="recipe-steps"><li><span class="recipe-stage"><a href="../motion/">MOTION</a></span><strong>Wan VACE Masking &amp; Extension - Seamlessly Extend, Join, and Auto-Fill Existing Videos While Maintaining Motion</strong><span class="recipe-why">modern i2v, video preview on hover</span></li></ol>
+    </article>
+
+    <article class="recipe-card">
+      <div class="recipe-card-heading"><h2>moody cinematic portrait</h2><span class="recipe-total">2412 MB disk</span></div>
+      <p class="recipe-purpose"><span class="purpose-label">Use</span>dark cinematic look on your persona — light + grain layers</p>
+      <ol class="recipe-steps"><li><span class="recipe-stage"><a href="../persona/">PERSONA</a></span><strong>majicMIX sombre 麦橘唯美</strong><span class="recipe-why">the face</span></li><li><span class="recipe-stage"><a href="../layers/">LAYERS</a></span><strong>Chiaroscuro (Contrasted) Lighting Style XL + F1D + Illu + Pony + zit + zib</strong><span class="recipe-why">moonlight/cinematic lighting</span></li><li><span class="recipe-stage"><a href="../layers/">LAYERS</a></span><strong>Purple Grainy || Photography lora</strong><span class="recipe-why">film grain finish</span></li></ol>
+    </article>
+
+    <article class="recipe-card">
+      <div class="recipe-card-heading"><h2>explicit set — photoreal</h2><span class="recipe-total">2297 MB disk</span></div>
+      <p class="recipe-purpose"><span class="purpose-label">Use</span>your persona, adult content, photoreal</p>
+      <ol class="recipe-steps"><li><span class="recipe-stage"><a href="../persona/">PERSONA</a></span><strong>majicMIX sombre 麦橘唯美</strong><span class="recipe-why">the face</span></li><li><span class="recipe-stage"><a href="../nsfw/">NSFW</a></span><strong>Niji semi realism</strong><span class="recipe-why">photoreal adult finish</span></li></ol>
+    </article>
+    </section></section>
+  </main>
+  <script src="../assets/app.js" defer></script>
+</body>
+</html>

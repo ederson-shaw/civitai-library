@@ -21,6 +21,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
 STAGED = ROOT / "data" / "staged"
+REALISM_VISUAL_CLASS = "realism-photoreal"
 
 STAGES = (
     {"id": "persona", "label": "Persona", "short": "01", "focus": "realism bases + identity"},
@@ -80,7 +81,8 @@ def esc(value: Any) -> str:
 
 def write_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(content.rstrip() + "\n", encoding="utf-8")
+    cleaned = "\n".join(line.rstrip() for line in content.splitlines())
+    path.write_text(cleaned.rstrip() + "\n", encoding="utf-8")
 
 
 def slugify(value: str) -> str:
@@ -107,13 +109,39 @@ def read_staged(filename: str, expected_stage: str) -> dict[str, Any]:
     entries = payload.get("entries")
     if not isinstance(entries, list):
         entries = []
+    gallery_funnel = read_gallery_funnel()
+    staged_entries = []
+    for raw_entry in entries:
+        if not isinstance(raw_entry, dict):
+            continue
+        entry = dict(raw_entry)
+        gallery = gallery_funnel.get(str(entry.get("id") or ""))
+        if isinstance(gallery, dict):
+            images = gallery.get("images")
+            video = gallery.get("video")
+            if isinstance(images, list) and images:
+                entry["gallery"] = images
+            if isinstance(video, str) and video:
+                preview = dict(entry.get("preview") or {})
+                preview["video"] = video
+                entry["preview"] = preview
+        staged_entries.append(entry)
     return {
         "stage": str(payload.get("stage") or expected_stage),
         "generated": payload.get("generated"),
-        "entries": [entry for entry in entries if isinstance(entry, dict)],
+        "entries": staged_entries,
         "missing": False,
         "error": None,
     }
+
+
+def read_gallery_funnel() -> dict[str, dict[str, Any]]:
+    path = ROOT / "data" / "funnel" / "galleries.json"
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
 
 
 def source_label(stage_id: str) -> str:
@@ -132,7 +160,7 @@ def media_kind(url: str) -> str:
 def media_urls(entry: dict[str, Any]) -> list[str]:
     preview = entry.get("preview") or {}
     candidates: list[str] = []
-    for key in ("video", "url_width450", "url_original"):
+    for key in ("video", "url_width450"):
         value = preview.get(key)
         if isinstance(value, str) and value:
             candidates.append(value)
@@ -142,6 +170,9 @@ def media_urls(entry: dict[str, Any]) -> list[str]:
             candidates.append(value)
         elif isinstance(value, dict) and isinstance(value.get("url"), str):
             candidates.append(value["url"])
+    value = preview.get("url_original")
+    if isinstance(value, str) and value:
+        candidates.append(value)
     seen: set[str] = set()
     return [url for url in candidates if not (url in seen or seen.add(url))][:8]
 
@@ -153,13 +184,37 @@ def renderable_entries(data: dict[str, Any]) -> list[dict[str, Any]]:
 
 def stage_entries(data: dict[str, Any], stage_id: str, style: str = "default") -> list[dict[str, Any]]:
     entries = renderable_entries({**data, "entries": kept_entries(data)})
-    if stage_id != "persona":
-        return entries
     if data.get("demo"):
         return entries if style == "default" else []
     if style == "anime":
         return [entry for entry in entries if entry.get("visual_class") == "anime-illustration"]
-    return [entry for entry in entries if entry.get("visual_class") == "realism-photoreal"]
+    if style.startswith("visual:"):
+        visual_class = style.removeprefix("visual:")
+        return [entry for entry in entries if entry.get("visual_class") == visual_class]
+    default_visual = default_visual_class(entries)
+    if default_visual:
+        return [entry for entry in entries if entry.get("visual_class") == default_visual]
+    return entries
+
+
+def visual_classes(entries: list[dict[str, Any]]) -> list[str]:
+    return list(dict.fromkeys(str(entry.get("visual_class")) for entry in entries if entry.get("visual_class")))
+
+
+def default_visual_class(entries: list[dict[str, Any]]) -> str:
+    classes = visual_classes(entries)
+    return REALISM_VISUAL_CLASS if REALISM_VISUAL_CLASS in classes else (classes[0] if classes else "")
+
+
+def visual_label(visual_class: str) -> str:
+    return {
+        "realism-photoreal": "photoreal",
+        "anime-illustration": "style: anime",
+    }.get(visual_class, f"style: {visual_class.replace('-', ' ')}")
+
+
+def visual_filter_facet(visual_class: str) -> str:
+    return f"visual: {visual_class}"
 
 
 def entry_name(entry: dict[str, Any]) -> str:
@@ -173,9 +228,9 @@ def entry_role(entry: dict[str, Any], stage_id: str) -> str:
     return {"persona": "base", "motion": "motion", "speech-voice": "voice", "layers": "layer"}.get(stage_id, "base")
 
 
-def vram_number(value: Any) -> int:
+def vram_number(value: Any) -> int | None:
     match = re.search(r"\d+", str(value or ""))
-    return int(match.group(0)) if match else 0
+    return int(match.group(0)) if match else None
 
 
 def entry_models(entry: dict[str, Any]) -> list[dict[str, Any]]:
@@ -184,11 +239,23 @@ def entry_models(entry: dict[str, Any]) -> list[dict[str, Any]]:
     return [model for model in models if isinstance(model, dict)]
 
 
-def entry_disk_mb(entry: dict[str, Any]) -> int:
+def entry_manifest_models(entry: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return requirement files plus the downloadable workflow/model package."""
+    models = [dict(model) for model in entry_models(entry)]
+    download = entry.get("download")
+    if isinstance(download, dict) and download.get("name"):
+        download_row = {key: download.get(key) for key in ("name", "folder", "url", "size_mb") if download.get(key) is not None}
+        if not any(model.get("name") == download_row.get("name") for model in models):
+            models.append(download_row)
+    return models
+
+
+def entry_disk_mb(entry: dict[str, Any]) -> int | None:
     direct = entry.get("disk_mb")
     if isinstance(direct, (int, float)):
         return int(direct)
-    return sum(int(model.get("size_mb") or 0) for model in entry_models(entry))
+    sizes = [int(model["size_mb"]) for model in entry_manifest_models(entry) if isinstance(model.get("size_mb"), (int, float))]
+    return sum(sizes) if sizes else None
 
 
 def exact_version_url(entry: dict[str, Any]) -> str:
@@ -204,6 +271,15 @@ def exact_version_url(entry: dict[str, Any]) -> str:
     value = entry.get("civitai_url")
     if isinstance(value, str) and ("modelVersionId=" in value or "/model-versions/" in value):
         return value
+    return ""
+
+
+def entry_link(entry: dict[str, Any]) -> str:
+    """Prefer the exact vetted version for every external entry action."""
+    for key in ("version_url", "civitai_version_url", "civitai_url"):
+        value = entry.get(key)
+        if isinstance(value, str) and value:
+            return value
     return ""
 
 
@@ -301,6 +377,10 @@ def nav_markup(current: str, root: bool = False) -> str:
     links.append(
         f'<a class="stage-link layer-link{" is-active" if current == "layers" else ""}" '
         f'href="{prefix}layers/" data-stage="layers"><span>+</span>Layers</a>'
+    )
+    links.append(
+        f'<a class="stage-link recipes-link{" is-active" if current == "recipes" else ""}" '
+        f'href="{prefix}recipes/" data-stage="recipes">recipes</a>'
     )
     return "\n".join(links)
 
@@ -429,6 +509,61 @@ def cut_panel(stage: dict[str, Any], data: dict[str, Any]) -> str:
     """
 
 
+def read_recipes() -> dict[str, Any]:
+    path = STAGED / "RECIPES.json"
+    if not path.exists():
+        return {"recipes": [], "missing": True}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"recipes": [], "error": "RECIPES.json could not be read."}
+    if not isinstance(payload, dict) or not isinstance(payload.get("recipes"), list):
+        return {"recipes": [], "error": "RECIPES.json must contain a recipes list."}
+    return {"recipes": [recipe for recipe in payload["recipes"] if isinstance(recipe, dict)]}
+
+
+def recipe_stage_slug(stage: Any) -> str:
+    value = str(stage or "").strip().lower().replace("_", "-")
+    return value if value in {item["id"] for item in STAGES} or value == "layers" else ""
+
+
+def recipe_card(recipe: dict[str, Any]) -> str:
+    steps = []
+    for step in recipe.get("steps") or []:
+        if not isinstance(step, dict):
+            continue
+        stage = str(step.get("stage") or "stage")
+        stage_slug = recipe_stage_slug(stage)
+        stage_markup = f'<a href="../{esc(stage_slug)}/">{esc(stage)}</a>' if stage_slug else f'<span>{esc(stage)}</span>'
+        entry = step.get("entry_name") or "entry not named"
+        why = step.get("why")
+        why_markup = f'<span class="recipe-why">{esc(why)}</span>' if why else ""
+        steps.append(f'<li><span class="recipe-stage">{stage_markup}</span><strong>{esc(entry)}</strong>{why_markup}</li>')
+    total = recipe.get("total_disk_mb")
+    total_markup = f'<span class="recipe-total">{esc(total)} MB disk</span>' if isinstance(total, (int, float)) else ""
+    return f"""
+    <article class="recipe-card">
+      <div class="recipe-card-heading"><h2>{esc(recipe.get("name") or "Unnamed recipe")}</h2>{total_markup}</div>
+      <p class="recipe-purpose"><span class="purpose-label">Use</span>{esc(recipe.get("purpose") or "")}</p>
+      <ol class="recipe-steps">{"".join(steps) if steps else '<li><span class="recipe-why">No steps staged yet.</span></li>'}</ol>
+    </article>
+    """
+
+
+def render_recipes() -> str:
+    data = read_recipes()
+    if data.get("missing"):
+        content = '<section class="recipes-empty"><p class="eyebrow">Workflow recipes</p><h1>recipes</h1><p>recipes land next pull</p></section>'
+    elif data.get("error"):
+        content = f'<section class="recipes-empty"><p class="eyebrow">Workflow recipes</p><h1>recipes</h1><p>{esc(data["error"])}</p></section>'
+    elif not data.get("recipes"):
+        content = '<section class="recipes-empty"><p class="eyebrow">Workflow recipes</p><h1>recipes</h1><p>recipes land next pull</p></section>'
+    else:
+        cards = "".join(recipe_card(recipe) for recipe in data["recipes"])
+        content = f'<section class="recipes-page"><div class="recipes-intro"><p class="eyebrow">Workflow recipes</p><h1>recipes</h1><p>Known combinations of stages, models, and layers.</p></div><section class="recipe-list" aria-label="Workflow recipes">{cards}</section></section>'
+    return page_shell("recipes", "recipes", content)
+
+
 def entry_chip_markup(entry: dict[str, Any], stage_id: str) -> str:
     chips = []
     tradeoff = entry.get("tradeoff")
@@ -486,8 +621,9 @@ def score_payload(entry: dict[str, Any]) -> dict[str, Any]:
     axes = {key: entry[key] for key in ("quality", "lane_fit", "freshness") if entry.get(key) is not None}
     if axes:
         payload["axes"] = axes
-    if entry.get("verdict_line"):
-        payload["verdict"] = entry["verdict_line"]
+    verdict = entry.get("verdict_keep") if isinstance(entry.get("verdict_keep"), str) else entry.get("verdict_line")
+    if verdict:
+        payload["verdict"] = verdict
     if entry.get("pulled_at"):
         payload["pulled_at"] = entry["pulled_at"]
     return payload
@@ -501,7 +637,12 @@ def score_popover_markup(entry: dict[str, Any]) -> str:
     return f'<button class="score-button" type="button" data-score-payload="{payload}" aria-expanded="false">score {esc(score)}</button><div class="score-popover" hidden></div>'
 
 
-def filter_bar(entries: list[dict[str, Any]], stage_id: str, anime_entries: list[dict[str, Any]] | None = None) -> str:
+def filter_bar(
+    entries: list[dict[str, Any]],
+    stage_id: str,
+    all_entries: list[dict[str, Any]] | None = None,
+) -> str:
+    all_entries = all_entries or entries
     facets = {"low vram", "max quality", "fastest"}
     for entry in entries:
         tradeoff = entry.get("tradeoff")
@@ -510,65 +651,63 @@ def filter_bar(entries: list[dict[str, Any]], stage_id: str, anime_entries: list
         elif tradeoff:
             facets.add(str(tradeoff).strip().lower())
     chips = []
+    default_visual = default_visual_class(all_entries)
+    available_visuals = visual_classes(all_entries)
+    if default_visual:
+        chips.append(
+            f'<button class="filter-chip visual-filter is-default" type="button" '
+            f'data-filter-facet="{esc(visual_filter_facet(default_visual))}" '
+            f'data-filter-count="{len([entry for entry in all_entries if entry.get("visual_class") == default_visual])}" '
+            f'data-default-filter="true" aria-pressed="true">{esc(visual_label(default_visual))} '
+            f'<b>{len([entry for entry in all_entries if entry.get("visual_class") == default_visual])}</b></button>'
+        )
+    for visual_class in available_visuals:
+        if visual_class == default_visual:
+            continue
+        visual_count = sum(entry.get("visual_class") == visual_class for entry in all_entries)
+        if visual_count:
+            chips.append(
+                f'<button class="filter-chip visual-filter" type="button" '
+                f'data-filter-facet="{esc(visual_filter_facet(visual_class))}" '
+                f'data-filter-count="{visual_count}" aria-pressed="false">{esc(visual_label(visual_class))} '
+                f'<b>{visual_count}</b></button>'
+            )
     for facet in sorted(facets):
         count = sum(facet in facet_values(entry) for entry in entries)
+        if count == 0:
+            continue
         chips.append(
             f'<button class="filter-chip" type="button" data-filter-facet="{esc(facet)}" '
-            f'data-filter-count="{count}" aria-pressed="false" disabled>{esc(facet)} <b>{count}</b></button>'
-        )
-    if stage_id == "persona":
-        anime_count = len(anime_entries or [])
-        disabled = " disabled" if anime_count == 0 else ""
-        chips.insert(
-            0,
-            f'<button class="filter-chip style-filter" type="button" data-filter-facet="style: anime" '
-            f'data-filter-count="{anime_count}" aria-pressed="false"{disabled}>style: anime <b>{anime_count}</b></button>',
+            f'data-filter-count="{count}" aria-pressed="false">{esc(facet)} <b>{count}</b></button>'
         )
     return f"""
     <section class="filters" aria-label="Filter entries">
       <label class="search-field"><span>Find an entry</span><input id="entry-search" type="search" autocomplete="off" placeholder="name, purpose, model…"></label>
-      <div class="filter-row"><button class="filter-chip is-all" type="button" data-filter-facet="" aria-pressed="true">all <b data-all-count>{len(entries)}</b></button>{''.join(chips)}</div>
+      <div class="filter-row">{''.join(chips)}</div>
     </section>
     """
 
 
-def matrix_markup(stage: dict[str, Any], entries: list[dict[str, Any]]) -> str:
+def answer_first_markup(stage: dict[str, Any], entries: list[dict[str, Any]]) -> str:
     if not entries:
-        body = '<p class="matrix-empty">No kept entries to compare yet.</p>'
+        body = '<p class="answer-empty">No kept entries to recommend yet.</p>'
     else:
-        groups: dict[str, list[dict[str, Any]]] = {}
-        for entry in entries:
-            purpose = str(entry.get("purpose") or "general comparison")
-            groups.setdefault(purpose, []).append(entry)
-        if len(groups) > 1 and all(len(options) < 2 for options in groups.values()):
-            groups = {stage["focus"]: entries}
-        elif len(groups) > 1:
-            remainder = [entry for options in groups.values() if len(options) < 2 for entry in options]
-            groups = {purpose: options for purpose, options in groups.items() if len(options) >= 2}
-            if remainder:
-                groups["other options"] = remainder
-        rows = []
-        for purpose, options in list(groups.items())[:1]:
-            option_markup = []
-            for entry in options[:4]:
-                name = entry_name(entry)
-                name_markup = f'<strong>{esc(name)}</strong>' if name else ""
-                score = score_value(entry)
-                score_markup = f'<em>score {esc(score)}</em>' if score else ""
-                option_markup.append(f'<div class="matrix-option">{name_markup}<span>{entry_chip_markup(entry, stage["id"])}</span>{score_markup}</div>')
-            options_markup = "".join(option_markup)
-            rows.append(f'<div class="matrix-row"><div class="matrix-need"><span>Need</span><strong>{esc(purpose)}</strong></div><div class="matrix-options">{options_markup}</div></div>')
-        body = "".join(rows)
+        top = max(entries, key=lambda entry: float(entry.get("composite") or 0))
+        name = entry_name(top) or "unnamed kept entry"
+        purpose = str(top.get("purpose") or stage["focus"])
+        link = entry_link(top)
+        link_markup = f'<a class="answer-link" href="{esc(link)}" target="_blank" rel="noreferrer">open it ↗</a>' if link else ""
+        body = f'<p><span class="answer-label">Best pick</span> <strong>{esc(name)}</strong> <span class="answer-why">— why: {esc(purpose)}</span> {link_markup}</p>'
     return f"""
-    <section class="decision-matrix" aria-label="Decision matrix">
-      <div class="matrix-body"><span class="matrix-count">{len(entries)} options</span>{body}</div>
+    <section class="answer-first" aria-label="Best pick">
+      {body}
     </section>
     """
 
 
 def entry_payload(entry: dict[str, Any], stage_id: str) -> dict[str, Any]:
     models = []
-    for model in entry_models(entry):
+    for model in entry_manifest_models(entry):
         payload_model: dict[str, Any] = {}
         for key in ("name", "folder", "url"):
             if model.get(key):
@@ -577,22 +716,17 @@ def entry_payload(entry: dict[str, Any], stage_id: str) -> dict[str, Any]:
             payload_model["size_mb"] = int(model["size_mb"])
         if payload_model:
             models.append(payload_model)
-    if not models and isinstance(entry.get("download"), dict):
-        d = entry["download"]
-        self_row: dict[str, Any] = {"name": d.get("name"), "folder": d.get("folder")}
-        if d.get("url"):
-            self_row["url"] = d["url"]
-        if d.get("size_mb") is not None:
-            self_row["size_mb"] = int(d["size_mb"])
-        if self_row.get("name"):
-            models.append(self_row)
+    known_model_size = any(model.get("size_mb") is not None for model in models)
+    disk = entry_disk_mb(entry)
+    if models and not known_model_size and disk is not None:
+        models[0]["size_mb"] = disk
     return {
         "id": str(entry.get("id") or ""),
         "name": entry_name(entry),
         "role": entry_role(entry, stage_id),
         "stage": stage_id,
         "vram": vram_number(entry.get("vram_class")),
-        "disk": entry_disk_mb(entry),
+        "disk": disk,
         "models": models,
         "exact_url": exact_version_url(entry),
     }
@@ -600,8 +734,11 @@ def entry_payload(entry: dict[str, Any], stage_id: str) -> dict[str, Any]:
 
 def entry_detail_markup(entry: dict[str, Any], stage_id: str) -> str:
     exact_url = exact_version_url(entry)
-    models = entry_models(entry)
+    manifest_models = entry_manifest_models(entry)
+    requirements = entry.get("requirements") or {}
     detail_items = []
+    if entry.get("purpose"):
+        detail_items.append(f'<div><span class="detail-label">Purpose</span><strong>{esc(entry["purpose"])}</strong></div>')
     if entry.get("source_name"):
         detail_items.append(f'<div><span class="detail-label">Source</span><strong>{esc(entry["source_name"])}</strong></div>')
     if entry.get("baseModel"):
@@ -610,29 +747,62 @@ def entry_detail_markup(entry: dict[str, Any], stage_id: str) -> str:
     if stacks:
         detail_items.append(f'<div><span class="detail-label">Stacks on</span><strong>{esc(", ".join(str(value) for value in stacks))}</strong></div>')
     if exact_url:
-        detail_items.append(f'<div><span class="detail-label">Version</span><strong><a href="{esc(exact_url)}" target="_blank" rel="noreferrer">open vetted version ↗</a></strong></div>')
+        detail_items.append(f'<div><span class="detail-label">Version</span><strong><a href="{esc(exact_url)}" target="_blank" rel="noreferrer">open exact version on civitai ↗</a></strong></div>')
+    chip_values = []
+    tradeoff = entry.get("tradeoff")
+    if isinstance(tradeoff, list):
+        chip_values.extend(str(value) for value in tradeoff if value)
+    elif tradeoff:
+        chip_values.append(str(tradeoff))
+    if entry.get("vram_class"):
+        chip_values.append(f'VRAM {entry["vram_class"]}')
+    if entry.get("baseModel"):
+        chip_values.append(str(entry["baseModel"]))
+    if chip_values:
+        chip_markup = "".join(f'<span class="entry-chip">{esc(value)}</span>' for value in chip_values)
+        detail_items.append(f'<div><span class="detail-label">Chips</span><div class="detail-chip-list">{chip_markup}</div></div>')
+    stats = entry.get("stats") or {}
+    stat_parts = []
+    if stats.get("downloadCount") is not None:
+        stat_parts.append(f'{esc(stats["downloadCount"])} downloads')
+    if stats.get("thumbsUpCount") is not None:
+        stat_parts.append(f'{esc(stats["thumbsUpCount"])} likes')
+    if entry.get("pulled_at"):
+        stat_parts.append(f'pulled {esc(entry["pulled_at"])}')
+    if stat_parts:
+        detail_items.append(f'<div><span class="detail-label">Stats</span><strong>{" · ".join(stat_parts)}</strong></div>')
     model_rows = []
-    for model in models:
+    detail_disk = entry_disk_mb(entry)
+    for index, model in enumerate(manifest_models):
+        size = model.get("size_mb")
+        if size is None and index == 0 and detail_disk is not None and not any(item.get("size_mb") is not None for item in manifest_models):
+            size = detail_disk
+        name = model.get("name") or "unnamed file"
+        folder = model.get("folder") or "folder unknown"
+        size_markup = f'{esc(size)} MB' if size is not None else '—'
         raw_url = model.get("url") if isinstance(model.get("url"), str) else ""
-        url = raw_url if ("modelVersionId=" in raw_url or "/model-versions/" in raw_url) else ""
-        row_parts = []
-        if model.get("name"):
-            row_parts.append(f'<strong>{esc(model["name"])}</strong>')
-        if model.get("folder"):
-            row_parts.append(esc(model["folder"]))
-        if model.get("size_mb") is not None:
-            row_parts.append(f'{esc(model["size_mb"])} MB')
-        if url:
-            row_parts.append(f'<a href="{esc(url)}" target="_blank" rel="noreferrer">exact file link ↗</a>')
-        if row_parts:
-            model_rows.append(f'<li>{" · ".join(row_parts)}</li>')
+        url = raw_url or exact_url
+        link_markup = f'<a href="{esc(url)}" target="_blank" rel="noreferrer">open file link ↗</a>' if url else '<span>link unavailable</span>'
+        model_rows.append(f'<li><strong>{esc(name)}</strong><span>{esc(folder)} · {size_markup}</span>{link_markup}</li>')
+    node_rows = []
+    for node in requirements.get("nodes") or []:
+        if not isinstance(node, dict):
+            continue
+        label = node.get("class_type") or node.get("manager_search")
+        if not label:
+            continue
+        search = node.get("manager_search")
+        node_rows.append(f'<li><strong>{esc(label)}</strong>{f"<span>{esc(search)}</span>" if search and search != label else ""}</li>')
     detail_body = []
     if detail_items:
         detail_body.append(f'<div class="detail-grid">{"".join(detail_items)}</div>')
-    if entry.get("verdict_line"):
-        detail_body.append(f'<p class="detail-verdict">{esc(entry["verdict_line"])}</p>')
+    verdict = entry.get("verdict_keep") if isinstance(entry.get("verdict_keep"), str) else entry.get("verdict_line")
+    if verdict:
+        detail_body.append(f'<p class="detail-verdict"><span class="detail-label">Verdict keep</span>{esc(verdict)}</p>')
     if model_rows:
-        detail_body.append(f'<ul class="manifest-preview">{"".join(model_rows)}</ul>')
+        detail_body.append(f'<section class="requirements-panel"><h3>Models / files</h3><ul class="manifest-preview">{"".join(model_rows)}</ul></section>')
+    if node_rows:
+        detail_body.append(f'<section class="requirements-panel"><h3>Nodes</h3><ul class="requirements-list">{"".join(node_rows)}</ul></section>')
     if not detail_body:
         return ""
     return f"""
@@ -650,13 +820,25 @@ def media_markup(entry: dict[str, Any], stage_id: str) -> str:
         return '<div class="media-missing">preview cut</div>'
     first = urls[0]
     name = entry_name(entry)
+    link = entry_link(entry)
     if media_kind(first) == "video":
-        return (
+        media = (
             f'<video class="card-video" muted loop playsinline preload="metadata" '
             f'data-hover-video aria-label="Preview for {esc(name)}"><source src="{esc(first)}"></video>'
         )
+        if link:
+            media = f'<a class="media-link" href="{esc(link)}" target="_blank" rel="noreferrer" aria-label="Open {esc(name)} on Civitai">{media}</a>'
+        return media + '<button class="speaker-toggle" type="button" data-speaker-toggle hidden aria-label="Play preview with sound">◖))</button>'
     gallery_attr = esc(json.dumps(urls, ensure_ascii=False, separators=(",", ":")))
-    return f'<img class="card-image" src="{esc(first)}" alt="Preview for {esc(name)}" loading="lazy" data-gallery="{gallery_attr}">'
+    media = (
+        f'<span class="gallery-frame">'
+        f'<img class="card-image gallery-image is-visible" src="{esc(first)}" alt="Preview for {esc(name)}" loading="lazy" data-gallery="{gallery_attr}">'
+        f'<img class="card-image gallery-image gallery-image-next" src="{esc(first)}" alt="" aria-hidden="true" loading="lazy">'
+        f'</span>'
+    )
+    if link:
+        return f'<a class="media-link" href="{esc(link)}" target="_blank" rel="noreferrer" aria-label="Open {esc(name)} on Civitai">{media}</a>'
+    return media
 
 
 def entry_card(entry: dict[str, Any], stage_id: str) -> str:
@@ -669,8 +851,10 @@ def entry_card(entry: dict[str, Any], stage_id: str) -> str:
     demo_attr = ' data-demo="true"' if str(entry.get("tier")) == "DEMO" else ""
     visual_class = str(entry.get("visual_class") or "")
     style_attr = f' data-style="{esc(visual_class)}"' if visual_class else ""
-    hidden_attr = ' hidden' if stage_id == "persona" and visual_class == "anime-illustration" else ""
+    hidden_attr = ""
     topline_items = []
+    if explicit:
+        topline_items.append('<span class="nsfw-marker">NSFW</span>')
     if entry.get("open_closed"):
         topline_items.append(f'<span class="open-badge">{esc(str(entry["open_closed"]).lower())}</span>')
     if demo_badge:
@@ -678,7 +862,7 @@ def entry_card(entry: dict[str, Any], stage_id: str) -> str:
     topline = f'<div class="card-topline">{"".join(topline_items)}</div>' if topline_items else ""
     name = entry_name(entry)
     name_markup = f'<h2 class="entry-name">{esc(name)}</h2>' if name else ""
-    purpose = f'<p class="entry-purpose">{esc(entry["purpose"])}</p>' if entry.get("purpose") else ""
+    purpose = f'<p class="entry-purpose"><span class="purpose-label">Use</span>{esc(entry["purpose"])}</p>' if entry.get("purpose") else ""
     chips = entry_chip_markup(entry, stage_id)
     chips_markup = f'<div class="entry-chips">{chips}</div>' if chips else ""
     style_reason = ''
@@ -699,13 +883,15 @@ def entry_card(entry: dict[str, Any], stage_id: str) -> str:
         <span class="media-index">{esc(role)}</span>
       </div>
       <div class="card-body">
-        {topline}
-        {name_markup}
-        {purpose}
-        {style_reason}
-        {chips_markup}
-        {footer}
+        <div class="card-content">
+          {topline}
+          {name_markup}
+          {purpose}
+          {style_reason}
+          {chips_markup}
+        </div>
         {entry_detail_markup(entry, stage_id)}
+        {footer}
       </div>
     </article>
     """
@@ -764,8 +950,8 @@ def stack_builder(catalog: dict[str, list[dict[str, Any]]]) -> str:
           <section class="stack-plan-slot" data-plan-slot="voice"><h3>Voice</h3><div data-plan-selection></div></section>
         </div>
         <div class="stack-totals" aria-live="polite">
-          <div><span>VRAM total</span><strong data-stack-vram>0 GB</strong></div>
-          <div><span>Disk total</span><strong data-stack-disk>0 MB</strong></div>
+          <div><span>VRAM total</span><strong data-stack-vram>—</strong></div>
+          <div><span>Disk total</span><strong data-stack-disk>—</strong></div>
         </div>
         <div class="manifest-heading"><h3>Download manifest</h3><button class="copy-all" type="button" data-copy-all disabled>copy all</button></div>
         <div class="manifest" data-stack-manifest></div>
@@ -781,7 +967,8 @@ def stack_builder(catalog: dict[str, list[dict[str, Any]]]) -> str:
 
 def render_stage(stage: dict[str, Any], data: dict[str, Any], generated_on: str, catalog: dict[str, list[dict[str, Any]]], root: bool = False) -> str:
     entries = stage_entries(data, stage["id"])
-    anime_entries = stage_entries(data, stage["id"], style="anime")
+    all_entries = renderable_entries(data)
+    alternative_entries = [entry for entry in all_entries if entry not in entries]
     pulled = int(data.get("pulled", len(data.get("entries") or [])))
     kept_count = int(data.get("preview_candidates", len(entries)))
     state = empty_state(stage, data) if not entries else f"""
@@ -789,14 +976,15 @@ def render_stage(stage: dict[str, Any], data: dict[str, Any], generated_on: str,
       {''.join(entry_card(entry, stage['id']) for entry in entries)}
     </section>
     """
-    style_cluster = ""
-    if stage["id"] == "persona" and anime_entries:
-        style_cluster = f"""
-    <section class="entry-grid style-cluster" aria-label="Anime style entries" data-anime-cluster hidden>
-      {''.join(entry_card(entry, stage['id']) for entry in anime_entries)}
-    </section>
-    """
-    stage_content = filter_bar(entries, stage["id"], anime_entries) + matrix_markup(stage, entries) + state + style_cluster
+    visual_clusters = []
+    for visual_class in visual_classes(alternative_entries):
+        cluster_entries = [entry for entry in alternative_entries if entry.get("visual_class") == visual_class]
+        visual_clusters.append(
+            f'<section class="entry-grid style-cluster" aria-label="{esc(visual_label(visual_class))} entries" '
+            f'data-visual-cluster="{esc(visual_class)}" hidden>'
+            f'{"".join(entry_card(entry, stage["id"]) for entry in cluster_entries)}</section>'
+        )
+    stage_content = filter_bar(entries, stage["id"], all_entries) + answer_first_markup(stage, entries) + state + "".join(visual_clusters)
     return page_shell(
         stage["label"],
         stage["id"],
@@ -822,10 +1010,20 @@ def render_stage(stage: dict[str, Any], data: dict[str, Any], generated_on: str,
 def render_layers(data: dict[str, Any], generated_on: str, catalog: dict[str, list[dict[str, Any]]]) -> str:
     stage = {"id": "layers", "label": "Enhancement Layers", "short": "+", "focus": "stackable additions for any pipeline"}
     entries = stage_entries(data, stage["id"])
+    all_entries = renderable_entries(data)
+    alternative_entries = [entry for entry in all_entries if entry not in entries]
     pulled = int(data.get("pulled", len(data.get("entries") or [])))
     kept_count = int(data.get("preview_candidates", len(entries)))
     state = empty_state(stage, data) if not entries else f'<section class="entry-grid" aria-label="Enhancement Layers entries">{"".join(entry_card(entry, "layers") for entry in entries)}</section>'
-    stage_content = filter_bar(entries, stage["id"]) + matrix_markup(stage, entries) + state
+    visual_clusters = []
+    for visual_class in visual_classes(alternative_entries):
+        cluster_entries = [entry for entry in alternative_entries if entry.get("visual_class") == visual_class]
+        visual_clusters.append(
+            f'<section class="entry-grid style-cluster" aria-label="{esc(visual_label(visual_class))} entries" '
+            f'data-visual-cluster="{esc(visual_class)}" hidden>'
+            f'{"".join(entry_card(entry, "layers") for entry in cluster_entries)}</section>'
+        )
+    stage_content = filter_bar(entries, stage["id"], all_entries) + answer_first_markup(stage, entries) + state + "".join(visual_clusters)
     return page_shell(
         stage["label"],
         "layers",
@@ -935,37 +1133,71 @@ h2 { font-size: clamp(25px, 3vw, 38px); letter-spacing: -.025em; line-height: 1.
 .layer-chip { background: var(--amber-soft); border: 1px solid #725633; color: #ffd99e; font-size: 15px; padding: 6px 10px; }
 .layer-contract { color: var(--muted); font: 16px/1.5 var(--mono); margin: 24px 0 0; }
 code { color: var(--cyan); font-family: var(--mono); }
+.recipes-page { min-width: 0; }
+.recipes-intro { border-bottom: 1px solid var(--line); padding: 18px 0 20px; }
+.recipes-intro h1 { margin: 8px 0; text-transform: lowercase; }
+.recipes-intro p:last-child { color: var(--muted); margin: 0; }
+.recipes-empty { background: var(--surface); border: 1px solid var(--line); margin-top: 18px; max-width: 680px; padding: 28px; }
+.recipes-empty h1 { margin: 8px 0; text-transform: lowercase; }
+.recipes-empty p:last-child { color: var(--muted); margin: 0; }
+.recipe-list { display: grid; gap: 12px; margin-top: 16px; }
+.recipe-card { background: var(--surface); border: 1px solid var(--line); padding: 17px 18px 18px; }
+.recipe-card-heading { align-items: baseline; display: flex; gap: 16px; justify-content: space-between; }
+.recipe-card-heading h2 { font-size: 23px; margin: 0; overflow-wrap: anywhere; }
+.recipe-total { color: var(--amber); flex: 0 0 auto; font: 16px/1.2 var(--mono); text-transform: uppercase; }
+.recipe-purpose { border-left: 2px solid var(--cyan); color: var(--text); margin: 14px 0 16px; padding-left: 10px; }
+.recipe-steps { display: grid; gap: 7px; list-style: none; margin: 0; padding: 0; }
+.recipe-steps li { align-items: baseline; background: var(--surface-soft); display: grid; gap: 5px 12px; grid-template-columns: minmax(105px, .25fr) minmax(0, 1fr) minmax(0, 1.1fr); padding: 9px 11px; }
+.recipe-stage { color: var(--cyan); font: 15px/1.2 var(--mono); text-transform: uppercase; }
+.recipe-stage a { color: inherit; }
+.recipe-stage a:hover, .recipe-stage a:focus-visible { color: var(--text); text-decoration: underline; }
+.recipe-steps strong { overflow-wrap: anywhere; }
+.recipe-why { color: var(--muted); overflow-wrap: anywhere; }
 .stage-layout { align-items: start; display: grid; gap: clamp(24px, 3vw, 36px); grid-template-columns: minmax(0, 1fr) minmax(320px, 360px); }
 .stage-main { min-width: 0; }
-.entry-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
-.entry-card { background: var(--surface); border: 1px solid var(--line); cursor: pointer; min-width: 0; outline: none; overflow: hidden; transition: transform .16s ease, opacity .16s ease; }
+.entry-grid { align-items: stretch; display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.entry-card { background: var(--surface); border: 1px solid var(--line); cursor: pointer; display: flex; flex-direction: column; height: 100%; min-width: 0; outline: none; overflow: hidden; transition: transform .16s ease, opacity .16s ease; }
 .entry-card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
 .entry-card:focus-visible { border-color: var(--amber); box-shadow: 0 0 0 2px var(--amber-soft); }
 .card-media { aspect-ratio: 4 / 3; background: #0d1113; overflow: hidden; position: relative; }
 .card-image, .card-video { display: block; height: 100%; object-fit: cover; width: 100%; }
-.media-index { background: rgba(13, 17, 19, .84); bottom: 10px; color: var(--cyan); font: 15px/1 var(--mono); left: 10px; padding: 6px 7px; position: absolute; text-transform: uppercase; }
+.media-link { display: block; height: 100%; }
+.gallery-frame { display: block; height: 100%; position: relative; }
+.gallery-image { inset: 0; opacity: 0; position: absolute; transition: opacity .3s ease; }
+.gallery-image.is-visible { opacity: 1; }
+.media-index { background: rgba(13, 17, 19, .84); bottom: 10px; color: var(--cyan); font: 15px/1 var(--mono); left: 10px; padding: 6px 7px; position: absolute; text-transform: uppercase; z-index: 1; }
+.speaker-toggle { background: rgba(13, 17, 19, .9); border: 1px solid var(--cyan); bottom: 10px; color: var(--cyan); cursor: pointer; font: 16px/1 var(--mono); padding: 7px 8px; position: absolute; right: 10px; z-index: 2; }
+.speaker-toggle:hover, .speaker-toggle:focus-visible { background: var(--cyan); color: var(--ink); }
 .media-missing { align-items: center; color: var(--faint); display: flex; font: 18px/1 var(--mono); height: 100%; justify-content: center; }
 .engine-spec { align-items: center; color: var(--faint); display: flex; font: 18px/1 var(--mono); height: 100%; justify-content: center; letter-spacing: .08em; text-transform: uppercase; }
-.card-body { padding: 15px 16px 13px; }
+.card-body { display: flex; flex: 1; flex-direction: column; min-height: 190px; padding: 15px 16px 13px; }
+.card-content { flex: 1; }
 .card-topline, .card-footer { align-items: center; display: flex; justify-content: space-between; }
 .card-topline { min-height: 19px; }
 .open-badge, .demo-badge { font: 16px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
 .open-badge { color: var(--green); }
 .demo-badge { color: var(--amber); }
+.nsfw-marker { color: #ff9a9a; font: 700 16px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
 .entry-name { font-size: 20px; letter-spacing: -.02em; line-height: 1.16; margin: 12px 0 6px; overflow-wrap: anywhere; }
-.entry-purpose { color: var(--muted); font-size: 18px; line-height: 1.35; margin-bottom: 13px; overflow-wrap: anywhere; }
+.entry-purpose { border-left: 2px solid var(--cyan); color: var(--text); font-size: 18px; line-height: 1.35; margin-bottom: 13px; overflow-wrap: anywhere; padding-left: 10px; }
+.purpose-label { color: var(--cyan); display: block; font: 15px/1.2 var(--mono); letter-spacing: .07em; margin-bottom: 4px; text-transform: uppercase; }
 .entry-chips { display: flex; flex-wrap: wrap; gap: 5px; min-height: 27px; }
 .entry-chip { background: var(--surface-soft); border: 1px solid var(--line); color: var(--muted); font: 18px/1.15 var(--mono); padding: 6px 7px; }
-.card-footer { border-top: 1px solid var(--line); color: var(--muted); font: 18px/1.2 var(--mono); margin-top: 15px; padding-top: 12px; text-transform: uppercase; }
+.card-footer { border-top: 1px solid var(--line); color: var(--muted); font: 18px/1.2 var(--mono); margin-top: auto; padding-top: 12px; text-transform: uppercase; }
 .card-detail { border-top: 1px solid var(--line-strong); margin-top: 15px; padding-top: 15px; }
 .detail-grid { display: grid; gap: 12px; }
 .detail-grid > div { display: grid; gap: 3px; }
 .detail-label { color: var(--muted); font: 15px/1 var(--mono); text-transform: uppercase; }
 .detail-grid strong { font-size: 18px; font-weight: 500; overflow-wrap: anywhere; }
 .detail-grid a, .manifest-preview a { color: var(--cyan); }
-.detail-verdict { border-left: 2px solid var(--amber); color: var(--muted); font-size: 18px; margin: 18px 0; padding-left: 10px; }
-.manifest-preview { color: var(--muted); font-size: 18px; margin: 0; padding-left: 18px; }
-.manifest-preview li { margin: 7px 0; overflow-wrap: anywhere; }
+.detail-chip-list { display: flex; flex-wrap: wrap; gap: 5px; }
+.detail-chip-list .entry-chip { font-size: 16px; }
+.detail-verdict { border-left: 2px solid var(--amber); color: var(--muted); display: grid; gap: 6px; font-size: 18px; margin: 18px 0; padding-left: 10px; }
+.requirements-panel { border-top: 1px solid var(--line); margin-top: 15px; padding-top: 13px; }
+.requirements-panel h3 { color: var(--cyan); font: 15px/1.2 var(--mono); letter-spacing: .07em; margin: 0 0 8px; text-transform: uppercase; }
+.manifest-preview, .requirements-list { color: var(--muted); display: grid; gap: 7px; list-style: none; margin: 0; padding: 0; }
+.manifest-preview li, .requirements-list li { background: var(--surface-soft); display: grid; gap: 3px; margin: 0; overflow-wrap: anywhere; padding: 8px 9px; }
+.manifest-preview li span, .requirements-list li span { color: var(--muted); font: 16px/1.3 var(--mono); }
 .stack-builder { background: #12171a; border: 1px solid var(--line-strong); max-height: calc(100vh - var(--stage-nav-height) - 24px); overflow: auto; padding: 18px 16px 20px; position: sticky; top: calc(var(--stage-nav-height) + 12px); }
 .stack-heading, .manifest-heading { align-items: start; display: flex; justify-content: space-between; }
 .stack-heading h2 { font-size: 29px; margin: 9px 0 0; }
@@ -1026,18 +1258,14 @@ code { color: var(--cyan); font-family: var(--mono); }
 .filter-chip:hover:not(:disabled), .filter-chip[aria-pressed="true"] { background: var(--amber-soft); border-color: var(--amber); color: var(--text); }
 .filter-chip:disabled { color: var(--faint); cursor: not-allowed; opacity: .6; }
 .filter-chip:disabled b { color: var(--faint); }
-.decision-matrix { background: #12171a; border: 1px solid var(--line); margin-bottom: 12px; padding: 10px 14px; }
-.matrix-count { color: var(--cyan); display: block; font: 18px/1 var(--mono); margin-bottom: 7px; white-space: nowrap; }
-.matrix-body { margin-top: 0; }
-.matrix-empty { color: var(--muted); margin: 0; }
-.matrix-row { border-top: 1px solid var(--line); display: grid; gap: 18px; grid-template-columns: minmax(130px, .35fr) minmax(0, 1fr); padding: 15px 0; }
-.matrix-need { display: grid; gap: 5px; align-content: start; }
-.matrix-need span { color: var(--muted); font: 15px/1 var(--mono); text-transform: uppercase; }
-.matrix-need strong { font-size: 18px; line-height: 1.25; }
-.matrix-options { display: grid; gap: 7px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.matrix-option { align-items: flex-start; background: var(--surface); display: flex; flex-direction: column; gap: 7px; justify-content: space-between; min-width: 0; padding: 9px 11px; }
-.matrix-option > strong { font-size: 20px; line-height: 1.18; overflow-wrap: anywhere; }
-.matrix-option em { align-self: flex-end; color: var(--amber); font: 18px/1 var(--mono); white-space: nowrap; }
+.answer-first { background: #12171a; border: 1px solid var(--line); margin-bottom: 12px; padding: 10px 14px; }
+.answer-first p { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0 7px; margin: 0; }
+.answer-label { color: var(--amber); font: 700 15px/1.2 var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+.answer-first strong { font-size: 20px; overflow-wrap: anywhere; }
+.answer-why { color: var(--muted); }
+.answer-link { color: var(--cyan); font: 18px/1.2 var(--mono); margin-left: auto; white-space: nowrap; }
+.answer-link:hover, .answer-link:focus-visible { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
+.answer-empty { color: var(--muted); margin: 0; }
 .score-button { background: transparent; border: 0; color: var(--amber); cursor: pointer; font: 18px/1 var(--mono); padding: 0; text-transform: uppercase; }
 .score-button:hover { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
 .card-footer { position: relative; }
@@ -1048,8 +1276,6 @@ code { color: var(--cyan); font-family: var(--mono); }
 .score-popover li { display: flex; justify-content: space-between; padding: 3px 0; }
 .score-popover li span { color: var(--muted); }
 .score-popover .score-date { color: var(--muted); font: 15px/1.3 var(--mono); }
-.is-explicit .card-image, .is-explicit .card-video { filter: blur(15px); }
-.is-explicit:hover .card-image, .is-explicit:hover .card-video { filter: none; }
 @media (max-width: 760px) {
   .topbar-status { font-size: 14px; }
   .status-divider, .topbar-status .status-dot { display: none; }
@@ -1062,9 +1288,8 @@ code { color: var(--cyan); font-family: var(--mono); }
   .stage-layout { grid-template-columns: 1fr; }
   .stack-builder { max-height: none; position: static; }
   .search-field { align-items: flex-start; flex-direction: column; gap: 8px; }
-  .matrix-row { grid-template-columns: 1fr; }
-  .matrix-options { grid-template-columns: 1fr; }
-  .matrix-option > strong { white-space: normal; }
+  .recipe-card-heading { align-items: flex-start; flex-direction: column; gap: 6px; }
+  .recipe-steps li { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -1084,12 +1309,13 @@ def asset_js() -> str:
   const selected = {base: null, layer: [], motion: null, voice: null};
   const exactVersion = (url) => typeof url === 'string' && (/modelVersionId=/.test(url) || /\/model-versions\//.test(url));
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const formatSize = (value) => `${Math.round(Number(value) || 0)} MB`;
+  const formatSize = (value) => value == null || !Number.isFinite(Number(value)) ? '—' : `${Math.round(Number(value))} MB`;
 
   const cards = [...document.querySelectorAll('.entry-card')];
   const filterChips = [...document.querySelectorAll('.filter-chip')];
   const searchInput = document.querySelector('#entry-search');
-  let activeFacet = '';
+  const defaultVisualFacet = document.querySelector('[data-default-filter]')?.dataset.filterFacet || '';
+  let activeFacet = defaultVisualFacet;
   const syncUrl = () => {
     const url = new URL(window.location.href);
     const query = (searchInput?.value || '').trim();
@@ -1100,33 +1326,34 @@ def asset_js() -> str:
   const cardFacets = (card) => {
     try { return JSON.parse(card.dataset.facets || '[]'); } catch (error) { return []; }
   };
+  const visualClassFor = (facet) => facet.startsWith('visual:') ? facet.slice('visual:'.length).trim() : '';
+  const activeVisualClass = () => visualClassFor(activeFacet) || visualClassFor(defaultVisualFacet);
   const updateStyleVisibility = () => {
-    const animeMode = page === 'persona' && activeFacet === 'style: anime';
+    const animeMode = activeVisualClass() === 'anime-illustration';
     document.querySelectorAll('.persona-anime-option').forEach((option) => { option.hidden = !animeMode; });
+    document.querySelectorAll('[data-visual-cluster]').forEach((cluster) => {
+      cluster.hidden = cluster.dataset.visualCluster !== activeVisualClass();
+    });
   };
   const matches = (card, query, facet = '') => {
     const textMatch = !query || (card.dataset.search || '').includes(query);
-    const animeMode = page === 'persona' && (activeFacet === 'style: anime' || facet === 'style: anime');
-    const isAnime = card.dataset.style === 'anime-illustration';
-    const styleMatch = page !== 'persona' || (animeMode ? isAnime : !isAnime);
-    const facetMatch = !facet || (facet === 'style: anime' ? isAnime : cardFacets(card).includes(facet));
-    return textMatch && styleMatch && facetMatch;
+    const requestedVisual = visualClassFor(facet);
+    const visualTarget = requestedVisual || activeVisualClass();
+    const visualMatch = !visualTarget || card.dataset.style === visualTarget;
+    const facetMatch = !facet || Boolean(requestedVisual) || cardFacets(card).includes(facet);
+    return textMatch && visualMatch && facetMatch;
   };
   const updateFilters = () => {
     const query = (searchInput?.value || '').trim().toLowerCase();
+    if (activeFacet && !cards.some((card) => matches(card, query, activeFacet))) activeFacet = defaultVisualFacet;
     cards.forEach((card) => { card.hidden = !matches(card, query, activeFacet); });
-    const animeCluster = document.querySelector('[data-anime-cluster]');
-    if (animeCluster) animeCluster.hidden = !(page === 'persona' && activeFacet === 'style: anime');
-    const allCount = cards.filter((card) => matches(card, query)).length;
-    const allNode = document.querySelector('[data-all-count]');
-    if (allNode) allNode.textContent = allCount;
     filterChips.forEach((chip) => {
       const facet = chip.dataset.filterFacet || '';
       if (!facet) return;
       const count = cards.filter((card) => matches(card, query, facet)).length;
       const countNode = chip.querySelector('b');
       if (countNode) countNode.textContent = count;
-      chip.disabled = count === 0 && activeFacet !== facet;
+      chip.hidden = count === 0;
     });
     filterChips.forEach((chip) => chip.setAttribute('aria-pressed', String((chip.dataset.filterFacet || '') === activeFacet)));
     updateStyleVisibility();
@@ -1233,11 +1460,11 @@ def asset_js() -> str:
     selectedItems().forEach((item) => {
       const models = Array.isArray(item.models) ? item.models : [];
       models.forEach((model) => {
-        if (!model.name || !model.folder || model.size_mb == null || !exactVersion(model.url)) return;
+        if (!model.name) return;
         const key = `${model.name}|${model.url}`;
         if (seen.has(key)) return;
         seen.add(key);
-        rows.push({name: model.name, folder: model.folder, size: model.size_mb, url: model.url});
+        rows.push({name: model.name, folder: model.folder || 'folder unknown', size: model.size_mb == null ? null : Number(model.size_mb), url: model.url || item.exact_url || ''});
       });
     });
     return rows;
@@ -1245,21 +1472,23 @@ def asset_js() -> str:
 
   const updateStack = () => {
     const items = selectedItems();
-    const vram = items.reduce((sum, item) => sum + (Number(item.vram) || 0), 0);
-    const disk = items.reduce((sum, item) => sum + (Number(item.disk) || 0), 0);
     updatePlan();
     updateSelectionVisuals();
     const vramNode = document.querySelector('[data-stack-vram]');
     const diskNode = document.querySelector('[data-stack-disk]');
-    if (vramNode) vramNode.textContent = `${vram} GB`;
-    if (diskNode) diskNode.textContent = formatSize(disk);
     const rows = manifestRows();
+    const vramKnown = items.length > 0 && items.every((item) => item.vram != null && Number.isFinite(Number(item.vram)));
+    const vram = items.reduce((sum, item) => sum + (Number(item.vram) || 0), 0);
+    const knownDiskRows = rows.filter((row) => row.size != null && Number.isFinite(row.size));
+    const disk = knownDiskRows.reduce((sum, row) => sum + row.size, 0);
+    if (vramNode) vramNode.textContent = vramKnown ? `${vram} GB` : '—';
+    if (diskNode) diskNode.textContent = knownDiskRows.length ? formatSize(disk) : '—';
     const manifest = document.querySelector('[data-stack-manifest]');
     const copyButton = document.querySelector('[data-copy-all]');
     if (manifest) {
-      manifest.innerHTML = rows.map((row) => `<div class="manifest-row"><strong>${escapeHtml(row.name)}</strong><span>${escapeHtml(row.folder)} · ${formatSize(row.size)}</span><a href="${escapeHtml(row.url)}" target="_blank" rel="noreferrer">exact version ↗</a></div>`).join('');
+      manifest.innerHTML = rows.length ? rows.map((row) => `<div class="manifest-row"><strong>${escapeHtml(row.name)}</strong><span>${escapeHtml(row.folder)} · ${formatSize(row.size)}</span>${row.url ? `<a href="${escapeHtml(row.url)}" target="_blank" rel="noreferrer">open file link ↗</a>` : '<span>link unavailable</span>'}</div>`).join('') : '<p class="manifest-empty">No manifest rows recorded for this selection.</p>';
     }
-    if (copyButton) copyButton.disabled = rows.length === 0;
+    if (copyButton) copyButton.disabled = !rows.some((row) => row.url);
   };
 
   document.querySelectorAll('.stack-option').forEach((option) => {
@@ -1285,7 +1514,7 @@ def asset_js() -> str:
 
   const copyButton = document.querySelector('[data-copy-all]');
   if (copyButton) copyButton.addEventListener('click', async () => {
-    const rows = manifestRows();
+    const rows = manifestRows().filter((row) => row.url);
     const status = document.querySelector('[data-copy-status]');
     try {
       await navigator.clipboard.writeText(rows.map((row) => row.url).join('\n'));
@@ -1315,24 +1544,79 @@ def asset_js() -> str:
     });
   });
 
-  document.querySelectorAll('[data-gallery-surface]').forEach((surface) => {
-    const image = surface.querySelector('img[data-gallery]');
-    if (!image) return;
+  let activeGalleryCard = null;
+  let activeGalleryTimer = null;
+  const galleryIndexes = new WeakMap();
+  const stopGallery = () => {
+    if (activeGalleryTimer) window.clearInterval(activeGalleryTimer);
+    activeGalleryTimer = null;
+  };
+  const startGallery = (card, surface, image) => {
     let gallery;
     try { gallery = JSON.parse(image.dataset.gallery || '[]'); } catch (error) { gallery = []; }
+    if (activeGalleryCard === card && activeGalleryTimer) return;
+    stopGallery();
+    activeGalleryCard = card;
     if (gallery.length < 2) return;
-    surface.addEventListener('mousemove', (event) => {
-      const bounds = surface.getBoundingClientRect();
-      const ratio = Math.max(0, Math.min(0.999, (event.clientX - bounds.left) / bounds.width));
-      image.src = gallery[Math.floor(ratio * gallery.length)];
+    let index = galleryIndexes.get(card) || 0;
+    const advance = () => {
+      index = (index + 1) % gallery.length;
+      const visible = surface.querySelector('.gallery-image.is-visible') || image;
+      const next = surface.querySelector('.gallery-image:not(.is-visible)') || image;
+      if (next === visible) return;
+      next.src = gallery[index];
+      next.classList.add('is-visible');
+      visible.classList.remove('is-visible');
+      galleryIndexes.set(card, index);
+    };
+    activeGalleryTimer = window.setInterval(advance, 1200);
+  };
+  document.querySelectorAll('[data-gallery-surface]').forEach((surface) => {
+    const image = surface.querySelector('img[data-gallery]');
+    const card = surface.closest('.entry-card');
+    if (!card) return;
+    card.addEventListener('mouseenter', () => {
+      if (image) {
+        startGallery(card, surface, image);
+        return;
+      }
+      stopGallery();
+      activeGalleryCard = card;
     });
-    surface.addEventListener('mouseleave', () => { image.src = gallery[0]; });
   });
 
+  let pageHadUserGesture = false;
+  document.addEventListener('pointerdown', () => { pageHadUserGesture = true; }, true);
+  document.addEventListener('keydown', () => { pageHadUserGesture = true; }, true);
+  const setSpeakerState = (video, visible) => {
+    const toggle = video.closest('.card-media')?.querySelector('[data-speaker-toggle]');
+    if (toggle) toggle.hidden = !visible;
+  };
+  const playVideo = (video) => {
+    video.dataset.audioAttempt = pageHadUserGesture ? 'after-gesture' : 'autoplay';
+    video.muted = false;
+    video.play().then(() => setSpeakerState(video, false)).catch(() => {
+      video.muted = true;
+      setSpeakerState(video, true);
+      video.play().catch(() => {});
+    });
+  };
   document.querySelectorAll('[data-hover-video]').forEach((video) => {
-    video.addEventListener('mouseenter', () => { video.play().catch(() => {}); });
+    video.addEventListener('mouseenter', () => { playVideo(video); });
     video.addEventListener('mouseleave', () => { video.pause(); video.currentTime = 0; });
+    const toggle = video.closest('.card-media')?.querySelector('[data-speaker-toggle]');
+    if (toggle) toggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      pageHadUserGesture = true;
+      playVideo(video);
+    });
   });
+  document.addEventListener('click', (event) => {
+    pageHadUserGesture = true;
+    if (event.target.closest('[data-speaker-toggle]')) return;
+    const hoveredVideo = [...document.querySelectorAll('[data-hover-video]')].find((video) => video.matches(':hover'));
+    if (hoveredVideo) playVideo(hoveredVideo);
+  }, true);
 
   updateStack();
 })();
@@ -1367,6 +1651,9 @@ def generate(demo: bool = False) -> list[Path]:
     root_destination = SITE / "index.html"
     write_text(root_destination, render_stage(STAGES[0], stage_data["persona"], generated_on, catalog, root=True))
     outputs.append(root_destination)
+    recipes_destination = SITE / "recipes" / "index.html"
+    write_text(recipes_destination, render_recipes())
+    outputs.append(recipes_destination)
     return outputs
 
 

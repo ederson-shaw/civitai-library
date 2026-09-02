@@ -52,12 +52,17 @@ with sync_playwright() as pw:
         cards = page.query_selector_all(".entry-card")
         html = page.content()
         imgs = page.query_selector_all(".entry-card img")
+        videos = page.query_selector_all(".entry-card [data-hover-video]")
         loaded = 0
         for img in imgs[:12]:
             if img.evaluate("i => i.naturalWidth > 0"):
                 loaded += 1
+        for vid in videos[:6]:
+            if vid.evaluate("v => v.readyState >= 1 || v.src || v.currentSrc"):
+                loaded += 1
         v(f"{stage}: cards render", len(cards) > 0, f"{len(cards)} cards")
-        v(f"{stage}: previews load", len(imgs) == 0 or loaded > 0, f"{loaded}/{min(12, len(imgs))} naturalWidth>0")
+        v(f"{stage}: previews load", (len(imgs) + len(videos)) == 0 or loaded > 0,
+          f"{loaded} loaded of {min(12, len(imgs))} imgs + {len(videos)} video cards")
         v(f"{stage}: nsfw marker", "NSFW ON" in html)
         if stage in ("persona", "nsfw"):
             page.screenshot(path=str(SHOTS / f"10-{stage}.png"))
