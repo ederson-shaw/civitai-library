@@ -1,6 +1,6 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T05:13:41+00:00",
+ "generated": "2026-09-02T05:22:25+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -44,7 +44,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1105685?modelVersionId=1242203",
+   "download": {
+    "name": "Dramatic Lighting Slider.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1242203",
+    "size_mb": 7
+   },
+   "disk_mb": 7
   },
   {
    "id": 987736,
@@ -87,7 +96,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/987736?modelVersionId=1209350",
+   "download": {
+    "name": "NOOB_vp1_detailer_by_volnovik_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1209350",
+    "size_mb": 135
+   },
+   "disk_mb": 135
   },
   {
    "id": 1280702,
@@ -128,7 +146,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1280702?modelVersionId=3078972",
+   "download": {
+    "name": "Dark_Slider_Anima.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3078972",
+    "size_mb": 12
+   },
+   "disk_mb": 12
   },
   {
    "id": 888250,
@@ -171,7 +198,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/888250?modelVersionId=399443",
+   "download": {
+    "name": "1dkXLP.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/399443",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 1001945,
@@ -214,7 +250,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1001945?modelVersionId=1122976",
+   "download": {
+    "name": "StS-Illustrious-Detail-Slider-v1.0.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1122976",
+    "size_mb": 8
+   },
+   "disk_mb": 8
   },
   {
    "id": 768917,
@@ -255,7 +300,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/768917?modelVersionId=1278054",
+   "download": {
+    "name": "绪儿 厚涂构图光影质感增强V3.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1278054",
+    "size_mb": 649
+   },
+   "disk_mb": 649
   },
   {
    "id": 1231943,
@@ -298,7 +352,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1231943?modelVersionId=1736373",
+   "download": {
+    "name": "DetailerILv2-000008.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1736373",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 1115090,
@@ -341,7 +404,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1115090?modelVersionId=1253047",
+   "download": {
+    "name": "zy_illustrious_Realism_Enhancer_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1253047",
+    "size_mb": 324
+   },
+   "disk_mb": 324
   },
   {
    "id": 974076,
@@ -384,7 +456,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/974076?modelVersionId=3027111",
+   "download": {
+    "name": "EnchantingEyesAnima.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3027111",
+    "size_mb": 54
+   },
+   "disk_mb": 54
   },
   {
    "id": 350450,
@@ -427,7 +508,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/350450?modelVersionId=391994",
+   "download": {
+    "name": "sdxl_lightning_2step_lora.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/391994",
+    "size_mb": 375
+   },
+   "disk_mb": 375
   },
   {
    "id": 661736,
@@ -468,7 +558,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/661736?modelVersionId=3126711",
+   "download": {
+    "name": "S1_Dramatic Lighting Anima_V2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3126711",
+    "size_mb": 132
+   },
+   "disk_mb": 132
   },
   {
    "id": 633524,
@@ -511,7 +610,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/633524?modelVersionId=3211112",
+   "download": {
+    "name": "zy_BackgroundDetail_K2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3211112",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 229213,
@@ -554,7 +662,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/229213?modelVersionId=383563",
+   "download": {
+    "name": "detailed_notrigger.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/383563",
+    "size_mb": 11
+   },
+   "disk_mb": 11
   },
   {
    "id": 402462,
@@ -597,7 +714,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/402462?modelVersionId=712947",
+   "download": {
+    "name": "StS_PonyXL_Detail_Slider_v1.4_iteration_3.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/712947",
+    "size_mb": 16
+   },
+   "disk_mb": 16
   },
   {
    "id": 162016,
@@ -638,7 +764,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/162016?modelVersionId=3115638",
+   "download": {
+    "name": "CelestialSkin_ANI_SP_epoch_9.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3115638",
+    "size_mb": 132
+   },
+   "disk_mb": 132
   },
   {
    "id": 572473,
@@ -681,7 +816,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/572473?modelVersionId=3140366",
+   "download": {
+    "name": "glowing_anima_epoch_20.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3140366",
+    "size_mb": 264
+   },
+   "disk_mb": 264
   },
   {
    "id": 598621,
@@ -724,7 +868,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/598621?modelVersionId=1567118",
+   "download": {
+    "name": "3D_enhancer_Blender_Style_FLUX-000017.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1567118",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 1145743,
@@ -765,7 +918,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1145743?modelVersionId=3271822",
+   "download": {
+    "name": "Smooth_Booster_Anima_AnimeStyle.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3271822",
+    "size_mb": 132
+   },
+   "disk_mb": 132
   },
   {
    "id": 120723,
@@ -806,7 +968,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/120723?modelVersionId=145907",
+   "download": {
+    "name": "DetailedEyes_V3.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/145907",
+    "size_mb": 88
+   },
+   "disk_mb": 88
   },
   {
    "id": 145545,
@@ -849,7 +1020,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/145545?modelVersionId=161925",
+   "download": {
+    "name": "light_slider_v10.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/161925",
+    "size_mb": 64
+   },
+   "disk_mb": 64
   },
   {
    "id": 104292,
@@ -892,7 +1072,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/104292?modelVersionId=127699",
+   "download": {
+    "name": "slg_v30.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/127699",
+    "size_mb": 144
+   },
+   "disk_mb": 144
   },
   {
    "id": 264681,
@@ -935,7 +1124,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/264681?modelVersionId=298448",
+   "download": {
+    "name": "WildcardX-XL-Detail-Enhancer.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/298448",
+    "size_mb": 721
+   },
+   "disk_mb": 721
   },
   {
    "id": 122359,
@@ -978,7 +1176,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/122359?modelVersionId=135867",
+   "download": {
+    "name": "add-detail-xl.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/135867",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 383086,
@@ -1019,7 +1226,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/383086?modelVersionId=449738",
+   "download": {
+    "name": "Pony_DetailV2.0.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/449738",
+    "size_mb": 11
+   },
+   "disk_mb": 11
   },
   {
    "id": 981577,
@@ -1060,7 +1276,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/981577?modelVersionId=1099451",
+   "download": {
+    "name": "PCB_Image_Enhancer_for_FLUX.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1099451",
+    "size_mb": 109
+   },
+   "disk_mb": 109
   },
   {
    "id": 1486921,
@@ -1101,7 +1326,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1486921?modelVersionId=1681921",
+   "download": {
+    "name": "RealSkin_xxXL_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1681921",
+    "size_mb": 5
+   },
+   "disk_mb": 5
   },
   {
    "id": 810000,
@@ -1144,7 +1378,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/810000?modelVersionId=1977196",
+   "download": {
+    "name": "NewFantasyCoreV4_ILL_by_VisionaryAI_.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1977196",
+    "size_mb": 386
+   },
+   "disk_mb": 386
   },
   {
    "id": 153562,
@@ -1187,7 +1430,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/153562?modelVersionId=171989",
+   "download": {
+    "name": "detail_slider_v4.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/171989",
+    "size_mb": 13
+   },
+   "disk_mb": 13
   },
   {
    "id": 263104,
@@ -1228,7 +1480,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/263104?modelVersionId=1001942",
+   "download": {
+    "name": "Eye_Detail_Flux_Lora_-_Inpainting.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1001942",
+    "size_mb": 18
+   },
+   "disk_mb": 18
   },
   {
    "id": 1377820,
@@ -1269,7 +1530,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1377820?modelVersionId=3287274",
+   "download": {
+    "name": "AddMicroDetails_Anima_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3287274",
+    "size_mb": 175
+   },
+   "disk_mb": 175
   },
   {
    "id": 643886,
@@ -1312,7 +1582,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/643886?modelVersionId=720252",
+   "download": {
+    "name": "FluxDFaeTasticDetails.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/720252",
+    "size_mb": 21
+   },
+   "disk_mb": 21
   },
   {
    "id": 124347,
@@ -1355,7 +1634,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/124347?modelVersionId=152309",
+   "download": {
+    "name": "xl_more_art-full_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/152309",
+    "size_mb": 685
+   },
+   "disk_mb": 685
   },
   {
    "id": 280472,
@@ -1396,7 +1684,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/280472?modelVersionId=2953608",
+   "download": {
+    "name": "Chiaroscuro zib v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2953608",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 678808,
@@ -1439,7 +1736,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/678808?modelVersionId=759829",
+   "download": {
+    "name": "Detail__Mystic_Enchantress.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/759829",
+    "size_mb": 18
+   },
+   "disk_mb": 18
   },
   {
    "id": 62687,
@@ -1482,7 +1788,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/62687?modelVersionId=83755",
+   "download": {
+    "name": "tangbohu-detailmaker_v2.5.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/83755",
+    "size_mb": 144
+   },
+   "disk_mb": 144
   },
   {
    "id": 290860,
@@ -1525,7 +1840,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/290860?modelVersionId=1386765",
+   "download": {
+    "name": "cinematic warm light style v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1386765",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 1155749,
@@ -1566,7 +1890,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1155749?modelVersionId=3113897",
+   "download": {
+    "name": "HyperDetailedColoredPencilKrea2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3113897",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 280421,
@@ -1609,7 +1942,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/280421?modelVersionId=2599885",
+   "download": {
+    "name": "Low-key lighting Style v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2599885",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 2026594,
@@ -1652,7 +1994,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "the probe's soft-mismatch case — skin layer for anime bases, stacks_on noted"
+   "curated_note": "the probe's soft-mismatch case — skin layer for anime bases, stacks_on noted",
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/2026594?modelVersionId=3265292",
+   "download": {
+    "name": "qwen_image_vae.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/3265292",
+    "size_mb": 242
+   },
+   "disk_mb": 242
   },
   {
    "id": 280454,
@@ -1693,7 +2044,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/280454?modelVersionId=2558631",
+   "download": {
+    "name": "Rembrandt style v2.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2558631",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 51430,
@@ -1734,7 +2094,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/51430?modelVersionId=55905",
+   "download": {
+    "name": "detailed_eye-10.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/55905",
+    "size_mb": 18
+   },
+   "disk_mb": 18
   },
   {
    "id": 974775,
@@ -1775,7 +2144,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/974775?modelVersionId=1091558",
+   "download": {
+    "name": "BetterPortraitsPony.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1091558",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 390892,
@@ -1816,7 +2194,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/390892?modelVersionId=1286572",
+   "download": {
+    "name": "addetailv3_by_n0utis_pony.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1286572",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 78283,
@@ -1859,7 +2246,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/78283?modelVersionId=83081",
+   "download": {
+    "name": "Elixir.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/83081",
+    "size_mb": 9
+   },
+   "disk_mb": 9
   },
   {
    "id": 391036,
@@ -1900,7 +2296,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/391036?modelVersionId=2561285",
+   "download": {
+    "name": "Cucoloris v2.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2561285",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 1300857,
@@ -1941,7 +2346,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1300857?modelVersionId=2905122",
+   "download": {
+    "name": "EyeDetail_Z_Turbo.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2905122",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 669571,
@@ -1982,7 +2396,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/669571?modelVersionId=3270455",
+   "download": {
+    "name": "add_more_details_anima.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3270455",
+    "size_mb": 132
+   },
+   "disk_mb": 132
   },
   {
    "id": 2329053,
@@ -2023,7 +2446,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2329053?modelVersionId=3110766",
+   "download": {
+    "name": "Purple_Grainy_Kr2_AM.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3110766",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 542366,
@@ -2064,7 +2496,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/542366?modelVersionId=2953557",
+   "download": {
+    "name": "light from below zib v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2953557",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 562866,
@@ -2107,7 +2548,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/562866?modelVersionId=984672",
+   "download": {
+    "name": "aidmaImageUprader-FLUX-v0.3.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/984672",
+    "size_mb": 73
+   },
+   "disk_mb": 73
   },
   {
    "id": 1333749,
@@ -2150,7 +2600,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1333749?modelVersionId=1506035",
+   "download": {
+    "name": "Add_Details_v1.2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1506035",
+    "size_mb": 5
+   },
+   "disk_mb": 5
   },
   {
    "id": 413466,
@@ -2191,7 +2650,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/413466?modelVersionId=488645",
+   "download": {
+    "name": "boltningRealistic_hyperD.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/488645",
+    "size_mb": 13232
+   },
+   "disk_mb": 13232
   },
   {
    "id": 149459,
@@ -2232,7 +2700,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/149459?modelVersionId=166928",
+   "download": {
+    "name": "light_control_ud_civitai_v10.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/166928",
+    "size_mb": 25
+   },
+   "disk_mb": 25
   },
   {
    "id": 41809,
@@ -2273,7 +2750,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/41809?modelVersionId=53221",
+   "download": {
+    "name": "Better Portrait Lighting.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/53221",
+    "size_mb": 144
+   },
+   "disk_mb": 144
   },
   {
    "id": 391031,
@@ -2316,7 +2802,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/391031?modelVersionId=2590655",
+   "download": {
+    "name": "silhouette style v1.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2590655",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 572899,
@@ -2359,7 +2854,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/572899?modelVersionId=1438917",
+   "download": {
+    "name": "RealisticSkinv2_ponyv6_loraplus.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1438917",
+    "size_mb": 109
+   },
+   "disk_mb": 109
   },
   {
    "id": 1380970,
@@ -2400,7 +2904,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1380970?modelVersionId=2769575",
+   "download": {
+    "name": "Face_Detailed_v2-better eyes&colors.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2769575",
+    "size_mb": 649
+   },
+   "disk_mb": 649
   },
   {
    "id": 517355,
@@ -2441,7 +2954,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/517355?modelVersionId=574903",
+   "download": {
+    "name": "wreal_consolidated.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/574903",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 927305,
@@ -2482,7 +3004,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/927305?modelVersionId=1439429",
+   "download": {
+    "name": "zy_Realism_Enhancer_v2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1439429",
+    "size_mb": 649
+   },
+   "disk_mb": 649
   },
   {
    "id": 1332651,
@@ -2525,7 +3056,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1332651?modelVersionId=3104076",
+   "download": {
+    "name": "grainscape_krea2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3104076",
+    "size_mb": 109
+   },
+   "disk_mb": 109
   },
   {
    "id": 260852,
@@ -2568,7 +3108,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/260852?modelVersionId=1003317",
+   "download": {
+    "name": "Detailed_Hands-000001.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1003317",
+    "size_mb": 85
+   },
+   "disk_mb": 85
   },
   {
    "id": 1016670,
@@ -2609,7 +3158,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1016670?modelVersionId=1468463",
+   "download": {
+    "name": "Detail_Tweaker_Illustrious_BSY_V3.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1468463",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 1032948,
@@ -2652,7 +3210,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1032948?modelVersionId=2729875",
+   "download": {
+    "name": "Aurora_E10.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2729875",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 832683,
@@ -2695,7 +3262,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/832683?modelVersionId=1244911",
+   "download": {
+    "name": "aidmaFLUXPro1.1-FLUX-v0.3.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1244911",
+    "size_mb": 73
+   },
+   "disk_mb": 73
   },
   {
    "id": 151576,
@@ -2736,7 +3312,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/151576?modelVersionId=169496",
+   "download": {
+    "name": "backlight_slider_v10.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/169496",
+    "size_mb": 25
+   },
+   "disk_mb": 25
   },
   {
    "id": 58390,
@@ -2777,7 +3362,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/58390?modelVersionId=62833",
+   "download": {
+    "name": "add_detail.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/62833",
+    "size_mb": 36
+   },
+   "disk_mb": 36
   },
   {
    "id": 280387,
@@ -2820,7 +3414,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/280387?modelVersionId=1378151",
+   "download": {
+    "name": "bright light high key style v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1378151",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 365274,
@@ -2861,7 +3464,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/365274?modelVersionId=1425675",
+   "download": {
+    "name": "cinematic style film grain style film noise style v1-step00001950.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1425675",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 1157318,
@@ -2904,7 +3516,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "photoreal skin layer — core for realism stacks"
+   "curated_note": "photoreal skin layer — core for realism stacks",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1157318?modelVersionId=1301668",
+   "download": {
+    "name": "aidmaRealisticSkin-FLUX-v0.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1301668",
+    "size_mb": 73
+   },
+   "disk_mb": 73
   },
   {
    "id": 155526,
@@ -2947,7 +3568,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/155526?modelVersionId=174461",
+   "download": {
+    "name": "filmgrain_slider_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/174461",
+    "size_mb": 3
+   },
+   "disk_mb": 3
   },
   {
    "id": 82098,
@@ -2990,7 +3620,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "classic add-more-details detailer"
+   "curated_note": "classic add-more-details detailer",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/82098?modelVersionId=87153",
+   "download": {
+    "name": "more_details.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/87153",
+    "size_mb": 9
+   },
+   "disk_mb": 9
   },
   {
    "id": 140993,
@@ -3031,7 +3670,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/140993?modelVersionId=156286",
+   "download": {
+    "name": "epiCRealLife.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/156286",
+    "size_mb": 64
+   },
+   "disk_mb": 64
   },
   {
    "id": 144416,
@@ -3074,7 +3722,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/144416?modelVersionId=167456",
+   "download": {
+    "name": "exposure_control_v10.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/167456",
+    "size_mb": 36
+   },
+   "disk_mb": 36
   },
   {
    "id": 972925,
@@ -3115,7 +3772,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/972925?modelVersionId=1089573",
+   "download": {
+    "name": "Super_Skin_Detailer_By_Stable_Yogi_PD0_V1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1089573",
+    "size_mb": 435
+   },
+   "disk_mb": 435
   },
   {
    "id": 411088,
@@ -3156,7 +3822,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/411088?modelVersionId=2709983",
+   "download": {
+    "name": "Hands + Feet + skin perfection style zib v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2709983",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 730402,
@@ -3197,7 +3872,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/730402?modelVersionId=2759405",
+   "download": {
+    "name": "ADetailerNetidolFace_zimagedeturbo.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2759405",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 2250412,
@@ -3240,7 +3924,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2250412?modelVersionId=2610246",
+   "download": {
+    "name": "Dramatic_Lighting__ILL.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2610246",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 381960,
@@ -3283,7 +3976,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/381960?modelVersionId=1374100",
+   "download": {
+    "name": "light overhead light style v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1374100",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 682890,
@@ -3326,7 +4028,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/682890?modelVersionId=764329",
+   "download": {
+    "name": "reij-style01-000009.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/764329",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 336145,
@@ -3367,7 +4078,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/336145?modelVersionId=376450",
+   "download": {
+    "name": "npcportrait_v2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/376450",
+    "size_mb": 435
+   },
+   "disk_mb": 435
   },
   {
    "id": 1879987,
@@ -3410,7 +4130,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "nsfw detailer layer — stacks on nsfw lane"
+   "curated_note": "nsfw detailer layer — stacks on nsfw lane",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1879987?modelVersionId=3130764",
+   "download": {
+    "name": "zoda_v3_anima.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3130764",
+    "size_mb": 66
+   },
+   "disk_mb": 66
   },
   {
    "id": 524367,
@@ -3451,7 +4180,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/524367?modelVersionId=1364812",
+   "download": {
+    "name": "Fluorescent style v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1364812",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 106717,
@@ -3492,7 +4230,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/106717?modelVersionId=114618",
+   "download": {
+    "name": "AdvancedEnhancer.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/114618",
+    "size_mb": 168
+   },
+   "disk_mb": 168
   },
   {
    "id": 290864,
@@ -3535,7 +4282,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/290864?modelVersionId=1386128",
+   "download": {
+    "name": "cinematic night style v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1386128",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 757408,
@@ -3576,7 +4332,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/757408?modelVersionId=997451",
+   "download": {
+    "name": "detailed sharp detailed image) v1d.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/997451",
+    "size_mb": 292
+   },
+   "disk_mb": 292
   },
   {
    "id": 176449,
@@ -3617,7 +4382,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/176449?modelVersionId=2253338",
+   "download": {
+    "name": "9527DetailRealistic_v85X215c.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/2253338",
+    "size_mb": 6616
+   },
+   "disk_mb": 6616
   },
   {
    "id": 430687,
@@ -3660,7 +4434,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/430687?modelVersionId=3151891",
+   "download": {
+    "name": "detailifier_epoch_20.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3151891",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 2234266,
@@ -3701,7 +4484,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2234266?modelVersionId=2515203",
+   "download": {
+    "name": "Z-Detail-Slider.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2515203",
+    "size_mb": 20
+   },
+   "disk_mb": 20
   },
   {
    "id": 55743,
@@ -3742,7 +4534,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/55743?modelVersionId=60140",
+   "download": {
+    "name": "perfecteyes-000007.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/60140",
+    "size_mb": 144
+   },
+   "disk_mb": 144
   },
   {
    "id": 178167,
@@ -3785,7 +4586,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/178167?modelVersionId=1071060",
+   "download": {
+    "name": "Super_Eye_Detailer_By_Stable_Yogi_SDPD0.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1071060",
+    "size_mb": 54
+   },
+   "disk_mb": 54
   },
   {
    "id": 150169,
@@ -3828,7 +4638,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/150169?modelVersionId=1969501",
+   "download": {
+    "name": "detailAsianRealistic_v60X21b.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/1969501",
+    "size_mb": 2033
+   },
+   "disk_mb": 2033
   },
   {
    "id": 109043,
@@ -3869,7 +4688,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/109043?modelVersionId=122580",
+   "download": {
+    "name": "polyhedron_new_skin_v1.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/122580",
+    "size_mb": 144
+   },
+   "disk_mb": 144
   },
   {
    "id": 1371405,
@@ -3912,7 +4740,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1371405?modelVersionId=1549441",
+   "download": {
+    "name": "zy_Skin_Enhancer_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1549441",
+    "size_mb": 324
+   },
+   "disk_mb": 324
   },
   {
    "id": 124993,
@@ -3953,7 +4790,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/124993?modelVersionId=143146",
+   "download": {
+    "name": "AdvancedEnhancerXLv2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/143146",
+    "size_mb": 612
+   },
+   "disk_mb": 612
   },
   {
    "id": 2209262,
@@ -3994,7 +4840,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2209262?modelVersionId=2672935",
+   "download": {
+    "name": "REDZ15_DetailDaemonZ_lora_v1.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2672935",
+    "size_mb": 133
+   },
+   "disk_mb": 133
   },
   {
    "id": 580857,
@@ -4035,7 +4890,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/580857?modelVersionId=2965913",
+   "download": {
+    "name": "skin texture style zib v2.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2965913",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 541620,
@@ -4076,7 +4940,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/541620?modelVersionId=2549682",
+   "download": {
+    "name": "facial expression style v2.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2549682",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 279888,
@@ -4119,7 +4992,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "ring-light selfie style — influencer-relevant"
+   "curated_note": "ring-light selfie style — influencer-relevant",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/279888?modelVersionId=764981",
+   "download": {
+    "name": "Ringlight_Selfie_Flux.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/764981",
+    "size_mb": 36
+   },
+   "disk_mb": 36
   },
   {
    "id": 2620171,
@@ -4160,7 +5042,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2620171?modelVersionId=2945421",
+   "download": {
+    "name": "anima_context_detailer_base10.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2945421",
+    "size_mb": 87
+   },
+   "disk_mb": 87
   },
   {
    "id": 421162,
@@ -4201,7 +5092,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/421162?modelVersionId=2811849",
+   "download": {
+    "name": "Detailed style Hand focus + All in One zib v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2811849",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 562884,
@@ -4244,7 +5144,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/562884?modelVersionId=2710001",
+   "download": {
+    "name": "skin tone style zib v1.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2710001",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 383364,
@@ -4287,7 +5196,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/383364?modelVersionId=673193",
+   "download": {
+    "name": "creapromptLightning_creapromptUltimate6.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/673193",
+    "size_mb": 6616
+   },
+   "disk_mb": 6616
   },
   {
    "id": 939006,
@@ -4330,7 +5248,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers"
+   "curated_note": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/939006?modelVersionId=1051156",
+   "download": {
+    "name": "epiCRealismXL-KiSSEnhancer_Lora.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1051156",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 930386,
@@ -4373,7 +5300,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "flux turbo detailer, text-heavy preview noted"
+   "curated_note": "flux turbo detailer, text-heavy preview noted",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/930386?modelVersionId=1041442",
+   "download": {
+    "name": "Flux.1_Turbo_Detailer.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1041442",
+    "size_mb": 36
+   },
+   "disk_mb": 36
   },
   {
    "id": 1426727,
@@ -4414,7 +5350,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1426727?modelVersionId=3174267",
+   "download": {
+    "name": "PROFESSIONAL_PORNOGRAPHIC_PHOTOSHOOTS_-_KLEIN_epoch_14.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3174267",
+    "size_mb": 435
+   },
+   "disk_mb": 435
   },
   {
    "id": 1782485,
@@ -4457,7 +5402,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "furry video enhancer — layer class carries niche stacks"
+   "curated_note": "furry video enhancer — layer class carries niche stacks",
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1782485?modelVersionId=3234825",
+   "download": {
+    "name": "Furry enhancer Video H3  V2.54.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3234825",
+    "size_mb": 887
+   },
+   "disk_mb": 887
   },
   {
    "id": 2729908,
@@ -4466,10 +5420,10 @@
    "purpose": null,
    "composite": 12.6,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
@@ -4498,7 +5452,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2729908?modelVersionId=3068874",
+   "download": {
+    "name": "Detailer-KREA2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3068874",
+    "size_mb": 10
+   },
+   "disk_mb": 10
   },
   {
    "id": 2213166,
@@ -4507,11 +5470,11 @@
    "purpose": null,
    "composite": 12.6,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -4539,7 +5502,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2213166?modelVersionId=2491744",
+   "download": {
+    "name": "AntiPlastic_AnalogTexture_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2491744",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 1215368,
@@ -4548,10 +5520,10 @@
    "purpose": null,
    "composite": 12.5,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
@@ -4580,7 +5552,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1215368?modelVersionId=2584267",
+   "download": {
+    "name": "Oily shiny glossy skin style v2.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2584267",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 8765,
@@ -4589,10 +5570,10 @@
    "purpose": null,
    "composite": 12.4,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "SD 2.1 768",
    "vram_class": null,
@@ -4621,7 +5602,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/8765?modelVersionId=10350",
+   "download": {
+    "name": "to8contrast.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/10350",
+    "size_mb": 163
+   },
+   "disk_mb": 163
   },
   {
    "id": 60018,
@@ -4630,10 +5620,10 @@
    "purpose": null,
    "composite": 12.3,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
@@ -4662,7 +5652,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/60018?modelVersionId=64476",
+   "download": {
+    "name": "real_skin.zip",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/64476",
+    "size_mb": 26
+   },
+   "disk_mb": 26
   },
   {
    "id": 354130,
@@ -4671,10 +5670,10 @@
    "purpose": null,
    "composite": 12.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "SDXL Lightning",
    "vram_class": null,
@@ -4703,7 +5702,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/354130?modelVersionId=534487",
+   "download": {
+    "name": "Epicrealismxl_Hades.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/534487",
+    "size_mb": 6616
+   },
+   "disk_mb": 6616
   },
   {
    "id": 2477155,
@@ -4712,10 +5720,10 @@
    "purpose": null,
    "composite": 12.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
@@ -4744,7 +5752,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2477155?modelVersionId=3167935",
+   "download": {
+    "name": "dramatic_dark_lighting_krea2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3167935",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 766017,
@@ -4753,11 +5770,11 @@
    "purpose": null,
    "composite": 12.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -4785,7 +5802,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/766017?modelVersionId=856786",
+   "download": {
+    "name": "Skin Tone Slider flux v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/856786",
+    "size_mb": 35
+   },
+   "disk_mb": 35
   },
   {
    "id": 651043,
@@ -4794,11 +5820,11 @@
    "purpose": null,
    "composite": 12.0,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -4826,7 +5852,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/651043?modelVersionId=827325",
+   "download": {
+    "name": "fluxRealSkin-V2.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/827325",
+    "size_mb": 164
+   },
+   "disk_mb": 164
   },
   {
    "id": 2190659,
@@ -4835,10 +5870,10 @@
    "purpose": null,
    "composite": 11.9,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
@@ -4867,7 +5902,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/2190659?modelVersionId=2466604",
+   "download": {
+    "name": "DasiwaWAN22I2V14BTastysinV8_q8High.gguf",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/2466604",
+    "size_mb": 14692
+   },
+   "disk_mb": 14692
   },
   {
    "id": 2086049,
@@ -4876,11 +5920,11 @@
    "purpose": null,
    "composite": 11.9,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 9,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
    "tradeoff": null,
@@ -4908,7 +5952,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/2086049?modelVersionId=2903822",
+   "download": {
+    "name": "fluxtraitFLUX2KleinFLUXZ_klein9bV3.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/2903822",
+    "size_mb": 17316
+   },
+   "disk_mb": 17316
   },
   {
    "id": 2551056,
@@ -4917,11 +5970,11 @@
    "purpose": null,
    "composite": 11.9,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 9,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
    "tradeoff": null,
@@ -4949,7 +6002,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2551056?modelVersionId=3273260",
+   "download": {
+    "name": "DRKM4GE_Krea2_LoRA_step_2000.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3273260",
+    "size_mb": 111
+   },
+   "disk_mb": 111
   },
   {
    "id": 2535622,
@@ -4958,10 +6020,10 @@
    "purpose": null,
    "composite": 11.8,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
@@ -4990,7 +6052,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2535622?modelVersionId=2849716",
+   "download": {
+    "name": "LTX2.3_Crisp_Enhance.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2849716",
+    "size_mb": 672
+   },
+   "disk_mb": 672
   },
   {
    "id": 1063735,
@@ -4999,10 +6070,10 @@
    "purpose": null,
    "composite": 11.7,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "other",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
@@ -5031,7 +6102,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1063735?modelVersionId=3213016",
+   "download": {
+    "name": "minimax_h3_fl2v_lightx2v_turbo_8step_v1.0_resized_avg_rank_24_bf16.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3213016",
+    "size_mb": 347
+   },
+   "disk_mb": 347
   },
   {
    "id": 2067704,
@@ -5040,10 +6120,10 @@
    "purpose": null,
    "composite": 11.5,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "realism-photoreal",
+   "quality": 9,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
@@ -5072,7 +6152,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2067704?modelVersionId=2998669",
+   "download": {
+    "name": "V4_flux_klein.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2998669",
+    "size_mb": 158
+   },
+   "disk_mb": 158
   },
   {
    "id": 2324991,
@@ -5081,11 +6170,11 @@
    "purpose": null,
    "composite": 11.3,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
    "tradeoff": null,
@@ -5113,7 +6202,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2324991?modelVersionId=2615554",
+   "download": {
+    "name": "klein_slider_anatomy.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2615554",
+    "size_mb": 19
+   },
+   "disk_mb": 19
   },
   {
    "id": 142795,
@@ -5122,11 +6220,11 @@
    "purpose": null,
    "composite": 11.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5154,7 +6252,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/142795?modelVersionId=158383",
+   "download": {
+    "name": "filmgrain_v1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/158383",
+    "size_mb": 13
+   },
+   "disk_mb": 13
   },
   {
    "id": 646497,
@@ -5163,11 +6270,11 @@
    "purpose": null,
    "composite": 10.9,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -5195,7 +6302,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/646497?modelVersionId=723247",
+   "download": {
+    "name": "Realistic_People_V1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/723247",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 2269796,
@@ -5204,10 +6320,10 @@
    "purpose": null,
    "composite": 10.7,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
@@ -5236,7 +6352,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/2269796?modelVersionId=2554882",
+   "download": {
+    "name": "DasiwaWAN22I2V14BSynthseduction_q8High.gguf",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/2554882",
+    "size_mb": 14692
+   },
+   "disk_mb": 14692
   },
   {
    "id": 1865288,
@@ -5245,10 +6370,10 @@
    "purpose": null,
    "composite": 10.5,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
@@ -5277,7 +6402,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1865288?modelVersionId=2111148",
+   "download": {
+    "name": "HyperRealism.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2111148",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 2595570,
@@ -5286,11 +6420,11 @@
    "purpose": null,
    "composite": 10.4,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -5318,7 +6452,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2595570?modelVersionId=2975453",
+   "download": {
+    "name": "Velatrix.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/2975453",
+    "size_mb": 162
+   },
+   "disk_mb": 162
   },
   {
    "id": 2541119,
@@ -5327,11 +6470,11 @@
    "purpose": null,
    "composite": 9.8,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -5359,7 +6502,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Checkpoint",
+   "version_url": "https://civitai.com/models/2541119?modelVersionId=2855816",
+   "download": {
+    "name": "truegrainV1_v10.safetensors",
+    "folder": "models/checkpoints/",
+    "url": "https://civitai.com/api/download/models/2855816",
+    "size_mb": 6776
+   },
+   "disk_mb": 6776
   },
   {
    "id": 2808600,
@@ -5368,11 +6520,11 @@
    "purpose": null,
    "composite": 9.3,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
    "tradeoff": null,
@@ -5400,7 +6552,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/2808600?modelVersionId=3167109",
+   "download": {
+    "name": "inline-skin-lora-krea-2-raw.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/3167109",
+    "size_mb": 182
+   },
+   "disk_mb": 182
   },
   {
    "id": 1747094,
@@ -5409,11 +6570,11 @@
    "purpose": null,
    "composite": 8.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "HiDream",
    "vram_class": null,
    "tradeoff": null,
@@ -5441,7 +6602,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/1747094?modelVersionId=1977271",
+   "download": {
+    "name": "adapter_model.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1977271",
+    "size_mb": 1124
+   },
+   "disk_mb": 1124
   },
   {
    "id": 351314,
@@ -5484,6 +6654,13 @@
     "layer": null,
     "era": null,
     "moved_from": "MOTION"
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/351314?modelVersionId=392933",
+   "download": {
+    "name": "theStyleChangeEffectSame_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/392933"
    }
   },
   {
@@ -5527,7 +6704,16 @@
     "layer": null,
     "era": null,
     "moved_from": "MOTION"
-   }
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/363798?modelVersionId=433140",
+   "download": {
+    "name": "mjmSuperbeastsAIBeautifai_beautifaiV3.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/433140",
+    "size_mb": 12
+   },
+   "disk_mb": 12
   },
   {
    "id": 2429713,
@@ -5570,6 +6756,13 @@
     "layer": null,
     "era": null,
     "moved_from": "CAMERA_ANGLE"
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2429713?modelVersionId=2732004",
+   "download": {
+    "name": "t2iI2IInpaintReference_multi.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2732004"
    }
   }
  ]

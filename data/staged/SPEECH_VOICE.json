@@ -1,6 +1,6 @@
 {
  "stage": "SPEECH_VOICE",
- "generated": "2026-09-02T05:13:41+00:00",
+ "generated": "2026-09-02T05:22:25+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -42,7 +42,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1983539?modelVersionId=2245274",
+   "download": {
+    "name": "motionForgeWan22S2VHigh_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2245274"
+   }
   },
   {
    "id": 1945414,
@@ -237,7 +244,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1945414?modelVersionId=2201805",
+   "download": {
+    "name": "wanVideoInfinitetalkVivevoice_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2201805"
+   }
   },
   {
    "id": 2411105,
@@ -504,7 +518,15 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2411105?modelVersionId=2710913",
+   "download": {
+    "name": "ltx2I2VMotionLipSyncToYour_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2710913",
+    "size_mb": 3
+   }
   },
   {
    "id": 2306894,
@@ -545,7 +567,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2306894?modelVersionId=3267317",
+   "download": {
+    "name": "ltx25ImageAudioToVideo_ltx252Stage.json",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/3267317"
+   }
   },
   {
    "id": 2498927,
@@ -586,7 +615,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted"
+   "curated_note": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2498927?modelVersionId=2834400",
+   "download": {
+    "name": "textToSpeechWithVoice_v11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2834400"
+   }
   },
   {
    "id": 1710081,
@@ -676,7 +712,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "toy-like 3D demo character — acceptable stylized preview"
+   "curated_note": "toy-like 3D demo character — acceptable stylized preview",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1710081?modelVersionId=2258458",
+   "download": {
+    "name": "infinitetalkWithSingle_v40.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2258458"
+   }
   },
   {
    "id": 1553946,
@@ -806,7 +849,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1553946?modelVersionId=1758385",
+   "download": {
+    "name": "wan21FantasyTalk_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/1758385",
+    "size_mb": 1
+   },
+   "disk_mb": 1
   },
   {
    "id": 2422765,
@@ -847,7 +899,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2422765?modelVersionId=3146401",
+   "download": {
+    "name": "ltx23UnlimitedVideoLength_v50.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/3146401"
+   }
   },
   {
    "id": 1815300,
@@ -888,7 +947,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1815300?modelVersionId=2940161",
+   "download": {
+    "name": "videoflowLTX23AllInOneT2VI2VA2V_ltx23AllInOneV30.json",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2940161"
+   }
   },
   {
    "id": 2337329,
@@ -929,7 +995,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2337329?modelVersionId=2629166",
+   "download": {
+    "name": "qwen3TTSVoice_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2629166"
+   }
   },
   {
    "id": 1924833,
@@ -970,7 +1043,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1924833?modelVersionId=2178574",
+   "download": {
+    "name": "wan22S2VSpeechToVideo5StepsComfyui_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2178574"
+   }
   },
   {
    "id": 1909425,
@@ -1011,7 +1091,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1909425?modelVersionId=2193686",
+   "download": {
+    "name": "wan2214BS2VUltimateSuiteGGUF_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2193686"
+   }
   },
   {
    "id": 2041710,
@@ -1052,7 +1139,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2041710?modelVersionId=2310891",
+   "download": {
+    "name": "infinitetalkImageToSpeechAI_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2310891"
+   }
   },
   {
    "id": 2294829,
@@ -1093,7 +1187,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2294829?modelVersionId=2730725",
+   "download": {
+    "name": "friendlyLTX2T2VI2V_univibeV12Lipsync.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2730725"
+   }
   },
   {
    "id": 2299899,
@@ -1134,7 +1235,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2299899?modelVersionId=2608545",
+   "download": {
+    "name": "ltx2ForLowHighVRAMGGUFT2VI2VWith_v11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2608545"
+   }
   },
   {
    "id": 2475570,
@@ -1175,7 +1283,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2475570?modelVersionId=2783332",
+   "download": {
+    "name": "ltx2322BGGUFSafetensors12GBVRAM_v12.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2783332"
+   }
   },
   {
    "id": 2492652,
@@ -1216,7 +1331,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2492652?modelVersionId=2994045",
+   "download": {
+    "name": "friendlyLTX23T2VI2V_unifiedVibeFLFV10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2994045"
+   }
   },
   {
    "id": 2780640,
@@ -1257,7 +1379,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2780640?modelVersionId=3182146",
+   "download": {
+    "name": "joyaiEchoMultishotWorkflowOne_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/3182146",
+    "size_mb": 4
+   },
+   "disk_mb": 4
   },
   {
    "id": 1920627,
@@ -1298,7 +1429,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1920627?modelVersionId=2173855",
+   "download": {
+    "name": "wanSpeechToVideoLipSync_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2173855"
+   }
   },
   {
    "id": 489100,
@@ -1337,7 +1475,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/489100?modelVersionId=543861",
+   "download": {
+    "name": "PetraStyle.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/543861",
+    "size_mb": 217
+   },
+   "disk_mb": 217
   },
   {
    "id": 539547,
@@ -1376,7 +1523,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "LORA",
+   "version_url": "https://civitai.com/models/539547?modelVersionId=1367134",
+   "download": {
+    "name": "Cult of Tales by Petra Voice - Style [LoRA] - Illustrious-XL v0.1.safetensors",
+    "folder": "models/loras/",
+    "url": "https://civitai.com/api/download/models/1367134",
+    "size_mb": 109
+   },
+   "disk_mb": 109
   },
   {
    "id": 394171,
@@ -1701,7 +1857,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2490072?modelVersionId=2799363",
+   "download": {
+    "name": "ltx23TI2VAudioImage_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2799363"
+   }
   },
   {
    "id": 1526147,
@@ -2038,7 +2201,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1945414?modelVersionId=2201805",
+   "download": {
+    "name": "wanVideoInfinitetalkVivevoice_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2201805"
+   }
   },
   {
    "id": 2411105,
@@ -2305,7 +2475,15 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2411105?modelVersionId=2710913",
+   "download": {
+    "name": "ltx2I2VMotionLipSyncToYour_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2710913",
+    "size_mb": 3
+   }
   },
   {
    "id": 1710081,
@@ -2395,7 +2573,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "toy-like 3D demo character — acceptable stylized preview"
+   "curated_note": "toy-like 3D demo character — acceptable stylized preview",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1710081?modelVersionId=2258458",
+   "download": {
+    "name": "infinitetalkWithSingle_v40.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2258458"
+   }
   },
   {
    "id": 1553946,
@@ -2525,7 +2710,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1553946?modelVersionId=1758385",
+   "download": {
+    "name": "wan21FantasyTalk_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/1758385",
+    "size_mb": 1
+   },
+   "disk_mb": 1
   },
   {
    "id": 2306894,
@@ -2566,7 +2760,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2306894?modelVersionId=3267317",
+   "download": {
+    "name": "ltx25ImageAudioToVideo_ltx252Stage.json",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/3267317"
+   }
   },
   {
    "id": 2422765,
@@ -2607,7 +2808,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2422765?modelVersionId=3146401",
+   "download": {
+    "name": "ltx23UnlimitedVideoLength_v50.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/3146401"
+   }
   },
   {
    "id": 1924833,
@@ -2648,7 +2856,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1924833?modelVersionId=2178574",
+   "download": {
+    "name": "wan22S2VSpeechToVideo5StepsComfyui_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2178574"
+   }
   },
   {
    "id": 2294829,
@@ -2689,7 +2904,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2294829?modelVersionId=2730725",
+   "download": {
+    "name": "friendlyLTX2T2VI2V_univibeV12Lipsync.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2730725"
+   }
   },
   {
    "id": 2492652,
@@ -2730,7 +2952,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2492652?modelVersionId=2994045",
+   "download": {
+    "name": "friendlyLTX23T2VI2V_unifiedVibeFLFV10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2994045"
+   }
   },
   {
    "id": 2299899,
@@ -2771,7 +3000,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2299899?modelVersionId=2608545",
+   "download": {
+    "name": "ltx2ForLowHighVRAMGGUFT2VI2VWith_v11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2608545"
+   }
   },
   {
    "id": 2475570,
@@ -2812,7 +3048,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2475570?modelVersionId=2783332",
+   "download": {
+    "name": "ltx2322BGGUFSafetensors12GBVRAM_v12.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2783332"
+   }
   },
   {
    "id": 1920627,
@@ -2853,7 +3096,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1920627?modelVersionId=2173855",
+   "download": {
+    "name": "wanSpeechToVideoLipSync_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2173855"
+   }
   },
   {
    "id": "engine-voice-realtime-tts-2",

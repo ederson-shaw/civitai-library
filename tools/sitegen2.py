@@ -151,8 +151,19 @@ def renderable_entries(data: dict[str, Any]) -> list[dict[str, Any]]:
     return [entry for entry in kept_entries(data) if entry.get("kind") == "engine" or media_urls(entry)]
 
 
+def stage_entries(data: dict[str, Any], stage_id: str, style: str = "default") -> list[dict[str, Any]]:
+    entries = renderable_entries({**data, "entries": kept_entries(data)})
+    if stage_id != "persona":
+        return entries
+    if data.get("demo"):
+        return entries if style == "default" else []
+    if style == "anime":
+        return [entry for entry in entries if entry.get("visual_class") == "anime-illustration"]
+    return [entry for entry in entries if entry.get("visual_class") == "realism-photoreal"]
+
+
 def entry_name(entry: dict[str, Any]) -> str:
-    return str(entry.get("our_name") or entry.get("source_name") or f"Entry {entry.get('id', '—')}")
+    return str(entry.get("our_name") or entry.get("source_name") or "")
 
 
 def entry_role(entry: dict[str, Any], stage_id: str) -> str:
@@ -248,6 +259,7 @@ def demo_entry(stage: dict[str, Any], index: int) -> dict[str, Any]:
         "gallery": gallery,
         "stacks_on": [stage["id"].upper()],
         "verdict_keep": True,
+        "review_flag": False,
         "civitai_url": model_url,
         "requirements": {
             "models": [{"name": model_name, "folder": "models/checkpoints", "size_mb": 4096 + index * 1024, "url": model_url}],
@@ -375,7 +387,7 @@ def layer_class_markup(data: dict[str, Any]) -> str:
 def cut_panel(stage: dict[str, Any], data: dict[str, Any]) -> str:
     pulled = int(data.get("pulled", len(data.get("entries") or [])))
     source = source_label(stage["id"])
-    kept = len(kept_entries(data))
+    kept = int(data.get("kept_count", data.get("preview_candidates", len(kept_entries(data)))))
     if data.get("underfilled"):
         reason = f"{data.get('preview_candidates', kept)} kept preview entries are held until the stage has at least three."
     elif kept:
@@ -407,8 +419,8 @@ def entry_chip_markup(entry: dict[str, Any], stage_id: str) -> str:
         chips.append(str(entry["vram_class"]))
     if entry.get("baseModel"):
         chips.append(str(entry["baseModel"]))
-    if not chips:
-        chips.append(f"role: {entry_role(entry, stage_id)}")
+    if stage_id == "persona" and entry.get("visual_class") == "anime-illustration":
+        chips.insert(0, "style: anime")
     return "".join(f'<span class="entry-chip">{esc(value)}</span>' for value in chips[:3])
 
 
@@ -434,42 +446,62 @@ def score_value(entry: dict[str, Any]) -> str:
     value = entry.get("composite")
     if isinstance(value, (int, float)):
         return f"{value:.1f}".rstrip("0").rstrip(".")
-    return "—"
+    return ""
 
 
 def score_payload(entry: dict[str, Any]) -> dict[str, Any]:
     stats = entry.get("stats") or {}
-    return {
-        "score": score_value(entry),
-        "community": {
-            "downloads": stats.get("downloadCount") if stats.get("downloadCount") is not None else "not staged",
-            "thumbs_up": stats.get("thumbsUpCount") if stats.get("thumbsUpCount") is not None else "not staged",
-        },
-        "axes": {
-            "quality": entry.get("quality") if entry.get("quality") is not None else "not staged",
-            "lane fit": entry.get("lane_fit") if entry.get("lane_fit") is not None else "not staged",
-            "freshness": entry.get("freshness") if entry.get("freshness") is not None else "not staged",
-        },
-        "verdict": entry.get("verdict_line") or "No decision note staged.",
-        "pulled_at": entry.get("pulled_at") or "not staged",
+    payload: dict[str, Any] = {}
+    score = score_value(entry)
+    if score:
+        payload["score"] = score
+    community = {
+        key: stats[source]
+        for key, source in (("downloads", "downloadCount"), ("thumbs_up", "thumbsUpCount"))
+        if stats.get(source) is not None
     }
+    if community:
+        payload["community"] = community
+    axes = {key: entry[key] for key in ("quality", "lane_fit", "freshness") if entry.get(key) is not None}
+    if axes:
+        payload["axes"] = axes
+    if entry.get("verdict_line"):
+        payload["verdict"] = entry["verdict_line"]
+    if entry.get("pulled_at"):
+        payload["pulled_at"] = entry["pulled_at"]
+    return payload
 
 
 def score_popover_markup(entry: dict[str, Any]) -> str:
     payload = esc(json.dumps(score_payload(entry), ensure_ascii=False, separators=(",", ":")))
-    return f'<button class="score-button" type="button" data-score-payload="{payload}" aria-expanded="false">score {esc(score_value(entry))}</button><div class="score-popover" hidden></div>'
+    score = score_value(entry)
+    if not score:
+        return ""
+    return f'<button class="score-button" type="button" data-score-payload="{payload}" aria-expanded="false">score {esc(score)}</button><div class="score-popover" hidden></div>'
 
 
-def filter_bar(entries: list[dict[str, Any]]) -> str:
+def filter_bar(entries: list[dict[str, Any]], stage_id: str, anime_entries: list[dict[str, Any]] | None = None) -> str:
     facets = {"low vram", "max quality", "fastest"}
     for entry in entries:
-        facets.update(facet_values(entry))
+        tradeoff = entry.get("tradeoff")
+        if isinstance(tradeoff, list):
+            facets.update(str(value).strip().lower() for value in tradeoff if value)
+        elif tradeoff:
+            facets.add(str(tradeoff).strip().lower())
     chips = []
     for facet in sorted(facets):
         count = sum(facet in facet_values(entry) for entry in entries)
         chips.append(
             f'<button class="filter-chip" type="button" data-filter-facet="{esc(facet)}" '
             f'data-filter-count="{count}" aria-pressed="false" disabled>{esc(facet)} <b>{count}</b></button>'
+        )
+    if stage_id == "persona":
+        anime_count = len(anime_entries or [])
+        disabled = " disabled" if anime_count == 0 else ""
+        chips.insert(
+            0,
+            f'<button class="filter-chip style-filter" type="button" data-filter-facet="style: anime" '
+            f'data-filter-count="{anime_count}" aria-pressed="false"{disabled}>style: anime <b>{anime_count}</b></button>',
         )
     return f"""
     <section class="filters" aria-label="Filter entries">
@@ -481,7 +513,7 @@ def filter_bar(entries: list[dict[str, Any]]) -> str:
 
 def matrix_markup(stage: dict[str, Any], entries: list[dict[str, Any]]) -> str:
     if not entries:
-        body = '<p class="matrix-empty">No kept entries to compare yet. The matrix opens when three or more vetted previews land in this stage.</p>'
+        body = '<p class="matrix-empty">No kept entries to compare yet.</p>'
     else:
         groups: dict[str, list[dict[str, Any]]] = {}
         for entry in entries:
@@ -495,17 +527,20 @@ def matrix_markup(stage: dict[str, Any], entries: list[dict[str, Any]]) -> str:
             if remainder:
                 groups["other options"] = remainder
         rows = []
-        for purpose, options in groups.items():
-            options_markup = "".join(
-                f'<div class="matrix-option"><strong>{esc(entry_name(entry))}</strong><span>{entry_chip_markup(entry, stage["id"])}</span><em>score {esc(score_value(entry))}</em></div>'
-                for entry in options[:4]
-            )
+        for purpose, options in list(groups.items())[:1]:
+            option_markup = []
+            for entry in options[:4]:
+                name = entry_name(entry)
+                name_markup = f'<strong>{esc(name)}</strong>' if name else ""
+                score = score_value(entry)
+                score_markup = f'<em>score {esc(score)}</em>' if score else ""
+                option_markup.append(f'<div class="matrix-option">{name_markup}<span>{entry_chip_markup(entry, stage["id"])}</span>{score_markup}</div>')
+            options_markup = "".join(option_markup)
             rows.append(f'<div class="matrix-row"><div class="matrix-need"><span>Need</span><strong>{esc(purpose)}</strong></div><div class="matrix-options">{options_markup}</div></div>')
         body = "".join(rows)
     return f"""
     <section class="decision-matrix" aria-label="Decision matrix">
-      <div class="matrix-heading"><div><p class="eyebrow">Decision view</p><h2>Pick a need, compare the trade-off</h2></div><span class="matrix-count">{len(entries)} options</span></div>
-      <div class="matrix-body">{body}</div>
+      <div class="matrix-body"><span class="matrix-count">{len(entries)} options</span>{body}</div>
     </section>
     """
 
@@ -513,12 +548,23 @@ def matrix_markup(stage: dict[str, Any], entries: list[dict[str, Any]]) -> str:
 def entry_payload(entry: dict[str, Any], stage_id: str) -> dict[str, Any]:
     models = []
     for model in entry_models(entry):
-        models.append({
-            "name": model.get("name") or "unnamed file",
-            "folder": model.get("folder") or "folder not staged",
-            "size_mb": int(model.get("size_mb") or 0),
-            "url": model.get("url") or "",
-        })
+        payload_model: dict[str, Any] = {}
+        for key in ("name", "folder", "url"):
+            if model.get(key):
+                payload_model[key] = model[key]
+        if model.get("size_mb") is not None:
+            payload_model["size_mb"] = int(model["size_mb"])
+        if payload_model:
+            models.append(payload_model)
+    if not models and isinstance(entry.get("download"), dict):
+        d = entry["download"]
+        self_row: dict[str, Any] = {"name": d.get("name"), "folder": d.get("folder")}
+        if d.get("url"):
+            self_row["url"] = d["url"]
+        if d.get("size_mb") is not None:
+            self_row["size_mb"] = int(d["size_mb"])
+        if self_row.get("name"):
+            models.append(self_row)
     return {
         "id": str(entry.get("id") or ""),
         "name": entry_name(entry),
@@ -534,30 +580,43 @@ def entry_payload(entry: dict[str, Any], stage_id: str) -> dict[str, Any]:
 def entry_detail_markup(entry: dict[str, Any], stage_id: str) -> str:
     exact_url = exact_version_url(entry)
     models = entry_models(entry)
+    detail_items = []
+    if entry.get("source_name"):
+        detail_items.append(f'<div><span class="detail-label">Source</span><strong>{esc(entry["source_name"])}</strong></div>')
+    if entry.get("baseModel"):
+        detail_items.append(f'<div><span class="detail-label">Base model</span><strong>{esc(entry["baseModel"])}</strong></div>')
+    stacks = entry.get("stacks_on") or []
+    if stacks:
+        detail_items.append(f'<div><span class="detail-label">Stacks on</span><strong>{esc(", ".join(str(value) for value in stacks))}</strong></div>')
+    if exact_url:
+        detail_items.append(f'<div><span class="detail-label">Version</span><strong><a href="{esc(exact_url)}" target="_blank" rel="noreferrer">open vetted version ↗</a></strong></div>')
     model_rows = []
     for model in models:
         raw_url = model.get("url") if isinstance(model.get("url"), str) else ""
         url = raw_url if ("modelVersionId=" in raw_url or "/model-versions/" in raw_url) else ""
-        url_markup = f'<a href="{esc(url)}" target="_blank" rel="noreferrer">exact file link ↗</a>' if url else "link not staged"
-        model_rows.append(
-            f'<li><strong>{esc(model.get("name") or "unnamed file")}</strong> · '
-            f'{esc(model.get("folder") or "folder not staged")} · {esc(model.get("size_mb") or 0)} MB · {url_markup}</li>'
-        )
-    if not model_rows:
-        model_rows.append("<li>No download rows staged.</li>")
-    version_link = f'<a href="{esc(exact_url)}" target="_blank" rel="noreferrer">open vetted version ↗</a>' if exact_url else "exact version link not staged"
-    stacks = entry.get("stacks_on") or []
-    stacks_text = ", ".join(str(value) for value in stacks) if stacks else "none staged"
+        row_parts = []
+        if model.get("name"):
+            row_parts.append(f'<strong>{esc(model["name"])}</strong>')
+        if model.get("folder"):
+            row_parts.append(esc(model["folder"]))
+        if model.get("size_mb") is not None:
+            row_parts.append(f'{esc(model["size_mb"])} MB')
+        if url:
+            row_parts.append(f'<a href="{esc(url)}" target="_blank" rel="noreferrer">exact file link ↗</a>')
+        if row_parts:
+            model_rows.append(f'<li>{" · ".join(row_parts)}</li>')
+    detail_body = []
+    if detail_items:
+        detail_body.append(f'<div class="detail-grid">{"".join(detail_items)}</div>')
+    if entry.get("verdict_line"):
+        detail_body.append(f'<p class="detail-verdict">{esc(entry["verdict_line"])}</p>')
+    if model_rows:
+        detail_body.append(f'<ul class="manifest-preview">{"".join(model_rows)}</ul>')
+    if not detail_body:
+        return ""
     return f"""
       <div class="card-detail" hidden>
-        <div class="detail-grid">
-          <div><span class="detail-label">Source</span><strong>{esc(entry.get("source_name") or "not staged")}</strong></div>
-          <div><span class="detail-label">Base model</span><strong>{esc(entry.get("baseModel") or "not staged")}</strong></div>
-          <div><span class="detail-label">Stacks on</span><strong>{esc(stacks_text)}</strong></div>
-          <div><span class="detail-label">Version</span><strong>{version_link}</strong></div>
-        </div>
-        <p class="detail-verdict">{esc(entry.get("verdict_line") or "No decision note staged.")}</p>
-        <ul class="manifest-preview">{"".join(model_rows)}</ul>
+        {"".join(detail_body)}
       </div>
     """
 
@@ -583,23 +642,48 @@ def entry_card(entry: dict[str, Any], stage_id: str) -> str:
     payload = esc(json.dumps(entry_payload(entry, stage_id), ensure_ascii=False, separators=(",", ":")))
     role = entry_role(entry, stage_id)
     demo_badge = '<span class="demo-badge">[DEMO]</span>' if str(entry.get("tier")) == "DEMO" else ""
-    open_state = str(entry.get("open_closed") or "status not staged").lower()
     explicit = str(entry.get("nsfw_bucket") or "").lower() in {"explicit", "nsfw", "adult"} or stage_id == "nsfw"
     media_class = "card-media is-explicit" if explicit else "card-media"
     facets = esc(json.dumps(facet_values(entry), ensure_ascii=False, separators=(",", ":")))
     demo_attr = ' data-demo="true"' if str(entry.get("tier")) == "DEMO" else ""
+    visual_class = str(entry.get("visual_class") or "")
+    style_attr = f' data-style="{esc(visual_class)}"' if visual_class else ""
+    hidden_attr = ' hidden' if stage_id == "persona" and visual_class == "anime-illustration" else ""
+    topline_items = []
+    if entry.get("open_closed"):
+        topline_items.append(f'<span class="open-badge">{esc(str(entry["open_closed"]).lower())}</span>')
+    if demo_badge:
+        topline_items.append(demo_badge)
+    topline = f'<div class="card-topline">{"".join(topline_items)}</div>' if topline_items else ""
+    name = entry_name(entry)
+    name_markup = f'<h2 class="entry-name">{esc(name)}</h2>' if name else ""
+    purpose = f'<p class="entry-purpose">{esc(entry["purpose"])}</p>' if entry.get("purpose") else ""
+    chips = entry_chip_markup(entry, stage_id)
+    chips_markup = f'<div class="entry-chips">{chips}</div>' if chips else ""
+    style_reason = ''
+    if stage_id == "persona" and visual_class == "anime-illustration":
+        style_reason = '<p class="style-reason">Reason: deliberate anime style choice; outside the realism default.</p>'
+    footer_items = []
+    score = score_popover_markup(entry)
+    if score:
+        footer_items.append(score)
+    if entry.get("vram_class"):
+        footer_items.append(f'<span>VRAM {esc(entry["vram_class"])}</span>')
+    footer_items.append('<button class="card-add" type="button" data-card-add aria-pressed="false">add to stack</button>')
+    footer = f'<div class="card-footer">{"".join(footer_items)}</div>' if footer_items else ""
     return f"""
-    <article class="entry-card" tabindex="0" aria-expanded="false"{demo_attr} data-entry-id="{esc(entry.get('id') or '')}" data-stack-role="{esc(role)}" data-stack-payload="{payload}" data-search="{esc(search_text(entry))}" data-facets="{facets}">
+    <article class="entry-card" tabindex="0" aria-expanded="false"{demo_attr}{hidden_attr}{style_attr} data-entry-id="{esc(entry.get('id') or '')}" data-stack-role="{esc(role)}" data-stack-payload="{payload}" data-search="{esc(search_text(entry))}" data-facets="{facets}">
       <div class="{media_class}" data-gallery-surface>
         {media_markup(entry, stage_id)}
         <span class="media-index">{esc(role)}</span>
       </div>
       <div class="card-body">
-        <div class="card-topline"><span class="open-badge">{esc(open_state)}</span>{demo_badge}</div>
-        <h2 class="entry-name">{esc(entry_name(entry))}</h2>
-        <p class="entry-purpose">{esc(entry.get("purpose") or "Purpose not staged")}</p>
-        <div class="entry-chips">{entry_chip_markup(entry, stage_id)}</div>
-        <div class="card-footer">{score_popover_markup(entry)}<span>VRAM {esc(entry.get("vram_class") or "—")}</span></div>
+        {topline}
+        {name_markup}
+        {purpose}
+        {style_reason}
+        {chips_markup}
+        {footer}
         {entry_detail_markup(entry, stage_id)}
       </div>
     </article>
@@ -609,9 +693,19 @@ def entry_card(entry: dict[str, Any], stage_id: str) -> str:
 def stack_option(entry: dict[str, Any], stage_id: str) -> str:
     payload = esc(json.dumps(entry_payload(entry, stage_id), ensure_ascii=False, separators=(",", ":")))
     role = entry_role(entry, stage_id)
+    visual_class = str(entry.get("visual_class") or "")
+    anime_attr = ' data-style="anime"' if stage_id == "persona" and visual_class == "anime-illustration" else ""
+    anime_class = " persona-anime-option" if anime_attr else ""
+    hidden_attr = " hidden" if anime_attr else ""
+    sub_parts = [stage_id]
+    if entry.get("vram_class"):
+        sub_parts.append(str(entry["vram_class"]))
+    sub = " · ".join(sub_parts)
+    name = entry_name(entry)
+    name_markup = f'<span class="stack-option-name">{esc(name)}</span>' if name else ""
     return f"""
-    <button class="stack-option" type="button" data-stack-entry="{payload}" aria-pressed="false">
-      <span class="stack-option-main"><span class="stack-option-name">{esc(entry_name(entry))}</span><span class="stack-option-sub">{esc(stage_id)} · {esc(entry.get('vram_class') or 'VRAM —')}</span></span>
+    <button class="stack-option{anime_class}" type="button" data-stack-entry="{payload}"{anime_attr}{hidden_attr} aria-pressed="false">
+      <span class="stack-option-main">{name_markup}<span class="stack-option-sub">{esc(sub)}</span></span>
       <span class="stack-option-action">add</span>
     </button>
     """
@@ -622,67 +716,82 @@ def stack_builder(catalog: dict[str, list[dict[str, Any]]]) -> str:
     groups = []
     for role, label in role_labels:
         options = []
+        anime_options = []
         for stage_id, entries in catalog.items():
             for entry in entries:
                 if entry_role(entry, stage_id) == role:
-                    options.append(stack_option(entry, stage_id))
-        if options:
-            group_body = "".join(options[:4])
-        else:
-            group_body = '<p class="stack-empty">No vetted input loaded.</p>'
-        groups.append(f'<section class="stack-slot" data-stack-slot="{role}"><h3>{label}</h3>{group_body}</section>')
+                    option = stack_option(entry, stage_id)
+                    if stage_id == "persona" and entry.get("visual_class") == "anime-illustration":
+                        anime_options.append(option)
+                    else:
+                        options.append(option)
+        if options or anime_options:
+            groups.append(f'<section class="stack-catalog-group" data-stack-catalog="{role}"><h3>{label}</h3>{"".join(options[:6] + anime_options)}</section>')
     return f"""
-    <aside class="stack-builder" id="stack-builder">
+    <aside class="stack-builder" id="stack-builder" data-stack-builder>
       <div class="stack-heading">
         <div><p class="eyebrow">Execution plan</p><h2>Stack builder</h2></div>
-        <span class="stack-live"><span></span> live</span>
+        <span class="stack-live" data-stack-live hidden><span></span> live</span>
       </div>
-      <p class="stack-copy">Choose one base, then add layers, motion, and voice. Totals update from the selected inputs.</p>
-      <div class="stack-slots">{"".join(groups)}</div>
-      <div class="stack-totals" aria-live="polite">
-        <div><span>VRAM total</span><strong data-stack-vram>0 GB</strong></div>
-        <div><span>Disk total</span><strong data-stack-disk>0 MB</strong></div>
+      <div class="stack-empty" data-stack-empty><strong>Select a base to start</strong></div>
+      <div class="stack-plan" data-stack-plan hidden>
+        <div class="stack-selected" data-stack-selected aria-live="polite"></div>
+        <div class="stack-slots" data-stack-slots>
+          <section class="stack-plan-slot" data-plan-slot="base"><h3>Base</h3><div data-plan-selection></div></section>
+          <section class="stack-plan-slot" data-plan-slot="layer"><h3>Layers</h3><div data-plan-selection></div></section>
+          <section class="stack-plan-slot" data-plan-slot="motion"><h3>Motion</h3><div data-plan-selection></div></section>
+          <section class="stack-plan-slot" data-plan-slot="voice"><h3>Voice</h3><div data-plan-selection></div></section>
+        </div>
+        <div class="stack-totals" aria-live="polite">
+          <div><span>VRAM total</span><strong data-stack-vram>0 GB</strong></div>
+          <div><span>Disk total</span><strong data-stack-disk>0 MB</strong></div>
+        </div>
+        <div class="manifest-heading"><h3>Download manifest</h3><button class="copy-all" type="button" data-copy-all disabled>copy all</button></div>
+        <div class="manifest" data-stack-manifest></div>
+        <p class="copy-status" data-copy-status aria-live="polite"></p>
       </div>
-      <div class="manifest-heading"><h3>Download manifest</h3><button class="copy-all" type="button" data-copy-all disabled>copy all</button></div>
-      <div class="manifest" data-stack-manifest><p class="manifest-empty">Select an input to build rows.</p></div>
-      <p class="copy-status" data-copy-status aria-live="polite"></p>
+      <div class="stack-catalogs" data-stack-catalogs>
+        <p class="catalog-heading">Add to plan</p>
+        {"".join(groups)}
+      </div>
     </aside>
     """
 
 
 def render_stage(stage: dict[str, Any], data: dict[str, Any], generated_on: str, catalog: dict[str, list[dict[str, Any]]], root: bool = False) -> str:
-    entries = kept_entries(data)
-    entries = renderable_entries({**data, "entries": entries})
+    entries = stage_entries(data, stage["id"])
+    anime_entries = stage_entries(data, stage["id"], style="anime")
     pulled = int(data.get("pulled", len(data.get("entries") or [])))
+    kept_count = int(data.get("preview_candidates", len(entries)))
     state = empty_state(stage, data) if not entries else f"""
     <section class="entry-grid" aria-label="{esc(stage['label'])} entries">
       {''.join(entry_card(entry, stage['id']) for entry in entries)}
     </section>
     """
-    stage_content = filter_bar(entries) + matrix_markup(stage, entries) + state
+    style_cluster = ""
+    if stage["id"] == "persona" and anime_entries:
+        style_cluster = f"""
+    <section class="entry-grid style-cluster" aria-label="Anime style entries" data-anime-cluster hidden>
+      {''.join(entry_card(entry, stage['id']) for entry in anime_entries)}
+    </section>
+    """
+    stage_content = filter_bar(entries, stage["id"], anime_entries) + matrix_markup(stage, entries) + state + style_cluster
     return page_shell(
         stage["label"],
         stage["id"],
         f"""
     <section class="stage-header">
-      <div>
-        <p class="eyebrow">Pipeline stage · {esc(stage["short"])}</p>
+      <div class="stage-heading">
         <h1>{esc(stage["label"])}</h1>
         <p class="stage-focus">{esc(stage["focus"])}</p>
       </div>
-      <div class="stage-meta">
-        <span class="meta-label">Funnel</span>
-        <strong>pulled {pulled} → kept {len(entries)}</strong>
-        <span class="meta-label">Staged</span>
-        <strong>{esc(data.get("generated") or "—")}</strong>
-      </div>
+      <strong class="stage-funnel">pulled {pulled} → kept {kept_count}</strong>
     </section>
-    <div class="stage-divider"></div>
     <div class="stage-layout">
       <div class="stage-main">{stage_content}</div>
       {stack_builder(catalog)}
     </div>
-    {cut_panel(stage, {**data, "entries": entries, "pulled": pulled})}
+    {cut_panel(stage, {**data, "entries": entries, "pulled": pulled, "kept_count": kept_count})}
     {layer_class_markup({"entries": catalog.get("layers", [])})}
         """,
         root=root,
@@ -691,33 +800,27 @@ def render_stage(stage: dict[str, Any], data: dict[str, Any], generated_on: str,
 
 def render_layers(data: dict[str, Any], generated_on: str, catalog: dict[str, list[dict[str, Any]]]) -> str:
     stage = {"id": "layers", "label": "Enhancement Layers", "short": "+", "focus": "stackable additions for any pipeline"}
-    entries = renderable_entries(data)
+    entries = stage_entries(data, stage["id"])
     pulled = int(data.get("pulled", len(data.get("entries") or [])))
+    kept_count = int(data.get("preview_candidates", len(entries)))
     state = empty_state(stage, data) if not entries else f'<section class="entry-grid" aria-label="Enhancement Layers entries">{"".join(entry_card(entry, "layers") for entry in entries)}</section>'
-    stage_content = filter_bar(entries) + matrix_markup(stage, entries) + state
+    stage_content = filter_bar(entries, stage["id"]) + matrix_markup(stage, entries) + state
     return page_shell(
         stage["label"],
         "layers",
         f"""
     <section class="stage-header">
-      <div>
-        <p class="eyebrow">Pipeline class · stackable</p>
+      <div class="stage-heading">
         <h1>{esc(stage["label"])}</h1>
         <p class="stage-focus">{esc(stage["focus"])}</p>
       </div>
-      <div class="stage-meta">
-        <span class="meta-label">Funnel</span>
-        <strong>pulled {pulled} → kept {len(entries)}</strong>
-        <span class="meta-label">Staged</span>
-        <strong>{esc(data.get("generated") or "—")}</strong>
-      </div>
+      <strong class="stage-funnel">pulled {pulled} → kept {kept_count}</strong>
     </section>
-    <div class="stage-divider"></div>
     <div class="stage-layout">
       <div class="stage-main">{stage_content}</div>
       {stack_builder(catalog)}
     </div>
-    {cut_panel(stage, {**data, "entries": entries, "pulled": pulled})}
+    {cut_panel(stage, {**data, "entries": entries, "pulled": pulled, "kept_count": kept_count})}
     """,
     )
 
@@ -738,6 +841,8 @@ def asset_css() -> str:
   --amber-soft: #3c3021;
   --cyan: #72d7d1;
   --green: #9ed69f;
+  --topbar-height: 56px;
+  --stage-nav-height: 56px;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
@@ -759,37 +864,36 @@ a { color: inherit; text-decoration: none; }
   border-bottom: 1px solid var(--line);
   display: flex;
   justify-content: space-between;
-  min-height: 64px;
+  min-height: var(--topbar-height);
   padding: 0 clamp(18px, 4vw, 64px);
 }
 .wordmark { align-items: center; display: inline-flex; font: 700 18px/1 var(--mono); gap: 11px; letter-spacing: .03em; }
 .wordmark-mark { color: var(--amber); font-size: 22px; letter-spacing: -.18em; }
-.topbar-status { color: var(--muted); font: 13px/1 var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+.topbar-status { color: var(--text); font: 15px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase; }
 .status-dot { background: var(--green); border-radius: 50%; display: inline-block; height: 8px; margin-right: 7px; width: 8px; }
 .status-divider { border-left: 1px solid var(--line); display: inline-block; height: 15px; margin: 0 12px -3px; }
 .stage-nav { background: #12171a; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
 .stage-nav-inner { display: flex; margin: 0 auto; max-width: 1540px; overflow-x: auto; padding: 0 clamp(12px, 3.7vw, 60px); scrollbar-width: thin; }
-.stage-link { align-items: center; border-bottom: 3px solid transparent; color: var(--muted); display: inline-flex; flex: 0 0 auto; font-size: 16px; gap: 9px; min-height: 58px; padding: 0 16px; transition: opacity .16s ease, transform .16s ease; }
-.stage-link span { color: var(--faint); font: 12px/1 var(--mono); }
+.stage-link { align-items: center; border-bottom: 3px solid transparent; color: var(--muted); display: inline-flex; flex: 0 0 auto; font-size: 18px; gap: 9px; min-height: var(--stage-nav-height); padding: 0 16px; transition: opacity .16s ease, transform .16s ease; }
+.stage-link span { color: var(--faint); font: 15px/1 var(--mono); }
 .stage-link:hover, .stage-link:focus-visible, .stage-link.is-active { color: var(--text); }
 .stage-link.is-active { border-color: var(--amber); }
 .stage-link.is-active span { color: var(--amber); }
 .layer-link { margin-left: auto; }
-.workbench { margin: 0 auto; max-width: 1540px; padding: clamp(34px, 5vw, 78px) clamp(18px, 4vw, 64px) 88px; }
-.stage-header { align-items: end; display: flex; gap: 40px; justify-content: space-between; }
-.eyebrow, .meta-label, .section-kicker, .class-badge { color: var(--amber); font: 12px/1.2 var(--mono); letter-spacing: .11em; text-transform: uppercase; }
+.workbench { margin: 0 auto; max-width: 1540px; padding: 12px clamp(18px, 4vw, 64px) 72px; }
+.stage-header { align-items: center; border-bottom: 1px solid var(--line); display: flex; gap: 24px; justify-content: space-between; min-height: 82px; padding: 8px 0; }
+.stage-heading { align-items: baseline; display: flex; flex-wrap: wrap; gap: 12px 20px; min-width: 0; }
+.eyebrow, .meta-label, .section-kicker, .class-badge { color: var(--amber); font: 15px/1.2 var(--mono); letter-spacing: .07em; text-transform: uppercase; }
 h1, h2, p { margin-top: 0; }
-h1 { font-size: clamp(38px, 6vw, 72px); letter-spacing: -.045em; line-height: .98; margin: 13px 0 12px; }
+h1 { font-size: clamp(30px, 4vw, 40px); letter-spacing: -.045em; line-height: 1; margin: 0; }
 h2 { font-size: clamp(25px, 3vw, 38px); letter-spacing: -.025em; line-height: 1.1; }
-.stage-focus { color: var(--muted); margin: 0; }
-.stage-meta { border-left: 1px solid var(--line-strong); display: grid; gap: 3px 16px; grid-template-columns: auto auto; min-width: 230px; padding: 3px 0 3px 21px; }
-.stage-meta strong { color: var(--text); font: 15px/1.2 var(--mono); overflow-wrap: anywhere; }
-.stage-divider { border-top: 1px solid var(--line); margin: 36px 0 38px; }
+.stage-focus { color: var(--muted); font-size: 18px; margin: 0; }
+.stage-funnel { color: var(--text); flex: 0 0 auto; font: 18px/1.2 var(--mono); }
 .empty-state, .loaded-state { align-items: flex-start; background: var(--surface); border: 1px solid var(--line); display: flex; gap: 25px; max-width: 890px; padding: clamp(27px, 4vw, 48px); }
 .empty-sigil { align-items: center; border: 1px solid var(--amber); color: var(--amber); display: flex; flex: 0 0 auto; font: 700 15px/1 var(--mono); height: 48px; justify-content: center; width: 48px; }
 .empty-state h2, .loaded-state h2 { margin-bottom: 9px; }
 .empty-note, .loaded-state p:last-child { color: var(--muted); margin-bottom: 18px; max-width: 650px; }
-.text-link { color: var(--cyan); display: inline-flex; font-size: 16px; gap: 8px; }
+.text-link { color: var(--cyan); display: inline-flex; font-size: 18px; gap: 8px; }
 .text-link:hover, .text-link:focus-visible { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
 .cut-panel { align-items: center; border: 1px solid var(--line); display: flex; gap: 42px; justify-content: space-between; margin-top: 58px; padding: 25px 28px; }
 .cut-panel h2 { font: 700 21px/1.2 var(--mono); margin: 10px 0 0; white-space: nowrap; }
@@ -804,114 +908,128 @@ h2 { font-size: clamp(25px, 3vw, 38px); letter-spacing: -.025em; line-height: 1.
 .layer-summary { color: var(--muted); margin: 0; }
 .layer-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 21px; }
 .layer-chip { background: var(--amber-soft); border: 1px solid #725633; color: #ffd99e; font-size: 15px; padding: 6px 10px; }
-.layer-contract { color: var(--faint); font: 14px/1.5 var(--mono); margin: 24px 0 0; }
+.layer-contract { color: var(--muted); font: 16px/1.5 var(--mono); margin: 24px 0 0; }
 code { color: var(--cyan); font-family: var(--mono); }
-.stage-layout { align-items: start; display: grid; gap: clamp(24px, 4vw, 54px); grid-template-columns: minmax(0, 1fr) minmax(320px, 390px); }
+.stage-layout { align-items: start; display: grid; gap: clamp(24px, 3vw, 36px); grid-template-columns: minmax(0, 1fr) minmax(320px, 360px); }
 .stage-main { min-width: 0; }
-.entry-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(235px, 1fr)); }
+.entry-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .entry-card { background: var(--surface); border: 1px solid var(--line); cursor: pointer; min-width: 0; outline: none; overflow: hidden; transition: transform .16s ease, opacity .16s ease; }
 .entry-card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
 .entry-card:focus-visible { border-color: var(--amber); box-shadow: 0 0 0 2px var(--amber-soft); }
-.card-media { aspect-ratio: 3 / 4; background: #0d1113; overflow: hidden; position: relative; }
+.card-media { aspect-ratio: 4 / 3; background: #0d1113; overflow: hidden; position: relative; }
 .card-image, .card-video { display: block; height: 100%; object-fit: cover; width: 100%; }
-.media-index { background: rgba(13, 17, 19, .84); bottom: 10px; color: var(--cyan); font: 11px/1 var(--mono); left: 10px; padding: 6px 7px; position: absolute; text-transform: uppercase; }
-.media-missing { align-items: center; color: var(--faint); display: flex; font: 13px/1 var(--mono); height: 100%; justify-content: center; }
-.engine-spec { align-items: center; color: var(--faint); display: flex; font: 13px/1 var(--mono); height: 100%; justify-content: center; letter-spacing: .08em; text-transform: uppercase; }
+.media-index { background: rgba(13, 17, 19, .84); bottom: 10px; color: var(--cyan); font: 15px/1 var(--mono); left: 10px; padding: 6px 7px; position: absolute; text-transform: uppercase; }
+.media-missing { align-items: center; color: var(--faint); display: flex; font: 18px/1 var(--mono); height: 100%; justify-content: center; }
+.engine-spec { align-items: center; color: var(--faint); display: flex; font: 18px/1 var(--mono); height: 100%; justify-content: center; letter-spacing: .08em; text-transform: uppercase; }
 .card-body { padding: 15px 16px 13px; }
 .card-topline, .card-footer { align-items: center; display: flex; justify-content: space-between; }
 .card-topline { min-height: 19px; }
-.open-badge, .demo-badge { font: 11px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+.open-badge, .demo-badge { font: 16px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
 .open-badge { color: var(--green); }
 .demo-badge { color: var(--amber); }
-.entry-name { font-size: 21px; letter-spacing: -.02em; line-height: 1.16; margin: 12px 0 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.entry-purpose { color: var(--muted); font-size: 16px; line-height: 1.35; margin-bottom: 13px; min-height: 22px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.entry-name { font-size: 20px; letter-spacing: -.02em; line-height: 1.16; margin: 12px 0 6px; overflow-wrap: anywhere; }
+.entry-purpose { color: var(--muted); font-size: 18px; line-height: 1.35; margin-bottom: 13px; overflow-wrap: anywhere; }
 .entry-chips { display: flex; flex-wrap: wrap; gap: 5px; min-height: 27px; }
-.entry-chip { background: var(--surface-soft); border: 1px solid var(--line); color: var(--muted); font: 12px/1.1 var(--mono); padding: 6px 7px; }
-.card-footer { border-top: 1px solid var(--line); color: var(--faint); font: 11px/1 var(--mono); margin-top: 15px; padding-top: 12px; text-transform: uppercase; }
+.entry-chip { background: var(--surface-soft); border: 1px solid var(--line); color: var(--muted); font: 18px/1.15 var(--mono); padding: 6px 7px; }
+.card-footer { border-top: 1px solid var(--line); color: var(--muted); font: 18px/1.2 var(--mono); margin-top: 15px; padding-top: 12px; text-transform: uppercase; }
 .card-detail { border-top: 1px solid var(--line-strong); margin-top: 15px; padding-top: 15px; }
 .detail-grid { display: grid; gap: 12px; }
 .detail-grid > div { display: grid; gap: 3px; }
-.detail-label { color: var(--faint); font: 11px/1 var(--mono); text-transform: uppercase; }
-.detail-grid strong { font-size: 15px; font-weight: 500; overflow-wrap: anywhere; }
+.detail-label { color: var(--muted); font: 15px/1 var(--mono); text-transform: uppercase; }
+.detail-grid strong { font-size: 18px; font-weight: 500; overflow-wrap: anywhere; }
 .detail-grid a, .manifest-preview a { color: var(--cyan); }
-.detail-verdict { border-left: 2px solid var(--amber); color: var(--muted); font-size: 15px; margin: 18px 0; padding-left: 10px; }
-.manifest-preview { color: var(--muted); font-size: 14px; margin: 0; padding-left: 18px; }
+.detail-verdict { border-left: 2px solid var(--amber); color: var(--muted); font-size: 18px; margin: 18px 0; padding-left: 10px; }
+.manifest-preview { color: var(--muted); font-size: 18px; margin: 0; padding-left: 18px; }
 .manifest-preview li { margin: 7px 0; overflow-wrap: anywhere; }
-.stack-builder { background: #12171a; border: 1px solid var(--line-strong); max-height: calc(100vh - 145px); overflow: auto; padding: 22px 20px 21px; position: sticky; top: 122px; }
+.stack-builder { background: #12171a; border: 1px solid var(--line-strong); max-height: calc(100vh - var(--stage-nav-height) - 24px); overflow: auto; padding: 18px 16px 20px; position: sticky; top: calc(var(--stage-nav-height) + 12px); }
 .stack-heading, .manifest-heading { align-items: start; display: flex; justify-content: space-between; }
 .stack-heading h2 { font-size: 29px; margin: 9px 0 0; }
-.stack-live { color: var(--green); font: 11px/1 var(--mono); letter-spacing: .08em; padding-top: 5px; text-transform: uppercase; }
+.stack-live { color: var(--green); font: 18px/1 var(--mono); letter-spacing: .04em; padding-top: 5px; text-transform: uppercase; }
 .stack-live span { background: var(--green); border-radius: 50%; display: inline-block; height: 7px; margin-right: 5px; width: 7px; }
-.stack-copy { color: var(--muted); font-size: 16px; line-height: 1.4; margin: 19px 0 22px; }
-.stack-slots { display: grid; gap: 16px; }
-.stack-slot { border-top: 1px solid var(--line); padding-top: 12px; }
-.stack-slot h3, .manifest-heading h3 { color: var(--text); font: 700 15px/1.2 var(--mono); letter-spacing: .03em; margin: 0 0 9px; text-transform: uppercase; }
+.stack-empty { background: var(--surface); border: 1px solid var(--line); margin: 16px 0 20px; padding: 14px; }
+.stack-empty strong { color: var(--text); font-size: 22px; line-height: 1.2; }
+.stack-plan { display: grid; gap: 16px; margin: 16px 0 22px; }
+.stack-selected { background: var(--amber-soft); border: 2px solid var(--amber); display: grid; gap: 8px; padding: 13px; }
+.stack-selected::before { color: var(--amber); content: "Selected inputs"; font: 15px/1 var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+.stack-selected-item { align-items: baseline; display: flex; flex-wrap: wrap; gap: 8px 12px; }
+.stack-selected-item strong { font-size: 20px; line-height: 1.18; overflow-wrap: anywhere; }
+.stack-selected-item span { color: var(--text); font: 16px/1.2 var(--mono); text-transform: uppercase; }
+.stack-slots { display: grid; gap: 12px; }
+.stack-plan-slot, .stack-catalog-group { border-top: 1px solid var(--line); padding-top: 11px; }
+.stack-plan-slot h3, .stack-catalog-group h3, .manifest-heading h3 { color: var(--text); font: 700 18px/1.2 var(--mono); letter-spacing: .03em; margin: 0 0 8px; text-transform: uppercase; }
+.stack-plan-slot [data-plan-selection] { color: var(--muted); font-size: 18px; line-height: 1.3; }
+.plan-selection-item { display: block; font-size: 20px; overflow-wrap: anywhere; }
+.stack-catalogs { border-top: 1px solid var(--line-strong); margin-top: 12px; padding-top: 16px; }
+.catalog-heading { color: var(--cyan); font: 18px/1.2 var(--mono); margin: 0 0 12px; text-transform: uppercase; }
 .stack-option { align-items: center; background: var(--surface); border: 1px solid transparent; color: var(--text); cursor: pointer; display: flex; font: inherit; gap: 10px; justify-content: space-between; margin: 4px 0; padding: 9px 10px; text-align: left; transition: transform .16s ease, opacity .16s ease; width: 100%; }
 .stack-option:hover, .stack-option[aria-pressed="true"] { border-color: var(--amber); }
 .stack-option[aria-pressed="true"] { background: var(--amber-soft); }
 .stack-option-main { display: grid; gap: 3px; min-width: 0; }
-.stack-option-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.stack-option-sub { color: var(--faint); font: 11px/1.2 var(--mono); text-transform: uppercase; }
-.stack-option-action { color: var(--cyan); font: 11px/1 var(--mono); text-transform: uppercase; }
-.stack-empty, .manifest-empty { color: var(--faint); font-size: 14px; margin: 0; }
+.stack-option-name { font-size: 20px; line-height: 1.18; overflow-wrap: anywhere; }
+.stack-option-sub { color: var(--muted); font: 18px/1.25 var(--mono); text-transform: uppercase; }
+.stack-option-action { color: var(--cyan); font: 18px/1 var(--mono); text-transform: uppercase; }
+.stack-empty, .manifest-empty { color: var(--muted); font-size: 18px; margin: 0; }
 .stack-totals { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; gap: 10px; grid-template-columns: 1fr 1fr; margin: 22px 0 18px; padding: 14px 0; }
 .stack-totals div { display: grid; gap: 3px; }
-.stack-totals span { color: var(--faint); font: 11px/1 var(--mono); text-transform: uppercase; }
+.stack-totals span { color: var(--muted); font: 18px/1 var(--mono); text-transform: uppercase; }
 .stack-totals strong { color: var(--amber); font: 700 20px/1.1 var(--mono); }
 .manifest-heading { align-items: center; margin-bottom: 10px; }
-.copy-all { background: transparent; border: 1px solid var(--cyan); color: var(--cyan); cursor: pointer; font: 11px/1 var(--mono); padding: 7px 8px; text-transform: uppercase; }
+.copy-all { background: transparent; border: 1px solid var(--cyan); color: var(--cyan); cursor: pointer; font: 18px/1 var(--mono); padding: 7px 8px; text-transform: uppercase; }
 .copy-all:disabled { border-color: var(--line); color: var(--faint); cursor: not-allowed; }
 .copy-all:not(:disabled):hover { background: var(--cyan); color: var(--ink); }
 .manifest { display: grid; gap: 7px; }
 .manifest-row { background: var(--surface); border-left: 2px solid var(--cyan); display: grid; gap: 4px; padding: 9px 10px; }
-.manifest-row strong { font-size: 14px; overflow-wrap: anywhere; }
-.manifest-row span { color: var(--muted); font: 12px/1.35 var(--mono); overflow-wrap: anywhere; }
+.manifest-row strong { font-size: 18px; overflow-wrap: anywhere; }
+.manifest-row span { color: var(--muted); font: 18px/1.35 var(--mono); overflow-wrap: anywhere; }
 .manifest-row a { color: var(--cyan); }
-.copy-status { color: var(--green); font: 12px/1.3 var(--mono); margin: 12px 0 0; min-height: 16px; }
+.copy-status { color: var(--green); font: 16px/1.3 var(--mono); margin: 12px 0 0; min-height: 20px; }
+.style-reason { border-left: 2px solid var(--cyan); color: var(--muted); font-size: 18px; line-height: 1.3; margin: 0 0 13px; padding-left: 10px; }
+.card-footer { align-items: center; flex-wrap: wrap; gap: 10px; }
+.card-add { background: transparent; border: 1px solid var(--cyan); color: var(--cyan); cursor: pointer; font: 18px/1.1 var(--mono); margin-left: auto; padding: 7px 8px; text-transform: uppercase; }
+.card-add:hover, .card-add[aria-pressed="true"] { background: var(--cyan); color: var(--ink); }
+.entry-card.is-stack-selected { border: 2px solid var(--amber); box-shadow: 0 0 0 3px var(--amber-soft); }
 [hidden] { display: none !important; }
-.filters { background: var(--surface); border: 1px solid var(--line); margin-bottom: 24px; padding: 15px 16px 14px; }
+.filters { background: rgba(23, 28, 32, .97); border: 1px solid var(--line); margin-bottom: 12px; padding: 10px 12px; position: sticky; top: var(--stage-nav-height); z-index: 8; }
 .search-field { align-items: center; display: flex; gap: 16px; }
-.search-field span { color: var(--amber); flex: 0 0 auto; font: 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.search-field span { color: var(--amber); flex: 0 0 auto; font: 16px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
 .search-field input { background: var(--ink); border: 1px solid var(--line-strong); color: var(--text); font: 18px/1.2 var(--sans); min-width: 0; outline: none; padding: 10px 12px; width: 100%; }
 .search-field input:focus { border-color: var(--cyan); box-shadow: 0 0 0 2px rgba(114, 215, 209, .16); }
 .search-field input::placeholder { color: var(--faint); }
 .filter-row { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 13px; }
-.filter-chip { background: transparent; border: 1px solid var(--line-strong); color: var(--muted); cursor: pointer; font: 13px/1 var(--mono); padding: 8px 9px; }
+.filter-chip { background: transparent; border: 1px solid var(--line-strong); color: var(--muted); cursor: pointer; font: 16px/1.1 var(--mono); padding: 8px 9px; }
 .filter-chip b { color: var(--cyan); font-weight: 500; }
 .filter-chip:hover:not(:disabled), .filter-chip[aria-pressed="true"] { background: var(--amber-soft); border-color: var(--amber); color: var(--text); }
 .filter-chip:disabled { color: var(--faint); cursor: not-allowed; opacity: .6; }
 .filter-chip:disabled b { color: var(--faint); }
-.decision-matrix { background: #12171a; border: 1px solid var(--line); margin-bottom: 24px; padding: 20px; }
-.matrix-heading { align-items: start; display: flex; gap: 20px; justify-content: space-between; }
-.matrix-heading h2 { font-size: 23px; margin: 8px 0 0; }
-.matrix-count { color: var(--cyan); font: 12px/1 var(--mono); padding-top: 5px; white-space: nowrap; }
-.matrix-body { margin-top: 18px; }
+.decision-matrix { background: #12171a; border: 1px solid var(--line); margin-bottom: 12px; padding: 10px 14px; }
+.matrix-count { color: var(--cyan); display: block; font: 18px/1 var(--mono); margin-bottom: 7px; white-space: nowrap; }
+.matrix-body { margin-top: 0; }
 .matrix-empty { color: var(--muted); margin: 0; }
 .matrix-row { border-top: 1px solid var(--line); display: grid; gap: 18px; grid-template-columns: minmax(130px, .35fr) minmax(0, 1fr); padding: 15px 0; }
 .matrix-need { display: grid; gap: 5px; align-content: start; }
-.matrix-need span { color: var(--faint); font: 11px/1 var(--mono); text-transform: uppercase; }
+.matrix-need span { color: var(--muted); font: 15px/1 var(--mono); text-transform: uppercase; }
 .matrix-need strong { font-size: 18px; line-height: 1.25; }
-.matrix-options { display: grid; gap: 7px; }
-.matrix-option { align-items: center; background: var(--surface); display: grid; gap: 9px; grid-template-columns: minmax(0, 1fr) auto; padding: 9px 11px; }
-.matrix-option > strong { font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.matrix-option > span { grid-column: 1 / -1; grid-row: 2; }
-.matrix-option em { color: var(--amber); font: 12px/1 var(--mono); grid-column: 2; grid-row: 1; white-space: nowrap; }
-.score-button { background: transparent; border: 0; color: var(--amber); cursor: pointer; font: 12px/1 var(--mono); padding: 0; text-transform: uppercase; }
+.matrix-options { display: grid; gap: 7px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.matrix-option { align-items: flex-start; background: var(--surface); display: flex; flex-direction: column; gap: 7px; justify-content: space-between; min-width: 0; padding: 9px 11px; }
+.matrix-option > strong { font-size: 20px; line-height: 1.18; overflow-wrap: anywhere; }
+.matrix-option em { align-self: flex-end; color: var(--amber); font: 18px/1 var(--mono); white-space: nowrap; }
+.score-button { background: transparent; border: 0; color: var(--amber); cursor: pointer; font: 18px/1 var(--mono); padding: 0; text-transform: uppercase; }
 .score-button:hover { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
 .card-footer { position: relative; }
-.score-popover { background: #0d1113; border: 1px solid var(--amber); bottom: 28px; color: var(--muted); font-size: 14px; left: 0; min-width: 255px; padding: 14px; position: absolute; z-index: 3; }
+.score-popover { background: #0d1113; border: 1px solid var(--amber); bottom: 28px; color: var(--muted); font-size: 18px; left: 0; min-width: 255px; padding: 14px; position: absolute; z-index: 3; }
 .score-popover strong { color: var(--amber); font: 700 20px/1 var(--mono); }
 .score-popover p { margin: 10px 0 0; }
 .score-popover ul { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); list-style: none; margin: 10px 0 0; padding: 8px 0; }
 .score-popover li { display: flex; justify-content: space-between; padding: 3px 0; }
-.score-popover li span { color: var(--faint); }
-.score-popover .score-date { color: var(--faint); font: 11px/1.3 var(--mono); }
+.score-popover li span { color: var(--muted); }
+.score-popover .score-date { color: var(--muted); font: 15px/1.3 var(--mono); }
 .is-explicit .card-image, .is-explicit .card-video { filter: blur(15px); }
 .is-explicit:hover .card-image, .is-explicit:hover .card-video { filter: none; }
 @media (max-width: 760px) {
-  .topbar-status { font-size: 11px; }
+  .topbar-status { font-size: 14px; }
   .status-divider, .topbar-status .status-dot { display: none; }
-  .stage-header, .cut-panel { align-items: flex-start; flex-direction: column; gap: 22px; }
+  .stage-header, .cut-panel { align-items: flex-start; flex-direction: column; gap: 10px; }
+  .stage-heading { align-items: flex-start; flex-direction: column; gap: 4px; }
   .stage-meta { min-width: 0; }
   .layer-link { margin-left: 0; }
   .layers-heading { flex-direction: column; }
@@ -920,6 +1038,7 @@ code { color: var(--cyan); font-family: var(--mono); }
   .stack-builder { max-height: none; position: static; }
   .search-field { align-items: flex-start; flex-direction: column; gap: 8px; }
   .matrix-row { grid-template-columns: 1fr; }
+  .matrix-options { grid-template-columns: 1fr; }
   .matrix-option > strong { white-space: normal; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -937,7 +1056,7 @@ def asset_js() -> str:
     if (link.dataset.stage === page) link.setAttribute('aria-current', 'page');
   });
 
-  const selected = new Map();
+  const selected = {base: null, layer: [], motion: null, voice: null};
   const exactVersion = (url) => typeof url === 'string' && (/modelVersionId=/.test(url) || /\/model-versions\//.test(url));
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const formatSize = (value) => `${Math.round(Number(value) || 0)} MB`;
@@ -956,14 +1075,23 @@ def asset_js() -> str:
   const cardFacets = (card) => {
     try { return JSON.parse(card.dataset.facets || '[]'); } catch (error) { return []; }
   };
+  const updateStyleVisibility = () => {
+    const animeMode = page === 'persona' && activeFacet === 'style: anime';
+    document.querySelectorAll('.persona-anime-option').forEach((option) => { option.hidden = !animeMode; });
+  };
   const matches = (card, query, facet = '') => {
     const textMatch = !query || (card.dataset.search || '').includes(query);
-    const facetMatch = !facet || cardFacets(card).includes(facet);
-    return textMatch && facetMatch;
+    const animeMode = page === 'persona' && (activeFacet === 'style: anime' || facet === 'style: anime');
+    const isAnime = card.dataset.style === 'anime-illustration';
+    const styleMatch = page !== 'persona' || (animeMode ? isAnime : !isAnime);
+    const facetMatch = !facet || (facet === 'style: anime' ? isAnime : cardFacets(card).includes(facet));
+    return textMatch && styleMatch && facetMatch;
   };
   const updateFilters = () => {
     const query = (searchInput?.value || '').trim().toLowerCase();
     cards.forEach((card) => { card.hidden = !matches(card, query, activeFacet); });
+    const animeCluster = document.querySelector('[data-anime-cluster]');
+    if (animeCluster) animeCluster.hidden = !(page === 'persona' && activeFacet === 'style: anime');
     const allCount = cards.filter((card) => matches(card, query)).length;
     const allNode = document.querySelector('[data-all-count]');
     if (allNode) allNode.textContent = allCount;
@@ -976,6 +1104,7 @@ def asset_js() -> str:
       chip.disabled = count === 0 && activeFacet !== facet;
     });
     filterChips.forEach((chip) => chip.setAttribute('aria-pressed', String((chip.dataset.filterFacet || '') === activeFacet)));
+    updateStyleVisibility();
   };
   filterChips.forEach((chip) => chip.addEventListener('click', () => {
     activeFacet = chip.dataset.filterFacet || '';
@@ -988,6 +1117,7 @@ def asset_js() -> str:
   if (searchInput) searchInput.value = initialUrl.searchParams.get('q') || '';
   const initialFacet = initialUrl.searchParams.get('filter') || '';
   if (initialFacet && filterChips.some((chip) => chip.dataset.filterFacet === initialFacet)) activeFacet = initialFacet;
+  updateFilters();
 
   document.querySelectorAll('.score-button').forEach((button) => {
     button.addEventListener('click', (event) => {
@@ -1005,38 +1135,95 @@ def asset_js() -> str:
       let score;
       try { score = JSON.parse(button.dataset.scorePayload || '{}'); } catch (error) { score = {}; }
       const axes = Object.entries(score.axes || {}).map(([key, value]) => `<li><span>${escapeHtml(key)}</span><strong>${escapeHtml(value)}</strong></li>`).join('');
-      popover.innerHTML = `<strong>score ${escapeHtml(score.score || '—')}</strong><p>Community anchors: ${escapeHtml(score.community?.downloads)} downloads · ${escapeHtml(score.community?.thumbs_up)} likes</p><ul>${axes}</ul><p>${escapeHtml(score.verdict || 'No decision note staged.')}</p><span class="score-date">pulled ${escapeHtml(score.pulled_at || 'not staged')}</span>`;
+      const scoreMarkup = score.score ? `<strong>score ${escapeHtml(score.score)}</strong>` : '';
+      const communityMarkup = score.community ? `<p>Community anchors: ${Object.entries(score.community).map(([key, value]) => `${escapeHtml(value)} ${escapeHtml(key)}`).join(' · ')}</p>` : '';
+      const axesMarkup = axes ? `<ul>${axes}</ul>` : '';
+      const verdictMarkup = score.verdict ? `<p>${escapeHtml(score.verdict)}</p>` : '';
+      const dateMarkup = score.pulled_at ? `<span class="score-date">pulled ${escapeHtml(score.pulled_at)}</span>` : '';
+      popover.innerHTML = `${scoreMarkup}${communityMarkup}${axesMarkup}${verdictMarkup}${dateMarkup}`;
       popover.hidden = false;
       button.setAttribute('aria-expanded', 'true');
     });
   });
 
+  const roleLabel = (role) => ({base: 'base', layer: 'layer', motion: 'motion', voice: 'voice'}[role] || role);
+  const selectedItems = () => [selected.base, ...selected.layer, selected.motion, selected.voice].filter(Boolean);
+  const isSelected = (item) => {
+    if (!item || !item.role) return false;
+    return item.role === 'layer' ? selected.layer.some((entry) => entry.id === item.id) : selected[item.role]?.id === item.id;
+  };
+  const toggleSelected = (item) => {
+    if (!item || !item.id || !Object.prototype.hasOwnProperty.call(selected, item.role)) return;
+    if (item.role === 'layer') {
+      const index = selected.layer.findIndex((entry) => entry.id === item.id);
+      if (index >= 0) selected.layer.splice(index, 1); else selected.layer.push(item);
+      return;
+    }
+    selected[item.role] = selected[item.role]?.id === item.id ? null : item;
+  };
+  const updateSelectionVisuals = () => {
+    document.querySelectorAll('.stack-option[data-stack-entry]').forEach((option) => {
+      let item;
+      try { item = JSON.parse(option.dataset.stackEntry || '{}'); } catch (error) { item = {}; }
+      const active = isSelected(item);
+      option.setAttribute('aria-pressed', String(active));
+      const action = option.querySelector('.stack-option-action');
+      if (action) action.textContent = active ? 'remove' : 'add';
+    });
+    document.querySelectorAll('.entry-card[data-stack-payload]').forEach((card) => {
+      let item;
+      try { item = JSON.parse(card.dataset.stackPayload || '{}'); } catch (error) { item = {}; }
+      const active = isSelected(item);
+      card.classList.toggle('is-stack-selected', active);
+      const addButton = card.querySelector('[data-card-add]');
+      if (addButton) {
+        addButton.setAttribute('aria-pressed', String(active));
+        addButton.textContent = active ? 'remove from stack' : 'add to stack';
+      }
+    });
+  };
+  const updatePlan = () => {
+    const items = selectedItems();
+    const hasStack = items.length > 0;
+    const empty = document.querySelector('[data-stack-empty]');
+    const plan = document.querySelector('[data-stack-plan]');
+    const live = document.querySelector('[data-stack-live]');
+    if (empty) empty.hidden = hasStack;
+    if (plan) plan.hidden = !hasStack;
+    if (live) live.hidden = !hasStack;
+    const selectedSummary = document.querySelector('[data-stack-selected]');
+    if (selectedSummary) {
+      selectedSummary.innerHTML = items.map((item) => `<div class="stack-selected-item"><span>${escapeHtml(roleLabel(item.role))}</span><strong>${escapeHtml(item.name)}</strong></div>`).join('');
+    }
+    document.querySelectorAll('[data-plan-slot]').forEach((slot) => {
+      const role = slot.dataset.planSlot;
+      const values = role === 'layer' ? selected.layer : (selected[role] ? [selected[role]] : []);
+      const target = slot.querySelector('[data-plan-selection]');
+      if (target) target.innerHTML = values.map((item) => `<span class="plan-selection-item">${escapeHtml(item.name)}</span>`).join('');
+    });
+  };
   const manifestRows = () => {
     const rows = [];
     const seen = new Set();
-    selected.forEach((item) => {
+    selectedItems().forEach((item) => {
       const models = Array.isArray(item.models) ? item.models : [];
       models.forEach((model) => {
-        if (!exactVersion(model.url)) return;
+        if (!model.name || !model.folder || model.size_mb == null || !exactVersion(model.url)) return;
         const key = `${model.name}|${model.url}`;
         if (seen.has(key)) return;
         seen.add(key);
-        rows.push({name: model.name || 'unnamed file', folder: model.folder || 'folder not staged', size: model.size_mb, url: model.url});
+        rows.push({name: model.name, folder: model.folder, size: model.size_mb, url: model.url});
       });
-      if (!models.some((model) => exactVersion(model.url)) && exactVersion(item.exact_url)) {
-        const key = `${item.name}|${item.exact_url}`;
-        if (!seen.has(key)) {
-          seen.add(key);
-          rows.push({name: item.name, folder: 'version file', size: item.disk, url: item.exact_url});
-        }
-      }
     });
     return rows;
   };
 
   const updateStack = () => {
-    const vram = [...selected.values()].reduce((sum, item) => sum + (Number(item.vram) || 0), 0);
-    const disk = [...selected.values()].reduce((sum, item) => sum + (Number(item.disk) || 0), 0);
+    const items = selectedItems();
+    const vram = items.reduce((sum, item) => sum + (Number(item.vram) || 0), 0);
+    const disk = items.reduce((sum, item) => sum + (Number(item.disk) || 0), 0);
+    updatePlan();
+    updateSelectionVisuals();
     const vramNode = document.querySelector('[data-stack-vram]');
     const diskNode = document.querySelector('[data-stack-disk]');
     if (vramNode) vramNode.textContent = `${vram} GB`;
@@ -1045,7 +1232,7 @@ def asset_js() -> str:
     const manifest = document.querySelector('[data-stack-manifest]');
     const copyButton = document.querySelector('[data-copy-all]');
     if (manifest) {
-      manifest.innerHTML = rows.length ? rows.map((row) => `<div class="manifest-row"><strong>${escapeHtml(row.name)}</strong><span>${escapeHtml(row.folder)} · ${formatSize(row.size)}</span><a href="${escapeHtml(row.url)}" target="_blank" rel="noreferrer">exact version ↗</a></div>`).join('') : '<p class="manifest-empty">No exact-version rows in the current selection.</p>';
+      manifest.innerHTML = rows.map((row) => `<div class="manifest-row"><strong>${escapeHtml(row.name)}</strong><span>${escapeHtml(row.folder)} · ${formatSize(row.size)}</span><a href="${escapeHtml(row.url)}" target="_blank" rel="noreferrer">exact version ↗</a></div>`).join('');
     }
     if (copyButton) copyButton.disabled = rows.length === 0;
   };
@@ -1054,18 +1241,19 @@ def asset_js() -> str:
     option.addEventListener('click', () => {
       let item;
       try { item = JSON.parse(option.dataset.stackEntry || '{}'); } catch (error) { return; }
-      const role = item.role;
-      if (selected.get(role)?.id === item.id) {
-        selected.delete(role);
-      } else {
-        selected.set(role, item);
-      }
-      document.querySelectorAll(`.stack-option[data-stack-entry]`).forEach((candidate) => {
-        try {
-          const candidateItem = JSON.parse(candidate.dataset.stackEntry || '{}');
-          candidate.setAttribute('aria-pressed', String(selected.get(candidateItem.role)?.id === candidateItem.id));
-        } catch (error) { /* an invalid option stays visually inactive */ }
-      });
+      toggleSelected(item);
+      updateStack();
+    });
+  });
+
+  document.querySelectorAll('[data-card-add]').forEach((button) => {
+    button.addEventListener('click', (event) => {
+      event.stopPropagation();
+      const card = button.closest('.entry-card');
+      if (!card) return;
+      let item;
+      try { item = JSON.parse(card.dataset.stackPayload || '{}'); } catch (error) { return; }
+      toggleSelected(item);
       updateStack();
     });
   });

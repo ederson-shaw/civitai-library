@@ -1,6 +1,6 @@
 {
  "stage": "CAMERA_ANGLE",
- "generated": "2026-09-02T05:13:41+00:00",
+ "generated": "2026-09-02T05:22:25+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -40,7 +40,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/155198?modelVersionId=176762",
+   "download": {
+    "name": "animatediffWorkflow_3KeyframesV11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/176762",
+    "size_mb": 1
+   },
+   "disk_mb": 1
   },
   {
    "id": 1796490,
@@ -153,6 +162,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1796490?modelVersionId=2033042",
+   "download": {
+    "name": "consistentCharacter_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2033042"
    }
   },
   {
@@ -192,6 +208,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2096307?modelVersionId=2371802",
+   "download": {
+    "name": "qwenEdit2509MultiAngle_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2371802"
    }
   },
   {
@@ -231,6 +254,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/145921?modelVersionId=162402",
+   "download": {
+    "name": "productPhotoComposerSD15_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/162402"
    }
   },
   {
@@ -270,7 +300,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2031587?modelVersionId=2299258",
+   "download": {
+    "name": "QwenEdit2509Simple_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2299258",
+    "size_mb": 1
+   },
+   "disk_mb": 1
   },
   {
    "id": 2323627,
@@ -326,6 +365,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2323627?modelVersionId=2613961",
+   "download": {
+    "name": "flux2Klein4BVs9BMultiCamera_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2613961"
    }
   },
   {
@@ -471,6 +517,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1774551?modelVersionId=2148675",
+   "download": {
+    "name": "poseSelectorFlux_v12PoseLoraUpdate.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2148675"
    }
   },
   {
@@ -633,7 +686,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "video decomposer — pairs with vid2vid, camera/control tooling, Q8 video"
+   "curated_note": "video decomposer — pairs with vid2vid, camera/control tooling, Q8 video",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/526049?modelVersionId=603467",
+   "download": {
+    "name": "videoDecomposer_v11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/603467",
+    "size_mb": 1
+   },
+   "disk_mb": 1
   },
   {
    "id": 2313745,
@@ -748,7 +810,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "multi-angle control qwen_edit — core stage function"
+   "curated_note": "multi-angle control qwen_edit — core stage function",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2313745?modelVersionId=2603131",
+   "download": {
+    "name": "multiAngleControlOfImage_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2603131"
+   }
   },
   {
    "id": 2252071,
@@ -853,6 +922,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2252071?modelVersionId=2580041",
+   "download": {
+    "name": "imageQwenImageEdit2511_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2580041"
    }
   },
   {
@@ -925,6 +1001,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2391906?modelVersionId=2689411",
+   "download": {
+    "name": "fluxKlein9bCharacter_charmergeFK9Multi.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2689411"
    }
   },
   {
@@ -1064,7 +1147,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "pose transfer qwen_edit_2509 — core function"
+   "curated_note": "pose transfer qwen_edit_2509 — core function",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2103017?modelVersionId=2421351",
+   "download": {
+    "name": "characterPoseTransfer_v21.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2421351"
+   }
   },
   {
    "id": 546507,
@@ -1303,7 +1393,15 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "animatediff vid2vid pairing decomposer, Q8 video"
+   "curated_note": "animatediff vid2vid pairing decomposer, Q8 video",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/546507?modelVersionId=609251",
+   "download": {
+    "name": "animatediffVid2vidToUse_v12.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/609251",
+    "size_mb": 3
+   }
   },
   {
    "id": 2809079,
@@ -1342,6 +1440,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2809079?modelVersionId=3167685",
+   "download": {
+    "name": "krea2IdentityInstantPose_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/3167685"
    }
   },
   {
@@ -1381,7 +1486,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2030628?modelVersionId=2298162",
+   "download": {
+    "name": "qwenEditPlus2509_v10Old2509.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2298162",
+    "size_mb": 1
+   },
+   "disk_mb": 1
   },
   {
    "id": 2180915,
@@ -1422,7 +1536,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "z-image pose & scene variation, reali Q7"
+   "curated_note": "z-image pose & scene variation, reali Q7",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2180915?modelVersionId=2455799",
+   "download": {
+    "name": "workflowZImageForPose_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2455799"
+   }
   },
   {
    "id": 2375500,
@@ -1463,7 +1584,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "qwen multi-angle batch, reali Q7"
+   "curated_note": "qwen multi-angle batch, reali Q7",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2375500?modelVersionId=2671472",
+   "download": {
+    "name": "qwenMultiAngleSingleAngle_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2671472"
+   }
   },
   {
    "id": 1719791,
@@ -1504,7 +1632,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "VACE control suite depth/openpose/canny/splines, video"
+   "curated_note": "VACE control suite depth/openpose/canny/splines, video",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1719791?modelVersionId=1950603",
+   "download": {
+    "name": "vaceControlDepth_vaceControlMultiple.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/1950603"
+   }
   },
   {
    "id": 1524065,
@@ -1545,7 +1680,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "VACE motion paths — path-guided camera move (rare), Q5 noted"
+   "curated_note": "VACE motion paths — path-guided camera move (rare), Q5 noted",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1524065?modelVersionId=1724366",
+   "download": {
+    "name": "vaceMotionPathsUseAPath_vaceguidemotion.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/1724366"
+   }
   },
   {
    "id": 2298671,
@@ -1586,7 +1728,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "pose transfer qwen 2511, reali Q7"
+   "curated_note": "pose transfer qwen 2511, reali Q7",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2298671?modelVersionId=2616808",
+   "download": {
+    "name": "characterPoseTransfer_v11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2616808"
+   }
   },
   {
    "id": 2608818,
@@ -1627,7 +1776,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "automated pose transfer, reali Q6"
+   "curated_note": "automated pose transfer, reali Q6",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2608818?modelVersionId=2929303",
+   "download": {
+    "name": "fullyAutomatedPoseTransfer_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2929303"
+   }
   },
   {
    "id": 2303045,
@@ -1668,7 +1824,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "multi-angle dataset qwen 2511, Q6"
+   "curated_note": "multi-angle dataset qwen 2511, Q6",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2303045?modelVersionId=2591369",
+   "download": {
+    "name": "multiAngleDatasetWorkflow_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2591369",
+    "size_mb": 24
+   },
+   "disk_mb": 24
   },
   {
    "id": 2345911,
@@ -1709,7 +1874,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "advanced multi-angle/perspective editing"
+   "curated_note": "advanced multi-angle/perspective editing",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2345911?modelVersionId=2638672",
+   "download": {
+    "name": "multiple2511AdvancedMulti_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2638672"
+   }
   },
   {
    "id": 2129379,
@@ -1750,7 +1922,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "character scene consistency across angle changes"
+   "curated_note": "character scene consistency across angle changes",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2129379?modelVersionId=2408685",
+   "download": {
+    "name": "qwenedit2509Maintaining_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2408685"
+   }
   },
   {
    "id": 2349397,
@@ -1789,6 +1968,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2349397?modelVersionId=2642491",
+   "download": {
+    "name": "multiAnglePerspective_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2642491"
    }
   },
   {
@@ -1830,7 +2016,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "LTX i2v camera control, modern, video Q8"
+   "curated_note": "LTX i2v camera control, modern, video Q8",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1250209?modelVersionId=1712681",
+   "download": {
+    "name": "ltxI2vWithCamera_v14Dev.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/1712681"
+   }
   },
   {
    "id": 2337141,
@@ -1871,7 +2064,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "LTX-2 pose+audio to video, reali Q8"
+   "curated_note": "LTX-2 pose+audio to video, reali Q8",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2337141?modelVersionId=2633272",
+   "download": {
+    "name": "ltx2PoseImageAudioTo_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2633272"
+   }
   },
   {
    "id": 2411518,
@@ -1910,6 +2110,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2411518?modelVersionId=2711363",
+   "download": {
+    "name": "zImageTurboVNCCS_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2711363"
    }
   },
   {
@@ -1949,6 +2156,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1920774?modelVersionId=2247360",
+   "download": {
+    "name": "t2iQwenimageWithPose_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2247360"
    }
   },
   {
@@ -1990,7 +2204,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "pose+clothes transfer, reali Q8"
+   "curated_note": "pose+clothes transfer, reali Q8",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2296023?modelVersionId=2583613",
+   "download": {
+    "name": "poseClothesTransfer_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2583613"
+   }
   },
   {
    "id": 460491,
@@ -2031,7 +2252,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "character video animateLCM openpose, Q8 video"
+   "curated_note": "character video animateLCM openpose, Q8 video",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/460491?modelVersionId=588344",
+   "download": {
+    "name": "characterVideoGeneration_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/588344"
+   }
   },
   {
    "id": 1894175,
@@ -2072,7 +2300,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "refcontrol flux kontext reference pose"
+   "curated_note": "refcontrol flux kontext reference pose",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1894175?modelVersionId=2144052",
+   "download": {
+    "name": "workflowRefcontrolFlux_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2144052"
+   }
   },
   {
    "id": 2315290,
@@ -2113,7 +2348,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "flux klein pose & background thief — persona tooling"
+   "curated_note": "flux klein pose & background thief — persona tooling",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2315290?modelVersionId=2604822",
+   "download": {
+    "name": "fluxKleinPoseBackground_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2604822"
+   }
   },
   {
    "id": 2455228,
@@ -2154,7 +2396,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "firered clothing swap + pose change, reali Q8"
+   "curated_note": "firered clothing swap + pose change, reali Q8",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2455228?modelVersionId=2760699",
+   "download": {
+    "name": "fireredImageEditorSeamless_fireredImageEditor11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2760699"
+   }
   },
   {
    "id": 1966651,
@@ -2193,7 +2442,16 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1966651?modelVersionId=2226038",
+   "download": {
+    "name": "qwenImageEditOpenpose_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2226038",
+    "size_mb": 6
+   },
+   "disk_mb": 6
   },
   {
    "id": 2195521,
@@ -2232,6 +2490,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2195521?modelVersionId=2472072",
+   "download": {
+    "name": "zImageControlnetSecondOrder_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2472072"
    }
   },
   {
@@ -2273,7 +2538,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "qwen openpose controlnet"
+   "curated_note": "qwen openpose controlnet",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1963377?modelVersionId=2222316",
+   "download": {
+    "name": "qwenImageOpenpose_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2222316"
+   }
   },
   {
    "id": 2692134,
@@ -2314,7 +2586,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "LTX 2.3 pose control + detailer, RTX4060-tagged, video"
+   "curated_note": "LTX 2.3 pose control + detailer, RTX4060-tagged, video",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2692134?modelVersionId=3216515",
+   "download": {
+    "name": "RTX4060LTX23PoseControl_v20.json",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/3216515"
+   }
   },
   {
    "id": 2090446,
@@ -2355,7 +2634,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "qwen multi-angle consistency one-image"
+   "curated_note": "qwen multi-angle consistency one-image",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2090446?modelVersionId=2365175",
+   "download": {
+    "name": "qwenMultiAngleCharacterConsistency_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2365175"
+   }
   },
   {
    "id": 2233048,
@@ -2396,7 +2682,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "character multi-angle V3 consistency"
+   "curated_note": "character multi-angle V3 consistency",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2233048?modelVersionId=2513857",
+   "download": {
+    "name": "characterMultiAngleV3_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2513857"
+   }
   },
   {
    "id": 2578291,
@@ -2435,6 +2728,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2578291?modelVersionId=2929771",
+   "download": {
+    "name": "controlnetDepthOr_v12.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2929771"
    }
   },
   {
@@ -2476,7 +2776,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "flux klein 4B/9B multiple angles"
+   "curated_note": "flux klein 4B/9B multiple angles",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2642426?modelVersionId=2967049",
+   "download": {
+    "name": "fluxKlein4B9BMultiple_v10.json",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2967049"
+   }
   },
   {
    "id": 2275805,
@@ -2516,6 +2823,13 @@
     "layer": null,
     "era": null,
     "moved_from": "MOTION"
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2275805?modelVersionId=2561517",
+   "download": {
+    "name": "qwenEdit2511MultiView_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2561517"
    }
   },
   {
@@ -2556,6 +2870,13 @@
     "layer": null,
     "era": null,
     "moved_from": "MOTION"
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2401955?modelVersionId=2749055",
+   "download": {
+    "name": "flux2KleinMultiViewCharacter_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2749055"
    }
   },
   {
@@ -2596,6 +2917,13 @@
     "layer": null,
     "era": null,
     "moved_from": "MOTION"
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/1911655?modelVersionId=2163681",
+   "download": {
+    "name": "wan22360DegreeOrbit_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2163681"
    }
   },
   {
@@ -2636,6 +2964,13 @@
     "layer": null,
     "era": null,
     "moved_from": "MOTION"
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2323600?modelVersionId=2625484",
+   "download": {
+    "name": "flux2KleinOneClickThreeView_v20.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2625484"
    }
   }
  ]

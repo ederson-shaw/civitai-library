@@ -197,6 +197,46 @@ def emit_cuts():
     print(f"cuts.json: {sum(len(v) for v in cuts.values())} cuts across {len(cuts)} stages", file=sys.stderr)
 
 
+def attach_downloads(buckets):
+    f = FUNNEL / "all-candidates.json"
+    if not f.exists():
+        return
+    try:
+        cand = json.loads(f.read_text())
+    except json.JSONDecodeError:
+        return
+    info = {}
+    for e in cand.values():
+        if not isinstance(e, dict):
+            continue
+        for v in e.get("versions") or []:
+            fobj = next((x for x in (v.get("files") or []) if x.get("name")), None)
+            if fobj and v.get("id"):
+                info[str(e.get("id"))] = {"type": e.get("type"), "version_id": v.get("id"),
+                                          "file": fobj.get("name"), "size_kb": fobj.get("sizeKB")}
+                break
+    folder_by_type = {"LORA": "models/loras/", "Checkpoint": "models/checkpoints/",
+                      "DoRA": "models/loras/", "Workflows": "workflows/"}
+    attached = 0
+    for stage in buckets:
+        for e in buckets[stage]:
+            d = info.get(str(e.get("id")))
+            if not d:
+                continue
+            e["type"] = e.get("type") or d["type"]
+            e["version_url"] = f"https://civitai.com/models/{e.get('id')}?modelVersionId={d['version_id']}"
+            size_mb = int((d["size_kb"] or 0) / 1024) or None
+            dl = {"name": d["file"], "folder": folder_by_type.get(d["type"], "models/misc/"),
+                  "url": f"https://civitai.com/api/download/models/{d['version_id']}"}
+            if size_mb:
+                dl["size_mb"] = size_mb
+            e["download"] = dl
+            if size_mb and not (e.get("requirements") or {}).get("models"):
+                e["disk_mb"] = size_mb
+            attached += 1
+    print(f"downloads attached: {attached} entries", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -226,6 +266,7 @@ def main():
     merge_engines(buckets)
     apply_decisions(buckets)
     merge_requirements(buckets)
+    attach_downloads(buckets)
     emit_cuts()
     models = ROOT / "data" / "models.json"
     if models.exists():

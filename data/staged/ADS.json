@@ -1,6 +1,6 @@
 {
  "stage": "ADS",
- "generated": "2026-09-02T05:13:41+00:00",
+ "generated": "2026-09-02T05:22:25+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -40,6 +40,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/145921?modelVersionId=162402",
+   "download": {
+    "name": "productPhotoComposerSD15_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/162402"
    }
   },
   {
@@ -135,7 +142,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "product background change v2, Q7"
+   "curated_note": "product background change v2, Q7",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/413826?modelVersionId=461176",
+   "download": {
+    "name": "changeProductBackgroundWith_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/461176"
+   }
   },
   {
    "id": 413803,
@@ -230,7 +244,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "product background change — core ads function, results visible"
+   "curated_note": "product background change — core ads function, results visible",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/413803?modelVersionId=461152",
+   "download": {
+    "name": "changeProductBackgroundWith_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/461152"
+   }
   },
   {
    "id": 985126,
@@ -271,7 +292,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "flux-fill+redux product background, modern, Q8"
+   "curated_note": "flux-fill+redux product background, modern, Q8",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/985126?modelVersionId=1103534",
+   "download": {
+    "name": "FluxFillFluxRedux_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/1103534"
+   }
   },
   {
    "id": 2455228,
@@ -310,6 +338,13 @@
     "lane": null,
     "layer": null,
     "era": null
+   },
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/2455228?modelVersionId=2760699",
+   "download": {
+    "name": "fireredImageEditorSeamless_fireredImageEditor11.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/2760699"
    }
   },
   {
@@ -446,7 +481,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "product background change — core ads function, results visible"
+   "curated_note": "product background change — core ads function, results visible",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/413803?modelVersionId=461152",
+   "download": {
+    "name": "changeProductBackgroundWith_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/461152"
+   }
   },
   {
    "id": 142621,
@@ -487,7 +529,16 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "classic ad-photo workflow, ad grid visible Q8"
+   "curated_note": "classic ad-photo workflow, ad grid visible Q8",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/142621?modelVersionId=158176",
+   "download": {
+    "name": "advertisingPhotosWithSDXL_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/158176",
+    "size_mb": 3
+   },
+   "disk_mb": 3
   },
   {
    "id": 413826,
@@ -582,7 +633,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "product background change v2, Q7"
+   "curated_note": "product background change v2, Q7",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/413826?modelVersionId=461176",
+   "download": {
+    "name": "changeProductBackgroundWith_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/461176"
+   }
   },
   {
    "id": 985126,
@@ -623,7 +681,14 @@
     "era": null
    },
    "curated_by": "manager",
-   "curated_note": "flux-fill+redux product background, modern, Q8"
+   "curated_note": "flux-fill+redux product background, modern, Q8",
+   "type": "Workflows",
+   "version_url": "https://civitai.com/models/985126?modelVersionId=1103534",
+   "download": {
+    "name": "FluxFillFluxRedux_v10.zip",
+    "folder": "workflows/",
+    "url": "https://civitai.com/api/download/models/1103534"
+   }
   }
  ]
 }

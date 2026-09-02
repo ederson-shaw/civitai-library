@@ -88,15 +88,16 @@ with sync_playwright() as pw:
         v("persona: interactions", False, str(e)[:90])
 
     try:
-        toggles = page.query_selector_all("[data-stack], [data-stack-toggle], .stack-add, button[aria-pressed]")
-        v("stack: toggle targets", len(toggles) > 0, f"{len(toggles)}")
-        if len(toggles) >= 2:
+        toggles = page.query_selector_all("[data-card-add]")
+        v("stack: card-add targets", len(toggles) > 0, f"{len(toggles)}")
+        if toggles:
             page.evaluate("el => el.click()", toggles[0])
-            page.evaluate("el => el.click()", toggles[1])
-            page.wait_for_timeout(500)
+            page.wait_for_timeout(600)
             rail = page.evaluate("""() => { const r = document.querySelector('[data-stack-manifest]');
-                return r ? { visible: r.offsetParent !== null, text: r.textContent.toLowerCase().slice(0, 200) } : null; }""")
-            v("stack: rail reacts", rail is not None and rail["visible"], (rail or {}).get("text", "no rail")[:120])
+                const t = document.querySelector('[data-stack-vram], .stack-totals');
+                return { visible: r ? r.offsetParent !== null : false,
+                         totals: t ? t.textContent.replace(/\\s+/g, ' ').trim().slice(0, 120) : null }; }""")
+            v("stack: rail reacts", bool(rail and rail["visible"]), (rail or {}).get("totals", "no rail"))
             page.screenshot(path=str(SHOTS / "30-stack-rail.png"))
     except Exception as e:
         v("stack: rail reacts", False, str(e)[:90])
