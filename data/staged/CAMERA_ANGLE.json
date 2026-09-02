@@ -1,6 +1,6 @@
 {
  "stage": "CAMERA_ANGLE",
- "generated": "2026-09-02T04:44:18+00:00",
+ "generated": "2026-09-02T04:50:56+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -287,7 +287,7 @@
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -313,46 +313,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 1310339,
-   "our_name": null,
-   "source_name": "Ultra Detailer / Generator / Upscaler | txt2img, img2img | Separate & All in One -- General Purpose",
-   "purpose": null,
-   "composite": 18.8,
-   "tier": "A-candidate",
-   "visual_class": "other",
-   "quality": 3,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2306,
-    "thumbsUpCount": 104
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5214881a-546f-40db-8528-3d10f43f1482/width=450/60945696.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5214881a-546f-40db-8528-3d10f43f1482/original=true/60945696.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1310339",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "video decomposer — pairs with vid2vid, camera/control tooling, Q8 video"
   },
   {
    "id": 2313745,
@@ -365,7 +328,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -391,7 +354,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "multi-angle control qwen_edit — core stage function"
   },
   {
    "id": 2252071,
@@ -422,45 +387,6 @@
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2252071",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1881818,
-   "our_name": null,
-   "source_name": "Copy pose from any image - Flux Kontext workflow",
-   "purpose": null,
-   "composite": 18.5,
-   "tier": "A-candidate",
-   "visual_class": "other",
-   "quality": 4,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Flux.1 Kontext",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 1682,
-    "thumbsUpCount": 77
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1cedf7b-7b7a-4b02-9bd1-6e43cba23acb/width=450/95275925.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1cedf7b-7b7a-4b02-9bd1-6e43cba23acb/original=true/95275925.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1881818",
    "requirements": {
     "models": [],
     "nodes": []
@@ -521,7 +447,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -547,7 +473,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "pose transfer qwen_edit_2509 — core function"
   },
   {
    "id": 546507,
@@ -560,7 +488,7 @@
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -586,46 +514,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 914293,
-   "our_name": null,
-   "source_name": "PRO PHOTOSHOOT ULTIMATE - FLUX CONSISTENT CHARACTER & CLOTHES + PULID+ OPENPOSE + LORA",
-   "purpose": null,
-   "composite": 17.9,
-   "tier": "A-candidate",
-   "visual_class": "other",
-   "quality": 9,
-   "nsfw_bucket": "safe",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "Flux.1 D",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 1663,
-    "thumbsUpCount": 71
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec988c71-73cf-4bd5-921b-366218fd7908/width=450/38101212.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec988c71-73cf-4bd5-921b-366218fd7908/original=true/38101212.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/914293",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "animatediff vid2vid pairing decomposer, Q8 video"
   },
   {
    "id": 2809079,
@@ -716,7 +607,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -742,7 +633,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "z-image pose & scene variation, reali Q7"
   },
   {
    "id": 2375500,
@@ -755,7 +648,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -781,7 +674,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "qwen multi-angle batch, reali Q7"
   },
   {
    "id": 1719791,
@@ -794,7 +689,7 @@
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 1.3B t2v",
    "vram_class": null,
    "tradeoff": null,
@@ -820,7 +715,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "VACE control suite depth/openpose/canny/splines, video"
   },
   {
    "id": 1524065,
@@ -833,7 +730,7 @@
    "quality": 5,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -859,7 +756,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "VACE motion paths — path-guided camera move (rare), Q5 noted"
   },
   {
    "id": 2298671,
@@ -872,7 +771,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -898,7 +797,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "pose transfer qwen 2511, reali Q7"
   },
   {
    "id": 2608818,
@@ -911,7 +812,7 @@
    "quality": 6,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -937,7 +838,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "automated pose transfer, reali Q6"
   },
   {
    "id": 2303045,
@@ -950,7 +853,7 @@
    "quality": 6,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -976,7 +879,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "multi-angle dataset qwen 2511, Q6"
   },
   {
    "id": 2345911,
@@ -989,7 +894,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -1015,7 +920,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "advanced multi-angle/perspective editing"
   },
   {
    "id": 2129379,
@@ -1028,7 +935,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -1054,7 +961,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "character scene consistency across angle changes"
   },
   {
    "id": 2349397,
@@ -1106,7 +1015,7 @@
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV",
    "vram_class": null,
    "tradeoff": null,
@@ -1132,46 +1041,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2189594,
-   "our_name": null,
-   "source_name": "qwen image edit 2509 next scene and camera angles lora workflow",
-   "purpose": null,
-   "composite": 16.9,
-   "tier": "B-candidate",
-   "visual_class": "other",
-   "quality": 4,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Qwen",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 857,
-    "thumbsUpCount": 36
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f5d042d-9148-40ca-98a1-c5832e68c799/width=450/112463487.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f5d042d-9148-40ca-98a1-c5832e68c799/original=true/112463487.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2189594",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "LTX i2v camera control, modern, video Q8"
   },
   {
    "id": 2337141,
@@ -1184,7 +1056,7 @@
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
    "tradeoff": null,
@@ -1210,7 +1082,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "LTX-2 pose+audio to video, reali Q8"
   },
   {
    "id": 2411518,
@@ -1301,7 +1175,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -1327,7 +1201,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "pose+clothes transfer, reali Q8"
   },
   {
    "id": 460491,
@@ -1340,7 +1216,7 @@
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1366,7 +1242,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "character video animateLCM openpose, Q8 video"
   },
   {
    "id": 1894175,
@@ -1379,7 +1257,7 @@
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1405,7 +1283,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "refcontrol flux kontext reference pose"
   },
   {
    "id": 2315290,
@@ -1418,7 +1298,7 @@
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.2 D",
    "vram_class": null,
    "tradeoff": null,
@@ -1444,7 +1324,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "flux klein pose & background thief — persona tooling"
   },
   {
    "id": 2455228,
@@ -1457,7 +1339,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen 2",
    "vram_class": null,
    "tradeoff": null,
@@ -1483,46 +1365,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 326837,
-   "our_name": null,
-   "source_name": "ComfyUI image-morphing low-VRAM LCM video animation workflow with poses",
-   "purpose": null,
-   "composite": 15.4,
-   "tier": "B-candidate",
-   "visual_class": "realism-photoreal",
-   "quality": 5,
-   "nsfw_bucket": "moderate",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 1147,
-    "thumbsUpCount": 38
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69a95d35-0f95-4681-9bb3-836af7baf593/width=450/7360049.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69a95d35-0f95-4681-9bb3-836af7baf593/original=true/7360049.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/326837",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "firered clothing swap + pose change, reali Q8"
   },
   {
    "id": 1966651,
@@ -1553,84 +1398,6 @@
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1966651",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2190433,
-   "our_name": null,
-   "source_name": "Z-image Turbo Controlnet workflow (Pose, Depth, Canny)",
-   "purpose": null,
-   "composite": 14.8,
-   "tier": "B-candidate",
-   "visual_class": "other",
-   "quality": 5,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "ZImageTurbo",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2817,
-    "thumbsUpCount": 72
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b83cfd34-a156-480d-9abc-459ff08ddc2f/width=450/112583627.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b83cfd34-a156-480d-9abc-459ff08ddc2f/original=true/112583627.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2190433",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 541709,
-   "our_name": null,
-   "source_name": "ComfyUI Workflow SDXL/Pony - Image Generation, Upscale, Face Detailer with Control Net (Canny, Scribble, Tile, Depth, Openpose) + Batch Upscaling",
-   "purpose": null,
-   "composite": 14.6,
-   "tier": "B-candidate",
-   "visual_class": "other",
-   "quality": 5,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 14022,
-    "thumbsUpCount": 300
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d736f1-fd82-4436-a488-3931c8687167/width=450/27409619.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d736f1-fd82-4436-a488-3931c8687167/original=true/27409619.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/541709",
    "requirements": {
     "models": [],
     "nodes": []
@@ -1691,7 +1458,7 @@
    "quality": 6,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -1717,7 +1484,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "qwen openpose controlnet"
   },
   {
    "id": 2692134,
@@ -1730,7 +1499,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -1756,7 +1525,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "LTX 2.3 pose control + detailer, RTX4060-tagged, video"
   },
   {
    "id": 2090446,
@@ -1769,7 +1540,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -1795,7 +1566,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "qwen multi-angle consistency one-image"
   },
   {
    "id": 2233048,
@@ -1808,7 +1581,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
    "tradeoff": null,
@@ -1834,46 +1607,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2429713,
-   "our_name": null,
-   "source_name": "T2I/I2I/inpaint/Reference Highres Detailers Olovodude's Multi-purpose workflow",
-   "purpose": null,
-   "composite": 13.6,
-   "tier": "B-candidate",
-   "visual_class": "other",
-   "quality": 8,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 810,
-    "thumbsUpCount": 22
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc65c0e3-cc79-43a1-9f53-f25def349016/width=450/122708293.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc65c0e3-cc79-43a1-9f53-f25def349016/original=true/122708293.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2429713",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "character multi-angle V3 consistency"
   },
   {
    "id": 2578291,
@@ -1925,7 +1661,7 @@
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.2 Klein 4B",
    "vram_class": null,
    "tradeoff": null,
@@ -1951,46 +1687,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 1963971,
-   "our_name": null,
-   "source_name": "controlnet openpose SDXL perfect",
-   "purpose": null,
-   "composite": 11.3,
-   "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3840,
-    "thumbsUpCount": 29
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1503440e-7329-4523-b6c9-c500a5458033/width=450/100739356.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1503440e-7329-4523-b6c9-c500a5458033/original=true/100739356.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1963971",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "flux klein 4B/9B multiple angles"
   },
   {
    "id": 2275805,

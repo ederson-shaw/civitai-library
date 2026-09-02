@@ -1321,5 +1321,292 @@
   "stage_from": "MOTION",
   "reviewed_by": "manager",
   "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "526049": {
+  "action": "keep",
+  "reason": "video decomposer — pairs with vid2vid, camera/control tooling, Q8 video",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "546507": {
+  "action": "keep",
+  "reason": "animatediff vid2vid pairing decomposer, Q8 video",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2313745": {
+  "action": "keep",
+  "reason": "multi-angle control qwen_edit — core stage function",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2103017": {
+  "action": "keep",
+  "reason": "pose transfer qwen_edit_2509 — core function",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2180915": {
+  "action": "keep",
+  "reason": "z-image pose & scene variation, reali Q7",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2375500": {
+  "action": "keep",
+  "reason": "qwen multi-angle batch, reali Q7",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1719791": {
+  "action": "keep",
+  "reason": "VACE control suite depth/openpose/canny/splines, video",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1524065": {
+  "action": "keep",
+  "reason": "VACE motion paths — path-guided camera move (rare), Q5 noted",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2298671": {
+  "action": "keep",
+  "reason": "pose transfer qwen 2511, reali Q7",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2608818": {
+  "action": "keep",
+  "reason": "automated pose transfer, reali Q6",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2303045": {
+  "action": "keep",
+  "reason": "multi-angle dataset qwen 2511, Q6",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2345911": {
+  "action": "keep",
+  "reason": "advanced multi-angle/perspective editing",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2129379": {
+  "action": "keep",
+  "reason": "character scene consistency across angle changes",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1250209": {
+  "action": "keep",
+  "reason": "LTX i2v camera control, modern, video Q8",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2337141": {
+  "action": "keep",
+  "reason": "LTX-2 pose+audio to video, reali Q8",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2296023": {
+  "action": "keep",
+  "reason": "pose+clothes transfer, reali Q8",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "460491": {
+  "action": "keep",
+  "reason": "character video animateLCM openpose, Q8 video",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1894175": {
+  "action": "keep",
+  "reason": "refcontrol flux kontext reference pose",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2315290": {
+  "action": "keep",
+  "reason": "flux klein pose & background thief — persona tooling",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2455228": {
+  "action": "keep",
+  "reason": "firered clothing swap + pose change, reali Q8",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1963377": {
+  "action": "keep",
+  "reason": "qwen openpose controlnet",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2692134": {
+  "action": "keep",
+  "reason": "LTX 2.3 pose control + detailer, RTX4060-tagged, video",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2090446": {
+  "action": "keep",
+  "reason": "qwen multi-angle consistency one-image",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2233048": {
+  "action": "keep",
+  "reason": "character multi-angle V3 consistency",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2642426": {
+  "action": "keep",
+  "reason": "flux klein 4B/9B multiple angles",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1310339": {
+  "action": "cut",
+  "reason": "UI-only Q3",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1881818": {
+  "action": "cut",
+  "reason": "tiny node screenshot Q4",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "914293": {
+  "action": "cut",
+  "reason": "promo camera graphic, no results shown",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2189594": {
+  "action": "cut",
+  "reason": "dark UI Q4",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "326837": {
+  "action": "cut",
+  "reason": "Q5 small UI screenshot",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2190433": {
+  "action": "cut",
+  "reason": "UI + dog outputs Q5",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "541709": {
+  "action": "cut",
+  "reason": "node UI Q5",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "1963971": {
+  "action": "cut",
+  "reason": "openpose UI Q4",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2429713": {
+  "action": "move-layers",
+  "reason": "highres detailer suite = enhancement layer, Q8 dog portrait clean",
+  "stage_from": "CAMERA_ANGLE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "413803": {
+  "action": "keep",
+  "reason": "product background change — core ads function, results visible",
+  "stage_from": "ADS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "413826": {
+  "action": "keep",
+  "reason": "product background change v2, Q7",
+  "stage_from": "ADS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "142621": {
+  "action": "keep",
+  "reason": "classic ad-photo workflow, ad grid visible Q8",
+  "stage_from": "ADS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "985126": {
+  "action": "keep",
+  "reason": "flux-fill+redux product background, modern, Q8",
+  "stage_from": "ADS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "926474": {
+  "action": "keep",
+  "reason": "e-commerce product visual design, watch shot Q7",
+  "stage_from": "ADS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2791097": {
+  "action": "cut",
+  "reason": "dark post-production node graph Q4",
+  "stage_from": "ADS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "2788910": {
+  "action": "cut",
+  "reason": "UI + 3D render Q6",
+  "stage_from": "ADS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:50:56+00:00"
  }
 }

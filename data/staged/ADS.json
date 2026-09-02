@@ -1,6 +1,6 @@
 {
  "stage": "ADS",
- "generated": "2026-09-02T04:44:18+00:00",
+ "generated": "2026-09-02T04:50:56+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -49,11 +49,11 @@
    "purpose": null,
    "composite": 19.0,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SDXL Lightning",
    "vram_class": null,
    "tradeoff": null,
@@ -79,7 +79,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "product background change v2, Q7"
   },
   {
    "id": 413803,
@@ -88,11 +90,11 @@
    "purpose": null,
    "composite": 18.7,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SDXL Lightning",
    "vram_class": null,
    "tradeoff": null,
@@ -118,7 +120,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "product background change — core ads function, results visible"
   },
   {
    "id": 985126,
@@ -127,11 +131,11 @@
    "purpose": null,
    "composite": 15.5,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -157,7 +161,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "flux-fill+redux product background, modern, Q8"
   },
   {
    "id": 2455228,
@@ -205,11 +211,11 @@
    "purpose": null,
    "composite": 13.8,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -235,7 +241,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "e-commerce product visual design, watch shot Q7"
   },
   {
    "id": 413803,
@@ -244,11 +252,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SDXL Lightning",
    "vram_class": null,
    "tradeoff": null,
@@ -274,7 +282,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "product background change — core ads function, results visible"
   },
   {
    "id": 142621,
@@ -283,11 +293,11 @@
    "purpose": null,
    "composite": 18.8,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -313,7 +323,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "classic ad-photo workflow, ad grid visible Q8"
   },
   {
    "id": 413826,
@@ -322,11 +334,11 @@
    "purpose": null,
    "composite": 18.0,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SDXL Lightning",
    "vram_class": null,
    "tradeoff": null,
@@ -352,46 +364,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2791097,
-   "our_name": null,
-   "source_name": "Lonecat's 🎨Post Production Module",
-   "purpose": null,
-   "composite": 17.7,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Krea 2",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 720,
-    "thumbsUpCount": 50
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a2a493e-f7e2-4f69-ad56-42bdc977ae48/width=450/140058808.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a2a493e-f7e2-4f69-ad56-42bdc977ae48/original=true/140058808.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2791097",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "product background change v2, Q7"
   },
   {
    "id": 985126,
@@ -400,11 +375,11 @@
    "purpose": null,
    "composite": 17.0,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -430,46 +405,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2788910,
-   "our_name": null,
-   "source_name": "Flux Klein 9b Production Workflow - FoxFurEssence",
-   "purpose": null,
-   "composite": 17.0,
-   "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 663,
-    "thumbsUpCount": 29
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40e49691-8ae2-4211-9913-6abfe58235ea/width=450/137119343.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40e49691-8ae2-4211-9913-6abfe58235ea/original=true/137119343.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2788910",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "flux-fill+redux product background, modern, Q8"
   }
  ]
 }
