@@ -17,6 +17,7 @@ NSFW lane: FULL previews allowed (blurred until header toggle, SFW default view 
 - none. nsfw decision resolved (allow).
 
 ## decisions log
+- 2026-09-02 owner-drawn error list (his message: quality work was reactive to his pushes): mechanisms bound — (1) numeric constant in any doc requires calibration receipt in same commit else BLOCKED; (2) every manager "done" names its validation verb executed (command/calibration/diff) unprompted; (3) "he says" predictions scored against his next actual message, misses stay visible here. Root pattern named: done meant "artifact exists", never "artifact validated".
 - publish under ederson-shaw per explicit owner request this session (owner.md "prefer edersonff" overridden by live spec)
 - static site on github pages, no server ever (sheol doctrine)
 - organize by lane/use + task, NOT by model brand (owner hint)
