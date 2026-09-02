@@ -18,7 +18,7 @@ P0 in progress — planning docs written, 4 librarian censuses + codex design ru
 - publish under ederson-shaw per explicit owner request this session (owner.md "prefer edersonff" overridden by live spec)
 - static site on github pages, no server ever (sheol doctrine)
 - organize by lane/use + task, NOT by model brand (owner hint)
-- nsfw: toggle off default, previews blurred, explicit images load only after toggle; pages policy verified this session
+- nsfw: toggle off default; public pages build carries ZERO explicit imagery (github bans pornographic CG content — receipt in research/legal-pages-policy.md); nsfw lane = full metadata + civitai link-out; optional "unlocked" full-preview build as downloadable artifact, never served from pages
 - naming/curation manual, one-by-one, english
 - garimpo = adapt existing censused tool, never from zero (assembly law)
 - rank-keeper (unasked idea): scheduled re-validation script re-pulls stats so rankings never rot
