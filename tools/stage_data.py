@@ -301,7 +301,9 @@ def merge_galleries(buckets):
             if not g:
                 continue
             if g.get("images"):
-                e["gallery"] = g["images"]
+                vetted = (e.get("preview") or {}).get("url_width450")
+                rest = [u for u in g["images"] if u != vetted]
+                e["gallery"] = ([vetted] if vetted else []) + rest
                 imgs += 1
             if g.get("video") and isinstance(e.get("preview"), dict):
                 e["preview"]["video"] = g["video"]
