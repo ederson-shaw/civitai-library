@@ -1,6 +1,6 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T04:10:37+00:00",
+ "generated": "2026-09-02T04:18:19+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -94,9 +94,9 @@
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
    "quality": 7,
-   "nsfw_bucket": "safe",
+   "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": false,
+   "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,

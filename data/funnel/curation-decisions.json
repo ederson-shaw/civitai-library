@@ -1,0 +1,205 @@
+{
+ "62778": {
+  "action": "keep",
+  "reason": "realism Q8 high-conf, majicMIX realistic portrait family — persona job",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "5952": {
+  "action": "keep",
+  "reason": "realism Q7 but medium-conf back-facing scene (no face evidence) — verify with 2nd preview",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "6925": {
+  "action": "keep",
+  "reason": "realism Q8 fits — RealDosMix realistic family",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "1540": {
+  "action": "keep",
+  "reason": "image beats name: photoreal Q8 despite 'Ink' name — calibration rule applied",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "34502": {
+  "action": "keep",
+  "reason": "realism Q8 cosplay scene — costume variety IS persona content work",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "18324": {
+  "action": "move-nsfw",
+  "reason": "fellatrix = explicit act style by purpose; anime+NSFW -> NSFW stage anime subgroup",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "941345": {
+  "action": "cut",
+  "reason": "anime Q9 — no anime-persona home in spec; label data survives in funnel",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "18207": {
+  "action": "cut",
+  "reason": "anime Q9 soft-mismatch 'Real' name — the condemned wave pattern",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "11896": {
+  "action": "cut",
+  "reason": "anime hard-mismatch 'Realistic Genshin' — liar detector confirmed",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "46023": {
+  "action": "cut",
+  "reason": "anime hard-mismatch 'XeroxReal' — name lies, image anime",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "11367": {
+  "action": "cut",
+  "reason": "NO PREVIEW available — spec: no preview = no render, no blank cards",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "7252": {
+  "action": "cut",
+  "reason": "ref-sheet preview shows no render output",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "73305": {
+  "action": "cut",
+  "reason": "ink cartoon video-preview, out of lane",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "6213": {
+  "action": "cut",
+  "reason": "anime character LoRA",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "11701": {
+  "action": "cut",
+  "reason": "anime artist style",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "4830": {
+  "action": "cut",
+  "reason": "anime character",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "618752": {
+  "action": "cut",
+  "reason": "anime style",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "7706": {
+  "action": "cut",
+  "reason": "anime pose LoRA — wrong ecosystem for realism pipeline",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "21722": {
+  "action": "cut",
+  "reason": "anime style",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "5042": {
+  "action": "cut",
+  "reason": "painterly anime style",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "24833": {
+  "action": "cut",
+  "reason": "minimalist anime",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "14978": {
+  "action": "cut",
+  "reason": "anime Q5 crude 9-panel",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "18323": {
+  "action": "cut",
+  "reason": "ink-wash artwork out of lane",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "47800": {
+  "action": "cut",
+  "reason": "icon reference sheet",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "5041": {
+  "action": "cut",
+  "reason": "landscape-only checkpoint out of lane",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "14605": {
+  "action": "cut",
+  "reason": "scenery",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "7984": {
+  "action": "cut",
+  "reason": "physical figure",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "11203": {
+  "action": "cut",
+  "reason": "glass sculpture object",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "11031": {
+  "action": "cut",
+  "reason": "environment only",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:13:00+00:00"
+ }
+}

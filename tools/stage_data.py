@@ -115,6 +115,39 @@ def merge_engines(buckets):
             buckets["SPEECH_VOICE"].append(engine_entry(e, pulled_at))
 
 
+def apply_decisions(buckets):
+    f = FUNNEL / "curation-decisions.json"
+    if not f.exists():
+        return
+    dec = json.loads(f.read_text())
+    applied = {"keep": 0, "cut": 0, "move-nsfw": 0}
+    moved = []
+    for stage in list(buckets):
+        kept = []
+        for e in buckets[stage]:
+            if e.get("heuristic", {}).get("moved_from"):
+                kept.append(e)
+                continue
+            d = dec.get(str(e.get("id")))
+            if not d or d.get("stage_from") != stage:
+                kept.append(e)
+                continue
+            act = d.get("action")
+            applied[act] = applied.get(act, 0) + 1
+            if act == "keep":
+                e["review_flag"] = False
+                e["curated_by"] = d.get("reviewed_by")
+                e["curated_note"] = d.get("reason")
+                kept.append(e)
+            elif act == "move-nsfw":
+                e["heuristic"]["moved_from"] = stage
+                moved.append(e)
+        buckets[stage] = kept
+    nsfw_ids = {str(e.get("id")) for e in buckets["NSFW"]}
+    buckets["NSFW"].extend(e for e in moved if str(e.get("id")) not in nsfw_ids)
+    print(f"curation decisions applied: {applied}", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -142,6 +175,7 @@ def main():
             if stage in buckets:
                 buckets[stage].append(rec)
     merge_engines(buckets)
+    apply_decisions(buckets)
     models = ROOT / "data" / "models.json"
     if models.exists():
         d = json.loads(models.read_text())
