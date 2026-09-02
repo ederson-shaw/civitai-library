@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""garimpo v0 — civitai candidate harvester.
+"""garimpo v0.1 — civitai candidate harvester + snapshot history + probes.
 
 Provenance (assembly law, refs cloned at /tmp/garimpo-refs/):
 - Confuzu/CivitAI-Model-grabber/fetch_all_models.py:
@@ -8,12 +8,18 @@ Provenance (assembly law, refs cloned at /tmp/garimpo-refs/):
 - dreamfast/go-civitai-downloader/internal/api/client.go:
   retry ladder (429 -> sleep 5s*attempt capped 30s, 5xx -> 3s*attempt,
   401/403 fail fast), polite sleep between pages, nsfw param handling.
-- Live API adaptation 2026-09-01: period=90d rejected by API (ZodError,
-  valid: Day|Week|Month|Year|AllTime) -> persona lane uses period=Month.
+- Live API adaptation 2026-09-01: period=90d rejected (ZodError, valid:
+  Day|Week|Month|Year|AllTime) -> persona lane uses period=Month.
+- v0.1 2026-09-02, hostile R1 receipts: snapshot deltas (#2 — API has no
+  period stats, growth between snapshots is the only real time axis),
+  /images usage walk (#5/#17), nsfw clamp probe (#10), cdn sig probe (#15).
+  History + usage live in collectors.py, probes in probes.py.
 
-IN:  no args. Optional --nsfw (only honored when ~/.config/civitai/api.key exists).
-OUT: data/candidates-persona.json, data/candidates-workflows.json,
-     data/candidates-nsfw.json, data/pull_log.json
+IN:  optional --nsfw (only honored when ~/.config/civitai/api.key exists).
+OUT: data/candidates-{persona,workflows,nsfw}.json, data/pull_log.json,
+     data/nsfw_probe.json, data/cdn_probe.json,
+     data/snapshots/YYYY-MM-DD/<same filenames> (last 30 kept) +
+     data/snapshots/deltas.json ({"history": false} until 2 dates exist).
 """
 import json
 import sys
@@ -24,10 +30,15 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
+from collectors import enrich_lane_usage, write_snapshot, write_deltas
+from probes import nsfw_clamp_probe, cdn_sig_probe
+
 API = "https://civitai.com/api/v1/models"
 KEY_FILE = Path.home() / ".config/civitai/api.key"
 DATA_DIR = Path("/home/eder/Documentos/civitai-library/data")
 MAX_PAGES = 20
+SNAPSHOT_FILES = ("candidates-persona.json", "candidates-workflows.json",
+                  "candidates-nsfw.json", "pull_log.json")
 PULL_LOG = []
 
 
@@ -44,7 +55,7 @@ def load_key():
 
 
 def http_get(url, key, tries=3):
-    req = Request(url, headers={"User-Agent": "garimpo/0 (+civitai-library)"})
+    req = Request(url, headers={"User-Agent": "garimpo/0.1 (+civitai-library)"})
     if key:
         req.add_header("Authorization", f"Bearer {key}")
     for attempt in range(tries):
@@ -162,6 +173,8 @@ def main():
     if not key:
         print("no api key at ~/.config/civitai/api.key, pulling SFW only", file=sys.stderr)
 
+    old_persona_path = DATA_DIR / "candidates-persona.json"
+
     persona = harvest({"name": "persona", "period": "Month"},
                       "limit=50&types=LORA&types=Checkpoint&sort=Highest%20Rated&period=Month",
                       40, key)
@@ -172,17 +185,30 @@ def main():
     write_json("candidates-workflows.json", workflows)
 
     if args.nsfw and key:
-        nsfw = harvest({"name": "nsfw", "period": "Month"},
-                       "limit=50&types=LORA&sort=Highest%20Rated&period=Month&nsfw=true",
-                       30, key)
-        write_json("candidates-nsfw.json", nsfw)
+        nsfw_lane = harvest({"name": "nsfw", "period": "Month"},
+                            "limit=50&types=LORA&sort=Highest%20Rated&period=Month&nsfw=true",
+                            30, key)
     else:
         reason = "no key" if not key else "nsfw not requested (--nsfw absent)"
-        write_json("candidates-nsfw.json",
-                   {"blocked": reason,
-                    "tried": ["~/.config/civitai/api.key lookup", "auth check skipped"]})
+        nsfw_lane = {"blocked": reason,
+                     "tried": ["~/.config/civitai/api.key lookup", "auth check skipped"]}
+    write_json("candidates-nsfw.json", nsfw_lane)
+
+    for name in SNAPSHOT_FILES[:3]:
+        enrich_lane_usage(DATA_DIR / name, key, http_get)
+
+    clamped = False
+    if args.nsfw and key and isinstance(nsfw_lane, list):
+        clamped = nsfw_clamp_probe([c.get("id") for c in nsfw_lane],
+                                   DATA_DIR / "nsfw_probe.json", key, http_get)
+    cdn_sig_probe(old_persona_path, persona, DATA_DIR / "cdn_probe.json", key, http_get)
 
     write_json("pull_log.json", PULL_LOG)
+    write_snapshot(DATA_DIR, now()[:10], SNAPSHOT_FILES)
+    write_deltas(DATA_DIR, SNAPSHOT_FILES)
+
+    if clamped:
+        return 1
     return 0
 
 
