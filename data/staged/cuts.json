@@ -62,7 +62,7 @@
    ]
   },
   "LAYERS": {
-   "count": 5,
+   "count": 8,
    "cuts": [
     {
      "id": "147751",
@@ -88,6 +88,21 @@
      "id": "369575",
      "name": "Envy Starlight XL 01 Lightning - Anime Western fusion digital painting / photography",
      "reason": "anime-western lightning style base, not an enhancement layer"
+    },
+    {
+     "id": "354130",
+     "name": "⚡ epiCRealismXL-Lightning",
+     "reason": "epiCRealismXL-Lightning = speed checkpoint, not a stackable layer (consistent with 129666 ruling)"
+    },
+    {
+     "id": "2190659",
+     "name": "💀💋 DaSiWa-WAN 2.2 I2V 14B TastySin v8 | Lightspeed | GGUF 💋💀",
+     "reason": "DaSiWa wan i2v tune = motion base content, not a layer"
+    },
+    {
+     "id": "2269796",
+     "name": "💀💋 DaSiWa-WAN 2.2 I2V 14B SynthSeduction v9 | Lightspeed | GGUF 💋💀",
+     "reason": "DaSiWa wan i2v tune = motion base content, not a layer"
     }
    ]
   },

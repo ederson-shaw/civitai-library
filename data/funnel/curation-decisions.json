@@ -2203,5 +2203,96 @@
   "stage_from": "LAYERS",
   "reviewed_by": "manager",
   "ts": "2026-09-02T05:13:41+00:00"
+ },
+ "2234266": {
+  "action": "keep",
+  "reason": "ZIT detail slider — load-bearing for z-image users (decision lost in m0296 transcription, recovered)",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "2729908": {
+  "action": "keep",
+  "reason": "krea 2 detail slider — same family, load-bearing",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "1215368": {
+  "action": "keep",
+  "reason": "glossy skin style layer",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "8765": {
+  "action": "keep",
+  "reason": "contrast fix enhancement layer",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "60018": {
+  "action": "keep",
+  "reason": "real_skin layer Q8",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "2477155": {
+  "action": "keep",
+  "reason": "cinematic dark lighting layer",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "2535622": {
+  "action": "keep",
+  "reason": "LTX 2.3 video enhancers collection",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "1063735": {
+  "action": "keep",
+  "reason": "minimax H3 lightx2v turbo accelerator — motion speed layer",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "2067704": {
+  "action": "keep",
+  "reason": "portrait detailer across flux/klein/z-image Q9",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "354130": {
+  "action": "cut",
+  "reason": "epiCRealismXL-Lightning = speed checkpoint, not a stackable layer (consistent with 129666 ruling)",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "2190659": {
+  "action": "cut",
+  "reason": "DaSiWa wan i2v tune = motion base content, not a layer",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "2269796": {
+  "action": "cut",
+  "reason": "DaSiWa wan i2v tune = motion base content, not a layer",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:34+00:00"
+ },
+ "1865288": {
+  "action": "keep",
+  "reason": "cinematic detail + true-to-life realism layer Q8 video — core realism stack enhancement",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T05:24:55+00:00"
  }
 }

@@ -1,6 +1,6 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T05:22:25+00:00",
+ "generated": "2026-09-02T05:24:55+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -4449,14 +4449,14 @@
    "id": 2234266,
    "our_name": null,
    "source_name": "[ZIT] Detail Slider",
-   "purpose": null,
+   "purpose": "ZIT detail slider — load-bearing for z-image users (decision lost in m0296 transcription, recovered)",
    "composite": 13.6,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -4474,7 +4474,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "ZIT detail slider — load-bearing for z-image users (decision lost in m0296 transcription, recovered)",
    "civitai_url": "https://civitai.com/models/2234266",
    "requirements": {
     "models": [],
@@ -4485,6 +4485,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "ZIT detail slider — load-bearing for z-image users (decision lost in m0296 transcription, recovered)",
    "type": "LORA",
    "version_url": "https://civitai.com/models/2234266?modelVersionId=2515203",
    "download": {
@@ -5417,14 +5419,14 @@
    "id": 2729908,
    "our_name": null,
    "source_name": "[KREA 2] Detail Slider",
-   "purpose": null,
+   "purpose": "krea 2 detail slider — same family, load-bearing",
    "composite": 12.6,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
    "tradeoff": null,
@@ -5442,7 +5444,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "krea 2 detail slider — same family, load-bearing",
    "civitai_url": "https://civitai.com/models/2729908",
    "requirements": {
     "models": [],
@@ -5453,6 +5455,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "krea 2 detail slider — same family, load-bearing",
    "type": "LORA",
    "version_url": "https://civitai.com/models/2729908?modelVersionId=3068874",
    "download": {
@@ -5517,14 +5521,14 @@
    "id": 1215368,
    "our_name": null,
    "source_name": "Oily shiny glossy skin style F1D + XL + SD1.5 + Illu + Pony + zit",
-   "purpose": null,
+   "purpose": "glossy skin style layer",
    "composite": 12.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -5542,7 +5546,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "glossy skin style layer",
    "civitai_url": "https://civitai.com/models/1215368",
    "requirements": {
     "models": [],
@@ -5553,6 +5557,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "glossy skin style layer",
    "type": "LORA",
    "version_url": "https://civitai.com/models/1215368?modelVersionId=2584267",
    "download": {
@@ -5567,14 +5573,14 @@
    "id": 8765,
    "our_name": null,
    "source_name": "Theovercomer8's Contrast Fix (SD1.5/SD2.1-768)",
-   "purpose": null,
+   "purpose": "contrast fix enhancement layer",
    "composite": 12.4,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 2.1 768",
    "vram_class": null,
    "tradeoff": null,
@@ -5592,7 +5598,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "contrast fix enhancement layer",
    "civitai_url": "https://civitai.com/models/8765",
    "requirements": {
     "models": [],
@@ -5603,6 +5609,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "contrast fix enhancement layer",
    "type": "LORA",
    "version_url": "https://civitai.com/models/8765?modelVersionId=10350",
    "download": {
@@ -5617,14 +5625,14 @@
    "id": 60018,
    "our_name": null,
    "source_name": "real_skin",
-   "purpose": null,
+   "purpose": "real_skin layer Q8",
    "composite": 12.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -5642,7 +5650,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "real_skin layer Q8",
    "civitai_url": "https://civitai.com/models/60018",
    "requirements": {
     "models": [],
@@ -5653,6 +5661,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "real_skin layer Q8",
    "type": "LORA",
    "version_url": "https://civitai.com/models/60018?modelVersionId=64476",
    "download": {
@@ -5664,67 +5674,17 @@
    "disk_mb": 26
   },
   {
-   "id": 354130,
-   "our_name": null,
-   "source_name": "⚡ epiCRealismXL-Lightning",
-   "purpose": null,
-   "composite": 12.2,
-   "tier": "B-candidate",
-   "visual_class": "realism-photoreal",
-   "quality": 8,
-   "nsfw_bucket": "moderate",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "SDXL Lightning",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 21314,
-    "thumbsUpCount": 864
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c67d6a-4cd8-4654-b36b-c4818706d477/width=450/13830503.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c67d6a-4cd8-4654-b36b-c4818706d477/original=true/13830503.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [
-    "PERSONA"
-   ],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/354130",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   },
-   "type": "Checkpoint",
-   "version_url": "https://civitai.com/models/354130?modelVersionId=534487",
-   "download": {
-    "name": "Epicrealismxl_Hades.safetensors",
-    "folder": "models/checkpoints/",
-    "url": "https://civitai.com/api/download/models/534487",
-    "size_mb": 6616
-   },
-   "disk_mb": 6616
-  },
-  {
    "id": 2477155,
    "our_name": null,
    "source_name": "Cinematic Dark Lighting",
-   "purpose": null,
+   "purpose": "cinematic dark lighting layer",
    "composite": 12.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
    "tradeoff": null,
@@ -5742,7 +5702,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "cinematic dark lighting layer",
    "civitai_url": "https://civitai.com/models/2477155",
    "requirements": {
     "models": [],
@@ -5753,6 +5713,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "cinematic dark lighting layer",
    "type": "LORA",
    "version_url": "https://civitai.com/models/2477155?modelVersionId=3167935",
    "download": {
@@ -5864,56 +5826,6 @@
    "disk_mb": 164
   },
   {
-   "id": 2190659,
-   "our_name": null,
-   "source_name": "💀💋 DaSiWa-WAN 2.2 I2V 14B TastySin v8 | Lightspeed | GGUF 💋💀",
-   "purpose": null,
-   "composite": 11.9,
-   "tier": "B-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 8,
-   "nsfw_bucket": "moderate",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 52360,
-    "thumbsUpCount": 1405
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b791561-0501-423e-bd94-755d7c7f3b98/width=450/112636097.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b791561-0501-423e-bd94-755d7c7f3b98/original=true/112636097.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [
-    "PERSONA"
-   ],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2190659",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   },
-   "type": "Checkpoint",
-   "version_url": "https://civitai.com/models/2190659?modelVersionId=2466604",
-   "download": {
-    "name": "DasiwaWAN22I2V14BTastysinV8_q8High.gguf",
-    "folder": "models/checkpoints/",
-    "url": "https://civitai.com/api/download/models/2466604",
-    "size_mb": 14692
-   },
-   "disk_mb": 14692
-  },
-  {
    "id": 2086049,
    "our_name": null,
    "source_name": "FLUXTRAIT [FLUX.2 Klein / FLUX / Z-Image] for Portrait & detailed skin",
@@ -6017,14 +5929,14 @@
    "id": 2535622,
    "our_name": null,
    "source_name": "LTX 2.3 - Enhancers",
-   "purpose": null,
+   "purpose": "LTX 2.3 video enhancers collection",
    "composite": 11.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -6042,7 +5954,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "LTX 2.3 video enhancers collection",
    "civitai_url": "https://civitai.com/models/2535622",
    "requirements": {
     "models": [],
@@ -6053,6 +5965,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "LTX 2.3 video enhancers collection",
    "type": "LORA",
    "version_url": "https://civitai.com/models/2535622?modelVersionId=2849716",
    "download": {
@@ -6067,14 +5981,14 @@
    "id": 1063735,
    "our_name": null,
    "source_name": "[NEW Released] Minimax H3 lightx2v turbo ComfyUI accelerator 4-8 steps LoRA",
-   "purpose": null,
+   "purpose": "minimax H3 lightx2v turbo accelerator — motion speed layer",
    "composite": 11.7,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 6,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "MiniMax H3",
    "vram_class": null,
    "tradeoff": null,
@@ -6092,7 +6006,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "minimax H3 lightx2v turbo accelerator — motion speed layer",
    "civitai_url": "https://civitai.com/models/1063735",
    "requirements": {
     "models": [],
@@ -6103,6 +6017,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "minimax H3 lightx2v turbo accelerator — motion speed layer",
    "type": "LORA",
    "version_url": "https://civitai.com/models/1063735?modelVersionId=3213016",
    "download": {
@@ -6117,14 +6033,14 @@
    "id": 2067704,
    "our_name": null,
    "source_name": "Portrait Engine FLUX / FLUX 2 KLEIN / Z-Image, Detailed Skin - [LORA]",
-   "purpose": null,
+   "purpose": "portrait detailer across flux/klein/z-image Q9",
    "composite": 11.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 9,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
    "tradeoff": null,
@@ -6142,7 +6058,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "portrait detailer across flux/klein/z-image Q9",
    "civitai_url": "https://civitai.com/models/2067704",
    "requirements": {
     "models": [],
@@ -6153,6 +6069,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "portrait detailer across flux/klein/z-image Q9",
    "type": "LORA",
    "version_url": "https://civitai.com/models/2067704?modelVersionId=2998669",
    "download": {
@@ -6314,67 +6232,17 @@
    "disk_mb": 217
   },
   {
-   "id": 2269796,
-   "our_name": null,
-   "source_name": "💀💋 DaSiWa-WAN 2.2 I2V 14B SynthSeduction v9 | Lightspeed | GGUF 💋💀",
-   "purpose": null,
-   "composite": 10.7,
-   "tier": "B-candidate",
-   "visual_class": "other",
-   "quality": 7,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 19892,
-    "thumbsUpCount": 453
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e6819d5-e9e1-44d8-96c8-a2b979076eca/width=450/116149234.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e6819d5-e9e1-44d8-96c8-a2b979076eca/original=true/116149234.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [
-    "PERSONA"
-   ],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2269796",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   },
-   "type": "Checkpoint",
-   "version_url": "https://civitai.com/models/2269796?modelVersionId=2554882",
-   "download": {
-    "name": "DasiwaWAN22I2V14BSynthseduction_q8High.gguf",
-    "folder": "models/checkpoints/",
-    "url": "https://civitai.com/api/download/models/2554882",
-    "size_mb": 14692
-   },
-   "disk_mb": 14692
-  },
-  {
    "id": 1865288,
    "our_name": null,
    "source_name": "🌟HyperRealism – Cinematic Detail & True-to-Life Rendering - SDXL🌟",
-   "purpose": null,
+   "purpose": "cinematic detail + true-to-life realism layer Q8 video — core realism stack enhancement",
    "composite": 10.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -6392,7 +6260,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "cinematic detail + true-to-life realism layer Q8 video — core realism stack enhancement",
    "civitai_url": "https://civitai.com/models/1865288",
    "requirements": {
     "models": [],
@@ -6403,6 +6271,8 @@
     "layer": null,
     "era": null
    },
+   "curated_by": "manager",
+   "curated_note": "cinematic detail + true-to-life realism layer Q8 video — core realism stack enhancement",
    "type": "LORA",
    "version_url": "https://civitai.com/models/1865288?modelVersionId=2111148",
    "download": {
