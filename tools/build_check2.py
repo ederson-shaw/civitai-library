@@ -48,6 +48,40 @@ def check_fonts(css: str) -> None:
         fail(f"entry name font is below 20px: {name_sizes}")
 
 
+def check_owner_surfaces(html_files: list[Path], css: str, js: str, demo: bool = False) -> None:
+    persona = read(SITE / "persona" / "index.html")
+    if not demo:
+        default_filter = re.search(
+            r'data-filter-facet="visual: realism-photoreal"[^>]*data-default-filter="true"[^>]*aria-pressed="true"',
+            persona,
+        )
+        if not default_filter:
+            fail("persona does not default to an active realism-photoreal filter")
+        first_cluster = persona.find("data-visual-cluster=")
+        if first_cluster < 0 or 'data-style="anime-illustration"' in persona[:first_cluster]:
+            fail("anime entry leaked into the persona default group")
+    if re.search(r'<button[^>]+data-filter-facet="all"', persona, re.I):
+        fail("all filter chip is still rendered")
+    if "margin-top: auto" not in css or "card-content { flex: 1; }" not in css:
+        fail("card footer pinning rules are missing")
+    if "filter: blur" in css:
+        fail("NSFW preview blur is still present")
+    if "setInterval(advance, 1200)" not in js or "data-gallery" not in js:
+        fail("gallery carousel behavior is missing")
+    if "video.muted = false" not in js or "data-speaker-toggle" not in js:
+        fail("audio-first video fallback behavior is missing")
+    if "data-stack-manifest" not in js or "folder unknown" not in js or "vramKnown" not in js:
+        fail("rail manifest/totals backing logic is missing")
+    if not re.search(r'data-stack-vram[^>]*>—</strong>', read(SITE / "index.html")):
+        fail("unknown VRAM does not start as an em dash")
+    if 'class="requirements-panel"' not in persona or "open exact version on civitai" not in persona:
+        fail("expanded rich detail panel is missing")
+    if 'class="entry-purpose"' not in read(SITE / "speech-voice" / "index.html"):
+        fail("human purpose line is not surfaced on speech cards")
+    if re.search(r'<div class="filter-row">.*?<b>0</b>', persona, re.S):
+        fail("zero-count filter chip is rendered")
+
+
 def check_pipeline() -> str:
     import json
     staged = ROOT / "data" / "staged"
@@ -71,7 +105,7 @@ def check_site(demo: bool) -> list[str]:
     if not SITE.exists():
         fail("site directory is missing; run sitegen2.py first")
     stage_files = [SITE / stage / "index.html" for stage in STAGE_IDS]
-    html_files = stage_files + [SITE / "layers" / "index.html", SITE / "index.html"]
+    html_files = stage_files + [SITE / "layers" / "index.html", SITE / "recipes" / "index.html", SITE / "index.html"]
     for path in stage_files:
         html = read(path)
         if '<main class="workbench">' not in html:
@@ -82,13 +116,21 @@ def check_site(demo: bool) -> list[str]:
             fail(f"default empty-state contract missing in {path.relative_to(ROOT)}")
         if 'NSFW ON' not in html:
             fail(f"NSFW default marker missing in {path.relative_to(ROOT)}")
-        if 'decision-matrix' not in html:
-            fail(f"decision matrix missing in {path.relative_to(ROOT)}")
+        if 'class="answer-first"' not in html:
+            fail(f"answer-first row missing in {path.relative_to(ROOT)}")
+        if 'decision-matrix' in html or 'matrix-' in html:
+            fail(f"comparison matrix still rendered in {path.relative_to(ROOT)}")
         if 'class="entry-card"' in html and 'class="media-missing"' in html:
             fail(f"blank preview marker rendered in {path.relative_to(ROOT)}")
     check_banned_words(html_files)
     css = read(SITE / "assets" / "style.css")
-    read(SITE / "assets" / "app.js")
+    js = read(SITE / "assets" / "app.js")
+    check_owner_surfaces(html_files, css, js, demo=demo)
+    recipes_html = read(SITE / "recipes" / "index.html")
+    if 'data-stage="recipes"' not in recipes_html:
+        fail("recipes navigation link missing")
+    if 'recipes land next pull' not in recipes_html and 'class="recipe-card"' not in recipes_html:
+        fail("recipes page has neither recipes nor honest empty state")
     check_fonts(css)
     if "position: sticky" not in css:
         fail("sticky navigation rule missing")
