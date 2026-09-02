@@ -1,6 +1,6 @@
 {
  "stage": "ADS",
- "generated": "2026-09-02T04:55:29+00:00",
+ "generated": "2026-09-02T05:11:32+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -72,8 +72,62 @@
    "verdict_keep": "product background change v2, Q7",
    "civitai_url": "https://civitai.com/models/413826",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "control-lora-depth-rank256.safetensors",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "juggernautXL_v9Rdphoto2Lightning.safetensors",
+      "folder": "models/checkpoints/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "ControlNetApplyAdvanced",
+      "manager_search": "ControlNetApplyAdvanced"
+     },
+     {
+      "class_type": "DepthAnythingPreprocessor",
+      "manager_search": "DepthAnythingPreprocessor"
+     },
+     {
+      "class_type": "DifferentialDiffusion",
+      "manager_search": "DifferentialDiffusion"
+     },
+     {
+      "class_type": "IPAdapterAdvanced",
+      "manager_search": "IPAdapterAdvanced"
+     },
+     {
+      "class_type": "IPAdapterUnifiedLoader",
+      "manager_search": "IPAdapterUnifiedLoader"
+     },
+     {
+      "class_type": "ImageRemoveBackground+",
+      "manager_search": "ImageRemoveBackground+"
+     },
+     {
+      "class_type": "ImageResize+",
+      "manager_search": "ImageResize+"
+     },
+     {
+      "class_type": "InpaintModelConditioning",
+      "manager_search": "InpaintModelConditioning"
+     },
+     {
+      "class_type": "MaskPreview+",
+      "manager_search": "MaskPreview+"
+     },
+     {
+      "class_type": "PrepImageForClipVision",
+      "manager_search": "PrepImageForClipVision"
+     },
+     {
+      "class_type": "RemBGSession+",
+      "manager_search": "RemBGSession+"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -113,8 +167,62 @@
    "verdict_keep": "product background change — core ads function, results visible",
    "civitai_url": "https://civitai.com/models/413803",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "control-lora-depth-rank256.safetensors",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "juggernautXL_v9Rdphoto2Lightning.safetensors",
+      "folder": "models/checkpoints/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "ControlNetApplyAdvanced",
+      "manager_search": "ControlNetApplyAdvanced"
+     },
+     {
+      "class_type": "DepthAnythingPreprocessor",
+      "manager_search": "DepthAnythingPreprocessor"
+     },
+     {
+      "class_type": "DifferentialDiffusion",
+      "manager_search": "DifferentialDiffusion"
+     },
+     {
+      "class_type": "IPAdapterAdvanced",
+      "manager_search": "IPAdapterAdvanced"
+     },
+     {
+      "class_type": "IPAdapterUnifiedLoader",
+      "manager_search": "IPAdapterUnifiedLoader"
+     },
+     {
+      "class_type": "ImageRemoveBackground+",
+      "manager_search": "ImageRemoveBackground+"
+     },
+     {
+      "class_type": "ImageResize+",
+      "manager_search": "ImageResize+"
+     },
+     {
+      "class_type": "InpaintModelConditioning",
+      "manager_search": "InpaintModelConditioning"
+     },
+     {
+      "class_type": "MaskPreview+",
+      "manager_search": "MaskPreview+"
+     },
+     {
+      "class_type": "PrepImageForClipVision",
+      "manager_search": "PrepImageForClipVision"
+     },
+     {
+      "class_type": "RemBGSession+",
+      "manager_search": "RemBGSession+"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -275,8 +383,62 @@
    "verdict_keep": "product background change — core ads function, results visible",
    "civitai_url": "https://civitai.com/models/413803",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "control-lora-depth-rank256.safetensors",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "juggernautXL_v9Rdphoto2Lightning.safetensors",
+      "folder": "models/checkpoints/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "ControlNetApplyAdvanced",
+      "manager_search": "ControlNetApplyAdvanced"
+     },
+     {
+      "class_type": "DepthAnythingPreprocessor",
+      "manager_search": "DepthAnythingPreprocessor"
+     },
+     {
+      "class_type": "DifferentialDiffusion",
+      "manager_search": "DifferentialDiffusion"
+     },
+     {
+      "class_type": "IPAdapterAdvanced",
+      "manager_search": "IPAdapterAdvanced"
+     },
+     {
+      "class_type": "IPAdapterUnifiedLoader",
+      "manager_search": "IPAdapterUnifiedLoader"
+     },
+     {
+      "class_type": "ImageRemoveBackground+",
+      "manager_search": "ImageRemoveBackground+"
+     },
+     {
+      "class_type": "ImageResize+",
+      "manager_search": "ImageResize+"
+     },
+     {
+      "class_type": "InpaintModelConditioning",
+      "manager_search": "InpaintModelConditioning"
+     },
+     {
+      "class_type": "MaskPreview+",
+      "manager_search": "MaskPreview+"
+     },
+     {
+      "class_type": "PrepImageForClipVision",
+      "manager_search": "PrepImageForClipVision"
+     },
+     {
+      "class_type": "RemBGSession+",
+      "manager_search": "RemBGSession+"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -357,8 +519,62 @@
    "verdict_keep": "product background change v2, Q7",
    "civitai_url": "https://civitai.com/models/413826",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "control-lora-depth-rank256.safetensors",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "juggernautXL_v9Rdphoto2Lightning.safetensors",
+      "folder": "models/checkpoints/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "ControlNetApplyAdvanced",
+      "manager_search": "ControlNetApplyAdvanced"
+     },
+     {
+      "class_type": "DepthAnythingPreprocessor",
+      "manager_search": "DepthAnythingPreprocessor"
+     },
+     {
+      "class_type": "DifferentialDiffusion",
+      "manager_search": "DifferentialDiffusion"
+     },
+     {
+      "class_type": "IPAdapterAdvanced",
+      "manager_search": "IPAdapterAdvanced"
+     },
+     {
+      "class_type": "IPAdapterUnifiedLoader",
+      "manager_search": "IPAdapterUnifiedLoader"
+     },
+     {
+      "class_type": "ImageRemoveBackground+",
+      "manager_search": "ImageRemoveBackground+"
+     },
+     {
+      "class_type": "ImageResize+",
+      "manager_search": "ImageResize+"
+     },
+     {
+      "class_type": "InpaintModelConditioning",
+      "manager_search": "InpaintModelConditioning"
+     },
+     {
+      "class_type": "MaskPreview+",
+      "manager_search": "MaskPreview+"
+     },
+     {
+      "class_type": "PrepImageForClipVision",
+      "manager_search": "PrepImageForClipVision"
+     },
+     {
+      "class_type": "RemBGSession+",
+      "manager_search": "RemBGSession+"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,

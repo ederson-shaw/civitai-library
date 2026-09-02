@@ -1,6 +1,6 @@
 {
  "stage": "CAMERA_ANGLE",
- "generated": "2026-09-02T04:55:29+00:00",
+ "generated": "2026-09-02T05:11:32+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -72,8 +72,82 @@
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1796490",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "wan_2.1_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "GetImageSize+",
+      "manager_search": "GetImageSize+"
+     },
+     {
+      "class_type": "Image Batch",
+      "manager_search": "Image Batch"
+     },
+     {
+      "class_type": "ImageResize+",
+      "manager_search": "ImageResize+"
+     },
+     {
+      "class_type": "InspyrenetRembg",
+      "manager_search": "InspyrenetRembg"
+     },
+     {
+      "class_type": "PlaySound|pysssss",
+      "manager_search": "PlaySound|pysssss"
+     },
+     {
+      "class_type": "PrimitiveInt",
+      "manager_search": "PrimitiveInt"
+     },
+     {
+      "class_type": "TorchCompileModelWanVideoV2",
+      "manager_search": "TorchCompileModelWanVideoV2"
+     },
+     {
+      "class_type": "TrimVideoLatent",
+      "manager_search": "TrimVideoLatent"
+     },
+     {
+      "class_type": "UnetLoaderGGUF",
+      "manager_search": "UnetLoaderGGUF"
+     },
+     {
+      "class_type": "VHS_DuplicateImages",
+      "manager_search": "VHS_DuplicateImages"
+     },
+     {
+      "class_type": "VHS_LoadVideoPath",
+      "manager_search": "VHS_LoadVideoPath"
+     },
+     {
+      "class_type": "VHS_SelectEveryNthImage",
+      "manager_search": "VHS_SelectEveryNthImage"
+     },
+     {
+      "class_type": "VHS_SelectFilename",
+      "manager_search": "VHS_SelectFilename"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "WanVaceToVideo",
+      "manager_search": "WanVaceToVideo"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -229,7 +303,24 @@
    "civitai_url": "https://civitai.com/models/2323627",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "65c22b29-59aa-496b-89c6-55a603658670",
+      "manager_search": "65c22b29-59aa-496b-89c6-55a603658670"
+     },
+     {
+      "class_type": "73d1f5b0-8ef6-4921-af29-64782f11274d",
+      "manager_search": "73d1f5b0-8ef6-4921-af29-64782f11274d"
+     },
+     {
+      "class_type": "7b34ab90-36f9-45ba-a665-71d418f0df18",
+      "manager_search": "7b34ab90-36f9-45ba-a665-71d418f0df18"
+     },
+     {
+      "class_type": "SimplePromptBatcher",
+      "manager_search": "SimplePromptBatcher"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -267,8 +358,114 @@
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1774551",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "ae.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "clip_l.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AILab_ImageCombiner",
+      "manager_search": "AILab_ImageCombiner"
+     },
+     {
+      "class_type": "Anything Everywhere",
+      "manager_search": "Anything Everywhere"
+     },
+     {
+      "class_type": "Base64DecodeNode",
+      "manager_search": "Base64DecodeNode"
+     },
+     {
+      "class_type": "CR Color Panel",
+      "manager_search": "CR Color Panel"
+     },
+     {
+      "class_type": "ConcatStringSingle",
+      "manager_search": "ConcatStringSingle"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FluxKontextImageScale",
+      "manager_search": "FluxKontextImageScale"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "GetImageSize+",
+      "manager_search": "GetImageSize+"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageCropByMask",
+      "manager_search": "ImageCropByMask"
+     },
+     {
+      "class_type": "ImageResize+",
+      "manager_search": "ImageResize+"
+     },
+     {
+      "class_type": "ImageStitch",
+      "manager_search": "ImageStitch"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "Lora Loader Stack (rgthree)",
+      "manager_search": "Lora Loader Stack (rgthree)"
+     },
+     {
+      "class_type": "MathExpression|pysssss",
+      "manager_search": "MathExpression|pysssss"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "RMBG",
+      "manager_search": "RMBG"
+     },
+     {
+      "class_type": "ReferenceLatent",
+      "manager_search": "ReferenceLatent"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "String",
+      "manager_search": "String"
+     },
+     {
+      "class_type": "TeaCache",
+      "manager_search": "TeaCache"
+     },
+     {
+      "class_type": "UnetLoaderGGUF",
+      "manager_search": "UnetLoaderGGUF"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -307,7 +504,128 @@
    "civitai_url": "https://civitai.com/models/526049",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "AIO_Preprocessor",
+      "manager_search": "AIO_Preprocessor"
+     },
+     {
+      "class_type": "AddMask",
+      "manager_search": "AddMask"
+     },
+     {
+      "class_type": "AnimeLineArtPreprocessor",
+      "manager_search": "AnimeLineArtPreprocessor"
+     },
+     {
+      "class_type": "Canny",
+      "manager_search": "Canny"
+     },
+     {
+      "class_type": "CannyEdgePreprocessor",
+      "manager_search": "CannyEdgePreprocessor"
+     },
+     {
+      "class_type": "ColorToMask",
+      "manager_search": "ColorToMask"
+     },
+     {
+      "class_type": "ConcatStringSingle",
+      "manager_search": "ConcatStringSingle"
+     },
+     {
+      "class_type": "DF_Text_Box",
+      "manager_search": "DF_Text_Box"
+     },
+     {
+      "class_type": "DWPreprocessor",
+      "manager_search": "DWPreprocessor"
+     },
+     {
+      "class_type": "Display Int (rgthree)",
+      "manager_search": "Display Int (rgthree)"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "GroundingDinoModelLoader (segment anything)",
+      "manager_search": "GroundingDinoModelLoader (segment anything)"
+     },
+     {
+      "class_type": "GroundingDinoSAMSegment (segment anything)",
+      "manager_search": "GroundingDinoSAMSegment (segment anything)"
+     },
+     {
+      "class_type": "HEDPreprocessor",
+      "manager_search": "HEDPreprocessor"
+     },
+     {
+      "class_type": "Image Rembg (Remove Background)",
+      "manager_search": "Image Rembg (Remove Background)"
+     },
+     {
+      "class_type": "LineArtPreprocessor",
+      "manager_search": "LineArtPreprocessor"
+     },
+     {
+      "class_type": "LineartStandardPreprocessor",
+      "manager_search": "LineartStandardPreprocessor"
+     },
+     {
+      "class_type": "Mute / Bypass Repeater (rgthree)",
+      "manager_search": "Mute / Bypass Repeater (rgthree)"
+     },
+     {
+      "class_type": "OneFormer-COCO-SemSegPreprocessor",
+      "manager_search": "OneFormer-COCO-SemSegPreprocessor"
+     },
+     {
+      "class_type": "PiDiNetPreprocessor",
+      "manager_search": "PiDiNetPreprocessor"
+     },
+     {
+      "class_type": "ReActorFaceSwap",
+      "manager_search": "ReActorFaceSwap"
+     },
+     {
+      "class_type": "ReActorRestoreFace",
+      "manager_search": "ReActorRestoreFace"
+     },
+     {
+      "class_type": "SAMModelLoader (segment anything)",
+      "manager_search": "SAMModelLoader (segment anything)"
+     },
+     {
+      "class_type": "String Input [Dream]",
+      "manager_search": "String Input [Dream]"
+     },
+     {
+      "class_type": "String to Text",
+      "manager_search": "String to Text"
+     },
+     {
+      "class_type": "Text Concatenate",
+      "manager_search": "Text Concatenate"
+     },
+     {
+      "class_type": "VHS_LoadVideo",
+      "manager_search": "VHS_LoadVideo"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "ttN float",
+      "manager_search": "ttN float"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -347,8 +665,82 @@
    "verdict_keep": "multi-angle control qwen_edit — core stage function",
    "civitai_url": "https://civitai.com/models/2313745",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Anything Everywhere",
+      "manager_search": "Anything Everywhere"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FluxKontextMultiReferenceLatentMethod",
+      "manager_search": "FluxKontextMultiReferenceLatentMethod"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "QwenEditConfigPreparer",
+      "manager_search": "QwenEditConfigPreparer"
+     },
+     {
+      "class_type": "QwenMultiangleCameraNode",
+      "manager_search": "QwenMultiangleCameraNode"
+     },
+     {
+      "class_type": "ReferenceLatent",
+      "manager_search": "ReferenceLatent"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "SimpleMath+",
+      "manager_search": "SimpleMath+"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlusCustom_lrzjason",
+      "manager_search": "TextEncodeQwenImageEditPlusCustom_lrzjason"
+     },
+     {
+      "class_type": "easy anythingIndexSwitch",
+      "manager_search": "easy anythingIndexSwitch"
+     },
+     {
+      "class_type": "easy promptList",
+      "manager_search": "easy promptList"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -388,8 +780,74 @@
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2252071",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen\\qwen_image_edit_2511_fp8_e4m3fn_scaled_lightning_comfyui_4steps_v1.0.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FluxKontextMultiReferenceLatentMethod",
+      "manager_search": "FluxKontextMultiReferenceLatentMethod"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "Power Lora Loader (rgthree)",
+      "manager_search": "Power Lora Loader (rgthree)"
+     },
+     {
+      "class_type": "PreviewAny",
+      "manager_search": "PreviewAny"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "QwenMultiangleCameraNode",
+      "manager_search": "QwenMultiangleCameraNode"
+     },
+     {
+      "class_type": "SaveAnimatedWEBP",
+      "manager_search": "SaveAnimatedWEBP"
+     },
+     {
+      "class_type": "StringConcatenate",
+      "manager_search": "StringConcatenate"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -428,7 +886,40 @@
    "civitai_url": "https://civitai.com/models/2391906",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "059ea25d-e8a6-4420-9906-2549000ebabc",
+      "manager_search": "059ea25d-e8a6-4420-9906-2549000ebabc"
+     },
+     {
+      "class_type": "0e11bce7-fd8e-4ec6-9b5b-ccf7b7a46562",
+      "manager_search": "0e11bce7-fd8e-4ec6-9b5b-ccf7b7a46562"
+     },
+     {
+      "class_type": "3f736cee-4b58-4c7e-9be3-b2fbf99a2f8c",
+      "manager_search": "3f736cee-4b58-4c7e-9be3-b2fbf99a2f8c"
+     },
+     {
+      "class_type": "4debe3ee-5cb8-413e-839e-ad68bcd422c5",
+      "manager_search": "4debe3ee-5cb8-413e-839e-ad68bcd422c5"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "d6a280ff-54cc-42bc-9dda-2e51ccb00015",
+      "manager_search": "d6a280ff-54cc-42bc-9dda-2e51ccb00015"
+     },
+     {
+      "class_type": "d74a9f7c-d4c2-498f-a2d2-5acb290d4c6c",
+      "manager_search": "d74a9f7c-d4c2-498f-a2d2-5acb290d4c6c"
+     },
+     {
+      "class_type": "dc5646d7-7c35-4ed2-8a4d-07355d62faa2",
+      "manager_search": "dc5646d7-7c35-4ed2-8a4d-07355d62faa2"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -466,8 +957,106 @@
    "verdict_keep": "pose transfer qwen_edit_2509 — core function",
    "civitai_url": "https://civitai.com/models/2103017",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "Qwen-Image-Edit-2509_fp8_e4m3fn.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_2.5_vl_7b.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "CR Text",
+      "manager_search": "CR Text"
+     },
+     {
+      "class_type": "DWPreprocessor",
+      "manager_search": "DWPreprocessor"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Get resolution [Crystools]",
+      "manager_search": "Get resolution [Crystools]"
+     },
+     {
+      "class_type": "GroundingDinoModelLoader_SDPose",
+      "manager_search": "GroundingDinoModelLoader_SDPose"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "ImpactCompare",
+      "manager_search": "ImpactCompare"
+     },
+     {
+      "class_type": "LayerUtility: ImageReel",
+      "manager_search": "LayerUtility: ImageReel"
+     },
+     {
+      "class_type": "LayerUtility: ImageReelComposit",
+      "manager_search": "LayerUtility: ImageReelComposit"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "MaskPreview+",
+      "manager_search": "MaskPreview+"
+     },
+     {
+      "class_type": "SDPoseOODLoader",
+      "manager_search": "SDPoseOODLoader"
+     },
+     {
+      "class_type": "SDPoseOODProcessor",
+      "manager_search": "SDPoseOODProcessor"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "SimpleMath+",
+      "manager_search": "SimpleMath+"
+     },
+     {
+      "class_type": "SimpleMathCondition+",
+      "manager_search": "SimpleMathCondition+"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     },
+     {
+      "class_type": "YOLOModelLoader",
+      "manager_search": "YOLOModelLoader"
+     },
+     {
+      "class_type": "easy getNode",
+      "manager_search": "easy getNode"
+     },
+     {
+      "class_type": "easy setNode",
+      "manager_search": "easy setNode"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -507,8 +1096,206 @@
    "verdict_keep": "animatediff vid2vid pairing decomposer, Q8 video",
    "civitai_url": "https://civitai.com/models/546507",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "control_v11f1p_sd15_depth.pth",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "control_v11p_sd15_canny.pth",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "control_v11p_sd15_lineart.pth",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "control_v11p_sd15_normalbae.pth",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "control_v11p_sd15_openpose.pth",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "control_v11p_sd15_softedge.pth",
+      "folder": "models/controlnet/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "ACN_AdvancedControlNetApply",
+      "manager_search": "ACN_AdvancedControlNetApply"
+     },
+     {
+      "class_type": "ADE_AnimateDiffLoaderWithContext",
+      "manager_search": "ADE_AnimateDiffLoaderWithContext"
+     },
+     {
+      "class_type": "ADE_AnimateDiffUniformContextOptions",
+      "manager_search": "ADE_AnimateDiffUniformContextOptions"
+     },
+     {
+      "class_type": "BatchPromptSchedule",
+      "manager_search": "BatchPromptSchedule"
+     },
+     {
+      "class_type": "ControlNetApplyAdvanced",
+      "manager_search": "ControlNetApplyAdvanced"
+     },
+     {
+      "class_type": "ControlNetLoaderAdvanced",
+      "manager_search": "ControlNetLoaderAdvanced"
+     },
+     {
+      "class_type": "DF_Multiply",
+      "manager_search": "DF_Multiply"
+     },
+     {
+      "class_type": "DF_Text_Box",
+      "manager_search": "DF_Text_Box"
+     },
+     {
+      "class_type": "Display Int (rgthree)",
+      "manager_search": "Display Int (rgthree)"
+     },
+     {
+      "class_type": "Efficient Loader",
+      "manager_search": "Efficient Loader"
+     },
+     {
+      "class_type": "Evaluate Integers",
+      "manager_search": "Evaluate Integers"
+     },
+     {
+      "class_type": "FaceRestoreCFWithModel",
+      "manager_search": "FaceRestoreCFWithModel"
+     },
+     {
+      "class_type": "FaceRestoreModelLoader",
+      "manager_search": "FaceRestoreModelLoader"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FreeU_V2",
+      "manager_search": "FreeU_V2"
+     },
+     {
+      "class_type": "Get Image Size",
+      "manager_search": "Get Image Size"
+     },
+     {
+      "class_type": "GetImagesFromBatchIndexed",
+      "manager_search": "GetImagesFromBatchIndexed"
+     },
+     {
+      "class_type": "GetLatentsFromBatchIndexed",
+      "manager_search": "GetLatentsFromBatchIndexed"
+     },
+     {
+      "class_type": "IPAdapterAdvanced",
+      "manager_search": "IPAdapterAdvanced"
+     },
+     {
+      "class_type": "IPAdapterUnifiedLoader",
+      "manager_search": "IPAdapterUnifiedLoader"
+     },
+     {
+      "class_type": "ImageRGBA2RGB",
+      "manager_search": "ImageRGBA2RGB"
+     },
+     {
+      "class_type": "ImpactFloat",
+      "manager_search": "ImpactFloat"
+     },
+     {
+      "class_type": "ImpactInt",
+      "manager_search": "ImpactInt"
+     },
+     {
+      "class_type": "JWIntegerDiv",
+      "manager_search": "JWIntegerDiv"
+     },
+     {
+      "class_type": "KSampler (Efficient)",
+      "manager_search": "KSampler (Efficient)"
+     },
+     {
+      "class_type": "KSampler Config (rgthree)",
+      "manager_search": "KSampler Config (rgthree)"
+     },
+     {
+      "class_type": "LayerUtility: PurgeVRAM",
+      "manager_search": "LayerUtility: PurgeVRAM"
+     },
+     {
+      "class_type": "LoRA Stacker",
+      "manager_search": "LoRA Stacker"
+     },
+     {
+      "class_type": "Logic Boolean Primitive",
+      "manager_search": "Logic Boolean Primitive"
+     },
+     {
+      "class_type": "Mute / Bypass Repeater (rgthree)",
+      "manager_search": "Mute / Bypass Repeater (rgthree)"
+     },
+     {
+      "class_type": "PrepImageForClipVision",
+      "manager_search": "PrepImageForClipVision"
+     },
+     {
+      "class_type": "RIFE VFI",
+      "manager_search": "RIFE VFI"
+     },
+     {
+      "class_type": "ReActorFaceSwap",
+      "manager_search": "ReActorFaceSwap"
+     },
+     {
+      "class_type": "ResizeMask",
+      "manager_search": "ResizeMask"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "String to Text",
+      "manager_search": "String to Text"
+     },
+     {
+      "class_type": "Text Concatenate",
+      "manager_search": "Text Concatenate"
+     },
+     {
+      "class_type": "VHS_GetImageCount",
+      "manager_search": "VHS_GetImageCount"
+     },
+     {
+      "class_type": "VHS_LoadVideo",
+      "manager_search": "VHS_LoadVideo"
+     },
+     {
+      "class_type": "VHS_LoadVideoPath",
+      "manager_search": "VHS_LoadVideoPath"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VHS_VideoInfo",
+      "manager_search": "VHS_VideoInfo"
+     },
+     {
+      "class_type": "workflow/UpscaleMethod",
+      "manager_search": "workflow/UpscaleMethod"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,

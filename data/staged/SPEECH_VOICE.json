@@ -1,6 +1,6 @@
 {
  "stage": "SPEECH_VOICE",
- "generated": "2026-09-02T04:55:29+00:00",
+ "generated": "2026-09-02T05:11:32+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -74,8 +74,162 @@
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1945414",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "RealESRGAN_x2.pth",
+      "folder": "models/upscale_models/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AudioCrop",
+      "manager_search": "AudioCrop"
+     },
+     {
+      "class_type": "Bool Binary And JK",
+      "manager_search": "Bool Binary And JK"
+     },
+     {
+      "class_type": "CR Text",
+      "manager_search": "CR Text"
+     },
+     {
+      "class_type": "Compare",
+      "manager_search": "Compare"
+     },
+     {
+      "class_type": "DownloadAndLoadWav2VecModel",
+      "manager_search": "DownloadAndLoadWav2VecModel"
+     },
+     {
+      "class_type": "EmptyImage",
+      "manager_search": "EmptyImage"
+     },
+     {
+      "class_type": "GetImageSizeAndCount",
+      "manager_search": "GetImageSizeAndCount"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "ImageScaleToMegapixels",
+      "manager_search": "ImageScaleToMegapixels"
+     },
+     {
+      "class_type": "ImpactSwitch",
+      "manager_search": "ImpactSwitch"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LoadWanVideoT5TextEncoder",
+      "manager_search": "LoadWanVideoT5TextEncoder"
+     },
+     {
+      "class_type": "MultiTalkModelLoader",
+      "manager_search": "MultiTalkModelLoader"
+     },
+     {
+      "class_type": "MultiTalkWav2VecEmbeds",
+      "manager_search": "MultiTalkWav2VecEmbeds"
+     },
+     {
+      "class_type": "ResolutionMaster",
+      "manager_search": "ResolutionMaster"
+     },
+     {
+      "class_type": "SaveAudio",
+      "manager_search": "SaveAudio"
+     },
+     {
+      "class_type": "SeedVR2",
+      "manager_search": "SeedVR2"
+     },
+     {
+      "class_type": "SeedVR2BlockSwap",
+      "manager_search": "SeedVR2BlockSwap"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SimpleMath+",
+      "manager_search": "SimpleMath+"
+     },
+     {
+      "class_type": "Text Concatenate",
+      "manager_search": "Text Concatenate"
+     },
+     {
+      "class_type": "VHS_LoadVideo",
+      "manager_search": "VHS_LoadVideo"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VibeVoiceTTS",
+      "manager_search": "VibeVoiceTTS"
+     },
+     {
+      "class_type": "WanVideoBlockSwap",
+      "manager_search": "WanVideoBlockSwap"
+     },
+     {
+      "class_type": "WanVideoClipVisionEncode",
+      "manager_search": "WanVideoClipVisionEncode"
+     },
+     {
+      "class_type": "WanVideoDecode",
+      "manager_search": "WanVideoDecode"
+     },
+     {
+      "class_type": "WanVideoImageToVideoMultiTalk",
+      "manager_search": "WanVideoImageToVideoMultiTalk"
+     },
+     {
+      "class_type": "WanVideoLoraSelect",
+      "manager_search": "WanVideoLoraSelect"
+     },
+     {
+      "class_type": "WanVideoModelLoader",
+      "manager_search": "WanVideoModelLoader"
+     },
+     {
+      "class_type": "WanVideoSampler",
+      "manager_search": "WanVideoSampler"
+     },
+     {
+      "class_type": "WanVideoTextEncode",
+      "manager_search": "WanVideoTextEncode"
+     },
+     {
+      "class_type": "WanVideoVAELoader",
+      "manager_search": "WanVideoVAELoader"
+     },
+     {
+      "class_type": "easy ifElse",
+      "manager_search": "easy ifElse"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -115,8 +269,234 @@
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2411105",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "ltx-2-19b-dev-fp8.safetensors",
+      "folder": "models/checkpoints/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AILab_QwenVL",
+      "manager_search": "AILab_QwenVL"
+     },
+     {
+      "class_type": "AILab_QwenVL_PromptEnhancer",
+      "manager_search": "AILab_QwenVL_PromptEnhancer"
+     },
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "CM_FloatToInt",
+      "manager_search": "CM_FloatToInt"
+     },
+     {
+      "class_type": "Checkpoint Selector",
+      "manager_search": "Checkpoint Selector"
+     },
+     {
+      "class_type": "DF_Text",
+      "manager_search": "DF_Text"
+     },
+     {
+      "class_type": "EmptyImage",
+      "manager_search": "EmptyImage"
+     },
+     {
+      "class_type": "EmptyLTXVLatentVideo",
+      "manager_search": "EmptyLTXVLatentVideo"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FastFilmGrain",
+      "manager_search": "FastFilmGrain"
+     },
+     {
+      "class_type": "Float",
+      "manager_search": "Float"
+     },
+     {
+      "class_type": "Get resolution [Crystools]",
+      "manager_search": "Get resolution [Crystools]"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "GuiderParameters",
+      "manager_search": "GuiderParameters"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "JoinStrings",
+      "manager_search": "JoinStrings"
+     },
+     {
+      "class_type": "LTXAVTextEncoderLoader",
+      "manager_search": "LTXAVTextEncoderLoader"
+     },
+     {
+      "class_type": "LTXVAudioVAEDecode",
+      "manager_search": "LTXVAudioVAEDecode"
+     },
+     {
+      "class_type": "LTXVAudioVAEEncode",
+      "manager_search": "LTXVAudioVAEEncode"
+     },
+     {
+      "class_type": "LTXVAudioVAELoader",
+      "manager_search": "LTXVAudioVAELoader"
+     },
+     {
+      "class_type": "LTXVConcatAVLatent",
+      "manager_search": "LTXVConcatAVLatent"
+     },
+     {
+      "class_type": "LTXVConditioning",
+      "manager_search": "LTXVConditioning"
+     },
+     {
+      "class_type": "LTXVCropGuides",
+      "manager_search": "LTXVCropGuides"
+     },
+     {
+      "class_type": "LTXVEmptyLatentAudio",
+      "manager_search": "LTXVEmptyLatentAudio"
+     },
+     {
+      "class_type": "LTXVImgToVideoInplace",
+      "manager_search": "LTXVImgToVideoInplace"
+     },
+     {
+      "class_type": "LTXVLatentUpsampler",
+      "manager_search": "LTXVLatentUpsampler"
+     },
+     {
+      "class_type": "LTXVNormalizingSampler",
+      "manager_search": "LTXVNormalizingSampler"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "LTXVScheduler",
+      "manager_search": "LTXVScheduler"
+     },
+     {
+      "class_type": "LTXVSeparateAVLatent",
+      "manager_search": "LTXVSeparateAVLatent"
+     },
+     {
+      "class_type": "LTXVTiledVAEDecode",
+      "manager_search": "LTXVTiledVAEDecode"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LatentUpscaleModelLoader",
+      "manager_search": "LatentUpscaleModelLoader"
+     },
+     {
+      "class_type": "ManualSigmas",
+      "manager_search": "ManualSigmas"
+     },
+     {
+      "class_type": "MathExpression|pysssss",
+      "manager_search": "MathExpression|pysssss"
+     },
+     {
+      "class_type": "MultimodalGuider",
+      "manager_search": "MultimodalGuider"
+     },
+     {
+      "class_type": "Node Collector (rgthree)",
+      "manager_search": "Node Collector (rgthree)"
+     },
+     {
+      "class_type": "Power Lora Loader (rgthree)",
+      "manager_search": "Power Lora Loader (rgthree)"
+     },
+     {
+      "class_type": "RIFE VFI",
+      "manager_search": "RIFE VFI"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "SeedVR2LoadDiTModel",
+      "manager_search": "SeedVR2LoadDiTModel"
+     },
+     {
+      "class_type": "SeedVR2LoadVAEModel",
+      "manager_search": "SeedVR2LoadVAEModel"
+     },
+     {
+      "class_type": "SeedVR2VideoUpscaler",
+      "manager_search": "SeedVR2VideoUpscaler"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SolidMask",
+      "manager_search": "SolidMask"
+     },
+     {
+      "class_type": "TrimAudioDuration",
+      "manager_search": "TrimAudioDuration"
+     },
+     {
+      "class_type": "VHS_LoadAudioUpload",
+      "manager_search": "VHS_LoadAudioUpload"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     },
+     {
+      "class_type": "easy clearCacheAll",
+      "manager_search": "easy clearCacheAll"
+     },
+     {
+      "class_type": "easy positive",
+      "manager_search": "easy positive"
+     },
+     {
+      "class_type": "mxSlider",
+      "manager_search": "mxSlider"
+     },
+     {
+      "class_type": "mxSlider2D",
+      "manager_search": "mxSlider2D"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -239,7 +619,56 @@
    "civitai_url": "https://civitai.com/models/1710081",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "GetImageSizeAndCount",
+      "manager_search": "GetImageSizeAndCount"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "TKVideoUserInputs",
+      "manager_search": "TKVideoUserInputs"
+     },
+     {
+      "class_type": "Text Multiline",
+      "manager_search": "Text Multiline"
+     },
+     {
+      "class_type": "VHS_LoadAudioUpload",
+      "manager_search": "VHS_LoadAudioUpload"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "c16dddf5-832d-4544-80c9-663dc1650562",
+      "manager_search": "c16dddf5-832d-4544-80c9-663dc1650562"
+     },
+     {
+      "class_type": "c9dbd3be-ebed-4a35-9584-61977d12356a",
+      "manager_search": "c9dbd3be-ebed-4a35-9584-61977d12356a"
+     },
+     {
+      "class_type": "fb4748f9-d3dd-4c03-b541-ad055373874e",
+      "manager_search": "fb4748f9-d3dd-4c03-b541-ad055373874e"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -280,7 +709,96 @@
    "civitai_url": "https://civitai.com/models/1553946",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "CreateCFGScheduleFloatList",
+      "manager_search": "CreateCFGScheduleFloatList"
+     },
+     {
+      "class_type": "DownloadAndLoadWav2VecModel",
+      "manager_search": "DownloadAndLoadWav2VecModel"
+     },
+     {
+      "class_type": "FantasyTalkingModelLoader",
+      "manager_search": "FantasyTalkingModelLoader"
+     },
+     {
+      "class_type": "FantasyTalkingWav2VecEmbeds",
+      "manager_search": "FantasyTalkingWav2VecEmbeds"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LoadWanVideoT5TextEncoder",
+      "manager_search": "LoadWanVideoT5TextEncoder"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "WanVideoBlockSwap",
+      "manager_search": "WanVideoBlockSwap"
+     },
+     {
+      "class_type": "WanVideoClipVisionEncode",
+      "manager_search": "WanVideoClipVisionEncode"
+     },
+     {
+      "class_type": "WanVideoDecode",
+      "manager_search": "WanVideoDecode"
+     },
+     {
+      "class_type": "WanVideoImageToVideoEncode",
+      "manager_search": "WanVideoImageToVideoEncode"
+     },
+     {
+      "class_type": "WanVideoModelLoader",
+      "manager_search": "WanVideoModelLoader"
+     },
+     {
+      "class_type": "WanVideoSampler",
+      "manager_search": "WanVideoSampler"
+     },
+     {
+      "class_type": "WanVideoTeaCache",
+      "manager_search": "WanVideoTeaCache"
+     },
+     {
+      "class_type": "WanVideoTextEncode",
+      "manager_search": "WanVideoTextEncode"
+     },
+     {
+      "class_type": "WanVideoTorchCompileSettings",
+      "manager_search": "WanVideoTorchCompileSettings"
+     },
+     {
+      "class_type": "WanVideoVAELoader",
+      "manager_search": "WanVideoVAELoader"
+     },
+     {
+      "class_type": "WanVideoVRAMManagement",
+      "manager_search": "WanVideoVRAMManagement"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -891,7 +1409,48 @@
    "civitai_url": "https://civitai.com/models/394171",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "FaceRestoreCFWithModel",
+      "manager_search": "FaceRestoreCFWithModel"
+     },
+     {
+      "class_type": "FaceRestoreModelLoader",
+      "manager_search": "FaceRestoreModelLoader"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "MuseTalkCupAudio",
+      "manager_search": "MuseTalkCupAudio"
+     },
+     {
+      "class_type": "MuseTalkRun",
+      "manager_search": "MuseTalkRun"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "VHS_FILENAMES_STRING_MuseTalk",
+      "manager_search": "VHS_FILENAMES_STRING_MuseTalk"
+     },
+     {
+      "class_type": "VHS_LoadAudio",
+      "manager_search": "VHS_LoadAudio"
+     },
+     {
+      "class_type": "VHS_LoadVideo",
+      "manager_search": "VHS_LoadVideo"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -931,8 +1490,210 @@
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2490072",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "LTX23_video_vae_bf16.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "gemma_3_12B_it_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "ltx-2.3-22b-distilled_transformer_only_fp8_scaled.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "ltx-2.3_text_projection_bf16.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "taeltx2_3.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AILab_QwenVL",
+      "manager_search": "AILab_QwenVL"
+     },
+     {
+      "class_type": "AudioCrop",
+      "manager_search": "AudioCrop"
+     },
+     {
+      "class_type": "ComfySwitchNode",
+      "manager_search": "ComfySwitchNode"
+     },
+     {
+      "class_type": "EmptyLTXVLatentVideo",
+      "manager_search": "EmptyLTXVLatentVideo"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "LTX2PromptArchitectQwen",
+      "manager_search": "LTX2PromptArchitectQwen"
+     },
+     {
+      "class_type": "LTX2SamplingPreviewOverride",
+      "manager_search": "LTX2SamplingPreviewOverride"
+     },
+     {
+      "class_type": "LTX2_NAG",
+      "manager_search": "LTX2_NAG"
+     },
+     {
+      "class_type": "LTXVAudioVAEDecode",
+      "manager_search": "LTXVAudioVAEDecode"
+     },
+     {
+      "class_type": "LTXVAudioVAEEncode",
+      "manager_search": "LTXVAudioVAEEncode"
+     },
+     {
+      "class_type": "LTXVChunkFeedForward",
+      "manager_search": "LTXVChunkFeedForward"
+     },
+     {
+      "class_type": "LTXVConcatAVLatent",
+      "manager_search": "LTXVConcatAVLatent"
+     },
+     {
+      "class_type": "LTXVConditioning",
+      "manager_search": "LTXVConditioning"
+     },
+     {
+      "class_type": "LTXVImgToVideoInplace",
+      "manager_search": "LTXVImgToVideoInplace"
+     },
+     {
+      "class_type": "LTXVLatentUpsampler",
+      "manager_search": "LTXVLatentUpsampler"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "LTXVScheduler",
+      "manager_search": "LTXVScheduler"
+     },
+     {
+      "class_type": "LTXVSeparateAVLatent",
+      "manager_search": "LTXVSeparateAVLatent"
+     },
+     {
+      "class_type": "LatentUpscaleModelLoader",
+      "manager_search": "LatentUpscaleModelLoader"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "ManualSigmas",
+      "manager_search": "ManualSigmas"
+     },
+     {
+      "class_type": "MelBandRoFormerModelLoader",
+      "manager_search": "MelBandRoFormerModelLoader"
+     },
+     {
+      "class_type": "MelBandRoFormerSampler",
+      "manager_search": "MelBandRoFormerSampler"
+     },
+     {
+      "class_type": "ModelPatchTorchSettings",
+      "manager_search": "ModelPatchTorchSettings"
+     },
+     {
+      "class_type": "PainterAudioLength",
+      "manager_search": "PainterAudioLength"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "RAMCleanup",
+      "manager_search": "RAMCleanup"
+     },
+     {
+      "class_type": "ReservedVRAMSetter",
+      "manager_search": "ReservedVRAMSetter"
+     },
+     {
+      "class_type": "ResizeImageMaskNode",
+      "manager_search": "ResizeImageMaskNode"
+     },
+     {
+      "class_type": "ResizeImagesByLongerEdge",
+      "manager_search": "ResizeImagesByLongerEdge"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SimpleCalculatorKJ",
+      "manager_search": "SimpleCalculatorKJ"
+     },
+     {
+      "class_type": "SolidMask",
+      "manager_search": "SolidMask"
+     },
+     {
+      "class_type": "Text Concatenate",
+      "manager_search": "Text Concatenate"
+     },
+     {
+      "class_type": "VAELoaderKJ",
+      "manager_search": "VAELoaderKJ"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VRAMCleanup",
+      "manager_search": "VRAMCleanup"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -973,7 +1734,108 @@
    "civitai_url": "https://civitai.com/models/1526147",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "CreateCFGScheduleFloatList",
+      "manager_search": "CreateCFGScheduleFloatList"
+     },
+     {
+      "class_type": "DownloadAndLoadWav2VecModel",
+      "manager_search": "DownloadAndLoadWav2VecModel"
+     },
+     {
+      "class_type": "FantasyTalkingModelLoader",
+      "manager_search": "FantasyTalkingModelLoader"
+     },
+     {
+      "class_type": "FantasyTalkingWav2VecEmbeds",
+      "manager_search": "FantasyTalkingWav2VecEmbeds"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "JWInteger",
+      "manager_search": "JWInteger"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LoadWanVideoT5TextEncoder",
+      "manager_search": "LoadWanVideoT5TextEncoder"
+     },
+     {
+      "class_type": "MediaPlayer",
+      "manager_search": "MediaPlayer"
+     },
+     {
+      "class_type": "NTCosyVoiceCrossLingualSampler",
+      "manager_search": "NTCosyVoiceCrossLingualSampler"
+     },
+     {
+      "class_type": "NTCosyVoiceInstruct2Sampler",
+      "manager_search": "NTCosyVoiceInstruct2Sampler"
+     },
+     {
+      "class_type": "NTCosyVoiceZeroShotSampler",
+      "manager_search": "NTCosyVoiceZeroShotSampler"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "WanVideoBlockSwap",
+      "manager_search": "WanVideoBlockSwap"
+     },
+     {
+      "class_type": "WanVideoClipVisionEncode",
+      "manager_search": "WanVideoClipVisionEncode"
+     },
+     {
+      "class_type": "WanVideoDecode",
+      "manager_search": "WanVideoDecode"
+     },
+     {
+      "class_type": "WanVideoImageToVideoEncode",
+      "manager_search": "WanVideoImageToVideoEncode"
+     },
+     {
+      "class_type": "WanVideoModelLoader",
+      "manager_search": "WanVideoModelLoader"
+     },
+     {
+      "class_type": "WanVideoSampler",
+      "manager_search": "WanVideoSampler"
+     },
+     {
+      "class_type": "WanVideoTeaCache",
+      "manager_search": "WanVideoTeaCache"
+     },
+     {
+      "class_type": "WanVideoTextEncode",
+      "manager_search": "WanVideoTextEncode"
+     },
+     {
+      "class_type": "WanVideoVAELoader",
+      "manager_search": "WanVideoVAELoader"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1013,8 +1875,162 @@
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1945414",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "RealESRGAN_x2.pth",
+      "folder": "models/upscale_models/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AudioCrop",
+      "manager_search": "AudioCrop"
+     },
+     {
+      "class_type": "Bool Binary And JK",
+      "manager_search": "Bool Binary And JK"
+     },
+     {
+      "class_type": "CR Text",
+      "manager_search": "CR Text"
+     },
+     {
+      "class_type": "Compare",
+      "manager_search": "Compare"
+     },
+     {
+      "class_type": "DownloadAndLoadWav2VecModel",
+      "manager_search": "DownloadAndLoadWav2VecModel"
+     },
+     {
+      "class_type": "EmptyImage",
+      "manager_search": "EmptyImage"
+     },
+     {
+      "class_type": "GetImageSizeAndCount",
+      "manager_search": "GetImageSizeAndCount"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "ImageScaleToMegapixels",
+      "manager_search": "ImageScaleToMegapixels"
+     },
+     {
+      "class_type": "ImpactSwitch",
+      "manager_search": "ImpactSwitch"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LoadWanVideoT5TextEncoder",
+      "manager_search": "LoadWanVideoT5TextEncoder"
+     },
+     {
+      "class_type": "MultiTalkModelLoader",
+      "manager_search": "MultiTalkModelLoader"
+     },
+     {
+      "class_type": "MultiTalkWav2VecEmbeds",
+      "manager_search": "MultiTalkWav2VecEmbeds"
+     },
+     {
+      "class_type": "ResolutionMaster",
+      "manager_search": "ResolutionMaster"
+     },
+     {
+      "class_type": "SaveAudio",
+      "manager_search": "SaveAudio"
+     },
+     {
+      "class_type": "SeedVR2",
+      "manager_search": "SeedVR2"
+     },
+     {
+      "class_type": "SeedVR2BlockSwap",
+      "manager_search": "SeedVR2BlockSwap"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SimpleMath+",
+      "manager_search": "SimpleMath+"
+     },
+     {
+      "class_type": "Text Concatenate",
+      "manager_search": "Text Concatenate"
+     },
+     {
+      "class_type": "VHS_LoadVideo",
+      "manager_search": "VHS_LoadVideo"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VibeVoiceTTS",
+      "manager_search": "VibeVoiceTTS"
+     },
+     {
+      "class_type": "WanVideoBlockSwap",
+      "manager_search": "WanVideoBlockSwap"
+     },
+     {
+      "class_type": "WanVideoClipVisionEncode",
+      "manager_search": "WanVideoClipVisionEncode"
+     },
+     {
+      "class_type": "WanVideoDecode",
+      "manager_search": "WanVideoDecode"
+     },
+     {
+      "class_type": "WanVideoImageToVideoMultiTalk",
+      "manager_search": "WanVideoImageToVideoMultiTalk"
+     },
+     {
+      "class_type": "WanVideoLoraSelect",
+      "manager_search": "WanVideoLoraSelect"
+     },
+     {
+      "class_type": "WanVideoModelLoader",
+      "manager_search": "WanVideoModelLoader"
+     },
+     {
+      "class_type": "WanVideoSampler",
+      "manager_search": "WanVideoSampler"
+     },
+     {
+      "class_type": "WanVideoTextEncode",
+      "manager_search": "WanVideoTextEncode"
+     },
+     {
+      "class_type": "WanVideoVAELoader",
+      "manager_search": "WanVideoVAELoader"
+     },
+     {
+      "class_type": "easy ifElse",
+      "manager_search": "easy ifElse"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1054,8 +2070,234 @@
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2411105",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "ltx-2-19b-dev-fp8.safetensors",
+      "folder": "models/checkpoints/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AILab_QwenVL",
+      "manager_search": "AILab_QwenVL"
+     },
+     {
+      "class_type": "AILab_QwenVL_PromptEnhancer",
+      "manager_search": "AILab_QwenVL_PromptEnhancer"
+     },
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "CM_FloatToInt",
+      "manager_search": "CM_FloatToInt"
+     },
+     {
+      "class_type": "Checkpoint Selector",
+      "manager_search": "Checkpoint Selector"
+     },
+     {
+      "class_type": "DF_Text",
+      "manager_search": "DF_Text"
+     },
+     {
+      "class_type": "EmptyImage",
+      "manager_search": "EmptyImage"
+     },
+     {
+      "class_type": "EmptyLTXVLatentVideo",
+      "manager_search": "EmptyLTXVLatentVideo"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FastFilmGrain",
+      "manager_search": "FastFilmGrain"
+     },
+     {
+      "class_type": "Float",
+      "manager_search": "Float"
+     },
+     {
+      "class_type": "Get resolution [Crystools]",
+      "manager_search": "Get resolution [Crystools]"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "GuiderParameters",
+      "manager_search": "GuiderParameters"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "JoinStrings",
+      "manager_search": "JoinStrings"
+     },
+     {
+      "class_type": "LTXAVTextEncoderLoader",
+      "manager_search": "LTXAVTextEncoderLoader"
+     },
+     {
+      "class_type": "LTXVAudioVAEDecode",
+      "manager_search": "LTXVAudioVAEDecode"
+     },
+     {
+      "class_type": "LTXVAudioVAEEncode",
+      "manager_search": "LTXVAudioVAEEncode"
+     },
+     {
+      "class_type": "LTXVAudioVAELoader",
+      "manager_search": "LTXVAudioVAELoader"
+     },
+     {
+      "class_type": "LTXVConcatAVLatent",
+      "manager_search": "LTXVConcatAVLatent"
+     },
+     {
+      "class_type": "LTXVConditioning",
+      "manager_search": "LTXVConditioning"
+     },
+     {
+      "class_type": "LTXVCropGuides",
+      "manager_search": "LTXVCropGuides"
+     },
+     {
+      "class_type": "LTXVEmptyLatentAudio",
+      "manager_search": "LTXVEmptyLatentAudio"
+     },
+     {
+      "class_type": "LTXVImgToVideoInplace",
+      "manager_search": "LTXVImgToVideoInplace"
+     },
+     {
+      "class_type": "LTXVLatentUpsampler",
+      "manager_search": "LTXVLatentUpsampler"
+     },
+     {
+      "class_type": "LTXVNormalizingSampler",
+      "manager_search": "LTXVNormalizingSampler"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "LTXVScheduler",
+      "manager_search": "LTXVScheduler"
+     },
+     {
+      "class_type": "LTXVSeparateAVLatent",
+      "manager_search": "LTXVSeparateAVLatent"
+     },
+     {
+      "class_type": "LTXVTiledVAEDecode",
+      "manager_search": "LTXVTiledVAEDecode"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LatentUpscaleModelLoader",
+      "manager_search": "LatentUpscaleModelLoader"
+     },
+     {
+      "class_type": "ManualSigmas",
+      "manager_search": "ManualSigmas"
+     },
+     {
+      "class_type": "MathExpression|pysssss",
+      "manager_search": "MathExpression|pysssss"
+     },
+     {
+      "class_type": "MultimodalGuider",
+      "manager_search": "MultimodalGuider"
+     },
+     {
+      "class_type": "Node Collector (rgthree)",
+      "manager_search": "Node Collector (rgthree)"
+     },
+     {
+      "class_type": "Power Lora Loader (rgthree)",
+      "manager_search": "Power Lora Loader (rgthree)"
+     },
+     {
+      "class_type": "RIFE VFI",
+      "manager_search": "RIFE VFI"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "SeedVR2LoadDiTModel",
+      "manager_search": "SeedVR2LoadDiTModel"
+     },
+     {
+      "class_type": "SeedVR2LoadVAEModel",
+      "manager_search": "SeedVR2LoadVAEModel"
+     },
+     {
+      "class_type": "SeedVR2VideoUpscaler",
+      "manager_search": "SeedVR2VideoUpscaler"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SolidMask",
+      "manager_search": "SolidMask"
+     },
+     {
+      "class_type": "TrimAudioDuration",
+      "manager_search": "TrimAudioDuration"
+     },
+     {
+      "class_type": "VHS_LoadAudioUpload",
+      "manager_search": "VHS_LoadAudioUpload"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     },
+     {
+      "class_type": "easy clearCacheAll",
+      "manager_search": "easy clearCacheAll"
+     },
+     {
+      "class_type": "easy positive",
+      "manager_search": "easy positive"
+     },
+     {
+      "class_type": "mxSlider",
+      "manager_search": "mxSlider"
+     },
+     {
+      "class_type": "mxSlider2D",
+      "manager_search": "mxSlider2D"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1096,7 +2338,56 @@
    "civitai_url": "https://civitai.com/models/1710081",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "GetImageSizeAndCount",
+      "manager_search": "GetImageSizeAndCount"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "TKVideoUserInputs",
+      "manager_search": "TKVideoUserInputs"
+     },
+     {
+      "class_type": "Text Multiline",
+      "manager_search": "Text Multiline"
+     },
+     {
+      "class_type": "VHS_LoadAudioUpload",
+      "manager_search": "VHS_LoadAudioUpload"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "c16dddf5-832d-4544-80c9-663dc1650562",
+      "manager_search": "c16dddf5-832d-4544-80c9-663dc1650562"
+     },
+     {
+      "class_type": "c9dbd3be-ebed-4a35-9584-61977d12356a",
+      "manager_search": "c9dbd3be-ebed-4a35-9584-61977d12356a"
+     },
+     {
+      "class_type": "fb4748f9-d3dd-4c03-b541-ad055373874e",
+      "manager_search": "fb4748f9-d3dd-4c03-b541-ad055373874e"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1137,7 +2428,96 @@
    "civitai_url": "https://civitai.com/models/1553946",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "CreateCFGScheduleFloatList",
+      "manager_search": "CreateCFGScheduleFloatList"
+     },
+     {
+      "class_type": "DownloadAndLoadWav2VecModel",
+      "manager_search": "DownloadAndLoadWav2VecModel"
+     },
+     {
+      "class_type": "FantasyTalkingModelLoader",
+      "manager_search": "FantasyTalkingModelLoader"
+     },
+     {
+      "class_type": "FantasyTalkingWav2VecEmbeds",
+      "manager_search": "FantasyTalkingWav2VecEmbeds"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LoadWanVideoT5TextEncoder",
+      "manager_search": "LoadWanVideoT5TextEncoder"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "WanVideoBlockSwap",
+      "manager_search": "WanVideoBlockSwap"
+     },
+     {
+      "class_type": "WanVideoClipVisionEncode",
+      "manager_search": "WanVideoClipVisionEncode"
+     },
+     {
+      "class_type": "WanVideoDecode",
+      "manager_search": "WanVideoDecode"
+     },
+     {
+      "class_type": "WanVideoImageToVideoEncode",
+      "manager_search": "WanVideoImageToVideoEncode"
+     },
+     {
+      "class_type": "WanVideoModelLoader",
+      "manager_search": "WanVideoModelLoader"
+     },
+     {
+      "class_type": "WanVideoSampler",
+      "manager_search": "WanVideoSampler"
+     },
+     {
+      "class_type": "WanVideoTeaCache",
+      "manager_search": "WanVideoTeaCache"
+     },
+     {
+      "class_type": "WanVideoTextEncode",
+      "manager_search": "WanVideoTextEncode"
+     },
+     {
+      "class_type": "WanVideoTorchCompileSettings",
+      "manager_search": "WanVideoTorchCompileSettings"
+     },
+     {
+      "class_type": "WanVideoVAELoader",
+      "manager_search": "WanVideoVAELoader"
+     },
+     {
+      "class_type": "WanVideoVRAMManagement",
+      "manager_search": "WanVideoVRAMManagement"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,

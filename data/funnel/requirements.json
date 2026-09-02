@@ -1,0 +1,5166 @@
+{
+ "372584": {
+  "models": [
+   {
+    "name": "4x_NMKD-Siax_200k.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "SD1.5\\juggernaut_reborn.safetensors",
+    "folder": "models/checkpoints/"
+   },
+   {
+    "name": "vae-ft-mse-840000-ema-pruned.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ACN_AdvancedControlNetApply",
+    "manager_search": "ACN_AdvancedControlNetApply"
+   },
+   {
+    "class_type": "ADE_ApplyAnimateDiffModelSimple",
+    "manager_search": "ADE_ApplyAnimateDiffModelSimple"
+   },
+   {
+    "class_type": "ADE_LoadAnimateDiffModel",
+    "manager_search": "ADE_LoadAnimateDiffModel"
+   },
+   {
+    "class_type": "ADE_LoopedUniformContextOptions",
+    "manager_search": "ADE_LoopedUniformContextOptions"
+   },
+   {
+    "class_type": "ADE_MultivalDynamic",
+    "manager_search": "ADE_MultivalDynamic"
+   },
+   {
+    "class_type": "ADE_UseEvolvedSampling",
+    "manager_search": "ADE_UseEvolvedSampling"
+   },
+   {
+    "class_type": "BatchCount+",
+    "manager_search": "BatchCount+"
+   },
+   {
+    "class_type": "Color Correct (mtb)",
+    "manager_search": "Color Correct (mtb)"
+   },
+   {
+    "class_type": "ControlNetLoaderAdvanced",
+    "manager_search": "ControlNetLoaderAdvanced"
+   },
+   {
+    "class_type": "CreateFadeMaskAdvanced",
+    "manager_search": "CreateFadeMaskAdvanced"
+   },
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "IPAdapterAdvanced",
+    "manager_search": "IPAdapterAdvanced"
+   },
+   {
+    "class_type": "IPAdapterUnifiedLoader",
+    "manager_search": "IPAdapterUnifiedLoader"
+   },
+   {
+    "class_type": "ImageSharpen",
+    "manager_search": "ImageSharpen"
+   },
+   {
+    "class_type": "RIFE VFI",
+    "manager_search": "RIFE VFI"
+   },
+   {
+    "class_type": "RepeatImageBatch",
+    "manager_search": "RepeatImageBatch"
+   },
+   {
+    "class_type": "SimpleMath+",
+    "manager_search": "SimpleMath+"
+   },
+   {
+    "class_type": "VHS_LoadVideoPath",
+    "manager_search": "VHS_LoadVideoPath"
+   },
+   {
+    "class_type": "VHS_SplitImages",
+    "manager_search": "VHS_SplitImages"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "1079810": {
+  "models": [
+   {
+    "name": "1x-ITF-SkinDiffDetail-Lite-v1.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "4x_foolhardy_Remacri.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "ahegao_hunyuan_video_v1_e18.safetensors",
+    "folder": "models/loras/"
+   },
+   {
+    "name": "clip_l.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "hunyuan_video_t2v_720p_bf16.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "hunyuan_video_vae_bf16.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "llava_llama3_fp8_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "DPRandomGenerator",
+    "manager_search": "DPRandomGenerator"
+   },
+   {
+    "class_type": "Display Any (rgthree)",
+    "manager_search": "Display Any (rgthree)"
+   },
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "OllamaGenerate",
+    "manager_search": "OllamaGenerate"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "1300201": {
+  "models": [
+   {
+    "name": "4x_foolhardy_Remacri.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "WanOrg\\umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "WanOrg\\wan2.1_i2v_480p_14B_bf16.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "Wan\\wan_2.1_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ApplyRifleXRoPE_WanVideo",
+    "manager_search": "ApplyRifleXRoPE_WanVideo"
+   },
+   {
+    "class_type": "Context (rgthree)",
+    "manager_search": "Context (rgthree)"
+   },
+   {
+    "class_type": "DF_Logic_node",
+    "manager_search": "DF_Logic_node"
+   },
+   {
+    "class_type": "Display Any (rgthree)",
+    "manager_search": "Display Any (rgthree)"
+   },
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "GetImageSizeAndCount",
+    "manager_search": "GetImageSizeAndCount"
+   },
+   {
+    "class_type": "GetImagesFromBatchIndexed",
+    "manager_search": "GetImagesFromBatchIndexed"
+   },
+   {
+    "class_type": "INTConstant",
+    "manager_search": "INTConstant"
+   },
+   {
+    "class_type": "Int To Number (mtb)",
+    "manager_search": "Int To Number (mtb)"
+   },
+   {
+    "class_type": "Int2String",
+    "manager_search": "Int2String"
+   },
+   {
+    "class_type": "JWImageResizeByLongerSide",
+    "manager_search": "JWImageResizeByLongerSide"
+   },
+   {
+    "class_type": "Label (rgthree)",
+    "manager_search": "Label (rgthree)"
+   },
+   {
+    "class_type": "MathExpression|pysssss",
+    "manager_search": "MathExpression|pysssss"
+   },
+   {
+    "class_type": "Number Multiple Of",
+    "manager_search": "Number Multiple Of"
+   },
+   {
+    "class_type": "Number to Int",
+    "manager_search": "Number to Int"
+   },
+   {
+    "class_type": "PatchModelPatcherOrder",
+    "manager_search": "PatchModelPatcherOrder"
+   },
+   {
+    "class_type": "PathchSageAttentionKJ",
+    "manager_search": "PathchSageAttentionKJ"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "ScheduledCFGGuidance",
+    "manager_search": "ScheduledCFGGuidance"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "TorchCompileModelWanVideo",
+    "manager_search": "TorchCompileModelWanVideo"
+   },
+   {
+    "class_type": "UnetLoaderGGUF",
+    "manager_search": "UnetLoaderGGUF"
+   },
+   {
+    "class_type": "VHS_LoadVideoPath",
+    "manager_search": "VHS_LoadVideoPath"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "WanImageToVideo",
+    "manager_search": "WanImageToVideo"
+   },
+   {
+    "class_type": "WanVideoEnhanceAVideoKJ",
+    "manager_search": "WanVideoEnhanceAVideoKJ"
+   },
+   {
+    "class_type": "WanVideoTeaCacheKJ",
+    "manager_search": "WanVideoTeaCacheKJ"
+   },
+   {
+    "class_type": "easy imageSize",
+    "manager_search": "easy imageSize"
+   }
+  ]
+ },
+ "2024299": {
+  "models": [
+   {
+    "name": "WAN 2.2\\Fun\\wan2.2_fun_vace_high_noise_14B_fp8_scaled.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "WAN 2.2\\Fun\\wan2.2_fun_vace_low_noise_14B_fp8_scaled.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "wan_2.1_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "5b803fdb-e065-4df0-9485-4b7bd5a4879e",
+    "manager_search": "5b803fdb-e065-4df0-9485-4b7bd5a4879e"
+   },
+   {
+    "class_type": "7accba7e-fd35-4b6c-8f67-b4b565869a78",
+    "manager_search": "7accba7e-fd35-4b6c-8f67-b4b565869a78"
+   },
+   {
+    "class_type": "80597ad3-cf64-4c5c-aeaf-fa576a7520db",
+    "manager_search": "80597ad3-cf64-4c5c-aeaf-fa576a7520db"
+   },
+   {
+    "class_type": "9b4d3e88-b5cd-42bf-8e0e-e1c1abbba7df",
+    "manager_search": "9b4d3e88-b5cd-42bf-8e0e-e1c1abbba7df"
+   },
+   {
+    "class_type": "9f21363a-eb71-41d2-a35a-b3d150e1b355",
+    "manager_search": "9f21363a-eb71-41d2-a35a-b3d150e1b355"
+   },
+   {
+    "class_type": "Basic data handling: FlowSelect",
+    "manager_search": "Basic data handling: FlowSelect"
+   },
+   {
+    "class_type": "Basic data handling: PathOutputDir",
+    "manager_search": "Basic data handling: PathOutputDir"
+   },
+   {
+    "class_type": "ComfySwitchNode",
+    "manager_search": "ComfySwitchNode"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "Label (rgthree)",
+    "manager_search": "Label (rgthree)"
+   },
+   {
+    "class_type": "LoadVideosFromFolderSimple",
+    "manager_search": "LoadVideosFromFolderSimple"
+   },
+   {
+    "class_type": "PrimitiveBoolean",
+    "manager_search": "PrimitiveBoolean"
+   },
+   {
+    "class_type": "PrimitiveInt",
+    "manager_search": "PrimitiveInt"
+   },
+   {
+    "class_type": "PrimitiveString",
+    "manager_search": "PrimitiveString"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "StringConcatenate",
+    "manager_search": "StringConcatenate"
+   },
+   {
+    "class_type": "StringReplace",
+    "manager_search": "StringReplace"
+   },
+   {
+    "class_type": "VHS_BatchManager",
+    "manager_search": "VHS_BatchManager"
+   },
+   {
+    "class_type": "VHS_LoadVideoFFmpegPath",
+    "manager_search": "VHS_LoadVideoFFmpegPath"
+   },
+   {
+    "class_type": "VHS_SelectFilename",
+    "manager_search": "VHS_SelectFilename"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "VHS_VideoInfoLoaded",
+    "manager_search": "VHS_VideoInfoLoaded"
+   },
+   {
+    "class_type": "WanVACEBatchContext",
+    "manager_search": "WanVACEBatchContext"
+   },
+   {
+    "class_type": "WanVACEPrepBatch",
+    "manager_search": "WanVACEPrepBatch"
+   },
+   {
+    "class_type": "mxSlider",
+    "manager_search": "mxSlider"
+   }
+  ]
+ },
+ "339604": {
+  "models": [],
+  "nodes": []
+ },
+ "21100": {
+  "models": [
+   {
+    "name": "ILXL CN OpenPose - windsingai.safetensors",
+    "folder": "models/controlnet/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "0d185965-b43f-4075-998a-a521870ab3a4",
+    "manager_search": "0d185965-b43f-4075-998a-a521870ab3a4"
+   },
+   {
+    "class_type": "1fc443c4-0f73-45fe-9b2e-b13639f9f754",
+    "manager_search": "1fc443c4-0f73-45fe-9b2e-b13639f9f754"
+   },
+   {
+    "class_type": "1fed1bd2-8865-4eb9-bbbc-9cebd76a7fd9",
+    "manager_search": "1fed1bd2-8865-4eb9-bbbc-9cebd76a7fd9"
+   },
+   {
+    "class_type": "238c67a2-a177-44a3-8e96-cf1424fc5bbd",
+    "manager_search": "238c67a2-a177-44a3-8e96-cf1424fc5bbd"
+   },
+   {
+    "class_type": "2cfa3158-90fe-401f-ba57-dab7e49400b1",
+    "manager_search": "2cfa3158-90fe-401f-ba57-dab7e49400b1"
+   },
+   {
+    "class_type": "426dccde-e697-46e7-9f55-8f808655a5b6",
+    "manager_search": "426dccde-e697-46e7-9f55-8f808655a5b6"
+   },
+   {
+    "class_type": "49b33228-6299-41a4-ab8f-dc4ffa9fa070",
+    "manager_search": "49b33228-6299-41a4-ab8f-dc4ffa9fa070"
+   },
+   {
+    "class_type": "83ea9f4e-b421-4d6a-aeb3-8a0ad00b2cdf",
+    "manager_search": "83ea9f4e-b421-4d6a-aeb3-8a0ad00b2cdf"
+   },
+   {
+    "class_type": "8a7868c3-df83-4095-84f9-6942a289ed2e",
+    "manager_search": "8a7868c3-df83-4095-84f9-6942a289ed2e"
+   },
+   {
+    "class_type": "962d2f3e-0e69-4417-bac3-eeb70c002514",
+    "manager_search": "962d2f3e-0e69-4417-bac3-eeb70c002514"
+   },
+   {
+    "class_type": "ImageReceiver",
+    "manager_search": "ImageReceiver"
+   },
+   {
+    "class_type": "ImageSender",
+    "manager_search": "ImageSender"
+   },
+   {
+    "class_type": "PreviewBridge",
+    "manager_search": "PreviewBridge"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "a2c7c7be-e2b2-4ed9-9085-03572977e72e",
+    "manager_search": "a2c7c7be-e2b2-4ed9-9085-03572977e72e"
+   },
+   {
+    "class_type": "c6ea589c-83e2-4f86-857e-ea6f24a0e3cd",
+    "manager_search": "c6ea589c-83e2-4f86-857e-ea6f24a0e3cd"
+   },
+   {
+    "class_type": "d9bc507f-f514-474f-a422-6a674615c9e1",
+    "manager_search": "d9bc507f-f514-474f-a422-6a674615c9e1"
+   },
+   {
+    "class_type": "dfdbd571-9a5b-463b-b401-50844d99f2c8",
+    "manager_search": "dfdbd571-9a5b-463b-b401-50844d99f2c8"
+   },
+   {
+    "class_type": "e2de864d-b87d-4f85-bbdb-cf44de8f9a22",
+    "manager_search": "e2de864d-b87d-4f85-bbdb-cf44de8f9a22"
+   },
+   {
+    "class_type": "f61fcbf5-8521-4195-8d0c-d2ad75ef1b81",
+    "manager_search": "f61fcbf5-8521-4195-8d0c-d2ad75ef1b81"
+   },
+   {
+    "class_type": "f8bb889f-9f26-4fea-bcc4-ab5b6103bc83",
+    "manager_search": "f8bb889f-9f26-4fea-bcc4-ab5b6103bc83"
+   }
+  ]
+ },
+ "1224719": {
+  "models": [
+   {
+    "name": "4xRealWebPhoto_v4_dat2.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "ae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "clip_l.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "flux1-dev.sft",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "flux1-fill-dev.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "t5xxl_fp16.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Bookmark (rgthree)",
+    "manager_search": "Bookmark (rgthree)"
+   },
+   {
+    "class_type": "Context (rgthree)",
+    "manager_search": "Context (rgthree)"
+   },
+   {
+    "class_type": "DepthAnything_V2",
+    "manager_search": "DepthAnything_V2"
+   },
+   {
+    "class_type": "DifferentialDiffusion",
+    "manager_search": "DifferentialDiffusion"
+   },
+   {
+    "class_type": "DownloadAndLoadDepthAnythingV2Model",
+    "manager_search": "DownloadAndLoadDepthAnythingV2Model"
+   },
+   {
+    "class_type": "FaceDetailer",
+    "manager_search": "FaceDetailer"
+   },
+   {
+    "class_type": "GetImageSize+",
+    "manager_search": "GetImageSize+"
+   },
+   {
+    "class_type": "GrowMaskWithBlur",
+    "manager_search": "GrowMaskWithBlur"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "ImpactMakeImageBatch",
+    "manager_search": "ImpactMakeImageBatch"
+   },
+   {
+    "class_type": "InpaintModelConditioning",
+    "manager_search": "InpaintModelConditioning"
+   },
+   {
+    "class_type": "InstructPixToPixConditioning",
+    "manager_search": "InstructPixToPixConditioning"
+   },
+   {
+    "class_type": "LayerMask: LoadSegmentAnythingModels",
+    "manager_search": "LayerMask: LoadSegmentAnythingModels"
+   },
+   {
+    "class_type": "LayerMask: SegmentAnythingUltra V3",
+    "manager_search": "LayerMask: SegmentAnythingUltra V3"
+   },
+   {
+    "class_type": "LayerUtility: PurgeVRAM",
+    "manager_search": "LayerUtility: PurgeVRAM"
+   },
+   {
+    "class_type": "LyingSigmaSampler",
+    "manager_search": "LyingSigmaSampler"
+   },
+   {
+    "class_type": "Primitive float [Crystools]",
+    "manager_search": "Primitive float [Crystools]"
+   },
+   {
+    "class_type": "Primitive integer [Crystools]",
+    "manager_search": "Primitive integer [Crystools]"
+   },
+   {
+    "class_type": "SAMLoader",
+    "manager_search": "SAMLoader"
+   },
+   {
+    "class_type": "Sampler Selector (Image Saver)",
+    "manager_search": "Sampler Selector (Image Saver)"
+   },
+   {
+    "class_type": "Scheduler Selector (Comfy) (Image Saver)",
+    "manager_search": "Scheduler Selector (Comfy) (Image Saver)"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "TeaCache",
+    "manager_search": "TeaCache"
+   },
+   {
+    "class_type": "UltimateSDUpscale",
+    "manager_search": "UltimateSDUpscale"
+   },
+   {
+    "class_type": "UltralyticsDetectorProvider",
+    "manager_search": "UltralyticsDetectorProvider"
+   }
+  ]
+ },
+ "323639": {
+  "models": [
+   {
+    "name": "4x_NMKD-Siax_200k.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "control_v1p_sd15_qrcode_monster.safetensors",
+    "folder": "models/controlnet/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ACN_AdvancedControlNetApply",
+    "manager_search": "ACN_AdvancedControlNetApply"
+   },
+   {
+    "class_type": "ACN_SparseCtrlLoaderAdvanced",
+    "manager_search": "ACN_SparseCtrlLoaderAdvanced"
+   },
+   {
+    "class_type": "ACN_SparseCtrlRGBPreprocessor",
+    "manager_search": "ACN_SparseCtrlRGBPreprocessor"
+   },
+   {
+    "class_type": "ACN_SparseCtrlSpreadMethodNode",
+    "manager_search": "ACN_SparseCtrlSpreadMethodNode"
+   },
+   {
+    "class_type": "ADE_AnimateDiffSamplingSettings",
+    "manager_search": "ADE_AnimateDiffSamplingSettings"
+   },
+   {
+    "class_type": "ADE_ApplyAnimateDiffModelSimple",
+    "manager_search": "ADE_ApplyAnimateDiffModelSimple"
+   },
+   {
+    "class_type": "ADE_LoadAnimateDiffModel",
+    "manager_search": "ADE_LoadAnimateDiffModel"
+   },
+   {
+    "class_type": "ADE_LoopedUniformContextOptions",
+    "manager_search": "ADE_LoopedUniformContextOptions"
+   },
+   {
+    "class_type": "ADE_MultivalDynamic",
+    "manager_search": "ADE_MultivalDynamic"
+   },
+   {
+    "class_type": "ADE_UseEvolvedSampling",
+    "manager_search": "ADE_UseEvolvedSampling"
+   },
+   {
+    "class_type": "Color Correct (mtb)",
+    "manager_search": "Color Correct (mtb)"
+   },
+   {
+    "class_type": "Colored Image (mtb)",
+    "manager_search": "Colored Image (mtb)"
+   },
+   {
+    "class_type": "Efficient Loader",
+    "manager_search": "Efficient Loader"
+   },
+   {
+    "class_type": "IPAdapterAdvanced",
+    "manager_search": "IPAdapterAdvanced"
+   },
+   {
+    "class_type": "IPAdapterUnifiedLoader",
+    "manager_search": "IPAdapterUnifiedLoader"
+   },
+   {
+    "class_type": "ImageBatch",
+    "manager_search": "ImageBatch"
+   },
+   {
+    "class_type": "ImageSelector",
+    "manager_search": "ImageSelector"
+   },
+   {
+    "class_type": "KSampler (Efficient)",
+    "manager_search": "KSampler (Efficient)"
+   },
+   {
+    "class_type": "RIFE VFI",
+    "manager_search": "RIFE VFI"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "230188": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "ADE_AnimateDiffLoaderWithContext",
+    "manager_search": "ADE_AnimateDiffLoaderWithContext"
+   },
+   {
+    "class_type": "ADE_AnimateDiffUniformContextOptions",
+    "manager_search": "ADE_AnimateDiffUniformContextOptions"
+   },
+   {
+    "class_type": "BatchCreativeInterpolation",
+    "manager_search": "BatchCreativeInterpolation"
+   },
+   {
+    "class_type": "BatchPromptSchedule",
+    "manager_search": "BatchPromptSchedule"
+   },
+   {
+    "class_type": "Efficient Loader",
+    "manager_search": "Efficient Loader"
+   },
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "HighRes-Fix Script",
+    "manager_search": "HighRes-Fix Script"
+   },
+   {
+    "class_type": "IPAdapterModelLoader",
+    "manager_search": "IPAdapterModelLoader"
+   },
+   {
+    "class_type": "ImpactInt",
+    "manager_search": "ImpactInt"
+   },
+   {
+    "class_type": "ImpactMakeImageBatch",
+    "manager_search": "ImpactMakeImageBatch"
+   },
+   {
+    "class_type": "KSampler Adv. (Efficient)",
+    "manager_search": "KSampler Adv. (Efficient)"
+   },
+   {
+    "class_type": "Primitive float [Crystools]",
+    "manager_search": "Primitive float [Crystools]"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "Text box",
+    "manager_search": "Text box"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "335070": {
+  "models": [
+   {
+    "name": "1.5\\photonLCM_v10.safetensors",
+    "folder": "models/checkpoints/"
+   },
+   {
+    "name": "vae-ft-mse-840000-ema-pruned.pt",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ADE_AnimateDiffLoRALoader",
+    "manager_search": "ADE_AnimateDiffLoRALoader"
+   },
+   {
+    "class_type": "ADE_AnimateDiffLoaderGen1",
+    "manager_search": "ADE_AnimateDiffLoaderGen1"
+   },
+   {
+    "class_type": "ADE_AnimateDiffSamplingSettings",
+    "manager_search": "ADE_AnimateDiffSamplingSettings"
+   },
+   {
+    "class_type": "ADE_LoopedUniformContextOptions",
+    "manager_search": "ADE_LoopedUniformContextOptions"
+   },
+   {
+    "class_type": "IPAdapterAdvanced",
+    "manager_search": "IPAdapterAdvanced"
+   },
+   {
+    "class_type": "IPAdapterModelLoader",
+    "manager_search": "IPAdapterModelLoader"
+   },
+   {
+    "class_type": "JWInteger",
+    "manager_search": "JWInteger"
+   },
+   {
+    "class_type": "LatentUpscaleBy",
+    "manager_search": "LatentUpscaleBy"
+   },
+   {
+    "class_type": "SeargeIntegerPair",
+    "manager_search": "SeargeIntegerPair"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "1720535": {
+  "models": [
+   {
+    "name": "RealESRGAN_x4plus_anime_6B.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "liveWallpaperFast_i2v14B720P.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "wan_2.1_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "CLIPLoaderGGUF",
+    "manager_search": "CLIPLoaderGGUF"
+   },
+   {
+    "class_type": "ColorMatch",
+    "manager_search": "ColorMatch"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "Fast Groups Muter (rgthree)",
+    "manager_search": "Fast Groups Muter (rgthree)"
+   },
+   {
+    "class_type": "GetImageRangeFromBatch",
+    "manager_search": "GetImageRangeFromBatch"
+   },
+   {
+    "class_type": "ImageFromBatch",
+    "manager_search": "ImageFromBatch"
+   },
+   {
+    "class_type": "ImageFromBatch+",
+    "manager_search": "ImageFromBatch+"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "JWImageExtractFromBatch",
+    "manager_search": "JWImageExtractFromBatch"
+   },
+   {
+    "class_type": "MathExpression|pysssss",
+    "manager_search": "MathExpression|pysssss"
+   },
+   {
+    "class_type": "OllamaVision",
+    "manager_search": "OllamaVision"
+   },
+   {
+    "class_type": "PathchSageAttentionKJ",
+    "manager_search": "PathchSageAttentionKJ"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "RIFE VFI",
+    "manager_search": "RIFE VFI"
+   },
+   {
+    "class_type": "ScheduledCFGGuidance",
+    "manager_search": "ScheduledCFGGuidance"
+   },
+   {
+    "class_type": "Text Concatenate",
+    "manager_search": "Text Concatenate"
+   },
+   {
+    "class_type": "UnetLoaderGGUF",
+    "manager_search": "UnetLoaderGGUF"
+   },
+   {
+    "class_type": "VHS_GetImageCount",
+    "manager_search": "VHS_GetImageCount"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "WanImageToVideo_F2",
+    "manager_search": "WanImageToVideo_F2"
+   },
+   {
+    "class_type": "WanVideoTeaCacheKJ",
+    "manager_search": "WanVideoTeaCacheKJ"
+   },
+   {
+    "class_type": "easy batchAnything",
+    "manager_search": "easy batchAnything"
+   },
+   {
+    "class_type": "easy cleanGpuUsed",
+    "manager_search": "easy cleanGpuUsed"
+   },
+   {
+    "class_type": "easy convertAnything",
+    "manager_search": "easy convertAnything"
+   },
+   {
+    "class_type": "easy mathFloat",
+    "manager_search": "easy mathFloat"
+   },
+   {
+    "class_type": "easy mathInt",
+    "manager_search": "easy mathInt"
+   },
+   {
+    "class_type": "mxSlider",
+    "manager_search": "mxSlider"
+   },
+   {
+    "class_type": "mxSlider2D",
+    "manager_search": "mxSlider2D"
+   }
+  ]
+ },
+ "1722303": {
+  "models": [
+   {
+    "name": "Flux/ae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "Flux/clip_l.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "Flux/flux1Kontext_flux1KontextDev.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "Flux/t5xxl_fp16.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Anything Everywhere",
+    "manager_search": "Anything Everywhere"
+   },
+   {
+    "class_type": "ConcatStringSingle",
+    "manager_search": "ConcatStringSingle"
+   },
+   {
+    "class_type": "FluxKontextImageScale",
+    "manager_search": "FluxKontextImageScale"
+   },
+   {
+    "class_type": "ImageStitch",
+    "manager_search": "ImageStitch"
+   },
+   {
+    "class_type": "PrimitiveInt",
+    "manager_search": "PrimitiveInt"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "ReferenceLatent",
+    "manager_search": "ReferenceLatent"
+   },
+   {
+    "class_type": "Seed Everywhere",
+    "manager_search": "Seed Everywhere"
+   }
+  ]
+ },
+ "1796490": {
+  "models": [
+   {
+    "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "wan_2.1_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "GetImageSize+",
+    "manager_search": "GetImageSize+"
+   },
+   {
+    "class_type": "Image Batch",
+    "manager_search": "Image Batch"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "InspyrenetRembg",
+    "manager_search": "InspyrenetRembg"
+   },
+   {
+    "class_type": "PlaySound|pysssss",
+    "manager_search": "PlaySound|pysssss"
+   },
+   {
+    "class_type": "PrimitiveInt",
+    "manager_search": "PrimitiveInt"
+   },
+   {
+    "class_type": "TorchCompileModelWanVideoV2",
+    "manager_search": "TorchCompileModelWanVideoV2"
+   },
+   {
+    "class_type": "TrimVideoLatent",
+    "manager_search": "TrimVideoLatent"
+   },
+   {
+    "class_type": "UnetLoaderGGUF",
+    "manager_search": "UnetLoaderGGUF"
+   },
+   {
+    "class_type": "VHS_DuplicateImages",
+    "manager_search": "VHS_DuplicateImages"
+   },
+   {
+    "class_type": "VHS_LoadVideoPath",
+    "manager_search": "VHS_LoadVideoPath"
+   },
+   {
+    "class_type": "VHS_SelectEveryNthImage",
+    "manager_search": "VHS_SelectEveryNthImage"
+   },
+   {
+    "class_type": "VHS_SelectFilename",
+    "manager_search": "VHS_SelectFilename"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "WanVaceToVideo",
+    "manager_search": "WanVaceToVideo"
+   },
+   {
+    "class_type": "easy cleanGpuUsed",
+    "manager_search": "easy cleanGpuUsed"
+   }
+  ]
+ },
+ "290375": {
+  "models": [],
+  "nodes": []
+ },
+ "899863": {
+  "models": [
+   {
+    "name": "2xNomosUni_span_multijpg_ldl.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "Flux.1\\Flux.1-dev-Controlnet-Upscaler.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "Flux.1\\flux1-dev.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "ae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "clip_l.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "t5xxl_fp8_e4m3fn.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ACN_AdvancedControlNetApply_v2",
+    "manager_search": "ACN_AdvancedControlNetApply_v2"
+   },
+   {
+    "class_type": "ACN_ScaledSoftControlNetWeights",
+    "manager_search": "ACN_ScaledSoftControlNetWeights"
+   },
+   {
+    "class_type": "Anything Everywhere",
+    "manager_search": "Anything Everywhere"
+   },
+   {
+    "class_type": "CLIPTextEncodeFlux",
+    "manager_search": "CLIPTextEncodeFlux"
+   },
+   {
+    "class_type": "CM_BoolBinaryOperation",
+    "manager_search": "CM_BoolBinaryOperation"
+   },
+   {
+    "class_type": "CM_BoolUnaryOperation",
+    "manager_search": "CM_BoolUnaryOperation"
+   },
+   {
+    "class_type": "CM_FloatToInt",
+    "manager_search": "CM_FloatToInt"
+   },
+   {
+    "class_type": "CM_IntToFloat",
+    "manager_search": "CM_IntToFloat"
+   },
+   {
+    "class_type": "ColorMatch",
+    "manager_search": "ColorMatch"
+   },
+   {
+    "class_type": "EmptyImage",
+    "manager_search": "EmptyImage"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "LayerMask: LoadFlorence2Model",
+    "manager_search": "LayerMask: LoadFlorence2Model"
+   },
+   {
+    "class_type": "LayerUtility: Florence2Image2Prompt",
+    "manager_search": "LayerUtility: Florence2Image2Prompt"
+   },
+   {
+    "class_type": "LayerUtility: SaveImagePlus",
+    "manager_search": "LayerUtility: SaveImagePlus"
+   },
+   {
+    "class_type": "PlaySound|pysssss",
+    "manager_search": "PlaySound|pysssss"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "PreviewBridge",
+    "manager_search": "PreviewBridge"
+   },
+   {
+    "class_type": "Switch image [Crystools]",
+    "manager_search": "Switch image [Crystools]"
+   },
+   {
+    "class_type": "UltimateSDUpscaleNoUpscale",
+    "manager_search": "UltimateSDUpscaleNoUpscale"
+   },
+   {
+    "class_type": "easy ab",
+    "manager_search": "easy ab"
+   },
+   {
+    "class_type": "easy blocker",
+    "manager_search": "easy blocker"
+   },
+   {
+    "class_type": "easy boolean",
+    "manager_search": "easy boolean"
+   },
+   {
+    "class_type": "easy cleanGpuUsed",
+    "manager_search": "easy cleanGpuUsed"
+   },
+   {
+    "class_type": "easy compare",
+    "manager_search": "easy compare"
+   },
+   {
+    "class_type": "easy float",
+    "manager_search": "easy float"
+   },
+   {
+    "class_type": "easy forLoopEnd",
+    "manager_search": "easy forLoopEnd"
+   },
+   {
+    "class_type": "easy getNode",
+    "manager_search": "easy getNode"
+   },
+   {
+    "class_type": "easy ifElse",
+    "manager_search": "easy ifElse"
+   },
+   {
+    "class_type": "easy imageScaleDownToSize",
+    "manager_search": "easy imageScaleDownToSize"
+   },
+   {
+    "class_type": "easy imageSizeByLongerSide",
+    "manager_search": "easy imageSizeByLongerSide"
+   },
+   {
+    "class_type": "easy int",
+    "manager_search": "easy int"
+   },
+   {
+    "class_type": "easy loadImagesForLoop",
+    "manager_search": "easy loadImagesForLoop"
+   },
+   {
+    "class_type": "easy mathFloat",
+    "manager_search": "easy mathFloat"
+   },
+   {
+    "class_type": "easy mathInt",
+    "manager_search": "easy mathInt"
+   },
+   {
+    "class_type": "easy prompt",
+    "manager_search": "easy prompt"
+   },
+   {
+    "class_type": "easy promptConcat",
+    "manager_search": "easy promptConcat"
+   },
+   {
+    "class_type": "easy setNode",
+    "manager_search": "easy setNode"
+   },
+   {
+    "class_type": "easy whileLoopEnd",
+    "manager_search": "easy whileLoopEnd"
+   },
+   {
+    "class_type": "easy whileLoopStart",
+    "manager_search": "easy whileLoopStart"
+   }
+  ]
+ },
+ "1768409": {
+  "models": [],
+  "nodes": [],
+  "error": "HTTP Error 400: Bad Request"
+ },
+ "1931348": {
+  "models": [
+   {
+    "name": "4x-UltraSharpV2_Lite.safetensors",
+    "folder": "models/upscale_models/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Any Switch (rgthree)",
+    "manager_search": "Any Switch (rgthree)"
+   },
+   {
+    "class_type": "AssembleLoopFrames",
+    "manager_search": "AssembleLoopFrames"
+   },
+   {
+    "class_type": "BatchCount+",
+    "manager_search": "BatchCount+"
+   },
+   {
+    "class_type": "BatchResizeWithLanczos",
+    "manager_search": "BatchResizeWithLanczos"
+   },
+   {
+    "class_type": "ColorMatch",
+    "manager_search": "ColorMatch"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "Fast Groups Muter (rgthree)",
+    "manager_search": "Fast Groups Muter (rgthree)"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "LoadWanVideoT5TextEncoder",
+    "manager_search": "LoadWanVideoT5TextEncoder"
+   },
+   {
+    "class_type": "MathExpression|pysssss",
+    "manager_search": "MathExpression|pysssss"
+   },
+   {
+    "class_type": "PrepareLoopFrames",
+    "manager_search": "PrepareLoopFrames"
+   },
+   {
+    "class_type": "PrimitiveBoolean",
+    "manager_search": "PrimitiveBoolean"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "RIFE_FPS_Resample",
+    "manager_search": "RIFE_FPS_Resample"
+   },
+   {
+    "class_type": "RIFE_VFI_Advanced",
+    "manager_search": "RIFE_VFI_Advanced"
+   },
+   {
+    "class_type": "RIFE_VFI_Opt",
+    "manager_search": "RIFE_VFI_Opt"
+   },
+   {
+    "class_type": "RollFrames",
+    "manager_search": "RollFrames"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "StringConcatenate",
+    "manager_search": "StringConcatenate"
+   },
+   {
+    "class_type": "TrimBatchEnds",
+    "manager_search": "TrimBatchEnds"
+   },
+   {
+    "class_type": "UnrollFrames",
+    "manager_search": "UnrollFrames"
+   },
+   {
+    "class_type": "UpscaleWithModelAdvanced",
+    "manager_search": "UpscaleWithModelAdvanced"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "WanVideoAddExtraLatent",
+    "manager_search": "WanVideoAddExtraLatent"
+   },
+   {
+    "class_type": "WanVideoDecode",
+    "manager_search": "WanVideoDecode"
+   },
+   {
+    "class_type": "WanVideoEasyCache",
+    "manager_search": "WanVideoEasyCache"
+   },
+   {
+    "class_type": "WanVideoEmptyEmbeds",
+    "manager_search": "WanVideoEmptyEmbeds"
+   },
+   {
+    "class_type": "WanVideoEncode",
+    "manager_search": "WanVideoEncode"
+   },
+   {
+    "class_type": "WanVideoExperimentalArgs",
+    "manager_search": "WanVideoExperimentalArgs"
+   },
+   {
+    "class_type": "WanVideoLoraSelect",
+    "manager_search": "WanVideoLoraSelect"
+   },
+   {
+    "class_type": "WanVideoModelLoader",
+    "manager_search": "WanVideoModelLoader"
+   },
+   {
+    "class_type": "WanVideoSLG",
+    "manager_search": "WanVideoSLG"
+   },
+   {
+    "class_type": "WanVideoSampler",
+    "manager_search": "WanVideoSampler"
+   },
+   {
+    "class_type": "WanVideoTextEncode",
+    "manager_search": "WanVideoTextEncode"
+   },
+   {
+    "class_type": "WanVideoTorchCompileSettings",
+    "manager_search": "WanVideoTorchCompileSettings"
+   },
+   {
+    "class_type": "WanVideoVAELoader",
+    "manager_search": "WanVideoVAELoader"
+   },
+   {
+    "class_type": "easy cleanGpuUsed",
+    "manager_search": "easy cleanGpuUsed"
+   },
+   {
+    "class_type": "easy clearCacheAll",
+    "manager_search": "easy clearCacheAll"
+   },
+   {
+    "class_type": "mxSlider",
+    "manager_search": "mxSlider"
+   }
+  ]
+ },
+ "670720": {
+  "models": [
+   {
+    "name": "4x_NMKD-Siax_200k.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "Gundam_RX78_Flux.safetensors",
+    "folder": "models/loras/"
+   },
+   {
+    "name": "SD3\\clip_l.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "SD3\\t5xxl_fp16.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "ae.sft",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "flux\\flux1-dev.sft",
+    "folder": "models/diffusion_models/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "CR Aspect Ratio",
+    "manager_search": "CR Aspect Ratio"
+   },
+   {
+    "class_type": "CR Prompt Text",
+    "manager_search": "CR Prompt Text"
+   },
+   {
+    "class_type": "Display Any (rgthree)",
+    "manager_search": "Display Any (rgthree)"
+   },
+   {
+    "class_type": "ExtraOptionsNode",
+    "manager_search": "ExtraOptionsNode"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "ImageScaleToTotalPixels",
+    "manager_search": "ImageScaleToTotalPixels"
+   },
+   {
+    "class_type": "JoyCaption2_simple",
+    "manager_search": "JoyCaption2_simple"
+   },
+   {
+    "class_type": "LatentUpscaleBy",
+    "manager_search": "LatentUpscaleBy"
+   },
+   {
+    "class_type": "TTP_Image_Assy",
+    "manager_search": "TTP_Image_Assy"
+   },
+   {
+    "class_type": "TTP_Image_Tile_Batch",
+    "manager_search": "TTP_Image_Tile_Batch"
+   },
+   {
+    "class_type": "TTP_Tile_image_size",
+    "manager_search": "TTP_Tile_image_size"
+   },
+   {
+    "class_type": "easy imageBatchToImageList",
+    "manager_search": "easy imageBatchToImageList"
+   },
+   {
+    "class_type": "easy imageListToImageBatch",
+    "manager_search": "easy imageListToImageBatch"
+   }
+  ]
+ },
+ "2881362": {
+  "models": [],
+  "nodes": [],
+  "note": "no archive file"
+ },
+ "253723": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "ADE_AnimateDiffLoaderWithContext",
+    "manager_search": "ADE_AnimateDiffLoaderWithContext"
+   },
+   {
+    "class_type": "ADE_AnimateDiffUniformContextOptions",
+    "manager_search": "ADE_AnimateDiffUniformContextOptions"
+   },
+   {
+    "class_type": "Efficient Loader",
+    "manager_search": "Efficient Loader"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "HighRes-Fix Script",
+    "manager_search": "HighRes-Fix Script"
+   },
+   {
+    "class_type": "ImpactInt",
+    "manager_search": "ImpactInt"
+   },
+   {
+    "class_type": "KSampler Adv. (Efficient)",
+    "manager_search": "KSampler Adv. (Efficient)"
+   },
+   {
+    "class_type": "OneButtonPrompt",
+    "manager_search": "OneButtonPrompt"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "2078957": {
+  "models": [
+   {
+    "name": "4x_IllustrationJaNai_V1_DAT2_190k.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "qwen\\qwen_image_vae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "CFGNorm",
+    "manager_search": "CFGNorm"
+   },
+   {
+    "class_type": "DrawMaskOnImage",
+    "manager_search": "DrawMaskOnImage"
+   },
+   {
+    "class_type": "INTConstant",
+    "manager_search": "INTConstant"
+   },
+   {
+    "class_type": "ImageConcanate",
+    "manager_search": "ImageConcanate"
+   },
+   {
+    "class_type": "ImageScaleToTotalPixels",
+    "manager_search": "ImageScaleToTotalPixels"
+   },
+   {
+    "class_type": "InspyrenetRembg",
+    "manager_search": "InspyrenetRembg"
+   },
+   {
+    "class_type": "LayerUtility: CropByMask V2",
+    "manager_search": "LayerUtility: CropByMask V2"
+   },
+   {
+    "class_type": "Preview_Mask_Plus",
+    "manager_search": "Preview_Mask_Plus"
+   },
+   {
+    "class_type": "TextEncodeQwenImageEditPlus",
+    "manager_search": "TextEncodeQwenImageEditPlus"
+   },
+   {
+    "class_type": "UnetLoaderGGUF",
+    "manager_search": "UnetLoaderGGUF"
+   }
+  ]
+ },
+ "2087176": {
+  "models": [
+   {
+    "name": "Qwen/qwen_2.5_vl_7b.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "Qwen/qwen_image_edit_2509_bf16.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "Qwen/qwen_image_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "05832928-0cdc-4077-a95a-69037a7b6131",
+    "manager_search": "05832928-0cdc-4077-a95a-69037a7b6131"
+   },
+   {
+    "class_type": "1149d42e-39c1-4db4-aa72-420234d9b36b",
+    "manager_search": "1149d42e-39c1-4db4-aa72-420234d9b36b"
+   },
+   {
+    "class_type": "1a53621c-6c0d-4237-aa1f-61549408fd95",
+    "manager_search": "1a53621c-6c0d-4237-aa1f-61549408fd95"
+   },
+   {
+    "class_type": "2229ce5d-6983-446e-b503-92c7506b4c8e",
+    "manager_search": "2229ce5d-6983-446e-b503-92c7506b4c8e"
+   },
+   {
+    "class_type": "7fd182f5-3173-4d0f-874f-30eb16e5dbea",
+    "manager_search": "7fd182f5-3173-4d0f-874f-30eb16e5dbea"
+   },
+   {
+    "class_type": "ImageScaleToTotalPixels",
+    "manager_search": "ImageScaleToTotalPixels"
+   },
+   {
+    "class_type": "a4a024d6-e70f-4b5c-b0af-ac0904ea7a2a",
+    "manager_search": "a4a024d6-e70f-4b5c-b0af-ac0904ea7a2a"
+   },
+   {
+    "class_type": "cd49f321-f6ad-4b40-bccd-d33fae66337e",
+    "manager_search": "cd49f321-f6ad-4b40-bccd-d33fae66337e"
+   },
+   {
+    "class_type": "e1ded3b7-0252-4cdd-bcf3-95259c5149fa",
+    "manager_search": "e1ded3b7-0252-4cdd-bcf3-95259c5149fa"
+   }
+  ]
+ },
+ "881953": {
+  "models": [
+   {
+    "name": "epicrealismXL_v8Kiss.safetensors",
+    "folder": "models/checkpoints/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Anything Everywhere",
+    "manager_search": "Anything Everywhere"
+   },
+   {
+    "class_type": "CR Combine Prompt",
+    "manager_search": "CR Combine Prompt"
+   },
+   {
+    "class_type": "CR Simple Image Compare",
+    "manager_search": "CR Simple Image Compare"
+   },
+   {
+    "class_type": "Cut By Mask",
+    "manager_search": "Cut By Mask"
+   },
+   {
+    "class_type": "DownloadAndLoadFlorence2Model",
+    "manager_search": "DownloadAndLoadFlorence2Model"
+   },
+   {
+    "class_type": "FaceParse(FaceParsing)",
+    "manager_search": "FaceParse(FaceParsing)"
+   },
+   {
+    "class_type": "FaceParsingModelLoader(FaceParsing)",
+    "manager_search": "FaceParsingModelLoader(FaceParsing)"
+   },
+   {
+    "class_type": "FaceParsingProcessorLoader(FaceParsing)",
+    "manager_search": "FaceParsingProcessorLoader(FaceParsing)"
+   },
+   {
+    "class_type": "FaceParsingResultsParser(FaceParsing)",
+    "manager_search": "FaceParsingResultsParser(FaceParsing)"
+   },
+   {
+    "class_type": "Florence2Run",
+    "manager_search": "Florence2Run"
+   },
+   {
+    "class_type": "GrowMaskWithBlur",
+    "manager_search": "GrowMaskWithBlur"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "ImageCompositeMasked",
+    "manager_search": "ImageCompositeMasked"
+   },
+   {
+    "class_type": "LayerMask: PersonMaskUltra V2",
+    "manager_search": "LayerMask: PersonMaskUltra V2"
+   },
+   {
+    "class_type": "MaskPreview+",
+    "manager_search": "MaskPreview+"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   }
+  ]
+ },
+ "1211594": {
+  "models": [
+   {
+    "name": "4x_foolhardy_Remacri.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "clip_l.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "hunyuan_video_FastVideo_720_fp8_e4m3fn.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "hunyuan_video_vae_bf16.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "llava_llama3_fp8_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "BatchCropFromMask",
+    "manager_search": "BatchCropFromMask"
+   },
+   {
+    "class_type": "Big Image Switch [Dream]",
+    "manager_search": "Big Image Switch [Dream]"
+   },
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "Fast Groups Muter (rgthree)",
+    "manager_search": "Fast Groups Muter (rgthree)"
+   },
+   {
+    "class_type": "GetImageSize+",
+    "manager_search": "GetImageSize+"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "INTConstant",
+    "manager_search": "INTConstant"
+   },
+   {
+    "class_type": "ImpactImageBatchToImageList",
+    "manager_search": "ImpactImageBatchToImageList"
+   },
+   {
+    "class_type": "ImpactSEGSToMaskList",
+    "manager_search": "ImpactSEGSToMaskList"
+   },
+   {
+    "class_type": "ImpactSetWidgetValue",
+    "manager_search": "ImpactSetWidgetValue"
+   },
+   {
+    "class_type": "ImpactSimpleDetectorSEGS_for_AD",
+    "manager_search": "ImpactSimpleDetectorSEGS_for_AD"
+   },
+   {
+    "class_type": "Lora Loader Stack (rgthree)",
+    "manager_search": "Lora Loader Stack (rgthree)"
+   },
+   {
+    "class_type": "MaskExpandBatch+",
+    "manager_search": "MaskExpandBatch+"
+   },
+   {
+    "class_type": "MaskListToMaskBatch",
+    "manager_search": "MaskListToMaskBatch"
+   },
+   {
+    "class_type": "Masks Combine Batch",
+    "manager_search": "Masks Combine Batch"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "SimpleMath+",
+    "manager_search": "SimpleMath+"
+   },
+   {
+    "class_type": "TeaCacheHunyuanVideoSampler",
+    "manager_search": "TeaCacheHunyuanVideoSampler"
+   },
+   {
+    "class_type": "UltralyticsDetectorProvider",
+    "manager_search": "UltralyticsDetectorProvider"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "easy cleanGpuUsed",
+    "manager_search": "easy cleanGpuUsed"
+   },
+   {
+    "class_type": "easy imageUncropFromBBOX",
+    "manager_search": "easy imageUncropFromBBOX"
+   },
+   {
+    "class_type": "mxSlider",
+    "manager_search": "mxSlider"
+   }
+  ]
+ },
+ "1086525": {
+  "models": [
+   {
+    "name": "4x_foolhardy_Remacri.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "SDXL\\OpenPoseXL2.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "SDXL\\controlnet-tile-sdxl-1.0.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "SDXL\\t2i-adapter-canny-sdxl-1.0.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "SDXL\\t2i-adapter-depth-midas-sdxl-1.0.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "illustrious\\waiNSFWIllustrious_v150.safetensors",
+    "folder": "models/checkpoints/"
+   },
+   {
+    "name": "sdxl_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Anything Everywhere",
+    "manager_search": "Anything Everywhere"
+   },
+   {
+    "class_type": "AttentionCouple",
+    "manager_search": "AttentionCouple"
+   },
+   {
+    "class_type": "AttentionCoupleRegion",
+    "manager_search": "AttentionCoupleRegion"
+   },
+   {
+    "class_type": "AttentionCoupleRegions",
+    "manager_search": "AttentionCoupleRegions"
+   },
+   {
+    "class_type": "Bookmark (rgthree)",
+    "manager_search": "Bookmark (rgthree)"
+   },
+   {
+    "class_type": "CR SDXL Aspect Ratio",
+    "manager_search": "CR SDXL Aspect Ratio"
+   },
+   {
+    "class_type": "CannyEdgePreprocessor",
+    "manager_search": "CannyEdgePreprocessor"
+   },
+   {
+    "class_type": "Cfg Literal",
+    "manager_search": "Cfg Literal"
+   },
+   {
+    "class_type": "ConditioningSetPropertiesAndCombine",
+    "manager_search": "ConditioningSetPropertiesAndCombine"
+   },
+   {
+    "class_type": "ControlNetApplyAdvanced",
+    "manager_search": "ControlNetApplyAdvanced"
+   },
+   {
+    "class_type": "CreateHookLora",
+    "manager_search": "CreateHookLora"
+   },
+   {
+    "class_type": "DenoiseSchedulerDetailerHookProvider",
+    "manager_search": "DenoiseSchedulerDetailerHookProvider"
+   },
+   {
+    "class_type": "DepthAnythingPreprocessor",
+    "manager_search": "DepthAnythingPreprocessor"
+   },
+   {
+    "class_type": "DetailerForEachDebugPipe",
+    "manager_search": "DetailerForEachDebugPipe"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "FloatConstant",
+    "manager_search": "FloatConstant"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "ImageScaleDownBy",
+    "manager_search": "ImageScaleDownBy"
+   },
+   {
+    "class_type": "ImpactControlNetApplyAdvancedSEGS",
+    "manager_search": "ImpactControlNetApplyAdvancedSEGS"
+   },
+   {
+    "class_type": "ImpactGaussianBlurMask",
+    "manager_search": "ImpactGaussianBlurMask"
+   },
+   {
+    "class_type": "ImpactSegsAndMask",
+    "manager_search": "ImpactSegsAndMask"
+   },
+   {
+    "class_type": "ImpactSimpleDetectorSEGS",
+    "manager_search": "ImpactSimpleDetectorSEGS"
+   },
+   {
+    "class_type": "MaskToSEGS",
+    "manager_search": "MaskToSEGS"
+   },
+   {
+    "class_type": "MathExpression|pysssss",
+    "manager_search": "MathExpression|pysssss"
+   },
+   {
+    "class_type": "OpenposePreprocessor",
+    "manager_search": "OpenposePreprocessor"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "PrimitiveFloat",
+    "manager_search": "PrimitiveFloat"
+   },
+   {
+    "class_type": "PrimitiveInt",
+    "manager_search": "PrimitiveInt"
+   },
+   {
+    "class_type": "SAMDetectorCombined",
+    "manager_search": "SAMDetectorCombined"
+   },
+   {
+    "class_type": "SAMLoader",
+    "manager_search": "SAMLoader"
+   },
+   {
+    "class_type": "Sampler Selector",
+    "manager_search": "Sampler Selector"
+   },
+   {
+    "class_type": "Seed Everywhere",
+    "manager_search": "Seed Everywhere"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "SubtractMaskForEach",
+    "manager_search": "SubtractMaskForEach"
+   },
+   {
+    "class_type": "Text Concatenate (JPS)",
+    "manager_search": "Text Concatenate (JPS)"
+   },
+   {
+    "class_type": "Text Prompt (JPS)",
+    "manager_search": "Text Prompt (JPS)"
+   },
+   {
+    "class_type": "TilePreprocessor",
+    "manager_search": "TilePreprocessor"
+   },
+   {
+    "class_type": "ToBasicPipe",
+    "manager_search": "ToBasicPipe"
+   },
+   {
+    "class_type": "UltimateSDUpscale",
+    "manager_search": "UltimateSDUpscale"
+   },
+   {
+    "class_type": "UltralyticsDetectorProvider",
+    "manager_search": "UltralyticsDetectorProvider"
+   },
+   {
+    "class_type": "WD14Tagger|pysssss",
+    "manager_search": "WD14Tagger|pysssss"
+   }
+  ]
+ },
+ "1129063": {
+  "models": [
+   {
+    "name": "4x-UltraSharpV2.safetensors",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "ae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "x1_ITF_SkinDiffDetail_Lite_v1.pth",
+    "folder": "models/upscale_models/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Any Switch (rgthree)",
+    "manager_search": "Any Switch (rgthree)"
+   },
+   {
+    "class_type": "Bookmark (rgthree)",
+    "manager_search": "Bookmark (rgthree)"
+   },
+   {
+    "class_type": "CR Integer To String",
+    "manager_search": "CR Integer To String"
+   },
+   {
+    "class_type": "CR Overlay Text",
+    "manager_search": "CR Overlay Text"
+   },
+   {
+    "class_type": "CR Text Concatenate",
+    "manager_search": "CR Text Concatenate"
+   },
+   {
+    "class_type": "Canny",
+    "manager_search": "Canny"
+   },
+   {
+    "class_type": "DepthAnything_V2",
+    "manager_search": "DepthAnything_V2"
+   },
+   {
+    "class_type": "DetailDaemonSamplerNode",
+    "manager_search": "DetailDaemonSamplerNode"
+   },
+   {
+    "class_type": "DifferentialDiffusion",
+    "manager_search": "DifferentialDiffusion"
+   },
+   {
+    "class_type": "DownloadAndLoadDepthAnythingV2Model",
+    "manager_search": "DownloadAndLoadDepthAnythingV2Model"
+   },
+   {
+    "class_type": "DualCLIPLoaderGGUF",
+    "manager_search": "DualCLIPLoaderGGUF"
+   },
+   {
+    "class_type": "EmptyImage",
+    "manager_search": "EmptyImage"
+   },
+   {
+    "class_type": "FaceDetailer",
+    "manager_search": "FaceDetailer"
+   },
+   {
+    "class_type": "Fast Groups Muter (rgthree)",
+    "manager_search": "Fast Groups Muter (rgthree)"
+   },
+   {
+    "class_type": "FloatConstant",
+    "manager_search": "FloatConstant"
+   },
+   {
+    "class_type": "FluxKontextImageScale",
+    "manager_search": "FluxKontextImageScale"
+   },
+   {
+    "class_type": "GetImageSize",
+    "manager_search": "GetImageSize"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "GrowMaskWithBlur",
+    "manager_search": "GrowMaskWithBlur"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "ImageCompositeMasked",
+    "manager_search": "ImageCompositeMasked"
+   },
+   {
+    "class_type": "ImageResizeKJv2",
+    "manager_search": "ImageResizeKJv2"
+   },
+   {
+    "class_type": "ImageStitch",
+    "manager_search": "ImageStitch"
+   },
+   {
+    "class_type": "ImpactConvertDataType",
+    "manager_search": "ImpactConvertDataType"
+   },
+   {
+    "class_type": "ImpactSchedulerAdapter",
+    "manager_search": "ImpactSchedulerAdapter"
+   },
+   {
+    "class_type": "ImpactSwitch",
+    "manager_search": "ImpactSwitch"
+   },
+   {
+    "class_type": "InpaintModelConditioning",
+    "manager_search": "InpaintModelConditioning"
+   },
+   {
+    "class_type": "InstructPixToPixConditioning",
+    "manager_search": "InstructPixToPixConditioning"
+   },
+   {
+    "class_type": "Label (rgthree)",
+    "manager_search": "Label (rgthree)"
+   },
+   {
+    "class_type": "LatentUpscaleBy",
+    "manager_search": "LatentUpscaleBy"
+   },
+   {
+    "class_type": "LayerColor: BrightnessContrastV2",
+    "manager_search": "LayerColor: BrightnessContrastV2"
+   },
+   {
+    "class_type": "LayerColor: Exposure",
+    "manager_search": "LayerColor: Exposure"
+   },
+   {
+    "class_type": "LayerColor: LUT Apply",
+    "manager_search": "LayerColor: LUT Apply"
+   },
+   {
+    "class_type": "LayerFilter: AddGrain",
+    "manager_search": "LayerFilter: AddGrain"
+   },
+   {
+    "class_type": "MathExpression|pysssss",
+    "manager_search": "MathExpression|pysssss"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "Primitive float [Crystools]",
+    "manager_search": "Primitive float [Crystools]"
+   },
+   {
+    "class_type": "Primitive integer [Crystools]",
+    "manager_search": "Primitive integer [Crystools]"
+   },
+   {
+    "class_type": "ReferenceLatent",
+    "manager_search": "ReferenceLatent"
+   },
+   {
+    "class_type": "SAMLoader",
+    "manager_search": "SAMLoader"
+   },
+   {
+    "class_type": "SDXL Empty Latent Image (rgthree)",
+    "manager_search": "SDXL Empty Latent Image (rgthree)"
+   },
+   {
+    "class_type": "Sampler Selector (Image Saver)",
+    "manager_search": "Sampler Selector (Image Saver)"
+   },
+   {
+    "class_type": "SaveImageWithMetaData",
+    "manager_search": "SaveImageWithMetaData"
+   },
+   {
+    "class_type": "Scheduler Selector (Image Saver)",
+    "manager_search": "Scheduler Selector (Image Saver)"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "SomethingToString",
+    "manager_search": "SomethingToString"
+   },
+   {
+    "class_type": "Switch any [Crystools]",
+    "manager_search": "Switch any [Crystools]"
+   },
+   {
+    "class_type": "Switch image [Crystools]",
+    "manager_search": "Switch image [Crystools]"
+   },
+   {
+    "class_type": "UltimateSDUpscale",
+    "manager_search": "UltimateSDUpscale"
+   },
+   {
+    "class_type": "UltralyticsDetectorProvider",
+    "manager_search": "UltralyticsDetectorProvider"
+   },
+   {
+    "class_type": "UnetLoaderGGUF",
+    "manager_search": "UnetLoaderGGUF"
+   },
+   {
+    "class_type": "easy int",
+    "manager_search": "easy int"
+   },
+   {
+    "class_type": "easy mathString",
+    "manager_search": "easy mathString"
+   }
+  ]
+ },
+ "2676452": {
+  "models": [],
+  "nodes": [],
+  "note": "no archive file"
+ },
+ "1282514": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "AddMask",
+    "manager_search": "AddMask"
+   },
+   {
+    "class_type": "AttentionCouple|cgem156",
+    "manager_search": "AttentionCouple|cgem156"
+   },
+   {
+    "class_type": "CR Latent Input Switch",
+    "manager_search": "CR Latent Input Switch"
+   },
+   {
+    "class_type": "Efficient Loader",
+    "manager_search": "Efficient Loader"
+   },
+   {
+    "class_type": "GoogleTranslateTextNode",
+    "manager_search": "GoogleTranslateTextNode"
+   },
+   {
+    "class_type": "KSampler (Efficient)",
+    "manager_search": "KSampler (Efficient)"
+   },
+   {
+    "class_type": "LoRA Stacker",
+    "manager_search": "LoRA Stacker"
+   },
+   {
+    "class_type": "PlaySound|pysssss",
+    "manager_search": "PlaySound|pysssss"
+   },
+   {
+    "class_type": "XY Input: Seeds++ Batch",
+    "manager_search": "XY Input: Seeds++ Batch"
+   },
+   {
+    "class_type": "XY Plot",
+    "manager_search": "XY Plot"
+   },
+   {
+    "class_type": "easy loraStack",
+    "manager_search": "easy loraStack"
+   },
+   {
+    "class_type": "workflow>VAE E",
+    "manager_search": "workflow>VAE E"
+   },
+   {
+    "class_type": "workflow>clips",
+    "manager_search": "workflow>clips"
+   }
+  ]
+ },
+ "308241": {
+  "models": [],
+  "nodes": []
+ },
+ "394171": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "FaceRestoreCFWithModel",
+    "manager_search": "FaceRestoreCFWithModel"
+   },
+   {
+    "class_type": "FaceRestoreModelLoader",
+    "manager_search": "FaceRestoreModelLoader"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "MuseTalkCupAudio",
+    "manager_search": "MuseTalkCupAudio"
+   },
+   {
+    "class_type": "MuseTalkRun",
+    "manager_search": "MuseTalkRun"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "VHS_FILENAMES_STRING_MuseTalk",
+    "manager_search": "VHS_FILENAMES_STRING_MuseTalk"
+   },
+   {
+    "class_type": "VHS_LoadAudio",
+    "manager_search": "VHS_LoadAudio"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "1219744": {
+  "models": [
+   {
+    "name": "hunyuan_video_vae_bf16.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ComfyUIFlexiLoRALoader",
+    "manager_search": "ComfyUIFlexiLoRALoader"
+   },
+   {
+    "class_type": "DualCLIPLoaderGGUFMultiGPU",
+    "manager_search": "DualCLIPLoaderGGUFMultiGPU"
+   },
+   {
+    "class_type": "PathchSageAttentionKJ",
+    "manager_search": "PathchSageAttentionKJ"
+   },
+   {
+    "class_type": "TeaCacheForVidGen",
+    "manager_search": "TeaCacheForVidGen"
+   },
+   {
+    "class_type": "UnetLoaderGGUFDisTorchMultiGPU",
+    "manager_search": "UnetLoaderGGUFDisTorchMultiGPU"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "407874": {
+  "models": [
+   {
+    "name": "photonLCM_v10.safetensors",
+    "folder": "models/checkpoints/"
+   },
+   {
+    "name": "vaeFtMse840000Ema_v100.pt",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ACN_AdvancedControlNetApply",
+    "manager_search": "ACN_AdvancedControlNetApply"
+   },
+   {
+    "class_type": "ADE_AnimateDiffLoRALoader",
+    "manager_search": "ADE_AnimateDiffLoRALoader"
+   },
+   {
+    "class_type": "ADE_AnimateDiffSamplingSettings",
+    "manager_search": "ADE_AnimateDiffSamplingSettings"
+   },
+   {
+    "class_type": "ADE_ApplyAnimateDiffModel",
+    "manager_search": "ADE_ApplyAnimateDiffModel"
+   },
+   {
+    "class_type": "ADE_LoadAnimateDiffModel",
+    "manager_search": "ADE_LoadAnimateDiffModel"
+   },
+   {
+    "class_type": "ADE_MultivalDynamic",
+    "manager_search": "ADE_MultivalDynamic"
+   },
+   {
+    "class_type": "ADE_StandardUniformContextOptions",
+    "manager_search": "ADE_StandardUniformContextOptions"
+   },
+   {
+    "class_type": "ADE_UseEvolvedSampling",
+    "manager_search": "ADE_UseEvolvedSampling"
+   },
+   {
+    "class_type": "CR Conditioning Input Switch",
+    "manager_search": "CR Conditioning Input Switch"
+   },
+   {
+    "class_type": "CR Model Input Switch",
+    "manager_search": "CR Model Input Switch"
+   },
+   {
+    "class_type": "ControlNetLoaderAdvanced",
+    "manager_search": "ControlNetLoaderAdvanced"
+   },
+   {
+    "class_type": "DifferentialDiffusion",
+    "manager_search": "DifferentialDiffusion"
+   },
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "FileNamePrefix",
+    "manager_search": "FileNamePrefix"
+   },
+   {
+    "class_type": "FreeU_V2",
+    "manager_search": "FreeU_V2"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "GrowMaskWithBlur",
+    "manager_search": "GrowMaskWithBlur"
+   },
+   {
+    "class_type": "HighRes-Fix Script",
+    "manager_search": "HighRes-Fix Script"
+   },
+   {
+    "class_type": "IPAdapterAdvanced",
+    "manager_search": "IPAdapterAdvanced"
+   },
+   {
+    "class_type": "IPAdapterModelLoader",
+    "manager_search": "IPAdapterModelLoader"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "KSampler (Efficient)",
+    "manager_search": "KSampler (Efficient)"
+   },
+   {
+    "class_type": "MaskPreview+",
+    "manager_search": "MaskPreview+"
+   },
+   {
+    "class_type": "PrepImageForClipVision",
+    "manager_search": "PrepImageForClipVision"
+   },
+   {
+    "class_type": "RemapMaskRange",
+    "manager_search": "RemapMaskRange"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "VHS_DuplicateImages",
+    "manager_search": "VHS_DuplicateImages"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "ttN int",
+    "manager_search": "ttN int"
+   }
+  ]
+ },
+ "129010": {
+  "models": [
+   {
+    "name": "4x_NMKD-YandereNeoXL_200k.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "Style\\add_detail.safetensors",
+    "folder": "models/loras/"
+   },
+   {
+    "name": "controlnet11Models_tileE.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "onlyanime_v2-840000.safetensors",
+    "folder": "models/checkpoints/"
+   },
+   {
+    "name": "vae-ft-mse-840000-ema-pruned.vae.pt",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Constant Number",
+    "manager_search": "Constant Number"
+   },
+   {
+    "class_type": "ControlNetApplyAdvanced",
+    "manager_search": "ControlNetApplyAdvanced"
+   },
+   {
+    "class_type": "Debug Number to Console",
+    "manager_search": "Debug Number to Console"
+   },
+   {
+    "class_type": "Latent Input Switch",
+    "manager_search": "Latent Input Switch"
+   },
+   {
+    "class_type": "LatentUpscaleBy",
+    "manager_search": "LatentUpscaleBy"
+   },
+   {
+    "class_type": "Number Input Switch",
+    "manager_search": "Number Input Switch"
+   },
+   {
+    "class_type": "Number Operation",
+    "manager_search": "Number Operation"
+   },
+   {
+    "class_type": "Number to Float",
+    "manager_search": "Number to Float"
+   },
+   {
+    "class_type": "Number to Text",
+    "manager_search": "Number to Text"
+   },
+   {
+    "class_type": "Text Contains",
+    "manager_search": "Text Contains"
+   },
+   {
+    "class_type": "Text Input Switch",
+    "manager_search": "Text Input Switch"
+   },
+   {
+    "class_type": "Text Multiline",
+    "manager_search": "Text Multiline"
+   },
+   {
+    "class_type": "Text String",
+    "manager_search": "Text String"
+   },
+   {
+    "class_type": "Text to Console",
+    "manager_search": "Text to Console"
+   }
+  ]
+ },
+ "2322533": {
+  "models": [
+   {
+    "name": "ae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "qwen3_4b_fp8_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "qwen_3_4b.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "z-image-turbo_fp8_scaled_e4m3fn_KJ.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "z_image_turbo_bf16.safetensors",
+    "folder": "models/diffusion_models/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "CLIPLoaderGGUF",
+    "manager_search": "CLIPLoaderGGUF"
+   },
+   {
+    "class_type": "EmptyZImageLatentImage //ZImagePowerNodes",
+    "manager_search": "EmptyZImageLatentImage //ZImagePowerNodes"
+   },
+   {
+    "class_type": "MyTop10Styles //ZImagePowerNodes",
+    "manager_search": "MyTop10Styles //ZImagePowerNodes"
+   },
+   {
+    "class_type": "MyTop10StylesEditor //ZImagePowerNodes",
+    "manager_search": "MyTop10StylesEditor //ZImagePowerNodes"
+   },
+   {
+    "class_type": "PreviewAny",
+    "manager_search": "PreviewAny"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "SaveImage //ZImagePowerNodes",
+    "manager_search": "SaveImage //ZImagePowerNodes"
+   },
+   {
+    "class_type": "StylePromptEncoder2 //ZImagePowerNodes",
+    "manager_search": "StylePromptEncoder2 //ZImagePowerNodes"
+   },
+   {
+    "class_type": "StyleStringInjector2 //ZImagePowerNodes",
+    "manager_search": "StyleStringInjector2 //ZImagePowerNodes"
+   },
+   {
+    "class_type": "UnetLoaderGGUF",
+    "manager_search": "UnetLoaderGGUF"
+   },
+   {
+    "class_type": "VAEEncodeSoftInpainting //ZImagePowerNodes",
+    "manager_search": "VAEEncodeSoftInpainting //ZImagePowerNodes"
+   },
+   {
+    "class_type": "ZSamplerTurbo2 //ZImagePowerNodes",
+    "manager_search": "ZSamplerTurbo2 //ZImagePowerNodes"
+   }
+  ]
+ },
+ "571293": {
+  "models": [
+   {
+    "name": "4x_NMKD-Siax_200k.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "SDXL\\controlnet-tile-sdxl-1.0.safetensors",
+    "folder": "models/controlnet/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "BNK_CLIPTextEncodeAdvanced",
+    "manager_search": "BNK_CLIPTextEncodeAdvanced"
+   },
+   {
+    "class_type": "CheckpointLoader|pysssss",
+    "manager_search": "CheckpointLoader|pysssss"
+   },
+   {
+    "class_type": "ControlNetApplyAdvanced",
+    "manager_search": "ControlNetApplyAdvanced"
+   },
+   {
+    "class_type": "Efficient Loader",
+    "manager_search": "Efficient Loader"
+   },
+   {
+    "class_type": "FaceDetailer",
+    "manager_search": "FaceDetailer"
+   },
+   {
+    "class_type": "KSampler (Efficient)",
+    "manager_search": "KSampler (Efficient)"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "SAMLoader",
+    "manager_search": "SAMLoader"
+   },
+   {
+    "class_type": "TilePreprocessor",
+    "manager_search": "TilePreprocessor"
+   },
+   {
+    "class_type": "UltralyticsDetectorProvider",
+    "manager_search": "UltralyticsDetectorProvider"
+   },
+   {
+    "class_type": "easy hiresFix",
+    "manager_search": "easy hiresFix"
+   },
+   {
+    "class_type": "easy imageColorMatch",
+    "manager_search": "easy imageColorMatch"
+   },
+   {
+    "class_type": "easy prompt",
+    "manager_search": "easy prompt"
+   },
+   {
+    "class_type": "easy stylesSelector",
+    "manager_search": "easy stylesSelector"
+   }
+  ]
+ },
+ "1536883": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "ImageBatch",
+    "manager_search": "ImageBatch"
+   },
+   {
+    "class_type": "ImageBatchMulti",
+    "manager_search": "ImageBatchMulti"
+   },
+   {
+    "class_type": "ImageCrop+",
+    "manager_search": "ImageCrop+"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "LoadWanVideoT5TextEncoder",
+    "manager_search": "LoadWanVideoT5TextEncoder"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "VHS_VideoInfo",
+    "manager_search": "VHS_VideoInfo"
+   },
+   {
+    "class_type": "WanVideoBlockSwap",
+    "manager_search": "WanVideoBlockSwap"
+   },
+   {
+    "class_type": "WanVideoDecode",
+    "manager_search": "WanVideoDecode"
+   },
+   {
+    "class_type": "WanVideoExperimentalArgs",
+    "manager_search": "WanVideoExperimentalArgs"
+   },
+   {
+    "class_type": "WanVideoLoraSelect",
+    "manager_search": "WanVideoLoraSelect"
+   },
+   {
+    "class_type": "WanVideoModelLoader",
+    "manager_search": "WanVideoModelLoader"
+   },
+   {
+    "class_type": "WanVideoSLG",
+    "manager_search": "WanVideoSLG"
+   },
+   {
+    "class_type": "WanVideoSampler",
+    "manager_search": "WanVideoSampler"
+   },
+   {
+    "class_type": "WanVideoTeaCache",
+    "manager_search": "WanVideoTeaCache"
+   },
+   {
+    "class_type": "WanVideoTextEncode",
+    "manager_search": "WanVideoTextEncode"
+   },
+   {
+    "class_type": "WanVideoTorchCompileSettings",
+    "manager_search": "WanVideoTorchCompileSettings"
+   },
+   {
+    "class_type": "WanVideoVACEEncode",
+    "manager_search": "WanVideoVACEEncode"
+   },
+   {
+    "class_type": "WanVideoVACEModelSelect",
+    "manager_search": "WanVideoVACEModelSelect"
+   },
+   {
+    "class_type": "WanVideoVAELoader",
+    "manager_search": "WanVideoVAELoader"
+   }
+  ]
+ },
+ "2098929": {
+  "models": [
+   {
+    "name": "anima_baseV10.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "qwen_3_06b_base.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "qwen_image_vae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "sam3.1_multiplex_fp16.safetensors",
+    "folder": "models/checkpoints/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "AnimaLLLiteApply",
+    "manager_search": "AnimaLLLiteApply"
+   },
+   {
+    "class_type": "Any Switch (rgthree)",
+    "manager_search": "Any Switch (rgthree)"
+   },
+   {
+    "class_type": "ComfyMathExpression",
+    "manager_search": "ComfyMathExpression"
+   },
+   {
+    "class_type": "ComfySwitchNode",
+    "manager_search": "ComfySwitchNode"
+   },
+   {
+    "class_type": "DetailerForEachDebugPipe",
+    "manager_search": "DetailerForEachDebugPipe"
+   },
+   {
+    "class_type": "EmptyImage",
+    "manager_search": "EmptyImage"
+   },
+   {
+    "class_type": "Fast Groups Muter (rgthree)",
+    "manager_search": "Fast Groups Muter (rgthree)"
+   },
+   {
+    "class_type": "GetImageSize+",
+    "manager_search": "GetImageSize+"
+   },
+   {
+    "class_type": "GrowMaskWithBlur",
+    "manager_search": "GrowMaskWithBlur"
+   },
+   {
+    "class_type": "INTConstant",
+    "manager_search": "INTConstant"
+   },
+   {
+    "class_type": "Image Blank",
+    "manager_search": "Image Blank"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "ImpactMakeTileSEGS",
+    "manager_search": "ImpactMakeTileSEGS"
+   },
+   {
+    "class_type": "ImpactSimpleDetectorSEGS",
+    "manager_search": "ImpactSimpleDetectorSEGS"
+   },
+   {
+    "class_type": "MaskPreview+",
+    "manager_search": "MaskPreview+"
+   },
+   {
+    "class_type": "MaskToSEGS",
+    "manager_search": "MaskToSEGS"
+   },
+   {
+    "class_type": "PathchSageAttentionKJ",
+    "manager_search": "PathchSageAttentionKJ"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "PreviewAny",
+    "manager_search": "PreviewAny"
+   },
+   {
+    "class_type": "PrimitiveFloat",
+    "manager_search": "PrimitiveFloat"
+   },
+   {
+    "class_type": "PrimitiveString",
+    "manager_search": "PrimitiveString"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "SAM3_Detect",
+    "manager_search": "SAM3_Detect"
+   },
+   {
+    "class_type": "SAMLoader",
+    "manager_search": "SAMLoader"
+   },
+   {
+    "class_type": "SDXLEmptyLatentSizePicker+",
+    "manager_search": "SDXLEmptyLatentSizePicker+"
+   },
+   {
+    "class_type": "SEGSPreview",
+    "manager_search": "SEGSPreview"
+   },
+   {
+    "class_type": "SamplerCustom",
+    "manager_search": "SamplerCustom"
+   },
+   {
+    "class_type": "SaveImageKJ",
+    "manager_search": "SaveImageKJ"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "StringConcatenate",
+    "manager_search": "StringConcatenate"
+   },
+   {
+    "class_type": "ToBasicPipe",
+    "manager_search": "ToBasicPipe"
+   },
+   {
+    "class_type": "UltralyticsDetectorProvider",
+    "manager_search": "UltralyticsDetectorProvider"
+   }
+  ]
+ },
+ "2490072": {
+  "models": [
+   {
+    "name": "LTX23_video_vae_bf16.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "gemma_3_12B_it_fp8_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "ltx-2.3-22b-distilled_transformer_only_fp8_scaled.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "ltx-2.3_text_projection_bf16.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "taeltx2_3.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "AILab_QwenVL",
+    "manager_search": "AILab_QwenVL"
+   },
+   {
+    "class_type": "AudioCrop",
+    "manager_search": "AudioCrop"
+   },
+   {
+    "class_type": "ComfySwitchNode",
+    "manager_search": "ComfySwitchNode"
+   },
+   {
+    "class_type": "EmptyLTXVLatentVideo",
+    "manager_search": "EmptyLTXVLatentVideo"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "GetImageSize",
+    "manager_search": "GetImageSize"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "INTConstant",
+    "manager_search": "INTConstant"
+   },
+   {
+    "class_type": "ImageResizeKJv2",
+    "manager_search": "ImageResizeKJv2"
+   },
+   {
+    "class_type": "ImageScaleToTotalPixels",
+    "manager_search": "ImageScaleToTotalPixels"
+   },
+   {
+    "class_type": "LTX2PromptArchitectQwen",
+    "manager_search": "LTX2PromptArchitectQwen"
+   },
+   {
+    "class_type": "LTX2SamplingPreviewOverride",
+    "manager_search": "LTX2SamplingPreviewOverride"
+   },
+   {
+    "class_type": "LTX2_NAG",
+    "manager_search": "LTX2_NAG"
+   },
+   {
+    "class_type": "LTXVAudioVAEDecode",
+    "manager_search": "LTXVAudioVAEDecode"
+   },
+   {
+    "class_type": "LTXVAudioVAEEncode",
+    "manager_search": "LTXVAudioVAEEncode"
+   },
+   {
+    "class_type": "LTXVChunkFeedForward",
+    "manager_search": "LTXVChunkFeedForward"
+   },
+   {
+    "class_type": "LTXVConcatAVLatent",
+    "manager_search": "LTXVConcatAVLatent"
+   },
+   {
+    "class_type": "LTXVConditioning",
+    "manager_search": "LTXVConditioning"
+   },
+   {
+    "class_type": "LTXVImgToVideoInplace",
+    "manager_search": "LTXVImgToVideoInplace"
+   },
+   {
+    "class_type": "LTXVLatentUpsampler",
+    "manager_search": "LTXVLatentUpsampler"
+   },
+   {
+    "class_type": "LTXVPreprocess",
+    "manager_search": "LTXVPreprocess"
+   },
+   {
+    "class_type": "LTXVScheduler",
+    "manager_search": "LTXVScheduler"
+   },
+   {
+    "class_type": "LTXVSeparateAVLatent",
+    "manager_search": "LTXVSeparateAVLatent"
+   },
+   {
+    "class_type": "LatentUpscaleModelLoader",
+    "manager_search": "LatentUpscaleModelLoader"
+   },
+   {
+    "class_type": "LoadAudio",
+    "manager_search": "LoadAudio"
+   },
+   {
+    "class_type": "ManualSigmas",
+    "manager_search": "ManualSigmas"
+   },
+   {
+    "class_type": "MelBandRoFormerModelLoader",
+    "manager_search": "MelBandRoFormerModelLoader"
+   },
+   {
+    "class_type": "MelBandRoFormerSampler",
+    "manager_search": "MelBandRoFormerSampler"
+   },
+   {
+    "class_type": "ModelPatchTorchSettings",
+    "manager_search": "ModelPatchTorchSettings"
+   },
+   {
+    "class_type": "PainterAudioLength",
+    "manager_search": "PainterAudioLength"
+   },
+   {
+    "class_type": "PathchSageAttentionKJ",
+    "manager_search": "PathchSageAttentionKJ"
+   },
+   {
+    "class_type": "PreviewAudio",
+    "manager_search": "PreviewAudio"
+   },
+   {
+    "class_type": "PrimitiveFloat",
+    "manager_search": "PrimitiveFloat"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "RAMCleanup",
+    "manager_search": "RAMCleanup"
+   },
+   {
+    "class_type": "ReservedVRAMSetter",
+    "manager_search": "ReservedVRAMSetter"
+   },
+   {
+    "class_type": "ResizeImageMaskNode",
+    "manager_search": "ResizeImageMaskNode"
+   },
+   {
+    "class_type": "ResizeImagesByLongerEdge",
+    "manager_search": "ResizeImagesByLongerEdge"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "SimpleCalculatorKJ",
+    "manager_search": "SimpleCalculatorKJ"
+   },
+   {
+    "class_type": "SolidMask",
+    "manager_search": "SolidMask"
+   },
+   {
+    "class_type": "Text Concatenate",
+    "manager_search": "Text Concatenate"
+   },
+   {
+    "class_type": "VAELoaderKJ",
+    "manager_search": "VAELoaderKJ"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "VRAMCleanup",
+    "manager_search": "VRAMCleanup"
+   }
+  ]
+ },
+ "2323627": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "65c22b29-59aa-496b-89c6-55a603658670",
+    "manager_search": "65c22b29-59aa-496b-89c6-55a603658670"
+   },
+   {
+    "class_type": "73d1f5b0-8ef6-4921-af29-64782f11274d",
+    "manager_search": "73d1f5b0-8ef6-4921-af29-64782f11274d"
+   },
+   {
+    "class_type": "7b34ab90-36f9-45ba-a665-71d418f0df18",
+    "manager_search": "7b34ab90-36f9-45ba-a665-71d418f0df18"
+   },
+   {
+    "class_type": "SimplePromptBatcher",
+    "manager_search": "SimplePromptBatcher"
+   }
+  ]
+ },
+ "785908": {
+  "models": [
+   {
+    "name": "4x-UltraSharp.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "t5\\google_t5-v1_1-xxl_encoderonly-fp8_e4m3fn.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "CogVideoDecode",
+    "manager_search": "CogVideoDecode"
+   },
+   {
+    "class_type": "CogVideoImageEncode",
+    "manager_search": "CogVideoImageEncode"
+   },
+   {
+    "class_type": "CogVideoSampler",
+    "manager_search": "CogVideoSampler"
+   },
+   {
+    "class_type": "CogVideoTextEncode",
+    "manager_search": "CogVideoTextEncode"
+   },
+   {
+    "class_type": "ConcatStringSingle",
+    "manager_search": "ConcatStringSingle"
+   },
+   {
+    "class_type": "Crop Image TargetSize (JPS)",
+    "manager_search": "Crop Image TargetSize (JPS)"
+   },
+   {
+    "class_type": "DF_Get_image_size",
+    "manager_search": "DF_Get_image_size"
+   },
+   {
+    "class_type": "DownloadAndLoadCogVideoModel",
+    "manager_search": "DownloadAndLoadCogVideoModel"
+   },
+   {
+    "class_type": "DownloadAndLoadFlorence2Model",
+    "manager_search": "DownloadAndLoadFlorence2Model"
+   },
+   {
+    "class_type": "FILM VFI",
+    "manager_search": "FILM VFI"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "Florence2Run",
+    "manager_search": "Florence2Run"
+   },
+   {
+    "class_type": "JWImageMix",
+    "manager_search": "JWImageMix"
+   },
+   {
+    "class_type": "JWIntegerMul",
+    "manager_search": "JWIntegerMul"
+   },
+   {
+    "class_type": "Text Find and Replace",
+    "manager_search": "Text Find and Replace"
+   },
+   {
+    "class_type": "Textbox",
+    "manager_search": "Textbox"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   }
+  ]
+ },
+ "1376578": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "ImageResizeKJ",
+    "manager_search": "ImageResizeKJ"
+   },
+   {
+    "class_type": "LoadWanVideoClipTextEncoder",
+    "manager_search": "LoadWanVideoClipTextEncoder"
+   },
+   {
+    "class_type": "LoadWanVideoT5TextEncoder",
+    "manager_search": "LoadWanVideoT5TextEncoder"
+   },
+   {
+    "class_type": "Scribble_XDoG_Preprocessor",
+    "manager_search": "Scribble_XDoG_Preprocessor"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "WanVideoBlockSwap",
+    "manager_search": "WanVideoBlockSwap"
+   },
+   {
+    "class_type": "WanVideoClipVisionEncode",
+    "manager_search": "WanVideoClipVisionEncode"
+   },
+   {
+    "class_type": "WanVideoControlEmbeds",
+    "manager_search": "WanVideoControlEmbeds"
+   },
+   {
+    "class_type": "WanVideoDecode",
+    "manager_search": "WanVideoDecode"
+   },
+   {
+    "class_type": "WanVideoEncode",
+    "manager_search": "WanVideoEncode"
+   },
+   {
+    "class_type": "WanVideoImageToVideoEncode",
+    "manager_search": "WanVideoImageToVideoEncode"
+   },
+   {
+    "class_type": "WanVideoModelLoader",
+    "manager_search": "WanVideoModelLoader"
+   },
+   {
+    "class_type": "WanVideoSLG",
+    "manager_search": "WanVideoSLG"
+   },
+   {
+    "class_type": "WanVideoSampler",
+    "manager_search": "WanVideoSampler"
+   },
+   {
+    "class_type": "WanVideoTeaCache",
+    "manager_search": "WanVideoTeaCache"
+   },
+   {
+    "class_type": "WanVideoTextEncode",
+    "manager_search": "WanVideoTextEncode"
+   },
+   {
+    "class_type": "WanVideoTorchCompileSettings",
+    "manager_search": "WanVideoTorchCompileSettings"
+   },
+   {
+    "class_type": "WanVideoVAELoader",
+    "manager_search": "WanVideoVAELoader"
+   },
+   {
+    "class_type": "WanVideoVRAMManagement",
+    "manager_search": "WanVideoVRAMManagement"
+   }
+  ]
+ },
+ "778999": {
+  "models": [
+   {
+    "name": "2xNomosUni_span_multijpg_ldl.pth",
+    "folder": "models/upscale_models/"
+   },
+   {
+    "name": "Flux.1\\Flux.1-dev-Controlnet-Upscaler.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "Flux.1\\flux1-dev.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "ae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "longclip-L.pt",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "t5xxl_fp8_e4m3fn.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ACN_AdvancedControlNetApply",
+    "manager_search": "ACN_AdvancedControlNetApply"
+   },
+   {
+    "class_type": "ACN_ScaledSoftControlNetWeights",
+    "manager_search": "ACN_ScaledSoftControlNetWeights"
+   },
+   {
+    "class_type": "Anything Everywhere",
+    "manager_search": "Anything Everywhere"
+   },
+   {
+    "class_type": "BboxDetectorSEGS",
+    "manager_search": "BboxDetectorSEGS"
+   },
+   {
+    "class_type": "CLIPTextEncodeFlux",
+    "manager_search": "CLIPTextEncodeFlux"
+   },
+   {
+    "class_type": "DetailerForEach",
+    "manager_search": "DetailerForEach"
+   },
+   {
+    "class_type": "ExpressionEditor",
+    "manager_search": "ExpressionEditor"
+   },
+   {
+    "class_type": "FaceDetailer",
+    "manager_search": "FaceDetailer"
+   },
+   {
+    "class_type": "Miaoshouai_Tagger",
+    "manager_search": "Miaoshouai_Tagger"
+   },
+   {
+    "class_type": "PlaySound|pysssss",
+    "manager_search": "PlaySound|pysssss"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "PreviewBridge",
+    "manager_search": "PreviewBridge"
+   },
+   {
+    "class_type": "SAMLoader",
+    "manager_search": "SAMLoader"
+   },
+   {
+    "class_type": "SDXLEmptyLatentSizePicker+",
+    "manager_search": "SDXLEmptyLatentSizePicker+"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "TTPlanet_TileSimple_Preprocessor",
+    "manager_search": "TTPlanet_TileSimple_Preprocessor"
+   },
+   {
+    "class_type": "UltimateSDUpscaleNoUpscale",
+    "manager_search": "UltimateSDUpscaleNoUpscale"
+   },
+   {
+    "class_type": "UltralyticsDetectorProvider",
+    "manager_search": "UltralyticsDetectorProvider"
+   },
+   {
+    "class_type": "easy cleanGpuUsed",
+    "manager_search": "easy cleanGpuUsed"
+   },
+   {
+    "class_type": "easy prompt",
+    "manager_search": "easy prompt"
+   },
+   {
+    "class_type": "easy promptConcat",
+    "manager_search": "easy promptConcat"
+   },
+   {
+    "class_type": "easy stylesSelector",
+    "manager_search": "easy stylesSelector"
+   }
+  ]
+ },
+ "413803": {
+  "models": [
+   {
+    "name": "control-lora-depth-rank256.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "juggernautXL_v9Rdphoto2Lightning.safetensors",
+    "folder": "models/checkpoints/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ControlNetApplyAdvanced",
+    "manager_search": "ControlNetApplyAdvanced"
+   },
+   {
+    "class_type": "DepthAnythingPreprocessor",
+    "manager_search": "DepthAnythingPreprocessor"
+   },
+   {
+    "class_type": "DifferentialDiffusion",
+    "manager_search": "DifferentialDiffusion"
+   },
+   {
+    "class_type": "IPAdapterAdvanced",
+    "manager_search": "IPAdapterAdvanced"
+   },
+   {
+    "class_type": "IPAdapterUnifiedLoader",
+    "manager_search": "IPAdapterUnifiedLoader"
+   },
+   {
+    "class_type": "ImageRemoveBackground+",
+    "manager_search": "ImageRemoveBackground+"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "InpaintModelConditioning",
+    "manager_search": "InpaintModelConditioning"
+   },
+   {
+    "class_type": "MaskPreview+",
+    "manager_search": "MaskPreview+"
+   },
+   {
+    "class_type": "PrepImageForClipVision",
+    "manager_search": "PrepImageForClipVision"
+   },
+   {
+    "class_type": "RemBGSession+",
+    "manager_search": "RemBGSession+"
+   }
+  ]
+ },
+ "1774551": {
+  "models": [
+   {
+    "name": "ae.safetensors",
+    "folder": "models/vae/"
+   },
+   {
+    "name": "clip_l.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "AILab_ImageCombiner",
+    "manager_search": "AILab_ImageCombiner"
+   },
+   {
+    "class_type": "Anything Everywhere",
+    "manager_search": "Anything Everywhere"
+   },
+   {
+    "class_type": "Base64DecodeNode",
+    "manager_search": "Base64DecodeNode"
+   },
+   {
+    "class_type": "CR Color Panel",
+    "manager_search": "CR Color Panel"
+   },
+   {
+    "class_type": "ConcatStringSingle",
+    "manager_search": "ConcatStringSingle"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "FluxKontextImageScale",
+    "manager_search": "FluxKontextImageScale"
+   },
+   {
+    "class_type": "GetImageSize",
+    "manager_search": "GetImageSize"
+   },
+   {
+    "class_type": "GetImageSize+",
+    "manager_search": "GetImageSize+"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "ImageCropByMask",
+    "manager_search": "ImageCropByMask"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "ImageStitch",
+    "manager_search": "ImageStitch"
+   },
+   {
+    "class_type": "Int",
+    "manager_search": "Int"
+   },
+   {
+    "class_type": "Lora Loader Stack (rgthree)",
+    "manager_search": "Lora Loader Stack (rgthree)"
+   },
+   {
+    "class_type": "MathExpression|pysssss",
+    "manager_search": "MathExpression|pysssss"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "RMBG",
+    "manager_search": "RMBG"
+   },
+   {
+    "class_type": "ReferenceLatent",
+    "manager_search": "ReferenceLatent"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "String",
+    "manager_search": "String"
+   },
+   {
+    "class_type": "TeaCache",
+    "manager_search": "TeaCache"
+   },
+   {
+    "class_type": "UnetLoaderGGUF",
+    "manager_search": "UnetLoaderGGUF"
+   }
+  ]
+ },
+ "413826": {
+  "models": [
+   {
+    "name": "control-lora-depth-rank256.safetensors",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "juggernautXL_v9Rdphoto2Lightning.safetensors",
+    "folder": "models/checkpoints/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ControlNetApplyAdvanced",
+    "manager_search": "ControlNetApplyAdvanced"
+   },
+   {
+    "class_type": "DepthAnythingPreprocessor",
+    "manager_search": "DepthAnythingPreprocessor"
+   },
+   {
+    "class_type": "DifferentialDiffusion",
+    "manager_search": "DifferentialDiffusion"
+   },
+   {
+    "class_type": "IPAdapterAdvanced",
+    "manager_search": "IPAdapterAdvanced"
+   },
+   {
+    "class_type": "IPAdapterUnifiedLoader",
+    "manager_search": "IPAdapterUnifiedLoader"
+   },
+   {
+    "class_type": "ImageRemoveBackground+",
+    "manager_search": "ImageRemoveBackground+"
+   },
+   {
+    "class_type": "ImageResize+",
+    "manager_search": "ImageResize+"
+   },
+   {
+    "class_type": "InpaintModelConditioning",
+    "manager_search": "InpaintModelConditioning"
+   },
+   {
+    "class_type": "MaskPreview+",
+    "manager_search": "MaskPreview+"
+   },
+   {
+    "class_type": "PrepImageForClipVision",
+    "manager_search": "PrepImageForClipVision"
+   },
+   {
+    "class_type": "RemBGSession+",
+    "manager_search": "RemBGSession+"
+   }
+  ]
+ },
+ "1526147": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "CreateCFGScheduleFloatList",
+    "manager_search": "CreateCFGScheduleFloatList"
+   },
+   {
+    "class_type": "DownloadAndLoadWav2VecModel",
+    "manager_search": "DownloadAndLoadWav2VecModel"
+   },
+   {
+    "class_type": "FantasyTalkingModelLoader",
+    "manager_search": "FantasyTalkingModelLoader"
+   },
+   {
+    "class_type": "FantasyTalkingWav2VecEmbeds",
+    "manager_search": "FantasyTalkingWav2VecEmbeds"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "JWInteger",
+    "manager_search": "JWInteger"
+   },
+   {
+    "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+    "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+   },
+   {
+    "class_type": "LoadAudio",
+    "manager_search": "LoadAudio"
+   },
+   {
+    "class_type": "LoadWanVideoT5TextEncoder",
+    "manager_search": "LoadWanVideoT5TextEncoder"
+   },
+   {
+    "class_type": "MediaPlayer",
+    "manager_search": "MediaPlayer"
+   },
+   {
+    "class_type": "NTCosyVoiceCrossLingualSampler",
+    "manager_search": "NTCosyVoiceCrossLingualSampler"
+   },
+   {
+    "class_type": "NTCosyVoiceInstruct2Sampler",
+    "manager_search": "NTCosyVoiceInstruct2Sampler"
+   },
+   {
+    "class_type": "NTCosyVoiceZeroShotSampler",
+    "manager_search": "NTCosyVoiceZeroShotSampler"
+   },
+   {
+    "class_type": "PreviewAudio",
+    "manager_search": "PreviewAudio"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "WanVideoBlockSwap",
+    "manager_search": "WanVideoBlockSwap"
+   },
+   {
+    "class_type": "WanVideoClipVisionEncode",
+    "manager_search": "WanVideoClipVisionEncode"
+   },
+   {
+    "class_type": "WanVideoDecode",
+    "manager_search": "WanVideoDecode"
+   },
+   {
+    "class_type": "WanVideoImageToVideoEncode",
+    "manager_search": "WanVideoImageToVideoEncode"
+   },
+   {
+    "class_type": "WanVideoModelLoader",
+    "manager_search": "WanVideoModelLoader"
+   },
+   {
+    "class_type": "WanVideoSampler",
+    "manager_search": "WanVideoSampler"
+   },
+   {
+    "class_type": "WanVideoTeaCache",
+    "manager_search": "WanVideoTeaCache"
+   },
+   {
+    "class_type": "WanVideoTextEncode",
+    "manager_search": "WanVideoTextEncode"
+   },
+   {
+    "class_type": "WanVideoVAELoader",
+    "manager_search": "WanVideoVAELoader"
+   }
+  ]
+ },
+ "526049": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "AIO_Preprocessor",
+    "manager_search": "AIO_Preprocessor"
+   },
+   {
+    "class_type": "AddMask",
+    "manager_search": "AddMask"
+   },
+   {
+    "class_type": "AnimeLineArtPreprocessor",
+    "manager_search": "AnimeLineArtPreprocessor"
+   },
+   {
+    "class_type": "Canny",
+    "manager_search": "Canny"
+   },
+   {
+    "class_type": "CannyEdgePreprocessor",
+    "manager_search": "CannyEdgePreprocessor"
+   },
+   {
+    "class_type": "ColorToMask",
+    "manager_search": "ColorToMask"
+   },
+   {
+    "class_type": "ConcatStringSingle",
+    "manager_search": "ConcatStringSingle"
+   },
+   {
+    "class_type": "DF_Text_Box",
+    "manager_search": "DF_Text_Box"
+   },
+   {
+    "class_type": "DWPreprocessor",
+    "manager_search": "DWPreprocessor"
+   },
+   {
+    "class_type": "Display Int (rgthree)",
+    "manager_search": "Display Int (rgthree)"
+   },
+   {
+    "class_type": "Fast Bypasser (rgthree)",
+    "manager_search": "Fast Bypasser (rgthree)"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "GroundingDinoModelLoader (segment anything)",
+    "manager_search": "GroundingDinoModelLoader (segment anything)"
+   },
+   {
+    "class_type": "GroundingDinoSAMSegment (segment anything)",
+    "manager_search": "GroundingDinoSAMSegment (segment anything)"
+   },
+   {
+    "class_type": "HEDPreprocessor",
+    "manager_search": "HEDPreprocessor"
+   },
+   {
+    "class_type": "Image Rembg (Remove Background)",
+    "manager_search": "Image Rembg (Remove Background)"
+   },
+   {
+    "class_type": "LineArtPreprocessor",
+    "manager_search": "LineArtPreprocessor"
+   },
+   {
+    "class_type": "LineartStandardPreprocessor",
+    "manager_search": "LineartStandardPreprocessor"
+   },
+   {
+    "class_type": "Mute / Bypass Repeater (rgthree)",
+    "manager_search": "Mute / Bypass Repeater (rgthree)"
+   },
+   {
+    "class_type": "OneFormer-COCO-SemSegPreprocessor",
+    "manager_search": "OneFormer-COCO-SemSegPreprocessor"
+   },
+   {
+    "class_type": "PiDiNetPreprocessor",
+    "manager_search": "PiDiNetPreprocessor"
+   },
+   {
+    "class_type": "ReActorFaceSwap",
+    "manager_search": "ReActorFaceSwap"
+   },
+   {
+    "class_type": "ReActorRestoreFace",
+    "manager_search": "ReActorRestoreFace"
+   },
+   {
+    "class_type": "SAMModelLoader (segment anything)",
+    "manager_search": "SAMModelLoader (segment anything)"
+   },
+   {
+    "class_type": "String Input [Dream]",
+    "manager_search": "String Input [Dream]"
+   },
+   {
+    "class_type": "String to Text",
+    "manager_search": "String to Text"
+   },
+   {
+    "class_type": "Text Concatenate",
+    "manager_search": "Text Concatenate"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "ttN float",
+    "manager_search": "ttN float"
+   }
+  ]
+ },
+ "142621": {
+  "models": [],
+  "nodes": []
+ },
+ "1945414": {
+  "models": [
+   {
+    "name": "RealESRGAN_x2.pth",
+    "folder": "models/upscale_models/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "AudioCrop",
+    "manager_search": "AudioCrop"
+   },
+   {
+    "class_type": "Bool Binary And JK",
+    "manager_search": "Bool Binary And JK"
+   },
+   {
+    "class_type": "CR Text",
+    "manager_search": "CR Text"
+   },
+   {
+    "class_type": "Compare",
+    "manager_search": "Compare"
+   },
+   {
+    "class_type": "DownloadAndLoadWav2VecModel",
+    "manager_search": "DownloadAndLoadWav2VecModel"
+   },
+   {
+    "class_type": "EmptyImage",
+    "manager_search": "EmptyImage"
+   },
+   {
+    "class_type": "GetImageSizeAndCount",
+    "manager_search": "GetImageSizeAndCount"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "ImageResizeKJv2",
+    "manager_search": "ImageResizeKJv2"
+   },
+   {
+    "class_type": "ImageScaleToMegapixels",
+    "manager_search": "ImageScaleToMegapixels"
+   },
+   {
+    "class_type": "ImpactSwitch",
+    "manager_search": "ImpactSwitch"
+   },
+   {
+    "class_type": "Int",
+    "manager_search": "Int"
+   },
+   {
+    "class_type": "LayerUtility: ImageScaleByAspectRatio",
+    "manager_search": "LayerUtility: ImageScaleByAspectRatio"
+   },
+   {
+    "class_type": "LoadAudio",
+    "manager_search": "LoadAudio"
+   },
+   {
+    "class_type": "LoadWanVideoT5TextEncoder",
+    "manager_search": "LoadWanVideoT5TextEncoder"
+   },
+   {
+    "class_type": "MultiTalkModelLoader",
+    "manager_search": "MultiTalkModelLoader"
+   },
+   {
+    "class_type": "MultiTalkWav2VecEmbeds",
+    "manager_search": "MultiTalkWav2VecEmbeds"
+   },
+   {
+    "class_type": "ResolutionMaster",
+    "manager_search": "ResolutionMaster"
+   },
+   {
+    "class_type": "SaveAudio",
+    "manager_search": "SaveAudio"
+   },
+   {
+    "class_type": "SeedVR2",
+    "manager_search": "SeedVR2"
+   },
+   {
+    "class_type": "SeedVR2BlockSwap",
+    "manager_search": "SeedVR2BlockSwap"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "SimpleMath+",
+    "manager_search": "SimpleMath+"
+   },
+   {
+    "class_type": "Text Concatenate",
+    "manager_search": "Text Concatenate"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "VibeVoiceTTS",
+    "manager_search": "VibeVoiceTTS"
+   },
+   {
+    "class_type": "WanVideoBlockSwap",
+    "manager_search": "WanVideoBlockSwap"
+   },
+   {
+    "class_type": "WanVideoClipVisionEncode",
+    "manager_search": "WanVideoClipVisionEncode"
+   },
+   {
+    "class_type": "WanVideoDecode",
+    "manager_search": "WanVideoDecode"
+   },
+   {
+    "class_type": "WanVideoImageToVideoMultiTalk",
+    "manager_search": "WanVideoImageToVideoMultiTalk"
+   },
+   {
+    "class_type": "WanVideoLoraSelect",
+    "manager_search": "WanVideoLoraSelect"
+   },
+   {
+    "class_type": "WanVideoModelLoader",
+    "manager_search": "WanVideoModelLoader"
+   },
+   {
+    "class_type": "WanVideoSampler",
+    "manager_search": "WanVideoSampler"
+   },
+   {
+    "class_type": "WanVideoTextEncode",
+    "manager_search": "WanVideoTextEncode"
+   },
+   {
+    "class_type": "WanVideoVAELoader",
+    "manager_search": "WanVideoVAELoader"
+   },
+   {
+    "class_type": "easy ifElse",
+    "manager_search": "easy ifElse"
+   }
+  ]
+ },
+ "2313745": {
+  "models": [
+   {
+    "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "qwen_image_edit_2511_fp8mixed.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "qwen_image_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Anything Everywhere",
+    "manager_search": "Anything Everywhere"
+   },
+   {
+    "class_type": "CFGNorm",
+    "manager_search": "CFGNorm"
+   },
+   {
+    "class_type": "Fast Bypasser (rgthree)",
+    "manager_search": "Fast Bypasser (rgthree)"
+   },
+   {
+    "class_type": "FluxKontextMultiReferenceLatentMethod",
+    "manager_search": "FluxKontextMultiReferenceLatentMethod"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "Int",
+    "manager_search": "Int"
+   },
+   {
+    "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+    "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+   },
+   {
+    "class_type": "QwenEditConfigPreparer",
+    "manager_search": "QwenEditConfigPreparer"
+   },
+   {
+    "class_type": "QwenMultiangleCameraNode",
+    "manager_search": "QwenMultiangleCameraNode"
+   },
+   {
+    "class_type": "ReferenceLatent",
+    "manager_search": "ReferenceLatent"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "SimpleMath+",
+    "manager_search": "SimpleMath+"
+   },
+   {
+    "class_type": "TextEncodeQwenImageEditPlusCustom_lrzjason",
+    "manager_search": "TextEncodeQwenImageEditPlusCustom_lrzjason"
+   },
+   {
+    "class_type": "easy anythingIndexSwitch",
+    "manager_search": "easy anythingIndexSwitch"
+   },
+   {
+    "class_type": "easy promptList",
+    "manager_search": "easy promptList"
+   }
+  ]
+ },
+ "2252071": {
+  "models": [
+   {
+    "name": "qwen\\qwen_image_edit_2511_fp8_e4m3fn_scaled_lightning_comfyui_4steps_v1.0.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "qwen_image_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "Any Switch (rgthree)",
+    "manager_search": "Any Switch (rgthree)"
+   },
+   {
+    "class_type": "CFGNorm",
+    "manager_search": "CFGNorm"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "FluxKontextMultiReferenceLatentMethod",
+    "manager_search": "FluxKontextMultiReferenceLatentMethod"
+   },
+   {
+    "class_type": "GetImageSize",
+    "manager_search": "GetImageSize"
+   },
+   {
+    "class_type": "ImageScaleToTotalPixels",
+    "manager_search": "ImageScaleToTotalPixels"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "PreviewAny",
+    "manager_search": "PreviewAny"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "QwenMultiangleCameraNode",
+    "manager_search": "QwenMultiangleCameraNode"
+   },
+   {
+    "class_type": "SaveAnimatedWEBP",
+    "manager_search": "SaveAnimatedWEBP"
+   },
+   {
+    "class_type": "StringConcatenate",
+    "manager_search": "StringConcatenate"
+   },
+   {
+    "class_type": "TextEncodeQwenImageEditPlus",
+    "manager_search": "TextEncodeQwenImageEditPlus"
+   }
+  ]
+ },
+ "2411105": {
+  "models": [
+   {
+    "name": "ltx-2-19b-dev-fp8.safetensors",
+    "folder": "models/checkpoints/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "AILab_QwenVL",
+    "manager_search": "AILab_QwenVL"
+   },
+   {
+    "class_type": "AILab_QwenVL_PromptEnhancer",
+    "manager_search": "AILab_QwenVL_PromptEnhancer"
+   },
+   {
+    "class_type": "Any Switch (rgthree)",
+    "manager_search": "Any Switch (rgthree)"
+   },
+   {
+    "class_type": "CM_FloatToInt",
+    "manager_search": "CM_FloatToInt"
+   },
+   {
+    "class_type": "Checkpoint Selector",
+    "manager_search": "Checkpoint Selector"
+   },
+   {
+    "class_type": "DF_Text",
+    "manager_search": "DF_Text"
+   },
+   {
+    "class_type": "EmptyImage",
+    "manager_search": "EmptyImage"
+   },
+   {
+    "class_type": "EmptyLTXVLatentVideo",
+    "manager_search": "EmptyLTXVLatentVideo"
+   },
+   {
+    "class_type": "Fast Bypasser (rgthree)",
+    "manager_search": "Fast Bypasser (rgthree)"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "FastFilmGrain",
+    "manager_search": "FastFilmGrain"
+   },
+   {
+    "class_type": "Float",
+    "manager_search": "Float"
+   },
+   {
+    "class_type": "Get resolution [Crystools]",
+    "manager_search": "Get resolution [Crystools]"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "GuiderParameters",
+    "manager_search": "GuiderParameters"
+   },
+   {
+    "class_type": "ImageResizeKJv2",
+    "manager_search": "ImageResizeKJv2"
+   },
+   {
+    "class_type": "Int",
+    "manager_search": "Int"
+   },
+   {
+    "class_type": "JoinStrings",
+    "manager_search": "JoinStrings"
+   },
+   {
+    "class_type": "LTXAVTextEncoderLoader",
+    "manager_search": "LTXAVTextEncoderLoader"
+   },
+   {
+    "class_type": "LTXVAudioVAEDecode",
+    "manager_search": "LTXVAudioVAEDecode"
+   },
+   {
+    "class_type": "LTXVAudioVAEEncode",
+    "manager_search": "LTXVAudioVAEEncode"
+   },
+   {
+    "class_type": "LTXVAudioVAELoader",
+    "manager_search": "LTXVAudioVAELoader"
+   },
+   {
+    "class_type": "LTXVConcatAVLatent",
+    "manager_search": "LTXVConcatAVLatent"
+   },
+   {
+    "class_type": "LTXVConditioning",
+    "manager_search": "LTXVConditioning"
+   },
+   {
+    "class_type": "LTXVCropGuides",
+    "manager_search": "LTXVCropGuides"
+   },
+   {
+    "class_type": "LTXVEmptyLatentAudio",
+    "manager_search": "LTXVEmptyLatentAudio"
+   },
+   {
+    "class_type": "LTXVImgToVideoInplace",
+    "manager_search": "LTXVImgToVideoInplace"
+   },
+   {
+    "class_type": "LTXVLatentUpsampler",
+    "manager_search": "LTXVLatentUpsampler"
+   },
+   {
+    "class_type": "LTXVNormalizingSampler",
+    "manager_search": "LTXVNormalizingSampler"
+   },
+   {
+    "class_type": "LTXVPreprocess",
+    "manager_search": "LTXVPreprocess"
+   },
+   {
+    "class_type": "LTXVScheduler",
+    "manager_search": "LTXVScheduler"
+   },
+   {
+    "class_type": "LTXVSeparateAVLatent",
+    "manager_search": "LTXVSeparateAVLatent"
+   },
+   {
+    "class_type": "LTXVTiledVAEDecode",
+    "manager_search": "LTXVTiledVAEDecode"
+   },
+   {
+    "class_type": "Label (rgthree)",
+    "manager_search": "Label (rgthree)"
+   },
+   {
+    "class_type": "LatentUpscaleModelLoader",
+    "manager_search": "LatentUpscaleModelLoader"
+   },
+   {
+    "class_type": "ManualSigmas",
+    "manager_search": "ManualSigmas"
+   },
+   {
+    "class_type": "MathExpression|pysssss",
+    "manager_search": "MathExpression|pysssss"
+   },
+   {
+    "class_type": "MultimodalGuider",
+    "manager_search": "MultimodalGuider"
+   },
+   {
+    "class_type": "Node Collector (rgthree)",
+    "manager_search": "Node Collector (rgthree)"
+   },
+   {
+    "class_type": "Power Lora Loader (rgthree)",
+    "manager_search": "Power Lora Loader (rgthree)"
+   },
+   {
+    "class_type": "RIFE VFI",
+    "manager_search": "RIFE VFI"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "SeedVR2LoadDiTModel",
+    "manager_search": "SeedVR2LoadDiTModel"
+   },
+   {
+    "class_type": "SeedVR2LoadVAEModel",
+    "manager_search": "SeedVR2LoadVAEModel"
+   },
+   {
+    "class_type": "SeedVR2VideoUpscaler",
+    "manager_search": "SeedVR2VideoUpscaler"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "SolidMask",
+    "manager_search": "SolidMask"
+   },
+   {
+    "class_type": "TrimAudioDuration",
+    "manager_search": "TrimAudioDuration"
+   },
+   {
+    "class_type": "VHS_LoadAudioUpload",
+    "manager_search": "VHS_LoadAudioUpload"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "easy cleanGpuUsed",
+    "manager_search": "easy cleanGpuUsed"
+   },
+   {
+    "class_type": "easy clearCacheAll",
+    "manager_search": "easy clearCacheAll"
+   },
+   {
+    "class_type": "easy positive",
+    "manager_search": "easy positive"
+   },
+   {
+    "class_type": "mxSlider",
+    "manager_search": "mxSlider"
+   },
+   {
+    "class_type": "mxSlider2D",
+    "manager_search": "mxSlider2D"
+   }
+  ]
+ },
+ "1710081": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "GetImageSizeAndCount",
+    "manager_search": "GetImageSizeAndCount"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "ImageResizeKJv2",
+    "manager_search": "ImageResizeKJv2"
+   },
+   {
+    "class_type": "Label (rgthree)",
+    "manager_search": "Label (rgthree)"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "TKVideoUserInputs",
+    "manager_search": "TKVideoUserInputs"
+   },
+   {
+    "class_type": "Text Multiline",
+    "manager_search": "Text Multiline"
+   },
+   {
+    "class_type": "VHS_LoadAudioUpload",
+    "manager_search": "VHS_LoadAudioUpload"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "c16dddf5-832d-4544-80c9-663dc1650562",
+    "manager_search": "c16dddf5-832d-4544-80c9-663dc1650562"
+   },
+   {
+    "class_type": "c9dbd3be-ebed-4a35-9584-61977d12356a",
+    "manager_search": "c9dbd3be-ebed-4a35-9584-61977d12356a"
+   },
+   {
+    "class_type": "fb4748f9-d3dd-4c03-b541-ad055373874e",
+    "manager_search": "fb4748f9-d3dd-4c03-b541-ad055373874e"
+   }
+  ]
+ },
+ "1553946": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "CreateCFGScheduleFloatList",
+    "manager_search": "CreateCFGScheduleFloatList"
+   },
+   {
+    "class_type": "DownloadAndLoadWav2VecModel",
+    "manager_search": "DownloadAndLoadWav2VecModel"
+   },
+   {
+    "class_type": "FantasyTalkingModelLoader",
+    "manager_search": "FantasyTalkingModelLoader"
+   },
+   {
+    "class_type": "FantasyTalkingWav2VecEmbeds",
+    "manager_search": "FantasyTalkingWav2VecEmbeds"
+   },
+   {
+    "class_type": "GetNode",
+    "manager_search": "GetNode"
+   },
+   {
+    "class_type": "INTConstant",
+    "manager_search": "INTConstant"
+   },
+   {
+    "class_type": "ImageResizeKJv2",
+    "manager_search": "ImageResizeKJv2"
+   },
+   {
+    "class_type": "LoadAudio",
+    "manager_search": "LoadAudio"
+   },
+   {
+    "class_type": "LoadWanVideoT5TextEncoder",
+    "manager_search": "LoadWanVideoT5TextEncoder"
+   },
+   {
+    "class_type": "SetNode",
+    "manager_search": "SetNode"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "WanVideoBlockSwap",
+    "manager_search": "WanVideoBlockSwap"
+   },
+   {
+    "class_type": "WanVideoClipVisionEncode",
+    "manager_search": "WanVideoClipVisionEncode"
+   },
+   {
+    "class_type": "WanVideoDecode",
+    "manager_search": "WanVideoDecode"
+   },
+   {
+    "class_type": "WanVideoImageToVideoEncode",
+    "manager_search": "WanVideoImageToVideoEncode"
+   },
+   {
+    "class_type": "WanVideoModelLoader",
+    "manager_search": "WanVideoModelLoader"
+   },
+   {
+    "class_type": "WanVideoSampler",
+    "manager_search": "WanVideoSampler"
+   },
+   {
+    "class_type": "WanVideoTeaCache",
+    "manager_search": "WanVideoTeaCache"
+   },
+   {
+    "class_type": "WanVideoTextEncode",
+    "manager_search": "WanVideoTextEncode"
+   },
+   {
+    "class_type": "WanVideoTorchCompileSettings",
+    "manager_search": "WanVideoTorchCompileSettings"
+   },
+   {
+    "class_type": "WanVideoVAELoader",
+    "manager_search": "WanVideoVAELoader"
+   },
+   {
+    "class_type": "WanVideoVRAMManagement",
+    "manager_search": "WanVideoVRAMManagement"
+   }
+  ]
+ },
+ "2391906": {
+  "models": [],
+  "nodes": [
+   {
+    "class_type": "059ea25d-e8a6-4420-9906-2549000ebabc",
+    "manager_search": "059ea25d-e8a6-4420-9906-2549000ebabc"
+   },
+   {
+    "class_type": "0e11bce7-fd8e-4ec6-9b5b-ccf7b7a46562",
+    "manager_search": "0e11bce7-fd8e-4ec6-9b5b-ccf7b7a46562"
+   },
+   {
+    "class_type": "3f736cee-4b58-4c7e-9be3-b2fbf99a2f8c",
+    "manager_search": "3f736cee-4b58-4c7e-9be3-b2fbf99a2f8c"
+   },
+   {
+    "class_type": "4debe3ee-5cb8-413e-839e-ad68bcd422c5",
+    "manager_search": "4debe3ee-5cb8-413e-839e-ad68bcd422c5"
+   },
+   {
+    "class_type": "PrimitiveStringMultiline",
+    "manager_search": "PrimitiveStringMultiline"
+   },
+   {
+    "class_type": "d6a280ff-54cc-42bc-9dda-2e51ccb00015",
+    "manager_search": "d6a280ff-54cc-42bc-9dda-2e51ccb00015"
+   },
+   {
+    "class_type": "d74a9f7c-d4c2-498f-a2d2-5acb290d4c6c",
+    "manager_search": "d74a9f7c-d4c2-498f-a2d2-5acb290d4c6c"
+   },
+   {
+    "class_type": "dc5646d7-7c35-4ed2-8a4d-07355d62faa2",
+    "manager_search": "dc5646d7-7c35-4ed2-8a4d-07355d62faa2"
+   }
+  ]
+ },
+ "2103017": {
+  "models": [
+   {
+    "name": "Qwen-Image-Edit-2509_fp8_e4m3fn.safetensors",
+    "folder": "models/diffusion_models/"
+   },
+   {
+    "name": "qwen_2.5_vl_7b.safetensors",
+    "folder": "models/text_encoders/"
+   },
+   {
+    "name": "qwen_image_vae.safetensors",
+    "folder": "models/vae/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "CFGNorm",
+    "manager_search": "CFGNorm"
+   },
+   {
+    "class_type": "CR Text",
+    "manager_search": "CR Text"
+   },
+   {
+    "class_type": "DWPreprocessor",
+    "manager_search": "DWPreprocessor"
+   },
+   {
+    "class_type": "Fast Groups Bypasser (rgthree)",
+    "manager_search": "Fast Groups Bypasser (rgthree)"
+   },
+   {
+    "class_type": "Get resolution [Crystools]",
+    "manager_search": "Get resolution [Crystools]"
+   },
+   {
+    "class_type": "GroundingDinoModelLoader_SDPose",
+    "manager_search": "GroundingDinoModelLoader_SDPose"
+   },
+   {
+    "class_type": "Image Comparer (rgthree)",
+    "manager_search": "Image Comparer (rgthree)"
+   },
+   {
+    "class_type": "ImpactCompare",
+    "manager_search": "ImpactCompare"
+   },
+   {
+    "class_type": "LayerUtility: ImageReel",
+    "manager_search": "LayerUtility: ImageReel"
+   },
+   {
+    "class_type": "LayerUtility: ImageReelComposit",
+    "manager_search": "LayerUtility: ImageReelComposit"
+   },
+   {
+    "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+    "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+   },
+   {
+    "class_type": "MaskPreview+",
+    "manager_search": "MaskPreview+"
+   },
+   {
+    "class_type": "SDPoseOODLoader",
+    "manager_search": "SDPoseOODLoader"
+   },
+   {
+    "class_type": "SDPoseOODProcessor",
+    "manager_search": "SDPoseOODProcessor"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "SimpleMath+",
+    "manager_search": "SimpleMath+"
+   },
+   {
+    "class_type": "SimpleMathCondition+",
+    "manager_search": "SimpleMathCondition+"
+   },
+   {
+    "class_type": "TextEncodeQwenImageEditPlus",
+    "manager_search": "TextEncodeQwenImageEditPlus"
+   },
+   {
+    "class_type": "YOLOModelLoader",
+    "manager_search": "YOLOModelLoader"
+   },
+   {
+    "class_type": "easy getNode",
+    "manager_search": "easy getNode"
+   },
+   {
+    "class_type": "easy setNode",
+    "manager_search": "easy setNode"
+   }
+  ]
+ },
+ "546507": {
+  "models": [
+   {
+    "name": "control_v11f1p_sd15_depth.pth",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "control_v11p_sd15_canny.pth",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "control_v11p_sd15_lineart.pth",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "control_v11p_sd15_normalbae.pth",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "control_v11p_sd15_openpose.pth",
+    "folder": "models/controlnet/"
+   },
+   {
+    "name": "control_v11p_sd15_softedge.pth",
+    "folder": "models/controlnet/"
+   }
+  ],
+  "nodes": [
+   {
+    "class_type": "ACN_AdvancedControlNetApply",
+    "manager_search": "ACN_AdvancedControlNetApply"
+   },
+   {
+    "class_type": "ADE_AnimateDiffLoaderWithContext",
+    "manager_search": "ADE_AnimateDiffLoaderWithContext"
+   },
+   {
+    "class_type": "ADE_AnimateDiffUniformContextOptions",
+    "manager_search": "ADE_AnimateDiffUniformContextOptions"
+   },
+   {
+    "class_type": "BatchPromptSchedule",
+    "manager_search": "BatchPromptSchedule"
+   },
+   {
+    "class_type": "ControlNetApplyAdvanced",
+    "manager_search": "ControlNetApplyAdvanced"
+   },
+   {
+    "class_type": "ControlNetLoaderAdvanced",
+    "manager_search": "ControlNetLoaderAdvanced"
+   },
+   {
+    "class_type": "DF_Multiply",
+    "manager_search": "DF_Multiply"
+   },
+   {
+    "class_type": "DF_Text_Box",
+    "manager_search": "DF_Text_Box"
+   },
+   {
+    "class_type": "Display Int (rgthree)",
+    "manager_search": "Display Int (rgthree)"
+   },
+   {
+    "class_type": "Efficient Loader",
+    "manager_search": "Efficient Loader"
+   },
+   {
+    "class_type": "Evaluate Integers",
+    "manager_search": "Evaluate Integers"
+   },
+   {
+    "class_type": "FaceRestoreCFWithModel",
+    "manager_search": "FaceRestoreCFWithModel"
+   },
+   {
+    "class_type": "FaceRestoreModelLoader",
+    "manager_search": "FaceRestoreModelLoader"
+   },
+   {
+    "class_type": "Fast Bypasser (rgthree)",
+    "manager_search": "Fast Bypasser (rgthree)"
+   },
+   {
+    "class_type": "FreeU_V2",
+    "manager_search": "FreeU_V2"
+   },
+   {
+    "class_type": "Get Image Size",
+    "manager_search": "Get Image Size"
+   },
+   {
+    "class_type": "GetImagesFromBatchIndexed",
+    "manager_search": "GetImagesFromBatchIndexed"
+   },
+   {
+    "class_type": "GetLatentsFromBatchIndexed",
+    "manager_search": "GetLatentsFromBatchIndexed"
+   },
+   {
+    "class_type": "IPAdapterAdvanced",
+    "manager_search": "IPAdapterAdvanced"
+   },
+   {
+    "class_type": "IPAdapterUnifiedLoader",
+    "manager_search": "IPAdapterUnifiedLoader"
+   },
+   {
+    "class_type": "ImageRGBA2RGB",
+    "manager_search": "ImageRGBA2RGB"
+   },
+   {
+    "class_type": "ImpactFloat",
+    "manager_search": "ImpactFloat"
+   },
+   {
+    "class_type": "ImpactInt",
+    "manager_search": "ImpactInt"
+   },
+   {
+    "class_type": "JWIntegerDiv",
+    "manager_search": "JWIntegerDiv"
+   },
+   {
+    "class_type": "KSampler (Efficient)",
+    "manager_search": "KSampler (Efficient)"
+   },
+   {
+    "class_type": "KSampler Config (rgthree)",
+    "manager_search": "KSampler Config (rgthree)"
+   },
+   {
+    "class_type": "LayerUtility: PurgeVRAM",
+    "manager_search": "LayerUtility: PurgeVRAM"
+   },
+   {
+    "class_type": "LoRA Stacker",
+    "manager_search": "LoRA Stacker"
+   },
+   {
+    "class_type": "Logic Boolean Primitive",
+    "manager_search": "Logic Boolean Primitive"
+   },
+   {
+    "class_type": "Mute / Bypass Repeater (rgthree)",
+    "manager_search": "Mute / Bypass Repeater (rgthree)"
+   },
+   {
+    "class_type": "PrepImageForClipVision",
+    "manager_search": "PrepImageForClipVision"
+   },
+   {
+    "class_type": "RIFE VFI",
+    "manager_search": "RIFE VFI"
+   },
+   {
+    "class_type": "ReActorFaceSwap",
+    "manager_search": "ReActorFaceSwap"
+   },
+   {
+    "class_type": "ResizeMask",
+    "manager_search": "ResizeMask"
+   },
+   {
+    "class_type": "Seed (rgthree)",
+    "manager_search": "Seed (rgthree)"
+   },
+   {
+    "class_type": "String to Text",
+    "manager_search": "String to Text"
+   },
+   {
+    "class_type": "Text Concatenate",
+    "manager_search": "Text Concatenate"
+   },
+   {
+    "class_type": "VHS_GetImageCount",
+    "manager_search": "VHS_GetImageCount"
+   },
+   {
+    "class_type": "VHS_LoadVideo",
+    "manager_search": "VHS_LoadVideo"
+   },
+   {
+    "class_type": "VHS_LoadVideoPath",
+    "manager_search": "VHS_LoadVideoPath"
+   },
+   {
+    "class_type": "VHS_VideoCombine",
+    "manager_search": "VHS_VideoCombine"
+   },
+   {
+    "class_type": "VHS_VideoInfo",
+    "manager_search": "VHS_VideoInfo"
+   },
+   {
+    "class_type": "workflow/UpscaleMethod",
+    "manager_search": "workflow/UpscaleMethod"
+   }
+  ]
+ },
+ "489100": {
+  "models": [],
+  "nodes": [],
+  "note": "no archive file"
+ },
+ "2809079": {
+  "models": [],
+  "nodes": []
+ },
+ "1983539": {
+  "models": [],
+  "nodes": []
+ }
+}
