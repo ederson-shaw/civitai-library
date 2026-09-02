@@ -1,0 +1,80 @@
+{
+ "recipes": [
+  {
+   "name": "realistic persona base — the daily driver",
+   "purpose": "one checkpoint + one skin layer = your influencer's face engine",
+   "steps": [
+    {
+     "stage": "PERSONA",
+     "entry_name": "majicMIX sombre 麦橘唯美",
+     "why": "photoreal base, top composite after realism boost",
+     "size_mb": 2033
+    },
+    {
+     "stage": "LAYERS",
+     "entry_name": "real_skin",
+     "why": "natural skin, kills the plastic look",
+     "size_mb": 26
+    }
+   ],
+   "total_disk_mb": 2059
+  },
+  {
+   "name": "talking post — photo speaks",
+   "purpose": "your persona photo says the script with lip movement",
+   "steps": [
+    {
+     "stage": "PERSONA",
+     "entry_name": "majicMIX sombre 麦橘唯美",
+     "why": "generate the still",
+     "size_mb": 2033
+    },
+    {
+     "stage": "SPEECH_VOICE",
+     "entry_name": "LTX-2.5 Image Audio to Video - Lipsync",
+     "why": "image + audio -> talking video",
+     "size_mb": null
+    }
+   ],
+   "total_disk_mb": 2033
+  },
+  {
+   "name": "product ad — persona presents",
+   "purpose": "host-style ad shot with your persona",
+   "steps": [
+    {
+     "stage": "PERSONA",
+     "entry_name": "majicMIX sombre 麦橘唯美",
+     "why": "the face",
+     "size_mb": 2033
+    },
+    {
+     "stage": "ADS",
+     "entry_name": "Change product background with the image of your choice using Style Transfer.",
+     "why": "product scene, host framing",
+     "size_mb": null
+    },
+    {
+     "stage": "CAMERA_ANGLE",
+     "entry_name": "Flux Klein 9b Character Compositor - Multi-Angle",
+     "why": "angles of the same person",
+     "size_mb": null
+    }
+   ],
+   "total_disk_mb": 2033
+  },
+  {
+   "name": "still -> short clip (fast)",
+   "purpose": "animate a finished image cheaply",
+   "steps": [
+    {
+     "stage": "MOTION",
+     "entry_name": "Wan VACE Masking & Extension - Seamlessly Extend, Join, and Auto-Fill Existing Videos While Maintaining Motion",
+     "why": "modern i2v, video preview on hover",
+     "size_mb": null
+    }
+   ],
+   "total_disk_mb": 0
+  }
+ ]
+}
