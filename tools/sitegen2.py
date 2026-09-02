@@ -399,7 +399,7 @@ def cut_list_markup(stage_id: str) -> str:
         for c in cuts if isinstance(c, dict)
     )
     return (
-        f'<details class="cut-details"><summary>{len(cuts)} curated cuts — view why</summary>'
+        f'<details class="cut-details"><summary>{len(cuts)} cuts — view why</summary>'
         f"<ul>{rows}</ul></details>"
     )
 
