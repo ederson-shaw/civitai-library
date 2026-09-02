@@ -18,10 +18,11 @@ engagement 25 [collector: /models stats]
 - ratio_component 10 = min(1, ratio / lane_p75_ratio) * 10, where ratio = thumbsUpCount/downloadCount, eligible only if downloadCount >= 500 (else 0 + flag)
 - magnitude_component 10 = min(1, log10(max(downloadCount,1)) / log10(lane_p90_downloads)) * 10
 - comments_component 5 = commentCount >= lane_p75_comments ? 5 : commentCount > lane_median ? 3 : 0; if lane_p75_comments == 0 (nsfw today) → component disabled, weight redistributes to ratio (ratio becomes 15) — evidence: nsfw p75 = 0
-usage 15 [collector: /images walk, garimpo v0.1]
+usage 15 [collector: /images walk — garimpo v0.2 walks ALL entries, not top-10; unwalked = axes null + composite computed on 70-pt scale normalized x100/70, entry flagged "walk pending" (R2#7: unwalked never conflated with usage-0)]
 - bands on posted_images_est (meta-matched images per version): 0 → 0; 1-29 → 5; 30-99 → 10; 100+ → 15
 external validation 15 + S-GATE [manual evidence log]
-- 1 qualifying mention = 10; 2+ = 15. Qualifying: thread >= 10 upvotes OR account >= 1yr; curator logs URL
+- qualifying mention: thread >= 10 upvotes, OR >= 2 independent mentions each >= 3 upvotes (R2#12: cheap-OR closed — a 1yr sock account with one zero-upvote self-post no longer passes); curator logs URL + evidence
+- 1 qualifying mention = 10; 2+ = 15
 - S badge REQUIRES >= 1 qualifying mention
 freshness 15 [/models version updatedAt]
 - <= 90d: 15; <= 180d: 10; <= 365d: 5; older: 2. Re-uploads without curator-verified change cap at 10 effective
@@ -33,10 +34,8 @@ lane fit 10 [manual rubric]
 - 0 off-lane / 5 fits / 10 exemplar; reason logged
 
 ## tiers v2 — per-lane rank bands + absolute floors (auditable, parity-free)
-- S: top 10% of lane by composite (min 5 entries in lane, else single best only) AND composite >= 70 AND external gate AND curator-verified
-- A: next 25% of lane AND composite >= 55
-- B: next 40% AND composite >= 35
-- C: rest
+- S: top 10% of lane by composite AND composite >= 70 AND external gate AND curator-verified. small lanes: S = max(1, round(0.10n)) for n >= 5; n < 5 = single best only. A: next 25%, composite >= 55. B: next 40%, composite >= 35. C: rest. filtered views show "in view" rank, never lane rank.
+- anchor stability (R2#8): anchors frozen until 4th pull; after: hysteresis — tier change requires crossing band floor by ±5 in 2 consecutive pulls. published tiers never churn on one pull.
 - kill-line caps apply regardless of rank: stale base generation → max B; zero docs AND zero comments → max B
 - display order: [tier badge + "#rank in Lane"] primary, composite/10 one decimal secondary, trend arrow when deltas exist
 - tier disputes resolvable by: recompute(composite) from logged axes + rank check — both mechanical
