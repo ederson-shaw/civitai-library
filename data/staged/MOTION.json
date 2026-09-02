@@ -1,6 +1,6 @@
 {
  "stage": "MOTION",
- "generated": "2026-09-02T04:25:06+00:00",
+ "generated": "2026-09-02T04:44:18+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -10,11 +10,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -40,46 +40,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 208005,
-   "our_name": null,
-   "source_name": "JBOOGX & MACHINE LEARNER ANIMATEDIFF WORKFLOW - Vid2Vid + ControlNet + Latent Upscale + Upscale ControlNet Pass + Multi Image IPAdapter + ReActor Face Swap",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 17383,
-    "thumbsUpCount": 1469
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2cd6cb2-d7f1-4029-974e-5897cec90cd3/width=450/8564828.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2cd6cb2-d7f1-4029-974e-5897cec90cd3/original=true/8564828.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/208005",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "vid morph animediff legacy low-vram — video shows result"
   },
   {
    "id": 1079810,
@@ -88,11 +51,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -118,7 +81,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "hunyuan 12GB 1080p modern, vram-tagged, reali Q8 video"
   },
   {
    "id": 1300201,
@@ -127,11 +92,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 5,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -157,7 +122,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "wan i2v+extend modern core, video preview"
   },
   {
    "id": 2024299,
@@ -166,11 +133,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
    "tradeoff": null,
@@ -196,7 +163,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "wan VACE transitions — motion editing serves ad assembly"
   },
   {
    "id": 339604,
@@ -205,11 +174,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -238,56 +207,17 @@
    }
   },
   {
-   "id": 1598938,
-   "our_name": null,
-   "source_name": "Smooth Workflow (txt2img)",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "ZImageBase",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 22299,
-    "thumbsUpCount": 1250
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f4458b0-7a08-4db1-b6b4-27abfca422f1/width=450/120596270.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f4458b0-7a08-4db1-b6b4-27abfca422f1/original=true/120596270.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1598938",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 21100,
    "our_name": null,
    "source_name": "ComfyUI Multi-Subject Workflows",
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -316,56 +246,17 @@
    }
   },
   {
-   "id": 559596,
-   "our_name": null,
-   "source_name": "DP's - Vid2Vid AniamteDiff LCM dance transfer",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 8981,
-    "thumbsUpCount": 708
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33fa0774-a573-4203-9515-d9528905d27f/width=450/56562912.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33fa0774-a573-4203-9515-d9528905d27f/original=true/56562912.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/559596",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 1224719,
    "our_name": null,
    "source_name": "Consistent face 3x3 generator (discontinued)",
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -400,11 +291,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
    "tradeoff": null,
@@ -430,7 +321,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "sdxl lightning t2i2vid legacy class, reali Q8 video"
   },
   {
    "id": 230188,
@@ -439,11 +332,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -469,7 +362,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "steerable motion reali Q8 video"
   },
   {
    "id": 335070,
@@ -478,11 +373,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -508,46 +403,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2182806,
-   "our_name": null,
-   "source_name": "Ai Influencer DATASET maker for Consistent Character",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.2 Klein 4B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 7810,
-    "thumbsUpCount": 420
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7d97ee2-85bf-45cf-8d8f-2da6e03e0aed/width=450/120145601.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7d97ee2-85bf-45cf-8d8f-2da6e03e0aed/original=true/120145601.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2182806",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "LCM img2vid legacy low-vram, video shows motion"
   },
   {
    "id": 1720535,
@@ -556,11 +414,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
    "tradeoff": null,
@@ -586,163 +444,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 1080711,
-   "our_name": null,
-   "source_name": "ComfyUi Regional Prompter Workflow | Now with Anima",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 7089,
-    "thumbsUpCount": 361
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48b9fa35-1569-4c0a-8fd8-ea0c23979a7f/width=450/137304984.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48b9fa35-1569-4c0a-8fd8-ea0c23979a7f/original=true/137304984.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1080711",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 138176,
-   "our_name": null,
-   "source_name": "Capybara's SDXL Workflow v1.4",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4933,
-    "thumbsUpCount": 348
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edac9b95-750c-4f0b-93dd-e4e029b9f9ff/width=450/2592062.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edac9b95-750c-4f0b-93dd-e4e029b9f9ff/original=true/2592062.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/138176",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 138397,
-   "our_name": null,
-   "source_name": "Winstons Workflow Collection",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Other",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 6333,
-    "thumbsUpCount": 320
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cffd32cb-7796-4a97-9e27-855882ef6d51/width=450/3594957.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cffd32cb-7796-4a97-9e27-855882ef6d51/original=true/3594957.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/138397",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2275805,
-   "our_name": null,
-   "source_name": "Qwen_Edit_2511 Multi-view Character Generation",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Qwen",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 6189,
-    "thumbsUpCount": 309
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afa8858c-13d1-4087-8f67-088925d6de16/width=450/116163762.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afa8858c-13d1-4087-8f67-088925d6de16/original=true/116163762.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2275805",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "wan 2.1 i2v loop modern, video"
   },
   {
    "id": 1722303,
@@ -751,11 +455,11 @@
    "purpose": null,
    "composite": 20.0,
    "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
    "tradeoff": null,
@@ -784,56 +488,17 @@
    }
   },
   {
-   "id": 448101,
-   "our_name": null,
-   "source_name": "Sprite Sheet Maker",
-   "purpose": null,
-   "composite": 20.0,
-   "tier": "S-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 5128,
-    "thumbsUpCount": 247
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/760f5d91-8540-4339-93fc-477954ae8e1e/width=450/16773301.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/760f5d91-8540-4339-93fc-477954ae8e1e/original=true/16773301.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/448101",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 290375,
    "our_name": null,
    "source_name": "AnimateLCM (Fast Video Generation)",
    "purpose": null,
    "composite": 19.9,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -859,85 +524,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 351314,
-   "our_name": null,
-   "source_name": "The style change effect same as Magnific.ai for SDXL",
-   "purpose": null,
-   "composite": 19.9,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4801,
-    "thumbsUpCount": 375
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c412110f-ffe2-4dfd-8b74-d18ccedd0da4/width=450/7979200.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c412110f-ffe2-4dfd-8b74-d18ccedd0da4/original=true/7979200.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/351314",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 652483,
-   "our_name": null,
-   "source_name": "FLUX Lora Tester",
-   "purpose": null,
-   "composite": 19.9,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.1 D",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4529,
-    "thumbsUpCount": 292
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebda8c27-5756-441a-95f2-15859fbaa25a/width=450/29937589.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebda8c27-5756-441a-95f2-15859fbaa25a/original=true/29937589.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/652483",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "animateLCM fast video, reali Q8"
   },
   {
    "id": 899863,
@@ -946,11 +535,11 @@
    "purpose": null,
    "composite": 19.9,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -979,56 +568,17 @@
    }
   },
   {
-   "id": 363798,
-   "our_name": null,
-   "source_name": "MJM & Superbeasts.AI - BeautifAI - Image Upscaler & Enhancer",
-   "purpose": null,
-   "composite": 19.9,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4557,
-    "thumbsUpCount": 241
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7a92fd4-216e-4464-8da3-b2685a9382df/width=450/9336748.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7a92fd4-216e-4464-8da3-b2685a9382df/original=true/9336748.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/363798",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 1768409,
    "our_name": null,
    "source_name": "简单易懂的Illustrious工作流/text2img：Simple Workflow for Illustrious(lora、fix、FaceDetailer)",
    "purpose": null,
    "composite": 19.9,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -1063,11 +613,11 @@
    "purpose": null,
    "composite": 19.8,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 TI2V-5B",
    "vram_class": null,
    "tradeoff": null,
@@ -1093,124 +643,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 128556,
-   "our_name": null,
-   "source_name": "ComfyUI inpaint workflow | Updated for anima",
-   "purpose": null,
-   "composite": 19.8,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 21563,
-    "thumbsUpCount": 986
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27b31383-78e4-425e-8661-bced647bc007/width=450/136588861.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27b31383-78e4-425e-8661-bced647bc007/original=true/136588861.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/128556",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 420163,
-   "our_name": null,
-   "source_name": "Abominable Workflows",
-   "purpose": null,
-   "composite": 19.8,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "PixArt E",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4207,
-    "thumbsUpCount": 305
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ead22094-786c-4beb-8ca4-3f7a0cf4da2a/width=450/32463884.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ead22094-786c-4beb-8ca4-3f7a0cf4da2a/original=true/32463884.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/420163",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2654416,
-   "our_name": null,
-   "source_name": "Anima can edit images! | Testing Anima-Edit loras and IC-methods",
-   "purpose": null,
-   "composite": 19.8,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4367,
-    "thumbsUpCount": 207
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6e428fe-fc69-4a2b-b2d4-b24130e5747e/width=450/132119299.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6e428fe-fc69-4a2b-b2d4-b24130e5747e/original=true/132119299.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2654416",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "wan 2.2 5b interploop modern, video"
   },
   {
    "id": 670720,
@@ -1219,11 +654,11 @@
    "purpose": null,
    "composite": 19.8,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -1258,11 +693,11 @@
    "purpose": null,
    "composite": 19.7,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "MiniMax H3",
    "vram_class": null,
    "tradeoff": null,
@@ -1288,46 +723,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2805529,
-   "our_name": null,
-   "source_name": "Krea2 ID Edit Pro Grade Character Dataset Creator w/ autotagger",
-   "purpose": null,
-   "composite": 19.7,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Krea 2",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 6202,
-    "thumbsUpCount": 279
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33eb6ec0-49f8-40c8-b4f6-7175debbfc6c/width=450/139430364.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33eb6ec0-49f8-40c8-b4f6-7175debbfc6c/original=true/139430364.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2805529",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "minimax latent upscaler — motion quality, Q6 noted"
   },
   {
    "id": 253723,
@@ -1336,11 +734,11 @@
    "purpose": null,
    "composite": 19.7,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1366,241 +764,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2135932,
-   "our_name": null,
-   "source_name": "Ultimate AI Video Workflow — Qwen-Edit 2509 + Wan Animate 2.2 + SeedVR2 Upscaler",
-   "purpose": null,
-   "composite": 19.7,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4049,
-    "thumbsUpCount": 194
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/480045cf-561f-450a-829d-c8cd9b4fdbd4/width=450/110760658.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/480045cf-561f-450a-829d-c8cd9b4fdbd4/original=true/110760658.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2135932",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1189383,
-   "our_name": null,
-   "source_name": "Hunyuan - Image2Video (Jan/2025) - obsolete",
-   "purpose": null,
-   "composite": 19.6,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Hunyuan Video",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 7433,
-    "thumbsUpCount": 333
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6c03cac-3578-4207-9251-aecfc5cf6783/width=450/54276555.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6c03cac-3578-4207-9251-aecfc5cf6783/original=true/54276555.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1189383",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1278247,
-   "our_name": null,
-   "source_name": "Skyreels (Hunyuan) Img2Vid",
-   "purpose": null,
-   "composite": 19.6,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Hunyuan Video",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3519,
-    "thumbsUpCount": 165
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a37ea189-0098-407a-a4bf-08fbd2eaa41b/width=450/59180374.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a37ea189-0098-407a-a4bf-08fbd2eaa41b/original=true/59180374.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1278247",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 866210,
-   "our_name": null,
-   "source_name": "IT'S ALIVE! |  Ultimate IMAGE to VIDEO suite | LTX/Cog/PyramidFlow",
-   "purpose": null,
-   "composite": 19.6,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Other",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3552,
-    "thumbsUpCount": 174
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4b083fe-6c40-40b6-b27a-a41ef07c53d2/width=450/43435647.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4b083fe-6c40-40b6-b27a-a41ef07c53d2/original=true/43435647.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/866210",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2047895,
-   "our_name": null,
-   "source_name": "Сonsistency characters  | Generate characters only by image and prompt, without character's Lora! | IL\\NoobAI Edit",
-   "purpose": null,
-   "composite": 19.6,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3659,
-    "thumbsUpCount": 250
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9ed33de-771a-4016-817f-5c927c7f4973/width=450/108368044.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9ed33de-771a-4016-817f-5c927c7f4973/original=true/108368044.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2047895",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2339837,
-   "our_name": null,
-   "source_name": "Eazy Regional Prompter - Illustrious Workflow for ComfyUI",
-   "purpose": null,
-   "composite": 19.6,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3524,
-    "thumbsUpCount": 209
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72bdaee6-a075-47f4-8e23-1611c8c4c1cf/width=450/132722191.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72bdaee6-a075-47f4-8e23-1611c8c4c1cf/original=true/132722191.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2339837",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "simple animateDiff, anime Q7 video"
   },
   {
    "id": 2078957,
@@ -1609,11 +775,11 @@
    "purpose": null,
    "composite": 19.6,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -1648,11 +814,11 @@
    "purpose": null,
    "composite": 19.6,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -1687,11 +853,11 @@
    "purpose": null,
    "composite": 19.6,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -1726,11 +892,11 @@
    "purpose": null,
    "composite": 19.5,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "moderate",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -1756,124 +922,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 1403746,
-   "our_name": null,
-   "source_name": "comfyui多人工作流",
-   "purpose": null,
-   "composite": 19.5,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 7972,
-    "thumbsUpCount": 352
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a029cf63-a8fa-4734-a1d6-29cb3e130e80/width=450/97194491.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a029cf63-a8fa-4734-a1d6-29cb3e130e80/original=true/97194491.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1403746",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1963403,
-   "our_name": null,
-   "source_name": "Qwen character creator",
-   "purpose": null,
-   "composite": 19.5,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Wan Video 2.2 T2V-A14B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3367,
-    "thumbsUpCount": 271
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79f83ec7-97cf-4d98-9931-7c434ec8c341/width=450/102397485.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79f83ec7-97cf-4d98-9931-7c434ec8c341/original=true/102397485.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1963403",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2184867,
-   "our_name": null,
-   "source_name": "SeedVarianceEnhancer (optimized for Z-Image Turbo)",
-   "purpose": null,
-   "composite": 19.5,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "ZImageTurbo",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3466,
-    "thumbsUpCount": 246
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/822e3865-aa4a-4705-b6fd-aef53de604c6/width=450/114676639.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/822e3865-aa4a-4705-b6fd-aef53de604c6/original=true/114676639.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2184867",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "hunyuan t2v + facedetailer, reali Q7 video"
   },
   {
    "id": 1086525,
@@ -1882,11 +933,11 @@
    "purpose": null,
    "composite": 19.5,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -1915,95 +966,17 @@
    }
   },
   {
-   "id": 177171,
-   "our_name": null,
-   "source_name": "ComfyUI Prompt Reader Node",
-   "purpose": null,
-   "composite": 19.5,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Other",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3291,
-    "thumbsUpCount": 181
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54b25d5d-88c7-4e39-8102-b7c4080496da/width=450/28041743.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54b25d5d-88c7-4e39-8102-b7c4080496da/original=true/28041743.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/177171",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 162746,
-   "our_name": null,
-   "source_name": "UltimateComfyUI Workflows and Tools Collection Bundle AIO",
-   "purpose": null,
-   "composite": 19.5,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3284,
-    "thumbsUpCount": 179
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e0ec493-17e0-4474-8550-e3b23cae92c5/width=450/2966466.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e0ec493-17e0-4474-8550-e3b23cae92c5/original=true/2966466.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/162746",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 1129063,
    "our_name": null,
    "source_name": "FLUX Modular WF (discontinued)",
    "purpose": null,
    "composite": 19.5,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -2038,11 +1011,11 @@
    "purpose": null,
    "composite": 19.4,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -2068,85 +1041,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 413936,
-   "our_name": null,
-   "source_name": "Oil Painting | Style Transfer SDXL Workflow",
-   "purpose": null,
-   "composite": 19.4,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2961,
-    "thumbsUpCount": 304
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3900c8ff-eaa9-45d7-a5bb-5a687b54a8ac/width=450/66663424.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3900c8ff-eaa9-45d7-a5bb-5a687b54a8ac/original=true/66663424.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/413936",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 313594,
-   "our_name": null,
-   "source_name": "JBOOGX & MACHINE LEARNER ANIMATELCM WORKFLOW - Vid2Vid + ControlNet + IPAdapter + HighResFix + ReActor Face Swap",
-   "purpose": null,
-   "composite": 19.4,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5 LCM",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3183,
-    "thumbsUpCount": 226
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/075a6d7d-5194-44ae-9915-ef72aed15cd2/width=450/8564944.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/075a6d7d-5194-44ae-9915-ef72aed15cd2/original=true/8564944.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/313594",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "LTX 2.3 seed hunter modern, video"
   },
   {
    "id": 1282514,
@@ -2155,11 +1052,11 @@
    "purpose": null,
    "composite": 19.4,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -2188,134 +1085,17 @@
    }
   },
   {
-   "id": 385453,
-   "our_name": null,
-   "source_name": "Genfill",
-   "purpose": null,
-   "composite": 19.4,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Other",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3020,
-    "thumbsUpCount": 198
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92184eb5-e3df-4ff1-b5f3-901c7e2da1e5/width=450/9312562.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92184eb5-e3df-4ff1-b5f3-901c7e2da1e5/original=true/9312562.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/385453",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 315994,
-   "our_name": null,
-   "source_name": "Atomix Txt2Img Workflow",
-   "purpose": null,
-   "composite": 19.4,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3123,
-    "thumbsUpCount": 156
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f3f8a38-c0f9-4b83-bf1e-4a3e9a9fce9f/width=450/112381595.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f3f8a38-c0f9-4b83-bf1e-4a3e9a9fce9f/original=true/112381595.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/315994",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1180262,
-   "our_name": null,
-   "source_name": "FLUX LoRA trainer 2.0 (discontinued)",
-   "purpose": null,
-   "composite": 19.4,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.1 D",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2932,
-    "thumbsUpCount": 156
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62556dd6-3ecd-47d9-976a-3f8d1ee3eb1e/width=450/53804746.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62556dd6-3ecd-47d9-976a-3f8d1ee3eb1e/original=true/53804746.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1180262",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 308241,
    "our_name": null,
    "source_name": "PA7_PromptGenerator",
    "purpose": null,
    "composite": 19.4,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -2344,56 +1124,17 @@
    }
   },
   {
-   "id": 1180764,
-   "our_name": null,
-   "source_name": "Img2Vid  𝑽𝟐 ▪ Hunyuan ▪ LeapFusion Lora V2",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Hunyuan Video",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 10773,
-    "thumbsUpCount": 465
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aff7d0b8-1605-4756-b2c7-373d9ed3840d/width=450/53828793.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aff7d0b8-1605-4756-b2c7-373d9ed3840d/original=true/53828793.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1180764",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 1219744,
    "our_name": null,
    "source_name": "🚨 Hunyuan - Triple LoRA - Fast Workflow - RAM offload  (720p on 3090) BY  BIZARRO🚨",
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "other",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -2419,46 +1160,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2489459,
-   "our_name": null,
-   "source_name": "Moody Anime to Real Workflow",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "ZImageTurbo",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 7418,
-    "thumbsUpCount": 323
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f2fc262-68f5-4520-9610-57bdabcaca67/width=450/133215957.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f2fc262-68f5-4520-9610-57bdabcaca67/original=true/133215957.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2489459",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "hunyuan triple-LoRA fast + RAM offload — low-vram modern, video"
   },
   {
    "id": 407874,
@@ -2467,11 +1171,11 @@
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
    "tradeoff": null,
@@ -2497,85 +1201,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 350524,
-   "our_name": null,
-   "source_name": "JBOOGX & THE MACHINE LEARNER'S  ANIMATELCM SUBJECT & BACKGROUND ISOLATION via INVERTMASK VID2VID + HIGHRESFIX",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2698,
-    "thumbsUpCount": 214
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e81025cd-441c-4b38-a116-c2abe9676b3f/width=450/8565242.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e81025cd-441c-4b38-a116-c2abe9676b3f/original=true/8565242.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/350524",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 589258,
-   "our_name": null,
-   "source_name": "ComfyUI 2D Image to 3D OBJ Integration Workflow by LOVIS!",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2863,
-    "thumbsUpCount": 207
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/925e4d61-decc-4a36-a0f0-e7ba14df4168/width=450/20553828.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/925e4d61-decc-4a36-a0f0-e7ba14df4168/original=true/20553828.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/589258",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "VK motion brush — motion control, reali Q7 video"
   },
   {
    "id": 129010,
@@ -2584,11 +1212,11 @@
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -2614,7 +1242,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "anime detail overload Q7 video"
   },
   {
    "id": 2322533,
@@ -2623,11 +1253,11 @@
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -2656,251 +1286,17 @@
    }
   },
   {
-   "id": 2213075,
-   "our_name": null,
-   "source_name": "Amazing Z-Comics Workflow",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "ZImageTurbo",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2849,
-    "thumbsUpCount": 169
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1660f4c-7869-4b1b-8c2f-7f4516ff0fbe/width=450/116990181.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1660f4c-7869-4b1b-8c2f-7f4516ff0fbe/original=true/116990181.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2213075",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2401955,
-   "our_name": null,
-   "source_name": "Flux2 Klein Multi-view Character Generation (6G VRAM can run it!)",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3529,
-    "thumbsUpCount": 159
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a7c6063-05ef-4dd4-8d9f-6cff31f7c3cc/width=450/123338771.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a7c6063-05ef-4dd4-8d9f-6cff31f7c3cc/original=true/123338771.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2401955",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 290152,
-   "our_name": null,
-   "source_name": "Anime2Photo | ComfyUI workflow",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2908,
-    "thumbsUpCount": 154
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1fe384af-ef71-4239-88df-623cb4a12511/width=450/6196234.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1fe384af-ef71-4239-88df-623cb4a12511/original=true/6196234.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/290152",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 511228,
-   "our_name": null,
-   "source_name": "SD3 & Flux Boobs Unchained",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.1 D",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2770,
-    "thumbsUpCount": 149
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/146d4967-76d5-4641-8663-e408e8c8f75b/width=450/24111672.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/146d4967-76d5-4641-8663-e408e8c8f75b/original=true/24111672.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/511228",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2179273,
-   "our_name": null,
-   "source_name": "【Z-IMG】TXT to IMG",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "ZImageBase",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2762,
-    "thumbsUpCount": 149
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9f17472-e962-4ce5-be6e-a5eaaf08027c/width=450/130499370.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9f17472-e962-4ce5-be6e-a5eaaf08027c/original=true/130499370.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2179273",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 234424,
-   "our_name": null,
-   "source_name": "ComfyUI - One Button Dataset Generator",
-   "purpose": null,
-   "composite": 19.3,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2789,
-    "thumbsUpCount": 143
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6205c21-0043-4cce-a5bf-371bf258af61/width=450/11901883.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6205c21-0043-4cce-a5bf-371bf258af61/original=true/11901883.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/234424",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 571293,
    "our_name": null,
    "source_name": "zyd232's Workflow - Hires Fix + Face Detailer + Detailed Skin",
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -2935,11 +1331,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
    "tradeoff": null,
@@ -2965,163 +1361,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2189190,
-   "our_name": null,
-   "source_name": "Illustrious/ Pony/ SDXL Pro Grade Workflow (Low or High VRAM)",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 9728,
-    "thumbsUpCount": 415
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4098f0c-f03d-4fb2-8efb-ef9a59262c92/width=450/140627418.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4098f0c-f03d-4fb2-8efb-ef9a59262c92/original=true/140627418.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2189190",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1911655,
-   "our_name": null,
-   "source_name": "Wan2.2 360 Degree Orbit(NSFW)",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 7036,
-    "thumbsUpCount": 301
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f43388f-2431-4614-8433-2d70e995b040/width=450/97345611.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f43388f-2431-4614-8433-2d70e995b040/original=true/97345611.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1911655",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1388756,
-   "our_name": null,
-   "source_name": "区域绘制工作流-Regional Prompter workflow—Densediffusion+Controlnet",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2553,
-    "thumbsUpCount": 254
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ccb20ad-2f04-43a6-9518-109e72181350/width=450/95770413.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ccb20ad-2f04-43a6-9518-109e72181350/original=true/95770413.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1388756",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 182828,
-   "our_name": null,
-   "source_name": "Live-Action to Anime Video (Workflow)",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2641,
-    "thumbsUpCount": 238
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4020dda5-584c-4647-b18f-6c3cd2a7a07e/width=450/3262910.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4020dda5-584c-4647-b18f-6c3cd2a7a07e/original=true/3262910.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/182828",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "wan VACE masking/extension, reali Q6 video"
   },
   {
    "id": 2098929,
@@ -3130,11 +1372,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -3163,212 +1405,17 @@
    }
   },
   {
-   "id": 624564,
-   "our_name": null,
-   "source_name": "Flux Alchemy",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.1 D",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2575,
-    "thumbsUpCount": 183
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/769d1c3c-cb54-4f4c-8fe2-2ae37f541933/width=450/23037376.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/769d1c3c-cb54-4f4c-8fe2-2ae37f541933/original=true/23037376.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/624564",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 900984,
-   "our_name": null,
-   "source_name": "Flux Consistent Realistic Character: Extremely Realism 丨 FLUX多角度一致性人物：极致写实",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.1 D",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 4161,
-    "thumbsUpCount": 182
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/194ab2f2-8d6d-43e1-9b84-f664c9dd4f5a/width=450/37292435.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/194ab2f2-8d6d-43e1-9b84-f664c9dd4f5a/original=true/37292435.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/900984",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 1129181,
-   "our_name": null,
-   "source_name": "Hunyuan Video / Wan LoRA training toolkit",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Other",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2598,
-    "thumbsUpCount": 169
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51494d19-d6de-42e5-8e04-76149af10d8a/width=450/50953761.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51494d19-d6de-42e5-8e04-76149af10d8a/original=true/50953761.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1129181",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 777391,
-   "our_name": null,
-   "source_name": "jboogx UltimateLCM AnimateDiff Vid2Vid workflow!  Everything you need, nothing you don't!",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2622,
-    "thumbsUpCount": 159
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62c6690f-58a3-447b-92c8-ae55abc6dde8/width=450/30317528.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62c6690f-58a3-447b-92c8-ae55abc6dde8/original=true/30317528.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/777391",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 2323600,
-   "our_name": null,
-   "source_name": "Flux2 Klein One-click three-view drawing of a character (6G VRAM can run it!)",
-   "purpose": null,
-   "composite": 19.2,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 3311,
-    "thumbsUpCount": 149
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/386d3eff-1998-4c6f-a702-80b8fb7df03d/width=450/118577591.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/386d3eff-1998-4c6f-a702-80b8fb7df03d/original=true/118577591.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2323600",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 785908,
    "our_name": null,
    "source_name": "Animate from still using CogVideoX-5b-I2V",
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -3394,85 +1441,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2141207,
-   "our_name": null,
-   "source_name": "Wan 2.2 I2V: HD/FHD resolution, but much faster",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2426,
-    "thumbsUpCount": 114
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e65694b3-d241-4396-8c14-783c2b6556fb/width=450/110822113.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e65694b3-d241-4396-8c14-783c2b6556fb/original=true/110822113.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2141207",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 258054,
-   "our_name": null,
-   "source_name": "Ultra Upscale",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 19292,
-    "thumbsUpCount": 822
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91e60b8a-58ca-467c-b03c-3387cb0e84d2/width=450/11291498.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91e60b8a-58ca-467c-b03c-3387cb0e84d2/original=true/11291498.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/258054",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "cogvideox i2v from still, reali Q6 video"
   },
   {
    "id": 1376578,
@@ -3481,11 +1452,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -3511,124 +1482,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 872281,
-   "our_name": null,
-   "source_name": "Autopopulate Civitai Resources & Lora Triggers📚🎨",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Flux.1 D",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2345,
-    "thumbsUpCount": 184
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f804ec8c-504b-40d9-94bd-37c2ddc06013/width=450/35885267.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f804ec8c-504b-40d9-94bd-37c2ddc06013/original=true/35885267.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/872281",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 735795,
-   "our_name": null,
-   "source_name": "ComfyUI Prompt Gallery",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Pony",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2378,
-    "thumbsUpCount": 180
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6957f6c1-9def-4ac5-bfe6-11d72a266577/width=450/31179194.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6957f6c1-9def-4ac5-bfe6-11d72a266577/original=true/31179194.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/735795",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 643144,
-   "our_name": null,
-   "source_name": "2人のキャラクターを描き分け / GenerateTwoDifferentCharacters",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2347,
-    "thumbsUpCount": 145
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88594230-8bf2-4da7-b854-72e0ab296550/width=450/24357803.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88594230-8bf2-4da7-b854-72e0ab296550/original=true/24357803.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/643144",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "wan restyled-first-frame utility, anime examples"
   },
   {
    "id": 778999,
@@ -3637,11 +1493,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,

@@ -33,18 +33,16 @@ LAYER = re.compile(r"detail|skin|light|upscale|booster|enhancer|finish|polish|te
 
 def load_labels():
     labels = {}
-    f = FUNNEL / "vision-labels.json"
-    if not f.exists():
-        return labels
-    for line in f.read_text().splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        try:
-            obj = json.loads(line)
-            labels[obj.get("id")] = obj
-        except json.JSONDecodeError:
-            continue
+    for f in sorted(FUNNEL.glob("vision-labels*.json")):
+        for line in f.read_text().splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                obj = json.loads(line)
+                labels[obj.get("id")] = obj
+            except json.JSONDecodeError:
+                continue
     return labels
 
 
@@ -122,7 +120,7 @@ def apply_decisions(buckets):
     dec = json.loads(f.read_text())
     applied = {"keep": 0, "cut": 0, "move-nsfw": 0}
     moved = []
-    moved_layers = []
+    move_targets = {"move-nsfw": ("NSFW", moved), "move-layers": ("LAYERS", [])}
     for stage in list(buckets):
         kept = []
         for e in buckets[stage]:
@@ -140,17 +138,19 @@ def apply_decisions(buckets):
                 e["curated_by"] = d.get("reviewed_by")
                 e["curated_note"] = d.get("reason")
                 kept.append(e)
-            elif act == "move-nsfw":
-                e["heuristic"]["moved_from"] = stage
-                moved.append(e)
-            elif act == "move-layers":
-                e["heuristic"]["moved_from"] = stage
-                e["stacks_on"] = e.get("stacks_on") or ["PERSONA", "NSFW"]
-                moved_layers.append(e)
+            elif act.startswith("move-"):
+                target = {"move-nsfw": "NSFW", "move-layers": "LAYERS",
+                          "move-persona": "PERSONA", "move-camera-angle": "CAMERA_ANGLE"}.get(act)
+                if target:
+                    e["heuristic"]["moved_from"] = stage
+                    e["stacks_on"] = e.get("stacks_on") or (["PERSONA", "NSFW"] if target == "LAYERS" else [])
+                    move_targets.setdefault(act, (target, []))[1].append(e)
         buckets[stage] = kept
-    nsfw_ids = {str(e.get("id")) for e in buckets["NSFW"]}
-    buckets["NSFW"].extend(e for e in moved if str(e.get("id")) not in nsfw_ids)
-    buckets["LAYERS"].extend(moved_layers)
+    for act, (target, entries) in move_targets.items():
+        if not entries:
+            continue
+        ids = {str(e.get("id")) for e in buckets[target]}
+        buckets[target].extend(e for e in entries if str(e.get("id")) not in ids)
     print(f"curation decisions applied: {applied}", file=sys.stderr)
 
 

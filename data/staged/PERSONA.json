@@ -1,6 +1,6 @@
 {
  "stage": "PERSONA",
- "generated": "2026-09-02T04:25:06+00:00",
+ "generated": "2026-09-02T04:44:18+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -68696,6 +68696,86 @@
     "lane": null,
     "layer": null,
     "era": null
+   }
+  },
+  {
+   "id": 2182806,
+   "our_name": null,
+   "source_name": "Ai Influencer DATASET maker for Consistent Character",
+   "purpose": null,
+   "composite": 20.0,
+   "tier": "S-candidate",
+   "visual_class": "realism-photoreal",
+   "quality": 6,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 4B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 7810,
+    "thumbsUpCount": 420
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7d97ee2-85bf-45cf-8d8f-2da6e03e0aed/width=450/120145601.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7d97ee2-85bf-45cf-8d8f-2da6e03e0aed/original=true/120145601.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2182806",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null,
+    "moved_from": "MOTION"
+   }
+  },
+  {
+   "id": 900984,
+   "our_name": null,
+   "source_name": "Flux Consistent Realistic Character: Extremely Realism 丨 FLUX多角度一致性人物：极致写实",
+   "purpose": null,
+   "composite": 19.2,
+   "tier": "A-candidate",
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4161,
+    "thumbsUpCount": 182
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/194ab2f2-8d6d-43e1-9b84-f664c9dd4f5a/width=450/37292435.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/194ab2f2-8d6d-43e1-9b84-f664c9dd4f5a/original=true/37292435.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/900984",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null,
+    "moved_from": "MOTION"
    }
   }
  ]

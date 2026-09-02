@@ -754,5 +754,572 @@
   "stage_from": "NSFW",
   "reviewed_by": "manager",
   "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "372584": {
+  "action": "keep",
+  "reason": "vid morph animediff legacy low-vram — video shows result",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1079810": {
+  "action": "keep",
+  "reason": "hunyuan 12GB 1080p modern, vram-tagged, reali Q8 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1300201": {
+  "action": "keep",
+  "reason": "wan i2v+extend modern core, video preview",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2024299": {
+  "action": "keep",
+  "reason": "wan VACE transitions — motion editing serves ad assembly",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "323639": {
+  "action": "keep",
+  "reason": "sdxl lightning t2i2vid legacy class, reali Q8 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "230188": {
+  "action": "keep",
+  "reason": "steerable motion reali Q8 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "335070": {
+  "action": "keep",
+  "reason": "LCM img2vid legacy low-vram, video shows motion",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "155198": {
+  "action": "keep",
+  "reason": "animateDiff openpose keyframing — pose-driven motion, video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1720535": {
+  "action": "keep",
+  "reason": "wan 2.1 i2v loop modern, video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "290375": {
+  "action": "keep",
+  "reason": "animateLCM fast video, reali Q8",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1931348": {
+  "action": "keep",
+  "reason": "wan 2.2 5b interploop modern, video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "253723": {
+  "action": "keep",
+  "reason": "simple animateDiff, anime Q7 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1211594": {
+  "action": "keep",
+  "reason": "hunyuan t2v + facedetailer, reali Q7 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2676452": {
+  "action": "keep",
+  "reason": "LTX 2.3 seed hunter modern, video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1219744": {
+  "action": "keep",
+  "reason": "hunyuan triple-LoRA fast + RAM offload — low-vram modern, video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "407874": {
+  "action": "keep",
+  "reason": "VK motion brush — motion control, reali Q7 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "129010": {
+  "action": "keep",
+  "reason": "anime detail overload Q7 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1536883": {
+  "action": "keep",
+  "reason": "wan VACE masking/extension, reali Q6 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2881362": {
+  "action": "keep",
+  "reason": "minimax latent upscaler — motion quality, Q6 noted",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "785908": {
+  "action": "keep",
+  "reason": "cogvideox i2v from still, reali Q6 video",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1376578": {
+  "action": "keep",
+  "reason": "wan restyled-first-frame utility, anime examples",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2182806": {
+  "action": "move-persona",
+  "reason": "influencer dataset maker = persona consistency tooling",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "900984": {
+  "action": "move-persona",
+  "reason": "consistent realistic character = persona tooling",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2275805": {
+  "action": "move-camera-angle",
+  "reason": "qwen multi-view = angle views",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2096307": {
+  "action": "move-camera-angle",
+  "reason": "multi-angle storyboard direct output",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2401955": {
+  "action": "move-camera-angle",
+  "reason": "flux2 klein multi-view 6G vram",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1911655": {
+  "action": "move-camera-angle",
+  "reason": "wan 360 orbit = camera move (preview is product orbit)",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2323627": {
+  "action": "move-camera-angle",
+  "reason": "flux2 klein multi camera angles one-click",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2323600": {
+  "action": "move-camera-angle",
+  "reason": "one-click three-view character",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "511228": {
+  "action": "move-nsfw",
+  "reason": "explicit nude content — NSFW stage",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "351314": {
+  "action": "move-layers",
+  "reason": "magnific-style upscaler = enhancement layer",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "363798": {
+  "action": "move-layers",
+  "reason": "BeautifAI upscaler/enhancer = layer",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "208005": {
+  "action": "cut",
+  "reason": "UI-dominated preview",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1598938": {
+  "action": "cut",
+  "reason": "txt2img not motion + UI",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "559596": {
+  "action": "cut",
+  "reason": "unreadable preview",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1080711": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "138176": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "138397": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "448101": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "652483": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "128556": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "420163": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2654416": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2805529": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2135932": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1189383": {
+  "action": "cut",
+  "reason": "self-declared obsolete",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1278247": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "866210": {
+  "action": "cut",
+  "reason": "broadcast test card Q2",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "145921": {
+  "action": "cut",
+  "reason": "ADS owns it (cross-stage)",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2047895": {
+  "action": "cut",
+  "reason": "child character — hard no",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2339837": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1403746": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1963403": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2184867": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "177171": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "162746": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2031587": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "413936": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "313594": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "385453": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "315994": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1180262": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1180764": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2489459": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "350524": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "589258": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2213075": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "290152": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2179273": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "234424": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2189190": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1388756": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "182828": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "624564": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "1129181": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "777391": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "2141207": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "258054": {
+  "action": "cut",
+  "reason": "upscaler but UI-only preview",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "872281": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "735795": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
+ },
+ "643144": {
+  "action": "cut",
+  "reason": "workflow-UI preview shows no result / out of motion lane",
+  "stage_from": "MOTION",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:44:18+00:00"
  }
 }

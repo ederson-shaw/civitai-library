@@ -1,6 +1,6 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T04:25:06+00:00",
+ "generated": "2026-09-02T04:44:18+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -5539,29 +5539,29 @@
    }
   },
   {
-   "id": 1280702,
+   "id": 351314,
    "our_name": null,
-   "source_name": "Lighting / darkness slider",
+   "source_name": "The style change effect same as Magnific.ai for SDXL",
    "purpose": null,
-   "composite": 19.5,
+   "composite": 19.9,
    "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 7,
-   "nsfw_bucket": "moderate",
+   "visual_class": "other",
+   "quality": 5,
+   "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
    "review_flag": true,
-   "baseModel": "Anima",
+   "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
    "open_closed": null,
    "stats": {
-    "downloadCount": 44469,
-    "thumbsUpCount": 5621
+    "downloadCount": 4801,
+    "thumbsUpCount": 375
    },
    "pulled_at": null,
    "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/width=450/135152970.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/original=true/135152970.jpeg"
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c412110f-ffe2-4dfd-8b74-d18ccedd0da4/width=450/7979200.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c412110f-ffe2-4dfd-8b74-d18ccedd0da4/original=true/7979200.jpeg"
    },
    "gallery": [],
    "stacks_on": [
@@ -5569,7 +5569,7 @@
     "NSFW"
    ],
    "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1280702",
+   "civitai_url": "https://civitai.com/models/351314",
    "requirements": {
     "models": [],
     "nodes": []
@@ -5578,7 +5578,50 @@
     "lane": null,
     "layer": null,
     "era": null,
-    "moved_from": "NSFW"
+    "moved_from": "MOTION"
+   }
+  },
+  {
+   "id": 363798,
+   "our_name": null,
+   "source_name": "MJM & Superbeasts.AI - BeautifAI - Image Upscaler & Enhancer",
+   "purpose": null,
+   "composite": 19.9,
+   "tier": "A-candidate",
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4557,
+    "thumbsUpCount": 241
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7a92fd4-216e-4464-8da3-b2685a9382df/width=450/9336748.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7a92fd4-216e-4464-8da3-b2685a9382df/original=true/9336748.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA",
+    "NSFW"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/363798",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null,
+    "moved_from": "MOTION"
    }
   }
  ]

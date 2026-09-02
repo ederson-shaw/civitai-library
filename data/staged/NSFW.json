@@ -1,6 +1,6 @@
 {
  "stage": "NSFW",
- "generated": "2026-09-02T04:25:06+00:00",
+ "generated": "2026-09-02T04:44:18+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -51186,6 +51186,46 @@
     "lane": null,
     "layer": null,
     "era": null
+   }
+  },
+  {
+   "id": 511228,
+   "our_name": null,
+   "source_name": "SD3 & Flux Boobs Unchained",
+   "purpose": null,
+   "composite": 19.3,
+   "tier": "A-candidate",
+   "visual_class": "other",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "not-applicable",
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2770,
+    "thumbsUpCount": 149
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/146d4967-76d5-4641-8663-e408e8c8f75b/width=450/24111672.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/146d4967-76d5-4641-8663-e408e8c8f75b/original=true/24111672.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/511228",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null,
+    "moved_from": "MOTION"
    }
   }
  ]

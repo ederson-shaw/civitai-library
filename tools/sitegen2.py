@@ -565,6 +565,8 @@ def entry_detail_markup(entry: dict[str, Any], stage_id: str) -> str:
 def media_markup(entry: dict[str, Any], stage_id: str) -> str:
     urls = media_urls(entry)
     if not urls:
+        if entry.get("kind") == "engine":
+            return '<div class="engine-spec">engine</div>'
         return '<div class="media-missing">preview cut</div>'
     first = urls[0]
     name = entry_name(entry)
@@ -814,6 +816,7 @@ code { color: var(--cyan); font-family: var(--mono); }
 .card-image, .card-video { display: block; height: 100%; object-fit: cover; width: 100%; }
 .media-index { background: rgba(13, 17, 19, .84); bottom: 10px; color: var(--cyan); font: 11px/1 var(--mono); left: 10px; padding: 6px 7px; position: absolute; text-transform: uppercase; }
 .media-missing { align-items: center; color: var(--faint); display: flex; font: 13px/1 var(--mono); height: 100%; justify-content: center; }
+.engine-spec { align-items: center; color: var(--faint); display: flex; font: 13px/1 var(--mono); height: 100%; justify-content: center; letter-spacing: .08em; text-transform: uppercase; }
 .card-body { padding: 15px 16px 13px; }
 .card-topline, .card-footer { align-items: center; display: flex; justify-content: space-between; }
 .card-topline { min-height: 19px; }

@@ -1,0 +1,2993 @@
+{
+ "CAMERA_ANGLE": [
+  {
+   "id": 155198,
+   "name": "Animatediff Workflow: Openpose Keyframing in ComfyUI",
+   "baseModel": "Other",
+   "composite_auto": 20.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70e449c7-20ef-4c8b-983d-64d975544e61/width=450/2813153.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70e449c7-20ef-4c8b-983d-64d975544e61/original=true/2813153.mp4"
+   },
+   "stats": {
+    "downloadCount": 7623,
+    "thumbsUpCount": 372
+   }
+  },
+  {
+   "id": 1796490,
+   "name": "Consistent character poses workflow",
+   "baseModel": "Wan Video 14B t2v",
+   "composite_auto": 20.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85/width=450/89584467.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85/original=true/89584467.jpeg"
+   },
+   "stats": {
+    "downloadCount": 5056,
+    "thumbsUpCount": 281
+   }
+  },
+  {
+   "id": 2096307,
+   "name": "Qwen Edit2509 Multi-angle Storyboard Direct Output",
+   "baseModel": "Qwen",
+   "composite_auto": 19.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67e98547-bc97-4084-939b-25314f494ea1/width=450/108738587.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67e98547-bc97-4084-939b-25314f494ea1/original=true/108738587.jpeg"
+   },
+   "stats": {
+    "downloadCount": 4434,
+    "thumbsUpCount": 211
+   }
+  },
+  {
+   "id": 145921,
+   "name": "Product Photo Composer SD1.5 (Advertising Photos with Invoke AI 3.1.1)",
+   "baseModel": "SD 1.5",
+   "composite_auto": 19.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/width=450/2511992.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/original=true/2511992.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3591,
+    "thumbsUpCount": 251
+   }
+  },
+  {
+   "id": 2031587,
+   "name": "[Qwen_edit_2509] Simple Consistent character pose changer (workflow)",
+   "baseModel": "Qwen",
+   "composite_auto": 19.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00fdf4fa-c412-44ca-b3de-73d1afe17923/width=450/105244575.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00fdf4fa-c412-44ca-b3de-73d1afe17923/original=true/105244575.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3253,
+    "thumbsUpCount": 159
+   }
+  },
+  {
+   "id": 2323627,
+   "name": "FLUX 2 Klein 4B vs 9B Multi Camera Angles - One Click, 8 Camera Angles",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 19.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee7c7687-63dd-4d4d-b037-106059eb7f1e/width=450/118119460.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee7c7687-63dd-4d4d-b037-106059eb7f1e/original=true/118119460.jpeg"
+   },
+   "stats": {
+    "downloadCount": 4656,
+    "thumbsUpCount": 202
+   }
+  },
+  {
+   "id": 1774551,
+   "name": "Pose Selector Flux Kontext Workflow",
+   "baseModel": "Flux.1 Kontext",
+   "composite_auto": 19.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b73394-ed83-4ae6-85e3-29066f4b0ad1/width=450/96464938.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b73394-ed83-4ae6-85e3-29066f4b0ad1/original=true/96464938.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2131,
+    "thumbsUpCount": 101
+   }
+  },
+  {
+   "id": 526049,
+   "name": "Video Decomposer",
+   "baseModel": "Other",
+   "composite_auto": 18.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/width=450/17506499.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/original=true/17506499.mp4"
+   },
+   "stats": {
+    "downloadCount": 1801,
+    "thumbsUpCount": 162
+   }
+  },
+  {
+   "id": 1310339,
+   "name": "Ultra Detailer / Generator / Upscaler | txt2img, img2img | Separate & All in One -- General Purpose",
+   "baseModel": "Illustrious",
+   "composite_auto": 18.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5214881a-546f-40db-8528-3d10f43f1482/width=450/60945696.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5214881a-546f-40db-8528-3d10f43f1482/original=true/60945696.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2306,
+    "thumbsUpCount": 104
+   }
+  },
+  {
+   "id": 2313745,
+   "name": "Multi-angle control of image generation Qwen_Edit_2509",
+   "baseModel": "Qwen",
+   "composite_auto": 18.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/width=450/117678861.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/original=true/117678861.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1663,
+    "thumbsUpCount": 92
+   }
+  },
+  {
+   "id": 2252071,
+   "name": "image_qwen_image_edit_2511_Multiangle Camera Workflow",
+   "baseModel": "Qwen",
+   "composite_auto": 18.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8165c306-1d64-4dca-9bb6-347616509203/width=450/116839140.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8165c306-1d64-4dca-9bb6-347616509203/original=true/116839140.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2941,
+    "thumbsUpCount": 126
+   }
+  },
+  {
+   "id": 1881818,
+   "name": "Copy pose from any image - Flux Kontext workflow",
+   "baseModel": "Flux.1 Kontext",
+   "composite_auto": 18.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1cedf7b-7b7a-4b02-9bd1-6e43cba23acb/width=450/95275925.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1cedf7b-7b7a-4b02-9bd1-6e43cba23acb/original=true/95275925.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1682,
+    "thumbsUpCount": 77
+   }
+  },
+  {
+   "id": 2391906,
+   "name": "Flux Klein 9b Character Compositor - Multi-Angle",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 18.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17f4edbc-7884-4d2f-989d-17df7c47a8f1/width=450/121072576.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17f4edbc-7884-4d2f-989d-17df7c47a8f1/original=true/121072576.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1741,
+    "thumbsUpCount": 78
+   }
+  },
+  {
+   "id": 2103017,
+   "name": "Character Pose Transfer qwen_imgae_edit_2509",
+   "baseModel": "Qwen",
+   "composite_auto": 18.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b87934e-cf3f-4c7f-951b-a14cddd8ec8b/width=450/109055824.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b87934e-cf3f-4c7f-951b-a14cddd8ec8b/original=true/109055824.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1690,
+    "thumbsUpCount": 76
+   }
+  },
+  {
+   "id": 546507,
+   "name": "AnimateDiff Vid2Vid (To use with Video Decomposer)",
+   "baseModel": "Other",
+   "composite_auto": 18.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/width=450/17841799.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/original=true/17841799.mp4"
+   },
+   "stats": {
+    "downloadCount": 1127,
+    "thumbsUpCount": 61
+   }
+  },
+  {
+   "id": 914293,
+   "name": "PRO PHOTOSHOOT ULTIMATE - FLUX CONSISTENT CHARACTER & CLOTHES + PULID+ OPENPOSE + LORA",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 17.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec988c71-73cf-4bd5-921b-366218fd7908/width=450/38101212.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec988c71-73cf-4bd5-921b-366218fd7908/original=true/38101212.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1663,
+    "thumbsUpCount": 71
+   }
+  },
+  {
+   "id": 2809079,
+   "name": "Krea2 Identity Instant Pose & Outfit Generator (No LLM Required)",
+   "baseModel": "Krea 2",
+   "composite_auto": 17.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3581f1e3-042c-4b47-beda-0b23aab7f156/width=450/137868972.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3581f1e3-042c-4b47-beda-0b23aab7f156/original=true/137868972.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1457,
+    "thumbsUpCount": 64
+   }
+  },
+  {
+   "id": 2030628,
+   "name": "Qwen Edit Plus (2509) OpenPose 8 Steps",
+   "baseModel": "Qwen",
+   "composite_auto": 17.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0/width=450/105154569.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0/original=true/105154569.jpeg"
+   },
+   "stats": {
+    "downloadCount": 7009,
+    "thumbsUpCount": 254
+   }
+  },
+  {
+   "id": 2180915,
+   "name": "Workflow: Z_Image for Pose & Scene Variation",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 17.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c/width=450/112151985.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c/original=true/112151985.jpeg"
+   },
+   "stats": {
+    "downloadCount": 790,
+    "thumbsUpCount": 38
+   }
+  },
+  {
+   "id": 2375500,
+   "name": "Qwen Multi-angle & Single-angle Batch Image Generation Workflow for Storyboarding or Material Library Creation",
+   "baseModel": "Qwen",
+   "composite_auto": 17.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03399890-4bf8-4261-b786-a0ae72bbb1e9/width=450/120373154.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03399890-4bf8-4261-b786-a0ae72bbb1e9/original=true/120373154.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1562,
+    "thumbsUpCount": 66
+   }
+  },
+  {
+   "id": 1719791,
+   "name": "Vace control depth/openpose/canny/splines/extend",
+   "baseModel": "Wan Video 1.3B t2v",
+   "composite_auto": 17.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/791e5a93-b026-4c17-a198-cbb9cb6b1dd4/width=450/84937932.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/791e5a93-b026-4c17-a198-cbb9cb6b1dd4/original=true/84937932.mp4"
+   },
+   "stats": {
+    "downloadCount": 654,
+    "thumbsUpCount": 35
+   }
+  },
+  {
+   "id": 1524065,
+   "name": "VACE Motion Paths! Use A Path to Guide a Subject/CameraMovement",
+   "baseModel": "Wan Video",
+   "composite_auto": 17.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f93fe6-520a-4a05-b48b-fbcb56b19746/width=450/73077095.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f93fe6-520a-4a05-b48b-fbcb56b19746/original=true/73077095.mp4"
+   },
+   "stats": {
+    "downloadCount": 588,
+    "thumbsUpCount": 54
+   }
+  },
+  {
+   "id": 2298671,
+   "name": "Character Pose Transfer Qwen_Edit_2511",
+   "baseModel": "Qwen",
+   "composite_auto": 17.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d725a05-2db6-4ab5-8603-4ea6a7f05035/width=450/118226243.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d725a05-2db6-4ab5-8603-4ea6a7f05035/original=true/118226243.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1915,
+    "thumbsUpCount": 77
+   }
+  },
+  {
+   "id": 2608818,
+   "name": "Fully automated pose transfer workflow (Qwen image edit)",
+   "baseModel": "Qwen",
+   "composite_auto": 17.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9910f4d-803a-47d3-808f-36b95dfdf3f4/width=450/130094513.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9910f4d-803a-47d3-808f-36b95dfdf3f4/original=true/130094513.jpeg"
+   },
+   "stats": {
+    "downloadCount": 614,
+    "thumbsUpCount": 33
+   }
+  },
+  {
+   "id": 2303045,
+   "name": "Multi-Angle Dataset Workflow – Qwen Image Edit 2511",
+   "baseModel": "Qwen",
+   "composite_auto": 17.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd/width=450/117253334.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd/original=true/117253334.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1734,
+    "thumbsUpCount": 70
+   }
+  },
+  {
+   "id": 2345911,
+   "name": "Multiple 2511: Advanced Multi-Angle & Perspective Editing Workflow",
+   "baseModel": "Qwen",
+   "composite_auto": 17.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c20450-93ed-4468-950a-140c068f0ab1/width=450/119125827.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c20450-93ed-4468-950a-140c068f0ab1/original=true/119125827.jpeg"
+   },
+   "stats": {
+    "downloadCount": 533,
+    "thumbsUpCount": 38
+   }
+  },
+  {
+   "id": 2129379,
+   "name": "QwenEdit2509 Maintaining consistency in character scene migration and reference poses",
+   "baseModel": "Qwen",
+   "composite_auto": 17.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac/width=450/110291453.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac/original=true/110291453.jpeg"
+   },
+   "stats": {
+    "downloadCount": 567,
+    "thumbsUpCount": 27
+   }
+  },
+  {
+   "id": 2349397,
+   "name": "Multi-angle perspective switching with consistent character portrayal (single image)",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 17.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b878e74a-62f1-4896-a8fc-4ff17eb0ecee/width=450/119277588.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b878e74a-62f1-4896-a8fc-4ff17eb0ecee/original=true/119277588.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1317,
+    "thumbsUpCount": 54
+   }
+  },
+  {
+   "id": 1250209,
+   "name": "LTX i2v with Camera Control",
+   "baseModel": "LTXV",
+   "composite_auto": 17.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/width=450/72509479.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/original=true/72509479.mp4"
+   },
+   "stats": {
+    "downloadCount": 1697,
+    "thumbsUpCount": 66
+   }
+  },
+  {
+   "id": 2189594,
+   "name": "qwen image edit 2509 next scene and camera angles lora workflow",
+   "baseModel": "Qwen",
+   "composite_auto": 16.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f5d042d-9148-40ca-98a1-c5832e68c799/width=450/112463487.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f5d042d-9148-40ca-98a1-c5832e68c799/original=true/112463487.jpeg"
+   },
+   "stats": {
+    "downloadCount": 857,
+    "thumbsUpCount": 36
+   }
+  },
+  {
+   "id": 2337141,
+   "name": "LTX-2 Pose Image Audio to Video",
+   "baseModel": "LTXV2",
+   "composite_auto": 16.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/width=450/118902517.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/original=true/118902517.mp4"
+   },
+   "stats": {
+    "downloadCount": 1598,
+    "thumbsUpCount": 60
+   }
+  },
+  {
+   "id": 2411518,
+   "name": "z_image_turbo_VNCCS_DWpose_example",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 16.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75c3c96d-a224-422a-82b1-710e685ed729/width=450/121960130.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75c3c96d-a224-422a-82b1-710e685ed729/original=true/121960130.jpeg"
+   },
+   "stats": {
+    "downloadCount": 714,
+    "thumbsUpCount": 30
+   }
+  },
+  {
+   "id": 1920774,
+   "name": "T2I-QwenImage with Pose Control",
+   "baseModel": "Qwen",
+   "composite_auto": 16.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4769127-03a8-41c4-a4dc-3bd5e0e4d781/width=450/102146410.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4769127-03a8-41c4-a4dc-3bd5e0e4d781/original=true/102146410.jpeg"
+   },
+   "stats": {
+    "downloadCount": 913,
+    "thumbsUpCount": 36
+   }
+  },
+  {
+   "id": 2296023,
+   "name": "Pose_Clothes Transfer-Qwen edit",
+   "baseModel": "Qwen",
+   "composite_auto": 16.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/290e05de-c5c0-404a-b561-bb9c28c17ac0/width=450/116961045.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/290e05de-c5c0-404a-b561-bb9c28c17ac0/original=true/116961045.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1159,
+    "thumbsUpCount": 44
+   }
+  },
+  {
+   "id": 460491,
+   "name": "Character Video Generation (AnimateLCM, OpenPose Controlnet, Lora, Face Detailer)",
+   "baseModel": "SD 1.5",
+   "composite_auto": 16.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0ee674-bb07-4b14-a96a-8a4e4eac9ac4/width=450/12761601.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0ee674-bb07-4b14-a96a-8a4e4eac9ac4/original=true/12761601.mp4"
+   },
+   "stats": {
+    "downloadCount": 833,
+    "thumbsUpCount": 32
+   }
+  },
+  {
+   "id": 1894175,
+   "name": "Workflow RefControl Flux Kontext – Reference Pose LoRA",
+   "baseModel": "SD 1.5",
+   "composite_auto": 16.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/width=450/96188131.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/original=true/96188131.mp4"
+   },
+   "stats": {
+    "downloadCount": 2517,
+    "thumbsUpCount": 81
+   }
+  },
+  {
+   "id": 2315290,
+   "name": "Flux Klein Pose & Background Thief (The Ultimate Persona Transfer)",
+   "baseModel": "Flux.2 D",
+   "composite_auto": 16.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196515b8-f397-461d-b1b5-7baec74e7440/width=450/117745903.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196515b8-f397-461d-b1b5-7baec74e7440/original=true/117745903.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1238,
+    "thumbsUpCount": 45
+   }
+  },
+  {
+   "id": 2455228,
+   "name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
+   "baseModel": "Qwen 2",
+   "composite_auto": 16.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1795,
+    "thumbsUpCount": 60
+   }
+  },
+  {
+   "id": 326837,
+   "name": "ComfyUI image-morphing low-VRAM LCM video animation workflow with poses",
+   "baseModel": "SD 1.5",
+   "composite_auto": 15.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69a95d35-0f95-4681-9bb3-836af7baf593/width=450/7360049.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69a95d35-0f95-4681-9bb3-836af7baf593/original=true/7360049.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1147,
+    "thumbsUpCount": 38
+   }
+  },
+  {
+   "id": 1966651,
+   "name": "Qwen Image Edit + OpenPose CtrlNet",
+   "baseModel": "Qwen",
+   "composite_auto": 15.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bfcf2c-cf80-4e82-afe2-44785b02a75f/width=450/100921676.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bfcf2c-cf80-4e82-afe2-44785b02a75f/original=true/100921676.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1253,
+    "thumbsUpCount": 39
+   }
+  },
+  {
+   "id": 2190433,
+   "name": "Z-image Turbo Controlnet workflow (Pose, Depth, Canny)",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 14.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b83cfd34-a156-480d-9abc-459ff08ddc2f/width=450/112583627.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b83cfd34-a156-480d-9abc-459ff08ddc2f/original=true/112583627.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2817,
+    "thumbsUpCount": 72
+   }
+  },
+  {
+   "id": 541709,
+   "name": "ComfyUI Workflow SDXL/Pony - Image Generation, Upscale, Face Detailer with Control Net (Canny, Scribble, Tile, Depth, Openpose) + Batch Upscaling",
+   "baseModel": "SD 1.5",
+   "composite_auto": 14.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d736f1-fd82-4436-a488-3931c8687167/width=450/27409619.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d736f1-fd82-4436-a488-3931c8687167/original=true/27409619.jpeg"
+   },
+   "stats": {
+    "downloadCount": 14022,
+    "thumbsUpCount": 300
+   }
+  },
+  {
+   "id": 2195521,
+   "name": "Z-Image-ControlNet second-order Refiner + Pose / Depth / Line",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 14.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1297a87f-efd5-4757-bf4f-a8b78fc83654/width=450/112699662.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1297a87f-efd5-4757-bf4f-a8b78fc83654/original=true/112699662.jpeg"
+   },
+   "stats": {
+    "downloadCount": 765,
+    "thumbsUpCount": 24
+   }
+  },
+  {
+   "id": 1963377,
+   "name": "Qwen Image OpenPose Controlnet",
+   "baseModel": "Qwen",
+   "composite_auto": 14.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9410114c-38d5-4603-a8b9-83c2883d9884/width=450/100703792.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9410114c-38d5-4603-a8b9-83c2883d9884/original=true/100703792.jpeg"
+   },
+   "stats": {
+    "downloadCount": 748,
+    "thumbsUpCount": 23
+   }
+  },
+  {
+   "id": 2692134,
+   "name": "(RTX 4060) LTX 2.3 Pose Control + Face and Hand Detailer",
+   "baseModel": "LTXV 2.3",
+   "composite_auto": 14.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21111846-3565-4d2f-a2f9-30bb0f232c8a/width=450/133448394.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21111846-3565-4d2f-a2f9-30bb0f232c8a/original=true/133448394.mp4"
+   },
+   "stats": {
+    "downloadCount": 795,
+    "thumbsUpCount": 24
+   }
+  },
+  {
+   "id": 2090446,
+   "name": "Qwen_ Multi angle _ Character Consistency _ One Image for Full Angle _ High Consistency _ Consistency Derived Training Set",
+   "baseModel": "Qwen",
+   "composite_auto": 14.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa10aa8e-94b7-4c1b-937c-efbda175c4f3/width=450/108432503.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa10aa8e-94b7-4c1b-937c-efbda175c4f3/original=true/108432503.jpeg"
+   },
+   "stats": {
+    "downloadCount": 943,
+    "thumbsUpCount": 27
+   }
+  },
+  {
+   "id": 2233048,
+   "name": "Character Multi-Angle V3 - Character Consistency - Speed Edition",
+   "baseModel": "Wan Video 2.2 T2V-A14B",
+   "composite_auto": 13.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bed800b-dabf-4178-8fc2-9356d19e2a85/width=450/114247280.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bed800b-dabf-4178-8fc2-9356d19e2a85/original=true/114247280.jpeg"
+   },
+   "stats": {
+    "downloadCount": 518,
+    "thumbsUpCount": 16
+   }
+  },
+  {
+   "id": 2429713,
+   "name": "T2I/I2I/inpaint/Reference Highres Detailers Olovodude's Multi-purpose workflow",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 13.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc65c0e3-cc79-43a1-9f53-f25def349016/width=450/122708293.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc65c0e3-cc79-43a1-9f53-f25def349016/original=true/122708293.jpeg"
+   },
+   "stats": {
+    "downloadCount": 810,
+    "thumbsUpCount": 22
+   }
+  },
+  {
+   "id": 2578291,
+   "name": "ControlNet depth or openpose flux2klein",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 12.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000d4d46-db61-4dea-a798-551a0c43701a/width=450/130111736.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000d4d46-db61-4dea-a798-551a0c43701a/original=true/130111736.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1287,
+    "thumbsUpCount": 26
+   }
+  },
+  {
+   "id": 2642426,
+   "name": "Flux Klein 4B/9B Multiple Angles",
+   "baseModel": "Flux.2 Klein 4B",
+   "composite_auto": 12.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc38da4-b421-408e-a070-10ed17479df8/width=450/131468252.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc38da4-b421-408e-a070-10ed17479df8/original=true/131468252.jpeg"
+   },
+   "stats": {
+    "downloadCount": 935,
+    "thumbsUpCount": 19
+   }
+  },
+  {
+   "id": 1963971,
+   "name": "controlnet openpose SDXL perfect",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 11.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1503440e-7329-4523-b6c9-c500a5458033/width=450/100739356.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1503440e-7329-4523-b6c9-c500a5458033/original=true/100739356.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3840,
+    "thumbsUpCount": 29
+   }
+  }
+ ],
+ "ADS": [
+  {
+   "id": 145921,
+   "name": "Product Photo Composer SD1.5 (Advertising Photos with Invoke AI 3.1.1)",
+   "baseModel": "SD 1.5",
+   "composite_auto": 20.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/width=450/2511992.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/original=true/2511992.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3591,
+    "thumbsUpCount": 251
+   }
+  },
+  {
+   "id": 413803,
+   "name": "Change product background with the image of your choice using Style Transfer.",
+   "baseModel": "SDXL Lightning",
+   "composite_auto": 19.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/width=450/10466364.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/original=true/10466364.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2278,
+    "thumbsUpCount": 138
+   }
+  },
+  {
+   "id": 413826,
+   "name": "Change product background with the image of your choice using Style Transfer.",
+   "baseModel": "SDXL Lightning",
+   "composite_auto": 19.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/width=450/10467350.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/original=true/10467350.jpeg"
+   },
+   "stats": {
+    "downloadCount": 914,
+    "thumbsUpCount": 67
+   }
+  },
+  {
+   "id": 142621,
+   "name": "Advertising Photos with SDXL & SD1.5 in Invoke AI 3.1.0",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 18.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/317fb24f-7581-4c85-a65d-72d04150d668/width=450/2418483.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/317fb24f-7581-4c85-a65d-72d04150d668/original=true/2418483.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1796,
+    "thumbsUpCount": 162
+   }
+  },
+  {
+   "id": 413803,
+   "name": "Change product background with the image of your choice using Style Transfer.",
+   "baseModel": "SDXL Lightning",
+   "composite_auto": 18.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/width=450/10466364.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/original=true/10466364.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2278,
+    "thumbsUpCount": 138
+   }
+  },
+  {
+   "id": 413826,
+   "name": "Change product background with the image of your choice using Style Transfer.",
+   "baseModel": "SDXL Lightning",
+   "composite_auto": 18.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/width=450/10467350.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/original=true/10467350.jpeg"
+   },
+   "stats": {
+    "downloadCount": 914,
+    "thumbsUpCount": 67
+   }
+  },
+  {
+   "id": 2791097,
+   "name": "Lonecat's 🎨Post Production Module",
+   "baseModel": "Krea 2",
+   "composite_auto": 17.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a2a493e-f7e2-4f69-ad56-42bdc977ae48/width=450/140058808.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a2a493e-f7e2-4f69-ad56-42bdc977ae48/original=true/140058808.jpeg"
+   },
+   "stats": {
+    "downloadCount": 720,
+    "thumbsUpCount": 50
+   }
+  },
+  {
+   "id": 985126,
+   "name": "[flux-fill + flux-redux] Product Background Change",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 17.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/width=450/42298498.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/original=true/42298498.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1880,
+    "thumbsUpCount": 72
+   }
+  },
+  {
+   "id": 2788910,
+   "name": "Flux Klein 9b Production Workflow - FoxFurEssence",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 17.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40e49691-8ae2-4211-9913-6abfe58235ea/width=450/137119343.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40e49691-8ae2-4211-9913-6abfe58235ea/original=true/137119343.jpeg"
+   },
+   "stats": {
+    "downloadCount": 663,
+    "thumbsUpCount": 29
+   }
+  },
+  {
+   "id": 985126,
+   "name": "[flux-fill + flux-redux] Product Background Change",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 15.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/width=450/42298498.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/original=true/42298498.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1880,
+    "thumbsUpCount": 72
+   }
+  },
+  {
+   "id": 2455228,
+   "name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
+   "baseModel": "Qwen 2",
+   "composite_auto": 14.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1795,
+    "thumbsUpCount": 60
+   }
+  },
+  {
+   "id": 926474,
+   "name": "电商产品视觉设计工作流/E-commerce product visual design workflow",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 13.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/width=450/38846437.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/original=true/38846437.jpeg"
+   },
+   "stats": {
+    "downloadCount": 895,
+    "thumbsUpCount": 30
+   }
+  }
+ ],
+ "LAYERS": [
+  {
+   "id": 1105685,
+   "name": "Dramatic Lighting Slider [Pony, Illustrious]",
+   "baseModel": "Pony",
+   "composite_auto": 20.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19750a92-a93e-43a6-b078-5575c06dc50f/width=450/49634404.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19750a92-a93e-43a6-b078-5575c06dc50f/original=true/49634404.jpeg"
+   },
+   "stats": {
+    "downloadCount": 66792,
+    "thumbsUpCount": 8583
+   }
+  },
+  {
+   "id": 987736,
+   "name": "NoobAI-XL Detailer",
+   "baseModel": "NoobAI",
+   "composite_auto": 20.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37812b9c-e220-43db-8442-1e36d64ee114/width=450/47950408.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37812b9c-e220-43db-8442-1e36d64ee114/original=true/47950408.jpeg"
+   },
+   "stats": {
+    "downloadCount": 65737,
+    "thumbsUpCount": 8568
+   }
+  },
+  {
+   "id": 1280702,
+   "name": "Lighting / darkness slider",
+   "baseModel": "Anima",
+   "composite_auto": 19.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54eec9-ebcb-40c7-8473-ca308db8fa42/width=450/135153158.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54eec9-ebcb-40c7-8473-ca308db8fa42/original=true/135153158.jpeg"
+   },
+   "stats": {
+    "downloadCount": 44469,
+    "thumbsUpCount": 5621
+   }
+  },
+  {
+   "id": 888250,
+   "name": "Vixon's Classic Art Styles - detailed painting",
+   "baseModel": "Pony",
+   "composite_auto": 19.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e052f6be-3480-44e8-8354-ff3b2170165f/width=450/110502562.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e052f6be-3480-44e8-8354-ff3b2170165f/original=true/110502562.mp4"
+   },
+   "stats": {
+    "downloadCount": 39328,
+    "thumbsUpCount": 6093
+   }
+  },
+  {
+   "id": 1001945,
+   "name": "Detail Slider LoRA | Illustrious-XL",
+   "baseModel": "Illustrious",
+   "composite_auto": 19.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07fa88c5-daf9-40e6-8960-927a3a24b414/width=450/43345984.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07fa88c5-daf9-40e6-8960-927a3a24b414/original=true/43345984.jpeg"
+   },
+   "stats": {
+    "downloadCount": 42372,
+    "thumbsUpCount": 5494
+   }
+  },
+  {
+   "id": 768917,
+   "name": "[Style filter] Xu Er thick paint composition light texture enhancement",
+   "baseModel": "Illustrious",
+   "composite_auto": 19.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a74a8053-1dc2-4ccf-876f-29b6fd0bad78/width=450/51375345.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a74a8053-1dc2-4ccf-876f-29b6fd0bad78/original=true/51375345.jpeg"
+   },
+   "stats": {
+    "downloadCount": 36721,
+    "thumbsUpCount": 5179
+   }
+  },
+  {
+   "id": 1280702,
+   "name": "Lighting / darkness slider",
+   "baseModel": "Anima",
+   "composite_auto": 19.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/width=450/135152970.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/original=true/135152970.jpeg"
+   },
+   "stats": {
+    "downloadCount": 44469,
+    "thumbsUpCount": 5621
+   }
+  },
+  {
+   "id": 1231943,
+   "name": "Detailer IL",
+   "baseModel": "Illustrious",
+   "composite_auto": 19.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2324cf6-7bc5-4c52-a7ff-301ed595c1f8/width=450/73710068.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2324cf6-7bc5-4c52-a7ff-301ed595c1f8/original=true/73710068.jpeg"
+   },
+   "stats": {
+    "downloadCount": 36199,
+    "thumbsUpCount": 4527
+   }
+  },
+  {
+   "id": 1115090,
+   "name": "Illustrious Realism Enhancer ✨",
+   "baseModel": "Illustrious",
+   "composite_auto": 19.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7b4f210-4679-4c45-a905-7be23d01f637/width=450/50141873.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7b4f210-4679-4c45-a905-7be23d01f637/original=true/50141873.jpeg"
+   },
+   "stats": {
+    "downloadCount": 20158,
+    "thumbsUpCount": 2645
+   }
+  },
+  {
+   "id": 974076,
+   "name": "Enchanting Eyes (Anima, Illustrious, and Pony) (Detailed Eyes)",
+   "baseModel": "Anima",
+   "composite_auto": 18.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc85b20f-c19b-407f-a404-d397c0fe664f/width=450/133583524.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc85b20f-c19b-407f-a404-d397c0fe664f/original=true/133583524.jpeg"
+   },
+   "stats": {
+    "downloadCount": 19375,
+    "thumbsUpCount": 2524
+   }
+  },
+  {
+   "id": 147751,
+   "name": "DarkLight",
+   "baseModel": "SD 1.5",
+   "composite_auto": 18.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26d76dc3-76e9-425a-9426-954704161610/width=450/2793258.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26d76dc3-76e9-425a-9426-954704161610/original=true/2793258.jpeg"
+   },
+   "stats": {
+    "downloadCount": 16336,
+    "thumbsUpCount": 2234
+   }
+  },
+  {
+   "id": 350450,
+   "name": "SDXL Lightning LoRAs",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 18.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa7c1d9b-f806-4051-b7a6-081b73b20834/width=450/96679485.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa7c1d9b-f806-4051-b7a6-081b73b20834/original=true/96679485.jpeg"
+   },
+   "stats": {
+    "downloadCount": 69992,
+    "thumbsUpCount": 7756
+   }
+  },
+  {
+   "id": 661736,
+   "name": "S1 Dramatic Lighting",
+   "baseModel": "Anima",
+   "composite_auto": 18.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e0f16f0-1a56-4388-875c-f3ec09fd8c9d/width=450/100008629.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e0f16f0-1a56-4388-875c-f3ec09fd8c9d/original=true/100008629.jpeg"
+   },
+   "stats": {
+    "downloadCount": 57038,
+    "thumbsUpCount": 6349
+   }
+  },
+  {
+   "id": 633524,
+   "name": "Background Detail Enhancer✨",
+   "baseModel": "Krea 2",
+   "composite_auto": 18.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6e8b6f9-732d-4bde-9c83-645cf9e6d0b5/width=450/139153025.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6e8b6f9-732d-4bde-9c83-645cf9e6d0b5/original=true/139153025.jpeg"
+   },
+   "stats": {
+    "downloadCount": 23559,
+    "thumbsUpCount": 2816
+   }
+  },
+  {
+   "id": 229213,
+   "name": "extremely detailed (no trigger) - sliders.ntcai.xyz",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 18.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d9283fd-4eac-40bf-ab84-c104236e4586/width=450/7703460.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d9283fd-4eac-40bf-ab84-c104236e4586/original=true/7703460.mp4"
+   },
+   "stats": {
+    "downloadCount": 100496,
+    "thumbsUpCount": 10583
+   }
+  },
+  {
+   "id": 402462,
+   "name": "Detail Slider LoRA | PonyXL SDXL",
+   "baseModel": "Pony",
+   "composite_auto": 18.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/236b6ceb-d1bb-4ff7-9875-e592a22df79a/width=450/23721548.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/236b6ceb-d1bb-4ff7-9875-e592a22df79a/original=true/23721548.jpeg"
+   },
+   "stats": {
+    "downloadCount": 60621,
+    "thumbsUpCount": 6495
+   }
+  },
+  {
+   "id": 78056,
+   "name": "SakushiMix (finished)",
+   "baseModel": "SD 1.5",
+   "composite_auto": 18.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f094f00a-a0fd-43ae-a443-e306ccb0a86a/width=450/1869281.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f094f00a-a0fd-43ae-a443-e306ccb0a86a/original=true/1869281.jpeg"
+   },
+   "stats": {
+    "downloadCount": 42463,
+    "thumbsUpCount": 4614
+   }
+  },
+  {
+   "id": 162016,
+   "name": "Celestial Skin - Character Creation",
+   "baseModel": "Anima",
+   "composite_auto": 18.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0042131-693c-4b16-95df-922a94a45a75/width=450/136287850.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0042131-693c-4b16-95df-922a94a45a75/original=true/136287850.jpeg"
+   },
+   "stats": {
+    "downloadCount": 9098,
+    "thumbsUpCount": 1573
+   }
+  },
+  {
+   "id": 572473,
+   "name": "Glowing light",
+   "baseModel": "Anima",
+   "composite_auto": 18.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9587126-10ad-4293-95c2-a7cb0c61487e/width=450/137043703.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9587126-10ad-4293-95c2-a7cb0c61487e/original=true/137043703.jpeg"
+   },
+   "stats": {
+    "downloadCount": 6733,
+    "thumbsUpCount": 1037
+   }
+  },
+  {
+   "id": 598621,
+   "name": "(Detail Enhancer) 3D Blender Style",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 18.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23bcc67e-d4a0-4243-8093-0ce61ddbe58a/width=450/65179933.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23bcc67e-d4a0-4243-8093-0ce61ddbe58a/original=true/65179933.jpeg"
+   },
+   "stats": {
+    "downloadCount": 11853,
+    "thumbsUpCount": 1429
+   }
+  },
+  {
+   "id": 1145743,
+   "name": "Smooth Detailer Booster (Anima/SDXL/Pony)",
+   "baseModel": "Anima",
+   "composite_auto": 17.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a64a072-670f-41ff-8ee5-e8a11d67b5fb/width=450/141029715.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a64a072-670f-41ff-8ee5-e8a11d67b5fb/original=true/141029715.jpeg"
+   },
+   "stats": {
+    "downloadCount": 96991,
+    "thumbsUpCount": 9758
+   }
+  },
+  {
+   "id": 120723,
+   "name": "DetailedEyes_XL",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 17.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cebd0283-6c71-45e2-b204-c9fa3b6bea1f/width=450/2148743.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cebd0283-6c71-45e2-b204-c9fa3b6bea1f/original=true/2148743.jpeg"
+   },
+   "stats": {
+    "downloadCount": 93053,
+    "thumbsUpCount": 9224
+   }
+  },
+  {
+   "id": 145545,
+   "name": "Light Control SD15 - Left Right",
+   "baseModel": "SD 1.5",
+   "composite_auto": 17.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71855864-0e04-4810-b60c-9daa7be9df79/width=450/2504159.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71855864-0e04-4810-b60c-9daa7be9df79/original=true/2504159.mp4"
+   },
+   "stats": {
+    "downloadCount": 5953,
+    "thumbsUpCount": 751
+   }
+  },
+  {
+   "id": 104292,
+   "name": "The forest light",
+   "baseModel": "SD 1.5",
+   "composite_auto": 17.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38ba1605-b111-4072-a97f-352fa63f887d/width=450/1756823.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38ba1605-b111-4072-a97f-352fa63f887d/original=true/1756823.jpeg"
+   },
+   "stats": {
+    "downloadCount": 18094,
+    "thumbsUpCount": 2056
+   }
+  },
+  {
+   "id": 264681,
+   "name": "WildCardX-XL-Detail/Enhancer",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 17.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ac82446-2f47-49d2-9482-3c2b62ac0fdc/width=450/5486845.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ac82446-2f47-49d2-9482-3c2b62ac0fdc/original=true/5486845.jpeg"
+   },
+   "stats": {
+    "downloadCount": 11147,
+    "thumbsUpCount": 1318
+   }
+  },
+  {
+   "id": 122359,
+   "name": "Detail Tweaker XL",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 17.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/217179cb-87a0-4e96-8d77-e410f757aba0/width=450/1917130.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/217179cb-87a0-4e96-8d77-e410f757aba0/original=true/1917130.jpeg"
+   },
+   "stats": {
+    "downloadCount": 448635,
+    "thumbsUpCount": 43550
+   }
+  },
+  {
+   "id": 383086,
+   "name": "Pony Detail Tweaker",
+   "baseModel": "Pony",
+   "composite_auto": 17.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c047005-9697-4d58-a994-a7e69098d280/width=450/9991726.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c047005-9697-4d58-a994-a7e69098d280/original=true/9991726.jpeg"
+   },
+   "stats": {
+    "downloadCount": 53998,
+    "thumbsUpCount": 5141
+   }
+  },
+  {
+   "id": 981577,
+   "name": "KFT's HLA Image Enhancer [FLUX]",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 16.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bdfce6f7-38e9-4297-9bda-fc85a56aea5b/width=450/42224199.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bdfce6f7-38e9-4297-9bda-fc85a56aea5b/original=true/42224199.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3147,
+    "thumbsUpCount": 379
+   }
+  },
+  {
+   "id": 1486921,
+   "name": "Real Skin Slider",
+   "baseModel": "Pony",
+   "composite_auto": 16.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abbef550-8c38-4686-a886-d734afffff4c/width=450/71022452.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abbef550-8c38-4686-a886-d734afffff4c/original=true/71022452.jpeg"
+   },
+   "stats": {
+    "downloadCount": 55423,
+    "thumbsUpCount": 4799
+   }
+  },
+  {
+   "id": 810000,
+   "name": "NEW FANTASY CORE - ILL-FLUX-PONY-SDXL- ZIT(detailer)",
+   "baseModel": "Illustrious",
+   "composite_auto": 16.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c138c20-d434-4a13-b138-8933b28ced26/width=450/95501957.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c138c20-d434-4a13-b138-8933b28ced26/original=true/95501957.mp4"
+   },
+   "stats": {
+    "downloadCount": 22731,
+    "thumbsUpCount": 2180
+   }
+  },
+  {
+   "id": 153562,
+   "name": "Detail Slider - LoRA",
+   "baseModel": "SD 1.5",
+   "composite_auto": 16.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7aa0a5c-581b-4f72-b193-af9395e47cc0/width=450/2708903.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7aa0a5c-581b-4f72-b193-af9395e47cc0/original=true/2708903.jpeg"
+   },
+   "stats": {
+    "downloadCount": 43171,
+    "thumbsUpCount": 3827
+   }
+  },
+  {
+   "id": 263104,
+   "name": "EYE DETAIL FLUX LORA  (& INPAINT)",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 16.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8963448-109d-4051-8c82-818b2013c2eb/width=450/36961415.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8963448-109d-4051-8c82-818b2013c2eb/original=true/36961415.jpeg"
+   },
+   "stats": {
+    "downloadCount": 13880,
+    "thumbsUpCount": 1410
+   }
+  },
+  {
+   "id": 1377820,
+   "name": "Add Micro Details - Concept (Illustrious | Pony | NoobAI)",
+   "baseModel": "Anima",
+   "composite_auto": 16.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97d34e56-0a04-4c23-9953-d45867249a47/width=450/141505674.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97d34e56-0a04-4c23-9953-d45867249a47/original=true/141505674.jpeg"
+   },
+   "stats": {
+    "downloadCount": 94576,
+    "thumbsUpCount": 7723
+   }
+  },
+  {
+   "id": 643886,
+   "name": "FLUX 🌟FaeTastic Details",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 16.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5613fa67-ddea-4784-bba5-9468f66e24ee/width=450/24159332.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5613fa67-ddea-4784-bba5-9468f66e24ee/original=true/24159332.jpeg"
+   },
+   "stats": {
+    "downloadCount": 31664,
+    "thumbsUpCount": 2824
+   }
+  },
+  {
+   "id": 124347,
+   "name": "xl_more_art-full / xl_real / Enhancer",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 16.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321764d7-8265-4050-bbcd-d6c0a5da556c/width=450/2287991.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321764d7-8265-4050-bbcd-d6c0a5da556c/original=true/2287991.jpeg"
+   },
+   "stats": {
+    "downloadCount": 127875,
+    "thumbsUpCount": 10277
+   }
+  },
+  {
+   "id": 5693,
+   "name": "beautiful detailed eyes,",
+   "baseModel": "Other",
+   "composite_auto": 16.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08a8ee1-e3f3-403f-22b3-7586100a5600/width=450/60376.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08a8ee1-e3f3-403f-22b3-7586100a5600/original=true/60376.jpeg"
+   },
+   "stats": {
+    "downloadCount": 49562,
+    "thumbsUpCount": 4107
+   }
+  },
+  {
+   "id": 280472,
+   "name": "Chiaroscuro (Contrasted) Lighting Style XL + F1D + Illu + Pony + zit + zib",
+   "baseModel": "ZImageBase",
+   "composite_auto": 16.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1e91bac-1c56-4803-979f-451839137206/width=450/131004892.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1e91bac-1c56-4803-979f-451839137206/original=true/131004892.jpeg"
+   },
+   "stats": {
+    "downloadCount": 14517,
+    "thumbsUpCount": 1396
+   }
+  },
+  {
+   "id": 678808,
+   "name": "Mystic Enchantress Detail++",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 16.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/649cb2b7-4de9-4a1b-aac4-0f2ea70e9945/width=450/79627843.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/649cb2b7-4de9-4a1b-aac4-0f2ea70e9945/original=true/79627843.mp4"
+   },
+   "stats": {
+    "downloadCount": 1526,
+    "thumbsUpCount": 188
+   }
+  },
+  {
+   "id": 62687,
+   "name": "Tangbohu Detail Maker LoRA (唐伯虎细节制造LoRA)",
+   "baseModel": "SD 1.5",
+   "composite_auto": 16.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d28d6142-d651-4ce2-818d-da7050514ab9/width=450/945033.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d28d6142-d651-4ce2-818d-da7050514ab9/original=true/945033.jpeg"
+   },
+   "stats": {
+    "downloadCount": 11028,
+    "thumbsUpCount": 1088
+   }
+  },
+  {
+   "id": 290860,
+   "name": "Cinematic \"Warm Light\" 3200k Lighting Style XL + F1D + Illu + Pony",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 16.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4f13121-2566-4bc5-a049-a790f495df48/width=450/56543050.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4f13121-2566-4bc5-a049-a790f495df48/original=true/56543050.jpeg"
+   },
+   "stats": {
+    "downloadCount": 12288,
+    "thumbsUpCount": 1194
+   }
+  },
+  {
+   "id": 1155749,
+   "name": "Hyperdetailed Colored Pencil",
+   "baseModel": "Krea 2",
+   "composite_auto": 16.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d2e1b22-6172-4f79-9024-57f21f2133ca/width=450/136219742.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d2e1b22-6172-4f79-9024-57f21f2133ca/original=true/136219742.jpeg"
+   },
+   "stats": {
+    "downloadCount": 39306,
+    "thumbsUpCount": 3192
+   }
+  },
+  {
+   "id": 280421,
+   "name": "Low-key lighting Style XL + F1D + Illu + Pony + zit",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 16.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9fc80998-076b-4298-838d-7ab6f4cb57bd/width=450/117565738.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9fc80998-076b-4298-838d-7ab6f4cb57bd/original=true/117565738.jpeg"
+   },
+   "stats": {
+    "downloadCount": 11076,
+    "thumbsUpCount": 1069
+   }
+  },
+  {
+   "id": 2026594,
+   "name": "MiaoMiao RealSkin",
+   "baseModel": "Anima",
+   "composite_auto": 15.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5377bc09-9479-4ae6-848b-aa44c0b7d1c6/width=450/140789295.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5377bc09-9479-4ae6-848b-aa44c0b7d1c6/original=true/140789295.jpeg"
+   },
+   "stats": {
+    "downloadCount": 52225,
+    "thumbsUpCount": 4077
+   }
+  },
+  {
+   "id": 280454,
+   "name": "Rembrandt (Low-Key) Lighting Style XL + SD1.5 + F1D + Illu + Pony + zit",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 15.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a790f881-c0e6-490a-bc30-6267e0e62c88/width=450/116067287.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a790f881-c0e6-490a-bc30-6267e0e62c88/original=true/116067287.jpeg"
+   },
+   "stats": {
+    "downloadCount": 13434,
+    "thumbsUpCount": 1238
+   }
+  },
+  {
+   "id": 51430,
+   "name": "Better eyes+face+skin | 更好的眼睛+脸+皮肤",
+   "baseModel": "SD 1.5",
+   "composite_auto": 15.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24454a8a-2ec4-465c-b153-494d6234bef6/width=450/802676.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24454a8a-2ec4-465c-b153-494d6234bef6/original=true/802676.jpeg"
+   },
+   "stats": {
+    "downloadCount": 38726,
+    "thumbsUpCount": 3140
+   }
+  },
+  {
+   "id": 974775,
+   "name": "BetterPotraits/ Detailer Pony",
+   "baseModel": "Pony",
+   "composite_auto": 15.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbfa1079-5153-4b72-a792-ff3075b69430/width=450/41650517.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbfa1079-5153-4b72-a792-ff3075b69430/original=true/41650517.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1803,
+    "thumbsUpCount": 209
+   }
+  },
+  {
+   "id": 390892,
+   "name": "Add More Details - concept (free use or merge)",
+   "baseModel": "Pony",
+   "composite_auto": 15.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec4ae777-8d91-4fdc-bb86-1910ae278b1c/width=450/51787024.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec4ae777-8d91-4fdc-bb86-1910ae278b1c/original=true/51787024.jpeg"
+   },
+   "stats": {
+    "downloadCount": 26252,
+    "thumbsUpCount": 2187
+   }
+  },
+  {
+   "id": 78283,
+   "name": "Elixir — Enhancer LoRA 🧪",
+   "baseModel": "SD 1.5",
+   "composite_auto": 15.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/568e53b3-589e-45d4-bef0-87bf7dbce935/width=450/936588.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/568e53b3-589e-45d4-bef0-87bf7dbce935/original=true/936588.jpeg"
+   },
+   "stats": {
+    "downloadCount": 12689,
+    "thumbsUpCount": 1159
+   }
+  },
+  {
+   "id": 391036,
+   "name": "Cucoloris casting shadow (lighting modifiers) style XL + SD1.5 + F1D + Illu + Pony + zit",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 15.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71011ca3-eade-413d-87b4-0548540a74be/width=450/116160136.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71011ca3-eade-413d-87b4-0548540a74be/original=true/116160136.jpeg"
+   },
+   "stats": {
+    "downloadCount": 20504,
+    "thumbsUpCount": 1719
+   }
+  },
+  {
+   "id": 1300857,
+   "name": "Eye detail LoRA [Illustrious+FLUX+Z Image Turbo]",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 15.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad04e20a-cf02-4194-bd87-780c35f05b9b/width=450/129184099.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad04e20a-cf02-4194-bd87-780c35f05b9b/original=true/129184099.jpeg"
+   },
+   "stats": {
+    "downloadCount": 20476,
+    "thumbsUpCount": 1704
+   }
+  },
+  {
+   "id": 669571,
+   "name": "Pony & Anima Add more details",
+   "baseModel": "Anima",
+   "composite_auto": 15.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/493d3b85-30bd-440d-b87b-bd5ccdfc6f10/width=450/33109670.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/493d3b85-30bd-440d-b87b-bd5ccdfc6f10/original=true/33109670.jpeg"
+   },
+   "stats": {
+    "downloadCount": 10656,
+    "thumbsUpCount": 978
+   }
+  },
+  {
+   "id": 2329053,
+   "name": "Purple Grainy || Photography lora",
+   "baseModel": "Krea 2",
+   "composite_auto": 15.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ed65752-3bbe-4906-85ec-96341a3e5e84/width=450/136114517.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ed65752-3bbe-4906-85ec-96341a3e5e84/original=true/136114517.jpeg"
+   },
+   "stats": {
+    "downloadCount": 8763,
+    "thumbsUpCount": 829
+   }
+  },
+  {
+   "id": 542366,
+   "name": "Underlighting (light from below) style XL + F1D + ZIB",
+   "baseModel": "ZImageBase",
+   "composite_auto": 15.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e80a35e4-345a-47fb-94c0-09e68cb71200/width=450/131002191.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e80a35e4-345a-47fb-94c0-09e68cb71200/original=true/131002191.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1578,
+    "thumbsUpCount": 179
+   }
+  },
+  {
+   "id": 562866,
+   "name": "FLUX Image Upgrader / Detail Maximizer / Contrast Fix for low CFG [+ILLUSTRIOUS / SDXL / SD 1.5]",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 15.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbe4a231-578a-437d-99db-69320f15aab8/width=450/36032393.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbe4a231-578a-437d-99db-69320f15aab8/original=true/36032393.mp4"
+   },
+   "stats": {
+    "downloadCount": 65820,
+    "thumbsUpCount": 4622
+   }
+  },
+  {
+   "id": 1333749,
+   "name": "Add Detail - Slider",
+   "baseModel": "Pony",
+   "composite_auto": 15.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b8416c-66ee-4296-813a-757e347e2021/width=450/62215516.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b8416c-66ee-4296-813a-757e347e2021/original=true/62215516.jpeg"
+   },
+   "stats": {
+    "downloadCount": 60487,
+    "thumbsUpCount": 4267
+   }
+  },
+  {
+   "id": 413466,
+   "name": "Boltning - Realistic, Lightning, HYPER",
+   "baseModel": "SDXL Hyper",
+   "composite_auto": 15.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b21ed00-4bae-4cc4-9f1a-2e949a2f9c0d/width=450/11654534.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b21ed00-4bae-4cc4-9f1a-2e949a2f9c0d/original=true/11654534.jpeg"
+   },
+   "stats": {
+    "downloadCount": 14922,
+    "thumbsUpCount": 1283
+   }
+  },
+  {
+   "id": 149459,
+   "name": "Light Control SD15 - Up Down",
+   "baseModel": "SD 1.5",
+   "composite_auto": 15.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d578d3da-1605-47a5-bb9e-4ea15c5bc03e/width=450/2613482.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d578d3da-1605-47a5-bb9e-4ea15c5bc03e/original=true/2613482.jpeg"
+   },
+   "stats": {
+    "downloadCount": 5940,
+    "thumbsUpCount": 570
+   }
+  },
+  {
+   "id": 41809,
+   "name": "Better Portrait Lighting",
+   "baseModel": "SD 1.5",
+   "composite_auto": 15.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/574ec1e7-d7ab-4d0c-3f6e-da02d3145200/width=450/575180.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/574ec1e7-d7ab-4d0c-3f6e-da02d3145200/original=true/575180.jpeg"
+   },
+   "stats": {
+    "downloadCount": 11888,
+    "thumbsUpCount": 1043
+   }
+  },
+  {
+   "id": 391031,
+   "name": "Silhouette (cinematic lighting) style XL + F1D + zit",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 15.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/331f230b-940a-4ab1-b35c-443c5d539d42/width=450/117234664.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/331f230b-940a-4ab1-b35c-443c5d539d42/original=true/117234664.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3214,
+    "thumbsUpCount": 322
+   }
+  },
+  {
+   "id": 572899,
+   "name": "Realistic Skin for pony",
+   "baseModel": "Pony",
+   "composite_auto": 15.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/453eb876-a8dd-45ab-aba5-e56c88595d3a/width=450/19501372.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/453eb876-a8dd-45ab-aba5-e56c88595d3a/original=true/19501372.jpeg"
+   },
+   "stats": {
+    "downloadCount": 24923,
+    "thumbsUpCount": 1935
+   }
+  },
+  {
+   "id": 1380970,
+   "name": "Face Detailed",
+   "baseModel": "Illustrious",
+   "composite_auto": 15.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31cfb919-90d3-4aa2-875d-b96f9f7b27d4/width=450/124049761.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31cfb919-90d3-4aa2-875d-b96f9f7b27d4/original=true/124049761.jpeg"
+   },
+   "stats": {
+    "downloadCount": 4718,
+    "thumbsUpCount": 452
+   }
+  },
+  {
+   "id": 517355,
+   "name": "Reality enhancer [Pony]",
+   "baseModel": "Pony",
+   "composite_auto": 15.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1bf5d08-7d11-4497-b620-79d8496379e4/width=450/15903471.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1bf5d08-7d11-4497-b620-79d8496379e4/original=true/15903471.jpeg"
+   },
+   "stats": {
+    "downloadCount": 11282,
+    "thumbsUpCount": 963
+   }
+  },
+  {
+   "id": 927305,
+   "name": "Pony Realism Enhancer ✨",
+   "baseModel": "Pony",
+   "composite_auto": 15.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5f189bae-b39a-433a-92af-9372d3278f95/width=450/59035632.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5f189bae-b39a-433a-92af-9372d3278f95/original=true/59035632.jpeg"
+   },
+   "stats": {
+    "downloadCount": 78425,
+    "thumbsUpCount": 4947
+   }
+  },
+  {
+   "id": 1332651,
+   "name": "GrainScape UltraReal",
+   "baseModel": "Krea 2",
+   "composite_auto": 15.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0301313f-b3e9-4a0b-b45b-69c2ce3b2e49/width=450/136286760.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0301313f-b3e9-4a0b-b45b-69c2ce3b2e49/original=true/136286760.jpeg"
+   },
+   "stats": {
+    "downloadCount": 18113,
+    "thumbsUpCount": 1398
+   }
+  },
+  {
+   "id": 260852,
+   "name": "Hand Detail FLUX & XL",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 15.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a18c8aec-7a1d-4f58-93ac-8b995daad7d6/width=450/37036908.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a18c8aec-7a1d-4f58-93ac-8b995daad7d6/original=true/37036908.jpeg"
+   },
+   "stats": {
+    "downloadCount": 45311,
+    "thumbsUpCount": 3031
+   }
+  },
+  {
+   "id": 1016670,
+   "name": "Detail Tweaker Illustrious By Stable Yogi",
+   "baseModel": "Illustrious",
+   "composite_auto": 14.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc8381b1-8817-4dda-90f6-0367ffe82236/width=450/60432000.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc8381b1-8817-4dda-90f6-0367ffe82236/original=true/60432000.jpeg"
+   },
+   "stats": {
+    "downloadCount": 15829,
+    "thumbsUpCount": 1248
+   }
+  },
+  {
+   "id": 1032948,
+   "name": "Dark Side of Light",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 14.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23414a9b-48e3-4f69-a1fb-8130553bed38/width=450/122632842.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23414a9b-48e3-4f69-a1fb-8130553bed38/original=true/122632842.jpeg"
+   },
+   "stats": {
+    "downloadCount": 17237,
+    "thumbsUpCount": 1316
+   }
+  },
+  {
+   "id": 832683,
+   "name": "FLUX [pro] 1.1 Style Lora - Extreme Detailer for [FLUX + ILLUSTRIOUS]",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 14.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9277ac2f-9443-480d-a1d6-89450bb9b4b6/width=450/49746356.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9277ac2f-9443-480d-a1d6-89450bb9b4b6/original=true/49746356.mp4"
+   },
+   "stats": {
+    "downloadCount": 56763,
+    "thumbsUpCount": 3565
+   }
+  },
+  {
+   "id": 151576,
+   "name": "Light Control - Back Front - Backlight Slider",
+   "baseModel": "SD 1.5",
+   "composite_auto": 14.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3eb37789-a222-4c6f-9b72-ab13a840895d/width=450/2664757.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3eb37789-a222-4c6f-9b72-ab13a840895d/original=true/2664757.jpeg"
+   },
+   "stats": {
+    "downloadCount": 17230,
+    "thumbsUpCount": 1288
+   }
+  },
+  {
+   "id": 58390,
+   "name": "Detail Tweaker LoRA (细节调整LoRA)",
+   "baseModel": "SD 1.5",
+   "composite_auto": 14.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8db45d23-7bcf-4979-8b35-0e7779c5a8f8/width=450/692411.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8db45d23-7bcf-4979-8b35-0e7779c5a8f8/original=true/692411.jpeg"
+   },
+   "stats": {
+    "downloadCount": 578498,
+    "thumbsUpCount": 33514
+   }
+  },
+  {
+   "id": 280387,
+   "name": "High-key lighting Style XL + F1D + Pony + Illu",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 14.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ef43f-fc46-42a5-b5a2-f4e858d28423/width=450/56140281.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ef43f-fc46-42a5-b5a2-f4e858d28423/original=true/56140281.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3531,
+    "thumbsUpCount": 322
+   }
+  },
+  {
+   "id": 365274,
+   "name": "Kodak Film Grain (Cinematic) Film Photography style XL + F1D",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 14.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228a1721-ca10-4518-a8e5-222acbf2164a/width=450/58370735.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228a1721-ca10-4518-a8e5-222acbf2164a/original=true/58370735.jpeg"
+   },
+   "stats": {
+    "downloadCount": 4946,
+    "thumbsUpCount": 430
+   }
+  },
+  {
+   "id": 1157318,
+   "name": "Photorealistic Skin ⛔️ No plastic [FLUX]",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 14.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68451965-5556-4b58-b564-3499183ff906/width=450/52787447.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68451965-5556-4b58-b564-3499183ff906/original=true/52787447.mp4"
+   },
+   "stats": {
+    "downloadCount": 34055,
+    "thumbsUpCount": 2198
+   }
+  },
+  {
+   "id": 155526,
+   "name": "Film Grain Control SD15",
+   "baseModel": "SD 1.5",
+   "composite_auto": 14.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76fe7f29-6665-44f6-9ae7-b1d491d9507a/width=450/2766046.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76fe7f29-6665-44f6-9ae7-b1d491d9507a/original=true/2766046.mp4"
+   },
+   "stats": {
+    "downloadCount": 4044,
+    "thumbsUpCount": 351
+   }
+  },
+  {
+   "id": 129666,
+   "name": "⋅ ⊣ Realities Edge XL ⊢ ⋅ LIGHTNING + Turbo!",
+   "baseModel": "SDXL Lightning",
+   "composite_auto": 14.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70055415-d0cb-4d79-8615-59996951027e/width=450/6989727.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70055415-d0cb-4d79-8615-59996951027e/original=true/6989727.jpeg"
+   },
+   "stats": {
+    "downloadCount": 67794,
+    "thumbsUpCount": 3629
+   }
+  },
+  {
+   "id": 369575,
+   "name": "Envy Starlight XL 01 Lightning - Anime Western fusion digital painting / photography",
+   "baseModel": "SDXL Lightning",
+   "composite_auto": 14.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edc38458-5a36-424f-b28f-3321d56df61f/width=450/19172924.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edc38458-5a36-424f-b28f-3321d56df61f/original=true/19172924.jpeg"
+   },
+   "stats": {
+    "downloadCount": 4853,
+    "thumbsUpCount": 402
+   }
+  },
+  {
+   "id": 82098,
+   "name": "Add More Details - Detail Enhancer / Tweaker (细节调整) LoRA",
+   "baseModel": "SD 1.5",
+   "composite_auto": 14.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1697174-7c8d-4bde-b053-7b1ec0692b64/width=450/995787.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1697174-7c8d-4bde-b053-7b1ec0692b64/original=true/995787.jpeg"
+   },
+   "stats": {
+    "downloadCount": 407705,
+    "thumbsUpCount": 21280
+   }
+  },
+  {
+   "id": 140993,
+   "name": "epiCRealLife Enhancer",
+   "baseModel": "SD 1.5",
+   "composite_auto": 14.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea134a16-8c0b-48a9-a4b6-bec1eb19a751/width=450/2377820.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea134a16-8c0b-48a9-a4b6-bec1eb19a751/original=true/2377820.jpeg"
+   },
+   "stats": {
+    "downloadCount": 27373,
+    "thumbsUpCount": 1715
+   }
+  },
+  {
+   "id": 144416,
+   "name": "Light Control - Exposure",
+   "baseModel": "SD 1.5",
+   "composite_auto": 14.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/809c6dcf-258f-4c40-ae31-c1c6fa84d08b/width=450/2623015.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/809c6dcf-258f-4c40-ae31-c1c6fa84d08b/original=true/2623015.jpeg"
+   },
+   "stats": {
+    "downloadCount": 7309,
+    "thumbsUpCount": 563
+   }
+  },
+  {
+   "id": 972925,
+   "name": "Super Skin Detailer By Stable Yogi",
+   "baseModel": "Pony",
+   "composite_auto": 14.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3b034c0-cb26-4575-98f3-840994734477/width=450/41540024.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3b034c0-cb26-4575-98f3-840994734477/original=true/41540024.jpeg"
+   },
+   "stats": {
+    "downloadCount": 16216,
+    "thumbsUpCount": 1082
+   }
+  },
+  {
+   "id": 411088,
+   "name": "Detailed Perfection style (Hands + Feet + Face + Body + All in one) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
+   "baseModel": "ZImageBase",
+   "composite_auto": 14.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfab8345-6849-453d-8237-cbce59b38e3c/width=450/121917830.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfab8345-6849-453d-8237-cbce59b38e3c/original=true/121917830.jpeg"
+   },
+   "stats": {
+    "downloadCount": 131807,
+    "thumbsUpCount": 6714
+   }
+  },
+  {
+   "id": 730402,
+   "name": "ADetailer Netidol Face [approved]",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 14.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6da9f8f6-c2b9-4268-a380-79f38fd7a23f/width=450/123679411.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6da9f8f6-c2b9-4268-a380-79f38fd7a23f/original=true/123679411.jpeg"
+   },
+   "stats": {
+    "downloadCount": 5839,
+    "thumbsUpCount": 460
+   }
+  },
+  {
+   "id": 2250412,
+   "name": "Dramatic Lighting & Realism Enhancer",
+   "baseModel": "Illustrious",
+   "composite_auto": 14.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b07c8c-7b9b-4285-a9c2-c15255cefb8c/width=450/117961735.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b07c8c-7b9b-4285-a9c2-c15255cefb8c/original=true/117961735.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1587,
+    "thumbsUpCount": 148
+   }
+  },
+  {
+   "id": 381960,
+   "name": "Butterfly Lighting style (from above) XL + F1D",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 14.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec89d5c2-6a69-4150-8245-96493e201842/width=450/55933799.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec89d5c2-6a69-4150-8245-96493e201842/original=true/55933799.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1517,
+    "thumbsUpCount": 143
+   }
+  },
+  {
+   "id": 682890,
+   "name": "Detailer PONY",
+   "baseModel": "Pony",
+   "composite_auto": 14.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bd171a2-c84e-4785-af82-c24dee9b525c/width=450/25969089.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bd171a2-c84e-4785-af82-c24dee9b525c/original=true/25969089.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2185,
+    "thumbsUpCount": 196
+   }
+  },
+  {
+   "id": 336145,
+   "name": "NPC/DND Portrait XL (For Base/Dreamshaper/Lightning)",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 14.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/118380ea-3d18-4845-b39b-7ff88ed9296c/width=450/7498605.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/118380ea-3d18-4845-b39b-7ff88ed9296c/original=true/7498605.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1536,
+    "thumbsUpCount": 144
+   }
+  },
+  {
+   "id": 1879987,
+   "name": "Zoda 🥤 – NSFW Detailer",
+   "baseModel": "Anima",
+   "composite_auto": 13.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccc6c2d7-000e-4dc2-8494-757f69d998e4/width=450/137342678.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccc6c2d7-000e-4dc2-8494-757f69d998e4/original=true/137342678.jpeg"
+   },
+   "stats": {
+    "downloadCount": 14189,
+    "thumbsUpCount": 950
+   }
+  },
+  {
+   "id": 524367,
+   "name": "Fluorescent cinematic lighting style XL + F1D",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 13.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68095a81-e7d4-473c-b1c9-973213c79b00/width=450/55501359.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68095a81-e7d4-473c-b1c9-973213c79b00/original=true/55501359.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1475,
+    "thumbsUpCount": 136
+   }
+  },
+  {
+   "id": 106717,
+   "name": "Advanced Enhancer LoRA",
+   "baseModel": "SD 1.5",
+   "composite_auto": 13.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d6da285-3703-43b8-b968-0bba49e8d2d9/width=450/1495084.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d6da285-3703-43b8-b968-0bba49e8d2d9/original=true/1495084.jpeg"
+   },
+   "stats": {
+    "downloadCount": 7975,
+    "thumbsUpCount": 588
+   }
+  },
+  {
+   "id": 290864,
+   "name": "Cinematic Moonlight \"Cool Light\" 5600k Lighting Style XL + F1D + Illu + Pony",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 13.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c08d847-c26a-463b-9014-e2d7b1d0a23a/width=450/56546942.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c08d847-c26a-463b-9014-e2d7b1d0a23a/original=true/56546942.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3114,
+    "thumbsUpCount": 259
+   }
+  },
+  {
+   "id": 757408,
+   "name": "Sharp Detailed Realistic Image style XL + F1D",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 13.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a89f74a-53c7-4ba8-85b4-65d8707cd20a/width=450/36722827.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a89f74a-53c7-4ba8-85b4-65d8707cd20a/original=true/36722827.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2579,
+    "thumbsUpCount": 219
+   }
+  },
+  {
+   "id": 176449,
+   "name": "9527 Detail Realistic XL",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 13.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc4021a9-4196-4c4f-9471-1b444b380e93/width=450/102508931.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc4021a9-4196-4c4f-9471-1b444b380e93/original=true/102508931.jpeg"
+   },
+   "stats": {
+    "downloadCount": 29131,
+    "thumbsUpCount": 1586
+   }
+  },
+  {
+   "id": 430687,
+   "name": "Detailifier",
+   "baseModel": "Krea 2",
+   "composite_auto": 13.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6b65cd-0172-4289-a068-289dc0956a9a/width=450/137450588.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6b65cd-0172-4289-a068-289dc0956a9a/original=true/137450588.jpeg"
+   },
+   "stats": {
+    "downloadCount": 27214,
+    "thumbsUpCount": 1517
+   }
+  },
+  {
+   "id": 2234266,
+   "name": "[ZIT] Detail Slider",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 13.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a84673bd-dd95-4282-a181-1f4cb332b321/width=450/114299255.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a84673bd-dd95-4282-a181-1f4cb332b321/original=true/114299255.jpeg"
+   },
+   "stats": {
+    "downloadCount": 24023,
+    "thumbsUpCount": 1382
+   }
+  },
+  {
+   "id": 55743,
+   "name": "Pika's Super Realistic Detailed Eyes [SRDE]",
+   "baseModel": "SD 1.5",
+   "composite_auto": 13.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66efcbbb-7332-4c92-9da9-c94555ad0300/width=450/656502.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66efcbbb-7332-4c92-9da9-c94555ad0300/original=true/656502.jpeg"
+   },
+   "stats": {
+    "downloadCount": 9654,
+    "thumbsUpCount": 651
+   }
+  },
+  {
+   "id": 178167,
+   "name": "Detailers By Stable Yogi",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 13.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f87266bb-3572-4887-afec-1d7d65a58e98/width=450/40642030.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f87266bb-3572-4887-afec-1d7d65a58e98/original=true/40642030.jpeg"
+   },
+   "stats": {
+    "downloadCount": 99904,
+    "thumbsUpCount": 4494
+   }
+  },
+  {
+   "id": 150169,
+   "name": "Detail Asian Realistic",
+   "baseModel": "SD 1.5",
+   "composite_auto": 13.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/378cd6f4-766a-40e9-bbb5-dcb766164dc9/width=450/86008245.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/378cd6f4-766a-40e9-bbb5-dcb766164dc9/original=true/86008245.jpeg"
+   },
+   "stats": {
+    "downloadCount": 26913,
+    "thumbsUpCount": 1463
+   }
+  },
+  {
+   "id": 109043,
+   "name": "Skin & Hands (male/female) from Polyhedron",
+   "baseModel": "SD 1.5",
+   "composite_auto": 13.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5787aa0-02d7-4401-abaa-8f81a624910a/width=450/1657179.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5787aa0-02d7-4401-abaa-8f81a624910a/original=true/1657179.jpeg"
+   },
+   "stats": {
+    "downloadCount": 75449,
+    "thumbsUpCount": 3259
+   }
+  },
+  {
+   "id": 1371405,
+   "name": "Pony Skin Enhancer ✨",
+   "baseModel": "Pony",
+   "composite_auto": 13.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bbb511d-db61-4d59-8ad6-e278b9b8339c/width=450/64266431.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bbb511d-db61-4d59-8ad6-e278b9b8339c/original=true/64266431.jpeg"
+   },
+   "stats": {
+    "downloadCount": 16338,
+    "thumbsUpCount": 956
+   }
+  },
+  {
+   "id": 124993,
+   "name": "Advanced Enhancer XL LoRA",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 13.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e55c3976-46e8-4ace-ab9e-a97e773da50e/width=450/2088536.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e55c3976-46e8-4ace-ab9e-a97e773da50e/original=true/2088536.jpeg"
+   },
+   "stats": {
+    "downloadCount": 7674,
+    "thumbsUpCount": 517
+   }
+  },
+  {
+   "id": 2209262,
+   "name": "DetailDeamonZ-SliderLoRA For ZIT & ZIB 适配红潮ZID与黑兽ZIT",
+   "baseModel": "ZImageBase",
+   "composite_auto": 13.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f265a4b3-cde8-4f6d-bc6c-f55de2c02511/width=450/120432583.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f265a4b3-cde8-4f6d-bc6c-f55de2c02511/original=true/120432583.jpeg"
+   },
+   "stats": {
+    "downloadCount": 17576,
+    "thumbsUpCount": 994
+   }
+  },
+  {
+   "id": 580857,
+   "name": "Realistic Skin Texture style (Detailed Skin) XL + SD1.5 + F1D + Pony + Illu + ZIT + ZIB",
+   "baseModel": "ZImageBase",
+   "composite_auto": 13.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5087eaa-0c04-43f9-b9c0-a34bfe863617/width=450/131433696.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5087eaa-0c04-43f9-b9c0-a34bfe863617/original=true/131433696.jpeg"
+   },
+   "stats": {
+    "downloadCount": 183259,
+    "thumbsUpCount": 7468
+   }
+  },
+  {
+   "id": 541620,
+   "name": "Facial Expressions \"Realistic + Anime\" (detailed emotions) style XL + SD1.5 + F1D + Illu + Pony + zit",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 13.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54981c-0546-4851-88cf-834c07f3a861/width=450/115716397.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54981c-0546-4851-88cf-834c07f3a861/original=true/115716397.jpeg"
+   },
+   "stats": {
+    "downloadCount": 22141,
+    "thumbsUpCount": 1190
+   }
+  },
+  {
+   "id": 279888,
+   "name": "Ringlightselfie Flux & SDXL & 1.5",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 13.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc7b78de-8e32-42e4-8e2d-fb0f7b86d0cd/width=450/26005148.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc7b78de-8e32-42e4-8e2d-fb0f7b86d0cd/original=true/26005148.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1574,
+    "thumbsUpCount": 130
+   }
+  },
+  {
+   "id": 2620171,
+   "name": "Anima Detail Tweaker",
+   "baseModel": "Anima",
+   "composite_auto": 13.1,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bce68866-aa99-4b9a-854d-f9765d1825cc/width=450/130704526.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bce68866-aa99-4b9a-854d-f9765d1825cc/original=true/130704526.jpeg"
+   },
+   "stats": {
+    "downloadCount": 24331,
+    "thumbsUpCount": 1244
+   }
+  },
+  {
+   "id": 421162,
+   "name": "Detailed style XL + F1D + SD1.5 + zib (Hand focus + All in One) \"Detailed Perfection style extension\"",
+   "baseModel": "ZImageBase",
+   "composite_auto": 13.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0dfd770-b1c0-4843-b4d2-07327989c028/width=450/125684151.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0dfd770-b1c0-4843-b4d2-07327989c028/original=true/125684151.jpeg"
+   },
+   "stats": {
+    "downloadCount": 24280,
+    "thumbsUpCount": 1196
+   }
+  },
+  {
+   "id": 562884,
+   "name": "Skin Tone (Glamour Photography) Style (Human skin color) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
+   "baseModel": "ZImageBase",
+   "composite_auto": 13.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/526bb5c9-a962-45a1-b332-5c8b06dc768e/width=450/121914947.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/526bb5c9-a962-45a1-b332-5c8b06dc768e/original=true/121914947.jpeg"
+   },
+   "stats": {
+    "downloadCount": 19427,
+    "thumbsUpCount": 1014
+   }
+  },
+  {
+   "id": 383364,
+   "name": "CreaPrompt_Lightning_Hyper-SDXL",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 13.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3386f1cd-1301-4838-a64b-b052f290b6a4/width=450/21425343.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3386f1cd-1301-4838-a64b-b052f290b6a4/original=true/21425343.jpeg"
+   },
+   "stats": {
+    "downloadCount": 15303,
+    "thumbsUpCount": 838
+   }
+  },
+  {
+   "id": 939006,
+   "name": "epiCRealismXL-KiSS Enhancer",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 12.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f55ac711-0368-4356-a82e-29bdb345900b/width=450/39569971.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f55ac711-0368-4356-a82e-29bdb345900b/original=true/39569971.jpeg"
+   },
+   "stats": {
+    "downloadCount": 9680,
+    "thumbsUpCount": 560
+   }
+  },
+  {
+   "id": 930386,
+   "name": "Flux.1 Turbo Detailer",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 12.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8bd9aa-fe8a-470c-b9db-38d75d53be25/width=450/39382849.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8bd9aa-fe8a-470c-b9db-38d75d53be25/original=true/39382849.mp4"
+   },
+   "stats": {
+    "downloadCount": 14197,
+    "thumbsUpCount": 742
+   }
+  },
+  {
+   "id": 1426727,
+   "name": "Realistic Skin & Face - Professional_photography",
+   "baseModel": "Krea 2",
+   "composite_auto": 12.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ebef256-7991-4a1f-9a80-230f5129d176/width=450/138065196.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ebef256-7991-4a1f-9a80-230f5129d176/original=true/138065196.jpeg"
+   },
+   "stats": {
+    "downloadCount": 21640,
+    "thumbsUpCount": 999
+   }
+  },
+  {
+   "id": 1782485,
+   "name": "Furry Enhancer  Video",
+   "baseModel": "MiniMax H3",
+   "composite_auto": 12.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c199736-e1a2-408d-acf0-28c70df6b286/width=450/139871162.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c199736-e1a2-408d-acf0-28c70df6b286/original=true/139871162.mp4"
+   },
+   "stats": {
+    "downloadCount": 19130,
+    "thumbsUpCount": 898
+   }
+  },
+  {
+   "id": 2729908,
+   "name": "[KREA 2] Detail Slider",
+   "baseModel": "Krea 2",
+   "composite_auto": 12.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87770265-3293-4292-b32d-c464b23ae6c7/width=450/134831972.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87770265-3293-4292-b32d-c464b23ae6c7/original=true/134831972.jpeg"
+   },
+   "stats": {
+    "downloadCount": 16059,
+    "thumbsUpCount": 804
+   }
+  },
+  {
+   "id": 2213166,
+   "name": "ANTI-PLASTIC | The Analog Texture Engine",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 12.6,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/859eb331-29b4-461a-8671-305ae41742fe/width=450/113411933.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/859eb331-29b4-461a-8671-305ae41742fe/original=true/113411933.jpeg"
+   },
+   "stats": {
+    "downloadCount": 4232,
+    "thumbsUpCount": 272
+   }
+  },
+  {
+   "id": 1215368,
+   "name": "Oily shiny glossy skin style F1D + XL + SD1.5 + Illu + Pony + zit",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 12.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/257baa25-40cc-431d-9163-aca26084c9b4/width=450/116984216.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/257baa25-40cc-431d-9163-aca26084c9b4/original=true/116984216.jpeg"
+   },
+   "stats": {
+    "downloadCount": 7411,
+    "thumbsUpCount": 418
+   }
+  },
+  {
+   "id": 8765,
+   "name": "Theovercomer8's Contrast Fix (SD1.5/SD2.1-768)",
+   "baseModel": "SD 2.1 768",
+   "composite_auto": 12.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ef6bb89-dbfb-4e44-c396-98f2b8324a00/width=450/101043.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ef6bb89-dbfb-4e44-c396-98f2b8324a00/original=true/101043.jpeg"
+   },
+   "stats": {
+    "downloadCount": 73164,
+    "thumbsUpCount": 2266
+   }
+  },
+  {
+   "id": 60018,
+   "name": "real_skin",
+   "baseModel": "Other",
+   "composite_auto": 12.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622dd1c9-b11c-4ee0-b9f7-44492bdb425b/width=450/727207.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622dd1c9-b11c-4ee0-b9f7-44492bdb425b/original=true/727207.jpeg"
+   },
+   "stats": {
+    "downloadCount": 10726,
+    "thumbsUpCount": 538
+   }
+  },
+  {
+   "id": 354130,
+   "name": "⚡ epiCRealismXL-Lightning",
+   "baseModel": "SDXL Lightning",
+   "composite_auto": 12.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c67d6a-4cd8-4654-b36b-c4818706d477/width=450/13830503.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c67d6a-4cd8-4654-b36b-c4818706d477/original=true/13830503.jpeg"
+   },
+   "stats": {
+    "downloadCount": 21314,
+    "thumbsUpCount": 864
+   }
+  },
+  {
+   "id": 2477155,
+   "name": "Cinematic Dark Lighting",
+   "baseModel": "Krea 2",
+   "composite_auto": 12.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/599fd922-2749-4840-b33d-8326d452c4e9/width=450/137869108.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/599fd922-2749-4840-b33d-8326d452c4e9/original=true/137869108.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2693,
+    "thumbsUpCount": 175
+   }
+  },
+  {
+   "id": 766017,
+   "name": "Skin Tone Slider FLUX",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 12.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9174f0d6-0e3e-434c-88b7-37139b2d5604/width=450/29760879.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9174f0d6-0e3e-434c-88b7-37139b2d5604/original=true/29760879.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1194,
+    "thumbsUpCount": 88
+   }
+  },
+  {
+   "id": 651043,
+   "name": "Flux Skin Texture",
+   "baseModel": "Flux.1 D",
+   "composite_auto": 12.0,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a582256b-b05b-4a3e-94d2-69548823ecc9/width=450/28726481.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a582256b-b05b-4a3e-94d2-69548823ecc9/original=true/28726481.jpeg"
+   },
+   "stats": {
+    "downloadCount": 13232,
+    "thumbsUpCount": 576
+   }
+  },
+  {
+   "id": 2190659,
+   "name": "💀💋 DaSiWa-WAN 2.2 I2V 14B TastySin v8 | Lightspeed | GGUF 💋💀",
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "composite_auto": 11.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b791561-0501-423e-bd94-755d7c7f3b98/width=450/112636097.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b791561-0501-423e-bd94-755d7c7f3b98/original=true/112636097.mp4"
+   },
+   "stats": {
+    "downloadCount": 52360,
+    "thumbsUpCount": 1405
+   }
+  },
+  {
+   "id": 2086049,
+   "name": "FLUXTRAIT [FLUX.2 Klein / FLUX / Z-Image] for Portrait & detailed skin",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 11.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc452914-1f04-464d-9947-7fedfd35eac2/width=450/129028008.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc452914-1f04-464d-9947-7fedfd35eac2/original=true/129028008.jpeg"
+   },
+   "stats": {
+    "downloadCount": 14668,
+    "thumbsUpCount": 601
+   }
+  },
+  {
+   "id": 2551056,
+   "name": "Porcelain Gothic Skin",
+   "baseModel": "Krea 2",
+   "composite_auto": 11.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1deae7b6-1b73-47ed-ab87-87d6768347a9/width=450/141046875.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1deae7b6-1b73-47ed-ab87-87d6768347a9/original=true/141046875.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1283,
+    "thumbsUpCount": 88
+   }
+  },
+  {
+   "id": 2535622,
+   "name": "LTX 2.3 - Enhancers",
+   "baseModel": "LTXV 2.3",
+   "composite_auto": 11.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e50610f-07b7-4d68-9582-c1f6a4872c3f/width=450/127146275.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e50610f-07b7-4d68-9582-c1f6a4872c3f/original=true/127146275.mp4"
+   },
+   "stats": {
+    "downloadCount": 18619,
+    "thumbsUpCount": 677
+   }
+  },
+  {
+   "id": 1063735,
+   "name": "[NEW Released] Minimax H3 lightx2v turbo ComfyUI accelerator 4-8 steps LoRA",
+   "baseModel": "MiniMax H3",
+   "composite_auto": 11.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4f778e1-7b43-4f00-9211-db6cab431530/width=450/47091973.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4f778e1-7b43-4f00-9211-db6cab431530/original=true/47091973.mp4"
+   },
+   "stats": {
+    "downloadCount": 15214,
+    "thumbsUpCount": 573
+   }
+  },
+  {
+   "id": 2067704,
+   "name": "Portrait Engine FLUX / FLUX 2 KLEIN / Z-Image, Detailed Skin - [LORA]",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 11.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c21e6db5-9b79-4572-a36f-271af8b25ef1/width=450/132683560.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c21e6db5-9b79-4572-a36f-271af8b25ef1/original=true/132683560.mp4"
+   },
+   "stats": {
+    "downloadCount": 21428,
+    "thumbsUpCount": 679
+   }
+  },
+  {
+   "id": 2324991,
+   "name": "Klein Anatomy / Quality Fixer",
+   "baseModel": "Flux.2 Klein 9B",
+   "composite_auto": 11.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dde7061-aa74-4ceb-bac1-74746dbb6c89/width=450/118175698.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dde7061-aa74-4ceb-bac1-74746dbb6c89/original=true/118175698.jpeg"
+   },
+   "stats": {
+    "downloadCount": 23249,
+    "thumbsUpCount": 638
+   }
+  },
+  {
+   "id": 142795,
+   "name": "FilmGrain",
+   "baseModel": "SD 1.5",
+   "composite_auto": 11.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ef5ed30-feca-46e4-b6b4-6b41ef2ed9f7/width=450/2424581.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ef5ed30-feca-46e4-b6b4-6b41ef2ed9f7/original=true/2424581.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1224,
+    "thumbsUpCount": 74
+   }
+  },
+  {
+   "id": 646497,
+   "name": "Portrait Detailer/Enhancer",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 10.9,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d82e59b-7302-44cf-ae5b-40bfceda39cd/width=450/24431262.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d82e59b-7302-44cf-ae5b-40bfceda39cd/original=true/24431262.jpeg"
+   },
+   "stats": {
+    "downloadCount": 2753,
+    "thumbsUpCount": 130
+   }
+  },
+  {
+   "id": 2269796,
+   "name": "💀💋 DaSiWa-WAN 2.2 I2V 14B SynthSeduction v9 | Lightspeed | GGUF 💋💀",
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "composite_auto": 10.7,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e6819d5-e9e1-44d8-96c8-a2b979076eca/width=450/116149234.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e6819d5-e9e1-44d8-96c8-a2b979076eca/original=true/116149234.mp4"
+   },
+   "stats": {
+    "downloadCount": 19892,
+    "thumbsUpCount": 453
+   }
+  },
+  {
+   "id": 1865288,
+   "name": "🌟HyperRealism – Cinematic Detail & True-to-Life Rendering - SDXL🌟",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 10.5,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4753438b-70de-4cb2-a647-061213b4bdd4/width=450/94115348.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4753438b-70de-4cb2-a647-061213b4bdd4/original=true/94115348.mp4"
+   },
+   "stats": {
+    "downloadCount": 840,
+    "thumbsUpCount": 47
+   }
+  },
+  {
+   "id": 2595570,
+   "name": "Cinematic Portrait Lighting LoRA – Zimg Turbo + SDXL",
+   "baseModel": "ZImageTurbo",
+   "composite_auto": 10.4,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c32af6c8-43be-4c7b-ad66-3c61aa248102/width=450/131771487.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c32af6c8-43be-4c7b-ad66-3c61aa248102/original=true/131771487.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1356,
+    "thumbsUpCount": 67
+   }
+  },
+  {
+   "id": 2541119,
+   "name": "TrueGrain_v1",
+   "baseModel": "SDXL 1.0",
+   "composite_auto": 9.8,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce3c4ef7-df7c-476a-8425-81df9e4ba909/width=450/127376281.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce3c4ef7-df7c-476a-8425-81df9e4ba909/original=true/127376281.jpeg"
+   },
+   "stats": {
+    "downloadCount": 803,
+    "thumbsUpCount": 39
+   }
+  },
+  {
+   "id": 2808600,
+   "name": "Krea 2 Realistic Skin Texture",
+   "baseModel": "Krea 2",
+   "composite_auto": 9.3,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04d86b0-1f6d-4ef4-8e0c-5f56ca93927d/width=450/137848258.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04d86b0-1f6d-4ef4-8e0c-5f56ca93927d/original=true/137848258.jpeg"
+   },
+   "stats": {
+    "downloadCount": 1044,
+    "thumbsUpCount": 40
+   }
+  },
+  {
+   "id": 1747094,
+   "name": "Hi-Dream Photorealism: skin + faces + hands + colors + JPEG artifacts",
+   "baseModel": "HiDream",
+   "composite_auto": 8.2,
+   "nsfwLevel": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ced9a-093d-4760-9ec4-e87d8a7a7280/width=450/86441713.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ced9a-093d-4760-9ec4-e87d8a7a7280/original=true/86441713.jpeg"
+   },
+   "stats": {
+    "downloadCount": 3568,
+    "thumbsUpCount": 35
+   }
+  }
+ ]
+}

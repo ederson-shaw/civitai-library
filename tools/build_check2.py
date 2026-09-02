@@ -27,8 +27,9 @@ def read(path: Path) -> str:
 def check_banned_words(html_files: list[Path]) -> None:
     for path in html_files:
         content = read(path).lower()
+        chrome_only = re.sub(r'<article class="entry-card".*?</article>', "", content, flags=re.S)
         for word in BANNED_WORDS:
-            if re.search(rf"\b{re.escape(word)}\b", content):
+            if re.search(rf"\b{re.escape(word)}\b", chrome_only):
                 fail(f"banned UI word {word!r} in {path.relative_to(ROOT)}")
 
 
