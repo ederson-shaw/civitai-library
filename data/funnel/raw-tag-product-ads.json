@@ -1,0 +1,158 @@
+[
+  {
+    "id": 985126,
+    "name": "[flux-fill + flux-redux] Product Background Change",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "nouvo_ai",
+      "href": "https://civitai.com/users/nouvo_ai"
+    },
+    "stats": {
+      "downloadCount": 1880,
+      "thumbsUpCount": 72,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:05:30+00:00"
+    },
+    "lastUpdated": "2024-11-27T01:23:40.463Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/985126",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/width=450/42298498.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/original=true/42298498.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1103534,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-11-27T01:23:40.463Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1103534",
+        "files": [
+          {
+            "name": "FluxFillFluxRedux_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.708984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2455228,
+    "name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
+    "type": "Workflows",
+    "baseModel": "Qwen 2",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "CottonByte",
+      "href": "https://civitai.com/users/CottonByte"
+    },
+    "stats": {
+      "downloadCount": 1795,
+      "thumbsUpCount": 60,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:05:30+00:00"
+    },
+    "lastUpdated": "2026-03-10T08:33:14.724Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2455228",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2760699,
+        "name": "FireRed Image editor 1.1",
+        "baseModel": "Qwen 2",
+        "updatedAt": "2026-03-10T08:33:14.724Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2760699",
+        "files": [
+          {
+            "name": "fireredImageEditorSeamless_fireredImageEditor11.zip",
+            "type": "Archive",
+            "sizeKB": 5.7919921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1899412,
+    "name": "Product Integration into Background(Kontext)",
+    "type": "Workflows",
+    "baseModel": "Flux.1 Kontext",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "VictorJWK",
+      "href": "https://civitai.com/users/VictorJWK"
+    },
+    "stats": {
+      "downloadCount": 453,
+      "thumbsUpCount": 25,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:05:30+00:00"
+    },
+    "lastUpdated": "2025-08-26T06:05:45.723Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1899412",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8af3f9f-6d89-48f7-9204-d68baeee981b/width=450/96566408.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8af3f9f-6d89-48f7-9204-d68baeee981b/original=true/96566408.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2150002,
+        "name": "v1.0",
+        "baseModel": "Flux.1 Kontext",
+        "updatedAt": "2025-08-26T06:05:45.723Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2150002",
+        "files": [
+          {
+            "name": "productIntegrationInto_v10.zip",
+            "type": "Archive",
+            "sizeKB": 398.9560546875
+          }
+        ]
+      }
+    ]
+  }
+]

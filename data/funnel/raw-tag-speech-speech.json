@@ -1,0 +1,122 @@
+[
+  {
+    "id": 2616796,
+    "name": "videoLab - LTX 2.3",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "jbj151",
+      "href": "https://civitai.com/users/jbj151"
+    },
+    "stats": {
+      "downloadCount": 382,
+      "thumbsUpCount": 26,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:10+00:00"
+    },
+    "lastUpdated": "2026-05-13T22:41:12.473Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2616796",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ba48104-e080-4b6e-ac0f-f5f038de55e5/width=450/130621437.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ba48104-e080-4b6e-ac0f-f5f038de55e5/original=true/130621437.mp4"
+    },
+    "versions": [
+      {
+        "id": 2943218,
+        "name": "LTX 2.3 Super",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-13T22:41:12.473Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2943218",
+        "files": [
+          {
+            "name": "videolabLTX23_ltx23Super.json",
+            "type": "Config",
+            "sizeKB": 209.7529296875
+          }
+        ]
+      },
+      {
+        "id": 2938111,
+        "name": "LTX 2.3",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-11T23:53:26.491Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2938111",
+        "files": [
+          {
+            "name": "videolabLTX23_ltx23.json",
+            "type": "Config",
+            "sizeKB": 197.6181640625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2531321,
+    "name": "Overtli LLM Studio Suite",
+    "type": "Workflows",
+    "baseModel": "Flux.2 Klein 9B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "overtlidesignstudio444",
+      "href": "https://civitai.com/users/overtlidesignstudio444"
+    },
+    "stats": {
+      "downloadCount": 199,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:10+00:00"
+    },
+    "lastUpdated": "2026-04-10T02:22:33.973Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Sell",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2531321",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7f74b61-356d-4d03-a50f-6b0e4a8f240c/width=450/127103451.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7f74b61-356d-4d03-a50f-6b0e4a8f240c/original=true/127103451.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2844872,
+        "name": "v1.0",
+        "baseModel": "Flux.2 Klein 9B",
+        "updatedAt": "2026-04-10T02:22:33.973Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2844872",
+        "files": [
+          {
+            "name": "overtliLLMStudio_v10.zip",
+            "type": "Archive",
+            "sizeKB": 14.509765625
+          }
+        ]
+      }
+    ]
+  }
+]

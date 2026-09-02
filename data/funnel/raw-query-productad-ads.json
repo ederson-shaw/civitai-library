@@ -1,0 +1,950 @@
+[
+  {
+    "id": 145921,
+    "name": "Product Photo Composer SD1.5 (Advertising Photos with Invoke AI 3.1.1)",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "technerd",
+      "href": "https://civitai.com/users/technerd"
+    },
+    "stats": {
+      "downloadCount": 3591,
+      "thumbsUpCount": 251,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 400,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2023-09-15T12:50:23.808Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/145921",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/width=450/2511992.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/original=true/2511992.jpeg"
+    },
+    "versions": [
+      {
+        "id": 162402,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2023-09-15T12:50:23.808Z",
+        "downloadUrl": "https://civitai.com/api/download/models/162402",
+        "files": [
+          {
+            "name": "productPhotoComposerSD15_v10.zip",
+            "type": "Archive",
+            "sizeKB": 574.0009765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1899412,
+    "name": "Product Integration into Background(Kontext)",
+    "type": "Workflows",
+    "baseModel": "Flux.1 Kontext",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "VictorJWK",
+      "href": "https://civitai.com/users/VictorJWK"
+    },
+    "stats": {
+      "downloadCount": 453,
+      "thumbsUpCount": 25,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-08-26T06:05:45.723Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1899412",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8af3f9f-6d89-48f7-9204-d68baeee981b/width=450/96566408.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8af3f9f-6d89-48f7-9204-d68baeee981b/original=true/96566408.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2150002,
+        "name": "v1.0",
+        "baseModel": "Flux.1 Kontext",
+        "updatedAt": "2025-08-26T06:05:45.723Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2150002",
+        "files": [
+          {
+            "name": "productIntegrationInto_v10.zip",
+            "type": "Archive",
+            "sizeKB": 398.9560546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2349308,
+    "name": "Product + Scene Image Re-lighting flux-2-klein",
+    "type": "Workflows",
+    "baseModel": "Flux.2 Klein 9B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "DUDU0627",
+      "href": "https://civitai.com/users/DUDU0627"
+    },
+    "stats": {
+      "downloadCount": 326,
+      "thumbsUpCount": 9,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2026-01-30T02:04:44.738Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2349308",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c76aae3-ce5f-469f-9476-54321936c25c/width=450/119274206.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c76aae3-ce5f-469f-9476-54321936c25c/original=true/119274206.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2642397,
+        "name": "v1.0",
+        "baseModel": "Flux.2 Klein 9B",
+        "updatedAt": "2026-01-30T02:04:44.738Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2642397",
+        "files": [
+          {
+            "name": "productSceneImageRe_v10.zip",
+            "type": "Archive",
+            "sizeKB": 7.3837890625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 413803,
+    "name": "Change product background with the image of your choice using Style Transfer.",
+    "type": "Workflows",
+    "baseModel": "SDXL Lightning",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "darshan121",
+      "href": "https://civitai.com/users/darshan121"
+    },
+    "stats": {
+      "downloadCount": 2278,
+      "thumbsUpCount": 138,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2024-04-22T09:06:51.475Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/413803",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/width=450/10466364.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/original=true/10466364.jpeg"
+    },
+    "versions": [
+      {
+        "id": 461152,
+        "name": "v1.0",
+        "baseModel": "SDXL Lightning",
+        "updatedAt": "2024-04-22T09:06:51.475Z",
+        "downloadUrl": "https://civitai.com/api/download/models/461152",
+        "files": [
+          {
+            "name": "changeProductBackgroundWith_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.9013671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 413826,
+    "name": "Change product background with the image of your choice using Style Transfer.",
+    "type": "Workflows",
+    "baseModel": "SDXL Lightning",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "darshan121",
+      "href": "https://civitai.com/users/darshan121"
+    },
+    "stats": {
+      "downloadCount": 914,
+      "thumbsUpCount": 67,
+      "thumbsDownCount": 1,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2024-04-22T09:27:25.259Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/413826",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/width=450/10467350.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/original=true/10467350.jpeg"
+    },
+    "versions": [
+      {
+        "id": 461176,
+        "name": "v1.0",
+        "baseModel": "SDXL Lightning",
+        "updatedAt": "2024-04-22T09:27:25.259Z",
+        "downloadUrl": "https://civitai.com/api/download/models/461176",
+        "files": [
+          {
+            "name": "changeProductBackgroundWith_v10.zip",
+            "type": "Archive",
+            "sizeKB": 2.9013671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2380048,
+    "name": "Klein Product texture Change Workflow",
+    "type": "Workflows",
+    "baseModel": "Flux.2 Klein 9B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "ggleowo738",
+      "href": "https://civitai.com/users/ggleowo738"
+    },
+    "stats": {
+      "downloadCount": 296,
+      "thumbsUpCount": 20,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2026-02-10T06:59:08.838Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2380048",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85577dca-f814-4827-b691-af8ae84740bf/width=450/120576087.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85577dca-f814-4827-b691-af8ae84740bf/original=true/120576087.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2676453,
+        "name": "v1.0",
+        "baseModel": "Flux.2 Klein 9B",
+        "updatedAt": "2026-02-10T06:59:08.838Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2676453",
+        "files": [
+          {
+            "name": "kleinProductTexture_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.0146484375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2376048,
+    "name": "Klein Product Color Change Workflow (Specified Color)",
+    "type": "Workflows",
+    "baseModel": "Flux.2 Klein 9B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "ggleowo738",
+      "href": "https://civitai.com/users/ggleowo738"
+    },
+    "stats": {
+      "downloadCount": 203,
+      "thumbsUpCount": 12,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2026-02-08T17:49:23.377Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2376048",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00d54b73-08d6-420f-8306-627566d4addf/width=450/120396437.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00d54b73-08d6-420f-8306-627566d4addf/original=true/120396437.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2672073,
+        "name": "v1.0",
+        "baseModel": "Flux.2 Klein 9B",
+        "updatedAt": "2026-02-08T17:49:23.377Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2672073",
+        "files": [
+          {
+            "name": "kleinProductColorChange_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.90625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 985126,
+    "name": "[flux-fill + flux-redux] Product Background Change",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "nouvo_ai",
+      "href": "https://civitai.com/users/nouvo_ai"
+    },
+    "stats": {
+      "downloadCount": 1880,
+      "thumbsUpCount": 72,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2024-11-27T01:23:40.463Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/985126",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/width=450/42298498.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/original=true/42298498.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1103534,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-11-27T01:23:40.463Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1103534",
+        "files": [
+          {
+            "name": "FluxFillFluxRedux_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.708984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129452,
+    "name": "Material Migration of QwenEdit2509 Product",
+    "type": "Workflows",
+    "baseModel": "Qwen",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "dudumd",
+      "href": "https://civitai.com/users/dudumd"
+    },
+    "stats": {
+      "downloadCount": 192,
+      "thumbsUpCount": 20,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-11-15T13:19:04.720Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129452",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/852cd347-5ef8-4cff-8a87-24630edff7ad/width=450/110294584.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/852cd347-5ef8-4cff-8a87-24630edff7ad/original=true/110294584.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2408764,
+        "name": "v1.0",
+        "baseModel": "Qwen",
+        "updatedAt": "2025-11-15T13:19:04.720Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2408764",
+        "files": [
+          {
+            "name": "materialMigrationOf_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.1171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1792433,
+    "name": "Flux+Kontext Clothing Extraction Product White Background Image Accelerated Edition",
+    "type": "Workflows",
+    "baseModel": "Flux.1 Kontext",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 244,
+      "thumbsUpCount": 12,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-07-20T03:59:20.848Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1792433",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ee58a1a-269d-4824-a1d8-812b6b6e55d4/width=450/89314481.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ee58a1a-269d-4824-a1d8-812b6b6e55d4/original=true/89314481.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2028434,
+        "name": "v1.0",
+        "baseModel": "Flux.1 Kontext",
+        "updatedAt": "2025-07-20T03:59:20.848Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2028434",
+        "files": [
+          {
+            "name": "fluxKontextClothing_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.26953125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1771781,
+    "name": "Flux+Kontext+Dev Beauty Product Retouching Accelerated Edition",
+    "type": "Workflows",
+    "baseModel": "Flux.1 Kontext",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 114,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-07-13T13:10:54.060Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1771781",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29539a4f-8780-4155-b57f-26a68fc75ebb/width=450/88003838.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29539a4f-8780-4155-b57f-26a68fc75ebb/original=true/88003838.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2005239,
+        "name": "v1.0",
+        "baseModel": "Flux.1 Kontext",
+        "updatedAt": "2025-07-13T13:10:54.060Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2005239",
+        "files": [
+          {
+            "name": "fluxKontextDevBeauty_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.76171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1792514,
+    "name": "Flux+Kontext Handheld Product Integration Place+It Accelerated Edition v1",
+    "type": "Workflows",
+    "baseModel": "Flux.1 Kontext",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 130,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-07-20T04:42:15.065Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1792514",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fad5cd1-fa61-4f13-8981-81303bcfe9c3/width=450/89320827.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fad5cd1-fa61-4f13-8981-81303bcfe9c3/original=true/89320827.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2028520,
+        "name": "v1.0",
+        "baseModel": "Flux.1 Kontext",
+        "updatedAt": "2025-07-20T04:42:15.065Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2028520",
+        "files": [
+          {
+            "name": "fluxKontextHandheldProduct_v10.zip",
+            "type": "Archive",
+            "sizeKB": 911.9365234375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2090432,
+    "name": "E-commerce- Kontext- Basic product integration diagram",
+    "type": "Workflows",
+    "baseModel": "Flux.1 Kontext",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIGC_Singularity",
+      "href": "https://civitai.com/users/AIGC_Singularity"
+    },
+    "stats": {
+      "downloadCount": 83,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-11-01T00:34:00.358Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2090432",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c25d1ec-e894-48b8-94f7-d9c41e5ec6b0/width=450/108431473.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c25d1ec-e894-48b8-94f7-d9c41e5ec6b0/original=true/108431473.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2365155,
+        "name": "v1.0",
+        "baseModel": "Flux.1 Kontext",
+        "updatedAt": "2025-11-01T00:34:00.358Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2365155",
+        "files": [
+          {
+            "name": "eCommerceKontextBasic_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.41796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2349442,
+    "name": "When the background of the product is changed, the product reference lines will remain 100% unchanged and without distortion or offset.",
+    "type": "Workflows",
+    "baseModel": "Flux.2 Klein 9B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "DUDU0627",
+      "href": "https://civitai.com/users/DUDU0627"
+    },
+    "stats": {
+      "downloadCount": 253,
+      "thumbsUpCount": 6,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2026-01-30T03:13:01.741Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2349442",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8251160-1ae2-474b-b25d-feb5baf1ea93/width=450/119279854.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8251160-1ae2-474b-b25d-feb5baf1ea93/original=true/119279854.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2642537,
+        "name": "v1.0",
+        "baseModel": "Flux.2 Klein 9B",
+        "updatedAt": "2026-01-30T03:13:01.741Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2642537",
+        "files": [
+          {
+            "name": "whenTheBackgroundOfTheProductIs_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.3154296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129494,
+    "name": "MultiTalk + IndexTTS + Kontext Digital Human Product Showcase",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 73,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-11-15T13:40:15.258Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129494",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51ca1b27-1d85-435c-9e8e-df52b83f79be/width=450/110296395.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51ca1b27-1d85-435c-9e8e-df52b83f79be/original=true/110296395.mp4"
+    },
+    "versions": [
+      {
+        "id": 2408817,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-11-15T13:40:15.258Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2408817",
+        "files": [
+          {
+            "name": "multitalkIndexttsKontext_v10.zip",
+            "type": "Archive",
+            "sizeKB": 36.0625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129527,
+    "name": "MAGREF + IndexTTS + HeyGem Digital Human Product Showcase",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 49,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-11-15T13:53:07.618Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129527",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2188fb04-486e-485d-83da-7dac6da3f851/width=450/110297362.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2188fb04-486e-485d-83da-7dac6da3f851/original=true/110297362.mp4"
+    },
+    "versions": [
+      {
+        "id": 2408852,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-11-15T13:53:07.618Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2408852",
+        "files": [
+          {
+            "name": "magrefIndexttsHeygem_v10.zip",
+            "type": "Archive",
+            "sizeKB": 51.8662109375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 926474,
+    "name": "电商产品视觉设计工作流/E-commerce product visual design workflow",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "18059978051868",
+      "href": "https://civitai.com/users/18059978051868"
+    },
+    "stats": {
+      "downloadCount": 895,
+      "thumbsUpCount": 30,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2024-11-07T13:54:19.301Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/926474",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/width=450/38846437.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/original=true/38846437.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1037037,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-11-07T13:54:19.301Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1037037",
+        "files": [
+          {
+            "name": "ECommerceProductVisual_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.98046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2170823,
+    "name": "(4K-Benchmark 0.15) Nano+Banana+Pro Cartoon-to-Live Action Erotic Product Teardown Diagram V1 (Zhenzhen AI Workshop Edition)",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 39,
+      "thumbsUpCount": 1,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+    },
+    "lastUpdated": "2025-11-27T15:51:20.717Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2170823",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3079a7c-fdbf-4350-a096-de41cf697cd6/width=450/111763272.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3079a7c-fdbf-4350-a096-de41cf697cd6/original=true/111763272.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2444578,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-11-27T15:51:20.717Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2444578",
+        "files": [
+          {
+            "name": "4KBenchmark015NanoBananaProCartoon_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.0517578125
+          }
+        ]
+      }
+    ]
+  }
+]

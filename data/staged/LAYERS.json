@@ -1,0 +1,5542 @@
+{
+ "stage": "LAYERS",
+ "generated": "2026-09-02T04:06:57+00:00",
+ "note": "auto-staged from funnel+vision; curation pass owns final fields",
+ "entries": [
+  {
+   "id": 1105685,
+   "our_name": null,
+   "source_name": "Dramatic Lighting Slider [Pony, Illustrious]",
+   "purpose": null,
+   "composite": 20.0,
+   "tier": "S-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 66792,
+    "thumbsUpCount": 8583
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19750a92-a93e-43a6-b078-5575c06dc50f/width=450/49634404.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19750a92-a93e-43a6-b078-5575c06dc50f/original=true/49634404.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1105685",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 987736,
+   "our_name": null,
+   "source_name": "NoobAI-XL Detailer",
+   "purpose": null,
+   "composite": 20.0,
+   "tier": "S-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "NoobAI",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 65737,
+    "thumbsUpCount": 8568
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37812b9c-e220-43db-8442-1e36d64ee114/width=450/47950408.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37812b9c-e220-43db-8442-1e36d64ee114/original=true/47950408.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/987736",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1280702,
+   "our_name": null,
+   "source_name": "Lighting / darkness slider",
+   "purpose": null,
+   "composite": 19.7,
+   "tier": "A-candidate",
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 44469,
+    "thumbsUpCount": 5621
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54eec9-ebcb-40c7-8473-ca308db8fa42/width=450/135153158.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54eec9-ebcb-40c7-8473-ca308db8fa42/original=true/135153158.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1280702",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 888250,
+   "our_name": null,
+   "source_name": "Vixon's Classic Art Styles - detailed painting",
+   "purpose": null,
+   "composite": 19.6,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 39328,
+    "thumbsUpCount": 6093
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e052f6be-3480-44e8-8354-ff3b2170165f/width=450/110502562.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e052f6be-3480-44e8-8354-ff3b2170165f/original=true/110502562.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/888250",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1001945,
+   "our_name": null,
+   "source_name": "Detail Slider LoRA | Illustrious-XL",
+   "purpose": null,
+   "composite": 19.6,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 42372,
+    "thumbsUpCount": 5494
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07fa88c5-daf9-40e6-8960-927a3a24b414/width=450/43345984.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07fa88c5-daf9-40e6-8960-927a3a24b414/original=true/43345984.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1001945",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 768917,
+   "our_name": null,
+   "source_name": "[Style filter] Xu Er thick paint composition light texture enhancement",
+   "purpose": null,
+   "composite": 19.5,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 36721,
+    "thumbsUpCount": 5179
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a74a8053-1dc2-4ccf-876f-29b6fd0bad78/width=450/51375345.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a74a8053-1dc2-4ccf-876f-29b6fd0bad78/original=true/51375345.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/768917",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1231943,
+   "our_name": null,
+   "source_name": "Detailer IL",
+   "purpose": null,
+   "composite": 19.3,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 36199,
+    "thumbsUpCount": 4527
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2324cf6-7bc5-4c52-a7ff-301ed595c1f8/width=450/73710068.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2324cf6-7bc5-4c52-a7ff-301ed595c1f8/original=true/73710068.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1231943",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1115090,
+   "our_name": null,
+   "source_name": "Illustrious Realism Enhancer ✨",
+   "purpose": null,
+   "composite": 19.0,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 20158,
+    "thumbsUpCount": 2645
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7b4f210-4679-4c45-a905-7be23d01f637/width=450/50141873.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7b4f210-4679-4c45-a905-7be23d01f637/original=true/50141873.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1115090",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 974076,
+   "our_name": null,
+   "source_name": "Enchanting Eyes (Anima, Illustrious, and Pony) (Detailed Eyes)",
+   "purpose": null,
+   "composite": 18.9,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 19375,
+    "thumbsUpCount": 2524
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc85b20f-c19b-407f-a404-d397c0fe664f/width=450/133583524.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc85b20f-c19b-407f-a404-d397c0fe664f/original=true/133583524.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/974076",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 147751,
+   "our_name": null,
+   "source_name": "DarkLight",
+   "purpose": null,
+   "composite": 18.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 16336,
+    "thumbsUpCount": 2234
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26d76dc3-76e9-425a-9426-954704161610/width=450/2793258.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26d76dc3-76e9-425a-9426-954704161610/original=true/2793258.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/147751",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 350450,
+   "our_name": null,
+   "source_name": "SDXL Lightning LoRAs",
+   "purpose": null,
+   "composite": 18.7,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 69992,
+    "thumbsUpCount": 7756
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa7c1d9b-f806-4051-b7a6-081b73b20834/width=450/96679485.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa7c1d9b-f806-4051-b7a6-081b73b20834/original=true/96679485.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/350450",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 661736,
+   "our_name": null,
+   "source_name": "S1 Dramatic Lighting",
+   "purpose": null,
+   "composite": 18.7,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 57038,
+    "thumbsUpCount": 6349
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e0f16f0-1a56-4388-875c-f3ec09fd8c9d/width=450/100008629.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e0f16f0-1a56-4388-875c-f3ec09fd8c9d/original=true/100008629.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/661736",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 633524,
+   "our_name": null,
+   "source_name": "Background Detail Enhancer✨",
+   "purpose": null,
+   "composite": 18.5,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 23559,
+    "thumbsUpCount": 2816
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6e8b6f9-732d-4bde-9c83-645cf9e6d0b5/width=450/139153025.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6e8b6f9-732d-4bde-9c83-645cf9e6d0b5/original=true/139153025.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/633524",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 229213,
+   "our_name": null,
+   "source_name": "extremely detailed (no trigger) - sliders.ntcai.xyz",
+   "purpose": null,
+   "composite": 18.3,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 100496,
+    "thumbsUpCount": 10583
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d9283fd-4eac-40bf-ab84-c104236e4586/width=450/7703460.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d9283fd-4eac-40bf-ab84-c104236e4586/original=true/7703460.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/229213",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 402462,
+   "our_name": null,
+   "source_name": "Detail Slider LoRA | PonyXL SDXL",
+   "purpose": null,
+   "composite": 18.3,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 60621,
+    "thumbsUpCount": 6495
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/236b6ceb-d1bb-4ff7-9875-e592a22df79a/width=450/23721548.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/236b6ceb-d1bb-4ff7-9875-e592a22df79a/original=true/23721548.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/402462",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 78056,
+   "our_name": null,
+   "source_name": "SakushiMix (finished)",
+   "purpose": null,
+   "composite": 18.2,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 42463,
+    "thumbsUpCount": 4614
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f094f00a-a0fd-43ae-a443-e306ccb0a86a/width=450/1869281.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f094f00a-a0fd-43ae-a443-e306ccb0a86a/original=true/1869281.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/78056",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 162016,
+   "our_name": null,
+   "source_name": "Celestial Skin - Character Creation",
+   "purpose": null,
+   "composite": 18.2,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 9098,
+    "thumbsUpCount": 1573
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0042131-693c-4b16-95df-922a94a45a75/width=450/136287850.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0042131-693c-4b16-95df-922a94a45a75/original=true/136287850.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/162016",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 572473,
+   "our_name": null,
+   "source_name": "Glowing light",
+   "purpose": null,
+   "composite": 18.0,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 6733,
+    "thumbsUpCount": 1037
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9587126-10ad-4293-95c2-a7cb0c61487e/width=450/137043703.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9587126-10ad-4293-95c2-a7cb0c61487e/original=true/137043703.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/572473",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 598621,
+   "our_name": null,
+   "source_name": "(Detail Enhancer) 3D Blender Style",
+   "purpose": null,
+   "composite": 18.0,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 11853,
+    "thumbsUpCount": 1429
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23bcc67e-d4a0-4243-8093-0ce61ddbe58a/width=450/65179933.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23bcc67e-d4a0-4243-8093-0ce61ddbe58a/original=true/65179933.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/598621",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1145743,
+   "our_name": null,
+   "source_name": "Smooth Detailer Booster (Anima/SDXL/Pony)",
+   "purpose": null,
+   "composite": 17.9,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 96991,
+    "thumbsUpCount": 9758
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a64a072-670f-41ff-8ee5-e8a11d67b5fb/width=450/141029715.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a64a072-670f-41ff-8ee5-e8a11d67b5fb/original=true/141029715.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1145743",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 120723,
+   "our_name": null,
+   "source_name": "DetailedEyes_XL",
+   "purpose": null,
+   "composite": 17.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 93053,
+    "thumbsUpCount": 9224
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cebd0283-6c71-45e2-b204-c9fa3b6bea1f/width=450/2148743.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cebd0283-6c71-45e2-b204-c9fa3b6bea1f/original=true/2148743.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/120723",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 145545,
+   "our_name": null,
+   "source_name": "Light Control SD15 - Left Right",
+   "purpose": null,
+   "composite": 17.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 5953,
+    "thumbsUpCount": 751
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71855864-0e04-4810-b60c-9daa7be9df79/width=450/2504159.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71855864-0e04-4810-b60c-9daa7be9df79/original=true/2504159.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/145545",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 104292,
+   "our_name": null,
+   "source_name": "The forest light",
+   "purpose": null,
+   "composite": 17.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 18094,
+    "thumbsUpCount": 2056
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38ba1605-b111-4072-a97f-352fa63f887d/width=450/1756823.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38ba1605-b111-4072-a97f-352fa63f887d/original=true/1756823.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/104292",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 264681,
+   "our_name": null,
+   "source_name": "WildCardX-XL-Detail/Enhancer",
+   "purpose": null,
+   "composite": 17.7,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 11147,
+    "thumbsUpCount": 1318
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ac82446-2f47-49d2-9482-3c2b62ac0fdc/width=450/5486845.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ac82446-2f47-49d2-9482-3c2b62ac0fdc/original=true/5486845.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/264681",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 122359,
+   "our_name": null,
+   "source_name": "Detail Tweaker XL",
+   "purpose": null,
+   "composite": 17.6,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 448635,
+    "thumbsUpCount": 43550
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/217179cb-87a0-4e96-8d77-e410f757aba0/width=450/1917130.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/217179cb-87a0-4e96-8d77-e410f757aba0/original=true/1917130.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/122359",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 383086,
+   "our_name": null,
+   "source_name": "Pony Detail Tweaker",
+   "purpose": null,
+   "composite": 17.3,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 53998,
+    "thumbsUpCount": 5141
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c047005-9697-4d58-a994-a7e69098d280/width=450/9991726.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c047005-9697-4d58-a994-a7e69098d280/original=true/9991726.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/383086",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 981577,
+   "our_name": null,
+   "source_name": "KFT's HLA Image Enhancer [FLUX]",
+   "purpose": null,
+   "composite": 16.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3147,
+    "thumbsUpCount": 379
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bdfce6f7-38e9-4297-9bda-fc85a56aea5b/width=450/42224199.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bdfce6f7-38e9-4297-9bda-fc85a56aea5b/original=true/42224199.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/981577",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1486921,
+   "our_name": null,
+   "source_name": "Real Skin Slider",
+   "purpose": null,
+   "composite": 16.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 55423,
+    "thumbsUpCount": 4799
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abbef550-8c38-4686-a886-d734afffff4c/width=450/71022452.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abbef550-8c38-4686-a886-d734afffff4c/original=true/71022452.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1486921",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 810000,
+   "our_name": null,
+   "source_name": "NEW FANTASY CORE - ILL-FLUX-PONY-SDXL- ZIT(detailer)",
+   "purpose": null,
+   "composite": 16.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 22731,
+    "thumbsUpCount": 2180
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c138c20-d434-4a13-b138-8933b28ced26/width=450/95501957.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c138c20-d434-4a13-b138-8933b28ced26/original=true/95501957.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/810000",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 153562,
+   "our_name": null,
+   "source_name": "Detail Slider - LoRA",
+   "purpose": null,
+   "composite": 16.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 43171,
+    "thumbsUpCount": 3827
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7aa0a5c-581b-4f72-b193-af9395e47cc0/width=450/2708903.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7aa0a5c-581b-4f72-b193-af9395e47cc0/original=true/2708903.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/153562",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 263104,
+   "our_name": null,
+   "source_name": "EYE DETAIL FLUX LORA  (& INPAINT)",
+   "purpose": null,
+   "composite": 16.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 13880,
+    "thumbsUpCount": 1410
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8963448-109d-4051-8c82-818b2013c2eb/width=450/36961415.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8963448-109d-4051-8c82-818b2013c2eb/original=true/36961415.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/263104",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1377820,
+   "our_name": null,
+   "source_name": "Add Micro Details - Concept (Illustrious | Pony | NoobAI)",
+   "purpose": null,
+   "composite": 16.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 94576,
+    "thumbsUpCount": 7723
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97d34e56-0a04-4c23-9953-d45867249a47/width=450/141505674.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97d34e56-0a04-4c23-9953-d45867249a47/original=true/141505674.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1377820",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 643886,
+   "our_name": null,
+   "source_name": "FLUX 🌟FaeTastic Details",
+   "purpose": null,
+   "composite": 16.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 31664,
+    "thumbsUpCount": 2824
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5613fa67-ddea-4784-bba5-9468f66e24ee/width=450/24159332.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5613fa67-ddea-4784-bba5-9468f66e24ee/original=true/24159332.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/643886",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 124347,
+   "our_name": null,
+   "source_name": "xl_more_art-full / xl_real / Enhancer",
+   "purpose": null,
+   "composite": 16.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 127875,
+    "thumbsUpCount": 10277
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321764d7-8265-4050-bbcd-d6c0a5da556c/width=450/2287991.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321764d7-8265-4050-bbcd-d6c0a5da556c/original=true/2287991.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/124347",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 5693,
+   "our_name": null,
+   "source_name": "beautiful detailed eyes,",
+   "purpose": null,
+   "composite": 16.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Other",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 49562,
+    "thumbsUpCount": 4107
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08a8ee1-e3f3-403f-22b3-7586100a5600/width=450/60376.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08a8ee1-e3f3-403f-22b3-7586100a5600/original=true/60376.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/5693",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 280472,
+   "our_name": null,
+   "source_name": "Chiaroscuro (Contrasted) Lighting Style XL + F1D + Illu + Pony + zit + zib",
+   "purpose": null,
+   "composite": 16.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageBase",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 14517,
+    "thumbsUpCount": 1396
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1e91bac-1c56-4803-979f-451839137206/width=450/131004892.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1e91bac-1c56-4803-979f-451839137206/original=true/131004892.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/280472",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 678808,
+   "our_name": null,
+   "source_name": "Mystic Enchantress Detail++",
+   "purpose": null,
+   "composite": 16.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1526,
+    "thumbsUpCount": 188
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/649cb2b7-4de9-4a1b-aac4-0f2ea70e9945/width=450/79627843.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/649cb2b7-4de9-4a1b-aac4-0f2ea70e9945/original=true/79627843.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/678808",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 62687,
+   "our_name": null,
+   "source_name": "Tangbohu Detail Maker LoRA (唐伯虎细节制造LoRA)",
+   "purpose": null,
+   "composite": 16.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 11028,
+    "thumbsUpCount": 1088
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d28d6142-d651-4ce2-818d-da7050514ab9/width=450/945033.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d28d6142-d651-4ce2-818d-da7050514ab9/original=true/945033.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/62687",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 290860,
+   "our_name": null,
+   "source_name": "Cinematic \"Warm Light\" 3200k Lighting Style XL + F1D + Illu + Pony",
+   "purpose": null,
+   "composite": 16.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 12288,
+    "thumbsUpCount": 1194
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4f13121-2566-4bc5-a049-a790f495df48/width=450/56543050.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4f13121-2566-4bc5-a049-a790f495df48/original=true/56543050.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/290860",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1155749,
+   "our_name": null,
+   "source_name": "Hyperdetailed Colored Pencil",
+   "purpose": null,
+   "composite": 16.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 39306,
+    "thumbsUpCount": 3192
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d2e1b22-6172-4f79-9024-57f21f2133ca/width=450/136219742.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d2e1b22-6172-4f79-9024-57f21f2133ca/original=true/136219742.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1155749",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 280421,
+   "our_name": null,
+   "source_name": "Low-key lighting Style XL + F1D + Illu + Pony + zit",
+   "purpose": null,
+   "composite": 16.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 11076,
+    "thumbsUpCount": 1069
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9fc80998-076b-4298-838d-7ab6f4cb57bd/width=450/117565738.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9fc80998-076b-4298-838d-7ab6f4cb57bd/original=true/117565738.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/280421",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2026594,
+   "our_name": null,
+   "source_name": "MiaoMiao RealSkin",
+   "purpose": null,
+   "composite": 15.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 52225,
+    "thumbsUpCount": 4077
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5377bc09-9479-4ae6-848b-aa44c0b7d1c6/width=450/140789295.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5377bc09-9479-4ae6-848b-aa44c0b7d1c6/original=true/140789295.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2026594",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 280454,
+   "our_name": null,
+   "source_name": "Rembrandt (Low-Key) Lighting Style XL + SD1.5 + F1D + Illu + Pony + zit",
+   "purpose": null,
+   "composite": 15.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 13434,
+    "thumbsUpCount": 1238
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a790f881-c0e6-490a-bc30-6267e0e62c88/width=450/116067287.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a790f881-c0e6-490a-bc30-6267e0e62c88/original=true/116067287.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/280454",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 51430,
+   "our_name": null,
+   "source_name": "Better eyes+face+skin | 更好的眼睛+脸+皮肤",
+   "purpose": null,
+   "composite": 15.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 38726,
+    "thumbsUpCount": 3140
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24454a8a-2ec4-465c-b153-494d6234bef6/width=450/802676.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24454a8a-2ec4-465c-b153-494d6234bef6/original=true/802676.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/51430",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 974775,
+   "our_name": null,
+   "source_name": "BetterPotraits/ Detailer Pony",
+   "purpose": null,
+   "composite": 15.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1803,
+    "thumbsUpCount": 209
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbfa1079-5153-4b72-a792-ff3075b69430/width=450/41650517.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbfa1079-5153-4b72-a792-ff3075b69430/original=true/41650517.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/974775",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 390892,
+   "our_name": null,
+   "source_name": "Add More Details - concept (free use or merge)",
+   "purpose": null,
+   "composite": 15.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 26252,
+    "thumbsUpCount": 2187
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec4ae777-8d91-4fdc-bb86-1910ae278b1c/width=450/51787024.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec4ae777-8d91-4fdc-bb86-1910ae278b1c/original=true/51787024.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/390892",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 78283,
+   "our_name": null,
+   "source_name": "Elixir — Enhancer LoRA 🧪",
+   "purpose": null,
+   "composite": 15.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 12689,
+    "thumbsUpCount": 1159
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/568e53b3-589e-45d4-bef0-87bf7dbce935/width=450/936588.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/568e53b3-589e-45d4-bef0-87bf7dbce935/original=true/936588.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/78283",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 391036,
+   "our_name": null,
+   "source_name": "Cucoloris casting shadow (lighting modifiers) style XL + SD1.5 + F1D + Illu + Pony + zit",
+   "purpose": null,
+   "composite": 15.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 20504,
+    "thumbsUpCount": 1719
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71011ca3-eade-413d-87b4-0548540a74be/width=450/116160136.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71011ca3-eade-413d-87b4-0548540a74be/original=true/116160136.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/391036",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1300857,
+   "our_name": null,
+   "source_name": "Eye detail LoRA [Illustrious+FLUX+Z Image Turbo]",
+   "purpose": null,
+   "composite": 15.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 20476,
+    "thumbsUpCount": 1704
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad04e20a-cf02-4194-bd87-780c35f05b9b/width=450/129184099.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad04e20a-cf02-4194-bd87-780c35f05b9b/original=true/129184099.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1300857",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 669571,
+   "our_name": null,
+   "source_name": "Pony & Anima Add more details",
+   "purpose": null,
+   "composite": 15.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 10656,
+    "thumbsUpCount": 978
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/493d3b85-30bd-440d-b87b-bd5ccdfc6f10/width=450/33109670.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/493d3b85-30bd-440d-b87b-bd5ccdfc6f10/original=true/33109670.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/669571",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2329053,
+   "our_name": null,
+   "source_name": "Purple Grainy || Photography lora",
+   "purpose": null,
+   "composite": 15.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 8763,
+    "thumbsUpCount": 829
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ed65752-3bbe-4906-85ec-96341a3e5e84/width=450/136114517.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ed65752-3bbe-4906-85ec-96341a3e5e84/original=true/136114517.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2329053",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 542366,
+   "our_name": null,
+   "source_name": "Underlighting (light from below) style XL + F1D + ZIB",
+   "purpose": null,
+   "composite": 15.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageBase",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1578,
+    "thumbsUpCount": 179
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e80a35e4-345a-47fb-94c0-09e68cb71200/width=450/131002191.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e80a35e4-345a-47fb-94c0-09e68cb71200/original=true/131002191.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/542366",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 562866,
+   "our_name": null,
+   "source_name": "FLUX Image Upgrader / Detail Maximizer / Contrast Fix for low CFG [+ILLUSTRIOUS / SDXL / SD 1.5]",
+   "purpose": null,
+   "composite": 15.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 65820,
+    "thumbsUpCount": 4622
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbe4a231-578a-437d-99db-69320f15aab8/width=450/36032393.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbe4a231-578a-437d-99db-69320f15aab8/original=true/36032393.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/562866",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1333749,
+   "our_name": null,
+   "source_name": "Add Detail - Slider",
+   "purpose": null,
+   "composite": 15.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 60487,
+    "thumbsUpCount": 4267
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b8416c-66ee-4296-813a-757e347e2021/width=450/62215516.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b8416c-66ee-4296-813a-757e347e2021/original=true/62215516.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1333749",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 413466,
+   "our_name": null,
+   "source_name": "Boltning - Realistic, Lightning, HYPER",
+   "purpose": null,
+   "composite": 15.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Hyper",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 14922,
+    "thumbsUpCount": 1283
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b21ed00-4bae-4cc4-9f1a-2e949a2f9c0d/width=450/11654534.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b21ed00-4bae-4cc4-9f1a-2e949a2f9c0d/original=true/11654534.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/413466",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 149459,
+   "our_name": null,
+   "source_name": "Light Control SD15 - Up Down",
+   "purpose": null,
+   "composite": 15.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 5940,
+    "thumbsUpCount": 570
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d578d3da-1605-47a5-bb9e-4ea15c5bc03e/width=450/2613482.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d578d3da-1605-47a5-bb9e-4ea15c5bc03e/original=true/2613482.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/149459",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 41809,
+   "our_name": null,
+   "source_name": "Better Portrait Lighting",
+   "purpose": null,
+   "composite": 15.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 11888,
+    "thumbsUpCount": 1043
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/574ec1e7-d7ab-4d0c-3f6e-da02d3145200/width=450/575180.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/574ec1e7-d7ab-4d0c-3f6e-da02d3145200/original=true/575180.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/41809",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 391031,
+   "our_name": null,
+   "source_name": "Silhouette (cinematic lighting) style XL + F1D + zit",
+   "purpose": null,
+   "composite": 15.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3214,
+    "thumbsUpCount": 322
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/331f230b-940a-4ab1-b35c-443c5d539d42/width=450/117234664.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/331f230b-940a-4ab1-b35c-443c5d539d42/original=true/117234664.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/391031",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 572899,
+   "our_name": null,
+   "source_name": "Realistic Skin for pony",
+   "purpose": null,
+   "composite": 15.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 24923,
+    "thumbsUpCount": 1935
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/453eb876-a8dd-45ab-aba5-e56c88595d3a/width=450/19501372.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/453eb876-a8dd-45ab-aba5-e56c88595d3a/original=true/19501372.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/572899",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1380970,
+   "our_name": null,
+   "source_name": "Face Detailed",
+   "purpose": null,
+   "composite": 15.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4718,
+    "thumbsUpCount": 452
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31cfb919-90d3-4aa2-875d-b96f9f7b27d4/width=450/124049761.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31cfb919-90d3-4aa2-875d-b96f9f7b27d4/original=true/124049761.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1380970",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 517355,
+   "our_name": null,
+   "source_name": "Reality enhancer [Pony]",
+   "purpose": null,
+   "composite": 15.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 11282,
+    "thumbsUpCount": 963
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1bf5d08-7d11-4497-b620-79d8496379e4/width=450/15903471.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1bf5d08-7d11-4497-b620-79d8496379e4/original=true/15903471.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/517355",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 927305,
+   "our_name": null,
+   "source_name": "Pony Realism Enhancer ✨",
+   "purpose": null,
+   "composite": 15.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 78425,
+    "thumbsUpCount": 4947
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5f189bae-b39a-433a-92af-9372d3278f95/width=450/59035632.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5f189bae-b39a-433a-92af-9372d3278f95/original=true/59035632.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/927305",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1332651,
+   "our_name": null,
+   "source_name": "GrainScape UltraReal",
+   "purpose": null,
+   "composite": 15.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 18113,
+    "thumbsUpCount": 1398
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0301313f-b3e9-4a0b-b45b-69c2ce3b2e49/width=450/136286760.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0301313f-b3e9-4a0b-b45b-69c2ce3b2e49/original=true/136286760.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1332651",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 260852,
+   "our_name": null,
+   "source_name": "Hand Detail FLUX & XL",
+   "purpose": null,
+   "composite": 15.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 45311,
+    "thumbsUpCount": 3031
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a18c8aec-7a1d-4f58-93ac-8b995daad7d6/width=450/37036908.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a18c8aec-7a1d-4f58-93ac-8b995daad7d6/original=true/37036908.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/260852",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1016670,
+   "our_name": null,
+   "source_name": "Detail Tweaker Illustrious By Stable Yogi",
+   "purpose": null,
+   "composite": 14.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 15829,
+    "thumbsUpCount": 1248
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc8381b1-8817-4dda-90f6-0367ffe82236/width=450/60432000.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc8381b1-8817-4dda-90f6-0367ffe82236/original=true/60432000.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1016670",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1032948,
+   "our_name": null,
+   "source_name": "Dark Side of Light",
+   "purpose": null,
+   "composite": 14.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 17237,
+    "thumbsUpCount": 1316
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23414a9b-48e3-4f69-a1fb-8130553bed38/width=450/122632842.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23414a9b-48e3-4f69-a1fb-8130553bed38/original=true/122632842.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1032948",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 832683,
+   "our_name": null,
+   "source_name": "FLUX [pro] 1.1 Style Lora - Extreme Detailer for [FLUX + ILLUSTRIOUS]",
+   "purpose": null,
+   "composite": 14.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 56763,
+    "thumbsUpCount": 3565
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9277ac2f-9443-480d-a1d6-89450bb9b4b6/width=450/49746356.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9277ac2f-9443-480d-a1d6-89450bb9b4b6/original=true/49746356.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/832683",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 151576,
+   "our_name": null,
+   "source_name": "Light Control - Back Front - Backlight Slider",
+   "purpose": null,
+   "composite": 14.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 17230,
+    "thumbsUpCount": 1288
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3eb37789-a222-4c6f-9b72-ab13a840895d/width=450/2664757.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3eb37789-a222-4c6f-9b72-ab13a840895d/original=true/2664757.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/151576",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 58390,
+   "our_name": null,
+   "source_name": "Detail Tweaker LoRA (细节调整LoRA)",
+   "purpose": null,
+   "composite": 14.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 578498,
+    "thumbsUpCount": 33514
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8db45d23-7bcf-4979-8b35-0e7779c5a8f8/width=450/692411.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8db45d23-7bcf-4979-8b35-0e7779c5a8f8/original=true/692411.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/58390",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 280387,
+   "our_name": null,
+   "source_name": "High-key lighting Style XL + F1D + Pony + Illu",
+   "purpose": null,
+   "composite": 14.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3531,
+    "thumbsUpCount": 322
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ef43f-fc46-42a5-b5a2-f4e858d28423/width=450/56140281.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ef43f-fc46-42a5-b5a2-f4e858d28423/original=true/56140281.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/280387",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 365274,
+   "our_name": null,
+   "source_name": "Kodak Film Grain (Cinematic) Film Photography style XL + F1D",
+   "purpose": null,
+   "composite": 14.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4946,
+    "thumbsUpCount": 430
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228a1721-ca10-4518-a8e5-222acbf2164a/width=450/58370735.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/228a1721-ca10-4518-a8e5-222acbf2164a/original=true/58370735.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/365274",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1157318,
+   "our_name": null,
+   "source_name": "Photorealistic Skin ⛔️ No plastic [FLUX]",
+   "purpose": null,
+   "composite": 14.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 34055,
+    "thumbsUpCount": 2198
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68451965-5556-4b58-b564-3499183ff906/width=450/52787447.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68451965-5556-4b58-b564-3499183ff906/original=true/52787447.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1157318",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 155526,
+   "our_name": null,
+   "source_name": "Film Grain Control SD15",
+   "purpose": null,
+   "composite": 14.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4044,
+    "thumbsUpCount": 351
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76fe7f29-6665-44f6-9ae7-b1d491d9507a/width=450/2766046.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76fe7f29-6665-44f6-9ae7-b1d491d9507a/original=true/2766046.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/155526",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 129666,
+   "our_name": null,
+   "source_name": "⋅ ⊣ Realities Edge XL ⊢ ⋅ LIGHTNING + Turbo!",
+   "purpose": null,
+   "composite": 14.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Lightning",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 67794,
+    "thumbsUpCount": 3629
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70055415-d0cb-4d79-8615-59996951027e/width=450/6989727.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70055415-d0cb-4d79-8615-59996951027e/original=true/6989727.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/129666",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 369575,
+   "our_name": null,
+   "source_name": "Envy Starlight XL 01 Lightning - Anime Western fusion digital painting / photography",
+   "purpose": null,
+   "composite": 14.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Lightning",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4853,
+    "thumbsUpCount": 402
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edc38458-5a36-424f-b28f-3321d56df61f/width=450/19172924.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edc38458-5a36-424f-b28f-3321d56df61f/original=true/19172924.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/369575",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 82098,
+   "our_name": null,
+   "source_name": "Add More Details - Detail Enhancer / Tweaker (细节调整) LoRA",
+   "purpose": null,
+   "composite": 14.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 407705,
+    "thumbsUpCount": 21280
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1697174-7c8d-4bde-b053-7b1ec0692b64/width=450/995787.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1697174-7c8d-4bde-b053-7b1ec0692b64/original=true/995787.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/82098",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 140993,
+   "our_name": null,
+   "source_name": "epiCRealLife Enhancer",
+   "purpose": null,
+   "composite": 14.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 27373,
+    "thumbsUpCount": 1715
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea134a16-8c0b-48a9-a4b6-bec1eb19a751/width=450/2377820.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea134a16-8c0b-48a9-a4b6-bec1eb19a751/original=true/2377820.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/140993",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 144416,
+   "our_name": null,
+   "source_name": "Light Control - Exposure",
+   "purpose": null,
+   "composite": 14.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 7309,
+    "thumbsUpCount": 563
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/809c6dcf-258f-4c40-ae31-c1c6fa84d08b/width=450/2623015.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/809c6dcf-258f-4c40-ae31-c1c6fa84d08b/original=true/2623015.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/144416",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 972925,
+   "our_name": null,
+   "source_name": "Super Skin Detailer By Stable Yogi",
+   "purpose": null,
+   "composite": 14.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 16216,
+    "thumbsUpCount": 1082
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3b034c0-cb26-4575-98f3-840994734477/width=450/41540024.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3b034c0-cb26-4575-98f3-840994734477/original=true/41540024.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/972925",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 411088,
+   "our_name": null,
+   "source_name": "Detailed Perfection style (Hands + Feet + Face + Body + All in one) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
+   "purpose": null,
+   "composite": 14.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageBase",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 131807,
+    "thumbsUpCount": 6714
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfab8345-6849-453d-8237-cbce59b38e3c/width=450/121917830.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfab8345-6849-453d-8237-cbce59b38e3c/original=true/121917830.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/411088",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 730402,
+   "our_name": null,
+   "source_name": "ADetailer Netidol Face [approved]",
+   "purpose": null,
+   "composite": 14.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 5839,
+    "thumbsUpCount": 460
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6da9f8f6-c2b9-4268-a380-79f38fd7a23f/width=450/123679411.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6da9f8f6-c2b9-4268-a380-79f38fd7a23f/original=true/123679411.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/730402",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2250412,
+   "our_name": null,
+   "source_name": "Dramatic Lighting & Realism Enhancer",
+   "purpose": null,
+   "composite": 14.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1587,
+    "thumbsUpCount": 148
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b07c8c-7b9b-4285-a9c2-c15255cefb8c/width=450/117961735.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b07c8c-7b9b-4285-a9c2-c15255cefb8c/original=true/117961735.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2250412",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 381960,
+   "our_name": null,
+   "source_name": "Butterfly Lighting style (from above) XL + F1D",
+   "purpose": null,
+   "composite": 14.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1517,
+    "thumbsUpCount": 143
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec89d5c2-6a69-4150-8245-96493e201842/width=450/55933799.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec89d5c2-6a69-4150-8245-96493e201842/original=true/55933799.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/381960",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 682890,
+   "our_name": null,
+   "source_name": "Detailer PONY",
+   "purpose": null,
+   "composite": 14.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2185,
+    "thumbsUpCount": 196
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bd171a2-c84e-4785-af82-c24dee9b525c/width=450/25969089.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bd171a2-c84e-4785-af82-c24dee9b525c/original=true/25969089.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/682890",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 336145,
+   "our_name": null,
+   "source_name": "NPC/DND Portrait XL (For Base/Dreamshaper/Lightning)",
+   "purpose": null,
+   "composite": 14.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1536,
+    "thumbsUpCount": 144
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/118380ea-3d18-4845-b39b-7ff88ed9296c/width=450/7498605.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/118380ea-3d18-4845-b39b-7ff88ed9296c/original=true/7498605.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/336145",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1879987,
+   "our_name": null,
+   "source_name": "Zoda 🥤 – NSFW Detailer",
+   "purpose": null,
+   "composite": 13.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 14189,
+    "thumbsUpCount": 950
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccc6c2d7-000e-4dc2-8494-757f69d998e4/width=450/137342678.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccc6c2d7-000e-4dc2-8494-757f69d998e4/original=true/137342678.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1879987",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 524367,
+   "our_name": null,
+   "source_name": "Fluorescent cinematic lighting style XL + F1D",
+   "purpose": null,
+   "composite": 13.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1475,
+    "thumbsUpCount": 136
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68095a81-e7d4-473c-b1c9-973213c79b00/width=450/55501359.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68095a81-e7d4-473c-b1c9-973213c79b00/original=true/55501359.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/524367",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 106717,
+   "our_name": null,
+   "source_name": "Advanced Enhancer LoRA",
+   "purpose": null,
+   "composite": 13.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 7975,
+    "thumbsUpCount": 588
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d6da285-3703-43b8-b968-0bba49e8d2d9/width=450/1495084.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d6da285-3703-43b8-b968-0bba49e8d2d9/original=true/1495084.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/106717",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 290864,
+   "our_name": null,
+   "source_name": "Cinematic Moonlight \"Cool Light\" 5600k Lighting Style XL + F1D + Illu + Pony",
+   "purpose": null,
+   "composite": 13.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3114,
+    "thumbsUpCount": 259
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c08d847-c26a-463b-9014-e2d7b1d0a23a/width=450/56546942.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c08d847-c26a-463b-9014-e2d7b1d0a23a/original=true/56546942.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/290864",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 757408,
+   "our_name": null,
+   "source_name": "Sharp Detailed Realistic Image style XL + F1D",
+   "purpose": null,
+   "composite": 13.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2579,
+    "thumbsUpCount": 219
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a89f74a-53c7-4ba8-85b4-65d8707cd20a/width=450/36722827.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a89f74a-53c7-4ba8-85b4-65d8707cd20a/original=true/36722827.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/757408",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 176449,
+   "our_name": null,
+   "source_name": "9527 Detail Realistic XL",
+   "purpose": null,
+   "composite": 13.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 29131,
+    "thumbsUpCount": 1586
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc4021a9-4196-4c4f-9471-1b444b380e93/width=450/102508931.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc4021a9-4196-4c4f-9471-1b444b380e93/original=true/102508931.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/176449",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 430687,
+   "our_name": null,
+   "source_name": "Detailifier",
+   "purpose": null,
+   "composite": 13.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 27214,
+    "thumbsUpCount": 1517
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6b65cd-0172-4289-a068-289dc0956a9a/width=450/137450588.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6b65cd-0172-4289-a068-289dc0956a9a/original=true/137450588.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/430687",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2234266,
+   "our_name": null,
+   "source_name": "[ZIT] Detail Slider",
+   "purpose": null,
+   "composite": 13.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 24023,
+    "thumbsUpCount": 1382
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a84673bd-dd95-4282-a181-1f4cb332b321/width=450/114299255.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a84673bd-dd95-4282-a181-1f4cb332b321/original=true/114299255.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2234266",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 55743,
+   "our_name": null,
+   "source_name": "Pika's Super Realistic Detailed Eyes [SRDE]",
+   "purpose": null,
+   "composite": 13.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 9654,
+    "thumbsUpCount": 651
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66efcbbb-7332-4c92-9da9-c94555ad0300/width=450/656502.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66efcbbb-7332-4c92-9da9-c94555ad0300/original=true/656502.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/55743",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 178167,
+   "our_name": null,
+   "source_name": "Detailers By Stable Yogi",
+   "purpose": null,
+   "composite": 13.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 99904,
+    "thumbsUpCount": 4494
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f87266bb-3572-4887-afec-1d7d65a58e98/width=450/40642030.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f87266bb-3572-4887-afec-1d7d65a58e98/original=true/40642030.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/178167",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 150169,
+   "our_name": null,
+   "source_name": "Detail Asian Realistic",
+   "purpose": null,
+   "composite": 13.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 26913,
+    "thumbsUpCount": 1463
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/378cd6f4-766a-40e9-bbb5-dcb766164dc9/width=450/86008245.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/378cd6f4-766a-40e9-bbb5-dcb766164dc9/original=true/86008245.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/150169",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 109043,
+   "our_name": null,
+   "source_name": "Skin & Hands (male/female) from Polyhedron",
+   "purpose": null,
+   "composite": 13.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 75449,
+    "thumbsUpCount": 3259
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5787aa0-02d7-4401-abaa-8f81a624910a/width=450/1657179.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5787aa0-02d7-4401-abaa-8f81a624910a/original=true/1657179.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/109043",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1371405,
+   "our_name": null,
+   "source_name": "Pony Skin Enhancer ✨",
+   "purpose": null,
+   "composite": 13.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 16338,
+    "thumbsUpCount": 956
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bbb511d-db61-4d59-8ad6-e278b9b8339c/width=450/64266431.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bbb511d-db61-4d59-8ad6-e278b9b8339c/original=true/64266431.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1371405",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 124993,
+   "our_name": null,
+   "source_name": "Advanced Enhancer XL LoRA",
+   "purpose": null,
+   "composite": 13.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 7674,
+    "thumbsUpCount": 517
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e55c3976-46e8-4ace-ab9e-a97e773da50e/width=450/2088536.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e55c3976-46e8-4ace-ab9e-a97e773da50e/original=true/2088536.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/124993",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2209262,
+   "our_name": null,
+   "source_name": "DetailDeamonZ-SliderLoRA For ZIT & ZIB 适配红潮ZID与黑兽ZIT",
+   "purpose": null,
+   "composite": 13.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageBase",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 17576,
+    "thumbsUpCount": 994
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f265a4b3-cde8-4f6d-bc6c-f55de2c02511/width=450/120432583.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f265a4b3-cde8-4f6d-bc6c-f55de2c02511/original=true/120432583.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2209262",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 580857,
+   "our_name": null,
+   "source_name": "Realistic Skin Texture style (Detailed Skin) XL + SD1.5 + F1D + Pony + Illu + ZIT + ZIB",
+   "purpose": null,
+   "composite": 13.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageBase",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 183259,
+    "thumbsUpCount": 7468
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5087eaa-0c04-43f9-b9c0-a34bfe863617/width=450/131433696.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5087eaa-0c04-43f9-b9c0-a34bfe863617/original=true/131433696.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/580857",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 541620,
+   "our_name": null,
+   "source_name": "Facial Expressions \"Realistic + Anime\" (detailed emotions) style XL + SD1.5 + F1D + Illu + Pony + zit",
+   "purpose": null,
+   "composite": 13.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 22141,
+    "thumbsUpCount": 1190
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54981c-0546-4851-88cf-834c07f3a861/width=450/115716397.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e54981c-0546-4851-88cf-834c07f3a861/original=true/115716397.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/541620",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 279888,
+   "our_name": null,
+   "source_name": "Ringlightselfie Flux & SDXL & 1.5",
+   "purpose": null,
+   "composite": 13.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1574,
+    "thumbsUpCount": 130
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc7b78de-8e32-42e4-8e2d-fb0f7b86d0cd/width=450/26005148.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc7b78de-8e32-42e4-8e2d-fb0f7b86d0cd/original=true/26005148.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/279888",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2620171,
+   "our_name": null,
+   "source_name": "Anima Detail Tweaker",
+   "purpose": null,
+   "composite": 13.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 24331,
+    "thumbsUpCount": 1244
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bce68866-aa99-4b9a-854d-f9765d1825cc/width=450/130704526.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bce68866-aa99-4b9a-854d-f9765d1825cc/original=true/130704526.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2620171",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 421162,
+   "our_name": null,
+   "source_name": "Detailed style XL + F1D + SD1.5 + zib (Hand focus + All in One) \"Detailed Perfection style extension\"",
+   "purpose": null,
+   "composite": 13.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageBase",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 24280,
+    "thumbsUpCount": 1196
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0dfd770-b1c0-4843-b4d2-07327989c028/width=450/125684151.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0dfd770-b1c0-4843-b4d2-07327989c028/original=true/125684151.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/421162",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 562884,
+   "our_name": null,
+   "source_name": "Skin Tone (Glamour Photography) Style (Human skin color) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
+   "purpose": null,
+   "composite": 13.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageBase",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 19427,
+    "thumbsUpCount": 1014
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/526bb5c9-a962-45a1-b332-5c8b06dc768e/width=450/121914947.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/526bb5c9-a962-45a1-b332-5c8b06dc768e/original=true/121914947.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/562884",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 383364,
+   "our_name": null,
+   "source_name": "CreaPrompt_Lightning_Hyper-SDXL",
+   "purpose": null,
+   "composite": 13.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 15303,
+    "thumbsUpCount": 838
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3386f1cd-1301-4838-a64b-b052f290b6a4/width=450/21425343.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3386f1cd-1301-4838-a64b-b052f290b6a4/original=true/21425343.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/383364",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 939006,
+   "our_name": null,
+   "source_name": "epiCRealismXL-KiSS Enhancer",
+   "purpose": null,
+   "composite": 12.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 9680,
+    "thumbsUpCount": 560
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f55ac711-0368-4356-a82e-29bdb345900b/width=450/39569971.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f55ac711-0368-4356-a82e-29bdb345900b/original=true/39569971.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/939006",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 930386,
+   "our_name": null,
+   "source_name": "Flux.1 Turbo Detailer",
+   "purpose": null,
+   "composite": 12.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 14197,
+    "thumbsUpCount": 742
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8bd9aa-fe8a-470c-b9db-38d75d53be25/width=450/39382849.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8bd9aa-fe8a-470c-b9db-38d75d53be25/original=true/39382849.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/930386",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1426727,
+   "our_name": null,
+   "source_name": "Realistic Skin & Face - Professional_photography",
+   "purpose": null,
+   "composite": 12.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 21640,
+    "thumbsUpCount": 999
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ebef256-7991-4a1f-9a80-230f5129d176/width=450/138065196.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ebef256-7991-4a1f-9a80-230f5129d176/original=true/138065196.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1426727",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1782485,
+   "our_name": null,
+   "source_name": "Furry Enhancer  Video",
+   "purpose": null,
+   "composite": 12.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "MiniMax H3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 19130,
+    "thumbsUpCount": 898
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c199736-e1a2-408d-acf0-28c70df6b286/width=450/139871162.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c199736-e1a2-408d-acf0-28c70df6b286/original=true/139871162.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1782485",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2729908,
+   "our_name": null,
+   "source_name": "[KREA 2] Detail Slider",
+   "purpose": null,
+   "composite": 12.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 16059,
+    "thumbsUpCount": 804
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87770265-3293-4292-b32d-c464b23ae6c7/width=450/134831972.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87770265-3293-4292-b32d-c464b23ae6c7/original=true/134831972.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2729908",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2213166,
+   "our_name": null,
+   "source_name": "ANTI-PLASTIC | The Analog Texture Engine",
+   "purpose": null,
+   "composite": 12.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4232,
+    "thumbsUpCount": 272
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/859eb331-29b4-461a-8671-305ae41742fe/width=450/113411933.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/859eb331-29b4-461a-8671-305ae41742fe/original=true/113411933.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2213166",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1215368,
+   "our_name": null,
+   "source_name": "Oily shiny glossy skin style F1D + XL + SD1.5 + Illu + Pony + zit",
+   "purpose": null,
+   "composite": 12.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 7411,
+    "thumbsUpCount": 418
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/257baa25-40cc-431d-9163-aca26084c9b4/width=450/116984216.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/257baa25-40cc-431d-9163-aca26084c9b4/original=true/116984216.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1215368",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 8765,
+   "our_name": null,
+   "source_name": "Theovercomer8's Contrast Fix (SD1.5/SD2.1-768)",
+   "purpose": null,
+   "composite": 12.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 2.1 768",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 73164,
+    "thumbsUpCount": 2266
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ef6bb89-dbfb-4e44-c396-98f2b8324a00/width=450/101043.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ef6bb89-dbfb-4e44-c396-98f2b8324a00/original=true/101043.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/8765",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 60018,
+   "our_name": null,
+   "source_name": "real_skin",
+   "purpose": null,
+   "composite": 12.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Other",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 10726,
+    "thumbsUpCount": 538
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622dd1c9-b11c-4ee0-b9f7-44492bdb425b/width=450/727207.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622dd1c9-b11c-4ee0-b9f7-44492bdb425b/original=true/727207.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/60018",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 354130,
+   "our_name": null,
+   "source_name": "⚡ epiCRealismXL-Lightning",
+   "purpose": null,
+   "composite": 12.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Lightning",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 21314,
+    "thumbsUpCount": 864
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c67d6a-4cd8-4654-b36b-c4818706d477/width=450/13830503.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32c67d6a-4cd8-4654-b36b-c4818706d477/original=true/13830503.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/354130",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2477155,
+   "our_name": null,
+   "source_name": "Cinematic Dark Lighting",
+   "purpose": null,
+   "composite": 12.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2693,
+    "thumbsUpCount": 175
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/599fd922-2749-4840-b33d-8326d452c4e9/width=450/137869108.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/599fd922-2749-4840-b33d-8326d452c4e9/original=true/137869108.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2477155",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 766017,
+   "our_name": null,
+   "source_name": "Skin Tone Slider FLUX",
+   "purpose": null,
+   "composite": 12.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1194,
+    "thumbsUpCount": 88
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9174f0d6-0e3e-434c-88b7-37139b2d5604/width=450/29760879.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9174f0d6-0e3e-434c-88b7-37139b2d5604/original=true/29760879.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/766017",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 651043,
+   "our_name": null,
+   "source_name": "Flux Skin Texture",
+   "purpose": null,
+   "composite": 12.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 13232,
+    "thumbsUpCount": 576
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a582256b-b05b-4a3e-94d2-69548823ecc9/width=450/28726481.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a582256b-b05b-4a3e-94d2-69548823ecc9/original=true/28726481.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/651043",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2190659,
+   "our_name": null,
+   "source_name": "💀💋 DaSiWa-WAN 2.2 I2V 14B TastySin v8 | Lightspeed | GGUF 💋💀",
+   "purpose": null,
+   "composite": 11.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 52360,
+    "thumbsUpCount": 1405
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b791561-0501-423e-bd94-755d7c7f3b98/width=450/112636097.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b791561-0501-423e-bd94-755d7c7f3b98/original=true/112636097.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2190659",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2086049,
+   "our_name": null,
+   "source_name": "FLUXTRAIT [FLUX.2 Klein / FLUX / Z-Image] for Portrait & detailed skin",
+   "purpose": null,
+   "composite": 11.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 14668,
+    "thumbsUpCount": 601
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc452914-1f04-464d-9947-7fedfd35eac2/width=450/129028008.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc452914-1f04-464d-9947-7fedfd35eac2/original=true/129028008.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2086049",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2551056,
+   "our_name": null,
+   "source_name": "Porcelain Gothic Skin",
+   "purpose": null,
+   "composite": 11.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1283,
+    "thumbsUpCount": 88
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1deae7b6-1b73-47ed-ab87-87d6768347a9/width=450/141046875.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1deae7b6-1b73-47ed-ab87-87d6768347a9/original=true/141046875.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2551056",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2535622,
+   "our_name": null,
+   "source_name": "LTX 2.3 - Enhancers",
+   "purpose": null,
+   "composite": 11.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 18619,
+    "thumbsUpCount": 677
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e50610f-07b7-4d68-9582-c1f6a4872c3f/width=450/127146275.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e50610f-07b7-4d68-9582-c1f6a4872c3f/original=true/127146275.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2535622",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1063735,
+   "our_name": null,
+   "source_name": "[NEW Released] Minimax H3 lightx2v turbo ComfyUI accelerator 4-8 steps LoRA",
+   "purpose": null,
+   "composite": 11.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "MiniMax H3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 15214,
+    "thumbsUpCount": 573
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4f778e1-7b43-4f00-9211-db6cab431530/width=450/47091973.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4f778e1-7b43-4f00-9211-db6cab431530/original=true/47091973.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1063735",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2067704,
+   "our_name": null,
+   "source_name": "Portrait Engine FLUX / FLUX 2 KLEIN / Z-Image, Detailed Skin - [LORA]",
+   "purpose": null,
+   "composite": 11.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 21428,
+    "thumbsUpCount": 679
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c21e6db5-9b79-4572-a36f-271af8b25ef1/width=450/132683560.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c21e6db5-9b79-4572-a36f-271af8b25ef1/original=true/132683560.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2067704",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2324991,
+   "our_name": null,
+   "source_name": "Klein Anatomy / Quality Fixer",
+   "purpose": null,
+   "composite": 11.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 23249,
+    "thumbsUpCount": 638
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dde7061-aa74-4ceb-bac1-74746dbb6c89/width=450/118175698.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dde7061-aa74-4ceb-bac1-74746dbb6c89/original=true/118175698.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2324991",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 142795,
+   "our_name": null,
+   "source_name": "FilmGrain",
+   "purpose": null,
+   "composite": 11.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1224,
+    "thumbsUpCount": 74
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ef5ed30-feca-46e4-b6b4-6b41ef2ed9f7/width=450/2424581.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ef5ed30-feca-46e4-b6b4-6b41ef2ed9f7/original=true/2424581.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/142795",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 646497,
+   "our_name": null,
+   "source_name": "Portrait Detailer/Enhancer",
+   "purpose": null,
+   "composite": 10.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2753,
+    "thumbsUpCount": 130
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d82e59b-7302-44cf-ae5b-40bfceda39cd/width=450/24431262.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d82e59b-7302-44cf-ae5b-40bfceda39cd/original=true/24431262.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/646497",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2269796,
+   "our_name": null,
+   "source_name": "💀💋 DaSiWa-WAN 2.2 I2V 14B SynthSeduction v9 | Lightspeed | GGUF 💋💀",
+   "purpose": null,
+   "composite": 10.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 19892,
+    "thumbsUpCount": 453
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e6819d5-e9e1-44d8-96c8-a2b979076eca/width=450/116149234.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e6819d5-e9e1-44d8-96c8-a2b979076eca/original=true/116149234.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2269796",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1865288,
+   "our_name": null,
+   "source_name": "🌟HyperRealism – Cinematic Detail & True-to-Life Rendering - SDXL🌟",
+   "purpose": null,
+   "composite": 10.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 840,
+    "thumbsUpCount": 47
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4753438b-70de-4cb2-a647-061213b4bdd4/width=450/94115348.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4753438b-70de-4cb2-a647-061213b4bdd4/original=true/94115348.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1865288",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2595570,
+   "our_name": null,
+   "source_name": "Cinematic Portrait Lighting LoRA – Zimg Turbo + SDXL",
+   "purpose": null,
+   "composite": 10.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1356,
+    "thumbsUpCount": 67
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c32af6c8-43be-4c7b-ad66-3c61aa248102/width=450/131771487.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c32af6c8-43be-4c7b-ad66-3c61aa248102/original=true/131771487.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2595570",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2541119,
+   "our_name": null,
+   "source_name": "TrueGrain_v1",
+   "purpose": null,
+   "composite": 9.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 803,
+    "thumbsUpCount": 39
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce3c4ef7-df7c-476a-8425-81df9e4ba909/width=450/127376281.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce3c4ef7-df7c-476a-8425-81df9e4ba909/original=true/127376281.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2541119",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2808600,
+   "our_name": null,
+   "source_name": "Krea 2 Realistic Skin Texture",
+   "purpose": null,
+   "composite": 9.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1044,
+    "thumbsUpCount": 40
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04d86b0-1f6d-4ef4-8e0c-5f56ca93927d/width=450/137848258.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04d86b0-1f6d-4ef4-8e0c-5f56ca93927d/original=true/137848258.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2808600",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1747094,
+   "our_name": null,
+   "source_name": "Hi-Dream Photorealism: skin + faces + hands + colors + JPEG artifacts",
+   "purpose": null,
+   "composite": 8.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "HiDream",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3568,
+    "thumbsUpCount": 35
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ced9a-093d-4760-9ec4-e87d8a7a7280/width=450/86441713.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111ced9a-093d-4760-9ec4-e87d8a7a7280/original=true/86441713.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1747094",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  }
+ ]
+}

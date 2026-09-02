@@ -1,7 +1,180 @@
 {
- "generated": "2026-09-02T00:59:03",
+ "generated": "2026-09-02T01:06:56",
  "dl_floor": 500,
  "stages": {
+  "ADS": {
+   "count": 25,
+   "anchors": {
+    "ratio_p75": 0.06989696463380674,
+    "dl_p90": 1880
+   },
+   "kept_above_floor": 6,
+   "cut_below_floor": 19,
+   "entries": [
+    {
+     "id": 145921,
+     "name": "Product Photo Composer SD1.5 (Advertising Photos with Invoke AI 3.1.1)",
+     "stats": {
+      "downloadCount": 3591,
+      "thumbsUpCount": 251,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 400,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "SD 1.5",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/width=450/2511992.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/original=true/2511992.jpeg"
+     },
+     "parts": {
+      "ratio": 10.0,
+      "magnitude": 10.0
+     },
+     "composite_auto": 20.0,
+     "curation_pending": true,
+     "tier_auto": "S-candidate"
+    },
+    {
+     "id": 413826,
+     "name": "Change product background with the image of your choice using Style Transfer.",
+     "stats": {
+      "downloadCount": 914,
+      "thumbsUpCount": 67,
+      "thumbsDownCount": 1,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "SDXL Lightning",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/width=450/10467350.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/original=true/10467350.jpeg"
+     },
+     "parts": {
+      "ratio": 10.0,
+      "magnitude": 9.0
+     },
+     "composite_auto": 19.0,
+     "curation_pending": true,
+     "tier_auto": "A-candidate"
+    },
+    {
+     "id": 413803,
+     "name": "Change product background with the image of your choice using Style Transfer.",
+     "stats": {
+      "downloadCount": 2278,
+      "thumbsUpCount": 138,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "SDXL Lightning",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/width=450/10466364.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/original=true/10466364.jpeg"
+     },
+     "parts": {
+      "ratio": 8.7,
+      "magnitude": 10.0
+     },
+     "composite_auto": 18.7,
+     "curation_pending": true,
+     "tier_auto": "A-candidate"
+    },
+    {
+     "id": 985126,
+     "name": "[flux-fill + flux-redux] Product Background Change",
+     "stats": {
+      "downloadCount": 1880,
+      "thumbsUpCount": 72,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Flux.1 D",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/width=450/42298498.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/original=true/42298498.jpeg"
+     },
+     "parts": {
+      "ratio": 5.5,
+      "magnitude": 10.0
+     },
+     "composite_auto": 15.5,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2455228,
+     "name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
+     "stats": {
+      "downloadCount": 1795,
+      "thumbsUpCount": 60,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:05:30+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Qwen 2",
+     "nsfwLevel": 7,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
+     },
+     "parts": {
+      "ratio": 4.8,
+      "magnitude": 9.9
+     },
+     "composite_auto": 14.7,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 926474,
+     "name": "电商产品视觉设计工作流/E-commerce product visual design workflow",
+     "stats": {
+      "downloadCount": 895,
+      "thumbsUpCount": 30,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:34+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Flux.1 D",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/width=450/38846437.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/original=true/38846437.jpeg"
+     },
+     "parts": {
+      "ratio": 4.8,
+      "magnitude": 9.0
+     },
+     "composite_auto": 13.8,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    }
+   ]
+  },
   "MOTION": {
    "count": 2346,
    "anchors": {
@@ -128793,6 +128966,422 @@
       "magnitude": 5.8
      },
      "composite_auto": 8.1,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    }
+   ]
+  },
+  "SPEECH_VOICE": {
+   "count": 62,
+   "anchors": {
+    "ratio_p75": 0.04389086595492289,
+    "dl_p90": 1563
+   },
+   "kept_above_floor": 15,
+   "cut_below_floor": 47,
+   "entries": [
+    {
+     "id": 394171,
+     "name": "Comfyui Generate Digital Talking Human Workflow",
+     "stats": {
+      "downloadCount": 1012,
+      "thumbsUpCount": 51,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "SD 1.5",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/width=450/9596795.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/original=true/9596795.mp4"
+     },
+     "parts": {
+      "ratio": 10.0,
+      "magnitude": 9.4
+     },
+     "composite_auto": 19.4,
+     "curation_pending": true,
+     "tier_auto": "A-candidate"
+    },
+    {
+     "id": 2490072,
+     "name": "LTX2.3 TI2V Audio Image Driven Digital Human",
+     "stats": {
+      "downloadCount": 843,
+      "thumbsUpCount": 37,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV 2.3",
+     "nsfwLevel": 7,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/width=450/125225669.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/original=true/125225669.mp4"
+     },
+     "parts": {
+      "ratio": 10.0,
+      "magnitude": 9.2
+     },
+     "composite_auto": 19.2,
+     "curation_pending": true,
+     "tier_auto": "A-candidate"
+    },
+    {
+     "id": 1526147,
+     "name": "Fantasy Talking+Cosyvoice Digital Person Skyreels+v2+I2V Stable Acceleration Version V2",
+     "stats": {
+      "downloadCount": 637,
+      "thumbsUpCount": 33,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Wan Video",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/width=450/73206846.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/original=true/73206846.mp4"
+     },
+     "parts": {
+      "ratio": 10.0,
+      "magnitude": 8.8
+     },
+     "composite_auto": 18.8,
+     "curation_pending": true,
+     "tier_auto": "A-candidate"
+    },
+    {
+     "id": 1945414,
+     "name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
+     "stats": {
+      "downloadCount": 602,
+      "thumbsUpCount": 31,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Wan Video 14B i2v 480p",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/width=450/99516422.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4"
+     },
+     "parts": {
+      "ratio": 10.0,
+      "magnitude": 8.7
+     },
+     "composite_auto": 18.7,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2411105,
+     "name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
+     "stats": {
+      "downloadCount": 517,
+      "thumbsUpCount": 29,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV2",
+     "nsfwLevel": 5,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/width=450/121941398.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4"
+     },
+     "parts": {
+      "ratio": 10.0,
+      "magnitude": 8.5
+     },
+     "composite_auto": 18.5,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 1710081,
+     "name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
+     "stats": {
+      "downloadCount": 2342,
+      "thumbsUpCount": 87,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Wan Video 14B i2v 720p",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/width=450/102781784.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4"
+     },
+     "parts": {
+      "ratio": 8.5,
+      "magnitude": 10.0
+     },
+     "composite_auto": 18.5,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 1553946,
+     "name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
+     "stats": {
+      "downloadCount": 1048,
+      "thumbsUpCount": 41,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Wan Video",
+     "nsfwLevel": 3,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/width=450/74788635.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4"
+     },
+     "parts": {
+      "ratio": 8.9,
+      "magnitude": 9.5
+     },
+     "composite_auto": 18.4,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2306894,
+     "name": "LTX-2.5 Image Audio to Video - Lipsync",
+     "stats": {
+      "downloadCount": 6515,
+      "thumbsUpCount": 218,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 800,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV 2.5",
+     "nsfwLevel": 3,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/width=450/123301446.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4"
+     },
+     "parts": {
+      "ratio": 7.6,
+      "magnitude": 10.0
+     },
+     "composite_auto": 17.6,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2422765,
+     "name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
+     "stats": {
+      "downloadCount": 1253,
+      "thumbsUpCount": 43,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 280,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV 2.3",
+     "nsfwLevel": 11,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/width=450/126436721.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg"
+     },
+     "parts": {
+      "ratio": 7.8,
+      "magnitude": 9.7
+     },
+     "composite_auto": 17.5,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 1924833,
+     "name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
+     "stats": {
+      "downloadCount": 1695,
+      "thumbsUpCount": 52,
+      "thumbsDownCount": 1,
+      "commentCount": 13,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Wan Video 2.2 I2V-A14B",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/width=450/98147116.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4"
+     },
+     "parts": {
+      "ratio": 7.0,
+      "magnitude": 10.0
+     },
+     "composite_auto": 17.0,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2294829,
+     "name": "Friendly LTX-2 T2V+I2V+Lipsync",
+     "stats": {
+      "downloadCount": 3103,
+      "thumbsUpCount": 81,
+      "thumbsDownCount": 0,
+      "commentCount": 17,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV2",
+     "nsfwLevel": 3,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/width=450/122670081.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4"
+     },
+     "parts": {
+      "ratio": 5.9,
+      "magnitude": 10.0
+     },
+     "composite_auto": 15.9,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2492652,
+     "name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
+     "stats": {
+      "downloadCount": 1563,
+      "thumbsUpCount": 40,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV 2.3",
+     "nsfwLevel": 3,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/width=450/132437381.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/original=true/132437381.mp4"
+     },
+     "parts": {
+      "ratio": 5.8,
+      "magnitude": 10.0
+     },
+     "composite_auto": 15.8,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2299899,
+     "name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
+     "stats": {
+      "downloadCount": 2582,
+      "thumbsUpCount": 61,
+      "thumbsDownCount": 1,
+      "commentCount": 11,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/width=450/117889046.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4"
+     },
+     "parts": {
+      "ratio": 5.4,
+      "magnitude": 10.0
+     },
+     "composite_auto": 15.4,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 2475570,
+     "name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
+     "stats": {
+      "downloadCount": 3239,
+      "thumbsUpCount": 69,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "LTXV 2.3",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/width=450/124575015.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4"
+     },
+     "parts": {
+      "ratio": 4.9,
+      "magnitude": 10.0
+     },
+     "composite_auto": 14.9,
+     "curation_pending": true,
+     "tier_auto": "B-candidate"
+    },
+    {
+     "id": 1920627,
+     "name": "Wan Speech To Video(Lip Sync With Speed Up)",
+     "stats": {
+      "downloadCount": 836,
+      "thumbsUpCount": 20,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+     },
+     "type": "Workflows",
+     "baseModel": "Wan Video 2.2 I2V-A14B",
+     "nsfwLevel": 1,
+     "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/width=450/97885281.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4"
+     },
+     "parts": {
+      "ratio": 5.5,
+      "magnitude": 9.1
+     },
+     "composite_auto": 14.6,
      "curation_pending": true,
      "tier_auto": "B-candidate"
     }

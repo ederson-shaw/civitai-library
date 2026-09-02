@@ -24,6 +24,8 @@ STAGE_OF_SLICE = [
     ("ltx", "MOTION"), ("hunyuan", "MOTION"), ("minimax", "MOTION"),
     ("nsfw", "NSFW"), ("chroma", "NSFW"), ("biglust", "NSFW"),
     ("lustify", "NSFW"), ("aramanta", "NSFW"), ("anteros", "NSFW"), ("bigasp", "NSFW"),
+    ("ads", "ADS"), ("product", "ADS"), ("ugc", "ADS"), ("commercial", "ADS"),
+    ("speech", "SPEECH_VOICE"), ("talking", "SPEECH_VOICE"), ("voice", "SPEECH_VOICE"),
 ]
 
 

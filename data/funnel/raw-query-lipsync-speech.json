@@ -1,0 +1,2404 @@
+[
+  {
+    "id": 2369988,
+    "name": "Ultra Lip Sync Pro 2.6",
+    "type": "Workflows",
+    "baseModel": "Hunyuan 1",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "mujtabagmq796",
+      "href": "https://civitai.com/users/mujtabagmq796"
+    },
+    "stats": {
+      "downloadCount": 305,
+      "thumbsUpCount": 10,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-13T10:59:59.762Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2369988",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f03c9509-f4a0-48f5-9bf2-bf21b3f50fc0/width=450/120136118.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f03c9509-f4a0-48f5-9bf2-bf21b3f50fc0/original=true/120136118.mp4"
+    },
+    "versions": [
+      {
+        "id": 2665290,
+        "name": "V2.6",
+        "baseModel": "Hunyuan 1",
+        "updatedAt": "2026-02-13T10:59:59.762Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2665290",
+        "files": [
+          {
+            "name": "ultraLipSyncPro26_v26.zip",
+            "type": "Archive",
+            "sizeKB": 4.3671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129484,
+    "name": "MultiTalk Lip-Sync (Wanxiang Implementation)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 115,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-11-15T13:31:04.603Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129484",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4e610c8-88fa-4b04-9df7-4af23528bfb5/width=450/110295737.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4e610c8-88fa-4b04-9df7-4af23528bfb5/original=true/110295737.mp4"
+    },
+    "versions": [
+      {
+        "id": 2408802,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-11-15T13:31:04.603Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2408802",
+        "files": [
+          {
+            "name": "multitalkLipSync_v10.zip",
+            "type": "Archive",
+            "sizeKB": 27.6376953125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129490,
+    "name": "MultiTalk Lip-Sync (Wanxiang Implementation) + uni3C Camera Control",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 65,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-11-15T13:36:11.344Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129490",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a8554bc-e106-4ec2-88cc-4302cf214144/width=450/110296169.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a8554bc-e106-4ec2-88cc-4302cf214144/original=true/110296169.mp4"
+    },
+    "versions": [
+      {
+        "id": 2408809,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-11-15T13:36:11.344Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2408809",
+        "files": [
+          {
+            "name": "multitalkLipSyncWanxiang_v10.zip",
+            "type": "Archive",
+            "sizeKB": 34.375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2133929,
+    "name": "InfiniteTalk Lip Sync",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 125,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-11-17T02:57:37.720Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2133929",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e25c043a-0200-4978-a521-dc24046382eb/width=450/110496125.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e25c043a-0200-4978-a521-dc24046382eb/original=true/110496125.mp4"
+    },
+    "versions": [
+      {
+        "id": 2413930,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-11-17T02:57:37.720Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2413930",
+        "files": [
+          {
+            "name": "infinitetalkLipSync_v10.zip",
+            "type": "Archive",
+            "sizeKB": 44.693359375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2411105,
+    "name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
+    "type": "Workflows",
+    "baseModel": "LTXV2",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "lonecatone23",
+      "href": "https://civitai.com/users/lonecatone23"
+    },
+    "stats": {
+      "downloadCount": 517,
+      "thumbsUpCount": 29,
+      "thumbsDownCount": 0,
+      "commentCount": 4,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-21T23:57:17.153Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2411105",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/width=450/121941398.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4"
+    },
+    "versions": [
+      {
+        "id": 2710913,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-21T23:57:17.153Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2710913",
+        "files": [
+          {
+            "name": "ltx2I2VMotionLipSyncToYour_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3413.0224609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1920627,
+    "name": "Wan Speech To Video(Lip Sync With Speed Up)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 836,
+      "thumbsUpCount": 20,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-09-02T04:19:44.153Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1920627",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/width=450/97885281.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4"
+    },
+    "versions": [
+      {
+        "id": 2173855,
+        "name": "v1.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-09-02T04:19:44.153Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2173855",
+        "files": [
+          {
+            "name": "wanSpeechToVideoLipSync_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.9423828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1455028,
+    "name": "Sonic advanced Lip Sync Workflow",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "LodWKobku",
+      "href": "https://civitai.com/users/LodWKobku"
+    },
+    "stats": {
+      "downloadCount": 346,
+      "thumbsUpCount": 14,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-04-10T15:16:05.646Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1455028",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef2aaee3-c25e-4a06-86e9-0469992c2b04/width=450/69175783.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef2aaee3-c25e-4a06-86e9-0469992c2b04/original=true/69175783.mp4"
+    },
+    "versions": [
+      {
+        "id": 1645216,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-04-10T15:16:05.646Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1645216",
+        "files": [
+          {
+            "name": "sonicAdvancedLipSync_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.5576171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2725089,
+    "name": "Wan2.1 InfiniteTalk LipSync (Native)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 720p",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "Rvage",
+      "href": "https://civitai.com/users/Rvage"
+    },
+    "stats": {
+      "downloadCount": 381,
+      "thumbsUpCount": 12,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 10,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-07-21T15:28:08.697Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2725089",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c614eb88-ba4c-4c6d-9dd1-15fb0c450401/width=450/136805726.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c614eb88-ba4c-4c6d-9dd1-15fb0c450401/original=true/136805726.mp4"
+    },
+    "versions": [
+      {
+        "id": 3150970,
+        "name": "v1.5 (Nodes 2.0)",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2026-07-21T15:28:08.697Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3150970",
+        "files": [
+          {
+            "name": "wan21Infinitetalk_v15Nodes20.json",
+            "type": "Config",
+            "sizeKB": 151.2578125
+          }
+        ]
+      },
+      {
+        "id": 3132773,
+        "name": "v1.5",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2026-07-15T17:58:46.595Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3132773",
+        "files": [
+          {
+            "name": "wan21Infinitetalk_v15.json",
+            "type": "Config",
+            "sizeKB": 151.5361328125
+          }
+        ]
+      },
+      {
+        "id": 3131852,
+        "name": "v1.2",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2026-07-15T11:21:15.348Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3131852",
+        "files": [
+          {
+            "name": "wan21Infinitetalk_v12.json",
+            "type": "Config",
+            "sizeKB": 159.9765625
+          },
+          {
+            "name": "wan21Infinitetalk_v12.zip",
+            "type": "Archive",
+            "sizeKB": 7543.458984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2361400,
+    "name": "LTX2.0 Audio Lip Sync [Digital Human/Singing/Film and Television]",
+    "type": "Workflows",
+    "baseModel": "LTXV2",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "MoteGlow_AI",
+      "href": "https://civitai.com/users/MoteGlow_AI"
+    },
+    "stats": {
+      "downloadCount": 263,
+      "thumbsUpCount": 9,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-03T10:44:12.146Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2361400",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f23e36b-fe63-4c4e-b776-4f11879b0df8/width=450/119801977.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f23e36b-fe63-4c4e-b776-4f11879b0df8/original=true/119801977.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2655785,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-03T10:44:12.146Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2655785",
+        "files": [
+          {
+            "name": "ltx20AudioLipSyncDigital_v10.zip",
+            "type": "Archive",
+            "sizeKB": 33.296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2524847,
+    "name": "LTX 2.3 Lip-Sync Workflow – 3min for 10s video, walk&talk supported",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Adventurer17",
+      "href": "https://civitai.com/users/Adventurer17"
+    },
+    "stats": {
+      "downloadCount": 283,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-04-07T05:16:58.331Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2524847",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09b459e1-f362-4ae6-b2ae-2cc53500c856/width=450/126677166.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09b459e1-f362-4ae6-b2ae-2cc53500c856/original=true/126677166.mp4"
+    },
+    "versions": [
+      {
+        "id": 2837683,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-07T05:16:58.331Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2837683",
+        "files": [
+          {
+            "name": "ltx23LipSyncWorkflow3min_v10.zip",
+            "type": "Archive",
+            "sizeKB": 33.501953125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2487266,
+    "name": "InfiniteTalk: Audio-Portrait to Lip-Synced Video in ComfyUI",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 238,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-03-23T07:06:36.611Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2487266",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48bfa349-6beb-4efb-b8de-96f6e8327814/width=450/125101979.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48bfa349-6beb-4efb-b8de-96f6e8327814/original=true/125101979.mp4"
+    },
+    "versions": [
+      {
+        "id": 2796242,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2026-03-23T07:06:36.611Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2796242",
+        "files": [
+          {
+            "name": "infinitetalkAudioPortrait_v10.zip",
+            "type": "Archive",
+            "sizeKB": 8.158203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2512783,
+    "name": "Pose Control LipSync with Wan2.2 S2V in ComfyUI | Audio2Video",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 211,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-04-03T07:12:36.960Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2512783",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebaf23dc-199a-4262-bc51-36af96070ef2/width=450/126176332.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebaf23dc-199a-4262-bc51-36af96070ef2/original=true/126176332.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2824401,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2026-04-03T07:12:36.960Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2824401",
+        "files": [
+          {
+            "name": "poseControlLipsyncWithWan2_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.373046875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2808963,
+    "name": "[Workflow] LTX2.3 Lip Sync · Image + Audio to Video For Anime",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FloyoAI",
+      "href": "https://civitai.com/users/FloyoAI"
+    },
+    "stats": {
+      "downloadCount": 105,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-07-26T14:12:22.783Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2808963",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7663c6b6-7dec-4106-b5d1-121a39c2d4fe/width=450/138071324.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7663c6b6-7dec-4106-b5d1-121a39c2d4fe/original=true/138071324.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3167535,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-26T14:12:22.783Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3167535",
+        "files": [
+          {
+            "name": "WorkflowLTX23LipSyncImage_v10.json",
+            "type": "Config",
+            "sizeKB": 219.7802734375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129826,
+    "name": "VACE & MultiTalk – Control + Reference + Lip-Sync",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B t2v",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 65,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-11-15T16:06:00.922Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129826",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23b7f967-c186-40f1-b00b-3fdbe48ddf3a/width=450/110308627.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23b7f967-c186-40f1-b00b-3fdbe48ddf3a/original=true/110308627.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2409184,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B t2v",
+        "updatedAt": "2025-11-15T16:06:00.922Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2409184",
+        "files": [
+          {
+            "name": "vaceMultitalkControl_v10.zip",
+            "type": "Archive",
+            "sizeKB": 42.765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2609860,
+    "name": "Title:  LTX-2 Lip Sync Workflow",
+    "type": "Workflows",
+    "baseModel": "ZImageTurbo",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 70,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-05-09T06:48:05.837Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2609860",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a36beb9-bf7b-4ed8-8809-134907e42997/width=450/130145966.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a36beb9-bf7b-4ed8-8809-134907e42997/original=true/130145966.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2930476,
+        "name": "v1.0",
+        "baseModel": "ZImageTurbo",
+        "updatedAt": "2026-05-09T06:48:05.837Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2930476",
+        "files": [
+          {
+            "name": "titleLTX2LipSync_v10.zip",
+            "type": "Archive",
+            "sizeKB": 14.83984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2899685,
+    "name": "🔥 MiniMax-H3 Perfect Lipsync (Advanced + Easy Workflow Setup)",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "murphylanga",
+      "href": "https://civitai.com/users/murphylanga"
+    },
+    "stats": {
+      "downloadCount": 251,
+      "thumbsUpCount": 16,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 500,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-08-29T20:46:31.095Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2899685",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89d7779c-630a-4f48-9441-b2d8816a89b8/width=450/141228587.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89d7779c-630a-4f48-9441-b2d8816a89b8/original=true/141228587.mp4"
+    },
+    "versions": [
+      {
+        "id": 3278615,
+        "name": "v1.0 Initial release",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-29T20:46:31.095Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3278615",
+        "files": [
+          {
+            "name": "MinimaxH3PerfectLipsync_v10InitialRelease.zip",
+            "type": "Archive",
+            "sizeKB": 40.814453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2294829,
+    "name": "Friendly LTX-2 T2V+I2V+Lipsync",
+    "type": "Workflows",
+    "baseModel": "LTXV2",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "RusselX",
+      "href": "https://civitai.com/users/RusselX"
+    },
+    "stats": {
+      "downloadCount": 3103,
+      "thumbsUpCount": 81,
+      "thumbsDownCount": 0,
+      "commentCount": 17,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-28T11:56:03.317Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2294829",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/width=450/122670081.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4"
+    },
+    "versions": [
+      {
+        "id": 2730725,
+        "name": "UniVibe v1.2 (Lipsync)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-28T11:56:03.317Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2730725",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_univibeV12Lipsync.zip",
+            "type": "Archive",
+            "sizeKB": 39.419921875
+          }
+        ]
+      },
+      {
+        "id": 2671679,
+        "name": "UniVibe 1.1 (Lipsync)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-08T14:49:12.457Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2671679",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_univibe11Lipsync.zip",
+            "type": "Archive",
+            "sizeKB": 36.2568359375
+          }
+        ]
+      },
+      {
+        "id": 2629718,
+        "name": "UniVibe 1.0.2 (Lipsync)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-25T21:07:32.316Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2629718",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_univibe102Lipsync.zip",
+            "type": "Archive",
+            "sizeKB": 36.064453125
+          }
+        ]
+      },
+      {
+        "id": 2603287,
+        "name": "v1.0 (GGUF Low VRAM)",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-16T20:20:32.015Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2603287",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_v10GGUFLowVRAM.zip",
+            "type": "Archive",
+            "sizeKB": 26.365234375
+          }
+        ]
+      },
+      {
+        "id": 2586881,
+        "name": "v1.0 (fp8 dev) HQ",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-11T08:40:04.549Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2586881",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_v10Fp8DevHQ.zip",
+            "type": "Archive",
+            "sizeKB": 5392.7099609375
+          }
+        ]
+      },
+      {
+        "id": 2582320,
+        "name": "v1.0 Distilled fp8",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-09T21:19:24.839Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2582320",
+        "files": [
+          {
+            "name": "friendlyLTX2T2VI2V_v10DistilledFp8.zip",
+            "type": "Archive",
+            "sizeKB": 22.7197265625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1325787,
+    "name": "Geeky Kokoro TTS and Sonic Lipsync maker",
+    "type": "Workflows",
+    "baseModel": "Flux.1 S",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "TheGeekyGhost",
+      "href": "https://civitai.com/users/TheGeekyGhost"
+    },
+    "stats": {
+      "downloadCount": 452,
+      "thumbsUpCount": 18,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 111,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-03-21T12:28:16.159Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1325787",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7f64f6e-a369-46f9-a36e-033e58718732/width=450/64881177.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7f64f6e-a369-46f9-a36e-033e58718732/original=true/64881177.mp4"
+    },
+    "versions": [
+      {
+        "id": 1561053,
+        "name": "v2.0",
+        "baseModel": "Flux.1 S",
+        "updatedAt": "2025-03-21T12:28:16.159Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1561053",
+        "files": [
+          {
+            "name": "geekyKokoroTTSAndSonic_v20.zip",
+            "type": "Archive",
+            "sizeKB": 5.0849609375
+          }
+        ]
+      },
+      {
+        "id": 1589777,
+        "name": "LTX&LatentSync Version",
+        "baseModel": "Flux.1 S",
+        "updatedAt": "2025-03-28T04:17:00.173Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1589777",
+        "files": [
+          {
+            "name": "geekyKokoroTTSAndSonic_ltxLatentsyncVersion.zip",
+            "type": "Archive",
+            "sizeKB": 4.8740234375
+          }
+        ]
+      },
+      {
+        "id": 1508281,
+        "name": "Geek hunyuan Avatar Maker",
+        "baseModel": "Flux.1 S",
+        "updatedAt": "2025-03-08T19:42:09.065Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1508281",
+        "files": [
+          {
+            "name": "geekyKokoroTTSAndSonic_geekHunyuanAvatar.zip",
+            "type": "Archive",
+            "sizeKB": 10.4150390625
+          }
+        ]
+      },
+      {
+        "id": 1496846,
+        "name": "v1.0",
+        "baseModel": "Flux.1 S",
+        "updatedAt": "2025-03-05T22:31:21.679Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1496846",
+        "files": [
+          {
+            "name": "geekyKokoroTTSAndSonic_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.4033203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2512445,
+    "name": "LTX 2.3 – Text-to-Music MV + Lip-Sync Workflow  LTX 2.3 – 文生音乐 MV + 对口型工作流",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Adventurer17",
+      "href": "https://civitai.com/users/Adventurer17"
+    },
+    "stats": {
+      "downloadCount": 359,
+      "thumbsUpCount": 9,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-04-02T08:59:17.848Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2512445",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cffa065-8a56-4bc9-89d3-a4b9a0ec902d/width=450/126163102.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cffa065-8a56-4bc9-89d3-a4b9a0ec902d/original=true/126163102.mp4"
+    },
+    "versions": [
+      {
+        "id": 2824032,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-02T08:59:17.848Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2824032",
+        "files": [
+          {
+            "name": "ltx23TextToMusicMVLipSyncWorkflowLTX2_v10.zip",
+            "type": "Archive",
+            "sizeKB": 31.763671875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2360622,
+    "name": "LTX2.0 first and last frames lip-sync",
+    "type": "Workflows",
+    "baseModel": "LTXV2",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "MoteGlow_AI",
+      "href": "https://civitai.com/users/MoteGlow_AI"
+    },
+    "stats": {
+      "downloadCount": 221,
+      "thumbsUpCount": 8,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-03T03:28:35.576Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2360622",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96de07ea-b21f-4d1e-8d88-4f9fc05fa197/width=450/119762706.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96de07ea-b21f-4d1e-8d88-4f9fc05fa197/original=true/119762706.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2654937,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-02-03T03:28:35.576Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2654937",
+        "files": [
+          {
+            "name": "ltx20FirstAndLast_v10.zip",
+            "type": "Archive",
+            "sizeKB": 30.3203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2426307,
+    "name": "[AI Digital Human] Super Easy Lip-Sync Digital Human Workflow – Anyone Can Do It!",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "Adventurer17",
+      "href": "https://civitai.com/users/Adventurer17"
+    },
+    "stats": {
+      "downloadCount": 104,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-27T13:43:13.004Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2426307",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c42df071-26a9-4416-ae6c-5c28850b796a/width=450/122559332.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c42df071-26a9-4416-ae6c-5c28850b796a/original=true/122559332.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2727985,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2026-02-27T13:43:13.004Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2727985",
+        "files": [
+          {
+            "name": "AIDigitalHumanSuperEasyLipSync_v10.zip",
+            "type": "Archive",
+            "sizeKB": 51.32421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2512307,
+    "name": "ComfyUI Multitalk Workflow | Multi-Speaker Lip-Synced Video Generator",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 120,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-04-02T12:41:58.896Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2512307",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53a8fe00-0061-49fd-b041-5f34a0d35125/width=450/126158059.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53a8fe00-0061-49fd-b041-5f34a0d35125/original=true/126158059.mp4"
+    },
+    "versions": [
+      {
+        "id": 2823875,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2026-04-02T12:41:58.896Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2823875",
+        "files": [
+          {
+            "name": "comfyuiMultitalkWorkflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 17.0908203125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2134094,
+    "name": "VACE & InfiniteTalk & StandIn Control + Reference + Voiceover + Lip Sync",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B t2v",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 164,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-11-17T04:30:56.352Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2134094",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e98e181-2e56-4f9c-815f-ca7e42d1ae5b/width=450/110504990.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e98e181-2e56-4f9c-815f-ca7e42d1ae5b/original=true/110504990.mp4"
+    },
+    "versions": [
+      {
+        "id": 2414118,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B t2v",
+        "updatedAt": "2025-11-17T04:30:56.352Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2414118",
+        "files": [
+          {
+            "name": "vaceInfinitetalkStandinControl_v10.zip",
+            "type": "Archive",
+            "sizeKB": 73.7880859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2350943,
+    "name": "(Facial Reference) InfiniteTalk+ Video V2V Lip-Syncing",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 145,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-01-30T16:51:13.760Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2350943",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/156de9dd-781d-4ffd-bea4-1509c472d693/width=450/119340107.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/156de9dd-781d-4ffd-bea4-1509c472d693/original=true/119340107.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2644143,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2026-01-30T16:51:13.760Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2644143",
+        "files": [
+          {
+            "name": "FacialReference_v10.zip",
+            "type": "Archive",
+            "sizeKB": 6.5107421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2012261,
+    "name": "(Combined Edition) Sora2 Ultimate Restoration + Lip-Sync Remastering 720P HD High-Speed Edition V1 (6 minutes)",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 66,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-10-03T15:22:51.178Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2012261",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a67c4c0-2e80-4a58-8ecb-fe721331672f/width=450/103936549.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a67c4c0-2e80-4a58-8ecb-fe721331672f/original=true/103936549.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2277473,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-10-03T15:22:51.178Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2277473",
+        "files": [
+          {
+            "name": "CombinedEditionSora2Ultimate_v10.zip",
+            "type": "Archive",
+            "sizeKB": 14.17578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2453465,
+    "name": "ComfyUI Flash Head Workflow: Ultrafast Head Lip-Sync",
+    "type": "Workflows",
+    "baseModel": "Qwen",
+    "nsfwLevel": 5,
+    "creator": {
+      "username": "Adventurer17",
+      "href": "https://civitai.com/users/Adventurer17"
+    },
+    "stats": {
+      "downloadCount": 81,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-03-09T16:27:06.372Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2453465",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c60040d5-b0d6-486e-b4e2-98bf35529c1a/width=450/123655659.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c60040d5-b0d6-486e-b4e2-98bf35529c1a/original=true/123655659.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2758719,
+        "name": "v1.0",
+        "baseModel": "Qwen",
+        "updatedAt": "2026-03-09T16:27:06.372Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2758719",
+        "files": [
+          {
+            "name": "comfyuiFlashHeadWorkflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 18.0439453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2495615,
+    "name": "SkyReels V3 ComfyUI Workflow | Image2Video + Lip-Sync Animation",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 99,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-03-26T15:04:30.626Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2495615",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bd7f86f-8fc2-47f3-b5b6-8bb0b70707df/width=450/125437965.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bd7f86f-8fc2-47f3-b5b6-8bb0b70707df/original=true/125437965.mp4"
+    },
+    "versions": [
+      {
+        "id": 2805401,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2026-03-26T15:04:30.626Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2805401",
+        "files": [
+          {
+            "name": "skyreelsV3ComfyuiWorkflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 37.8974609375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1869920,
+    "name": "MultiTalk+AniWan+FantasyPortrait High Dynamic Expression Tracking Lip-Syncing Digital Human",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 111,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-08-15T15:48:08.987Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1869920",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ee50ebe-247a-4bf9-97f7-62f1eeac407e/width=450/94432510.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ee50ebe-247a-4bf9-97f7-62f1eeac407e/original=true/94432510.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2116507,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-08-15T15:48:08.987Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2116507",
+        "files": [
+          {
+            "name": "multitalkAniwan_v10.zip",
+            "type": "Archive",
+            "sizeKB": 8.91015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129809,
+    "name": "VACE & MultiTalk First-and-Last-Frame + Lip-Sync",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B t2v",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 60,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-11-15T15:59:02.115Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129809",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c4b0b58-9097-4e37-9b2d-d4c4382c0f4a/width=450/110307988.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c4b0b58-9097-4e37-9b2d-d4c4382c0f4a/original=true/110307988.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2409165,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B t2v",
+        "updatedAt": "2025-11-15T15:59:02.115Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2409165",
+        "files": [
+          {
+            "name": "vaceMultitalkFirstAndLast_v10.zip",
+            "type": "Archive",
+            "sizeKB": 38.8603515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2037986,
+    "name": "MOTION-FORGE HuMo 17B — Speech-to-Video (Lip-Sync)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "zardozai",
+      "href": "https://civitai.com/users/zardozai"
+    },
+    "stats": {
+      "downloadCount": 12,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-10-12T15:43:11.702Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2037986",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70efe89f-684e-49b1-a8fb-a853e9abc409/width=450/105674693.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70efe89f-684e-49b1-a8fb-a853e9abc409/original=true/105674693.mp4"
+    },
+    "versions": [
+      {
+        "id": 2306605,
+        "name": "v1.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-10-12T15:43:11.702Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2306605",
+        "files": [
+          {
+            "name": "motionFORGEHumo17BSpeech_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.9404296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2012253,
+    "name": "(Phase 2) Sora2 Video Repair Lip-Sync Stabilization Version V1",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 53,
+      "thumbsUpCount": 1,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-10-03T15:20:14.183Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2012253",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/430f5800-f482-4162-a985-649bdb997b3d/width=450/103936094.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/430f5800-f482-4162-a985-649bdb997b3d/original=true/103936094.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2277467,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-10-03T15:20:14.183Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2277467",
+        "files": [
+          {
+            "name": "Phase2Sora2VideoRepair_v10.zip",
+            "type": "Archive",
+            "sizeKB": 9.4541015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2306894,
+    "name": "LTX-2.5 Image Audio to Video - Lipsync",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.5",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "PixelMuseAI",
+      "href": "https://civitai.com/users/PixelMuseAI"
+    },
+    "stats": {
+      "downloadCount": 6515,
+      "thumbsUpCount": 218,
+      "thumbsDownCount": 1,
+      "commentCount": 0,
+      "tippedAmountCount": 800,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-08-26T00:46:43.518Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2306894",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/width=450/123301446.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4"
+    },
+    "versions": [
+      {
+        "id": 3267317,
+        "name": "LTX2.5 2 Stage",
+        "baseModel": "LTXV 2.5",
+        "updatedAt": "2026-08-26T00:46:43.518Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3267317",
+        "files": [
+          {
+            "name": "ltx25ImageAudioToVideo_ltx252Stage.json",
+            "type": "Config",
+            "sizeKB": 79.98828125
+          }
+        ]
+      },
+      {
+        "id": 2747894,
+        "name": "LTX2.3",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-03-06T02:32:01.440Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2747894",
+        "files": [
+          {
+            "name": "ltx25ImageAudioToVideo_ltx23.zip",
+            "type": "Archive",
+            "sizeKB": 5.1923828125
+          }
+        ]
+      },
+      {
+        "id": 2608893,
+        "name": "v3.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-18T14:27:04.836Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2608893",
+        "files": [
+          {
+            "name": "ltx25ImageAudioToVideo_v30.zip",
+            "type": "Archive",
+            "sizeKB": 7.40234375
+          }
+        ]
+      },
+      {
+        "id": 2596283,
+        "name": "v2.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-14T07:59:26.426Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2596283",
+        "files": [
+          {
+            "name": "ltx25ImageAudioToVideo_v20.zip",
+            "type": "Archive",
+            "sizeKB": 9.7900390625
+          }
+        ]
+      },
+      {
+        "id": 2595561,
+        "name": "v1.0",
+        "baseModel": "LTXV2",
+        "updatedAt": "2026-01-14T01:14:56.687Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2595561",
+        "files": [
+          {
+            "name": "ltx25ImageAudioToVideo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 9.7841796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2492652,
+    "name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "RusselX",
+      "href": "https://civitai.com/users/RusselX"
+    },
+    "stats": {
+      "downloadCount": 1563,
+      "thumbsUpCount": 40,
+      "thumbsDownCount": 0,
+      "commentCount": 5,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-05-31T18:58:13.596Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2492652",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/width=450/132437381.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/original=true/132437381.mp4"
+    },
+    "versions": [
+      {
+        "id": 2994045,
+        "name": "Unified Vibe FLF v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-31T18:58:13.596Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2994045",
+        "files": [
+          {
+            "name": "friendlyLTX23T2VI2V_unifiedVibeFLFV10.zip",
+            "type": "Archive",
+            "sizeKB": 47.29296875
+          }
+        ]
+      },
+      {
+        "id": 2954052,
+        "name": "Unified Omni v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-17T19:59:30.853Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2954052",
+        "files": [
+          {
+            "name": "friendlyLTX23T2VI2V_unifiedOmniV10.zip",
+            "type": "Archive",
+            "sizeKB": 43.1689453125
+          }
+        ]
+      },
+      {
+        "id": 2836266,
+        "name": "Unified ID v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-06T20:43:03.295Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2836266",
+        "files": [
+          {
+            "name": "friendlyLTX23T2VI2V_unifiedIDV10.zip",
+            "type": "Archive",
+            "sizeKB": 43.3134765625
+          }
+        ]
+      },
+      {
+        "id": 2802182,
+        "name": "Unified Light v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-25T10:40:56.697Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2802182",
+        "files": [
+          {
+            "name": "friendlyLTX23T2VI2V_unifiedLightV10.zip",
+            "type": "Archive",
+            "sizeKB": 33.9833984375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2299899,
+    "name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
+    "type": "Workflows",
+    "baseModel": "LTXV",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "raretutor",
+      "href": "https://civitai.com/users/raretutor"
+    },
+    "stats": {
+      "downloadCount": 2582,
+      "thumbsUpCount": 61,
+      "thumbsDownCount": 1,
+      "commentCount": 11,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-01-18T11:43:04.234Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2299899",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/width=450/117889046.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4"
+    },
+    "versions": [
+      {
+        "id": 2608545,
+        "name": "v1.1",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-18T11:43:04.234Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2608545",
+        "files": [
+          {
+            "name": "ltx2ForLowHighVRAMGGUFT2VI2VWith_v11.zip",
+            "type": "Archive",
+            "sizeKB": 19.7666015625
+          }
+        ]
+      },
+      {
+        "id": 2587897,
+        "name": "v1.0",
+        "baseModel": "LTXV",
+        "updatedAt": "2026-01-11T16:16:44.478Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2587897",
+        "files": [
+          {
+            "name": "ltx2ForLowHighVRAMGGUFT2VI2VWith_v10.zip",
+            "type": "Archive",
+            "sizeKB": 19.7060546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 746803,
+    "name": "Flux dev image generation and animate head with lipsync (dreamtalk)",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "emire666",
+      "href": "https://civitai.com/users/emire666"
+    },
+    "stats": {
+      "downloadCount": 179,
+      "thumbsUpCount": 8,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2024-09-12T21:20:38.624Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/746803",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90bb43af-fc7e-4034-8304-83c3b285c406/width=450/29100805.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90bb43af-fc7e-4034-8304-83c3b285c406/original=true/29100805.mp4"
+    },
+    "versions": [
+      {
+        "id": 835124,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2024-09-12T21:20:38.624Z",
+        "downloadUrl": "https://civitai.com/api/download/models/835124",
+        "files": [
+          {
+            "name": "fluxDevImageGenerationAnd_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.142578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2372542,
+    "name": "(Voice Cloning) Infinite+Talk High Dynamic + Qwen+TTS Lip-Sync Digital Human Fully Automated Edition V1",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 205,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-07T11:42:58.112Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2372542",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31974ef4-65ab-4d75-924e-516b3e71166a/width=450/120246558.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31974ef4-65ab-4d75-924e-516b3e71166a/original=true/120246558.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2668183,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2026-02-07T11:42:58.112Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2668183",
+        "files": [
+          {
+            "name": "VoiceCloningInfiniteTalkHigh_v10.zip",
+            "type": "Archive",
+            "sizeKB": 10.42578125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2676907,
+    "name": "LTX-2.3 ICLoRA LipDub in ComfyUI | Precise Lip-Sync Video Creation",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 178,
+      "thumbsUpCount": 6,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-06-05T05:33:26.884Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2676907",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d903052-82fa-4c61-a58b-65ed567106cc/width=450/132847170.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d903052-82fa-4c61-a58b-65ed567106cc/original=true/132847170.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3005715,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2026-06-05T05:33:26.884Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3005715",
+        "files": [
+          {
+            "name": "ltx23IcloraLipdubInComfyui_v10.zip",
+            "type": "Archive",
+            "sizeKB": 11.130859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2372526,
+    "name": "(Custom Voice) Infinite+Talk High Dynamic + Qwen + TTS Lip-Sync Digital Human Fully Automated Edition V1",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 95,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-02-07T11:38:02.904Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2372526",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ce79c36-d291-43fc-aa60-4e767a4695f1/width=450/120246338.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ce79c36-d291-43fc-aa60-4e767a4695f1/original=true/120246338.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2668164,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2026-02-07T11:38:02.904Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2668164",
+        "files": [
+          {
+            "name": "CustomVoiceInfiniteTalkHighDynamic_v10.zip",
+            "type": "Archive",
+            "sizeKB": 10.732421875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2649778,
+    "name": "LTX 2.3 Video Re-Speaking OmniNFT + Relay Lip-Sync Replacement Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 140,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-05-25T07:33:07.538Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2649778",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d30a673a-2dfc-4788-a4ab-8d28da48b708/width=450/131769203.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d30a673a-2dfc-4788-a4ab-8d28da48b708/original=true/131769203.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2975328,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-25T07:33:07.538Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2975328",
+        "files": [
+          {
+            "name": "ltx23VideoReSpeakingOmninft_v10.zip",
+            "type": "Archive",
+            "sizeKB": 13.6611328125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1924833,
+    "name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "raretutor",
+      "href": "https://civitai.com/users/raretutor"
+    },
+    "stats": {
+      "downloadCount": 1695,
+      "thumbsUpCount": 52,
+      "thumbsDownCount": 1,
+      "commentCount": 13,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2025-09-03T14:11:38.218Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/1924833",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/width=450/98147116.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4"
+    },
+    "versions": [
+      {
+        "id": 2178574,
+        "name": "v1.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-09-03T14:11:38.218Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2178574",
+        "files": [
+          {
+            "name": "wan22S2VSpeechToVideo5StepsComfyui_v10.zip",
+            "type": "Archive",
+            "sizeKB": 19.0634765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2475570,
+    "name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "raretutor",
+      "href": "https://civitai.com/users/raretutor"
+    },
+    "stats": {
+      "downloadCount": 3239,
+      "thumbsUpCount": 69,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:40+00:00"
+    },
+    "lastUpdated": "2026-03-18T17:03:57.527Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2475570",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/width=450/124575015.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4"
+    },
+    "versions": [
+      {
+        "id": 2783332,
+        "name": "v1.2",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-18T17:03:57.527Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2783332",
+        "files": [
+          {
+            "name": "ltx2322BGGUFSafetensors12GBVRAM_v12.zip",
+            "type": "Archive",
+            "sizeKB": 23.8662109375
+          }
+        ]
+      }
+    ]
+  }
+]

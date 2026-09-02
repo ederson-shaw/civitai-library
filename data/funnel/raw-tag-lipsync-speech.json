@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1710081,
+    "name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 720p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "trashkollector175",
+      "href": "https://civitai.com/users/trashkollector175"
+    },
+    "stats": {
+      "downloadCount": 2342,
+      "thumbsUpCount": 87,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2025-09-27T19:05:21.006Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1710081",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/width=450/102781784.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4"
+    },
+    "versions": [
+      {
+        "id": 2258458,
+        "name": "v4.0",
+        "baseModel": "Wan Video 14B i2v 720p",
+        "updatedAt": "2025-09-27T19:05:21.006Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2258458",
+        "files": [
+          {
+            "name": "infinitetalkWithSingle_v40.zip",
+            "type": "Archive",
+            "sizeKB": 11.2109375
+          }
+        ]
+      },
+      {
+        "id": 2002913,
+        "name": "v3.1",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-13T17:31:30.909Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2002913",
+        "files": [
+          {
+            "name": "infinitetalkWithSingle_v31.zip",
+            "type": "Archive",
+            "sizeKB": 11.6591796875
+          }
+        ]
+      },
+      {
+        "id": 1978170,
+        "name": "v2.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-07-05T20:28:25.567Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1978170",
+        "files": [
+          {
+            "name": "infinitetalkWithSingle_v20.zip",
+            "type": "Archive",
+            "sizeKB": 9.521484375
+          }
+        ]
+      },
+      {
+        "id": 1935190,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-06-23T16:58:01.135Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1935190",
+        "files": [
+          {
+            "name": "infinitetalkWithSingle_v10.zip",
+            "type": "Archive",
+            "sizeKB": 8.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2422765,
+    "name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 11,
+    "creator": {
+      "username": "trashkollector175",
+      "href": "https://civitai.com/users/trashkollector175"
+    },
+    "stats": {
+      "downloadCount": 1253,
+      "thumbsUpCount": 43,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 280,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2026-07-20T03:19:40.730Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2422765",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/width=450/126436721.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3146401,
+        "name": "v5.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-20T03:19:40.730Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3146401",
+        "files": [
+          {
+            "name": "ltx23UnlimitedVideoLength_v50.zip",
+            "type": "Archive",
+            "sizeKB": 22.712890625
+          }
+        ]
+      },
+      {
+        "id": 2840074,
+        "name": "v4.2",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-08T04:39:44.815Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2840074",
+        "files": [
+          {
+            "name": "ltx23UnlimitedVideoLength_v42.zip",
+            "type": "Archive",
+            "sizeKB": 23.0234375
+          }
+        ]
+      },
+      {
+        "id": 2831216,
+        "name": "v4.01",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-04-04T22:18:46.305Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2831216",
+        "files": [
+          {
+            "name": "ltx23UnlimitedVideoLength_v401.zip",
+            "type": "Archive",
+            "sizeKB": 23.03515625
+          }
+        ]
+      },
+      {
+        "id": 2803269,
+        "name": "v3.1",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-25T18:46:25.972Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2803269",
+        "files": [
+          {
+            "name": "ltx23UnlimitedVideoLength_v31.zip",
+            "type": "Archive",
+            "sizeKB": 36.9921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1553946,
+    "name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
+    "type": "Workflows",
+    "baseModel": "Wan Video",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "MattHVisual",
+      "href": "https://civitai.com/users/MattHVisual"
+    },
+    "stats": {
+      "downloadCount": 1048,
+      "thumbsUpCount": 41,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2025-05-07T14:16:09.248Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1553946",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/width=450/74788635.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4"
+    },
+    "versions": [
+      {
+        "id": 1758385,
+        "name": "v1.0",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-05-07T14:16:09.248Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1758385",
+        "files": [
+          {
+            "name": "wan21FantasyTalk_v10.zip",
+            "type": "Archive",
+            "sizeKB": 1828.7666015625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2490072,
+    "name": "LTX2.3 TI2V Audio Image Driven Digital Human",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 843,
+      "thumbsUpCount": 37,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2026-03-24T10:04:50.848Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2490072",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/width=450/125225669.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/original=true/125225669.mp4"
+    },
+    "versions": [
+      {
+        "id": 2799363,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-24T10:04:50.848Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2799363",
+        "files": [
+          {
+            "name": "ltx23TI2VAudioImage_v10.zip",
+            "type": "Archive",
+            "sizeKB": 34.46875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1920627,
+    "name": "Wan Speech To Video(Lip Sync With Speed Up)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 2.2 I2V-A14B",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 836,
+      "thumbsUpCount": 20,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2025-09-02T04:19:44.153Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1920627",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/width=450/97885281.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4"
+    },
+    "versions": [
+      {
+        "id": 2173855,
+        "name": "v1.0",
+        "baseModel": "Wan Video 2.2 I2V-A14B",
+        "updatedAt": "2025-09-02T04:19:44.153Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2173855",
+        "files": [
+          {
+            "name": "wanSpeechToVideoLipSync_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.9423828125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2494973,
+    "name": "LTX2.3 Voice-over Video Production Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "CottonByte",
+      "href": "https://civitai.com/users/CottonByte"
+    },
+    "stats": {
+      "downloadCount": 456,
+      "thumbsUpCount": 22,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2026-03-26T08:29:27.795Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2494973",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f8773ea-9277-4434-835b-2651ec6dc317/width=450/125414905.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f8773ea-9277-4434-835b-2651ec6dc317/original=true/125414905.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2804694,
+        "name": "LTX2.3 Voice-over Video",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-26T08:29:27.795Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2804694",
+        "files": [
+          {
+            "name": "ltx23VoiceOverVideo_ltx23VoiceOverVideo.zip",
+            "type": "Archive",
+            "sizeKB": 10.1904296875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2839737,
+    "name": "MiniMax H3 Dual Digital Human",
+    "type": "Workflows",
+    "baseModel": "MiniMax H3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 196,
+      "thumbsUpCount": 10,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2026-08-07T03:59:53.101Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2839737",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6befea-c3c1-4291-8610-e62fb327559c/width=450/138982672.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6befea-c3c1-4291-8610-e62fb327559c/original=true/138982672.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3205391,
+        "name": "v1.0",
+        "baseModel": "MiniMax H3",
+        "updatedAt": "2026-08-07T03:59:53.101Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3205391",
+        "files": [
+          {
+            "name": "minimaxH3DualDigital_v10.json",
+            "type": "Config",
+            "sizeKB": 53.94
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 589005,
+    "name": "My Project Odyssey Workflow",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "TheGeekyGhost",
+      "href": "https://civitai.com/users/TheGeekyGhost"
+    },
+    "stats": {
+      "downloadCount": 105,
+      "thumbsUpCount": 4,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2024-07-19T19:05:15.882Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/589005",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/337845ad-5775-43c5-89aa-f78816831c2e/width=450/20540465.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/337845ad-5775-43c5-89aa-f78816831c2e/original=true/20540465.jpeg"
+    },
+    "versions": [
+      {
+        "id": 657625,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-07-19T19:05:15.882Z",
+        "downloadUrl": "https://civitai.com/api/download/models/657625",
+        "files": [
+          {
+            "name": "myProjectOdyssey_v10.zip",
+            "type": "Archive",
+            "sizeKB": 16.36328125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2808963,
+    "name": "[Workflow] LTX2.3 Lip Sync · Image + Audio to Video For Anime",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FloyoAI",
+      "href": "https://civitai.com/users/FloyoAI"
+    },
+    "stats": {
+      "downloadCount": 105,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:09+00:00"
+    },
+    "lastUpdated": "2026-07-26T14:12:22.783Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2808963",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7663c6b6-7dec-4106-b5d1-121a39c2d4fe/width=450/138071324.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7663c6b6-7dec-4106-b5d1-121a39c2d4fe/original=true/138071324.jpeg"
+    },
+    "versions": [
+      {
+        "id": 3167535,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-26T14:12:22.783Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3167535",
+        "files": [
+          {
+            "name": "WorkflowLTX23LipSyncImage_v10.json",
+            "type": "Config",
+            "sizeKB": 219.7802734375
+          }
+        ]
+      }
+    ]
+  }
+]

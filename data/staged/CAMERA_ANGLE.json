@@ -1,0 +1,1996 @@
+{
+ "stage": "CAMERA_ANGLE",
+ "generated": "2026-09-02T04:06:57+00:00",
+ "note": "auto-staged from funnel+vision; curation pass owns final fields",
+ "entries": [
+  {
+   "id": 155198,
+   "our_name": null,
+   "source_name": "Animatediff Workflow: Openpose Keyframing in ComfyUI",
+   "purpose": null,
+   "composite": 20.0,
+   "tier": "S-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Other",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 7623,
+    "thumbsUpCount": 372
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70e449c7-20ef-4c8b-983d-64d975544e61/width=450/2813153.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70e449c7-20ef-4c8b-983d-64d975544e61/original=true/2813153.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/155198",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1796490,
+   "our_name": null,
+   "source_name": "Consistent character poses workflow",
+   "purpose": null,
+   "composite": 20.0,
+   "tier": "S-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 14B t2v",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 5056,
+    "thumbsUpCount": 281
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85/width=450/89584467.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85/original=true/89584467.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1796490",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2096307,
+   "our_name": null,
+   "source_name": "Qwen Edit2509 Multi-angle Storyboard Direct Output",
+   "purpose": null,
+   "composite": 19.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4434,
+    "thumbsUpCount": 211
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67e98547-bc97-4084-939b-25314f494ea1/width=450/108738587.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67e98547-bc97-4084-939b-25314f494ea1/original=true/108738587.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2096307",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 145921,
+   "our_name": null,
+   "source_name": "Product Photo Composer SD1.5 (Advertising Photos with Invoke AI 3.1.1)",
+   "purpose": null,
+   "composite": 19.6,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3591,
+    "thumbsUpCount": 251
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/width=450/2511992.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/original=true/2511992.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/145921",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2031587,
+   "our_name": null,
+   "source_name": "[Qwen_edit_2509] Simple Consistent character pose changer (workflow)",
+   "purpose": null,
+   "composite": 19.5,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3253,
+    "thumbsUpCount": 159
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00fdf4fa-c412-44ca-b3de-73d1afe17923/width=450/105244575.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00fdf4fa-c412-44ca-b3de-73d1afe17923/original=true/105244575.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2031587",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2323627,
+   "our_name": null,
+   "source_name": "FLUX 2 Klein 4B vs 9B Multi Camera Angles - One Click, 8 Camera Angles",
+   "purpose": null,
+   "composite": 19.2,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 4656,
+    "thumbsUpCount": 202
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee7c7687-63dd-4d4d-b037-106059eb7f1e/width=450/118119460.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee7c7687-63dd-4d4d-b037-106059eb7f1e/original=true/118119460.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2323627",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1774551,
+   "our_name": null,
+   "source_name": "Pose Selector Flux Kontext Workflow",
+   "purpose": null,
+   "composite": 19.0,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 Kontext",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2131,
+    "thumbsUpCount": 101
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b73394-ed83-4ae6-85e3-29066f4b0ad1/width=450/96464938.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b73394-ed83-4ae6-85e3-29066f4b0ad1/original=true/96464938.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1774551",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 526049,
+   "our_name": null,
+   "source_name": "Video Decomposer",
+   "purpose": null,
+   "composite": 18.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Other",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1801,
+    "thumbsUpCount": 162
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/width=450/17506499.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/original=true/17506499.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/526049",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1310339,
+   "our_name": null,
+   "source_name": "Ultra Detailer / Generator / Upscaler | txt2img, img2img | Separate & All in One -- General Purpose",
+   "purpose": null,
+   "composite": 18.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2306,
+    "thumbsUpCount": 104
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5214881a-546f-40db-8528-3d10f43f1482/width=450/60945696.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5214881a-546f-40db-8528-3d10f43f1482/original=true/60945696.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1310339",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2313745,
+   "our_name": null,
+   "source_name": "Multi-angle control of image generation Qwen_Edit_2509",
+   "purpose": null,
+   "composite": 18.7,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1663,
+    "thumbsUpCount": 92
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/width=450/117678861.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/original=true/117678861.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2313745",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2252071,
+   "our_name": null,
+   "source_name": "image_qwen_image_edit_2511_Multiangle Camera Workflow",
+   "purpose": null,
+   "composite": 18.6,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2941,
+    "thumbsUpCount": 126
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8165c306-1d64-4dca-9bb6-347616509203/width=450/116839140.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8165c306-1d64-4dca-9bb6-347616509203/original=true/116839140.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2252071",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1881818,
+   "our_name": null,
+   "source_name": "Copy pose from any image - Flux Kontext workflow",
+   "purpose": null,
+   "composite": 18.5,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 Kontext",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1682,
+    "thumbsUpCount": 77
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1cedf7b-7b7a-4b02-9bd1-6e43cba23acb/width=450/95275925.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1cedf7b-7b7a-4b02-9bd1-6e43cba23acb/original=true/95275925.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1881818",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2391906,
+   "our_name": null,
+   "source_name": "Flux Klein 9b Character Compositor - Multi-Angle",
+   "purpose": null,
+   "composite": 18.3,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1741,
+    "thumbsUpCount": 78
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17f4edbc-7884-4d2f-989d-17df7c47a8f1/width=450/121072576.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17f4edbc-7884-4d2f-989d-17df7c47a8f1/original=true/121072576.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2391906",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2103017,
+   "our_name": null,
+   "source_name": "Character Pose Transfer qwen_imgae_edit_2509",
+   "purpose": null,
+   "composite": 18.3,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1690,
+    "thumbsUpCount": 76
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b87934e-cf3f-4c7f-951b-a14cddd8ec8b/width=450/109055824.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b87934e-cf3f-4c7f-951b-a14cddd8ec8b/original=true/109055824.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2103017",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 546507,
+   "our_name": null,
+   "source_name": "AnimateDiff Vid2Vid (To use with Video Decomposer)",
+   "purpose": null,
+   "composite": 18.2,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Other",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1127,
+    "thumbsUpCount": 61
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/width=450/17841799.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/original=true/17841799.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/546507",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 914293,
+   "our_name": null,
+   "source_name": "PRO PHOTOSHOOT ULTIMATE - FLUX CONSISTENT CHARACTER & CLOTHES + PULID+ OPENPOSE + LORA",
+   "purpose": null,
+   "composite": 17.9,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1663,
+    "thumbsUpCount": 71
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec988c71-73cf-4bd5-921b-366218fd7908/width=450/38101212.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec988c71-73cf-4bd5-921b-366218fd7908/original=true/38101212.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/914293",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2809079,
+   "our_name": null,
+   "source_name": "Krea2 Identity Instant Pose & Outfit Generator (No LLM Required)",
+   "purpose": null,
+   "composite": 17.9,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1457,
+    "thumbsUpCount": 64
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3581f1e3-042c-4b47-beda-0b23aab7f156/width=450/137868972.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3581f1e3-042c-4b47-beda-0b23aab7f156/original=true/137868972.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2809079",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2030628,
+   "our_name": null,
+   "source_name": "Qwen Edit Plus (2509) OpenPose 8 Steps",
+   "purpose": null,
+   "composite": 17.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 7009,
+    "thumbsUpCount": 254
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0/width=450/105154569.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0/original=true/105154569.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2030628",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2180915,
+   "our_name": null,
+   "source_name": "Workflow: Z_Image for Pose & Scene Variation",
+   "purpose": null,
+   "composite": 17.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 790,
+    "thumbsUpCount": 38
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c/width=450/112151985.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c/original=true/112151985.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2180915",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2375500,
+   "our_name": null,
+   "source_name": "Qwen Multi-angle & Single-angle Batch Image Generation Workflow for Storyboarding or Material Library Creation",
+   "purpose": null,
+   "composite": 17.7,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1562,
+    "thumbsUpCount": 66
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03399890-4bf8-4261-b786-a0ae72bbb1e9/width=450/120373154.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03399890-4bf8-4261-b786-a0ae72bbb1e9/original=true/120373154.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2375500",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1719791,
+   "our_name": null,
+   "source_name": "Vace control depth/openpose/canny/splines/extend",
+   "purpose": null,
+   "composite": 17.6,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 1.3B t2v",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 654,
+    "thumbsUpCount": 35
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/791e5a93-b026-4c17-a198-cbb9cb6b1dd4/width=450/84937932.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/791e5a93-b026-4c17-a198-cbb9cb6b1dd4/original=true/84937932.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1719791",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1524065,
+   "our_name": null,
+   "source_name": "VACE Motion Paths! Use A Path to Guide a Subject/CameraMovement",
+   "purpose": null,
+   "composite": 17.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 588,
+    "thumbsUpCount": 54
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f93fe6-520a-4a05-b48b-fbcb56b19746/width=450/73077095.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f93fe6-520a-4a05-b48b-fbcb56b19746/original=true/73077095.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1524065",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2298671,
+   "our_name": null,
+   "source_name": "Character Pose Transfer Qwen_Edit_2511",
+   "purpose": null,
+   "composite": 17.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1915,
+    "thumbsUpCount": 77
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d725a05-2db6-4ab5-8603-4ea6a7f05035/width=450/118226243.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d725a05-2db6-4ab5-8603-4ea6a7f05035/original=true/118226243.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2298671",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2608818,
+   "our_name": null,
+   "source_name": "Fully automated pose transfer workflow (Qwen image edit)",
+   "purpose": null,
+   "composite": 17.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 614,
+    "thumbsUpCount": 33
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9910f4d-803a-47d3-808f-36b95dfdf3f4/width=450/130094513.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9910f4d-803a-47d3-808f-36b95dfdf3f4/original=true/130094513.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2608818",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2303045,
+   "our_name": null,
+   "source_name": "Multi-Angle Dataset Workflow – Qwen Image Edit 2511",
+   "purpose": null,
+   "composite": 17.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1734,
+    "thumbsUpCount": 70
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd/width=450/117253334.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd/original=true/117253334.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2303045",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2345911,
+   "our_name": null,
+   "source_name": "Multiple 2511: Advanced Multi-Angle & Perspective Editing Workflow",
+   "purpose": null,
+   "composite": 17.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 533,
+    "thumbsUpCount": 38
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c20450-93ed-4468-950a-140c068f0ab1/width=450/119125827.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c20450-93ed-4468-950a-140c068f0ab1/original=true/119125827.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2345911",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2129379,
+   "our_name": null,
+   "source_name": "QwenEdit2509 Maintaining consistency in character scene migration and reference poses",
+   "purpose": null,
+   "composite": 17.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 567,
+    "thumbsUpCount": 27
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac/width=450/110291453.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac/original=true/110291453.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2129379",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2349397,
+   "our_name": null,
+   "source_name": "Multi-angle perspective switching with consistent character portrayal (single image)",
+   "purpose": null,
+   "composite": 17.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1317,
+    "thumbsUpCount": 54
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b878e74a-62f1-4896-a8fc-4ff17eb0ecee/width=450/119277588.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b878e74a-62f1-4896-a8fc-4ff17eb0ecee/original=true/119277588.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2349397",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1250209,
+   "our_name": null,
+   "source_name": "LTX i2v with Camera Control",
+   "purpose": null,
+   "composite": 17.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1697,
+    "thumbsUpCount": 66
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/width=450/72509479.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/original=true/72509479.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1250209",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2189594,
+   "our_name": null,
+   "source_name": "qwen image edit 2509 next scene and camera angles lora workflow",
+   "purpose": null,
+   "composite": 16.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 857,
+    "thumbsUpCount": 36
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f5d042d-9148-40ca-98a1-c5832e68c799/width=450/112463487.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f5d042d-9148-40ca-98a1-c5832e68c799/original=true/112463487.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2189594",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2337141,
+   "our_name": null,
+   "source_name": "LTX-2 Pose Image Audio to Video",
+   "purpose": null,
+   "composite": 16.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1598,
+    "thumbsUpCount": 60
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/width=450/118902517.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/original=true/118902517.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2337141",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2411518,
+   "our_name": null,
+   "source_name": "z_image_turbo_VNCCS_DWpose_example",
+   "purpose": null,
+   "composite": 16.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 714,
+    "thumbsUpCount": 30
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75c3c96d-a224-422a-82b1-710e685ed729/width=450/121960130.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75c3c96d-a224-422a-82b1-710e685ed729/original=true/121960130.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2411518",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1920774,
+   "our_name": null,
+   "source_name": "T2I-QwenImage with Pose Control",
+   "purpose": null,
+   "composite": 16.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 913,
+    "thumbsUpCount": 36
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4769127-03a8-41c4-a4dc-3bd5e0e4d781/width=450/102146410.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4769127-03a8-41c4-a4dc-3bd5e0e4d781/original=true/102146410.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1920774",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2296023,
+   "our_name": null,
+   "source_name": "Pose_Clothes Transfer-Qwen edit",
+   "purpose": null,
+   "composite": 16.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1159,
+    "thumbsUpCount": 44
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/290e05de-c5c0-404a-b561-bb9c28c17ac0/width=450/116961045.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/290e05de-c5c0-404a-b561-bb9c28c17ac0/original=true/116961045.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2296023",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 460491,
+   "our_name": null,
+   "source_name": "Character Video Generation (AnimateLCM, OpenPose Controlnet, Lora, Face Detailer)",
+   "purpose": null,
+   "composite": 16.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 833,
+    "thumbsUpCount": 32
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0ee674-bb07-4b14-a96a-8a4e4eac9ac4/width=450/12761601.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0ee674-bb07-4b14-a96a-8a4e4eac9ac4/original=true/12761601.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/460491",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1894175,
+   "our_name": null,
+   "source_name": "Workflow RefControl Flux Kontext – Reference Pose LoRA",
+   "purpose": null,
+   "composite": 16.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2517,
+    "thumbsUpCount": 81
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/width=450/96188131.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/original=true/96188131.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1894175",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2315290,
+   "our_name": null,
+   "source_name": "Flux Klein Pose & Background Thief (The Ultimate Persona Transfer)",
+   "purpose": null,
+   "composite": 16.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1238,
+    "thumbsUpCount": 45
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196515b8-f397-461d-b1b5-7baec74e7440/width=450/117745903.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196515b8-f397-461d-b1b5-7baec74e7440/original=true/117745903.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2315290",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2455228,
+   "our_name": null,
+   "source_name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
+   "purpose": null,
+   "composite": 16.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1795,
+    "thumbsUpCount": 60
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2455228",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 326837,
+   "our_name": null,
+   "source_name": "ComfyUI image-morphing low-VRAM LCM video animation workflow with poses",
+   "purpose": null,
+   "composite": 15.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1147,
+    "thumbsUpCount": 38
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69a95d35-0f95-4681-9bb3-836af7baf593/width=450/7360049.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69a95d35-0f95-4681-9bb3-836af7baf593/original=true/7360049.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/326837",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1966651,
+   "our_name": null,
+   "source_name": "Qwen Image Edit + OpenPose CtrlNet",
+   "purpose": null,
+   "composite": 15.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1253,
+    "thumbsUpCount": 39
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bfcf2c-cf80-4e82-afe2-44785b02a75f/width=450/100921676.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bfcf2c-cf80-4e82-afe2-44785b02a75f/original=true/100921676.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1966651",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2190433,
+   "our_name": null,
+   "source_name": "Z-image Turbo Controlnet workflow (Pose, Depth, Canny)",
+   "purpose": null,
+   "composite": 14.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2817,
+    "thumbsUpCount": 72
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b83cfd34-a156-480d-9abc-459ff08ddc2f/width=450/112583627.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b83cfd34-a156-480d-9abc-459ff08ddc2f/original=true/112583627.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2190433",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 541709,
+   "our_name": null,
+   "source_name": "ComfyUI Workflow SDXL/Pony - Image Generation, Upscale, Face Detailer with Control Net (Canny, Scribble, Tile, Depth, Openpose) + Batch Upscaling",
+   "purpose": null,
+   "composite": 14.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 14022,
+    "thumbsUpCount": 300
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d736f1-fd82-4436-a488-3931c8687167/width=450/27409619.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d736f1-fd82-4436-a488-3931c8687167/original=true/27409619.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/541709",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2195521,
+   "our_name": null,
+   "source_name": "Z-Image-ControlNet second-order Refiner + Pose / Depth / Line",
+   "purpose": null,
+   "composite": 14.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "ZImageTurbo",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 765,
+    "thumbsUpCount": 24
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1297a87f-efd5-4757-bf4f-a8b78fc83654/width=450/112699662.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1297a87f-efd5-4757-bf4f-a8b78fc83654/original=true/112699662.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2195521",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1963377,
+   "our_name": null,
+   "source_name": "Qwen Image OpenPose Controlnet",
+   "purpose": null,
+   "composite": 14.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 748,
+    "thumbsUpCount": 23
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9410114c-38d5-4603-a8b9-83c2883d9884/width=450/100703792.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9410114c-38d5-4603-a8b9-83c2883d9884/original=true/100703792.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1963377",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2692134,
+   "our_name": null,
+   "source_name": "(RTX 4060) LTX 2.3 Pose Control + Face and Hand Detailer",
+   "purpose": null,
+   "composite": 14.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 795,
+    "thumbsUpCount": 24
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21111846-3565-4d2f-a2f9-30bb0f232c8a/width=450/133448394.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21111846-3565-4d2f-a2f9-30bb0f232c8a/original=true/133448394.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2692134",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2090446,
+   "our_name": null,
+   "source_name": "Qwen_ Multi angle _ Character Consistency _ One Image for Full Angle _ High Consistency _ Consistency Derived Training Set",
+   "purpose": null,
+   "composite": 14.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 943,
+    "thumbsUpCount": 27
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa10aa8e-94b7-4c1b-937c-efbda175c4f3/width=450/108432503.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa10aa8e-94b7-4c1b-937c-efbda175c4f3/original=true/108432503.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2090446",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2233048,
+   "our_name": null,
+   "source_name": "Character Multi-Angle V3 - Character Consistency - Speed Edition",
+   "purpose": null,
+   "composite": 13.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 T2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 518,
+    "thumbsUpCount": 16
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bed800b-dabf-4178-8fc2-9356d19e2a85/width=450/114247280.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bed800b-dabf-4178-8fc2-9356d19e2a85/original=true/114247280.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2233048",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2429713,
+   "our_name": null,
+   "source_name": "T2I/I2I/inpaint/Reference Highres Detailers Olovodude's Multi-purpose workflow",
+   "purpose": null,
+   "composite": 13.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 810,
+    "thumbsUpCount": 22
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc65c0e3-cc79-43a1-9f53-f25def349016/width=450/122708293.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc65c0e3-cc79-43a1-9f53-f25def349016/original=true/122708293.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2429713",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2578291,
+   "our_name": null,
+   "source_name": "ControlNet depth or openpose flux2klein",
+   "purpose": null,
+   "composite": 12.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1287,
+    "thumbsUpCount": 26
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000d4d46-db61-4dea-a798-551a0c43701a/width=450/130111736.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000d4d46-db61-4dea-a798-551a0c43701a/original=true/130111736.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2578291",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2642426,
+   "our_name": null,
+   "source_name": "Flux Klein 4B/9B Multiple Angles",
+   "purpose": null,
+   "composite": 12.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 4B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 935,
+    "thumbsUpCount": 19
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc38da4-b421-408e-a070-10ed17479df8/width=450/131468252.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc38da4-b421-408e-a070-10ed17479df8/original=true/131468252.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2642426",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1963971,
+   "our_name": null,
+   "source_name": "controlnet openpose SDXL perfect",
+   "purpose": null,
+   "composite": 11.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3840,
+    "thumbsUpCount": 29
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1503440e-7329-4523-b6c9-c500a5458033/width=450/100739356.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1503440e-7329-4523-b6c9-c500a5458033/original=true/100739356.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1963971",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  }
+ ]
+}

@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-02T00:59:03",
+ "generated": "2026-09-02T01:06:56",
  "cuts": [
+  {
+   "stage": "ADS",
+   "cut": 19,
+   "reason": "downloads < 500 (anti-farm floor)"
+  },
   {
    "stage": "MOTION",
    "cut": 817,
@@ -14,6 +19,11 @@
   {
    "stage": "PERSONA",
    "cut": 420,
+   "reason": "downloads < 500 (anti-farm floor)"
+  },
+  {
+   "stage": "SPEECH_VOICE",
+   "cut": 47,
    "reason": "downloads < 500 (anti-farm floor)"
   }
  ]

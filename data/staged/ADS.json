@@ -1,0 +1,475 @@
+{
+ "stage": "ADS",
+ "generated": "2026-09-02T04:06:57+00:00",
+ "note": "auto-staged from funnel+vision; curation pass owns final fields",
+ "entries": [
+  {
+   "id": 145921,
+   "our_name": null,
+   "source_name": "Product Photo Composer SD1.5 (Advertising Photos with Invoke AI 3.1.1)",
+   "purpose": null,
+   "composite": 20.0,
+   "tier": "S-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3591,
+    "thumbsUpCount": 251
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/width=450/2511992.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/030980b0-1231-442f-9275-763be518d390/original=true/2511992.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/145921",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 413826,
+   "our_name": null,
+   "source_name": "Change product background with the image of your choice using Style Transfer.",
+   "purpose": null,
+   "composite": 19.0,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Lightning",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 914,
+    "thumbsUpCount": 67
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/width=450/10467350.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/original=true/10467350.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/413826",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 413803,
+   "our_name": null,
+   "source_name": "Change product background with the image of your choice using Style Transfer.",
+   "purpose": null,
+   "composite": 18.7,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Lightning",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2278,
+    "thumbsUpCount": 138
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/width=450/10466364.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/original=true/10466364.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/413803",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 985126,
+   "our_name": null,
+   "source_name": "[flux-fill + flux-redux] Product Background Change",
+   "purpose": null,
+   "composite": 15.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1880,
+    "thumbsUpCount": 72
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/width=450/42298498.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/original=true/42298498.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/985126",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2455228,
+   "our_name": null,
+   "source_name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
+   "purpose": null,
+   "composite": 14.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1795,
+    "thumbsUpCount": 60
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2455228",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 926474,
+   "our_name": null,
+   "source_name": "电商产品视觉设计工作流/E-commerce product visual design workflow",
+   "purpose": null,
+   "composite": 13.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 895,
+    "thumbsUpCount": 30
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/width=450/38846437.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417d9df3-f12c-463b-9565-a98be3b4f08a/original=true/38846437.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/926474",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 413803,
+   "our_name": null,
+   "source_name": "Change product background with the image of your choice using Style Transfer.",
+   "purpose": null,
+   "composite": 19.1,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Lightning",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2278,
+    "thumbsUpCount": 138
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/width=450/10466364.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ec88d54-0a4c-484c-8ee1-d8156ed30a50/original=true/10466364.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/413803",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 142621,
+   "our_name": null,
+   "source_name": "Advertising Photos with SDXL & SD1.5 in Invoke AI 3.1.0",
+   "purpose": null,
+   "composite": 18.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL 1.0",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1796,
+    "thumbsUpCount": 162
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/317fb24f-7581-4c85-a65d-72d04150d668/width=450/2418483.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/317fb24f-7581-4c85-a65d-72d04150d668/original=true/2418483.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/142621",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 413826,
+   "our_name": null,
+   "source_name": "Change product background with the image of your choice using Style Transfer.",
+   "purpose": null,
+   "composite": 18.0,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SDXL Lightning",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 914,
+    "thumbsUpCount": 67
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/width=450/10467350.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/308ee91e-1dd3-4004-b3e6-cb36c10b5b30/original=true/10467350.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/413826",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2791097,
+   "our_name": null,
+   "source_name": "Lonecat's 🎨Post Production Module",
+   "purpose": null,
+   "composite": 17.7,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Krea 2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 720,
+    "thumbsUpCount": 50
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a2a493e-f7e2-4f69-ad56-42bdc977ae48/width=450/140058808.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a2a493e-f7e2-4f69-ad56-42bdc977ae48/original=true/140058808.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2791097",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 985126,
+   "our_name": null,
+   "source_name": "[flux-fill + flux-redux] Product Background Change",
+   "purpose": null,
+   "composite": 17.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.1 D",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1880,
+    "thumbsUpCount": 72
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/width=450/42298498.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/307b8231-865d-42c4-a898-edae1f624156/original=true/42298498.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/985126",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2788910,
+   "our_name": null,
+   "source_name": "Flux Klein 9b Production Workflow - FoxFurEssence",
+   "purpose": null,
+   "composite": 17.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Flux.2 Klein 9B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 663,
+    "thumbsUpCount": 29
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40e49691-8ae2-4211-9913-6abfe58235ea/width=450/137119343.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40e49691-8ae2-4211-9913-6abfe58235ea/original=true/137119343.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2788910",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  }
+ ]
+}

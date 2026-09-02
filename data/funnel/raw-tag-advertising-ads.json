@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1226245,
+    "name": "ads-products-design(flux)",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AbdallahAlswa80",
+      "href": "https://civitai.com/users/AbdallahAlswa80"
+    },
+    "stats": {
+      "downloadCount": 227,
+      "thumbsUpCount": 18,
+      "thumbsDownCount": 1,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:07+00:00"
+    },
+    "lastUpdated": "2025-02-07T02:22:36.879Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1226245",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a850b840-d6be-459f-ac8c-19db4fb8c775/width=450/56286821.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a850b840-d6be-459f-ac8c-19db4fb8c775/original=true/56286821.jpeg"
+    },
+    "versions": [
+      {
+        "id": 1381650,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2025-02-07T02:22:36.879Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1381650",
+        "files": [
+          {
+            "name": "adsProductsDesignFlux_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.251953125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 216926,
+    "name": "Joy is Bavaria (Bavarian Lederhosen) Comfyui Workflow [SDXL]",
+    "type": "Workflows",
+    "baseModel": "SDXL 1.0",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "denrakeiw",
+      "href": "https://civitai.com/users/denrakeiw"
+    },
+    "stats": {
+      "downloadCount": 220,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:07+00:00"
+    },
+    "lastUpdated": "2023-11-30T10:41:28.509Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [],
+      "allowNoCredit": false,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/216926",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85aa83d8-e597-41cd-9fe2-d90062c20c09/width=450/4049035.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85aa83d8-e597-41cd-9fe2-d90062c20c09/original=true/4049035.jpeg"
+    },
+    "versions": [
+      {
+        "id": 244468,
+        "name": "v1.0",
+        "baseModel": "SDXL 1.0",
+        "updatedAt": "2023-11-30T10:41:28.509Z",
+        "downloadUrl": "https://civitai.com/api/download/models/244468",
+        "files": [
+          {
+            "name": "joyIsBavariaBavarian_v10.zip",
+            "type": "Archive",
+            "sizeKB": 9.4130859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2436316,
+    "name": "1 click get 10 Amazon detail pages",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "CottonByte",
+      "href": "https://civitai.com/users/CottonByte"
+    },
+    "stats": {
+      "downloadCount": 109,
+      "thumbsUpCount": 9,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:07+00:00"
+    },
+    "lastUpdated": "2026-03-03T03:33:18.714Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2436316",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58f7b769-3e22-4bee-86aa-95102937dc6e/width=450/122992321.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58f7b769-3e22-4bee-86aa-95102937dc6e/original=true/122992321.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2739331,
+        "name": "E-commercial photos",
+        "baseModel": "Other",
+        "updatedAt": "2026-03-03T03:33:18.714Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2739331",
+        "files": [
+          {
+            "name": "1ClickGet10Amazon_eCommercialPhotos.zip",
+            "type": "Archive",
+            "sizeKB": 8.1533203125
+          }
+        ]
+      }
+    ]
+  }
+]

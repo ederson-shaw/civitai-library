@@ -1,0 +1,1528 @@
+{
+ "stage": "SPEECH_VOICE",
+ "generated": "2026-09-02T04:06:57+00:00",
+ "note": "auto-staged from funnel+vision; curation pass owns final fields",
+ "entries": [
+  {
+   "id": 1983539,
+   "our_name": null,
+   "source_name": "Motion Forge: Wan2.2 S2V - High-Motion & Long-Format Workflow 4 Steps",
+   "purpose": null,
+   "composite": 17.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 812,
+    "thumbsUpCount": 40
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b09c7f25-d81d-4609-bc53-c2918e81fb1b/width=450/102021585.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b09c7f25-d81d-4609-bc53-c2918e81fb1b/original=true/102021585.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1983539",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1945414,
+   "our_name": null,
+   "source_name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
+   "purpose": null,
+   "composite": 17.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 14B i2v 480p",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 602,
+    "thumbsUpCount": 31
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/width=450/99516422.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1945414",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2411105,
+   "our_name": null,
+   "source_name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
+   "purpose": null,
+   "composite": 17.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 517,
+    "thumbsUpCount": 29
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/width=450/121941398.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2411105",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2028402,
+   "our_name": null,
+   "source_name": "InfiniteTalk TTS BGM Foley US IP",
+   "purpose": null,
+   "composite": 17.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 14B i2v 480p",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 503,
+    "thumbsUpCount": 28
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1d9ca71-a953-45d9-9acc-31f22dded0cc/width=450/105045770.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1d9ca71-a953-45d9-9acc-31f22dded0cc/original=true/105045770.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2028402",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2306894,
+   "our_name": null,
+   "source_name": "LTX-2.5 Image Audio to Video - Lipsync",
+   "purpose": null,
+   "composite": 17.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 6514,
+    "thumbsUpCount": 218
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/width=450/123301446.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2306894",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2498927,
+   "our_name": null,
+   "source_name": "Text-to-Speech with Voice Clone in LTX 2.3",
+   "purpose": null,
+   "composite": 17.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1684,
+    "thumbsUpCount": 66
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74edf4c2-3a80-4c3b-99cc-1cbe70294a53/width=450/126545198.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74edf4c2-3a80-4c3b-99cc-1cbe70294a53/original=true/126545198.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2498927",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1710081,
+   "our_name": null,
+   "source_name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
+   "purpose": null,
+   "composite": 17.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 14B i2v 720p",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2342,
+    "thumbsUpCount": 87
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/width=450/102781784.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1710081",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1553946,
+   "our_name": null,
+   "source_name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
+   "purpose": null,
+   "composite": 16.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1048,
+    "thumbsUpCount": 41
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/width=450/74788635.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1553946",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2422765,
+   "our_name": null,
+   "source_name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
+   "purpose": null,
+   "composite": 15.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1253,
+    "thumbsUpCount": 43
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/width=450/126436721.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2422765",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1815300,
+   "our_name": null,
+   "source_name": "VideoFlow - LTX 2.3 All-in-One T2V / I2V / A2V / Stable Character Voice, Wan 2.2/2.1 I2V workflow",
+   "purpose": null,
+   "composite": 15.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 20149,
+    "thumbsUpCount": 519
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622fb79d-24b0-4320-b039-4d5faa8392e8/width=450/130511640.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622fb79d-24b0-4320-b039-4d5faa8392e8/original=true/130511640.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1815300",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2337329,
+   "our_name": null,
+   "source_name": "Qwen3-TTS Voice Generation Collection V1",
+   "purpose": null,
+   "composite": 15.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Qwen",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1482,
+    "thumbsUpCount": 48
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4866c1d1-8d27-400b-8cf5-a0f2c2f67272/width=450/118728117.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4866c1d1-8d27-400b-8cf5-a0f2c2f67272/original=true/118728117.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2337329",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1924833,
+   "our_name": null,
+   "source_name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
+   "purpose": null,
+   "composite": 15.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1695,
+    "thumbsUpCount": 52
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/width=450/98147116.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1924833",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1909425,
+   "our_name": null,
+   "source_name": "Wan 2.2 14B S2V Ultimate Suite: GGUF & Lightning Speed with Extended Video Generation",
+   "purpose": null,
+   "composite": 15.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2181,
+    "thumbsUpCount": 63
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f794882-93ab-47d4-9690-2e1b985f354e/width=450/99025214.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f794882-93ab-47d4-9690-2e1b985f354e/original=true/99025214.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1909425",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2041710,
+   "our_name": null,
+   "source_name": "InfiniteTalk | Image-to-Speech AI Workflow (All Files + Setup Guide Included)",
+   "purpose": null,
+   "composite": 15.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 14B i2v 480p",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 957,
+    "thumbsUpCount": 32
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/990c073b-99f0-4445-8640-77e046ba0195/width=450/105909820.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/990c073b-99f0-4445-8640-77e046ba0195/original=true/105909820.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2041710",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2294829,
+   "our_name": null,
+   "source_name": "Friendly LTX-2 T2V+I2V+Lipsync",
+   "purpose": null,
+   "composite": 15.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3103,
+    "thumbsUpCount": 81
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/width=450/122670081.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2294829",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 363141,
+   "our_name": null,
+   "source_name": "Animatediff SparseCtrl img2img2vid 4/8frames2VideoPrediction LLM SD15",
+   "purpose": null,
+   "composite": 14.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2315,
+    "thumbsUpCount": 58
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc924ae5-42d6-49f3-8ac6-b32c42adf234/width=450/8389162.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc924ae5-42d6-49f3-8ac6-b32c42adf234/original=true/8389162.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/363141",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2299899,
+   "our_name": null,
+   "source_name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
+   "purpose": null,
+   "composite": 14.3,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2582,
+    "thumbsUpCount": 61
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/width=450/117889046.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2299899",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2475570,
+   "our_name": null,
+   "source_name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
+   "purpose": null,
+   "composite": 14.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3239,
+    "thumbsUpCount": 69
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/width=450/124575015.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2475570",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2492652,
+   "our_name": null,
+   "source_name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
+   "purpose": null,
+   "composite": 14.1,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1563,
+    "thumbsUpCount": 40
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/width=450/132437381.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/original=true/132437381.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2492652",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2780640,
+   "our_name": null,
+   "source_name": "JoyAI-Echo Multishot Workflow - one character, many shots, same face + voice",
+   "purpose": null,
+   "composite": 13.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 902,
+    "thumbsUpCount": 24
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51def214-5907-4eb6-b2d4-846ffe1cd2ac/width=450/138279474.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51def214-5907-4eb6-b2d4-846ffe1cd2ac/original=true/138279474.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2780640",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1920627,
+   "our_name": null,
+   "source_name": "Wan Speech To Video(Lip Sync With Speed Up)",
+   "purpose": null,
+   "composite": 13.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 836,
+    "thumbsUpCount": 20
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/width=450/97885281.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1920627",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1923801,
+   "our_name": null,
+   "source_name": "Microsoft Vibe Voice Text To Speech Example Workflow",
+   "purpose": null,
+   "composite": 10.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Other",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 759,
+    "thumbsUpCount": 11
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8aab064a-159f-4024-9bbc-d9d54fbef696/width=450/98090196.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8aab064a-159f-4024-9bbc-d9d54fbef696/original=true/98090196.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1923801",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 489100,
+   "our_name": null,
+   "source_name": "Petravoice",
+   "purpose": null,
+   "composite": 17.9,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Pony",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 6498,
+    "thumbsUpCount": 833
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ce5d04-9fe6-4cd6-81db-bf5021a7f709/width=450/14261227.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ce5d04-9fe6-4cd6-81db-bf5021a7f709/original=true/14261227.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/489100",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 539547,
+   "our_name": null,
+   "source_name": "Petra Voice Styles [LoRA]",
+   "purpose": null,
+   "composite": 13.2,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Illustrious",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1335,
+    "thumbsUpCount": 114
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a45c4bde-77a1-4d7b-be03-f1c127526948/width=450/55592582.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a45c4bde-77a1-4d7b-be03-f1c127526948/original=true/55592582.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/539547",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 394171,
+   "our_name": null,
+   "source_name": "Comfyui Generate Digital Talking Human Workflow",
+   "purpose": null,
+   "composite": 19.4,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "SD 1.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1012,
+    "thumbsUpCount": 51
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/width=450/9596795.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/original=true/9596795.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/394171",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2490072,
+   "our_name": null,
+   "source_name": "LTX2.3 TI2V Audio Image Driven Digital Human",
+   "purpose": null,
+   "composite": 19.2,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 843,
+    "thumbsUpCount": 37
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/width=450/125225669.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35f2316-dcf5-4907-beef-599d6c47c032/original=true/125225669.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2490072",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1526147,
+   "our_name": null,
+   "source_name": "Fantasy Talking+Cosyvoice Digital Person Skyreels+v2+I2V Stable Acceleration Version V2",
+   "purpose": null,
+   "composite": 18.8,
+   "tier": "A-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 637,
+    "thumbsUpCount": 33
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/width=450/73206846.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/original=true/73206846.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1526147",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1945414,
+   "our_name": null,
+   "source_name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
+   "purpose": null,
+   "composite": 18.7,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 14B i2v 480p",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 602,
+    "thumbsUpCount": 31
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/width=450/99516422.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1945414",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2411105,
+   "our_name": null,
+   "source_name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
+   "purpose": null,
+   "composite": 18.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 517,
+    "thumbsUpCount": 29
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/width=450/121941398.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2411105",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1710081,
+   "our_name": null,
+   "source_name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
+   "purpose": null,
+   "composite": 18.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 14B i2v 720p",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2342,
+    "thumbsUpCount": 87
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/width=450/102781784.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1710081",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1553946,
+   "our_name": null,
+   "source_name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
+   "purpose": null,
+   "composite": 18.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1048,
+    "thumbsUpCount": 41
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/width=450/74788635.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1553946",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2306894,
+   "our_name": null,
+   "source_name": "LTX-2.5 Image Audio to Video - Lipsync",
+   "purpose": null,
+   "composite": 17.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.5",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 6515,
+    "thumbsUpCount": 218
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/width=450/123301446.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2306894",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2422765,
+   "our_name": null,
+   "source_name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
+   "purpose": null,
+   "composite": 17.5,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1253,
+    "thumbsUpCount": 43
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/width=450/126436721.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2422765",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1924833,
+   "our_name": null,
+   "source_name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
+   "purpose": null,
+   "composite": 17.0,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1695,
+    "thumbsUpCount": 52
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/width=450/98147116.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1924833",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2294829,
+   "our_name": null,
+   "source_name": "Friendly LTX-2 T2V+I2V+Lipsync",
+   "purpose": null,
+   "composite": 15.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV2",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3103,
+    "thumbsUpCount": 81
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/width=450/122670081.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2294829",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2492652,
+   "our_name": null,
+   "source_name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
+   "purpose": null,
+   "composite": 15.8,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 1563,
+    "thumbsUpCount": 40
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/width=450/132437381.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4de7eee3-c713-4940-abe7-0d618b05bd6a/original=true/132437381.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2492652",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2299899,
+   "our_name": null,
+   "source_name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
+   "purpose": null,
+   "composite": 15.4,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 2582,
+    "thumbsUpCount": 61
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/width=450/117889046.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2299899",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 2475570,
+   "our_name": null,
+   "source_name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
+   "purpose": null,
+   "composite": 14.9,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "LTXV 2.3",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 3239,
+    "thumbsUpCount": 69
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/width=450/124575015.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/2475570",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  },
+  {
+   "id": 1920627,
+   "our_name": null,
+   "source_name": "Wan Speech To Video(Lip Sync With Speed Up)",
+   "purpose": null,
+   "composite": 14.6,
+   "tier": "B-candidate",
+   "visual_class": "unreviewed",
+   "quality": null,
+   "nsfw_bucket": null,
+   "name_fit": null,
+   "review_flag": true,
+   "baseModel": "Wan Video 2.2 I2V-A14B",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 836,
+    "thumbsUpCount": 20
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/width=450/97885281.mp4",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4"
+   },
+   "gallery": [],
+   "stacks_on": [],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1920627",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null
+   }
+  }
+ ]
+}

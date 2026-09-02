@@ -1,0 +1,108 @@
+[
+  {
+    "id": 2455228,
+    "name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
+    "type": "Workflows",
+    "baseModel": "Qwen 2",
+    "nsfwLevel": 7,
+    "creator": {
+      "username": "CottonByte",
+      "href": "https://civitai.com/users/CottonByte"
+    },
+    "stats": {
+      "downloadCount": 1795,
+      "thumbsUpCount": 60,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:05+00:00"
+    },
+    "lastUpdated": "2026-03-10T08:33:14.724Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2455228",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2760699,
+        "name": "FireRed Image editor 1.1",
+        "baseModel": "Qwen 2",
+        "updatedAt": "2026-03-10T08:33:14.724Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2760699",
+        "files": [
+          {
+            "name": "fireredImageEditorSeamless_fireredImageEditor11.zip",
+            "type": "Archive",
+            "sizeKB": 5.7919921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2436316,
+    "name": "1 click get 10 Amazon detail pages",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "CottonByte",
+      "href": "https://civitai.com/users/CottonByte"
+    },
+    "stats": {
+      "downloadCount": 109,
+      "thumbsUpCount": 9,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:05+00:00"
+    },
+    "lastUpdated": "2026-03-03T03:33:18.714Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2436316",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58f7b769-3e22-4bee-86aa-95102937dc6e/width=450/122992321.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58f7b769-3e22-4bee-86aa-95102937dc6e/original=true/122992321.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2739331,
+        "name": "E-commercial photos",
+        "baseModel": "Other",
+        "updatedAt": "2026-03-03T03:33:18.714Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2739331",
+        "files": [
+          {
+            "name": "1ClickGet10Amazon_eCommercialPhotos.zip",
+            "type": "Archive",
+            "sizeKB": 8.1533203125
+          }
+        ]
+      }
+    ]
+  }
+]

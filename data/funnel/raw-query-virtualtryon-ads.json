@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1268453,
+    "name": "ComfyUI • Glasses Virtual Try-On",
+    "type": "Workflows",
+    "baseModel": "Flux.1 D",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "alexnix300",
+      "href": "https://civitai.com/users/alexnix300"
+    },
+    "stats": {
+      "downloadCount": 379,
+      "thumbsUpCount": 28,
+      "thumbsDownCount": 1,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:35+00:00"
+    },
+    "lastUpdated": "2025-02-18T12:38:44.762Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Sell",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1268453",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/601f8ad8-b07b-4bd7-80e9-c80d8322e68c/width=450/58595275.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/601f8ad8-b07b-4bd7-80e9-c80d8322e68c/original=true/58595275.mp4"
+    },
+    "versions": [
+      {
+        "id": 1430705,
+        "name": "v1.0",
+        "baseModel": "Flux.1 D",
+        "updatedAt": "2025-02-18T12:38:44.762Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1430705",
+        "files": [
+          {
+            "name": "comfyuiGlassesVirtual_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4175.85546875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1349393,
+    "name": "Virtual character chat/キャラと会話する/角色对话",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "TTangSlgy",
+      "href": "https://civitai.com/users/TTangSlgy"
+    },
+    "stats": {
+      "downloadCount": 127,
+      "thumbsUpCount": 17,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:35+00:00"
+    },
+    "lastUpdated": "2025-03-13T12:26:43.009Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1349393",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1149b45b-d154-47cf-9abf-088d9bbc741e/width=450/63271192.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1149b45b-d154-47cf-9abf-088d9bbc741e/original=true/63271192.mp4"
+    },
+    "versions": [
+      {
+        "id": 1527340,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2025-03-13T12:26:43.009Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1527340",
+        "files": [
+          {
+            "name": "virtualCharacterChat_v10.zip",
+            "type": "Archive",
+            "sizeKB": 31.7939453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2129402,
+    "name": "Virtual Outfit Change in Video - One-Step - Reference Editing",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B t2v",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 114,
+      "thumbsUpCount": 8,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:35+00:00"
+    },
+    "lastUpdated": "2025-11-15T12:52:41.043Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2129402",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ebbb0cf-7b2d-4433-be9b-28f81c450988/width=450/110292227.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ebbb0cf-7b2d-4433-be9b-28f81c450988/original=true/110292227.mp4"
+    },
+    "versions": [
+      {
+        "id": 2408708,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B t2v",
+        "updatedAt": "2025-11-15T12:52:41.043Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2408708",
+        "files": [
+          {
+            "name": "virtualOutfitChangeInVideo_v10.zip",
+            "type": "Archive",
+            "sizeKB": 37.4296875
+          }
+        ]
+      }
+    ]
+  }
+]

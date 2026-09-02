@@ -1,0 +1,651 @@
+[
+  {
+    "id": 408274,
+    "name": "Generate Talking Digital Human workflow with Expressions-Base Dream Talk",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AI_Master_Workflow",
+      "href": "https://civitai.com/users/AI_Master_Workflow"
+    },
+    "stats": {
+      "downloadCount": 492,
+      "thumbsUpCount": 34,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2024-04-19T05:57:21.752Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/408274",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bcdab93-5574-4f0f-a3c9-e51d15f56a77/width=450/10221210.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bcdab93-5574-4f0f-a3c9-e51d15f56a77/original=true/10221210.mp4"
+    },
+    "versions": [
+      {
+        "id": 455101,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-04-19T05:57:21.752Z",
+        "downloadUrl": "https://civitai.com/api/download/models/455101",
+        "files": [
+          {
+            "name": "generateTalkingDigital_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.9619140625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1526147,
+    "name": "Fantasy Talking+Cosyvoice Digital Person Skyreels+v2+I2V Stable Acceleration Version V2",
+    "type": "Workflows",
+    "baseModel": "Wan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 637,
+      "thumbsUpCount": 33,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2025-04-30T04:29:09.314Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1526147",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/width=450/73206846.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/original=true/73206846.mp4"
+    },
+    "versions": [
+      {
+        "id": 1726749,
+        "name": "v1.0",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-30T04:29:09.314Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1726749",
+        "files": [
+          {
+            "name": "fantasyTalkingCosyvoice_v10.zip",
+            "type": "Archive",
+            "sizeKB": 7.814453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1526134,
+    "name": "Fantasy Talking+Cosyvoice 2 Digital Person 4x Accelerated Optimized Version V2 (Base)",
+    "type": "Workflows",
+    "baseModel": "Wan Video",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "T8star",
+      "href": "https://civitai.com/users/T8star"
+    },
+    "stats": {
+      "downloadCount": 375,
+      "thumbsUpCount": 19,
+      "thumbsDownCount": 0,
+      "commentCount": 1,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2025-04-30T04:24:55.045Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1526134",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97262dc5-5786-4ad9-8e73-9c717466b79a/width=450/73206241.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97262dc5-5786-4ad9-8e73-9c717466b79a/original=true/73206241.mp4"
+    },
+    "versions": [
+      {
+        "id": 1726735,
+        "name": "v1.0",
+        "baseModel": "Wan Video",
+        "updatedAt": "2025-04-30T04:24:55.045Z",
+        "downloadUrl": "https://civitai.com/api/download/models/1726735",
+        "files": [
+          {
+            "name": "fantasyTalkingCosyvoice2_v10.zip",
+            "type": "Archive",
+            "sizeKB": 8.0419921875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 394171,
+    "name": "Comfyui Generate Digital Talking Human Workflow",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AI_Master_Workflow",
+      "href": "https://civitai.com/users/AI_Master_Workflow"
+    },
+    "stats": {
+      "downloadCount": 1012,
+      "thumbsUpCount": 51,
+      "thumbsDownCount": 0,
+      "commentCount": 2,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2024-04-10T18:19:44.771Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/394171",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/width=450/9596795.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/original=true/9596795.mp4"
+    },
+    "versions": [
+      {
+        "id": 439677,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2024-04-10T18:19:44.771Z",
+        "downloadUrl": "https://civitai.com/api/download/models/439677",
+        "files": [
+          {
+            "name": "comfyuiGenerateDigital_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.4814453125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1945414,
+    "name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 602,
+      "thumbsUpCount": 31,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2025-09-10T14:31:43.420Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/1945414",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/width=450/99516422.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4"
+    },
+    "versions": [
+      {
+        "id": 2201805,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-09-10T14:31:43.420Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2201805",
+        "files": [
+          {
+            "name": "wanVideoInfinitetalkVivevoice_v10.zip",
+            "type": "Archive",
+            "sizeKB": 13.9580078125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2134601,
+    "name": "Animal To Talking Human",
+    "type": "Workflows",
+    "baseModel": "Wan Video 14B i2v 480p",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "FaboroHacks",
+      "href": "https://civitai.com/users/FaboroHacks"
+    },
+    "stats": {
+      "downloadCount": 87,
+      "thumbsUpCount": 7,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2025-11-17T09:29:00.723Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2134601",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99fa743e-6b17-45c6-87c5-4b22fbb91bee/width=450/110527134.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99fa743e-6b17-45c6-87c5-4b22fbb91bee/original=true/110527134.mp4"
+    },
+    "versions": [
+      {
+        "id": 2414680,
+        "name": "v1.0",
+        "baseModel": "Wan Video 14B i2v 480p",
+        "updatedAt": "2025-11-17T09:29:00.723Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2414680",
+        "files": [
+          {
+            "name": "animalToTalkingHuman_v10.zip",
+            "type": "Archive",
+            "sizeKB": 24.52734375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2803681,
+    "name": "LTX-2.3 Multishot Lite - chained talking shots, core nodes only",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "joeygambino",
+      "href": "https://civitai.com/users/joeygambino"
+    },
+    "stats": {
+      "downloadCount": 187,
+      "thumbsUpCount": 11,
+      "thumbsDownCount": 0,
+      "commentCount": 3,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2026-07-25T21:47:35.232Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "RentCivit",
+        "Rent",
+        "Sell",
+        "Image"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2803681",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f17af4f-bc39-4829-8e73-b65478ec1499/width=450/137790195.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f17af4f-bc39-4829-8e73-b65478ec1499/original=true/137790195.mp4"
+    },
+    "versions": [
+      {
+        "id": 3164952,
+        "name": "v2.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-25T21:47:35.232Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3164952",
+        "files": [
+          {
+            "name": "ltx23MultishotLiteChained_v20.zip",
+            "type": "Archive",
+            "sizeKB": 23.3662109375
+          }
+        ]
+      },
+      {
+        "id": 3161048,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-07-25T19:44:30.822Z",
+        "downloadUrl": "https://civitai.com/api/download/models/3161048",
+        "files": [
+          {
+            "name": "ltx23MultishotLiteChained_v10.zip",
+            "type": "Archive",
+            "sizeKB": 12.255859375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2522587,
+    "name": "MultiTalk Workflow in ComfyUI | Photo to Talking Video",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 111,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2026-04-07T02:29:28.429Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2522587",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/103e943b-db50-4fe8-9d5f-b7520c52199b/width=450/126581483.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/103e943b-db50-4fe8-9d5f-b7520c52199b/original=true/126581483.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2835218,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2026-04-07T02:29:28.429Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2835218",
+        "files": [
+          {
+            "name": "multitalkWorkflowInComfyui_v10.zip",
+            "type": "Archive",
+            "sizeKB": 9.8515625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2495134,
+    "name": "DreamID-Omni | Single & Dual Talking Video from Photo + Audio (ComfyUI)",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 74,
+      "thumbsUpCount": 3,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2026-03-26T09:59:33.479Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2495134",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0449aa9-2819-4fe1-8171-c1bfbcdf5cc4/width=450/125420950.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0449aa9-2819-4fe1-8171-c1bfbcdf5cc4/original=true/125420950.mp4"
+    },
+    "versions": [
+      {
+        "id": 2804856,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2026-03-26T09:59:33.479Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2804856",
+        "files": [
+          {
+            "name": "dreamidOmniSingleDualTalking_v10.zip",
+            "type": "Archive",
+            "sizeKB": 3.1826171875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2618077,
+    "name": "VBVR Digital Human | Stable Talking Avatar Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "AIKSK",
+      "href": "https://civitai.com/users/AIKSK"
+    },
+    "stats": {
+      "downloadCount": 70,
+      "thumbsUpCount": 2,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2026-05-12T13:39:20.326Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2618077",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc75697d-08b6-4717-b8a7-f5da4af995c4/width=450/130485324.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc75697d-08b6-4717-b8a7-f5da4af995c4/original=true/130485324.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2939492,
+        "name": "v1.0",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-05-12T13:39:20.326Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2939492",
+        "files": [
+          {
+            "name": "vbvrDigitalHumanStable_v10.json",
+            "type": "Config",
+            "sizeKB": 259.318359375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2514688,
+    "name": "Wan 2.2 S2V in ComfyUI: Talking Images (GGUF Model) Workflow",
+    "type": "Workflows",
+    "baseModel": "Other",
+    "nsfwLevel": 1,
+    "creator": {
+      "username": "lordcaocao2025",
+      "href": "https://civitai.com/users/lordcaocao2025"
+    },
+    "stats": {
+      "downloadCount": 158,
+      "thumbsUpCount": 1,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2026-05-20T00:35:00.000Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2514688",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417f9ed7-6f86-49f2-a7e6-3a10090ad627/width=450/126260802.mp4",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/417f9ed7-6f86-49f2-a7e6-3a10090ad627/original=true/126260802.mp4"
+    },
+    "versions": [
+      {
+        "id": 2826518,
+        "name": "v1.0",
+        "baseModel": "Other",
+        "updatedAt": "2026-05-20T00:35:00.000Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2826518",
+        "files": [
+          {
+            "name": "wan22S2VInComfyuiTalking_v10.zip",
+            "type": "Archive",
+            "sizeKB": 4.0537109375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2512215,
+    "name": "Wan2.2 S2V in ComfyUI Workflow | Audio to Talking Video",
+    "type": "Workflows",
+    "baseModel": "SD 1.5",
+    "nsfwLevel": 3,
+    "creator": {
+      "username": "RunComfy",
+      "href": "https://civitai.com/users/RunComfy"
+    },
+    "stats": {
+      "downloadCount": 160,
+      "thumbsUpCount": 5,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:39+00:00"
+    },
+    "lastUpdated": "2026-04-02T12:40:33.922Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": true,
+      "allowDerivatives": true
+    },
+    "source_url": "https://civitai.com/models/2512215",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4698f02-4903-4489-b466-b437651a9eb7/width=450/126155880.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4698f02-4903-4489-b466-b437651a9eb7/original=true/126155880.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2823776,
+        "name": "v1.0",
+        "baseModel": "SD 1.5",
+        "updatedAt": "2026-04-02T12:40:33.922Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2823776",
+        "files": [
+          {
+            "name": "wan22S2VInComfyuiWorkflow_v10.zip",
+            "type": "Archive",
+            "sizeKB": 5.1611328125
+          }
+        ]
+      }
+    ]
+  }
+]

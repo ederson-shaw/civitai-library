@@ -1,0 +1,55 @@
+[
+  {
+    "id": 2494973,
+    "name": "LTX2.3 Voice-over Video Production Workflow",
+    "type": "Workflows",
+    "baseModel": "LTXV 2.3",
+    "nsfwLevel": 9,
+    "creator": {
+      "username": "CottonByte",
+      "href": "https://civitai.com/users/CottonByte"
+    },
+    "stats": {
+      "downloadCount": 456,
+      "thumbsUpCount": 22,
+      "thumbsDownCount": 0,
+      "commentCount": 0,
+      "tippedAmountCount": 0,
+      "period": null,
+      "pulled_at": "2026-09-02T04:06:08+00:00"
+    },
+    "lastUpdated": "2026-03-26T08:29:27.795Z",
+    "earlyAccessInfo": null,
+    "license": {
+      "allowCommercialUse": [
+        "Image",
+        "RentCivit",
+        "Rent",
+        "Sell"
+      ],
+      "allowNoCredit": false,
+      "allowDerivatives": false
+    },
+    "source_url": "https://civitai.com/models/2494973",
+    "preview": {
+      "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f8773ea-9277-4434-835b-2651ec6dc317/width=450/125414905.jpeg",
+      "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f8773ea-9277-4434-835b-2651ec6dc317/original=true/125414905.jpeg"
+    },
+    "versions": [
+      {
+        "id": 2804694,
+        "name": "LTX2.3 Voice-over Video",
+        "baseModel": "LTXV 2.3",
+        "updatedAt": "2026-03-26T08:29:27.795Z",
+        "downloadUrl": "https://civitai.com/api/download/models/2804694",
+        "files": [
+          {
+            "name": "ltx23VoiceOverVideo_ltx23VoiceOverVideo.zip",
+            "type": "Archive",
+            "sizeKB": 10.1904296875
+          }
+        ]
+      }
+    ]
+  }
+]
