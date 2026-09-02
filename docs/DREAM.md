@@ -25,7 +25,7 @@ stale awesome-list: dead links, updated 8 months ago, no previews, civitai score
 
 ## sad paths
 - civitai api changes / rate limits → cache layer + key + respect limits
-- github pages vs adult content → BINDING (legal-pages-policy.md): lane C = metadata + custom curation + civitai link-out, ZERO explicit imagery on pages build, ever. Toggle-gated explicit imagery on pages = REJECTED IDEA (AUP takedown risk). Blurred non-explicit previews allowed behind toggle. Any "unlocked" full-preview build lives OFF github entirely or does not exist.
+- github pages vs adult content → OWNER OVERRIDE 2026-09-01: full nsfw previews allowed (blur until toggle, sfw default view); hosting risk owned by owner, fallback = rehost on another provider. Legal analysis preserved in research/legal-pages-policy.md as record.
 - key revoked → sfw garimpo continues, nsfw degrades gracefully
 - flows go stale (base model deprecated) → freshness decay in score + stale flag
 - civitai cdn hotlink breaks → CDN sig-expiry probe queued (garimpo v0.1); local caching ONLY after license analysis lands in legal file (currently unresolved — do not cache)
