@@ -137,6 +137,10 @@ def apply_decisions(buckets):
                 e["review_flag"] = False
                 e["curated_by"] = d.get("reviewed_by")
                 e["curated_note"] = d.get("reason")
+                if not e.get("purpose"):
+                    e["purpose"] = d.get("reason")
+                if not e.get("verdict_keep"):
+                    e["verdict_keep"] = d.get("reason")
                 kept.append(e)
             elif act.startswith("move-"):
                 target = {"move-nsfw": "NSFW", "move-layers": "LAYERS",

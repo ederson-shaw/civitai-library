@@ -116,10 +116,11 @@ with sync_playwright() as pw:
         vcard = page.query_selector("[data-hover-video]")
         if vcard:
             vcard.scroll_into_view_if_needed()
-            vcard.hover()
-            page.wait_for_timeout(1000)
-            hv = vcard.evaluate("""el => { const v = el.tagName === 'VIDEO' ? el : (el.closest('.entry-card')?.querySelector('video') || null);
-                return v ? { paused: v.paused, t: v.currentTime } : null; }""")
+            hv = vcard.evaluate("""async el => { const v = el.tagName === 'VIDEO' ? el : (el.closest('.entry-card')?.querySelector('video') || null);
+                if (!v) return null;
+                el.dispatchEvent(new MouseEvent('mouseenter', {bubbles: true}));
+                await new Promise(r => setTimeout(r, 2500));
+                return { paused: v.paused, t: v.currentTime }; }""")
             v("hover: video plays on motion card", hv is not None and (not hv["paused"] or hv["t"] > 0), json.dumps(hv))
         else:
             v("hover: video cards exist", False, "no [data-hover-video] on motion")
