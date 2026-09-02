@@ -241,8 +241,22 @@ def polish_entries(buckets):
     """Owner pass m0335/m0337: photoreal ranks higher, tradeoff chips real,
     speech/ads purposes in human words (no jargon)."""
     fast_re = re.compile(r"turbo|lightning|lcm|hyper|distill|few.?step|gguf|accel", re.I)
+    vram_by_base = [
+        ("sd 1.5", "6"), ("sd 1.4", "6"), ("sd 2", "6"),
+        ("sdxl", "8"), ("illustrious", "8"), ("pony", "8"), ("anima", "8"), ("noobai", "8"),
+        ("klein", "8"), ("z-image", "8"), ("zit", "8"),
+        ("flux.2", "12"), ("flux.1", "12"), ("flux", "12"), ("krea", "16"), ("qwen", "16"),
+        ("hidream", "16"), ("ltx", "16"), ("wan 2.1", "24"), ("wan 2.2", "24"), ("wan2", "24"),
+        ("wan", "24"), ("hunyuan", "24"), ("minimax", "24"), ("chroma", "24"),
+    ]
     for stage in buckets:
-        median_comp = None
+        for e in buckets[stage]:
+            base = str(e.get("baseModel") or "").lower()
+            if not e.get("vram_class"):
+                for fam, vram in vram_by_base:
+                    if fam in base:
+                        e["vram_class"] = vram
+                        break
         comps = sorted((e.get("composite") or 0) for e in buckets[stage] if e.get("composite") is not None)
         if comps:
             median_comp = comps[len(comps) // 2]

@@ -1,6 +1,6 @@
 {
  "stage": "CAMERA_ANGLE",
- "generated": "2026-09-02T05:41:23+00:00",
+ "generated": "2026-09-02T05:45:56+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -67,7 +67,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Wan Video 14B t2v",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -187,7 +187,7 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -235,8 +235,10 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3591,
@@ -281,7 +283,7 @@
    "name_fit": "fits",
    "review_flag": true,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "low vram"
    ],
@@ -331,8 +333,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -396,7 +399,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.1 Kontext",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -724,7 +727,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -846,7 +849,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -960,8 +963,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1041,7 +1045,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1437,7 +1441,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -1485,7 +1489,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "low vram",
     "max quality"
@@ -1584,7 +1588,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1632,7 +1636,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 1.3B t2v",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1680,7 +1684,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Wan Video",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1728,7 +1732,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1776,7 +1780,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1824,7 +1828,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "low vram"
    ],
@@ -1876,7 +1880,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1924,7 +1928,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1972,8 +1976,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1317,
@@ -2018,7 +2024,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2066,7 +2072,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -2164,7 +2170,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2210,7 +2216,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -2260,9 +2266,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
-    "fastest"
+    "fastest",
+    "low vram"
    ],
    "open_closed": null,
    "stats": {
@@ -2310,8 +2317,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2517,
@@ -2358,7 +2367,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.2 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2406,7 +2415,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Qwen 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -2456,7 +2465,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "low vram"
    ],
@@ -2552,7 +2561,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2600,7 +2609,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2648,7 +2657,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2696,7 +2705,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Wan Video 2.2 T2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2744,8 +2753,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -2792,8 +2802,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 4B",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 935,
@@ -2840,7 +2852,7 @@
    "name_fit": "fits",
    "review_flag": true,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2887,8 +2899,10 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3529,
@@ -2934,7 +2948,7 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2981,8 +2995,10 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3311,

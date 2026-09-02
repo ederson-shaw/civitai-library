@@ -1,6 +1,6 @@
 {
  "stage": "SPEECH_VOICE",
- "generated": "2026-09-02T05:41:23+00:00",
+ "generated": "2026-09-02T05:45:56+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -16,7 +16,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "max quality"
    ],
@@ -66,7 +66,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "max quality"
    ],
@@ -270,7 +270,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "low vram",
     "max quality"
@@ -548,7 +548,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.5",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -598,7 +598,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -646,7 +646,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 720p",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -743,7 +743,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "low vram",
     "max quality"
@@ -885,7 +885,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -933,7 +933,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -981,7 +981,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Qwen",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1029,7 +1029,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1077,7 +1077,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "fastest"
    ],
@@ -1127,7 +1127,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "max quality"
    ],
@@ -1177,7 +1177,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -1227,7 +1227,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "fastest"
    ],
@@ -1277,7 +1277,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "fastest",
     "max quality"
@@ -1328,7 +1328,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -1378,7 +1378,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "low vram"
    ],
@@ -1430,7 +1430,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1478,8 +1478,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6498,
@@ -1526,8 +1528,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1335,
@@ -1574,8 +1578,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1012,
@@ -1656,7 +1662,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -1908,7 +1914,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "fastest",
     "max quality"
@@ -2053,7 +2059,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "max quality"
    ],
@@ -2257,7 +2263,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "low vram",
     "max quality"
@@ -2535,7 +2541,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 720p",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -2632,7 +2638,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "low vram",
     "max quality"
@@ -2774,7 +2780,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.5",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -2824,7 +2830,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -2874,7 +2880,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "max quality"
    ],
@@ -2924,7 +2930,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -2974,7 +2980,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -3024,7 +3030,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "fastest"
    ],
@@ -3074,7 +3080,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "fastest",
     "max quality"
@@ -3125,7 +3131,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {

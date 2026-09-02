@@ -75,6 +75,50 @@
     }
    ],
    "total_disk_mb": 0
+  },
+  {
+   "name": "moody cinematic portrait",
+   "purpose": "dark cinematic look on your persona — light + grain layers",
+   "steps": [
+    {
+     "stage": "PERSONA",
+     "entry_name": "majicMIX sombre 麦橘唯美",
+     "why": "the face",
+     "size_mb": 2033
+    },
+    {
+     "stage": "LAYERS",
+     "entry_name": "Chiaroscuro (Contrasted) Lighting Style XL + F1D + Illu + Pony + zit + zib",
+     "why": "moonlight/cinematic lighting",
+     "size_mb": 162
+    },
+    {
+     "stage": "LAYERS",
+     "entry_name": "Purple Grainy || Photography lora",
+     "why": "film grain finish",
+     "size_mb": 217
+    }
+   ],
+   "total_disk_mb": 2412
+  },
+  {
+   "name": "explicit set — photoreal",
+   "purpose": "your persona, adult content, photoreal",
+   "steps": [
+    {
+     "stage": "PERSONA",
+     "entry_name": "majicMIX sombre 麦橘唯美",
+     "why": "the face",
+     "size_mb": 2033
+    },
+    {
+     "stage": "NSFW",
+     "entry_name": "Niji semi realism",
+     "why": "photoreal adult finish",
+     "size_mb": 264
+    }
+   ],
+   "total_disk_mb": 2297
   }
  ]
 }

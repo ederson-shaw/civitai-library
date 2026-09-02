@@ -1,6 +1,6 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T05:41:23+00:00",
+ "generated": "2026-09-02T05:45:56+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -16,8 +16,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -70,8 +71,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "NoobAI",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -124,8 +126,10 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 44469,
@@ -174,8 +178,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -228,8 +233,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -282,8 +288,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -334,8 +341,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -388,8 +396,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -442,8 +451,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -496,9 +506,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
     "fastest",
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -551,8 +562,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -603,7 +615,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -657,8 +669,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -711,8 +724,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 60621,
@@ -763,8 +778,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9098,
@@ -813,8 +830,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -867,7 +885,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -921,8 +939,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -973,8 +992,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 93053,
@@ -1023,8 +1044,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1077,8 +1099,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18094,
@@ -1129,8 +1153,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1183,8 +1208,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 448635,
@@ -1235,8 +1262,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1287,7 +1315,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -1339,8 +1367,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1391,8 +1420,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1445,8 +1475,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 43171,
@@ -1497,7 +1529,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -1549,8 +1581,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1601,7 +1634,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1653,8 +1686,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -1757,7 +1791,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1809,8 +1843,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11028,
@@ -1861,7 +1897,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -1913,7 +1949,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "fastest",
     "max quality"
@@ -2018,7 +2054,7 @@
    "name_fit": "soft-mismatch",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
     "low vram"
    ],
@@ -2124,8 +2160,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38726,
@@ -2174,8 +2212,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -2226,8 +2265,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 26252,
@@ -2276,8 +2317,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 12689,
@@ -2430,8 +2473,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -2482,7 +2526,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -2584,7 +2628,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -2638,8 +2682,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -2692,9 +2737,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SDXL Hyper",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
     "fastest",
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -2745,8 +2791,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -2797,8 +2844,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -2901,8 +2949,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 24923,
@@ -2953,8 +3003,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -3005,8 +3056,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11282,
@@ -3055,8 +3108,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -3107,7 +3161,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -3159,7 +3213,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -3213,8 +3267,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -3317,7 +3372,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -3369,8 +3424,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -3421,8 +3477,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 578498,
@@ -3471,7 +3529,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -3523,7 +3581,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -3573,7 +3631,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -3627,8 +3685,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4044,
@@ -3679,8 +3739,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 407705,
@@ -3731,8 +3793,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -3783,8 +3846,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7309,
@@ -3835,8 +3900,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -3989,8 +4055,10 @@
    "name_fit": "hard-mismatch",
    "review_flag": false,
    "baseModel": "Illustrious",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1587,
@@ -4041,7 +4109,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -4093,8 +4161,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2185,
@@ -4145,9 +4215,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
-    "fastest"
+    "fastest",
+    "low vram"
    ],
    "open_closed": null,
    "stats": {
@@ -4197,8 +4268,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 14189,
@@ -4249,7 +4322,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -4301,8 +4374,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -4353,7 +4427,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -4405,7 +4479,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "max quality"
    ],
@@ -4457,8 +4531,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -4509,7 +4584,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -4613,8 +4688,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9654,
@@ -4663,8 +4740,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 99904,
@@ -4715,8 +4794,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 26913,
@@ -4767,8 +4848,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -4819,8 +4901,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Pony",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -4873,8 +4956,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7674,
@@ -5077,7 +5162,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -5129,8 +5214,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 24331,
@@ -5283,9 +5370,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
-    "fastest"
+    "fastest",
+    "low vram"
    ],
    "open_closed": null,
    "stats": {
@@ -5337,8 +5425,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9680,
@@ -5389,7 +5479,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": [
     "fastest"
    ],
@@ -5443,7 +5533,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -5493,7 +5583,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "MiniMax H3",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -5545,7 +5635,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -5701,8 +5791,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 2.1 768",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "6",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 73164,
@@ -5807,7 +5899,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -5859,7 +5951,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -5909,7 +6001,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.1 D",
-   "vram_class": null,
+   "vram_class": "12",
    "tradeoff": null,
    "open_closed": null,
    "stats": {
@@ -5959,8 +6051,9 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -6011,7 +6104,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -6063,7 +6156,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "LTXV 2.3",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -6117,7 +6210,7 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "MiniMax H3",
-   "vram_class": null,
+   "vram_class": "24",
    "tradeoff": [
     "fastest"
    ],
@@ -6171,8 +6264,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -6225,8 +6319,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -6277,8 +6372,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SD 1.5",
-   "vram_class": null,
+   "vram_class": "6",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -6329,8 +6425,9 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -6381,9 +6478,10 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
     "fastest",
+    "low vram",
     "max quality"
    ],
    "open_closed": null,
@@ -6489,8 +6587,10 @@
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 803,
@@ -6539,7 +6639,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "Krea 2",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -6591,7 +6691,7 @@
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "HiDream",
-   "vram_class": null,
+   "vram_class": "16",
    "tradeoff": [
     "max quality"
    ],
@@ -6643,8 +6743,10 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4801,
@@ -6693,7 +6795,7 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "SDXL 1.0",
-   "vram_class": null,
+   "vram_class": "8",
    "tradeoff": [
     "low vram"
    ],
@@ -6747,8 +6849,10 @@
    "name_fit": "not-applicable",
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
-   "vram_class": null,
-   "tradeoff": null,
+   "vram_class": "8",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 810,
