@@ -64,7 +64,7 @@ with sync_playwright() as pw:
         v(f"{stage}: previews load", (len(imgs) + len(videos)) == 0 or loaded > 0,
           f"{loaded} loaded of {min(12, len(imgs))} imgs + {len(videos)} video cards")
         v(f"{stage}: nsfw marker", "NSFW ON" in html)
-        if stage in ("persona", "nsfw"):
+        if stage in ("motion", "nsfw"):
             page.screenshot(path=str(SHOTS / f"10-{stage}.png"))
 
     page.goto(f"{BASE}/persona/", wait_until="domcontentloaded")
