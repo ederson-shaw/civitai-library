@@ -1,6 +1,6 @@
 {
  "stage": "NSFW",
- "generated": "2026-09-02T05:24:55+00:00",
+ "generated": "2026-09-02T05:41:23+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -161,7 +161,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 107785,
@@ -211,7 +213,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 98652,
@@ -309,7 +313,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 89140,
@@ -357,7 +363,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 101220,
@@ -555,7 +563,9 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 65430,
@@ -653,7 +663,9 @@
    "review_flag": false,
    "baseModel": "SD 1.4",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 70842,
@@ -703,7 +715,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 66792,
@@ -751,7 +765,9 @@
    "review_flag": true,
    "baseModel": "NoobAI",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 65737,
@@ -895,7 +911,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 59110,
@@ -993,7 +1011,9 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 57016,
@@ -1666,7 +1686,7 @@
    "our_name": null,
    "source_name": "real spread pussy(experimental)",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.6,
+   "composite": 31.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1862,7 +1882,7 @@
    "our_name": null,
    "source_name": "Taiwan Doll Likeness",
    "purpose": "realism likeness Q8 — carry POI/likeness flag, note in card (real-person likeness)",
-   "composite": 19.6,
+   "composite": 31.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1871,7 +1891,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 45800,
@@ -2012,7 +2034,7 @@
    "our_name": null,
    "source_name": "Pant Pull Down - LoRA",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.6,
+   "composite": 31.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2071,7 +2093,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 49952,
@@ -2112,7 +2136,7 @@
    "our_name": null,
    "source_name": "Niji semi realism",
    "purpose": null,
-   "composite": 19.6,
+   "composite": 31.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2121,7 +2145,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 51475,
@@ -2169,7 +2195,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 47277,
@@ -2315,7 +2343,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 46766,
@@ -2413,7 +2443,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 45358,
@@ -2509,7 +2541,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 70816,
@@ -2701,7 +2735,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 42372,
@@ -2788,7 +2824,7 @@
    "our_name": null,
    "source_name": "{DD} Deepthroat frames for gif",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.5,
+   "composite": 31.5,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -2936,7 +2972,7 @@
    "our_name": null,
    "source_name": "Mikuya",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.4,
+   "composite": 31.4,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2945,7 +2981,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 37514,
@@ -2995,7 +3033,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 39328,
@@ -3093,7 +3133,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38880,
@@ -3141,7 +3183,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38429,
@@ -3182,7 +3226,7 @@
    "our_name": null,
    "source_name": "Raiden Shogun | Realistic Genshin LORA",
    "purpose": null,
-   "composite": 19.4,
+   "composite": 31.4,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3191,7 +3235,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 40253,
@@ -3239,7 +3285,9 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 39819,
@@ -3289,7 +3337,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36721,
@@ -3433,7 +3483,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 56577,
@@ -3481,7 +3533,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 35817,
@@ -3568,7 +3622,7 @@
    "our_name": null,
    "source_name": "Urban Samurai | v0.14 | Clothing LoRA",
    "purpose": null,
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3577,7 +3631,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36402,
@@ -3723,7 +3779,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 35020,
@@ -3860,7 +3918,7 @@
    "our_name": null,
    "source_name": "Huge Ass and Boobs",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4015,7 +4073,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36415,
@@ -4152,7 +4212,7 @@
    "our_name": null,
    "source_name": "Detailer IL",
    "purpose": null,
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4161,7 +4221,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36199,
@@ -4307,7 +4369,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 33814,
@@ -4697,7 +4761,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29643,
@@ -4745,7 +4811,9 @@
    "review_flag": false,
    "baseModel": "SD 1.4",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29839,
@@ -4795,7 +4863,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 30897,
@@ -5180,7 +5250,7 @@
    "our_name": null,
    "source_name": "Ass grab / pov / stealth / netorare",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5189,7 +5259,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 32313,
@@ -5335,7 +5407,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29679,
@@ -5479,7 +5553,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 31779,
@@ -5529,7 +5605,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 34484,
@@ -5866,7 +5944,7 @@
    "our_name": null,
    "source_name": "concept Headback(arched back)",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -6014,7 +6092,7 @@
    "our_name": null,
    "source_name": "Ass up wait: 提臀等待 | Siren Lora 006 | Perfect",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6023,7 +6101,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 30216,
@@ -6114,7 +6194,7 @@
    "our_name": null,
    "source_name": "Ganyu (Genshin Impact) - Realistic + Anime - LoRA",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6123,7 +6203,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29165,
@@ -6214,7 +6296,7 @@
    "our_name": null,
    "source_name": "breastfeeding handjob",
    "purpose": "expected lane content — label drives subgroup",
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -6369,7 +6451,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29226,
@@ -6417,7 +6501,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 100093,
@@ -6456,7 +6542,7 @@
    "our_name": null,
    "source_name": "ChilloutMixss",
    "purpose": null,
-   "composite": 19.1,
+   "composite": 31.1,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6465,7 +6551,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 95054,
@@ -6613,7 +6701,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29157,
@@ -6711,7 +6801,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 52540,
@@ -6798,7 +6890,7 @@
    "our_name": null,
    "source_name": "Incase + gothic style mix | Illustrious and Anima",
    "purpose": "vision says realism Q8 but name says Illustrious/Anima — image wins per calibration; note base conflict",
-   "composite": 19.1,
+   "composite": 31.1,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6807,7 +6899,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 28151,
@@ -7195,7 +7289,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 27743,
@@ -7395,7 +7491,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 26877,
@@ -7683,7 +7781,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 28129,
@@ -8355,7 +8455,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 25252,
@@ -8403,7 +8505,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 32071,
@@ -9018,7 +9122,7 @@
    "our_name": null,
    "source_name": "Gundam RX78-2 outfit style 高达RX78-2外观风格",
    "purpose": null,
-   "composite": 18.9,
+   "composite": 30.9,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -9027,7 +9131,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22620,
@@ -9219,7 +9325,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21425,
@@ -9315,7 +9423,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21286,
@@ -9937,7 +10047,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 20535,
@@ -10417,7 +10529,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 19375,
@@ -10465,7 +10579,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18935,
@@ -10657,7 +10773,10 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 69992,
@@ -11041,7 +11160,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18197,
@@ -11233,7 +11354,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22446,
@@ -11953,7 +12076,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 57038,
@@ -12097,7 +12222,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 46095,
@@ -13441,7 +13568,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 23559,
@@ -14879,7 +15008,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 100496,
@@ -19341,7 +19472,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 4B-base",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10236,
@@ -19725,7 +19858,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10047,
@@ -21597,7 +21732,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 96991,
@@ -22020,7 +22157,7 @@
    "our_name": null,
    "source_name": "DetailedEyes_XL",
    "purpose": null,
-   "composite": 17.9,
+   "composite": 29.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -22125,7 +22262,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29325,
@@ -22461,7 +22600,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11853,
@@ -22500,7 +22641,7 @@
    "our_name": null,
    "source_name": "Detail Tweaker XL",
    "purpose": null,
-   "composite": 17.8,
+   "composite": 29.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -25485,7 +25626,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 53998,
@@ -27645,7 +27788,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 72059,
@@ -29277,7 +29422,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38176,
@@ -29700,7 +29847,7 @@
    "our_name": null,
    "source_name": "Real Skin Slider",
    "purpose": null,
-   "composite": 16.6,
+   "composite": 28.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -29709,7 +29856,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 55423,
@@ -29796,7 +29945,7 @@
    "our_name": null,
    "source_name": "Detail Slider - LoRA",
    "purpose": null,
-   "composite": 16.6,
+   "composite": 28.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -29901,7 +30050,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22731,
@@ -30045,7 +30196,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 27226,
@@ -30237,7 +30390,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 94576,
@@ -30813,7 +30968,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 127875,
@@ -31869,7 +32026,9 @@
    "review_flag": true,
    "baseModel": "SD 1.4",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 51884,
@@ -32194,7 +32353,7 @@
    "our_name": null,
    "source_name": "Chiaroscuro (Contrasted) Lighting Style XL + F1D + Illu + Pony + zit + zib",
    "purpose": null,
-   "composite": 16.2,
+   "composite": 28.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -34219,7 +34378,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 39306,
@@ -35275,7 +35436,9 @@
    "review_flag": true,
    "baseModel": "SD 1.4",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 48592,
@@ -36089,7 +36252,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 502,
@@ -36368,7 +36533,7 @@
    "our_name": null,
    "source_name": "Cucoloris casting shadow (lighting modifiers) style XL + SD1.5 + F1D + Illu + Pony + zit",
    "purpose": null,
-   "composite": 15.5,
+   "composite": 27.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -36704,7 +36869,7 @@
    "our_name": null,
    "source_name": "Add Detail - Slider",
    "purpose": null,
-   "composite": 15.4,
+   "composite": 27.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -36713,7 +36878,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 60487,
@@ -36809,7 +36976,9 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 20476,
@@ -38672,7 +38841,7 @@
    "our_name": null,
    "source_name": "Pony Realism Enhancer ✨",
    "purpose": null,
-   "composite": 15.0,
+   "composite": 27.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -38681,7 +38850,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 78425,
@@ -39296,7 +39467,7 @@
    "our_name": null,
    "source_name": "GrainScape UltraReal",
    "purpose": null,
-   "composite": 14.9,
+   "composite": 26.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -41657,7 +41828,9 @@
    "review_flag": true,
    "baseModel": "Chroma",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 526,
@@ -42137,7 +42310,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 77525,
@@ -42560,7 +42735,7 @@
    "our_name": null,
    "source_name": "Add More Details - Detail Enhancer / Tweaker (细节调整) LoRA",
    "purpose": null,
-   "composite": 14.2,
+   "composite": 26.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -42905,7 +43080,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 46872,
@@ -43232,7 +43409,7 @@
    "our_name": null,
    "source_name": "Detailed Perfection style (Hands + Feet + Face + Body + All in one) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
    "purpose": null,
-   "composite": 14.1,
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -43241,7 +43418,9 @@
    "review_flag": false,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 131807,
@@ -43383,7 +43562,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17827,
@@ -44727,7 +44908,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 32044,
@@ -45150,7 +45333,7 @@
    "our_name": null,
    "source_name": "Detailers By Stable Yogi",
    "purpose": null,
-   "composite": 13.6,
+   "composite": 25.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -45831,7 +46014,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 73429,
@@ -46300,7 +46485,7 @@
    "our_name": null,
    "source_name": "Skin & Hands (male/female) from Polyhedron",
    "purpose": null,
-   "composite": 13.4,
+   "composite": 25.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -46309,7 +46494,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 75449,
@@ -46636,7 +46823,7 @@
    "our_name": null,
    "source_name": "Realistic Skin Texture style (Detailed Skin) XL + SD1.5 + F1D + Pony + Illu + ZIT + ZIB",
    "purpose": null,
-   "composite": 13.3,
+   "composite": 25.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -47116,7 +47303,7 @@
    "our_name": null,
    "source_name": "Facial Expressions \"Realistic + Anime\" (detailed emotions) style XL + SD1.5 + F1D + Illu + Pony + zit",
    "purpose": null,
-   "composite": 13.2,
+   "composite": 25.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -47125,7 +47312,9 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22141,
@@ -47212,7 +47401,7 @@
    "our_name": null,
    "source_name": "DetailDeamonZ-SliderLoRA For ZIT & ZIB 适配红潮ZID与黑兽ZIT",
    "purpose": null,
-   "composite": 13.2,
+   "composite": 25.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -47221,7 +47410,9 @@
    "review_flag": false,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17576,
@@ -47749,7 +47940,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 62874,
@@ -47932,7 +48125,7 @@
    "our_name": null,
    "source_name": "Skin Tone (Glamour Photography) Style (Human skin color) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
    "purpose": null,
-   "composite": 13.0,
+   "composite": 25.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -48316,7 +48509,7 @@
    "our_name": null,
    "source_name": "Detailed style XL + F1D + SD1.5 + zib (Hand focus + All in One) \"Detailed Perfection style extension\"",
    "purpose": null,
-   "composite": 12.9,
+   "composite": 24.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -48325,7 +48518,9 @@
    "review_flag": false,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 24280,
@@ -50376,7 +50571,7 @@
    "our_name": null,
    "source_name": "Realistic Skin & Face - Professional_photography",
    "purpose": null,
-   "composite": 12.6,
+   "composite": 24.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -51679,7 +51874,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21436,
@@ -54215,7 +54412,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17036,
@@ -56035,7 +56234,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 137605,
@@ -56410,7 +56611,7 @@
    "our_name": null,
    "source_name": "LTX 2.3 - Enhancers",
    "purpose": null,
-   "composite": 11.7,
+   "composite": 23.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -56419,7 +56620,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18619,
@@ -57235,7 +57438,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 15214,
@@ -57427,7 +57632,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 26808,
@@ -57475,7 +57682,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 24604,
@@ -57850,7 +58059,7 @@
    "our_name": null,
    "source_name": "Portrait Engine FLUX / FLUX 2 KLEIN / Z-Image, Detailed Skin - [LORA]",
    "purpose": null,
-   "composite": 11.4,
+   "composite": 23.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 9,
@@ -57859,7 +58068,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21428,
@@ -58906,7 +59117,7 @@
    "our_name": null,
    "source_name": "Klein Anatomy / Quality Fixer",
    "purpose": null,
-   "composite": 11.1,
+   "composite": 23.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -58915,7 +59126,9 @@
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 23249,
@@ -59107,7 +59320,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 532,
@@ -60545,7 +60760,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4093,
@@ -60689,7 +60906,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 25077,
@@ -61305,7 +61524,10 @@
    "review_flag": true,
    "baseModel": "Chroma",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4371,
@@ -62909,7 +63131,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2770,

@@ -1,6 +1,6 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T05:24:55+00:00",
+ "generated": "2026-09-02T05:41:23+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -17,7 +17,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 66792,
@@ -69,7 +71,9 @@
    "review_flag": false,
    "baseModel": "NoobAI",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 65737,
@@ -171,7 +175,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 39328,
@@ -223,7 +229,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 42372,
@@ -275,7 +283,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36721,
@@ -316,7 +326,7 @@
    "our_name": null,
    "source_name": "Detailer IL",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -325,7 +335,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36199,
@@ -377,7 +389,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 20158,
@@ -429,7 +443,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 19375,
@@ -481,7 +497,10 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 69992,
@@ -533,7 +552,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 57038,
@@ -583,7 +604,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 23559,
@@ -635,7 +658,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 100496,
@@ -789,7 +814,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6733,
@@ -841,7 +868,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11853,
@@ -893,7 +922,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 96991,
@@ -934,7 +965,7 @@
    "our_name": null,
    "source_name": "DetailedEyes_XL",
    "purpose": null,
-   "composite": 17.8,
+   "composite": 29.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -984,7 +1015,7 @@
    "our_name": null,
    "source_name": "Light Control SD15 - Left Right",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 17.8,
+   "composite": 29.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -993,7 +1024,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5953,
@@ -1036,7 +1069,7 @@
    "our_name": null,
    "source_name": "The forest light",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 17.8,
+   "composite": 29.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1097,7 +1130,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11147,
@@ -1140,7 +1175,7 @@
    "our_name": null,
    "source_name": "Detail Tweaker XL",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 17.6,
+   "composite": 29.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -1201,7 +1236,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 53998,
@@ -1242,7 +1279,7 @@
    "our_name": null,
    "source_name": "KFT's HLA Image Enhancer [FLUX]",
    "purpose": null,
-   "composite": 16.8,
+   "composite": 28.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1251,7 +1288,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3147,
@@ -1292,7 +1331,7 @@
    "our_name": null,
    "source_name": "Real Skin Slider",
    "purpose": null,
-   "composite": 16.7,
+   "composite": 28.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1301,7 +1340,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 55423,
@@ -1351,7 +1392,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22731,
@@ -1394,7 +1437,7 @@
    "our_name": null,
    "source_name": "Detail Slider - LoRA",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 16.6,
+   "composite": 28.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1446,7 +1489,7 @@
    "our_name": null,
    "source_name": "EYE DETAIL FLUX LORA  (& INPAINT)",
    "purpose": null,
-   "composite": 16.6,
+   "composite": 28.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1455,7 +1498,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 13880,
@@ -1505,7 +1550,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 94576,
@@ -1607,7 +1654,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 127875,
@@ -1650,7 +1699,7 @@
    "our_name": null,
    "source_name": "Chiaroscuro (Contrasted) Lighting Style XL + F1D + Illu + Pony + zit + zib",
    "purpose": null,
-   "composite": 16.3,
+   "composite": 28.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1700,7 +1749,7 @@
    "our_name": null,
    "source_name": "Mystic Enchantress Detail++",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 16.3,
+   "composite": 28.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1865,7 +1914,10 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 39306,
@@ -1906,7 +1958,7 @@
    "our_name": null,
    "source_name": "Low-key lighting Style XL + F1D + Illu + Pony + zit",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 16.0,
+   "composite": 28.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -1967,7 +2019,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 52225,
@@ -2010,7 +2064,7 @@
    "our_name": null,
    "source_name": "Rembrandt (Low-Key) Lighting Style XL + SD1.5 + F1D + Illu + Pony + zit",
    "purpose": null,
-   "composite": 15.9,
+   "composite": 27.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2019,7 +2073,9 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 13434,
@@ -2060,7 +2116,7 @@
    "our_name": null,
    "source_name": "Better eyes+face+skin | 更好的眼睛+脸+皮肤",
    "purpose": null,
-   "composite": 15.9,
+   "composite": 27.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2110,7 +2166,7 @@
    "our_name": null,
    "source_name": "BetterPotraits/ Detailer Pony",
    "purpose": null,
-   "composite": 15.9,
+   "composite": 27.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2119,7 +2175,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1803,
@@ -2210,7 +2268,7 @@
    "our_name": null,
    "source_name": "Elixir — Enhancer LoRA 🧪",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 15.7,
+   "composite": 27.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2262,7 +2320,7 @@
    "our_name": null,
    "source_name": "Cucoloris casting shadow (lighting modifiers) style XL + SD1.5 + F1D + Illu + Pony + zit",
    "purpose": null,
-   "composite": 15.6,
+   "composite": 27.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2321,7 +2379,9 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 20476,
@@ -2371,7 +2431,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10656,
@@ -2412,7 +2474,7 @@
    "our_name": null,
    "source_name": "Purple Grainy || Photography lora",
    "purpose": null,
-   "composite": 15.6,
+   "composite": 27.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2421,7 +2483,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8763,
@@ -2462,7 +2526,7 @@
    "our_name": null,
    "source_name": "Underlighting (light from below) style XL + F1D + ZIB",
    "purpose": null,
-   "composite": 15.6,
+   "composite": 27.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2521,7 +2585,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 65820,
@@ -2564,7 +2630,7 @@
    "our_name": null,
    "source_name": "Add Detail - Slider",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 15.5,
+   "composite": 27.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2573,7 +2639,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 60487,
@@ -2616,7 +2684,7 @@
    "our_name": null,
    "source_name": "Boltning - Realistic, Lightning, HYPER",
    "purpose": null,
-   "composite": 15.5,
+   "composite": 27.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2625,7 +2693,10 @@
    "review_flag": false,
    "baseModel": "SDXL Hyper",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 14922,
@@ -2666,7 +2737,7 @@
    "our_name": null,
    "source_name": "Light Control SD15 - Up Down",
    "purpose": null,
-   "composite": 15.5,
+   "composite": 27.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2675,7 +2746,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5940,
@@ -2716,7 +2789,7 @@
    "our_name": null,
    "source_name": "Better Portrait Lighting",
    "purpose": null,
-   "composite": 15.4,
+   "composite": 27.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2725,7 +2798,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11888,
@@ -2818,7 +2893,7 @@
    "our_name": null,
    "source_name": "Realistic Skin for pony",
    "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
-   "composite": 15.2,
+   "composite": 27.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -2879,7 +2954,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4718,
@@ -2920,7 +2997,7 @@
    "our_name": null,
    "source_name": "Reality enhancer [Pony]",
    "purpose": null,
-   "composite": 15.1,
+   "composite": 27.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2970,7 +3047,7 @@
    "our_name": null,
    "source_name": "Pony Realism Enhancer ✨",
    "purpose": null,
-   "composite": 15.0,
+   "composite": 27.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2979,7 +3056,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 78425,
@@ -3020,7 +3099,7 @@
    "our_name": null,
    "source_name": "GrainScape UltraReal",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 15.0,
+   "composite": 27.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -3081,7 +3160,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 45311,
@@ -3124,7 +3205,7 @@
    "our_name": null,
    "source_name": "Detail Tweaker Illustrious By Stable Yogi",
    "purpose": null,
-   "composite": 14.9,
+   "composite": 26.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3133,7 +3214,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 15829,
@@ -3278,7 +3361,7 @@
    "our_name": null,
    "source_name": "Light Control - Back Front - Backlight Slider",
    "purpose": null,
-   "composite": 14.7,
+   "composite": 26.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3287,7 +3370,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17230,
@@ -3430,7 +3515,7 @@
    "our_name": null,
    "source_name": "Kodak Film Grain (Cinematic) Film Photography style XL + F1D",
    "purpose": null,
-   "composite": 14.5,
+   "composite": 26.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -3480,7 +3565,7 @@
    "our_name": null,
    "source_name": "Photorealistic Skin ⛔️ No plastic [FLUX]",
    "purpose": "photoreal skin layer — core for realism stacks",
-   "composite": 14.5,
+   "composite": 26.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3489,7 +3574,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 34055,
@@ -3532,7 +3619,7 @@
    "our_name": null,
    "source_name": "Film Grain Control SD15",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 14.3,
+   "composite": 26.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -3584,7 +3671,7 @@
    "our_name": null,
    "source_name": "Add More Details - Detail Enhancer / Tweaker (细节调整) LoRA",
    "purpose": "classic add-more-details detailer",
-   "composite": 14.1,
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -3636,7 +3723,7 @@
    "our_name": null,
    "source_name": "epiCRealLife Enhancer",
    "purpose": null,
-   "composite": 14.1,
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3645,7 +3732,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 27373,
@@ -3686,7 +3775,7 @@
    "our_name": null,
    "source_name": "Light Control - Exposure",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 14.1,
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 5,
@@ -3738,7 +3827,7 @@
    "our_name": null,
    "source_name": "Super Skin Detailer By Stable Yogi",
    "purpose": null,
-   "composite": 14.1,
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3747,7 +3836,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 16216,
@@ -3788,7 +3879,7 @@
    "our_name": null,
    "source_name": "Detailed Perfection style (Hands + Feet + Face + Body + All in one) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
    "purpose": null,
-   "composite": 14.0,
+   "composite": 26.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3797,7 +3888,9 @@
    "review_flag": false,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 131807,
@@ -3940,7 +4033,7 @@
    "our_name": null,
    "source_name": "Butterfly Lighting style (from above) XL + F1D",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 14.0,
+   "composite": 26.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -3992,7 +4085,7 @@
    "our_name": null,
    "source_name": "Detailer PONY",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 14.0,
+   "composite": 26.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4053,7 +4146,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1536,
@@ -4146,7 +4241,7 @@
    "our_name": null,
    "source_name": "Fluorescent cinematic lighting style XL + F1D",
    "purpose": null,
-   "composite": 13.9,
+   "composite": 25.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4155,7 +4250,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1475,
@@ -4196,7 +4293,7 @@
    "our_name": null,
    "source_name": "Advanced Enhancer LoRA",
    "purpose": null,
-   "composite": 13.9,
+   "composite": 25.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4205,7 +4302,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7975,
@@ -4298,7 +4397,7 @@
    "our_name": null,
    "source_name": "Sharp Detailed Realistic Image style XL + F1D",
    "purpose": null,
-   "composite": 13.8,
+   "composite": 25.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4307,7 +4406,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2579,
@@ -4348,7 +4449,7 @@
    "our_name": null,
    "source_name": "9527 Detail Realistic XL",
    "purpose": null,
-   "composite": 13.6,
+   "composite": 25.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4357,7 +4458,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29131,
@@ -4502,7 +4605,7 @@
    "our_name": null,
    "source_name": "Pika's Super Realistic Detailed Eyes [SRDE]",
    "purpose": null,
-   "composite": 13.6,
+   "composite": 25.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4552,7 +4655,7 @@
    "our_name": null,
    "source_name": "Detailers By Stable Yogi",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 13.5,
+   "composite": 25.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4604,7 +4707,7 @@
    "our_name": null,
    "source_name": "Detail Asian Realistic",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 13.5,
+   "composite": 25.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4656,7 +4759,7 @@
    "our_name": null,
    "source_name": "Skin & Hands (male/female) from Polyhedron",
    "purpose": null,
-   "composite": 13.4,
+   "composite": 25.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4665,7 +4768,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 75449,
@@ -4706,7 +4811,7 @@
    "our_name": null,
    "source_name": "Pony Skin Enhancer ✨",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 13.4,
+   "composite": 25.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4715,7 +4820,9 @@
    "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 16338,
@@ -4758,7 +4865,7 @@
    "our_name": null,
    "source_name": "Advanced Enhancer XL LoRA",
    "purpose": null,
-   "composite": 13.4,
+   "composite": 25.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4808,7 +4915,7 @@
    "our_name": null,
    "source_name": "DetailDeamonZ-SliderLoRA For ZIT & ZIB 适配红潮ZID与黑兽ZIT",
    "purpose": null,
-   "composite": 13.3,
+   "composite": 25.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4817,7 +4924,9 @@
    "review_flag": false,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17576,
@@ -4858,7 +4967,7 @@
    "our_name": null,
    "source_name": "Realistic Skin Texture style (Detailed Skin) XL + SD1.5 + F1D + Pony + Illu + ZIT + ZIB",
    "purpose": null,
-   "composite": 13.2,
+   "composite": 25.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4908,7 +5017,7 @@
    "our_name": null,
    "source_name": "Facial Expressions \"Realistic + Anime\" (detailed emotions) style XL + SD1.5 + F1D + Illu + Pony + zit",
    "purpose": null,
-   "composite": 13.2,
+   "composite": 25.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4917,7 +5026,9 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22141,
@@ -4958,7 +5069,7 @@
    "our_name": null,
    "source_name": "Ringlightselfie Flux & SDXL & 1.5",
    "purpose": "ring-light selfie style — influencer-relevant",
-   "composite": 13.2,
+   "composite": 25.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -5060,7 +5171,7 @@
    "our_name": null,
    "source_name": "Detailed style XL + F1D + SD1.5 + zib (Hand focus + All in One) \"Detailed Perfection style extension\"",
    "purpose": null,
-   "composite": 13.0,
+   "composite": 25.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5069,7 +5180,9 @@
    "review_flag": false,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 24280,
@@ -5110,7 +5223,7 @@
    "our_name": null,
    "source_name": "Skin Tone (Glamour Photography) Style (Human skin color) XL + F1D + SD1.5 + Pony + Illu + zit + zib",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 13.0,
+   "composite": 25.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5162,7 +5275,7 @@
    "our_name": null,
    "source_name": "CreaPrompt_Lightning_Hyper-SDXL",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 13.0,
+   "composite": 25.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5171,7 +5284,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 15303,
@@ -5214,7 +5329,7 @@
    "our_name": null,
    "source_name": "epiCRealismXL-KiSS Enhancer",
    "purpose": "enhancement layer function (detail/light/skin/grain/speed) — 'other' previews expected for layers",
-   "composite": 12.9,
+   "composite": 24.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5275,7 +5390,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 14197,
@@ -5318,7 +5435,7 @@
    "our_name": null,
    "source_name": "Realistic Skin & Face - Professional_photography",
    "purpose": null,
-   "composite": 12.6,
+   "composite": 24.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5472,7 +5589,7 @@
    "our_name": null,
    "source_name": "ANTI-PLASTIC | The Analog Texture Engine",
    "purpose": null,
-   "composite": 12.6,
+   "composite": 24.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5481,7 +5598,9 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4232,
@@ -5522,7 +5641,7 @@
    "our_name": null,
    "source_name": "Oily shiny glossy skin style F1D + XL + SD1.5 + Illu + Pony + zit",
    "purpose": "glossy skin style layer",
-   "composite": 12.5,
+   "composite": 24.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5626,7 +5745,7 @@
    "our_name": null,
    "source_name": "real_skin",
    "purpose": "real_skin layer Q8",
-   "composite": 12.3,
+   "composite": 24.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5635,7 +5754,9 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10726,
@@ -5678,7 +5799,7 @@
    "our_name": null,
    "source_name": "Cinematic Dark Lighting",
    "purpose": "cinematic dark lighting layer",
-   "composite": 12.2,
+   "composite": 24.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5730,7 +5851,7 @@
    "our_name": null,
    "source_name": "Skin Tone Slider FLUX",
    "purpose": null,
-   "composite": 12.2,
+   "composite": 24.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5780,7 +5901,7 @@
    "our_name": null,
    "source_name": "Flux Skin Texture",
    "purpose": null,
-   "composite": 12.0,
+   "composite": 24.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -5830,7 +5951,7 @@
    "our_name": null,
    "source_name": "FLUXTRAIT [FLUX.2 Klein / FLUX / Z-Image] for Portrait & detailed skin",
    "purpose": null,
-   "composite": 11.9,
+   "composite": 23.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 9,
@@ -5839,7 +5960,9 @@
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 14668,
@@ -5880,7 +6003,7 @@
    "our_name": null,
    "source_name": "Porcelain Gothic Skin",
    "purpose": null,
-   "composite": 11.9,
+   "composite": 23.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 9,
@@ -5889,7 +6012,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1283,
@@ -5930,7 +6055,7 @@
    "our_name": null,
    "source_name": "LTX 2.3 - Enhancers",
    "purpose": "LTX 2.3 video enhancers collection",
-   "composite": 11.8,
+   "composite": 23.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5939,7 +6064,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18619,
@@ -5991,7 +6118,9 @@
    "review_flag": false,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 15214,
@@ -6034,7 +6163,7 @@
    "our_name": null,
    "source_name": "Portrait Engine FLUX / FLUX 2 KLEIN / Z-Image, Detailed Skin - [LORA]",
    "purpose": "portrait detailer across flux/klein/z-image Q9",
-   "composite": 11.5,
+   "composite": 23.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 9,
@@ -6043,7 +6172,9 @@
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21428,
@@ -6086,7 +6217,7 @@
    "our_name": null,
    "source_name": "Klein Anatomy / Quality Fixer",
    "purpose": null,
-   "composite": 11.3,
+   "composite": 23.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6095,7 +6226,9 @@
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 23249,
@@ -6136,7 +6269,7 @@
    "our_name": null,
    "source_name": "FilmGrain",
    "purpose": null,
-   "composite": 11.2,
+   "composite": 23.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6145,7 +6278,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1224,
@@ -6186,7 +6321,7 @@
    "our_name": null,
    "source_name": "Portrait Detailer/Enhancer",
    "purpose": null,
-   "composite": 10.9,
+   "composite": 22.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6195,7 +6330,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2753,
@@ -6236,7 +6373,7 @@
    "our_name": null,
    "source_name": "🌟HyperRealism – Cinematic Detail & True-to-Life Rendering - SDXL🌟",
    "purpose": "cinematic detail + true-to-life realism layer Q8 video — core realism stack enhancement",
-   "composite": 10.5,
+   "composite": 22.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6245,7 +6382,10 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 840,
@@ -6288,7 +6428,7 @@
    "our_name": null,
    "source_name": "Cinematic Portrait Lighting LoRA – Zimg Turbo + SDXL",
    "purpose": null,
-   "composite": 10.4,
+   "composite": 22.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6297,7 +6437,10 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1356,
@@ -6338,7 +6481,7 @@
    "our_name": null,
    "source_name": "TrueGrain_v1",
    "purpose": null,
-   "composite": 9.8,
+   "composite": 21.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -6388,7 +6531,7 @@
    "our_name": null,
    "source_name": "Krea 2 Realistic Skin Texture",
    "purpose": null,
-   "composite": 9.3,
+   "composite": 21.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6397,7 +6540,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1044,
@@ -6438,7 +6583,7 @@
    "our_name": null,
    "source_name": "Hi-Dream Photorealism: skin + faces + hands + colors + JPEG artifacts",
    "purpose": null,
-   "composite": 8.2,
+   "composite": 20.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -6447,7 +6592,9 @@
    "review_flag": false,
    "baseModel": "HiDream",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3568,
@@ -6547,7 +6694,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4557,

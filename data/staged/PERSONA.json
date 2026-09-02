@@ -1,6 +1,6 @@
 {
  "stage": "PERSONA",
- "generated": "2026-09-02T05:24:55+00:00",
+ "generated": "2026-09-02T05:41:23+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -113,7 +113,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 107785,
@@ -161,7 +163,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 98652,
@@ -209,7 +213,9 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 78545,
@@ -257,7 +263,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 89140,
@@ -305,7 +313,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 97235,
@@ -545,7 +555,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 68475,
@@ -584,7 +596,7 @@
    "our_name": null,
    "source_name": "majicMIX sombre 麦橘唯美",
    "purpose": "realism Q8 high-conf, majicMIX realistic portrait family — persona job",
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -593,7 +605,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 72117,
@@ -643,7 +657,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 58725,
@@ -730,7 +746,7 @@
    "our_name": null,
    "source_name": "Experience",
    "purpose": "realism Q7 but medium-conf back-facing scene (no face evidence) — verify with 2nd preview",
-   "composite": 19.9,
+   "composite": 31.9,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -885,7 +901,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 52436,
@@ -1077,7 +1095,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 117336,
@@ -1269,7 +1289,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 44419,
@@ -1365,7 +1387,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 44834,
@@ -1404,7 +1428,7 @@
    "our_name": null,
    "source_name": "OrangeChillMix",
    "purpose": null,
-   "composite": 19.6,
+   "composite": 31.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1413,7 +1437,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 43277,
@@ -1557,7 +1583,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 39435,
@@ -1701,7 +1729,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 35924,
@@ -1797,7 +1827,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 35817,
@@ -1836,7 +1868,7 @@
    "our_name": null,
    "source_name": "Niji semi realism",
    "purpose": null,
-   "composite": 19.5,
+   "composite": 31.5,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1845,7 +1877,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 51475,
@@ -1980,7 +2014,7 @@
    "our_name": null,
    "source_name": "Urban Samurai | v0.14 | Clothing LoRA",
    "purpose": null,
-   "composite": 19.5,
+   "composite": 31.5,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1989,7 +2023,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36402,
@@ -2037,7 +2073,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38880,
@@ -2133,7 +2171,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38559,
@@ -2181,7 +2221,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38648,
@@ -2220,7 +2262,7 @@
    "our_name": null,
    "source_name": "CuriousMerge 2.5D",
    "purpose": null,
-   "composite": 19.5,
+   "composite": 31.5,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2229,7 +2271,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36832,
@@ -2268,7 +2312,7 @@
    "our_name": null,
    "source_name": "RealDosMix",
    "purpose": "realism Q8 fits — RealDosMix realistic family",
-   "composite": 19.4,
+   "composite": 31.4,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2277,7 +2321,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 109713,
@@ -2375,7 +2421,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 70816,
@@ -2759,7 +2807,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 33814,
@@ -2807,7 +2857,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 34150,
@@ -2846,7 +2898,7 @@
    "our_name": null,
    "source_name": "UnstableInkDream",
    "purpose": "image beats name: photoreal Q8 despite 'Ink' name — calibration rule applied",
-   "composite": 19.4,
+   "composite": 31.4,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2855,7 +2907,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 33741,
@@ -2905,7 +2959,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 31779,
@@ -2953,7 +3009,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 56577,
@@ -3001,7 +3059,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29157,
@@ -3145,7 +3205,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29499,
@@ -3241,7 +3303,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29643,
@@ -3424,7 +3488,7 @@
    "our_name": null,
    "source_name": "BlueberryMix",
    "purpose": null,
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3433,7 +3497,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29808,
@@ -3568,7 +3634,7 @@
    "our_name": null,
    "source_name": "CosplayMix",
    "purpose": "realism Q8 cosplay scene — costume variety IS persona content work",
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3577,7 +3643,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 30090,
@@ -3627,7 +3695,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29396,
@@ -3714,7 +3784,7 @@
    "our_name": null,
    "source_name": "Ganyu (Genshin Impact) - Realistic + Anime - LoRA",
    "purpose": null,
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3723,7 +3793,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29165,
@@ -3771,7 +3843,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 60384,
@@ -3906,7 +3980,7 @@
    "our_name": null,
    "source_name": "AWPortrait",
    "purpose": null,
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3915,7 +3989,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 43234,
@@ -4059,7 +4135,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 25252,
@@ -4098,7 +4176,7 @@
    "our_name": null,
    "source_name": "DucHaitenAIart",
    "purpose": null,
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4107,7 +4185,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 25529,
@@ -4203,7 +4283,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 26581,
@@ -4290,7 +4372,7 @@
    "our_name": null,
    "source_name": "20D黑丝",
    "purpose": null,
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4299,7 +4381,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 25884,
@@ -4347,7 +4431,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 160658,
@@ -4530,7 +4616,7 @@
    "our_name": null,
    "source_name": "Illuminati Diffusion v1.1",
    "purpose": "realism Q7 medium-conf hooded scene — verify with 2nd preview",
-   "composite": 19.1,
+   "composite": 31.1,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4626,7 +4712,7 @@
    "our_name": null,
    "source_name": "Gundam RX78-2 outfit style 高达RX78-2外观风格",
    "purpose": "realism Q8 gundam cosplay — costume variety is persona content (same call as CosplayMix)",
-   "composite": 19.1,
+   "composite": 31.1,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4635,7 +4721,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22620,
@@ -4733,7 +4821,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 23835,
@@ -4820,7 +4910,7 @@
    "our_name": null,
    "source_name": "ProFantasy",
    "purpose": null,
-   "composite": 19.1,
+   "composite": 31.1,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4829,7 +4919,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22731,
@@ -4868,7 +4960,7 @@
    "our_name": null,
    "source_name": "NeverEnding Dream (NED)",
    "purpose": null,
-   "composite": 19.0,
+   "composite": 31.0,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -4877,7 +4969,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 155820,
@@ -4973,7 +5067,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 20535,
@@ -5021,7 +5117,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22310,
@@ -5069,7 +5167,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 31814,
@@ -5117,7 +5217,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21425,
@@ -5261,7 +5363,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21286,
@@ -5300,7 +5404,7 @@
    "our_name": null,
    "source_name": "Level4",
    "purpose": null,
-   "composite": 19.0,
+   "composite": 31.0,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5309,7 +5413,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 28195,
@@ -5348,7 +5454,7 @@
    "our_name": null,
    "source_name": "Oversized Sweater/Hoodie",
    "purpose": "realism Q8 clothing LoRA (sweater/hoodie) — outfit variety for realistic persona",
-   "composite": 19.0,
+   "composite": 31.0,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5357,7 +5463,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21384,
@@ -5398,7 +5506,7 @@
    "our_name": null,
    "source_name": "AsianMale",
    "purpose": null,
-   "composite": 19.0,
+   "composite": 31.0,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -5407,7 +5515,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 20666,
@@ -5455,7 +5565,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 45879,
@@ -6367,7 +6479,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18935,
@@ -8815,7 +8929,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 46095,
@@ -11407,7 +11523,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10018,
@@ -13855,7 +13973,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7806,
@@ -17743,7 +17863,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11098,
@@ -21965,7 +22087,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9572,
@@ -22491,7 +22615,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 93169,
@@ -28059,7 +28185,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 68469,
@@ -28203,7 +28331,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 38176,
@@ -36411,7 +36541,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 27448,
@@ -40107,7 +40239,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17555,
@@ -43899,7 +44033,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 73877,
@@ -45627,7 +45763,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 19763,
@@ -47687,7 +47825,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 31036,
@@ -47879,7 +48019,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 87537,
@@ -50565,7 +50707,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1378,
@@ -54549,7 +54693,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 46872,
@@ -54981,7 +55127,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9378,
@@ -55317,7 +55465,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 77525,
@@ -55413,7 +55563,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 19338,
@@ -56565,7 +56717,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 209518,
@@ -59683,7 +59837,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 22104,
@@ -61217,7 +61373,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7922,
@@ -61505,7 +61663,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9517,
@@ -62321,7 +62481,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1539,
@@ -62465,7 +62627,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 73429,
@@ -63663,7 +63827,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 37583,
@@ -65007,7 +65173,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36589,
@@ -65581,7 +65749,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 62873,
@@ -65677,7 +65847,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 S",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29916,
@@ -65773,7 +65945,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 12217,
@@ -68749,7 +68923,10 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1235,
@@ -69373,7 +69550,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 74323,
@@ -70237,7 +70416,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 59525,
@@ -70429,7 +70610,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 15002,
@@ -70573,7 +70756,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 635,
@@ -70669,7 +70854,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17266,
@@ -71245,7 +71432,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 13280,
@@ -72733,7 +72922,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 12703,
@@ -73837,7 +74028,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 51921,
@@ -74941,7 +75134,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1257,
@@ -75997,7 +76192,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 36306,
@@ -78539,7 +78736,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 12467,
@@ -79739,7 +79938,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B-base",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 16762,
@@ -80315,7 +80516,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 225101,
@@ -80795,7 +80998,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10075,
@@ -81419,7 +81624,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 19821,
@@ -81755,7 +81962,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2136,
@@ -81899,7 +82108,9 @@
    "review_flag": true,
    "baseModel": "HiDream",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3530,
@@ -82139,7 +82350,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 12884,
@@ -82283,7 +82496,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1984,
@@ -83147,7 +83362,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2296,
@@ -83291,7 +83508,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 582,
@@ -84107,7 +84326,10 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3598,
@@ -84530,7 +84752,7 @@
    "our_name": null,
    "source_name": "Ai Influencer DATASET maker for Consistent Character",
    "purpose": null,
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -84577,7 +84799,7 @@
    "our_name": null,
    "source_name": "Flux Consistent Realistic Character: Extremely Realism 丨 FLUX多角度一致性人物：极致写实",
    "purpose": null,
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,

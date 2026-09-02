@@ -237,6 +237,39 @@ def attach_downloads(buckets):
     print(f"downloads attached: {attached} entries", file=sys.stderr)
 
 
+def polish_entries(buckets):
+    """Owner pass m0335/m0337: photoreal ranks higher, tradeoff chips real,
+    speech/ads purposes in human words (no jargon)."""
+    fast_re = re.compile(r"turbo|lightning|lcm|hyper|distill|few.?step|gguf|accel", re.I)
+    for stage in buckets:
+        median_comp = None
+        comps = sorted((e.get("composite") or 0) for e in buckets[stage] if e.get("composite") is not None)
+        if comps:
+            median_comp = comps[len(comps) // 2]
+        for e in buckets[stage]:
+            if e.get("visual_class") == "realism-photoreal" and e.get("composite") is not None:
+                e["composite"] = round(e["composite"] + 12, 1)
+            chips = []
+            name = (e.get("source_name") or "")
+            size = (e.get("download") or {}).get("size_mb")
+            heavy_kind = e.get("type") in ("Checkpoint", "Workflows", "DoRA")
+            if fast_re.search(name):
+                chips.append("fastest")
+            if e.get("vram_class") in ("6", "8") or (heavy_kind and size and size <= 1500):
+                chips.append("low vram")
+            if (e.get("quality") or 0) >= 8 and median_comp is not None and (e.get("composite") or 0) >= median_comp:
+                chips.append("max quality")
+            if chips:
+                e["tradeoff"] = chips
+            if stage == "SPEECH_VOICE" and e.get("kind") != "engine":
+                e["purpose"] = "make a still photo of your persona talk — voice and lip movement"
+                if fast_re.search(name) or "ltx" in name.lower() or "wan" in name.lower():
+                    e["purpose"] += " (modern video model underneath)"
+            if stage == "ADS":
+                e["purpose"] = "your persona presenting a product — host style ad shot"
+    print("polish: photoreal +12, tradeoff chips, human purposes applied", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -267,6 +300,7 @@ def main():
     apply_decisions(buckets)
     merge_requirements(buckets)
     attach_downloads(buckets)
+    polish_entries(buckets)
     emit_cuts()
     models = ROOT / "data" / "models.json"
     if models.exists():

@@ -1,6 +1,6 @@
 {
  "stage": "CAMERA_ANGLE",
- "generated": "2026-09-02T05:24:55+00:00",
+ "generated": "2026-09-02T05:41:23+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -8,7 +8,7 @@
    "our_name": null,
    "source_name": "Animatediff Workflow: Openpose Keyframing in ComfyUI",
    "purpose": null,
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -17,7 +17,10 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7623,
@@ -185,7 +188,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4434,
@@ -277,7 +282,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3253,
@@ -316,7 +323,7 @@
    "our_name": null,
    "source_name": "FLUX 2 Klein 4B vs 9B Multi Camera Angles - One Click, 8 Camera Angles",
    "purpose": null,
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -325,7 +332,9 @@
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4656,
@@ -388,7 +397,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2131,
@@ -540,7 +551,10 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1801,
@@ -833,7 +847,9 @@
    "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2941,
@@ -936,7 +952,7 @@
    "our_name": null,
    "source_name": "Flux Klein 9b Character Compositor - Multi-Angle",
    "purpose": null,
-   "composite": 18.3,
+   "composite": 30.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -945,7 +961,9 @@
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1741,
@@ -1170,7 +1188,10 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1127,
@@ -1408,7 +1429,7 @@
    "our_name": null,
    "source_name": "Krea2 Identity Instant Pose & Outfit Generator (No LLM Required)",
    "purpose": null,
-   "composite": 17.9,
+   "composite": 29.9,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1417,7 +1438,9 @@
    "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1457,
@@ -1454,7 +1477,7 @@
    "our_name": null,
    "source_name": "Qwen Edit Plus (2509) OpenPose 8 Steps",
    "purpose": null,
-   "composite": 17.8,
+   "composite": 29.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1463,7 +1486,10 @@
    "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7009,
@@ -1502,7 +1528,7 @@
    "our_name": null,
    "source_name": "Workflow: Z_Image for Pose & Scene Variation",
    "purpose": "z-image pose & scene variation, reali Q7",
-   "composite": 17.8,
+   "composite": 29.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1550,7 +1576,7 @@
    "our_name": null,
    "source_name": "Qwen Multi-angle & Single-angle Batch Image Generation Workflow for Storyboarding or Material Library Creation",
    "purpose": "qwen multi-angle batch, reali Q7",
-   "composite": 17.7,
+   "composite": 29.7,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1694,7 +1720,7 @@
    "our_name": null,
    "source_name": "Character Pose Transfer Qwen_Edit_2511",
    "purpose": "pose transfer qwen 2511, reali Q7",
-   "composite": 17.5,
+   "composite": 29.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1742,7 +1768,7 @@
    "our_name": null,
    "source_name": "Fully automated pose transfer workflow (Qwen image edit)",
    "purpose": "automated pose transfer, reali Q6",
-   "composite": 17.5,
+   "composite": 29.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -1790,7 +1816,7 @@
    "our_name": null,
    "source_name": "Multi-Angle Dataset Workflow – Qwen Image Edit 2511",
    "purpose": "multi-angle dataset qwen 2511, Q6",
-   "composite": 17.4,
+   "composite": 29.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -1799,7 +1825,9 @@
    "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1734,
@@ -1888,7 +1916,7 @@
    "our_name": null,
    "source_name": "QwenEdit2509 Maintaining consistency in character scene migration and reference poses",
    "purpose": "character scene consistency across angle changes",
-   "composite": 17.4,
+   "composite": 29.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1936,7 +1964,7 @@
    "our_name": null,
    "source_name": "Multi-angle perspective switching with consistent character portrayal (single image)",
    "purpose": null,
-   "composite": 17.2,
+   "composite": 29.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2030,7 +2058,7 @@
    "our_name": null,
    "source_name": "LTX-2 Pose Image Audio to Video",
    "purpose": "LTX-2 pose+audio to video, reali Q8",
-   "composite": 16.7,
+   "composite": 28.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2039,7 +2067,9 @@
    "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1598,
@@ -2087,7 +2117,9 @@
    "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 714,
@@ -2170,7 +2202,7 @@
    "our_name": null,
    "source_name": "Pose_Clothes Transfer-Qwen edit",
    "purpose": "pose+clothes transfer, reali Q8",
-   "composite": 16.4,
+   "composite": 28.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2179,7 +2211,9 @@
    "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1159,
@@ -2227,7 +2261,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 833,
@@ -2314,7 +2350,7 @@
    "our_name": null,
    "source_name": "Flux Klein Pose & Background Thief (The Ultimate Persona Transfer)",
    "purpose": "flux klein pose & background thief — persona tooling",
-   "composite": 16.1,
+   "composite": 28.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2362,7 +2398,7 @@
    "our_name": null,
    "source_name": "FireRed Image editor: Seamless Clothing Swap, Pose Change & Portrait Editing",
    "purpose": "firered clothing swap + pose change, reali Q8",
-   "composite": 16.0,
+   "composite": 28.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2371,7 +2407,9 @@
    "review_flag": false,
    "baseModel": "Qwen 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1795,
@@ -2410,7 +2448,7 @@
    "our_name": null,
    "source_name": "Qwen Image Edit + OpenPose CtrlNet",
    "purpose": null,
-   "composite": 15.1,
+   "composite": 27.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2419,7 +2457,9 @@
    "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1253,
@@ -2458,7 +2498,7 @@
    "our_name": null,
    "source_name": "Z-Image-ControlNet second-order Refiner + Pose / Depth / Line",
    "purpose": null,
-   "composite": 14.5,
+   "composite": 26.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2504,7 +2544,7 @@
    "our_name": null,
    "source_name": "Qwen Image OpenPose Controlnet",
    "purpose": "qwen openpose controlnet",
-   "composite": 14.4,
+   "composite": 26.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -2552,7 +2592,7 @@
    "our_name": null,
    "source_name": "(RTX 4060) LTX 2.3 Pose Control + Face and Hand Detailer",
    "purpose": "LTX 2.3 pose control + detailer, RTX4060-tagged, video",
-   "composite": 14.3,
+   "composite": 26.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2600,7 +2640,7 @@
    "our_name": null,
    "source_name": "Qwen_ Multi angle _ Character Consistency _ One Image for Full Angle _ High Consistency _ Consistency Derived Training Set",
    "purpose": "qwen multi-angle consistency one-image",
-   "composite": 14.1,
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2648,7 +2688,7 @@
    "our_name": null,
    "source_name": "Character Multi-Angle V3 - Character Consistency - Speed Edition",
    "purpose": "character multi-angle V3 consistency",
-   "composite": 13.9,
+   "composite": 25.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2696,7 +2736,7 @@
    "our_name": null,
    "source_name": "ControlNet depth or openpose flux2klein",
    "purpose": null,
-   "composite": 12.7,
+   "composite": 24.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2705,7 +2745,9 @@
    "review_flag": false,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1287,
@@ -2742,7 +2784,7 @@
    "our_name": null,
    "source_name": "Flux Klein 4B/9B Multiple Angles",
    "purpose": "flux klein 4B/9B multiple angles",
-   "composite": 12.4,
+   "composite": 24.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2790,7 +2832,7 @@
    "our_name": null,
    "source_name": "Qwen_Edit_2511 Multi-view Character Generation",
    "purpose": null,
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,

@@ -1,14 +1,14 @@
 {
  "stage": "SPEECH_VOICE",
- "generated": "2026-09-02T05:24:55+00:00",
+ "generated": "2026-09-02T05:41:23+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
    "id": 1983539,
    "our_name": null,
    "source_name": "Motion Forge: Wan2.2 S2V - High-Motion & Long-Format Workflow 4 Steps",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 17.8,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 29.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -17,7 +17,9 @@
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 812,
@@ -55,7 +57,7 @@
    "id": 1945414,
    "our_name": null,
    "source_name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 17.5,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -65,7 +67,9 @@
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 602,
@@ -257,7 +261,7 @@
    "id": 2411105,
    "our_name": null,
    "source_name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 17.3,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -267,7 +271,10 @@
    "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 517,
@@ -532,8 +539,8 @@
    "id": 2306894,
    "our_name": null,
    "source_name": "LTX-2.5 Image Audio to Video - Lipsync",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 17.2,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 29.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -542,7 +549,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6514,
@@ -580,7 +589,7 @@
    "id": 2498927,
    "our_name": null,
    "source_name": "Text-to-Speech with Voice Clone in LTX 2.3",
-   "purpose": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 17.1,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -628,7 +637,7 @@
    "id": 1710081,
    "our_name": null,
    "source_name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
-   "purpose": "toy-like 3D demo character — acceptable stylized preview",
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
    "composite": 17.1,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -725,8 +734,8 @@
    "id": 1553946,
    "our_name": null,
    "source_name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 16.5,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 28.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -735,7 +744,10 @@
    "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1048,
@@ -864,7 +876,7 @@
    "id": 2422765,
    "our_name": null,
    "source_name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 15.8,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -912,8 +924,8 @@
    "id": 1815300,
    "our_name": null,
    "source_name": "VideoFlow - LTX 2.3 All-in-One T2V / I2V / A2V / Stable Character Voice, Wan 2.2/2.1 I2V workflow",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 15.5,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 27.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -960,7 +972,7 @@
    "id": 2337329,
    "our_name": null,
    "source_name": "Qwen3-TTS Voice Generation Collection V1",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
    "composite": 15.5,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -1008,7 +1020,7 @@
    "id": 1924833,
    "our_name": null,
    "source_name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 15.3,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -1056,8 +1068,8 @@
    "id": 1909425,
    "our_name": null,
    "source_name": "Wan 2.2 14B S2V Ultimate Suite: GGUF & Lightning Speed with Extended Video Generation",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 15.2,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 27.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1066,7 +1078,9 @@
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2181,
@@ -1104,8 +1118,8 @@
    "id": 2041710,
    "our_name": null,
    "source_name": "InfiniteTalk | Image-to-Speech AI Workflow (All Files + Setup Guide Included)",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 15.2,
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
+   "composite": 27.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1114,7 +1128,9 @@
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 957,
@@ -1152,8 +1168,8 @@
    "id": 2294829,
    "our_name": null,
    "source_name": "Friendly LTX-2 T2V+I2V+Lipsync",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 15.0,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 27.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1162,7 +1178,9 @@
    "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3103,
@@ -1200,7 +1218,7 @@
    "id": 2299899,
    "our_name": null,
    "source_name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 14.3,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -1210,7 +1228,9 @@
    "review_flag": false,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2582,
@@ -1248,8 +1268,8 @@
    "id": 2475570,
    "our_name": null,
    "source_name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 14.1,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1258,7 +1278,10 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3239,
@@ -1296,8 +1319,8 @@
    "id": 2492652,
    "our_name": null,
    "source_name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 14.1,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 26.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1306,7 +1329,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1563,
@@ -1344,8 +1369,8 @@
    "id": 2780640,
    "our_name": null,
    "source_name": "JoyAI-Echo Multishot Workflow - one character, many shots, same face + voice",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 13.7,
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
+   "composite": 25.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1354,7 +1379,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 902,
@@ -1394,8 +1421,8 @@
    "id": 1920627,
    "our_name": null,
    "source_name": "Wan Speech To Video(Lip Sync With Speed Up)",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 13.0,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 25.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -1442,7 +1469,7 @@
    "id": 489100,
    "our_name": null,
    "source_name": "Petravoice",
-   "purpose": null,
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
    "composite": 17.9,
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
@@ -1490,7 +1517,7 @@
    "id": 539547,
    "our_name": null,
    "source_name": "Petra Voice Styles [LoRA]",
-   "purpose": null,
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
    "composite": 13.2,
    "tier": "B-candidate",
    "visual_class": "anime-illustration",
@@ -1538,7 +1565,7 @@
    "id": 394171,
    "our_name": null,
    "source_name": "Comfyui Generate Digital Talking Human Workflow",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
    "composite": 19.4,
    "tier": "A-candidate",
    "visual_class": "other",
@@ -1620,8 +1647,8 @@
    "id": 2490072,
    "our_name": null,
    "source_name": "LTX2.3 TI2V Audio Image Driven Digital Human",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 19.2,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1630,7 +1657,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 843,
@@ -1870,8 +1899,8 @@
    "id": 1526147,
    "our_name": null,
    "source_name": "Fantasy Talking+Cosyvoice Digital Person Skyreels+v2+I2V Stable Acceleration Version V2",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 18.8,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 30.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1880,7 +1909,10 @@
    "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 637,
@@ -2012,7 +2044,7 @@
    "id": 1945414,
    "our_name": null,
    "source_name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 18.7,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -2022,7 +2054,9 @@
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 602,
@@ -2214,7 +2248,7 @@
    "id": 2411105,
    "our_name": null,
    "source_name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 18.5,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -2224,7 +2258,10 @@
    "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 517,
@@ -2489,7 +2526,7 @@
    "id": 1710081,
    "our_name": null,
    "source_name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
-   "purpose": "toy-like 3D demo character — acceptable stylized preview",
+   "purpose": "make a still photo of your persona talk — voice and lip movement",
    "composite": 18.5,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -2586,8 +2623,8 @@
    "id": 1553946,
    "our_name": null,
    "source_name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 18.4,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 30.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2596,7 +2633,10 @@
    "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1048,
@@ -2725,8 +2765,8 @@
    "id": 2306894,
    "our_name": null,
    "source_name": "LTX-2.5 Image Audio to Video - Lipsync",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 17.6,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 29.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2735,7 +2775,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6515,
@@ -2773,7 +2815,7 @@
    "id": 2422765,
    "our_name": null,
    "source_name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 17.5,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -2783,7 +2825,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1253,
@@ -2821,7 +2865,7 @@
    "id": 1924833,
    "our_name": null,
    "source_name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 17.0,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -2831,7 +2875,9 @@
    "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1695,
@@ -2869,8 +2915,8 @@
    "id": 2294829,
    "our_name": null,
    "source_name": "Friendly LTX-2 T2V+I2V+Lipsync",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 15.9,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 27.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2879,7 +2925,9 @@
    "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3103,
@@ -2917,8 +2965,8 @@
    "id": 2492652,
    "our_name": null,
    "source_name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 15.8,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 27.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2927,7 +2975,9 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1563,
@@ -2965,7 +3015,7 @@
    "id": 2299899,
    "our_name": null,
    "source_name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
    "composite": 15.4,
    "tier": "B-candidate",
    "visual_class": "other",
@@ -2975,7 +3025,9 @@
    "review_flag": false,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2582,
@@ -3013,8 +3065,8 @@
    "id": 2475570,
    "our_name": null,
    "source_name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 14.9,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 26.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3023,7 +3075,10 @@
    "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3239,
@@ -3061,8 +3116,8 @@
    "id": 1920627,
    "our_name": null,
    "source_name": "Wan Speech To Video(Lip Sync With Speed Up)",
-   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
-   "composite": 14.6,
+   "purpose": "make a still photo of your persona talk — voice and lip movement (modern video model underneath)",
+   "composite": 26.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -3237,7 +3292,9 @@
    "review_flag": false,
    "baseModel": null,
    "vram_class": "6",
-   "tradeoff": "low vram",
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": "open-weights",
    "stats": {
     "downloadCount": null,

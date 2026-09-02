@@ -1,6 +1,6 @@
 {
  "stage": "MOTION",
- "generated": "2026-09-02T05:24:55+00:00",
+ "generated": "2026-09-02T05:41:23+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -17,7 +17,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 34320,
@@ -150,7 +152,7 @@
    "our_name": null,
    "source_name": "Hunyuan 12GB vram @1080p w/Upscale + Framegen + Wildcards",
    "purpose": "hunyuan 12GB 1080p modern, vram-tagged, reali Q8 video",
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -159,7 +161,9 @@
    "review_flag": false,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9046,
@@ -257,7 +261,9 @@
    "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7103,
@@ -610,7 +616,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18130,
@@ -785,7 +793,7 @@
    "our_name": null,
    "source_name": "Consistent face 3x3 generator (discontinued)",
    "purpose": null,
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -794,7 +802,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9255,
@@ -957,7 +967,7 @@
    "our_name": null,
    "source_name": "ipiv's SDXL Lightning text2img2vid SD1.5 AnimateDiff LCM",
    "purpose": "sdxl lightning t2i2vid legacy class, reali Q8 video",
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -966,7 +976,10 @@
    "review_flag": false,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6640,
@@ -1095,7 +1108,7 @@
    "our_name": null,
    "source_name": "My Steerable Motion workflow",
    "purpose": "steerable motion reali Q8 video",
-   "composite": 20.0,
+   "composite": 32.0,
    "tier": "S-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1104,7 +1117,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5623,
@@ -1221,7 +1236,10 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8276,
@@ -1319,7 +1337,9 @@
    "review_flag": false,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5638,
@@ -1501,7 +1521,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4972,
@@ -1589,7 +1611,7 @@
    "our_name": null,
    "source_name": "AnimateLCM (Fast Video Generation)",
    "purpose": "animateLCM fast video, reali Q8",
-   "composite": 19.9,
+   "composite": 31.9,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -1598,7 +1620,10 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4513,
@@ -1639,7 +1664,7 @@
    "our_name": null,
    "source_name": "Loop Upscale - Automated upscale workflow for different scenarios",
    "purpose": null,
-   "composite": 19.9,
+   "composite": 31.9,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2127,7 +2152,7 @@
    "our_name": null,
    "source_name": "Amazing Flux_SD3.5_8Mega_Pixel_image_upscale_process",
    "purpose": null,
-   "composite": 19.8,
+   "composite": 31.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2136,7 +2161,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4327,
@@ -2251,7 +2278,7 @@
    "our_name": null,
    "source_name": "Minimax SEED HUNTER Workflow - Latent Upscaler + Seamless Video Continuation + Speedups",
    "purpose": "minimax latent upscaler — motion quality, Q6 noted",
-   "composite": 19.7,
+   "composite": 31.7,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -2401,7 +2428,9 @@
    "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3535,
@@ -2493,7 +2522,7 @@
    "our_name": null,
    "source_name": "Face-replicator with Qwen Edit 2509 (discontinued)",
    "purpose": null,
-   "composite": 19.6,
+   "composite": 31.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2502,7 +2531,9 @@
    "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3615,
@@ -2589,7 +2620,7 @@
    "our_name": null,
    "source_name": "EKKIVOK - REAL SKIN FINAL",
    "purpose": null,
-   "composite": 19.6,
+   "composite": 31.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -2598,7 +2629,9 @@
    "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3514,
@@ -2705,7 +2738,7 @@
    "our_name": null,
    "source_name": "Hunyuan video t2v with facedetailer POC",
    "purpose": "hunyuan t2v + facedetailer, reali Q7 video",
-   "composite": 19.5,
+   "composite": 31.5,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -2884,7 +2917,10 @@
    "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3340,
@@ -3124,7 +3160,7 @@
    "our_name": null,
    "source_name": "FLUX Modular WF (discontinued)",
    "purpose": null,
-   "composite": 19.5,
+   "composite": 31.5,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3133,7 +3169,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3449,
@@ -3457,7 +3495,9 @@
    "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3105,
@@ -3547,7 +3587,7 @@
    "our_name": null,
    "source_name": "PA7_PromptGenerator",
    "purpose": null,
-   "composite": 19.4,
+   "composite": 31.4,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -3556,7 +3596,10 @@
    "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram",
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3039,
@@ -3673,7 +3716,7 @@
    "our_name": null,
    "source_name": "VK MOTION BRUSH COMFYUI WORKFLOW",
    "purpose": "VK motion brush — motion control, reali Q7 video",
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -3682,7 +3725,9 @@
    "review_flag": false,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2767,
@@ -3978,7 +4023,7 @@
    "our_name": null,
    "source_name": "Z-Image Power Nodes",
    "purpose": null,
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4094,7 +4139,7 @@
    "our_name": null,
    "source_name": "zyd232's Workflow - Hires Fix + Face Detailer + Detailed Skin",
    "purpose": null,
-   "composite": 19.3,
+   "composite": 31.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4206,7 +4251,7 @@
    "our_name": null,
    "source_name": "Wan VACE Masking & Extension - Seamlessly Extend, Join, and Auto-Fill Existing Videos While Maintaining Motion",
    "purpose": "wan VACE masking/extension, reali Q6 video",
-   "composite": 19.2,
+   "composite": 31.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -4360,7 +4405,9 @@
    "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2555,
@@ -4547,7 +4594,7 @@
    "our_name": null,
    "source_name": "Animate from still using CogVideoX-5b-I2V",
    "purpose": "cogvideox i2v from still, reali Q6 video",
-   "composite": 19.1,
+   "composite": 31.1,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
@@ -4556,7 +4603,9 @@
    "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2457,
@@ -4811,7 +4860,7 @@
    "our_name": null,
    "source_name": "zyd232's Workflow for Flux - ControlNet Upscale + Expression Editor + Face Detailer + Hand Fix",
    "purpose": null,
-   "composite": 19.1,
+   "composite": 31.1,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
@@ -4980,7 +5029,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2994,
@@ -5074,7 +5125,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2357,
@@ -5122,7 +5175,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2457,
@@ -5170,7 +5225,9 @@
    "review_flag": true,
    "baseModel": "SDXL Hyper",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2323,
@@ -5262,7 +5319,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6358,
@@ -5310,7 +5369,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2149,
@@ -5494,7 +5555,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2109,
@@ -5542,7 +5605,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2120,
@@ -5636,7 +5701,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2148,
@@ -5730,7 +5797,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2774,
@@ -6054,7 +6123,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2096,
@@ -6194,7 +6265,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5100,
@@ -6242,7 +6315,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2080,
@@ -6520,7 +6595,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2176,
@@ -6568,7 +6645,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1961,
@@ -6708,7 +6787,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 21234,
@@ -6892,7 +6973,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2924,
@@ -6940,7 +7023,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1804,
@@ -7034,7 +7119,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1805,
@@ -7220,7 +7307,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1840,
@@ -7360,7 +7449,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1691,
@@ -7408,7 +7499,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3887,
@@ -7500,7 +7593,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1738,
@@ -7778,7 +7873,9 @@
    "review_flag": true,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2110,
@@ -7916,7 +8013,10 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1621,
@@ -8010,7 +8110,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1671,
@@ -8058,7 +8160,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1666,
@@ -8288,7 +8392,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1522,
@@ -8428,7 +8534,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 16379,
@@ -8522,7 +8630,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1574,
@@ -8708,7 +8818,10 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1559,
@@ -8802,7 +8915,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1542,
@@ -9080,7 +9195,9 @@
    "review_flag": true,
    "baseModel": "Ideogram 4.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1549,
@@ -9128,7 +9245,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1825,
@@ -9176,7 +9295,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1568,
@@ -9546,7 +9667,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1452,
@@ -9868,7 +9991,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1383,
@@ -9916,7 +10041,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2979,
@@ -10146,7 +10273,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1463,
@@ -10332,7 +10461,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1390,
@@ -10610,7 +10741,9 @@
    "review_flag": true,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2168,
@@ -10658,7 +10791,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1348,
@@ -10750,7 +10885,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8554,
@@ -10796,7 +10933,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5144,
@@ -11350,7 +11489,10 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1814,
@@ -11398,7 +11540,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1305,
@@ -11538,7 +11682,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1301,
@@ -11724,7 +11870,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1251,
@@ -11956,7 +12104,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1227,
@@ -12234,7 +12384,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2127,
@@ -12282,7 +12434,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2102,
@@ -12374,7 +12528,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1206,
@@ -12882,7 +13038,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1186,
@@ -13068,7 +13226,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1106,
@@ -13252,7 +13412,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1101,
@@ -13300,7 +13462,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1106,
@@ -13348,7 +13512,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1113,
@@ -13580,7 +13746,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1140,
@@ -13768,7 +13936,10 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1001,
@@ -13816,7 +13987,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 991,
@@ -13956,7 +14129,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 46699,
@@ -14004,7 +14179,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1040,
@@ -14420,7 +14597,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1035,
@@ -14468,7 +14647,9 @@
    "review_flag": true,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1032,
@@ -14790,7 +14971,10 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5922,
@@ -14930,7 +15114,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 941,
@@ -15070,7 +15256,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 944,
@@ -15578,7 +15766,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 963,
@@ -15626,7 +15816,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 955,
@@ -15674,7 +15866,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 934,
@@ -15860,7 +16054,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1978,
@@ -15906,7 +16102,10 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 11464,
@@ -16046,7 +16245,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3070,
@@ -16138,7 +16339,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 869,
@@ -16232,7 +16435,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 849,
@@ -16372,7 +16577,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 864,
@@ -16650,7 +16857,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 850,
@@ -17204,7 +17413,9 @@
    "review_flag": true,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2570,
@@ -17250,7 +17461,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 792,
@@ -17296,7 +17509,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 779,
@@ -17436,7 +17651,10 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5994,
@@ -17484,7 +17702,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4557,
@@ -17530,7 +17750,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2441,
@@ -17714,7 +17936,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 786,
@@ -17856,7 +18080,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5 LCM",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 777,
@@ -17950,7 +18176,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 800,
@@ -17996,7 +18224,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 787,
@@ -18042,7 +18272,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1021,
@@ -18088,7 +18320,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 811,
@@ -18134,7 +18368,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 788,
@@ -18272,7 +18508,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7973,
@@ -18550,7 +18788,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 733,
@@ -18874,7 +19114,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 721,
@@ -19012,7 +19254,9 @@
    "review_flag": true,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 697,
@@ -19060,7 +19304,9 @@
    "review_flag": true,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 729,
@@ -19152,7 +19398,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 720,
@@ -19292,7 +19540,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 670,
@@ -19432,7 +19682,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1763,
@@ -19710,7 +19962,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1123,
@@ -19848,7 +20102,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 644,
@@ -20126,7 +20382,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 650,
@@ -20310,7 +20568,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 595,
@@ -20448,7 +20708,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3315,
@@ -20496,7 +20758,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 626,
@@ -20774,7 +21038,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3696,
@@ -20960,7 +21226,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2534,
@@ -21008,7 +21276,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 4B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2336,
@@ -22160,7 +22431,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 579,
@@ -22484,7 +22757,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3856,
@@ -22624,7 +22899,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2413,
@@ -22948,7 +23225,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 546,
@@ -23040,7 +23319,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1511,
@@ -23454,7 +23735,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 539,
@@ -23546,7 +23829,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 557,
@@ -23684,7 +23969,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 527,
@@ -23732,7 +24019,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 523,
@@ -23771,7 +24060,7 @@
    "our_name": null,
    "source_name": "LTX2.3 TI2V Audio Image Driven Digital Human",
    "purpose": null,
-   "composite": 17.3,
+   "composite": 29.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
@@ -23780,7 +24069,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "max quality"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 843,
@@ -24028,7 +24319,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 501,
@@ -24074,7 +24367,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1504,
@@ -24214,7 +24509,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 14820,
@@ -24446,7 +24743,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1245,
@@ -24586,7 +24885,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 528,
@@ -24772,7 +25073,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 523,
@@ -24958,7 +25261,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 521,
@@ -25006,7 +25312,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7594,
@@ -25054,7 +25362,10 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3037,
@@ -25102,7 +25413,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 64200,
@@ -25334,7 +25647,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3785,
@@ -25380,7 +25695,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2349,
@@ -25888,7 +26205,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 795,
@@ -25934,7 +26253,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 777,
@@ -26074,7 +26396,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6349,
@@ -26122,7 +26446,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4827,
@@ -26168,7 +26494,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3588,
@@ -26216,7 +26544,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3208,
@@ -26264,7 +26594,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3126,
@@ -26404,7 +26736,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2512,
@@ -26498,7 +26832,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2003,
@@ -26684,7 +27020,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1762,
@@ -26732,7 +27070,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1679,
@@ -26870,7 +27210,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1429,
@@ -26916,7 +27258,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 899,
@@ -27100,7 +27444,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1177,
@@ -27146,7 +27492,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8126,
@@ -27468,7 +27816,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 715,
@@ -27516,7 +27866,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 998,
@@ -27654,7 +28006,10 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5324,
@@ -27794,7 +28149,10 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4157,
@@ -28164,7 +28522,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 878,
@@ -28716,7 +29076,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2461,
@@ -28764,7 +29126,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2458,
@@ -28902,7 +29266,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 843,
@@ -29042,7 +29408,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 552,
@@ -29088,7 +29456,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 799,
@@ -29410,7 +29780,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4933,
@@ -29504,7 +29876,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1632,
@@ -29780,7 +30154,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1159,
@@ -29874,7 +30250,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6497,
@@ -30012,7 +30390,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2969,
@@ -30058,7 +30438,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2818,
@@ -30106,7 +30488,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2685,
@@ -30384,7 +30768,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 534,
@@ -30476,7 +30862,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 4B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1283,
@@ -30846,7 +31235,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5181,
@@ -30894,7 +31285,10 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5040,
@@ -30942,7 +31336,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4728,
@@ -31174,7 +31570,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2897,
@@ -31268,7 +31666,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1298,
@@ -31360,7 +31760,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 966,
@@ -31408,7 +31810,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 763,
@@ -31454,7 +31858,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1972,
@@ -31502,7 +31908,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2636,
@@ -31594,7 +32002,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1939,
@@ -31732,7 +32142,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8408,
@@ -31826,7 +32238,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2703,
@@ -31920,7 +32334,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2270,
@@ -32196,7 +32612,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 688,
@@ -32288,7 +32706,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 16223,
@@ -32336,7 +32756,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5547,
@@ -32476,7 +32898,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3158,
@@ -32662,7 +33086,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2333,
@@ -32754,7 +33180,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1200,
@@ -32800,7 +33228,9 @@
    "review_flag": true,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1045,
@@ -32848,7 +33278,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 808,
@@ -33262,7 +33694,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8517,
@@ -33584,7 +34018,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1361,
@@ -33816,7 +34252,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2094,
@@ -33908,7 +34346,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5180,
@@ -34000,7 +34440,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2225,
@@ -34046,7 +34488,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2090,
@@ -34094,7 +34538,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1472,
@@ -34232,7 +34678,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1615,
@@ -34324,7 +34772,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 784,
@@ -34510,7 +34960,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 16215,
@@ -34604,7 +35056,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3790,
@@ -34650,7 +35104,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3561,
@@ -34882,7 +35338,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 914,
@@ -34928,7 +35386,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 4B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 823,
@@ -35022,7 +35482,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 24130,
@@ -35114,7 +35576,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 S",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6533,
@@ -35530,7 +35994,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 704,
@@ -35762,7 +36228,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7559,
@@ -36040,7 +36508,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 Kontext",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2178,
@@ -36132,7 +36602,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 744,
@@ -36592,7 +37064,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10703,
@@ -36686,7 +37160,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 10299,
@@ -36732,7 +37208,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6325,
@@ -37148,7 +37626,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1317,
@@ -37194,7 +37674,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1262,
@@ -37242,7 +37724,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1811,
@@ -37336,7 +37820,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 12169,
@@ -37842,7 +38328,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1309,
@@ -37980,7 +38468,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 795,
@@ -38028,7 +38519,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3493,
@@ -38168,7 +38661,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 32247,
@@ -38444,7 +38939,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2804,
@@ -38674,7 +39171,9 @@
    "review_flag": true,
    "baseModel": "HiDream",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2093,
@@ -38720,7 +39219,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1823,
@@ -39042,7 +39543,9 @@
    "review_flag": true,
    "baseModel": "Anima",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 814,
@@ -39090,7 +39593,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3645,
@@ -39322,7 +39827,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5655,
@@ -39506,7 +40013,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2481,
@@ -39552,7 +40061,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2109,
@@ -40012,7 +40523,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7374,
@@ -40242,7 +40755,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2711,
@@ -40336,7 +40851,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1309,
@@ -40520,7 +41037,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 752,
@@ -40568,7 +41087,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8666,
@@ -41306,7 +41827,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1187,
@@ -41352,7 +41875,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1820,
@@ -41490,7 +42015,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1355,
@@ -41766,7 +42293,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 14229,
@@ -41858,7 +42387,9 @@
    "review_flag": true,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 37641,
@@ -41996,7 +42527,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3730,
@@ -42182,7 +42715,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2449,
@@ -42320,7 +42855,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2084,
@@ -42366,7 +42903,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 4B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1609,
@@ -42506,7 +43046,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 596,
@@ -42552,7 +43094,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2065,
@@ -43060,7 +43604,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2595,
@@ -43154,7 +43700,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2063,
@@ -43248,7 +43796,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 952,
@@ -43386,7 +43936,10 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2019,
@@ -43434,7 +43987,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2322,
@@ -43526,7 +44081,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8792,
@@ -43712,7 +44269,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4124,
@@ -43804,7 +44363,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3365,
@@ -43852,7 +44413,10 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3205,
@@ -44176,7 +44740,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 961,
@@ -44498,7 +45064,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1931,
@@ -44592,7 +45160,10 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5195,
@@ -44686,7 +45257,9 @@
    "review_flag": true,
    "baseModel": "ACE Audio",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3335,
@@ -44916,7 +45489,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 TI2V-5B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2028,
@@ -44964,7 +45539,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1973,
@@ -45010,7 +45587,10 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1662,
@@ -45288,7 +45868,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2162,
@@ -45380,7 +45962,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5408,
@@ -45426,7 +46010,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4613,
@@ -45702,7 +46288,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1967,
@@ -46162,7 +46750,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3422,
@@ -46716,7 +47306,9 @@
    "review_flag": true,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1889,
@@ -46762,7 +47354,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1610,
@@ -46810,7 +47404,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1511,
@@ -46902,7 +47498,9 @@
    "review_flag": true,
    "baseModel": "ZImageBase",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1018,
@@ -46994,7 +47592,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 948,
@@ -47178,7 +47778,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1854,
@@ -47270,7 +47872,9 @@
    "review_flag": true,
    "baseModel": "Ideogram 4.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 791,
@@ -47500,7 +48104,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2982,
@@ -47592,7 +48198,9 @@
    "review_flag": true,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 845,
@@ -47640,7 +48248,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 17705,
@@ -47732,7 +48342,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 9036,
@@ -47826,7 +48438,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5719,
@@ -47872,7 +48486,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5596,
@@ -48240,7 +48856,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2238,
@@ -48286,7 +48904,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2191,
@@ -48332,7 +48952,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1700,
@@ -48470,7 +49092,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1062,
@@ -48518,7 +49142,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 957,
@@ -48610,7 +49236,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 547,
@@ -48932,7 +49560,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 46462,
@@ -48978,7 +49608,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B t2v",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 29439,
@@ -49118,7 +49750,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 8187,
@@ -49258,7 +49892,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5678,
@@ -49350,7 +49986,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4216,
@@ -49534,7 +50172,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1566,
@@ -49580,7 +50220,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1378,
@@ -49720,7 +50362,9 @@
    "review_flag": true,
    "baseModel": "Hunyuan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3717,
@@ -49814,7 +50458,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 13414,
@@ -49906,7 +50552,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2191,
@@ -50044,7 +50692,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3629,
@@ -50366,7 +51016,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6025,
@@ -50460,7 +51112,10 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3290,
@@ -50784,7 +51439,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2351,
@@ -50968,7 +51625,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2186,
@@ -51060,7 +51719,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 28107,
@@ -51152,7 +51813,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4011,
@@ -51244,7 +51907,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1934,
@@ -51338,7 +52003,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1303,
@@ -51430,7 +52097,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1020,
@@ -51476,7 +52145,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 S",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2189,
@@ -51524,7 +52195,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1801,
@@ -51572,7 +52245,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 810,
@@ -51664,7 +52339,9 @@
    "review_flag": true,
    "baseModel": "Wan Video",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 28866,
@@ -51894,7 +52571,9 @@
    "review_flag": true,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3134,
@@ -52078,7 +52757,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1182,
@@ -52586,7 +53267,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4376,
@@ -52634,7 +53317,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3184,
@@ -52772,7 +53457,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2779,
@@ -53004,7 +53691,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 881,
@@ -53328,7 +54017,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2935,
@@ -53374,7 +54065,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2598,
@@ -53466,7 +54159,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1381,
@@ -53560,7 +54255,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1147,
@@ -53700,7 +54397,10 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2150,
@@ -53886,7 +54586,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 768,
@@ -53980,7 +54682,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 787,
@@ -54120,7 +54824,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1245,
@@ -54168,7 +54874,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1073,
@@ -54214,7 +54922,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 25077,
@@ -54398,7 +55108,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1199,
@@ -54446,7 +55158,9 @@
    "review_flag": true,
    "baseModel": "Pony",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2680,
@@ -54586,7 +55300,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 877,
@@ -54680,7 +55396,9 @@
    "review_flag": true,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 786,
@@ -54774,7 +55492,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1001,
@@ -54822,7 +55542,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4636,
@@ -55006,7 +55728,9 @@
    "review_flag": true,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7041,
@@ -55052,7 +55776,9 @@
    "review_flag": true,
    "baseModel": "Illustrious",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6700,
@@ -55514,7 +56240,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 852,
@@ -55606,7 +56334,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 721,
@@ -55882,7 +56612,9 @@
    "review_flag": true,
    "baseModel": "SDXL Lightning",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 7322,
@@ -55928,7 +56660,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2979,
@@ -56020,7 +56754,10 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2720,
@@ -56068,7 +56805,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2112,
@@ -56206,7 +56945,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1383,
@@ -56254,7 +56995,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1248,
@@ -56530,7 +57273,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 807,
@@ -56624,7 +57370,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1650,
@@ -56716,7 +57464,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6883,
@@ -56764,7 +57514,9 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 5905,
@@ -56812,7 +57564,10 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2365,
@@ -56998,7 +57753,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1253,
@@ -57138,7 +57895,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2058,
@@ -57278,7 +58037,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 19621,
@@ -57324,7 +58085,9 @@
    "review_flag": true,
    "baseModel": "LTXV",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1120,
@@ -57646,7 +58409,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2122,
@@ -57694,7 +58459,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2584,
@@ -57970,7 +58737,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3276,
@@ -58200,7 +58969,9 @@
    "review_flag": true,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 20517,
@@ -58246,7 +59017,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 4075,
@@ -58660,7 +59433,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1322,
@@ -58844,7 +59619,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1804,
@@ -58982,7 +59759,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 4B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 725,
@@ -59122,7 +59902,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1861,
@@ -59306,7 +60088,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2175,
@@ -59492,7 +60276,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1115,
@@ -59538,7 +60324,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 857,
@@ -59998,7 +60786,10 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1802,
@@ -60138,7 +60929,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1988,
@@ -60322,7 +61115,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 530,
@@ -60414,7 +61209,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2094,
@@ -60736,7 +61533,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 4B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 788,
@@ -60922,7 +61722,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 18332,
@@ -61014,7 +61816,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3017,
@@ -61200,7 +62004,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 6190,
@@ -61246,7 +62052,9 @@
    "review_flag": true,
    "baseModel": "LTXV2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3895,
@@ -61292,7 +62100,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3430,
@@ -61384,7 +62194,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2120,
@@ -61430,7 +62242,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1463,
@@ -61570,7 +62384,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1014,
@@ -61662,7 +62478,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1367,
@@ -61800,7 +62618,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2348,
@@ -61846,7 +62666,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2925,
@@ -61894,7 +62716,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1886,
@@ -61942,7 +62766,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 D",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1866,
@@ -62082,7 +62908,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 540,
@@ -62358,7 +63186,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1615,
@@ -62404,7 +63234,9 @@
    "review_flag": true,
    "baseModel": "Flux.1 S",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2091,
@@ -62588,7 +63420,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 808,
@@ -62864,7 +63698,9 @@
    "review_flag": true,
    "baseModel": "Qwen",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2746,
@@ -62956,7 +63792,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3421,
@@ -63188,7 +64026,9 @@
    "review_flag": true,
    "baseModel": "LTXV 2.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1146,
@@ -63280,7 +64120,9 @@
    "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2319,
@@ -63326,7 +64168,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2359,
@@ -63372,7 +64216,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 TI2V-5B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2306,
@@ -63740,7 +64586,9 @@
    "review_flag": true,
    "baseModel": "MiniMax H3",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 744,
@@ -63786,7 +64634,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2361,
@@ -64016,7 +64866,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1934,
@@ -64248,7 +65100,9 @@
    "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2770,
@@ -65170,7 +66024,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3422,
@@ -65262,7 +66118,10 @@
    "review_flag": true,
    "baseModel": "Flux.2 Klein 9B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest",
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1052,
@@ -65540,7 +66399,9 @@
    "review_flag": true,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3754,
@@ -65586,7 +66447,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 2444,
@@ -65770,7 +66633,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 921,
@@ -66000,7 +66865,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 928,
@@ -66184,7 +67051,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 741,
@@ -66230,7 +67099,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 740,
@@ -66368,7 +67239,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 674,
@@ -66460,7 +67333,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 3445,
@@ -66690,7 +67565,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1009,
@@ -66966,7 +67843,9 @@
    "review_flag": true,
    "baseModel": "Wan Video 2.2 T2V-A14B",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1692,
@@ -67104,7 +67983,9 @@
    "review_flag": true,
    "baseModel": "Other",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "fastest"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 1132,
@@ -67748,7 +68629,9 @@
    "review_flag": true,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
-   "tradeoff": null,
+   "tradeoff": [
+    "low vram"
+   ],
    "open_closed": null,
    "stats": {
     "downloadCount": 854,
