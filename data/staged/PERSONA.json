@@ -1,6 +1,6 @@
 {
  "stage": "PERSONA",
- "generated": "2026-09-02T04:18:19+00:00",
+ "generated": "2026-09-02T04:25:06+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -2360,9 +2360,9 @@
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
    "quality": 8,
-   "nsfw_bucket": "safe",
+   "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": false,
+   "review_flag": true,
    "baseModel": "Krea 2",
    "vram_class": null,
    "tradeoff": null,
@@ -3023,11 +3023,11 @@
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "anime-illustration",
+   "visual_class": "realism-photoreal",
    "quality": 8,
-   "nsfw_bucket": "safe",
+   "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": false,
+   "review_flag": true,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3602,45 +3602,6 @@
    }
   },
   {
-   "id": 60724,
-   "our_name": null,
-   "source_name": "KIDS ILLUSTRATION",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "other",
-   "quality": 8,
-   "nsfw_bucket": "safe",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 52540,
-    "thumbsUpCount": 6191
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e11904bc-ba48-41e7-b4db-a1ae00211918/width=450/757211.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e11904bc-ba48-41e7-b4db-a1ae00211918/original=true/757211.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/60724",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 60572,
    "our_name": null,
    "source_name": "SeekYou",
@@ -3669,45 +3630,6 @@
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/60572",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 8949,
-   "our_name": null,
-   "source_name": "Jim Lee (DC Comics / Marvel) Style LoRA",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 8,
-   "nsfw_bucket": "moderate",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 34484,
-    "thumbsUpCount": 4262
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/671dc47e-cace-49e6-4bb4-7a0997b10100/width=450/102779.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/671dc47e-cace-49e6-4bb4-7a0997b10100/original=true/102779.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/8949",
    "requirements": {
     "models": [],
     "nodes": []
@@ -3768,7 +3690,7 @@
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 2.1 768",
    "vram_class": null,
    "tradeoff": null,
@@ -3794,7 +3716,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "realism Q7 medium-conf hooded scene — verify with 2nd preview"
   },
   {
    "id": 1559047,
@@ -3846,7 +3770,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -3872,7 +3796,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "realism Q8 gundam cosplay — costume variety is persona content (same call as CosplayMix)"
   },
   {
    "id": 333041,
@@ -4031,45 +3957,6 @@
    }
   },
   {
-   "id": 11718,
-   "our_name": null,
-   "source_name": "Dungeons N Waifu's - v2.2 - (2.5D FANTASY MODEL)",
-   "purpose": null,
-   "composite": 19.1,
-   "tier": "A-candidate",
-   "visual_class": "other",
-   "quality": 6,
-   "nsfw_bucket": "safe",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 22703,
-    "thumbsUpCount": 3031
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f1e76f4-6ea3-45c6-dee7-f192b0492500/width=450/293422.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f1e76f4-6ea3-45c6-dee7-f192b0492500/original=true/293422.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/11718",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 10028,
    "our_name": null,
    "source_name": "NeverEnding Dream (NED)",
@@ -4109,84 +3996,6 @@
    }
   },
   {
-   "id": 100435,
-   "our_name": null,
-   "source_name": "Character Design Sheet (HELPER) (3-PERSPECTIVES)+(COLOR PALETTE) - Z-IMAGE TURBO | Illustrious XL | FLUX | XL PONY | SD 1.5 - by YeiyeiArt",
-   "purpose": null,
-   "composite": 19.0,
-   "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 7,
-   "nsfw_bucket": "safe",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "ZImageTurbo",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 100093,
-    "thumbsUpCount": 11437
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58019cd6-d36b-4ee8-8b2d-7a6887d6832d/width=450/113727869.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58019cd6-d36b-4ee8-8b2d-7a6887d6832d/original=true/113727869.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/100435",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 7094,
-   "our_name": null,
-   "source_name": "Arcane Style LoRA",
-   "purpose": null,
-   "composite": 19.0,
-   "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 7,
-   "nsfw_bucket": "moderate",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 60182,
-    "thumbsUpCount": 6923
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/93e74bc8-97ce-4826-e142-594cdd134d00/width=450/79106.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/93e74bc8-97ce-4826-e142-594cdd134d00/original=true/79106.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/7094",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 1132089,
    "our_name": null,
    "source_name": "Flat Color - Style",
@@ -4215,45 +4024,6 @@
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1132089",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 20330,
-   "our_name": null,
-   "source_name": "Three Delicacy Wonton (三餡馄饨Mix)",
-   "purpose": null,
-   "composite": 19.0,
-   "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 8,
-   "nsfw_bucket": "moderate",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 21251,
-    "thumbsUpCount": 5364
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/695fed56-d9d3-4bc0-bc21-0f06b053e800/width=450/418204.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/695fed56-d9d3-4bc0-bc21-0f06b053e800/original=true/418204.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/20330",
    "requirements": {
     "models": [],
     "nodes": []
@@ -4332,45 +4102,6 @@
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/3850",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 5200,
-   "our_name": null,
-   "source_name": "2B (NieR:Automata) LoRA / YorHA edition",
-   "purpose": null,
-   "composite": 19.0,
-   "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 8,
-   "nsfw_bucket": "moderate",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 32071,
-    "thumbsUpCount": 3920
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b19587ae-4fe3-4b74-449d-29143241a200/width=450/51748.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b19587ae-4fe3-4b74-449d-29143241a200/original=true/51748.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/5200",
    "requirements": {
     "models": [],
     "nodes": []
@@ -4626,7 +4357,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4652,7 +4383,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "realism Q8 clothing LoRA (sweater/hoodie) — outfit variety for realistic persona"
   },
   {
    "id": 13220,
@@ -4683,45 +4416,6 @@
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/13220",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
-   "id": 4404,
-   "our_name": null,
-   "source_name": "Sci-Fi Diffusion v1.0",
-   "purpose": null,
-   "composite": 19.0,
-   "tier": "A-candidate",
-   "visual_class": "other",
-   "quality": 8,
-   "nsfw_bucket": "safe",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 20429,
-    "thumbsUpCount": 3704
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b4c65cc-84f6-4b6e-512b-1e8613a94400/width=450/36078.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b4c65cc-84f6-4b6e-512b-1e8613a94400/original=true/36078.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/4404",
    "requirements": {
     "models": [],
     "nodes": []

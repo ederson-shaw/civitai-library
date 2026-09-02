@@ -1,6 +1,6 @@
 {
  "stage": "NSFW",
- "generated": "2026-09-02T04:18:19+00:00",
+ "generated": "2026-09-02T04:25:06+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -131,7 +131,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -157,7 +157,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "anime gothic style kit — NSFW anime subgroup"
   },
   {
    "id": 13090,
@@ -209,7 +211,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -235,7 +237,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit anime pose LoRA Q7 fits — expected lane content"
   },
   {
    "id": 11177,
@@ -287,7 +291,7 @@
    "quality": 8,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -313,7 +317,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit anime Q8 fits"
   },
   {
    "id": 960593,
@@ -365,7 +371,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -391,7 +397,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "anime artist style moderate — subgroup anime"
   },
   {
    "id": 18751,
@@ -404,7 +412,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -430,7 +438,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit position LoRA fits Q7"
   },
   {
    "id": 6669,
@@ -443,7 +453,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -469,7 +479,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "anime character moderate — subgroup"
   },
   {
    "id": 11161,
@@ -521,7 +533,7 @@
    "quality": 8,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.4",
    "vram_class": null,
    "tradeoff": null,
@@ -547,7 +559,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit position LoRA Q8 fits"
   },
   {
    "id": 1105685,
@@ -716,7 +730,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -742,7 +756,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "clothing fetish LoRA moderate — fits"
   },
   {
    "id": 90532,
@@ -794,7 +810,7 @@
    "quality": 8,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -820,7 +836,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit anime Q8 fits"
   },
   {
    "id": 21856,
@@ -833,7 +851,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -859,7 +877,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit Q7 fits"
   },
   {
    "id": 15038,
@@ -872,7 +892,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -898,7 +918,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit Q7 fits"
   },
   {
    "id": 12542,
@@ -950,7 +972,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -976,7 +998,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "pose LoRA moderate — fits"
   },
   {
    "id": 5975,
@@ -989,7 +1013,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -1015,7 +1039,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "explicit Q7 fits"
   },
   {
    "id": 217340,
@@ -1067,7 +1093,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1093,7 +1119,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 57836,
@@ -1340,7 +1368,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -1366,7 +1394,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 43965,
@@ -1418,7 +1448,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1444,7 +1474,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 16055,
@@ -1496,7 +1528,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1522,7 +1554,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "realism likeness Q8 — carry POI/likeness flag, note in card (real-person likeness)"
   },
   {
    "id": 19310,
@@ -1535,7 +1569,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1561,7 +1595,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 19957,
@@ -1574,7 +1610,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1600,7 +1636,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 11126,
@@ -1613,7 +1651,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1639,7 +1677,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 10061,
@@ -1652,7 +1692,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1678,7 +1718,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 534506,
@@ -1730,7 +1772,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1756,7 +1798,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 10185,
@@ -1847,7 +1891,7 @@
    "quality": 8,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1873,7 +1917,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 481016,
@@ -2149,45 +2195,6 @@
    }
   },
   {
-   "id": 1280702,
-   "our_name": null,
-   "source_name": "Lighting / darkness slider",
-   "purpose": null,
-   "composite": 19.5,
-   "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 7,
-   "nsfw_bucket": "moderate",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Anima",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 44469,
-    "thumbsUpCount": 5621
-   },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/width=450/135152970.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/original=true/135152970.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1280702",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
-  },
-  {
    "id": 1001945,
    "our_name": null,
    "source_name": "Detail Slider LoRA | Illustrious-XL",
@@ -2276,7 +2283,7 @@
    "quality": 6,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -2302,7 +2309,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 18962,
@@ -2315,7 +2324,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -2341,7 +2350,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 23167,
@@ -2393,7 +2404,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -2419,7 +2430,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 888250,
@@ -2471,7 +2484,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -2497,7 +2510,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 65423,
@@ -2549,7 +2564,7 @@
    "quality": 8,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -2575,7 +2590,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 11896,
@@ -2627,7 +2644,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -2653,7 +2670,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 768917,
@@ -2978,7 +2997,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3004,7 +3023,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 6213,
@@ -3056,7 +3077,7 @@
    "quality": 7,
    "nsfw_bucket": "explicit",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -3082,7 +3103,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 18933,
@@ -3134,7 +3157,7 @@
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -3160,7 +3183,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 161161,
@@ -3251,7 +3276,7 @@
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3277,7 +3302,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 28600,
@@ -3403,11 +3430,11 @@
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3433,7 +3460,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 12195,
@@ -3559,11 +3588,11 @@
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3589,7 +3618,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 16678,
@@ -3598,11 +3629,11 @@
    "purpose": null,
    "composite": 19.3,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3628,7 +3659,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 9432,
@@ -3637,11 +3670,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3667,7 +3700,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 11701,
@@ -3715,11 +3750,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3745,7 +3780,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 7706,
@@ -3832,11 +3869,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.4",
    "vram_class": null,
    "tradeoff": null,
@@ -3862,7 +3899,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 10534,
@@ -3871,11 +3910,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -3901,7 +3940,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 938811,
@@ -3949,11 +3990,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -3979,7 +4020,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 15132,
@@ -3988,11 +4031,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4018,7 +4061,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 21817,
@@ -4027,11 +4072,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4057,7 +4102,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 19176,
@@ -4066,11 +4113,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4096,7 +4143,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 1204563,
@@ -4183,11 +4232,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4213,7 +4262,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 130088,
@@ -4419,7 +4470,7 @@
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
    "quality": 8,
-   "nsfw_bucket": "safe",
+   "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
    "review_flag": false,
    "baseModel": "Krea 2",
@@ -4447,7 +4498,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 8949,
@@ -4495,11 +4548,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Other",
    "vram_class": null,
    "tradeoff": null,
@@ -4525,7 +4578,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 19173,
@@ -4534,11 +4589,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4564,7 +4619,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 89925,
@@ -4573,11 +4630,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4603,7 +4660,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 10934,
@@ -4612,11 +4671,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4642,7 +4701,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 17085,
@@ -4651,11 +4712,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4681,7 +4742,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 206115,
@@ -4729,11 +4792,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4759,7 +4822,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 1075466,
@@ -4807,11 +4872,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4837,7 +4902,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 50583,
@@ -4846,11 +4913,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4876,7 +4943,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 34383,
@@ -4885,11 +4954,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4915,7 +4984,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 11814,
@@ -4924,9 +4995,9 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "anime-illustration",
+   "visual_class": "realism-photoreal",
    "quality": 8,
-   "nsfw_bucket": "safe",
+   "nsfw_bucket": "moderate",
    "name_fit": "fits",
    "review_flag": false,
    "baseModel": "SD 1.5",
@@ -4954,7 +5025,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 24887,
@@ -4963,11 +5036,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -4993,7 +5066,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 6619,
@@ -5002,11 +5077,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5032,7 +5107,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 361578,
@@ -5119,11 +5196,11 @@
    "purpose": null,
    "composite": 19.2,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -5197,11 +5274,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5236,11 +5313,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5266,7 +5343,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 5067,
@@ -5275,11 +5354,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5305,7 +5384,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 8029,
@@ -5353,11 +5434,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5383,7 +5464,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 60724,
@@ -5470,11 +5553,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -5500,7 +5583,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "vision says realism Q8 but name says Illustrious/Anima — image wins per calibration; note base conflict"
   },
   {
    "id": 446163,
@@ -5588,7 +5673,7 @@
    "composite": 19.1,
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
-   "quality": 8,
+   "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
    "review_flag": true,
@@ -5666,7 +5751,7 @@
    "composite": 19.1,
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
-   "quality": 8,
+   "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
    "review_flag": true,
@@ -5704,11 +5789,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5734,7 +5819,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 6433,
@@ -5782,11 +5869,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5812,7 +5899,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 10373,
@@ -5821,11 +5910,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "moderate",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5851,7 +5940,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 57573,
@@ -5860,11 +5951,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "moderate",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -5890,7 +5981,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "Mtu Virus — owner-flagged unverified concept on first review round; keep with unverified badge, never featured"
   },
   {
    "id": 17524,
@@ -5899,11 +5992,11 @@
    "purpose": null,
    "composite": 19.1,
    "tier": "A-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "explicit",
+   "name_fit": "fits",
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -5929,7 +6022,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "expected lane content — label drives subgroup"
   },
   {
    "id": 5042,

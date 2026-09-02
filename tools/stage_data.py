@@ -122,6 +122,7 @@ def apply_decisions(buckets):
     dec = json.loads(f.read_text())
     applied = {"keep": 0, "cut": 0, "move-nsfw": 0}
     moved = []
+    moved_layers = []
     for stage in list(buckets):
         kept = []
         for e in buckets[stage]:
@@ -142,9 +143,14 @@ def apply_decisions(buckets):
             elif act == "move-nsfw":
                 e["heuristic"]["moved_from"] = stage
                 moved.append(e)
+            elif act == "move-layers":
+                e["heuristic"]["moved_from"] = stage
+                e["stacks_on"] = e.get("stacks_on") or ["PERSONA", "NSFW"]
+                moved_layers.append(e)
         buckets[stage] = kept
     nsfw_ids = {str(e.get("id")) for e in buckets["NSFW"]}
     buckets["NSFW"].extend(e for e in moved if str(e.get("id")) not in nsfw_ids)
+    buckets["LAYERS"].extend(moved_layers)
     print(f"curation decisions applied: {applied}", file=sys.stderr)
 
 

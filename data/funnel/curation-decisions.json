@@ -201,5 +201,558 @@
   "stage_from": "PERSONA",
   "reviewed_by": "manager",
   "ts": "2026-09-02T04:13:00+00:00"
+ },
+ "11193": {
+  "action": "keep",
+  "reason": "realism Q7 medium-conf hooded scene — verify with 2nd preview",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "22470": {
+  "action": "keep",
+  "reason": "realism Q8 gundam cosplay — costume variety is persona content (same call as CosplayMix)",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "52885": {
+  "action": "keep",
+  "reason": "realism Q8 clothing LoRA (sweater/hoodie) — outfit variety for realistic persona",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "60724": {
+  "action": "cut",
+  "reason": "children illustration out of lane",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "8949": {
+  "action": "cut",
+  "reason": "comic book style — drawn, not realism persona",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "11718": {
+  "action": "cut",
+  "reason": "text-heavy fantasy cover frame, no clear render",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "100435": {
+  "action": "cut",
+  "reason": "anime design sheet tool",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "7094": {
+  "action": "cut",
+  "reason": "Arcane drawn style",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "20330": {
+  "action": "cut",
+  "reason": "painterly anime",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "5200": {
+  "action": "cut",
+  "reason": "anime character LoRA (2B)",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "4404": {
+  "action": "cut",
+  "reason": "sci-fi environment only",
+  "stage_from": "PERSONA",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "888231": {
+  "action": "keep",
+  "reason": "anime gothic style kit — NSFW anime subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "8179": {
+  "action": "keep",
+  "reason": "explicit anime pose LoRA Q7 fits — expected lane content",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "8500": {
+  "action": "keep",
+  "reason": "explicit anime Q8 fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "6638": {
+  "action": "keep",
+  "reason": "anime artist style moderate — subgroup anime",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "18751": {
+  "action": "keep",
+  "reason": "explicit position LoRA fits Q7",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "6669": {
+  "action": "keep",
+  "reason": "anime character moderate — subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "12682": {
+  "action": "keep",
+  "reason": "explicit position LoRA Q8 fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "13224": {
+  "action": "keep",
+  "reason": "clothing fetish LoRA moderate — fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "7328": {
+  "action": "keep",
+  "reason": "explicit anime Q8 fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "21856": {
+  "action": "keep",
+  "reason": "explicit Q7 fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "15038": {
+  "action": "keep",
+  "reason": "explicit Q7 fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "10353": {
+  "action": "keep",
+  "reason": "pose LoRA moderate — fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "5975": {
+  "action": "keep",
+  "reason": "explicit Q7 fits",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:23:51+00:00"
+ },
+ "20026": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "19669": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "13127": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "19310": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "19957": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "11126": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "10061": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "19574": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "8406": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "23464": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "18962": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "8729": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "438059": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "22256": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "18738": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "20593": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "10065": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "6804": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "16817": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "18592": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "17741": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "16678": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "9432": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "14905": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "8682": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "10534": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "52414": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "15132": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "21817": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "19176": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "88886": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "211726": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "54718": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "19173": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "89925": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "10934": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "17085": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "19565": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "14434": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "50583": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "34383": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "11814": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "24887": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "6619": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "16775": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "5067": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "12961": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "94231": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "57821": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "10373": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "17524": {
+  "action": "keep",
+  "reason": "expected lane content — label drives subgroup",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "7716": {
+  "action": "keep",
+  "reason": "realism likeness Q8 — carry POI/likeness flag, note in card (real-person likeness)",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "1059581": {
+  "action": "keep",
+  "reason": "vision says realism Q8 but name says Illustrious/Anima — image wins per calibration; note base conflict",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "57573": {
+  "action": "keep",
+  "reason": "Mtu Virus — owner-flagged unverified concept on first review round; keep with unverified badge, never featured",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
+ },
+ "1280702": {
+  "action": "move-layers",
+  "reason": "lighting/darkness SLIDER is an enhancement utility — LAYERS class, stacks_on anime bases",
+  "stage_from": "NSFW",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:24:33+00:00"
  }
 }

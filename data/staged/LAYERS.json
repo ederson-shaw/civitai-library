@@ -1,6 +1,6 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T04:18:19+00:00",
+ "generated": "2026-09-02T04:25:06+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -5536,6 +5536,49 @@
     "lane": null,
     "layer": null,
     "era": null
+   }
+  },
+  {
+   "id": 1280702,
+   "our_name": null,
+   "source_name": "Lighting / darkness slider",
+   "purpose": null,
+   "composite": 19.5,
+   "tier": "A-candidate",
+   "visual_class": "anime-illustration",
+   "quality": 7,
+   "nsfw_bucket": "moderate",
+   "name_fit": "not-applicable",
+   "review_flag": true,
+   "baseModel": "Anima",
+   "vram_class": null,
+   "tradeoff": null,
+   "open_closed": null,
+   "stats": {
+    "downloadCount": 44469,
+    "thumbsUpCount": 5621
+   },
+   "pulled_at": null,
+   "preview": {
+    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/width=450/135152970.jpeg",
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81e1fbdc-d8d2-4da1-9397-048da9992468/original=true/135152970.jpeg"
+   },
+   "gallery": [],
+   "stacks_on": [
+    "PERSONA",
+    "NSFW"
+   ],
+   "verdict_keep": null,
+   "civitai_url": "https://civitai.com/models/1280702",
+   "requirements": {
+    "models": [],
+    "nodes": []
+   },
+   "heuristic": {
+    "lane": null,
+    "layer": null,
+    "era": null,
+    "moved_from": "NSFW"
    }
   }
  ]
