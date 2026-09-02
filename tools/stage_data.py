@@ -284,6 +284,29 @@ def polish_entries(buckets):
     print("polish: photoreal +12, tradeoff chips, human purposes applied", file=sys.stderr)
 
 
+def merge_galleries(buckets):
+    f = FUNNEL / "galleries.json"
+    if not f.exists():
+        return
+    try:
+        gal = json.loads(f.read_text())
+    except json.JSONDecodeError:
+        return
+    imgs = vids = 0
+    for stage in buckets:
+        for e in buckets[stage]:
+            g = gal.get(str(e.get("id")))
+            if not g:
+                continue
+            if g.get("images"):
+                e["gallery"] = g["images"]
+                imgs += 1
+            if g.get("video") and isinstance(e.get("preview"), dict):
+                e["preview"]["video"] = g["video"]
+                vids += 1
+    print(f"galleries merged: {imgs} entries, {vids} video previews", file=sys.stderr)
+
+
 def main():
     labels = load_labels()
     scored = json.loads((FUNNEL / "scored.json").read_text())
@@ -315,6 +338,7 @@ def main():
     merge_requirements(buckets)
     attach_downloads(buckets)
     polish_entries(buckets)
+    merge_galleries(buckets)
     emit_cuts()
     models = ROOT / "data" / "models.json"
     if models.exists():

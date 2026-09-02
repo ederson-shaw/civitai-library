@@ -1,6 +1,6 @@
 {
  "stage": "CAMERA_ANGLE",
- "generated": "2026-09-02T05:45:56+00:00",
+ "generated": "2026-09-02T06:11:17+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -79,7 +79,11 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85/width=450/89584467.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85/original=true/89584467.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85/width=450/7c621a07-89e6-4ea6-a7c1-97a76c3a3a85.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42e98c4e-9312-486b-9c53-8de195c7d1ff/width=450/42e98c4e-9312-486b-9c53-8de195c7d1ff.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e5793fb-6ccd-44e3-8e01-4c9696cffafd/width=450/3e5793fb-6ccd-44e3-8e01-4c9696cffafd.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1796490",
@@ -413,7 +417,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b73394-ed83-4ae6-85e3-29066f4b0ad1/width=450/96464938.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b73394-ed83-4ae6-85e3-29066f4b0ad1/original=true/96464938.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa6761e2-cf50-4818-9065-dffa49fab9b0/width=450/fa6761e2-cf50-4818-9065-dffa49fab9b0.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b73394-ed83-4ae6-85e3-29066f4b0ad1/width=450/68b73394-ed83-4ae6-85e3-29066f4b0ad1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58f6cbbc-c8e0-49eb-b3cc-bf5ce99ccbf8/width=450/58f6cbbc-c8e0-49eb-b3cc-bf5ce99ccbf8.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7437e0c2-57e2-40ce-ba79-39a52b39def5/width=450/7437e0c2-57e2-40ce-ba79-39a52b39def5.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3b5c185-2797-4bda-9a1b-612a9a8a40da/width=450/a3b5c185-2797-4bda-9a1b-612a9a8a40da.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51cb90b2-1dc2-4ac3-a0bb-6b6236766ffc/width=450/51cb90b2-1dc2-4ac3-a0bb-6b6236766ffc.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f969956e-ee24-4a5b-a838-7f4f4cfa0cfe/width=450/f969956e-ee24-4a5b-a838-7f4f4cfa0cfe.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98678a0c-aa74-45d4-91a7-f1e1e84bf1cb/width=450/98678a0c-aa74-45d4-91a7-f1e1e84bf1cb.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1774551",
@@ -566,9 +579,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/width=450/17506499.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/original=true/17506499.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/original=true/17506499.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0ee35a-76be-416a-8c65-d24ac5fadd67/original=true/8a0ee35a-76be-416a-8c65-d24ac5fadd67.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd5e6cf1-2654-4632-a492-4ef43910c07c/width=450/bd5e6cf1-2654-4632-a492-4ef43910c07c.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "video decomposer — pairs with vid2vid, camera/control tooling, Q8 video",
    "civitai_url": "https://civitai.com/models/526049",
@@ -737,9 +753,17 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/width=450/117678861.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/original=true/117678861.jpeg"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/original=true/117678861.jpeg",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c09385d-22aa-4695-b47e-868a2ff16c41/original=true/1c09385d-22aa-4695-b47e-868a2ff16c41.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c269c80c-ee89-4396-a2f2-1cf9f1415fd3/width=450/c269c80c-ee89-4396-a2f2-1cf9f1415fd3.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eecd2fd8-d1f0-44c5-a14f-34b62fb2e422/width=450/eecd2fd8-d1f0-44c5-a14f-34b62fb2e422.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92f083af-c097-437c-a504-be2d24b5e401/width=450/92f083af-c097-437c-a504-be2d24b5e401.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ac8afaf-8e69-4fae-b5d0-4ec4601dbc94/width=450/5ac8afaf-8e69-4fae-b5d0-4ec4601dbc94.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/448c90d0-a469-4c8e-b298-2e5da227b892/width=450/448c90d0-a469-4c8e-b298-2e5da227b892.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5c4a05fa-4f78-4f74-be1f-03682eeff108/width=450/5c4a05fa-4f78-4f74-be1f-03682eeff108.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "multi-angle control qwen_edit — core stage function",
    "civitai_url": "https://civitai.com/models/2313745",
@@ -863,7 +887,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8165c306-1d64-4dca-9bb6-347616509203/width=450/116839140.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8165c306-1d64-4dca-9bb6-347616509203/original=true/116839140.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f0304e9-de2b-4da3-b22a-60f031b44130/width=450/2f0304e9-de2b-4da3-b22a-60f031b44130.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b50f3092-ec5a-4dfc-8d0b-702438fa3538/width=450/b50f3092-ec5a-4dfc-8d0b-702438fa3538.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/84957999-bfe6-4e02-b300-40913fb31d8b/width=450/84957999-bfe6-4e02-b300-40913fb31d8b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/993a3c2d-910f-4117-91d8-6ffbb1092c06/width=450/993a3c2d-910f-4117-91d8-6ffbb1092c06.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8165c306-1d64-4dca-9bb6-347616509203/width=450/8165c306-1d64-4dca-9bb6-347616509203.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c950ddd-be33-4402-8a9f-cdd83deb3e1c/width=450/9c950ddd-be33-4402-8a9f-cdd83deb3e1c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69d287c7-acdf-4472-ba4e-aeb22769d3a0/width=450/69d287c7-acdf-4472-ba4e-aeb22769d3a0.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/715b06c3-f141-4e77-a6a1-faf543cb608a/width=450/715b06c3-f141-4e77-a6a1-faf543cb608a.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2252071",
@@ -978,7 +1011,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17f4edbc-7884-4d2f-989d-17df7c47a8f1/width=450/121072576.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17f4edbc-7884-4d2f-989d-17df7c47a8f1/original=true/121072576.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/28e17e4e-4208-4211-9f0e-436dabc061db/width=450/28e17e4e-4208-4211-9f0e-436dabc061db.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e04e448e-4a57-4b8e-8c0a-483b5453166b/width=450/e04e448e-4a57-4b8e-8c0a-483b5453166b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/012dbfdb-eb73-449c-8284-fa55c9de9592/width=450/012dbfdb-eb73-449c-8284-fa55c9de9592.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3dd36a8-5627-49ae-b0b5-d9271400e73e/width=450/c3dd36a8-5627-49ae-b0b5-d9271400e73e.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3af85d0-03f7-44a9-bcc6-5c257e357941/width=450/b3af85d0-03f7-44a9-bcc6-5c257e357941.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/482b24c7-46d3-48be-89c7-03c3e9a40719/width=450/482b24c7-46d3-48be-89c7-03c3e9a40719.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6349ce3-726e-4293-a060-8df2d06096f9/width=450/c6349ce3-726e-4293-a060-8df2d06096f9.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/224b1aca-1581-4f22-8f39-1849b0e706a5/width=450/224b1aca-1581-4f22-8f39-1849b0e706a5.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2391906",
@@ -1057,7 +1099,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b87934e-cf3f-4c7f-951b-a14cddd8ec8b/width=450/109055824.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b87934e-cf3f-4c7f-951b-a14cddd8ec8b/original=true/109055824.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d3df95c-e665-49f1-8876-4cdb0c1e6302/width=450/3d3df95c-e665-49f1-8876-4cdb0c1e6302.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/02eb8d8f-ef4d-4c25-bddf-f710b5c08174/width=450/02eb8d8f-ef4d-4c25-bddf-f710b5c08174.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8c54e7a-2674-4df6-ae87-a5f0faa8489a/width=450/a8c54e7a-2674-4df6-ae87-a5f0faa8489a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7628bf15-1849-4925-84c7-b363926f9fd0/width=450/7628bf15-1849-4925-84c7-b363926f9fd0.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/081d85a8-ff46-4d5c-872e-de3bd83fce59/width=450/081d85a8-ff46-4d5c-872e-de3bd83fce59.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2d6c151-e925-42cc-a784-ac5cf672f0c9/width=450/e2d6c151-e925-42cc-a784-ac5cf672f0c9.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5addf080-c00f-48fd-8040-8eb6e307e37b/width=450/5addf080-c00f-48fd-8040-8eb6e307e37b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06b3a3aa-17ec-4174-9765-7b89a0f05e6b/width=450/06b3a3aa-17ec-4174-9765-7b89a0f05e6b.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "pose transfer qwen_edit_2509 — core function",
    "civitai_url": "https://civitai.com/models/2103017",
@@ -1204,9 +1255,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/width=450/17841799.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/original=true/17841799.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/original=true/17841799.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88505153-6aad-4f36-a7fb-1c91e1e1850f/original=true/88505153-6aad-4f36-a7fb-1c91e1e1850f.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/849b1391-3928-48bc-9c99-45a76451c7ae/width=450/849b1391-3928-48bc-9c99-45a76451c7ae.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "animatediff vid2vid pairing decomposer, Q8 video",
    "civitai_url": "https://civitai.com/models/546507",
@@ -1455,7 +1509,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3581f1e3-042c-4b47-beda-0b23aab7f156/width=450/137868972.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3581f1e3-042c-4b47-beda-0b23aab7f156/original=true/137868972.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c437054-6cc6-43d2-9b39-06c34b725248/width=450/0c437054-6cc6-43d2-9b39-06c34b725248.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de712e00-4532-4513-b24d-7d1b40f5ee72/width=450/de712e00-4532-4513-b24d-7d1b40f5ee72.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd7a6332-7cde-446f-b590-814e633863f9/width=450/cd7a6332-7cde-446f-b590-814e633863f9.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a73b5ca3-f096-4018-87d5-6a1b76cda896/width=450/a73b5ca3-f096-4018-87d5-6a1b76cda896.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2e02d73-cb35-4ff6-9d88-b911f237ab0d/width=450/f2e02d73-cb35-4ff6-9d88-b911f237ab0d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3094ed5b-0eba-46e7-9d8d-e0d7fe5285e1/width=450/3094ed5b-0eba-46e7-9d8d-e0d7fe5285e1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0712b000-a772-4afd-8503-94b6577aff52/width=450/0712b000-a772-4afd-8503-94b6577aff52.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7fda3d33-c092-4fc9-b626-f9308dc57c6f/width=450/7fda3d33-c092-4fc9-b626-f9308dc57c6f.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2809079",
@@ -1504,13 +1567,47 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0/width=450/105154569.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0/original=true/105154569.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0/width=450/0dbd0ce7-5bc3-41f5-9d1c-b8af410a3fe0.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd2e6376-c3bf-4359-af4d-0fefe18ccbfa/width=450/dd2e6376-c3bf-4359-af4d-0fefe18ccbfa.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6a9d4e7-b9c1-413e-8792-bcb5931d23d0/width=450/a6a9d4e7-b9c1-413e-8792-bcb5931d23d0.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2030628",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "OpenposePreprocessor",
+      "manager_search": "OpenposePreprocessor"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1524,8 +1621,7 @@
     "folder": "workflows/",
     "url": "https://civitai.com/api/download/models/2298162",
     "size_mb": 1
-   },
-   "disk_mb": 1
+   }
   },
   {
    "id": 2180915,
@@ -1552,12 +1648,37 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c/width=450/112151985.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c/original=true/112151985.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c/width=450/3fdcb28a-d6b0-4ab1-8cd9-a7298cd62a5c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a471361f-efcd-494d-9e3f-ae5ec1539f40/width=450/a471361f-efcd-494d-9e3f-ae5ec1539f40.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22cb6750-b6df-4274-a9cc-f3845a409ada/width=450/22cb6750-b6df-4274-a9cc-f3845a409ada.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf808e49-977f-4f6d-9281-4021c5107b85/width=450/bf808e49-977f-4f6d-9281-4021c5107b85.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cf3dc1b5-10c4-4fca-b273-3730cdffed1d/width=450/cf3dc1b5-10c4-4fca-b273-3730cdffed1d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54a0982d-b74d-4251-b3a4-535a3cda561a/width=450/54a0982d-b74d-4251-b3a4-535a3cda561a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5a624ea-a0c7-4db5-82c4-d2092d4b1381/width=450/b5a624ea-a0c7-4db5-82c4-d2092d4b1381.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "z-image pose & scene variation, reali Q7",
    "civitai_url": "https://civitai.com/models/2180915",
    "requirements": {
-    "models": [],
+    "models": [
+     {
+      "name": "ae.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "qwen_3_4b.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "zImageTurboAIO_zImageTurboFP8AIO.safetensors",
+      "folder": "models/checkpoints/"
+     },
+     {
+      "name": "z_image_turbo_fp8_e4m3fn.safetensors",
+      "folder": "models/diffusion_models/"
+     }
+    ],
     "nodes": []
    },
    "heuristic": {
@@ -1600,13 +1721,67 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03399890-4bf8-4261-b786-a0ae72bbb1e9/width=450/120373154.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03399890-4bf8-4261-b786-a0ae72bbb1e9/original=true/120373154.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03399890-4bf8-4261-b786-a0ae72bbb1e9/width=450/03399890-4bf8-4261-b786-a0ae72bbb1e9.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a470c400-4a7d-498f-9353-70455e428e7c/width=450/a470c400-4a7d-498f-9353-70455e428e7c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94316d42-5bb4-42dc-b9f1-19652835e158/width=450/94316d42-5bb4-42dc-b9f1-19652835e158.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "qwen multi-angle batch, reali Q7",
    "civitai_url": "https://civitai.com/models/2375500",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "Qwen-Rapid-AIO-NSFW-18.1.safetensors",
+      "folder": "models/checkpoints/"
+     },
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "QwenMultiangleCameraNode",
+      "manager_search": "QwenMultiangleCameraNode"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     },
+     {
+      "class_type": "easy promptLine",
+      "manager_search": "easy promptLine"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1646,7 +1821,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/791e5a93-b026-4c17-a198-cbb9cb6b1dd4/width=450/84937932.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/791e5a93-b026-4c17-a198-cbb9cb6b1dd4/original=true/84937932.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/791e5a93-b026-4c17-a198-cbb9cb6b1dd4/original=true/84937932.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86d71cde-9b07-4695-9790-1cb156b07f00/original=true/86d71cde-9b07-4695-9790-1cb156b07f00.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1694,7 +1870,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f93fe6-520a-4a05-b48b-fbcb56b19746/width=450/73077095.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f93fe6-520a-4a05-b48b-fbcb56b19746/original=true/73077095.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f93fe6-520a-4a05-b48b-fbcb56b19746/original=true/73077095.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16ae0743-8782-4637-b2ae-71c495e63ed2/original=true/16ae0743-8782-4637-b2ae-71c495e63ed2.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1744,13 +1921,118 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d725a05-2db6-4ab5-8603-4ea6a7f05035/width=450/118226243.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d725a05-2db6-4ab5-8603-4ea6a7f05035/original=true/118226243.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a81c7590-2b8b-430d-a726-53d0f56aad48/width=450/a81c7590-2b8b-430d-a726-53d0f56aad48.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d725a05-2db6-4ab5-8603-4ea6a7f05035/width=450/5d725a05-2db6-4ab5-8603-4ea6a7f05035.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9edabfb8-3cd7-467f-9c88-b9fa55fc6e30/width=450/9edabfb8-3cd7-467f-9c88-b9fa55fc6e30.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59d69177-b947-4c2e-890e-59cfee474294/width=450/59d69177-b947-4c2e-890e-59cfee474294.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fef9d14b-d1a8-44c4-9350-bf0dca9e64c2/width=450/fef9d14b-d1a8-44c4-9350-bf0dca9e64c2.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7ee10f0b-e393-4a8e-a286-0d1c018689a7/width=450/7ee10f0b-e393-4a8e-a286-0d1c018689a7.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "pose transfer qwen 2511, reali Q7",
    "civitai_url": "https://civitai.com/models/2298671",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen_2.5_vl_7b.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Anything Everywhere",
+      "manager_search": "Anything Everywhere"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "CR Text",
+      "manager_search": "CR Text"
+     },
+     {
+      "class_type": "DWPreprocessor",
+      "manager_search": "DWPreprocessor"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FluxKontextMultiReferenceLatentMethod",
+      "manager_search": "FluxKontextMultiReferenceLatentMethod"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "LayerUtility: ImageReel",
+      "manager_search": "LayerUtility: ImageReel"
+     },
+     {
+      "class_type": "LayerUtility: ImageReelComposit",
+      "manager_search": "LayerUtility: ImageReelComposit"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "QwenEditConfigPreparer",
+      "manager_search": "QwenEditConfigPreparer"
+     },
+     {
+      "class_type": "ReferenceLatent",
+      "manager_search": "ReferenceLatent"
+     },
+     {
+      "class_type": "SDPoseOODLoader",
+      "manager_search": "SDPoseOODLoader"
+     },
+     {
+      "class_type": "SDPoseOODProcessor",
+      "manager_search": "SDPoseOODProcessor"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlusCustom_lrzjason",
+      "manager_search": "TextEncodeQwenImageEditPlusCustom_lrzjason"
+     },
+     {
+      "class_type": "easy getNode",
+      "manager_search": "easy getNode"
+     },
+     {
+      "class_type": "easy imageSwitch",
+      "manager_search": "easy imageSwitch"
+     },
+     {
+      "class_type": "easy int",
+      "manager_search": "easy int"
+     },
+     {
+      "class_type": "easy setNode",
+      "manager_search": "easy setNode"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1792,13 +2074,156 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9910f4d-803a-47d3-808f-36b95dfdf3f4/width=450/130094513.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9910f4d-803a-47d3-808f-36b95dfdf3f4/original=true/130094513.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9910f4d-803a-47d3-808f-36b95dfdf3f4/width=450/c9910f4d-803a-47d3-808f-36b95dfdf3f4.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/353872cb-4060-4344-91d5-e892c5a3218a/width=450/353872cb-4060-4344-91d5-e892c5a3218a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20953513-3c11-415c-b986-8de7889a6d92/width=450/20953513-3c11-415c-b986-8de7889a6d92.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b68b6a7c-7f59-494e-a68a-d6171900d0c7/width=450/b68b6a7c-7f59-494e-a68a-d6171900d0c7.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6fb39a05-67f9-4c88-ac98-233b18c49e9a/width=450/6fb39a05-67f9-4c88-ac98-233b18c49e9a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ae128844-3ea3-4b03-84c5-c83d84eedf60/width=450/ae128844-3ea3-4b03-84c5-c83d84eedf60.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fc4f9fc-5a81-48e3-b0e8-6cb74d7c193a/width=450/2fc4f9fc-5a81-48e3-b0e8-6cb74d7c193a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b7974ac-b6a9-4460-801d-5d40d186f933/width=450/1b7974ac-b6a9-4460-801d-5d40d186f933.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "automated pose transfer, reali Q6",
    "civitai_url": "https://civitai.com/models/2608818",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "CR Text",
+      "manager_search": "CR Text"
+     },
+     {
+      "class_type": "Checkpoint Loader (Simple)",
+      "manager_search": "Checkpoint Loader (Simple)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "FluxKontextMultiReferenceLatentMethod",
+      "manager_search": "FluxKontextMultiReferenceLatentMethod"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "ImageResize+",
+      "manager_search": "ImageResize+"
+     },
+     {
+      "class_type": "ImpactConditionalBranch",
+      "manager_search": "ImpactConditionalBranch"
+     },
+     {
+      "class_type": "ImpactInt",
+      "manager_search": "ImpactInt"
+     },
+     {
+      "class_type": "LayerUtility: ImageReel",
+      "manager_search": "LayerUtility: ImageReel"
+     },
+     {
+      "class_type": "LayerUtility: ImageReelComposit",
+      "manager_search": "LayerUtility: ImageReelComposit"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "PrimitiveBoolean",
+      "manager_search": "PrimitiveBoolean"
+     },
+     {
+      "class_type": "SDPoseDrawKeypoints",
+      "manager_search": "SDPoseDrawKeypoints"
+     },
+     {
+      "class_type": "SDPoseKeypointExtractor",
+      "manager_search": "SDPoseKeypointExtractor"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "SeedVR2LoadDiTModel",
+      "manager_search": "SeedVR2LoadDiTModel"
+     },
+     {
+      "class_type": "SeedVR2LoadVAEModel",
+      "manager_search": "SeedVR2LoadVAEModel"
+     },
+     {
+      "class_type": "SeedVR2VideoUpscaler",
+      "manager_search": "SeedVR2VideoUpscaler"
+     },
+     {
+      "class_type": "TTP_Image_Assy",
+      "manager_search": "TTP_Image_Assy"
+     },
+     {
+      "class_type": "TTP_Image_Tile_Batch",
+      "manager_search": "TTP_Image_Tile_Batch"
+     },
+     {
+      "class_type": "TTP_Tile_image_size",
+      "manager_search": "TTP_Tile_image_size"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     },
+     {
+      "class_type": "easy getNode",
+      "manager_search": "easy getNode"
+     },
+     {
+      "class_type": "easy setNode",
+      "manager_search": "easy setNode"
+     },
+     {
+      "class_type": "llama_cpp_instruct_adv",
+      "manager_search": "llama_cpp_instruct_adv"
+     },
+     {
+      "class_type": "llama_cpp_model_loader",
+      "manager_search": "llama_cpp_model_loader"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1842,13 +2267,112 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd/width=450/117253334.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd/original=true/117253334.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56b7e1bd-e466-4f51-8b5a-89a20abe170a/width=450/56b7e1bd-e466-4f51-8b5a-89a20abe170a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd/width=450/f0d08a8c-cb8c-4659-93f6-8e80aa34b7cd.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7845ba7f-2541-4ef3-bdc8-d13029718b36/width=450/7845ba7f-2541-4ef3-bdc8-d13029718b36.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53bd84ba-589f-4834-b41f-7a0ae203d8ef/width=450/53bd84ba-589f-4834-b41f-7a0ae203d8ef.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96d5c69c-8b95-4f13-8d4f-3f2f7e53ff58/width=450/96d5c69c-8b95-4f13-8d4f-3f2f7e53ff58.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b37978f-b6ff-4f45-a82b-d7eaaec4dc9a/width=450/9b37978f-b6ff-4f45-a82b-d7eaaec4dc9a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab5dff73-dc1e-4c16-9aa8-31fe67161f78/width=450/ab5dff73-dc1e-4c16-9aa8-31fe67161f78.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c57c728-4784-4fdc-b9be-61c4470aa587/width=450/4c57c728-4784-4fdc-b9be-61c4470aa587.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "multi-angle dataset qwen 2511, Q6",
    "civitai_url": "https://civitai.com/models/2303045",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2511_fp8_e4m3fn_scaled_lightning_comfyui.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "1428adc2-0d93-4465-973c-d825e9ad8d95",
+      "manager_search": "1428adc2-0d93-4465-973c-d825e9ad8d95"
+     },
+     {
+      "class_type": "411b5f37-c72f-4117-af01-292899f62188",
+      "manager_search": "411b5f37-c72f-4117-af01-292899f62188"
+     },
+     {
+      "class_type": "4f757a6f-6085-43fd-b541-0026931784c8",
+      "manager_search": "4f757a6f-6085-43fd-b541-0026931784c8"
+     },
+     {
+      "class_type": "5bb80e78-31d2-4f9f-8532-590644a1a236",
+      "manager_search": "5bb80e78-31d2-4f9f-8532-590644a1a236"
+     },
+     {
+      "class_type": "67023cbb-88fb-4330-a4e6-bbcacab8271a",
+      "manager_search": "67023cbb-88fb-4330-a4e6-bbcacab8271a"
+     },
+     {
+      "class_type": "69a8bfa6-579a-4d54-9cc2-7145f5596c8d",
+      "manager_search": "69a8bfa6-579a-4d54-9cc2-7145f5596c8d"
+     },
+     {
+      "class_type": "713a008d-a5b6-4fc3-be9b-a031bb48e633",
+      "manager_search": "713a008d-a5b6-4fc3-be9b-a031bb48e633"
+     },
+     {
+      "class_type": "786493fd-a12a-4412-8dc4-fdcb2c1c3810",
+      "manager_search": "786493fd-a12a-4412-8dc4-fdcb2c1c3810"
+     },
+     {
+      "class_type": "7d83bfda-3c8e-4e55-a2b0-9514aea7fe5a",
+      "manager_search": "7d83bfda-3c8e-4e55-a2b0-9514aea7fe5a"
+     },
+     {
+      "class_type": "9c54b1d1-90e4-4b38-aff6-b0fc80b0557d",
+      "manager_search": "9c54b1d1-90e4-4b38-aff6-b0fc80b0557d"
+     },
+     {
+      "class_type": "ComboSetter",
+      "manager_search": "ComboSetter"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "PrimitiveString",
+      "manager_search": "PrimitiveString"
+     },
+     {
+      "class_type": "UnloadAllModels",
+      "manager_search": "UnloadAllModels"
+     },
+     {
+      "class_type": "af1ab546-188c-4d2f-a4ec-5036f37713b6",
+      "manager_search": "af1ab546-188c-4d2f-a4ec-5036f37713b6"
+     },
+     {
+      "class_type": "b6d44b2f-b7c8-46bd-83e7-36ad5f730c70",
+      "manager_search": "b6d44b2f-b7c8-46bd-83e7-36ad5f730c70"
+     },
+     {
+      "class_type": "c92a1534-5d0d-4c60-a800-196ed8d7d28e",
+      "manager_search": "c92a1534-5d0d-4c60-a800-196ed8d7d28e"
+     },
+     {
+      "class_type": "c93b2b7b-e961-4262-8b8e-407a85aff1e7",
+      "manager_search": "c93b2b7b-e961-4262-8b8e-407a85aff1e7"
+     },
+     {
+      "class_type": "cf2d1015-4bf0-424b-bef4-5a5749a30ce1",
+      "manager_search": "cf2d1015-4bf0-424b-bef4-5a5749a30ce1"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1864,8 +2388,7 @@
     "folder": "workflows/",
     "url": "https://civitai.com/api/download/models/2591369",
     "size_mb": 24
-   },
-   "disk_mb": 24
+   }
   },
   {
    "id": 2345911,
@@ -1892,7 +2415,9 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c20450-93ed-4468-950a-140c068f0ab1/width=450/119125827.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c20450-93ed-4468-950a-140c068f0ab1/original=true/119125827.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c20450-93ed-4468-950a-140c068f0ab1/width=450/40c20450-93ed-4468-950a-140c068f0ab1.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "advanced multi-angle/perspective editing",
    "civitai_url": "https://civitai.com/models/2345911",
@@ -1940,13 +2465,86 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac/width=450/110291453.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac/original=true/110291453.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac/width=450/8e6bcf16-45b5-4f01-b38a-3e5dbcf2a1ac.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4465a24a-3bc3-4183-b203-009cd7aba9bb/width=450/4465a24a-3bc3-4183-b203-009cd7aba9bb.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "character scene consistency across angle changes",
    "civitai_url": "https://civitai.com/models/2129379",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "4xPurePhoto-RealPLSKR.pth",
+      "folder": "models/upscale_models/"
+     },
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2509_bf16.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AIO_Preprocessor",
+      "manager_search": "AIO_Preprocessor"
+     },
+     {
+      "class_type": "BlockifyMask",
+      "manager_search": "BlockifyMask"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "DrawMaskOnImage",
+      "manager_search": "DrawMaskOnImage"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "ImageConcanate",
+      "manager_search": "ImageConcanate"
+     },
+     {
+      "class_type": "ImageResizeKJ",
+      "manager_search": "ImageResizeKJ"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "LayerUtility: ImageBlend",
+      "manager_search": "LayerUtility: ImageBlend"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     },
+     {
+      "class_type": "easy imageRemBg",
+      "manager_search": "easy imageRemBg"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1990,13 +2588,49 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b878e74a-62f1-4896-a8fc-4ff17eb0ecee/width=450/119277588.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b878e74a-62f1-4896-a8fc-4ff17eb0ecee/original=true/119277588.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b878e74a-62f1-4896-a8fc-4ff17eb0ecee/width=450/b878e74a-62f1-4896-a8fc-4ff17eb0ecee.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2349397",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "flux2-vae.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "flux2\\qwen_3_8b_fp8mixed.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "flux\\flux-2-klein-9b.safetensors",
+      "folder": "models/diffusion_models/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Anything Everywhere",
+      "manager_search": "Anything Everywhere"
+     },
+     {
+      "class_type": "Int Literal",
+      "manager_search": "Int Literal"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "PainterFluxImageEdit",
+      "manager_search": "PainterFluxImageEdit"
+     },
+     {
+      "class_type": "QwenMultiangleCameraNode",
+      "manager_search": "QwenMultiangleCameraNode"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2034,7 +2668,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/width=450/72509479.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/original=true/72509479.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a27b6423-d0a1-4624-bb73-5c1dc87af5e9/original=true/72509479.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/312afb05-ebdb-40c5-99ae-545720eefadc/original=true/312afb05-ebdb-40c5-99ae-545720eefadc.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2084,15 +2719,126 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/width=450/118902517.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/original=true/118902517.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/original=true/118902517.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f2264a9-278b-41c9-894a-7b464cd18a45/original=true/3f2264a9-278b-41c9-894a-7b464cd18a45.mp4"
    },
    "gallery": [],
    "stacks_on": [],
    "verdict_keep": "LTX-2 pose+audio to video, reali Q8",
    "civitai_url": "https://civitai.com/models/2337141",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "ltx-2-19b-dev-fp8.safetensors",
+      "folder": "models/checkpoints/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "CreateVideo",
+      "manager_search": "CreateVideo"
+     },
+     {
+      "class_type": "DWPreprocessor",
+      "manager_search": "DWPreprocessor"
+     },
+     {
+      "class_type": "EmptyLTXVLatentVideo",
+      "manager_search": "EmptyLTXVLatentVideo"
+     },
+     {
+      "class_type": "GetImageSizeAndCount",
+      "manager_search": "GetImageSizeAndCount"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "LTXAVTextEncoderLoader",
+      "manager_search": "LTXAVTextEncoderLoader"
+     },
+     {
+      "class_type": "LTXVAddGuide",
+      "manager_search": "LTXVAddGuide"
+     },
+     {
+      "class_type": "LTXVAudioVAEEncode",
+      "manager_search": "LTXVAudioVAEEncode"
+     },
+     {
+      "class_type": "LTXVAudioVAELoader",
+      "manager_search": "LTXVAudioVAELoader"
+     },
+     {
+      "class_type": "LTXVConcatAVLatent",
+      "manager_search": "LTXVConcatAVLatent"
+     },
+     {
+      "class_type": "LTXVConditioning",
+      "manager_search": "LTXVConditioning"
+     },
+     {
+      "class_type": "LTXVCropGuides",
+      "manager_search": "LTXVCropGuides"
+     },
+     {
+      "class_type": "LTXVImgToVideoInplace",
+      "manager_search": "LTXVImgToVideoInplace"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "LTXVScheduler",
+      "manager_search": "LTXVScheduler"
+     },
+     {
+      "class_type": "LTXVSeparateAVLatent",
+      "manager_search": "LTXVSeparateAVLatent"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "ResizeImagesByLongerEdge",
+      "manager_search": "ResizeImagesByLongerEdge"
+     },
+     {
+      "class_type": "SaveVideo",
+      "manager_search": "SaveVideo"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SolidMask",
+      "manager_search": "SolidMask"
+     },
+     {
+      "class_type": "VHS_LoadVideo",
+      "manager_search": "VHS_LoadVideo"
+     },
+     {
+      "class_type": "VHS_VideoInfoLoaded",
+      "manager_search": "VHS_VideoInfoLoaded"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2136,7 +2882,9 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75c3c96d-a224-422a-82b1-710e685ed729/width=450/121960130.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75c3c96d-a224-422a-82b1-710e685ed729/original=true/121960130.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75c3c96d-a224-422a-82b1-710e685ed729/width=450/75c3c96d-a224-422a-82b1-710e685ed729.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2411518",
@@ -2182,7 +2930,11 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4769127-03a8-41c4-a4dc-3bd5e0e4d781/width=450/102146410.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4769127-03a8-41c4-a4dc-3bd5e0e4d781/original=true/102146410.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7ce08e6e-d9b1-4ee5-a0a5-113ef295a381/width=450/7ce08e6e-d9b1-4ee5-a0a5-113ef295a381.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4769127-03a8-41c4-a4dc-3bd5e0e4d781/width=450/f4769127-03a8-41c4-a4dc-3bd5e0e4d781.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/864688ff-c36e-4c57-b7aa-f92a817124c9/width=450/864688ff-c36e-4c57-b7aa-f92a817124c9.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1920774",
@@ -2230,13 +2982,74 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/290e05de-c5c0-404a-b561-bb9c28c17ac0/width=450/116961045.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/290e05de-c5c0-404a-b561-bb9c28c17ac0/original=true/116961045.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/290e05de-c5c0-404a-b561-bb9c28c17ac0/width=450/290e05de-c5c0-404a-b561-bb9c28c17ac0.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/949ef829-2bc0-4b79-803b-f81615d95e93/width=450/949ef829-2bc0-4b79-803b-f81615d95e93.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "pose+clothes transfer, reali Q8",
    "civitai_url": "https://civitai.com/models/2296023",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "Qwen-Rapid-AIO-SFW-v11.safetensors",
+      "folder": "models/checkpoints/"
+     },
+     {
+      "name": "Qwen_Image_Edit_PLUS_FP8.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "GroundingDinoModelLoader_SDPose",
+      "manager_search": "GroundingDinoModelLoader_SDPose"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "SDPoseOODLoader",
+      "manager_search": "SDPoseOODLoader"
+     },
+     {
+      "class_type": "SDPoseOODProcessor",
+      "manager_search": "SDPoseOODProcessor"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     },
+     {
+      "class_type": "YOLOModelLoader",
+      "manager_search": "YOLOModelLoader"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2279,7 +3092,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0ee674-bb07-4b14-a96a-8a4e4eac9ac4/width=450/12761601.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0ee674-bb07-4b14-a96a-8a4e4eac9ac4/original=true/12761601.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0ee674-bb07-4b14-a96a-8a4e4eac9ac4/original=true/12761601.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d65a7437-c3f6-41a5-ae06-46fabb395aed/original=true/d65a7437-c3f6-41a5-ae06-46fabb395aed.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2329,7 +3143,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/width=450/96188131.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/original=true/96188131.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/original=true/96188131.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07c46ca2-7b19-42dc-85f6-c79ca2d77604/original=true/07c46ca2-7b19-42dc-85f6-c79ca2d77604.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2379,13 +3194,88 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196515b8-f397-461d-b1b5-7baec74e7440/width=450/117745903.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196515b8-f397-461d-b1b5-7baec74e7440/original=true/117745903.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8bf7b00-68ac-4c59-a4b2-a694b5b0ce09/width=450/d8bf7b00-68ac-4c59-a4b2-a694b5b0ce09.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3610899-4d3a-43fb-9bd5-acf46912d9d7/width=450/d3610899-4d3a-43fb-9bd5-acf46912d9d7.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3349dc18-f179-42b3-a3eb-988819fbf18d/width=450/3349dc18-f179-42b3-a3eb-988819fbf18d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/196515b8-f397-461d-b1b5-7baec74e7440/width=450/196515b8-f397-461d-b1b5-7baec74e7440.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "flux klein pose & background thief — persona tooling",
    "civitai_url": "https://civitai.com/models/2315290",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "Flux2 Vae.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "flux-2-klein-9b-fp8.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_3_8b_fp8mixed.safetensors",
+      "folder": "models/text_encoders/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "27eacb9f-0da2-421d-a0bf-b4b4e5fe5709",
+      "manager_search": "27eacb9f-0da2-421d-a0bf-b4b4e5fe5709"
+     },
+     {
+      "class_type": "51dc6b60-c0da-4730-948b-a0c85c409746",
+      "manager_search": "51dc6b60-c0da-4730-948b-a0c85c409746"
+     },
+     {
+      "class_type": "8715a599-bcb7-4d4a-9252-f78701b1c1c7",
+      "manager_search": "8715a599-bcb7-4d4a-9252-f78701b1c1c7"
+     },
+     {
+      "class_type": "88f5ff99-e471-4c4d-856e-94f47dc59e81",
+      "manager_search": "88f5ff99-e471-4c4d-856e-94f47dc59e81"
+     },
+     {
+      "class_type": "93041a64-452a-477a-9447-40330b7c1136",
+      "manager_search": "93041a64-452a-477a-9447-40330b7c1136"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "LoadImageWithFilename",
+      "manager_search": "LoadImageWithFilename"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "PreviewBridge",
+      "manager_search": "PreviewBridge"
+     },
+     {
+      "class_type": "Text Concatenate",
+      "manager_search": "Text Concatenate"
+     },
+     {
+      "class_type": "easy positive",
+      "manager_search": "easy positive"
+     },
+     {
+      "class_type": "f43456f9-a783-49ee-8707-f3f29d6a9f37",
+      "manager_search": "f43456f9-a783-49ee-8707-f3f29d6a9f37"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2429,13 +3319,80 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/123732237.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/original=true/123732237.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b95de40-da72-4384-b056-26c16f57de6c/width=450/0b95de40-da72-4384-b056-26c16f57de6c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b82db34-71e4-4cc0-aaff-2ec20bd5bd9d/width=450/5b82db34-71e4-4cc0-aaff-2ec20bd5bd9d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/365dd396-bc57-421b-b064-7e31b7099a67/width=450/365dd396-bc57-421b-b064-7e31b7099a67.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5a78578-24e7-47d2-bd7a-0940f895d5b4/width=450/b5a78578-24e7-47d2-bd7a-0940f895d5b4.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/edbe4e94-9253-4de2-b783-2d1cd618575d/width=450/edbe4e94-9253-4de2-b783-2d1cd618575d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/942781e8-0a0b-47c4-9c84-3245679935a5/width=450/942781e8-0a0b-47c4-9c84-3245679935a5.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b82257d-2726-4f17-9229-5a81dd159e3c/width=450/3b82257d-2726-4f17-9229-5a81dd159e3c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25b5472b-2f8e-4208-847f-98fdb350cce7/width=450/25b5472b-2f8e-4208-847f-98fdb350cce7.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "firered clothing swap + pose change, reali Q8",
    "civitai_url": "https://civitai.com/models/2455228",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "FireRed-Image-Edit-1.1-transformer.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "CR Prompt Text",
+      "manager_search": "CR Prompt Text"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Muter (rgthree)",
+      "manager_search": "Fast Groups Muter (rgthree)"
+     },
+     {
+      "class_type": "FluxKontextImageScale",
+      "manager_search": "FluxKontextImageScale"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     },
+     {
+      "class_type": "easy int",
+      "manager_search": "easy int"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2479,13 +3436,67 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bfcf2c-cf80-4e82-afe2-44785b02a75f/width=450/100921676.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bfcf2c-cf80-4e82-afe2-44785b02a75f/original=true/100921676.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7597518b-6544-4905-8d44-d3b421d2ee35/width=450/7597518b-6544-4905-8d44-d3b421d2ee35.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bfcf2c-cf80-4e82-afe2-44785b02a75f/width=450/78bfcf2c-cf80-4e82-afe2-44785b02a75f.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/826c0e5e-e120-4b89-bf55-7b6cabbb2a9c/width=450/826c0e5e-e120-4b89-bf55-7b6cabbb2a9c.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1966651",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "Qwen\\Qwen-Image-InstantX-ControlNet-Union.safetensors.safetensors",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "Qwen\\qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "Qwen_vae\\qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "ControlNetApplyAdvanced",
+      "manager_search": "ControlNetApplyAdvanced"
+     },
+     {
+      "class_type": "FluxKontextImageScale",
+      "manager_search": "FluxKontextImageScale"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "NunchakuQwenImageDiTLoader",
+      "manager_search": "NunchakuQwenImageDiTLoader"
+     },
+     {
+      "class_type": "SetUnionControlNetType",
+      "manager_search": "SetUnionControlNetType"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEdit",
+      "manager_search": "TextEncodeQwenImageEdit"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     },
+     {
+      "class_type": "easy clearCacheAll",
+      "manager_search": "easy clearCacheAll"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2499,8 +3510,7 @@
     "folder": "workflows/",
     "url": "https://civitai.com/api/download/models/2226038",
     "size_mb": 6
-   },
-   "disk_mb": 6
+   }
   },
   {
    "id": 2195521,
@@ -2527,13 +3537,93 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1297a87f-efd5-4757-bf4f-a8b78fc83654/width=450/112699662.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1297a87f-efd5-4757-bf4f-a8b78fc83654/original=true/112699662.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1297a87f-efd5-4757-bf4f-a8b78fc83654/width=450/1297a87f-efd5-4757-bf4f-a8b78fc83654.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2195521",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "ae.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "qwen_3_4b.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "z_image_turbo_bf16.safetensors",
+      "folder": "models/diffusion_models/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AIO_Preprocessor",
+      "manager_search": "AIO_Preprocessor"
+     },
+     {
+      "class_type": "DepthAnything_V3",
+      "manager_search": "DepthAnything_V3"
+     },
+     {
+      "class_type": "DownloadAndLoadDepthAnythingV3Model",
+      "manager_search": "DownloadAndLoadDepthAnythingV3Model"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "Image Comparer (rgthree)",
+      "manager_search": "Image Comparer (rgthree)"
+     },
+     {
+      "class_type": "ImageLoader",
+      "manager_search": "ImageLoader"
+     },
+     {
+      "class_type": "ImageScaleToMaxDimension",
+      "manager_search": "ImageScaleToMaxDimension"
+     },
+     {
+      "class_type": "JWStringConcat",
+      "manager_search": "JWStringConcat"
+     },
+     {
+      "class_type": "LatentUpscaleBy",
+      "manager_search": "LatentUpscaleBy"
+     },
+     {
+      "class_type": "ModelPatchLoader",
+      "manager_search": "ModelPatchLoader"
+     },
+     {
+      "class_type": "MultiplePathsInput",
+      "manager_search": "MultiplePathsInput"
+     },
+     {
+      "class_type": "Qwen3_VQA",
+      "manager_search": "Qwen3_VQA"
+     },
+     {
+      "class_type": "QwenImageDiffsynthControlnet",
+      "manager_search": "QwenImageDiffsynthControlnet"
+     },
+     {
+      "class_type": "Seed (rgthree)",
+      "manager_search": "Seed (rgthree)"
+     },
+     {
+      "class_type": "String Literal",
+      "manager_search": "String Literal"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2573,13 +3663,65 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9410114c-38d5-4603-a8b9-83c2883d9884/width=450/100703792.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9410114c-38d5-4603-a8b9-83c2883d9884/original=true/100703792.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3dc15c6d-810e-4804-a103-b403aa34f68c/width=450/3dc15c6d-810e-4804-a103-b403aa34f68c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a056bcb-415b-4ee1-a531-94d3d48091d4/width=450/9a056bcb-415b-4ee1-a531-94d3d48091d4.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8a1017c-cf6f-4c6c-80c5-a1ce6966122e/width=450/a8a1017c-cf6f-4c6c-80c5-a1ce6966122e.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0dcdf85-60f6-42ac-aaf8-a2c121c8681b/width=450/f0dcdf85-60f6-42ac-aaf8-a2c121c8681b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9410114c-38d5-4603-a8b9-83c2883d9884/width=450/9410114c-38d5-4603-a8b9-83c2883d9884.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "qwen openpose controlnet",
    "civitai_url": "https://civitai.com/models/1963377",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "InstantX_Qwen-Image-ControlNet-Union.safetensors",
+      "folder": "models/controlnet/"
+     },
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_bf16.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_fp8_e4m3fn.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "ControlNetApplySD3",
+      "manager_search": "ControlNetApplySD3"
+     },
+     {
+      "class_type": "ImageConcanate",
+      "manager_search": "ImageConcanate"
+     },
+     {
+      "class_type": "JjkText",
+      "manager_search": "JjkText"
+     },
+     {
+      "class_type": "OpenposePreprocessor",
+      "manager_search": "OpenposePreprocessor"
+     },
+     {
+      "class_type": "SetUnionControlNetType",
+      "manager_search": "SetUnionControlNetType"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2619,7 +3761,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21111846-3565-4d2f-a2f9-30bb0f232c8a/width=450/133448394.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21111846-3565-4d2f-a2f9-30bb0f232c8a/original=true/133448394.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21111846-3565-4d2f-a2f9-30bb0f232c8a/original=true/133448394.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caf1ab0f-236c-4c44-ab07-83ce6426a9ef/original=true/caf1ab0f-236c-4c44-ab07-83ce6426a9ef.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2674,8 +3817,82 @@
    "verdict_keep": "qwen multi-angle consistency one-image",
    "civitai_url": "https://civitai.com/models/2090446",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "ModelPatchTorchSettings",
+      "manager_search": "ModelPatchTorchSettings"
+     },
+     {
+      "class_type": "Mute / Bypass Relay (rgthree)",
+      "manager_search": "Mute / Bypass Relay (rgthree)"
+     },
+     {
+      "class_type": "Mute / Bypass Repeater (rgthree)",
+      "manager_search": "Mute / Bypass Repeater (rgthree)"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "PrimitiveInt",
+      "manager_search": "PrimitiveInt"
+     },
+     {
+      "class_type": "PrimitiveString",
+      "manager_search": "PrimitiveString"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "StringConcatenate",
+      "manager_search": "StringConcatenate"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     },
+     {
+      "class_type": "easy bookmark",
+      "manager_search": "easy bookmark"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2717,13 +3934,89 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bed800b-dabf-4178-8fc2-9356d19e2a85/width=450/114247280.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bed800b-dabf-4178-8fc2-9356d19e2a85/original=true/114247280.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bed800b-dabf-4178-8fc2-9356d19e2a85/width=450/5bed800b-dabf-4178-8fc2-9356d19e2a85.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "character multi-angle V3 consistency",
    "civitai_url": "https://civitai.com/models/2233048",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "qwen_image_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "CFGNorm",
+      "manager_search": "CFGNorm"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageFlip",
+      "manager_search": "ImageFlip"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "ModelPatchTorchSettings",
+      "manager_search": "ModelPatchTorchSettings"
+     },
+     {
+      "class_type": "Mute / Bypass Relay (rgthree)",
+      "manager_search": "Mute / Bypass Relay (rgthree)"
+     },
+     {
+      "class_type": "Mute / Bypass Repeater (rgthree)",
+      "manager_search": "Mute / Bypass Repeater (rgthree)"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "PrimitiveInt",
+      "manager_search": "PrimitiveInt"
+     },
+     {
+      "class_type": "PrimitiveString",
+      "manager_search": "PrimitiveString"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "RHHiddenNodes",
+      "manager_search": "RHHiddenNodes"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "StringConcatenate",
+      "manager_search": "StringConcatenate"
+     },
+     {
+      "class_type": "TextEncodeQwenImageEditPlus",
+      "manager_search": "TextEncodeQwenImageEditPlus"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2768,13 +4061,125 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000d4d46-db61-4dea-a798-551a0c43701a/width=450/130111736.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000d4d46-db61-4dea-a798-551a0c43701a/original=true/130111736.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/590a8354-6e1c-49ca-bd27-9e8fc59a8ed7/width=450/590a8354-6e1c-49ca-bd27-9e8fc59a8ed7.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07717a57-d6ff-41da-9ea0-fa3a11781608/width=450/07717a57-d6ff-41da-9ea0-fa3a11781608.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba04e4b3-1978-474d-a152-b95242439b06/width=450/ba04e4b3-1978-474d-a152-b95242439b06.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ed0cc77-8357-47ab-9d4c-773a997d85bd/width=450/0ed0cc77-8357-47ab-9d4c-773a997d85bd.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9768848-acbc-462a-893f-41740f9eaeb4/width=450/d9768848-acbc-462a-893f-41740f9eaeb4.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2578291",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "flux2\\flux2-vae.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "flux2\\flux2Klein9bFp8_fp8.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "qwen3_8b_abliterated_v2-fp8mixed.safetensors",
+      "folder": "models/text_encoders/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "16d1fde2-bc06-4f5e-bfa4-97c206590911",
+      "manager_search": "16d1fde2-bc06-4f5e-bfa4-97c206590911"
+     },
+     {
+      "class_type": "6a044340-a30d-4ea4-975a-df23b2ed3042",
+      "manager_search": "6a044340-a30d-4ea4-975a-df23b2ed3042"
+     },
+     {
+      "class_type": "AIO_Preprocessor",
+      "manager_search": "AIO_Preprocessor"
+     },
+     {
+      "class_type": "AdjustContrast",
+      "manager_search": "AdjustContrast"
+     },
+     {
+      "class_type": "DWPreprocessor",
+      "manager_search": "DWPreprocessor"
+     },
+     {
+      "class_type": "EmptyFlux2LatentImage",
+      "manager_search": "EmptyFlux2LatentImage"
+     },
+     {
+      "class_type": "EmptyLatentImageCustomPresets",
+      "manager_search": "EmptyLatentImageCustomPresets"
+     },
+     {
+      "class_type": "Flux2Scheduler",
+      "manager_search": "Flux2Scheduler"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "ImageDesaturate+",
+      "manager_search": "ImageDesaturate+"
+     },
+     {
+      "class_type": "ImageRemoveAlpha+",
+      "manager_search": "ImageRemoveAlpha+"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "Latent Switch (JPS)",
+      "manager_search": "Latent Switch (JPS)"
+     },
+     {
+      "class_type": "OpenposeEditorNode",
+      "manager_search": "OpenposeEditorNode"
+     },
+     {
+      "class_type": "OpenposePreprocessor",
+      "manager_search": "OpenposePreprocessor"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "PerturbedAttentionGuidance",
+      "manager_search": "PerturbedAttentionGuidance"
+     },
+     {
+      "class_type": "Power Lora Loader (rgthree)",
+      "manager_search": "Power Lora Loader (rgthree)"
+     },
+     {
+      "class_type": "RAM Cleanup [Eclipse]",
+      "manager_search": "RAM Cleanup [Eclipse]"
+     },
+     {
+      "class_type": "VRAM Cleanup [Eclipse]",
+      "manager_search": "VRAM Cleanup [Eclipse]"
+     },
+     {
+      "class_type": "c932d69a-98a0-4060-a9d1-d99f97a66648",
+      "manager_search": "c932d69a-98a0-4060-a9d1-d99f97a66648"
+     },
+     {
+      "class_type": "comfyui-openpose-editor-konva-node",
+      "manager_search": "comfyui-openpose-editor-konva-node"
+     },
+     {
+      "class_type": "easy imageIndexSwitch",
+      "manager_search": "easy imageIndexSwitch"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2816,7 +4221,10 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc38da4-b421-408e-a070-10ed17479df8/width=450/131468252.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc38da4-b421-408e-a070-10ed17479df8/original=true/131468252.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc38da4-b421-408e-a070-10ed17479df8/width=450/1cc38da4-b421-408e-a070-10ed17479df8.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31ff3512-02db-48d6-b664-5c73efcdf914/width=450/31ff3512-02db-48d6-b664-5c73efcdf914.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "flux klein 4B/9B multiple angles",
    "civitai_url": "https://civitai.com/models/2642426",

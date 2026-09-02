@@ -1,6 +1,6 @@
 {
  "stage": "MOTION",
- "generated": "2026-09-02T05:45:56+00:00",
+ "generated": "2026-09-02T06:11:17+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -173,7 +173,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9f8342e-2bd5-45bd-8c97-0d5e0905ee13/width=450/48118905.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9f8342e-2bd5-45bd-8c97-0d5e0905ee13/original=true/48118905.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9f8342e-2bd5-45bd-8c97-0d5e0905ee13/original=true/48118905.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15bd73cc-3752-4e13-8200-059706f39786/original=true/15bd73cc-3752-4e13-8200-059706f39786.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -273,7 +274,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eef16799-8c4f-4122-8049-ed713d767e7a/width=450/76645383.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eef16799-8c4f-4122-8049-ed713d767e7a/original=true/76645383.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eef16799-8c4f-4122-8049-ed713d767e7a/original=true/76645383.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5bb8bde-301b-4fca-94f6-3ac78e64686a/original=true/d5bb8bde-301b-4fca-94f6-3ac78e64686a.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -456,7 +458,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1450ac83-acc6-43de-8403-b423f48627e0/width=450/127824735.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1450ac83-acc6-43de-8403-b423f48627e0/original=true/127824735.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1450ac83-acc6-43de-8403-b423f48627e0/original=true/127824735.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7d97c32-46af-4bc1-ac29-236212659f3b/original=true/e7d97c32-46af-4bc1-ac29-236212659f3b.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -678,7 +681,10 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42b2dec2-1c27-4bb8-9252-aea82cebcc24/width=450/97412373.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42b2dec2-1c27-4bb8-9252-aea82cebcc24/original=true/97412373.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37b667a7-1824-4751-a232-d4ecbee6e23b/width=450/37b667a7-1824-4751-a232-d4ecbee6e23b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42b2dec2-1c27-4bb8-9252-aea82cebcc24/width=450/42b2dec2-1c27-4bb8-9252-aea82cebcc24.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/21100",
@@ -816,7 +822,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c535120-39fd-4fd9-9bef-0c15c346cb1f/width=450/72513144.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c535120-39fd-4fd9-9bef-0c15c346cb1f/original=true/72513144.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c535120-39fd-4fd9-9bef-0c15c346cb1f/width=450/6c535120-39fd-4fd9-9bef-0c15c346cb1f.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9f3110f-5f3d-476f-a798-229bcdb892bc/width=450/e9f3110f-5f3d-476f-a798-229bcdb892bc.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27c28e58-ac0d-4c6c-b260-579651b455ed/width=450/27c28e58-ac0d-4c6c-b260-579651b455ed.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cccd8c96-7d42-4461-9799-ebda0ffcda40/width=450/cccd8c96-7d42-4461-9799-ebda0ffcda40.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/258263fa-37fa-40dc-9ab8-81fbe78543de/width=450/258263fa-37fa-40dc-9ab8-81fbe78543de.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/661aaea1-c6ce-4617-9975-cd8cd5f8aab6/width=450/661aaea1-c6ce-4617-9975-cd8cd5f8aab6.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88a734f9-632d-4473-b260-dfc4febab68c/width=450/88a734f9-632d-4473-b260-dfc4febab68c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/207431b6-c717-4e43-9138-fdc055125bbf/width=450/207431b6-c717-4e43-9138-fdc055125bbf.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1224719",
@@ -990,7 +1005,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb79e76c-accd-4b65-881f-842745214553/width=450/7154854.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb79e76c-accd-4b65-881f-842745214553/original=true/7154854.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb79e76c-accd-4b65-881f-842745214553/original=true/7154854.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb79e76c-accd-4b65-881f-842745214553/original=true/fb79e76c-accd-4b65-881f-842745214553.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1131,7 +1147,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09df5aa1-32ef-4628-bb6f-b4c4c4a6dc01/width=450/5480048.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09df5aa1-32ef-4628-bb6f-b4c4c4a6dc01/original=true/5480048.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09df5aa1-32ef-4628-bb6f-b4c4c4a6dc01/original=true/5480048.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf55dbe7-b0cd-4316-a3f0-81c1ccd0133b/original=true/bf55dbe7-b0cd-4316-a3f0-81c1ccd0133b.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1252,7 +1269,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98cc490d-6c01-4ec2-b9ef-c6afc1425e15/width=450/82812541.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98cc490d-6c01-4ec2-b9ef-c6afc1425e15/original=true/82812541.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98cc490d-6c01-4ec2-b9ef-c6afc1425e15/original=true/82812541.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8eb3a39c-7346-4337-8ed9-c4626a71ac1a/original=true/8eb3a39c-7346-4337-8ed9-c4626a71ac1a.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1352,7 +1370,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1513d8b2-a42b-4b7d-be2d-07b74426d671/width=450/84928647.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1513d8b2-a42b-4b7d-be2d-07b74426d671/original=true/84928647.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1513d8b2-a42b-4b7d-be2d-07b74426d671/original=true/84928647.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15cefa6e-36ca-424d-8fe4-58e7939a9215/original=true/15cefa6e-36ca-424d-8fe4-58e7939a9215.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1538,7 +1557,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34e77685-8ae7-49a3-8afa-c3fd724fb260/width=450/85442206.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34e77685-8ae7-49a3-8afa-c3fd724fb260/original=true/85442206.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34e77685-8ae7-49a3-8afa-c3fd724fb260/width=450/34e77685-8ae7-49a3-8afa-c3fd724fb260.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a7e851a-ed43-4c21-97dc-1d417f6fba7f/width=450/0a7e851a-ed43-4c21-97dc-1d417f6fba7f.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/105a122b-d93e-4994-a77f-9902db5bef8c/width=450/105a122b-d93e-4994-a77f-9902db5bef8c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3bfda3ea-6d59-4bfb-90b0-8132ac9e1281/width=450/3bfda3ea-6d59-4bfb-90b0-8132ac9e1281.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/04514018-50b6-4c32-9090-68c57811bec1/width=450/04514018-50b6-4c32-9090-68c57811bec1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4614a497-2733-43a6-ac03-ffe22f640a05/width=450/4614a497-2733-43a6-ac03-ffe22f640a05.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fcc244fc-62e3-466b-8dd5-343997b6714f/width=450/fcc244fc-62e3-466b-8dd5-343997b6714f.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e7de6e-8369-4fdb-a9c4-d0f9a55bacac/width=450/10e7de6e-8369-4fdb-a9c4-d0f9a55bacac.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1722303",
@@ -1637,9 +1665,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33d36dcb-c19f-4789-a49c-48bd8b877758/width=450/6202030.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33d36dcb-c19f-4789-a49c-48bd8b877758/original=true/6202030.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33d36dcb-c19f-4789-a49c-48bd8b877758/original=true/6202030.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4efbbdc1-799a-4594-a28c-14c43551766e/original=true/4efbbdc1-799a-4594-a28c-14c43551766e.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca37e093-bd9d-43a3-84ab-8f42434d8740/width=450/ca37e093-bd9d-43a3-84ab-8f42434d8740.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "animateLCM fast video, reali Q8",
    "civitai_url": "https://civitai.com/models/290375",
@@ -1689,7 +1720,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af28134f-2267-436d-9e2c-d17504444c9c/width=450/38678801.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af28134f-2267-436d-9e2c-d17504444c9c/original=true/38678801.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af28134f-2267-436d-9e2c-d17504444c9c/width=450/af28134f-2267-436d-9e2c-d17504444c9c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b25d4b5f-0524-4206-b3ff-fe3b47e847f1/width=450/b25d4b5f-0524-4206-b3ff-fe3b47e847f1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6ccb5c1-d164-4615-a686-8507166c47ca/width=450/d6ccb5c1-d164-4615-a686-8507166c47ca.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1aec107c-7eab-4a03-b0cf-bf9c675a81fe/width=450/1aec107c-7eab-4a03-b0cf-bf9c675a81fe.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7cfa6a41-7b84-4ed1-93ef-af48f283b34d/width=450/7cfa6a41-7b84-4ed1-93ef-af48f283b34d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec425096-df74-4e7f-86e1-4091eb8f9211/width=450/ec425096-df74-4e7f-86e1-4091eb8f9211.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0b2c008-302c-4bf8-ad1f-f19fda2682d5/width=450/c0b2c008-302c-4bf8-ad1f-f19fda2682d5.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a53905f-d123-4dec-b25f-f1c4687419a9/width=450/8a53905f-d123-4dec-b25f-f1c4687419a9.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/899863",
@@ -1919,7 +1959,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e12151-80d9-46e2-9702-003d08995e19/width=450/138125535.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e12151-80d9-46e2-9702-003d08995e19/original=true/138125535.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88660451-ecf3-447e-8ab6-3df84e93997b/width=450/88660451-ecf3-447e-8ab6-3df84e93997b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7f3fd784-5adb-41a0-ac57-1c574bd5d174/width=450/7f3fd784-5adb-41a0-ac57-1c574bd5d174.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d8a2ec1-d2dd-4dcc-8a52-07a59672c016/width=450/5d8a2ec1-d2dd-4dcc-8a52-07a59672c016.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e12151-80d9-46e2-9702-003d08995e19/width=450/b4e12151-80d9-46e2-9702-003d08995e19.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/daaec4e6-9c93-4d5d-8ecb-dc7a16d96b69/width=450/daaec4e6-9c93-4d5d-8ecb-dc7a16d96b69.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5293beca-438f-475d-b136-58e49b1fa39f/width=450/5293beca-438f-475d-b136-58e49b1fa39f.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74ca9800-dab0-432b-b9de-f35328552d4e/width=450/74ca9800-dab0-432b-b9de-f35328552d4e.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9929e306-285e-4156-85e4-a905d256464b/width=450/9929e306-285e-4156-85e4-a905d256464b.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1768409",
@@ -1963,7 +2012,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cdec0c36-42b7-49df-8927-e3a29e559680/width=450/99800229.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cdec0c36-42b7-49df-8927-e3a29e559680/original=true/99800229.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cdec0c36-42b7-49df-8927-e3a29e559680/original=true/99800229.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d7d9629-26f1-4299-8c0f-502156628f93/original=true/3d7d9629-26f1-4299-8c0f-502156628f93.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2181,7 +2231,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2061dd04-3a67-4a3a-aadc-d379e0e94261/width=450/34728212.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2061dd04-3a67-4a3a-aadc-d379e0e94261/original=true/34728212.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ef04903-3860-4011-b9c2-02f6ba2ced6b/width=450/6ef04903-3860-4011-b9c2-02f6ba2ced6b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2061dd04-3a67-4a3a-aadc-d379e0e94261/width=450/2061dd04-3a67-4a3a-aadc-d379e0e94261.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92e443cf-ce82-42c0-bfd4-13b1cd553b42/width=450/92e443cf-ce82-42c0-bfd4-13b1cd553b42.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/993cce85-e9ed-4f58-bd90-20136664d26b/width=450/993cce85-e9ed-4f58-bd90-20136664d26b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f834f064-827f-45ed-b9f7-bea22d7878d8/width=450/f834f064-827f-45ed-b9f7-bea22d7878d8.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2797838-0844-4553-bce9-87092004d126/width=450/d2797838-0844-4553-bce9-87092004d126.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/492dfcf6-8f8d-43d3-9554-fa849c716ae4/width=450/492dfcf6-8f8d-43d3-9554-fa849c716ae4.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60565dac-f021-4f64-8ec6-72bb62d19641/width=450/60565dac-f021-4f64-8ec6-72bb62d19641.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/670720",
@@ -2303,7 +2362,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/12ae12d7-cd15-47d4-b7bc-9f958e107c09/width=450/141129771.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/12ae12d7-cd15-47d4-b7bc-9f958e107c09/original=true/141129771.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/12ae12d7-cd15-47d4-b7bc-9f958e107c09/original=true/141129771.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8bd2191-8a45-4910-99c7-5bd5db98abe6/original=true/a8bd2191-8a45-4910-99c7-5bd5db98abe6.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2353,7 +2413,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe9ca267-bf2e-4cfe-bb8b-0083d45e5ec0/width=450/5159234.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe9ca267-bf2e-4cfe-bb8b-0083d45e5ec0/original=true/5159234.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe9ca267-bf2e-4cfe-bb8b-0083d45e5ec0/original=true/5159234.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/684cd603-2d67-4372-8cb3-4295e20034a2/original=true/684cd603-2d67-4372-8cb3-4295e20034a2.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2450,7 +2511,11 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8933a0c-02bd-4598-bd78-00a2e07f8def/width=450/116370603.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8933a0c-02bd-4598-bd78-00a2e07f8def/original=true/116370603.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4972e76-1943-4c9a-9f1a-8be9d8255b46/width=450/a4972e76-1943-4c9a-9f1a-8be9d8255b46.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8933a0c-02bd-4598-bd78-00a2e07f8def/width=450/d8933a0c-02bd-4598-bd78-00a2e07f8def.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f88fd3d-2dc0-4ce6-894c-2b66dc7c8945/width=450/1f88fd3d-2dc0-4ce6-894c-2b66dc7c8945.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2078957",
@@ -2553,7 +2618,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5ddc520-d2f2-4abb-b0df-9871d7b08f79/width=450/108794495.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5ddc520-d2f2-4abb-b0df-9871d7b08f79/original=true/108794495.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/111484c1-f227-4e7f-bd14-8c352428290c/width=450/111484c1-f227-4e7f-bd14-8c352428290c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5ddc520-d2f2-4abb-b0df-9871d7b08f79/width=450/c5ddc520-d2f2-4abb-b0df-9871d7b08f79.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/61bd7043-644e-4d11-9aef-edeedacfe2a1/width=450/61bd7043-644e-4d11-9aef-edeedacfe2a1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af004cfa-b620-4fb8-8820-49a854182874/width=450/af004cfa-b620-4fb8-8820-49a854182874.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45b3ea1c-dbfa-4c2a-b7e6-b755ca2727b4/width=450/45b3ea1c-dbfa-4c2a-b7e6-b755ca2727b4.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7960a33f-275d-4e0e-aadf-830bf911e7eb/width=450/7960a33f-275d-4e0e-aadf-830bf911e7eb.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e75f6d8-b5c1-44dc-8da2-ca6ad4389f6c/width=450/1e75f6d8-b5c1-44dc-8da2-ca6ad4389f6c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6ffdcdc-bd20-4fbb-8204-5251bfaf6943/width=450/f6ffdcdc-bd20-4fbb-8204-5251bfaf6943.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2087176",
@@ -2652,7 +2726,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78f3c302-09ce-4792-b407-50a4cb743f8a/width=450/36169238.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78f3c302-09ce-4792-b407-50a4cb743f8a/original=true/36169238.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78f3c302-09ce-4792-b407-50a4cb743f8a/width=450/78f3c302-09ce-4792-b407-50a4cb743f8a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08b123f3-b4a3-4c73-8fab-92c6330e1a03/width=450/08b123f3-b4a3-4c73-8fab-92c6330e1a03.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/714dba21-01a0-4814-8a38-287e99c4bd41/width=450/714dba21-01a0-4814-8a38-287e99c4bd41.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55d2bb18-42e4-4a02-97c1-9631f3337f61/width=450/55d2bb18-42e4-4a02-97c1-9631f3337f61.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/614e6bc6-a013-42ec-9aef-59f5580428f3/width=450/614e6bc6-a013-42ec-9aef-59f5580428f3.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a14203e9-e03b-41bc-8f3f-58c693c08833/width=450/a14203e9-e03b-41bc-8f3f-58c693c08833.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6fff987-8377-4f91-9dc8-774815c9bed1/width=450/b6fff987-8377-4f91-9dc8-774815c9bed1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/562d2e98-d71f-4387-a2f9-9b7de37f1457/width=450/562d2e98-d71f-4387-a2f9-9b7de37f1457.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/881953",
@@ -2766,7 +2849,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/412aec72-262d-4dfe-b9d3-e4c25a251d32/width=450/58084303.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/412aec72-262d-4dfe-b9d3-e4c25a251d32/original=true/58084303.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/412aec72-262d-4dfe-b9d3-e4c25a251d32/original=true/58084303.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3496c6e0-4ed3-41e8-88c3-f2740fdac2ea/original=true/3496c6e0-4ed3-41e8-88c3-f2740fdac2ea.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2941,7 +3025,14 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b504da31-7a45-46f7-889e-03355e3c53c5/width=450/100600083.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b504da31-7a45-46f7-889e-03355e3c53c5/original=true/100600083.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6910b8e5-86c9-4261-a9db-1b09ead731ec/width=450/6910b8e5-86c9-4261-a9db-1b09ead731ec.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4da33424-9ccb-49d7-8daa-8a1c4f8d6db3/width=450/4da33424-9ccb-49d7-8daa-8a1c4f8d6db3.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b504da31-7a45-46f7-889e-03355e3c53c5/width=450/b504da31-7a45-46f7-889e-03355e3c53c5.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f65eb56e-2544-4a94-abd1-e9c3ad774a68/width=450/f65eb56e-2544-4a94-abd1-e9c3ad774a68.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69b1bd14-8d92-4928-a9dd-49e9b6402935/width=450/69b1bd14-8d92-4928-a9dd-49e9b6402935.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bebfccb-3504-48be-b9f7-b6045a6ddd31/width=450/7bebfccb-3504-48be-b9f7-b6045a6ddd31.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1086525",
@@ -3192,7 +3283,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e5ebbc7-4f6b-4bfa-8311-15cba94c0038/width=450/89356982.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e5ebbc7-4f6b-4bfa-8311-15cba94c0038/original=true/89356982.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e5ebbc7-4f6b-4bfa-8311-15cba94c0038/width=450/3e5ebbc7-4f6b-4bfa-8311-15cba94c0038.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/64d1d282-e460-4743-9924-ca95d58f02df/width=450/64d1d282-e460-4743-9924-ca95d58f02df.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c91e102-e731-4b2f-8dab-6b3a9b59634f/width=450/6c91e102-e731-4b2f-8dab-6b3a9b59634f.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1da32fbb-dd32-422a-8e88-86793f8ef029/width=450/1da32fbb-dd32-422a-8e88-86793f8ef029.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3153c5b-ed70-4997-8302-2a72552ce96b/width=450/b3153c5b-ed70-4997-8302-2a72552ce96b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76fe5cdc-09ca-4ff6-b778-80cd23464fdc/width=450/76fe5cdc-09ca-4ff6-b778-80cd23464fdc.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0fba7a9-9595-4049-8742-c95be7920cd1/width=450/f0fba7a9-9595-4049-8742-c95be7920cd1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4c674d6-1613-4bdf-aa61-bb45ef6ef7e1/width=450/e4c674d6-1613-4bdf-aa61-bb45ef6ef7e1.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1129063",
@@ -3466,7 +3566,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4ee5d42-11a4-472f-8984-2a94f2971a9b/width=450/137499966.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4ee5d42-11a4-472f-8984-2a94f2971a9b/original=true/137499966.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4ee5d42-11a4-472f-8984-2a94f2971a9b/original=true/137499966.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cf148a64-8571-436f-87ae-4857b1fd9c8c/original=true/cf148a64-8571-436f-87ae-4857b1fd9c8c.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -3519,7 +3620,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3164068-86a5-4695-8798-37589176dd71/width=450/60268511.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3164068-86a5-4695-8798-37589176dd71/original=true/60268511.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f85f3a6a-14e8-498b-86ee-bd4475954911/width=450/f85f3a6a-14e8-498b-86ee-bd4475954911.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbf039b6-5cf5-4c4e-a716-df270894c11d/width=450/bbf039b6-5cf5-4c4e-a716-df270894c11d.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3164068-86a5-4695-8798-37589176dd71/width=450/f3164068-86a5-4695-8798-37589176dd71.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1105bf8b-30a3-42a6-8465-995f20600dc1/width=450/1105bf8b-30a3-42a6-8465-995f20600dc1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27cc40b8-5e75-485f-9e18-a465551ccfc3/width=450/27cc40b8-5e75-485f-9e18-a465551ccfc3.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46b61370-1e15-487e-a954-732a6359d600/width=450/46b61370-1e15-487e-a954-732a6359d600.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83c9e0c9-283d-4cab-ae07-d81f6f3d7cbe/width=450/83c9e0c9-283d-4cab-ae07-d81f6f3d7cbe.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba430fbb-46b6-4401-9d28-b99884c2a6c2/width=450/ba430fbb-46b6-4401-9d28-b99884c2a6c2.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/1282514",
@@ -3621,7 +3731,9 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0eabd718-3bca-43e2-8340-fb78439fe4f5/width=450/14799523.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0eabd718-3bca-43e2-8340-fb78439fe4f5/original=true/14799523.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0eabd718-3bca-43e2-8340-fb78439fe4f5/width=450/0eabd718-3bca-43e2-8340-fb78439fe4f5.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/308241",
@@ -3667,7 +3779,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abca54b7-ca02-47ac-9b31-6a4ff06b4142/width=450/56595025.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abca54b7-ca02-47ac-9b31-6a4ff06b4142/original=true/56595025.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abca54b7-ca02-47ac-9b31-6a4ff06b4142/original=true/56595025.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622523fe-24b2-4f48-b4d1-481e442c3210/original=true/622523fe-24b2-4f48-b4d1-481e442c3210.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -3747,7 +3860,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ddf083c8-d716-42c2-9996-a188bfc3c267/width=450/10199889.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ddf083c8-d716-42c2-9996-a188bfc3c267/original=true/10199889.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ddf083c8-d716-42c2-9996-a188bfc3c267/original=true/10199889.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e24a6868-6e7e-489f-aebc-9b925bdc855f/original=true/e24a6868-6e7e-489f-aebc-9b925bdc855f.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -3928,9 +4042,18 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c04cf11-ae3b-458b-a80a-5cbbfd6078c2/width=450/8986847.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c04cf11-ae3b-458b-a80a-5cbbfd6078c2/original=true/8986847.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c04cf11-ae3b-458b-a80a-5cbbfd6078c2/original=true/8986847.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c04cf11-ae3b-458b-a80a-5cbbfd6078c2/original=true/4c04cf11-ae3b-458b-a80a-5cbbfd6078c2.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3536366-1f65-4155-8802-95366b211264/width=450/a3536366-1f65-4155-8802-95366b211264.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b09f1c2-3c93-4a1f-9605-b95a1561ad36/width=450/4b09f1c2-3c93-4a1f-9605-b95a1561ad36.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09c6d74d-6865-4fa1-9cc1-227deabd56d8/width=450/09c6d74d-6865-4fa1-9cc1-227deabd56d8.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3a35850-6893-4e04-9dba-ed189d9989e5/width=450/c3a35850-6893-4e04-9dba-ed189d9989e5.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6824aa56-53ca-4aca-9c2d-860cc46a3eda/width=450/6824aa56-53ca-4aca-9c2d-860cc46a3eda.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3abf3bd3-09e2-4095-b45a-27066ced8a32/width=450/3abf3bd3-09e2-4095-b45a-27066ced8a32.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e237c0c1-5dd6-41bb-b918-a845656fd950/width=450/e237c0c1-5dd6-41bb-b918-a845656fd950.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "anime detail overload Q7 video",
    "civitai_url": "https://civitai.com/models/129010",
@@ -4056,7 +4179,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ecd56ded-dadb-4873-b5ba-e4d0569ac99b/width=450/127439570.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ecd56ded-dadb-4873-b5ba-e4d0569ac99b/original=true/127439570.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bad2e8d9-808c-4242-8140-e35520fa0c5a/width=450/bad2e8d9-808c-4242-8140-e35520fa0c5a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48b9706a-f2d0-4f69-9eff-120ae6917035/width=450/48b9706a-f2d0-4f69-9eff-120ae6917035.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/200faa40-cd21-4737-b882-d6a6847b8493/width=450/200faa40-cd21-4737-b882-d6a6847b8493.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1907d308-8dee-4c02-b23a-ef8cf6915278/width=450/1907d308-8dee-4c02-b23a-ef8cf6915278.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ecd56ded-dadb-4873-b5ba-e4d0569ac99b/width=450/ecd56ded-dadb-4873-b5ba-e4d0569ac99b.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8f161065-8899-4472-8269-66410c333ace/width=450/8f161065-8899-4472-8269-66410c333ace.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f16b1df0-6d79-45c0-a450-e4cbc8784ee9/width=450/f16b1df0-6d79-45c0-a450-e4cbc8784ee9.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5216e497-1c84-4fc6-88fd-e5677015c77d/width=450/5216e497-1c84-4fc6-88fd-e5677015c77d.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2322533",
@@ -4174,7 +4306,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75bccaf8-1602-47e0-9d22-f66abc3a494a/width=450/19389239.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75bccaf8-1602-47e0-9d22-f66abc3a494a/original=true/19389239.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cc64024-a6cb-423c-8850-23685f36675f/width=450/4cc64024-a6cb-423c-8850-23685f36675f.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8752be5e-d258-4395-b488-d014aff6faf1/width=450/8752be5e-d258-4395-b488-d014aff6faf1.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8c54d14-c887-4300-8490-2db32932905c/width=450/c8c54d14-c887-4300-8490-2db32932905c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9af13c24-7bfc-48f7-9b0f-beaca645c0a0/width=450/9af13c24-7bfc-48f7-9b0f-beaca645c0a0.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98e8e541-0194-45ab-93c0-4760dae445b2/width=450/98e8e541-0194-45ab-93c0-4760dae445b2.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5cdfa932-6dee-4c9f-af2c-446bfa09ee0a/width=450/5cdfa932-6dee-4c9f-af2c-446bfa09ee0a.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79309f8b-6423-41f9-a1c4-ecf248d6e5f0/width=450/79309f8b-6423-41f9-a1c4-ecf248d6e5f0.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48f70318-583e-4675-a637-7c0f8fd967a7/width=450/48f70318-583e-4675-a637-7c0f8fd967a7.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/571293",
@@ -4284,7 +4425,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e2d1682-f12d-492d-be54-88bb27dda81a/width=450/73842755.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e2d1682-f12d-492d-be54-88bb27dda81a/original=true/73842755.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e2d1682-f12d-492d-be54-88bb27dda81a/original=true/73842755.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d63963a-d15d-41de-9703-4fa2e72783a5/original=true/7d63963a-d15d-41de-9703-4fa2e72783a5.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -4434,7 +4576,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4fefe032-ce1d-45ec-a4e9-4bd2b631fc05/width=450/131202736.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4fefe032-ce1d-45ec-a4e9-4bd2b631fc05/original=true/131202736.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4fefe032-ce1d-45ec-a4e9-4bd2b631fc05/width=450/4fefe032-ce1d-45ec-a4e9-4bd2b631fc05.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75f3b9eb-91d1-4aa5-927e-8b1361940b09/width=450/75f3b9eb-91d1-4aa5-927e-8b1361940b09.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0548850e-6d3a-44ad-95da-ec43a381060c/width=450/0548850e-6d3a-44ad-95da-ec43a381060c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17eefda9-2c41-45c9-9d4e-eec3105c8f7e/width=450/17eefda9-2c41-45c9-9d4e-eec3105c8f7e.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcedce8f-8ce3-476d-ab4c-fff9320416a7/width=450/dcedce8f-8ce3-476d-ab4c-fff9320416a7.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55a4de37-9438-4780-91a3-c57a970be6ad/width=450/55a4de37-9438-4780-91a3-c57a970be6ad.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/067408ee-8e71-4f02-908c-7c355b4f0593/width=450/067408ee-8e71-4f02-908c-7c355b4f0593.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44727d07-02e4-4b3e-a58e-2a8926f1a172/width=450/44727d07-02e4-4b3e-a58e-2a8926f1a172.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/2098929",
@@ -4630,7 +4781,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58dfd7c4-2844-4d7b-b619-43deabfba8d4/width=450/34527995.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58dfd7c4-2844-4d7b-b619-43deabfba8d4/original=true/34527995.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58dfd7c4-2844-4d7b-b619-43deabfba8d4/original=true/34527995.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f55abd84-6825-4268-a655-088280aaf2a6/original=true/f55abd84-6825-4268-a655-088280aaf2a6.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -4761,9 +4913,14 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4098efb-7364-4d85-9571-e8f4b7bef2af/width=450/66301012.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4098efb-7364-4d85-9571-e8f4b7bef2af/original=true/66301012.jpeg"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4098efb-7364-4d85-9571-e8f4b7bef2af/original=true/66301012.jpeg",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a5a0284-a894-4c03-800b-a5beeca88596/original=true/6a5a0284-a894-4c03-800b-a5beeca88596.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4098efb-7364-4d85-9571-e8f4b7bef2af/width=450/f4098efb-7364-4d85-9571-e8f4b7bef2af.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a43e51d-8c10-4980-8bfe-f47eaaa9d93c/width=450/4a43e51d-8c10-4980-8bfe-f47eaaa9d93c.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c8ae2b3-8fd3-4896-9856-e7038c8b3e3e/width=450/9c8ae2b3-8fd3-4896-9856-e7038c8b3e3e.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "wan restyled-first-frame utility, anime examples",
    "civitai_url": "https://civitai.com/models/1376578",
@@ -4896,7 +5053,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7fa851bf-8d26-4a04-a3c6-7ccc79fa5684/width=450/31762211.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7fa851bf-8d26-4a04-a3c6-7ccc79fa5684/original=true/31762211.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6ab4245-0bd9-4248-a83f-d2bb1a0fa383/width=450/d6ab4245-0bd9-4248-a83f-d2bb1a0fa383.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2aa19db-804a-4da9-8c8e-3e9c57ddc149/width=450/e2aa19db-804a-4da9-8c8e-3e9c57ddc149.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c952d8c9-8949-4525-b333-233e168e7ef6/width=450/c952d8c9-8949-4525-b333-233e168e7ef6.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed458723-aa64-4525-9398-a6e328a41325/width=450/ed458723-aa64-4525-9398-a6e328a41325.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fcd2fd34-7d7b-48ec-83df-0924ca832e73/width=450/fcd2fd34-7d7b-48ec-83df-0924ca832e73.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2bcf16ee-5662-48fe-bbf0-71f2112491ab/width=450/2bcf16ee-5662-48fe-bbf0-71f2112491ab.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfeb39c3-9611-4d35-9570-1e640137d6fc/width=450/cfeb39c3-9611-4d35-9570-1e640137d6fc.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9196e421-7294-4949-ac9d-b60bc002e792/width=450/9196e421-7294-4949-ac9d-b60bc002e792.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/778999",

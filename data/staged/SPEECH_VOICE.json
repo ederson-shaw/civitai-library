@@ -1,6 +1,6 @@
 {
  "stage": "SPEECH_VOICE",
- "generated": "2026-09-02T05:45:56+00:00",
+ "generated": "2026-09-02T06:11:17+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
@@ -28,7 +28,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b09c7f25-d81d-4609-bc53-c2918e81fb1b/width=450/102021585.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b09c7f25-d81d-4609-bc53-c2918e81fb1b/original=true/102021585.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b09c7f25-d81d-4609-bc53-c2918e81fb1b/original=true/102021585.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8dc141a-b87e-4834-b423-97ce313c37d0/original=true/e8dc141a-b87e-4834-b423-97ce313c37d0.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -36,7 +37,88 @@
    "civitai_url": "https://civitai.com/models/1983539",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "3f453c3e-3aba-4d05-8821-bf6660fd0500",
+      "manager_search": "3f453c3e-3aba-4d05-8821-bf6660fd0500"
+     },
+     {
+      "class_type": "AudioEncoderEncode",
+      "manager_search": "AudioEncoderEncode"
+     },
+     {
+      "class_type": "AudioEncoderLoaderGGUF",
+      "manager_search": "AudioEncoderLoaderGGUF"
+     },
+     {
+      "class_type": "ClipLoaderGGUF",
+      "manager_search": "ClipLoaderGGUF"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "ImageFromBatch",
+      "manager_search": "ImageFromBatch"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "LatentConcat",
+      "manager_search": "LatentConcat"
+     },
+     {
+      "class_type": "LatentCut",
+      "manager_search": "LatentCut"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LoaderGGUF",
+      "manager_search": "LoaderGGUF"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "PrimitiveInt",
+      "manager_search": "PrimitiveInt"
+     },
+     {
+      "class_type": "RAMCleanup",
+      "manager_search": "RAMCleanup"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VRAMCleanup",
+      "manager_search": "VRAMCleanup"
+     },
+     {
+      "class_type": "VaeGGUF",
+      "manager_search": "VaeGGUF"
+     },
+     {
+      "class_type": "WanSoundImageToVideo",
+      "manager_search": "WanSoundImageToVideo"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -78,7 +160,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/width=450/99516422.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33111c0a-1f85-459f-a4ab-2eb72c4896ad/original=true/33111c0a-1f85-459f-a4ab-2eb72c4896ad.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -283,9 +366,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/width=450/121941398.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9659396e-53ec-4c83-83cb-89e4639e00f3/original=true/9659396e-53ec-4c83-83cb-89e4639e00f3.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/939a51e5-dc7d-4d54-9a51-7fd9c797271b/width=450/939a51e5-dc7d-4d54-9a51-7fd9c797271b.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2411105",
@@ -560,7 +646,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/width=450/123301446.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/724b7ac6-06b2-43ec-a26f-150079b09b91/original=true/724b7ac6-06b2-43ec-a26f-150079b09b91.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -610,7 +697,10 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74edf4c2-3a80-4c3b-99cc-1cbe70294a53/width=450/126545198.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74edf4c2-3a80-4c3b-99cc-1cbe70294a53/original=true/126545198.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74edf4c2-3a80-4c3b-99cc-1cbe70294a53/width=450/74edf4c2-3a80-4c3b-99cc-1cbe70294a53.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc7b2f22-9304-4547-9275-a42ca0fa6cf2/width=450/bc7b2f22-9304-4547-9275-a42ca0fa6cf2.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted",
    "civitai_url": "https://civitai.com/models/2498927",
@@ -656,7 +746,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/width=450/102781784.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1ad20e6-eb99-4f7d-baf4-15464ea13fb3/original=true/a1ad20e6-eb99-4f7d-baf4-15464ea13fb3.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -756,7 +847,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/width=450/74788635.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/729165c0-4045-4828-b463-9b86a8dedca8/original=true/729165c0-4045-4828-b463-9b86a8dedca8.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -895,7 +987,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/width=450/126436721.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd9654f1-45b4-47d3-8226-2c3f0bd2aba4/original=true/fd9654f1-45b4-47d3-8226-2c3f0bd2aba4.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -943,9 +1036,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622fb79d-24b0-4320-b039-4d5faa8392e8/width=450/130511640.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622fb79d-24b0-4320-b039-4d5faa8392e8/original=true/130511640.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622fb79d-24b0-4320-b039-4d5faa8392e8/original=true/130511640.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7da803f3-5de5-499a-a70c-1a14104356ed/original=true/7da803f3-5de5-499a-a70c-1a14104356ed.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3770d585-dffa-4cc1-a073-cc3a1e98c516/width=450/3770d585-dffa-4cc1-a073-cc3a1e98c516.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1815300",
@@ -991,9 +1087,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4866c1d1-8d27-400b-8cf5-a0f2c2f67272/width=450/118728117.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4866c1d1-8d27-400b-8cf5-a0f2c2f67272/original=true/118728117.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4866c1d1-8d27-400b-8cf5-a0f2c2f67272/original=true/118728117.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9eed4b2d-430a-4d96-af25-5569b82c3046/original=true/9eed4b2d-430a-4d96-af25-5569b82c3046.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98fb7a5c-b589-411b-a153-dae4250b45dd/width=450/98fb7a5c-b589-411b-a153-dae4250b45dd.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2337329",
@@ -1039,7 +1138,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/width=450/98147116.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ef4b212-e44c-4f4a-9816-e0a2a4f5b214/original=true/3ef4b212-e44c-4f4a-9816-e0a2a4f5b214.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1097,7 +1197,96 @@
    "civitai_url": "https://civitai.com/models/1909425",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "4fc1c711-ab70-4a9c-9bde-de0f63544f47",
+      "manager_search": "4fc1c711-ab70-4a9c-9bde-de0f63544f47"
+     },
+     {
+      "class_type": "866cdb67-cb97-4a54-8738-e9ece4f5f25f",
+      "manager_search": "866cdb67-cb97-4a54-8738-e9ece4f5f25f"
+     },
+     {
+      "class_type": "92cfa20b-adb6-4f00-8596-f14b534cf926",
+      "manager_search": "92cfa20b-adb6-4f00-8596-f14b534cf926"
+     },
+     {
+      "class_type": "AudioEncoderEncode",
+      "manager_search": "AudioEncoderEncode"
+     },
+     {
+      "class_type": "AudioEncoderLoader",
+      "manager_search": "AudioEncoderLoader"
+     },
+     {
+      "class_type": "ClipLoaderGGUF",
+      "manager_search": "ClipLoaderGGUF"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "ImageFromBatch",
+      "manager_search": "ImageFromBatch"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "ImageScaleToTotalPixels",
+      "manager_search": "ImageScaleToTotalPixels"
+     },
+     {
+      "class_type": "LatentConcat",
+      "manager_search": "LatentConcat"
+     },
+     {
+      "class_type": "LatentCut",
+      "manager_search": "LatentCut"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LoaderGGUF",
+      "manager_search": "LoaderGGUF"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "PrimitiveInt",
+      "manager_search": "PrimitiveInt"
+     },
+     {
+      "class_type": "RAMCleanup",
+      "manager_search": "RAMCleanup"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VaeGGUF",
+      "manager_search": "VaeGGUF"
+     },
+     {
+      "class_type": "WanSoundImageToVideo",
+      "manager_search": "WanSoundImageToVideo"
+     },
+     {
+      "class_type": "ad3f1d6b-f6de-4f22-abcf-caeed4bf8ce4",
+      "manager_search": "ad3f1d6b-f6de-4f22-abcf-caeed4bf8ce4"
+     },
+     {
+      "class_type": "easy cleanGpuUsed",
+      "manager_search": "easy cleanGpuUsed"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1139,7 +1328,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/990c073b-99f0-4445-8640-77e046ba0195/width=450/105909820.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/990c073b-99f0-4445-8640-77e046ba0195/original=true/105909820.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/990c073b-99f0-4445-8640-77e046ba0195/original=true/105909820.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/976061bb-8163-4d12-bb70-d4ec8cff1734/original=true/976061bb-8163-4d12-bb70-d4ec8cff1734.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1147,7 +1337,72 @@
    "civitai_url": "https://civitai.com/models/2041710",
    "requirements": {
     "models": [],
-    "nodes": []
+    "nodes": [
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "MultiTalkModelLoader",
+      "manager_search": "MultiTalkModelLoader"
+     },
+     {
+      "class_type": "MultiTalkWav2VecEmbeds",
+      "manager_search": "MultiTalkWav2VecEmbeds"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "WanVideoBlockSwap",
+      "manager_search": "WanVideoBlockSwap"
+     },
+     {
+      "class_type": "WanVideoClipVisionEncode",
+      "manager_search": "WanVideoClipVisionEncode"
+     },
+     {
+      "class_type": "WanVideoDecode",
+      "manager_search": "WanVideoDecode"
+     },
+     {
+      "class_type": "WanVideoImageToVideoMultiTalk",
+      "manager_search": "WanVideoImageToVideoMultiTalk"
+     },
+     {
+      "class_type": "WanVideoLoraSelect",
+      "manager_search": "WanVideoLoraSelect"
+     },
+     {
+      "class_type": "WanVideoModelLoader",
+      "manager_search": "WanVideoModelLoader"
+     },
+     {
+      "class_type": "WanVideoSampler",
+      "manager_search": "WanVideoSampler"
+     },
+     {
+      "class_type": "WanVideoTextEncodeCached",
+      "manager_search": "WanVideoTextEncodeCached"
+     },
+     {
+      "class_type": "WanVideoVAELoader",
+      "manager_search": "WanVideoVAELoader"
+     },
+     {
+      "class_type": "Wav2VecModelLoader",
+      "manager_search": "Wav2VecModelLoader"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1189,15 +1444,166 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/width=450/122670081.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/47a0f18a-710c-4838-9cc7-058361ccc9e8.mp4"
    },
    "gallery": [],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2294829",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "gemma_3_12B_it_fp4_mixed.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "ltx-2-19b-embeddings_connector_dev_bf16.safetensors",
+      "folder": "models/text_encoders/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "Audio Duration (mtb)",
+      "manager_search": "Audio Duration (mtb)"
+     },
+     {
+      "class_type": "Audio Stack (mtb)",
+      "manager_search": "Audio Stack (mtb)"
+     },
+     {
+      "class_type": "AudioCombine",
+      "manager_search": "AudioCombine"
+     },
+     {
+      "class_type": "DiffusionModelLoaderKJ",
+      "manager_search": "DiffusionModelLoaderKJ"
+     },
+     {
+      "class_type": "DiffusionModelSelector",
+      "manager_search": "DiffusionModelSelector"
+     },
+     {
+      "class_type": "DualCLIPLoaderGGUF",
+      "manager_search": "DualCLIPLoaderGGUF"
+     },
+     {
+      "class_type": "FancyTimerNode",
+      "manager_search": "FancyTimerNode"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Muter (rgthree)",
+      "manager_search": "Fast Groups Muter (rgthree)"
+     },
+     {
+      "class_type": "GGUFLoaderKJ",
+      "manager_search": "GGUFLoaderKJ"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "IFRNet VFI",
+      "manager_search": "IFRNet VFI"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "LayerUtility: PurgeVRAM",
+      "manager_search": "LayerUtility: PurgeVRAM"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "MathExpression|pysssss",
+      "manager_search": "MathExpression|pysssss"
+     },
+     {
+      "class_type": "MelBandRoFormerModelLoader",
+      "manager_search": "MelBandRoFormerModelLoader"
+     },
+     {
+      "class_type": "MelBandRoFormerSampler",
+      "manager_search": "MelBandRoFormerSampler"
+     },
+     {
+      "class_type": "NormalizeAudioLoudness",
+      "manager_search": "NormalizeAudioLoudness"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "PrimitiveBoolean",
+      "manager_search": "PrimitiveBoolean"
+     },
+     {
+      "class_type": "RAMCleanup",
+      "manager_search": "RAMCleanup"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "Switch any [Crystools]",
+      "manager_search": "Switch any [Crystools]"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VRGDG_AudioCrop",
+      "manager_search": "VRGDG_AudioCrop"
+     },
+     {
+      "class_type": "VibeVoiceTTS",
+      "manager_search": "VibeVoiceTTS"
+     },
+     {
+      "class_type": "b7c2d337-c38d-4c04-922b-2d638449d13e",
+      "manager_search": "b7c2d337-c38d-4c04-922b-2d638449d13e"
+     },
+     {
+      "class_type": "easy seed",
+      "manager_search": "easy seed"
+     },
+     {
+      "class_type": "mxSlider",
+      "manager_search": "mxSlider"
+     },
+     {
+      "class_type": "mxSlider2D",
+      "manager_search": "mxSlider2D"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1239,7 +1645,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/width=450/117889046.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8bbdb81-5997-42ec-840e-cdda178ecd0e/original=true/a8bbdb81-5997-42ec-840e-cdda178ecd0e.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1290,15 +1697,114 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/width=450/124575015.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/feceb440-86e5-43ba-b243-4003332dbde4/original=true/feceb440-86e5-43ba-b243-4003332dbde4.mp4"
    },
    "gallery": [],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2475570",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "LTXV2\\ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v2.safetensors",
+      "folder": "models/checkpoints/"
+     },
+     {
+      "name": "gemma_3_12B_it_fp8_e4m3fn.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "ltx-2.3_text_projection_bf16.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "taeltx2_3.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "829c80e2-64e5-40c7-a0f8-46de761523d0",
+      "manager_search": "829c80e2-64e5-40c7-a0f8-46de761523d0"
+     },
+     {
+      "class_type": "ComfyMathExpression",
+      "manager_search": "ComfyMathExpression"
+     },
+     {
+      "class_type": "DualCLIPLoaderGGUF",
+      "manager_search": "DualCLIPLoaderGGUF"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LowVRAMLatentUpscaleModelLoader",
+      "manager_search": "LowVRAMLatentUpscaleModelLoader"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "PrimitiveBoolean",
+      "manager_search": "PrimitiveBoolean"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "RT_LTX2_SelfRefiningPatch",
+      "manager_search": "RT_LTX2_SelfRefiningPatch"
+     },
+     {
+      "class_type": "RT_LTX2_Video_LoRA_Injector",
+      "manager_search": "RT_LTX2_Video_LoRA_Injector"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "TrimAudioDuration",
+      "manager_search": "TrimAudioDuration"
+     },
+     {
+      "class_type": "UnetLoaderGGUF",
+      "manager_search": "UnetLoaderGGUF"
+     },
+     {
+      "class_type": "VAELoaderKJ",
+      "manager_search": "VAELoaderKJ"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1347,8 +1853,286 @@
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2492652",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "LTX-2\\LTX23_video_vae_bf16.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "LTX-2\\ltx-2-3-22b-dev_transformer_only_fp8_input_scaled.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "LTX-2\\ltx-2.3-22b-distilled-1.1_transformer_only_fp8_scaled.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "LTX-2\\taeltx2_3.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "LTX\\gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors",
+      "folder": "models/loras/"
+     },
+     {
+      "name": "gemma_3_12B_it_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "ltx-2.3_text_projection_bf16.safetensors",
+      "folder": "models/text_encoders/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "Audio Stack (mtb)",
+      "manager_search": "Audio Stack (mtb)"
+     },
+     {
+      "class_type": "AudioOrManualFrameCount",
+      "manager_search": "AudioOrManualFrameCount"
+     },
+     {
+      "class_type": "ComfyMathExpression",
+      "manager_search": "ComfyMathExpression"
+     },
+     {
+      "class_type": "ComfySwitchNode",
+      "manager_search": "ComfySwitchNode"
+     },
+     {
+      "class_type": "DualCLIPLoaderGGUF",
+      "manager_search": "DualCLIPLoaderGGUF"
+     },
+     {
+      "class_type": "EmptyLTXVLatentVideo",
+      "manager_search": "EmptyLTXVLatentVideo"
+     },
+     {
+      "class_type": "FancyTimerNode",
+      "manager_search": "FancyTimerNode"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Muter (rgthree)",
+      "manager_search": "Fast Groups Muter (rgthree)"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "GuiderParameters",
+      "manager_search": "GuiderParameters"
+     },
+     {
+      "class_type": "IFRNet VFI",
+      "manager_search": "IFRNet VFI"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "LTX2SamplingPreviewOverride",
+      "manager_search": "LTX2SamplingPreviewOverride"
+     },
+     {
+      "class_type": "LTX2_NAG",
+      "manager_search": "LTX2_NAG"
+     },
+     {
+      "class_type": "LTXVAddGuide",
+      "manager_search": "LTXVAddGuide"
+     },
+     {
+      "class_type": "LTXVAddGuideMulti",
+      "manager_search": "LTXVAddGuideMulti"
+     },
+     {
+      "class_type": "LTXVAudioVAEDecode",
+      "manager_search": "LTXVAudioVAEDecode"
+     },
+     {
+      "class_type": "LTXVAudioVAEEncode",
+      "manager_search": "LTXVAudioVAEEncode"
+     },
+     {
+      "class_type": "LTXVChunkFeedForward",
+      "manager_search": "LTXVChunkFeedForward"
+     },
+     {
+      "class_type": "LTXVConcatAVLatent",
+      "manager_search": "LTXVConcatAVLatent"
+     },
+     {
+      "class_type": "LTXVConditioning",
+      "manager_search": "LTXVConditioning"
+     },
+     {
+      "class_type": "LTXVCropGuides",
+      "manager_search": "LTXVCropGuides"
+     },
+     {
+      "class_type": "LTXVEmptyLatentAudio",
+      "manager_search": "LTXVEmptyLatentAudio"
+     },
+     {
+      "class_type": "LTXVImgToVideoInplace",
+      "manager_search": "LTXVImgToVideoInplace"
+     },
+     {
+      "class_type": "LTXVLatentUpsampler",
+      "manager_search": "LTXVLatentUpsampler"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "LTXVScheduler",
+      "manager_search": "LTXVScheduler"
+     },
+     {
+      "class_type": "LTXVSeparateAVLatent",
+      "manager_search": "LTXVSeparateAVLatent"
+     },
+     {
+      "class_type": "LTXVSpatioTemporalTiledVAEDecode",
+      "manager_search": "LTXVSpatioTemporalTiledVAEDecode"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LatentUpscaleModelLoader",
+      "manager_search": "LatentUpscaleModelLoader"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "ManualSigmas",
+      "manager_search": "ManualSigmas"
+     },
+     {
+      "class_type": "MelBandRoFormerModelLoader",
+      "manager_search": "MelBandRoFormerModelLoader"
+     },
+     {
+      "class_type": "MelBandRoFormerSampler",
+      "manager_search": "MelBandRoFormerSampler"
+     },
+     {
+      "class_type": "MultimodalGuider",
+      "manager_search": "MultimodalGuider"
+     },
+     {
+      "class_type": "NormalizeAudioLoudness",
+      "manager_search": "NormalizeAudioLoudness"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "Power Lora Loader (rgthree)",
+      "manager_search": "Power Lora Loader (rgthree)"
+     },
+     {
+      "class_type": "PreviewAny",
+      "manager_search": "PreviewAny"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "PrimitiveBoolean",
+      "manager_search": "PrimitiveBoolean"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "PrimitiveInt",
+      "manager_search": "PrimitiveInt"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "RAMCleanup",
+      "manager_search": "RAMCleanup"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SolidMask",
+      "manager_search": "SolidMask"
+     },
+     {
+      "class_type": "TextGenerateLTX2Prompt",
+      "manager_search": "TextGenerateLTX2Prompt"
+     },
+     {
+      "class_type": "TrimAudioDuration",
+      "manager_search": "TrimAudioDuration"
+     },
+     {
+      "class_type": "UnetLoaderGGUF",
+      "manager_search": "UnetLoaderGGUF"
+     },
+     {
+      "class_type": "VAELoaderKJ",
+      "manager_search": "VAELoaderKJ"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VibeVoiceTTS",
+      "manager_search": "VibeVoiceTTS"
+     },
+     {
+      "class_type": "easy float",
+      "manager_search": "easy float"
+     },
+     {
+      "class_type": "easy seed",
+      "manager_search": "easy seed"
+     },
+     {
+      "class_type": "mxSlider",
+      "manager_search": "mxSlider"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1390,7 +2174,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51def214-5907-4eb6-b2d4-846ffe1cd2ac/width=450/138279474.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51def214-5907-4eb6-b2d4-846ffe1cd2ac/original=true/138279474.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51def214-5907-4eb6-b2d4-846ffe1cd2ac/original=true/138279474.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad011ed0-dee0-49c8-8e68-240cf320ce06/original=true/ad011ed0-dee0-49c8-8e68-240cf320ce06.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1440,15 +2225,72 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/width=450/97885281.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ac5f96f-95bb-40da-bd54-43cf73c7317d/original=true/0ac5f96f-95bb-40da-bd54-43cf73c7317d.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a0f569f-16db-4f45-91c0-654a000cc3af/width=450/1a0f569f-16db-4f45-91c0-654a000cc3af.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1920627",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "wan2.2_s2v_14B_bf16.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "wan_2.1_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AudioEncoderEncode",
+      "manager_search": "AudioEncoderEncode"
+     },
+     {
+      "class_type": "AudioEncoderLoader",
+      "manager_search": "AudioEncoderLoader"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "SeedVR2",
+      "manager_search": "SeedVR2"
+     },
+     {
+      "class_type": "SeedVR2BlockSwap",
+      "manager_search": "SeedVR2BlockSwap"
+     },
+     {
+      "class_type": "SimpleMath+",
+      "manager_search": "SimpleMath+"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "WanSoundImageToVideo",
+      "manager_search": "WanSoundImageToVideo"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -1492,7 +2334,16 @@
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ce5d04-9fe6-4cd6-81db-bf5021a7f709/width=450/14261227.jpeg",
     "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ce5d04-9fe6-4cd6-81db-bf5021a7f709/original=true/14261227.jpeg"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5059364e-be65-44aa-b18e-7533af5f8373/width=450/5059364e-be65-44aa-b18e-7533af5f8373.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70ef89d5-6603-4101-b21d-7ad114f5db93/width=450/70ef89d5-6603-4101-b21d-7ad114f5db93.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60072208-67f1-430c-a54d-8433ce13e197/width=450/60072208-67f1-430c-a54d-8433ce13e197.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53b848e5-44a2-4069-89d1-2ae3e8acd366/width=450/53b848e5-44a2-4069-89d1-2ae3e8acd366.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb7bb563-8b33-424f-9056-6ee881942121/width=450/fb7bb563-8b33-424f-9056-6ee881942121.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce6c7f29-b8fe-41ce-a859-91edc4d38996/width=450/ce6c7f29-b8fe-41ce-a859-91edc4d38996.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d31d43d6-77e6-4c6a-981c-c2f89caa07ba/width=450/d31d43d6-77e6-4c6a-981c-c2f89caa07ba.jpeg",
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4549f803-402f-4dc6-abe8-0d172133c9ad/width=450/4549f803-402f-4dc6-abe8-0d172133c9ad.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": null,
    "civitai_url": "https://civitai.com/models/489100",
@@ -1590,7 +2441,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/width=450/9596795.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/original=true/9596795.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a822f274-ca30-4608-9ac4-c48fe8dce930/original=true/9596795.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88b7f5a0-d5ff-4e3d-941a-3a0d30972fea/original=true/88b7f5a0-d5ff-4e3d-941a-3a0d30972fea.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -1927,9 +2779,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/width=450/73206846.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/original=true/73206846.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83022245-d41c-434e-9a55-df7f86c55860/original=true/73206846.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76a45a63-f96e-4f4f-9d48-7505435acaa2/original=true/76a45a63-f96e-4f4f-9d48-7505435acaa2.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/424756dd-66f0-40f9-88f7-00cb8d25e77d/width=450/424756dd-66f0-40f9-88f7-00cb8d25e77d.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1526147",
@@ -2071,7 +2926,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/width=450/99516422.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9aeb168f-b8db-4516-b41c-1be2d685ef42/original=true/99516422.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33111c0a-1f85-459f-a4ab-2eb72c4896ad/original=true/33111c0a-1f85-459f-a4ab-2eb72c4896ad.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2276,9 +3132,12 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/width=450/121941398.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/485b7203-6b7c-4db1-95c9-035907fd1d8a/original=true/121941398.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9659396e-53ec-4c83-83cb-89e4639e00f3/original=true/9659396e-53ec-4c83-83cb-89e4639e00f3.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/939a51e5-dc7d-4d54-9a51-7fd9c797271b/width=450/939a51e5-dc7d-4d54-9a51-7fd9c797271b.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2411105",
@@ -2551,7 +3410,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/width=450/102781784.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79283d58-e619-4d75-aaa5-b5535e2c4f3f/original=true/102781784.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1ad20e6-eb99-4f7d-baf4-15464ea13fb3/original=true/a1ad20e6-eb99-4f7d-baf4-15464ea13fb3.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2651,7 +3511,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/width=450/74788635.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/427d273e-bb31-42a8-b6a5-de8c3559f202/original=true/74788635.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/729165c0-4045-4828-b463-9b86a8dedca8/original=true/729165c0-4045-4828-b463-9b86a8dedca8.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2792,7 +3653,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/width=450/123301446.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffc615bd-ca66-424e-b7d9-f94b63c65793/original=true/123301446.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/724b7ac6-06b2-43ec-a26f-150079b09b91/original=true/724b7ac6-06b2-43ec-a26f-150079b09b91.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2842,7 +3704,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/width=450/126436721.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/922ed74b-68b2-4609-adc1-936f534f1601/original=true/126436721.jpeg",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd9654f1-45b4-47d3-8226-2c3f0bd2aba4/original=true/fd9654f1-45b4-47d3-8226-2c3f0bd2aba4.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2892,7 +3755,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/width=450/98147116.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30864fce-b893-4edd-957b-a8c677e7bd86/original=true/98147116.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ef4b212-e44c-4f4a-9816-e0a2a4f5b214/original=true/3ef4b212-e44c-4f4a-9816-e0a2a4f5b214.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -2942,15 +3806,166 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/width=450/122670081.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/122670081.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47a0f18a-710c-4838-9cc7-058361ccc9e8/original=true/47a0f18a-710c-4838-9cc7-058361ccc9e8.mp4"
    },
    "gallery": [],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2294829",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "gemma_3_12B_it_fp4_mixed.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "ltx-2-19b-embeddings_connector_dev_bf16.safetensors",
+      "folder": "models/text_encoders/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "Audio Duration (mtb)",
+      "manager_search": "Audio Duration (mtb)"
+     },
+     {
+      "class_type": "Audio Stack (mtb)",
+      "manager_search": "Audio Stack (mtb)"
+     },
+     {
+      "class_type": "AudioCombine",
+      "manager_search": "AudioCombine"
+     },
+     {
+      "class_type": "DiffusionModelLoaderKJ",
+      "manager_search": "DiffusionModelLoaderKJ"
+     },
+     {
+      "class_type": "DiffusionModelSelector",
+      "manager_search": "DiffusionModelSelector"
+     },
+     {
+      "class_type": "DualCLIPLoaderGGUF",
+      "manager_search": "DualCLIPLoaderGGUF"
+     },
+     {
+      "class_type": "FancyTimerNode",
+      "manager_search": "FancyTimerNode"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Muter (rgthree)",
+      "manager_search": "Fast Groups Muter (rgthree)"
+     },
+     {
+      "class_type": "GGUFLoaderKJ",
+      "manager_search": "GGUFLoaderKJ"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "IFRNet VFI",
+      "manager_search": "IFRNet VFI"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "LayerUtility: PurgeVRAM",
+      "manager_search": "LayerUtility: PurgeVRAM"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "MathExpression|pysssss",
+      "manager_search": "MathExpression|pysssss"
+     },
+     {
+      "class_type": "MelBandRoFormerModelLoader",
+      "manager_search": "MelBandRoFormerModelLoader"
+     },
+     {
+      "class_type": "MelBandRoFormerSampler",
+      "manager_search": "MelBandRoFormerSampler"
+     },
+     {
+      "class_type": "NormalizeAudioLoudness",
+      "manager_search": "NormalizeAudioLoudness"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "PrimitiveBoolean",
+      "manager_search": "PrimitiveBoolean"
+     },
+     {
+      "class_type": "RAMCleanup",
+      "manager_search": "RAMCleanup"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "Switch any [Crystools]",
+      "manager_search": "Switch any [Crystools]"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VRGDG_AudioCrop",
+      "manager_search": "VRGDG_AudioCrop"
+     },
+     {
+      "class_type": "VibeVoiceTTS",
+      "manager_search": "VibeVoiceTTS"
+     },
+     {
+      "class_type": "b7c2d337-c38d-4c04-922b-2d638449d13e",
+      "manager_search": "b7c2d337-c38d-4c04-922b-2d638449d13e"
+     },
+     {
+      "class_type": "easy seed",
+      "manager_search": "easy seed"
+     },
+     {
+      "class_type": "mxSlider",
+      "manager_search": "mxSlider"
+     },
+     {
+      "class_type": "mxSlider2D",
+      "manager_search": "mxSlider2D"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -2999,8 +4014,286 @@
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2492652",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "LTX-2\\LTX23_video_vae_bf16.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "LTX-2\\ltx-2-3-22b-dev_transformer_only_fp8_input_scaled.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "LTX-2\\ltx-2.3-22b-distilled-1.1_transformer_only_fp8_scaled.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "LTX-2\\taeltx2_3.safetensors",
+      "folder": "models/vae/"
+     },
+     {
+      "name": "LTX\\gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors",
+      "folder": "models/loras/"
+     },
+     {
+      "name": "gemma_3_12B_it_fp8_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "ltx-2.3_text_projection_bf16.safetensors",
+      "folder": "models/text_encoders/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "Any Switch (rgthree)",
+      "manager_search": "Any Switch (rgthree)"
+     },
+     {
+      "class_type": "Audio Stack (mtb)",
+      "manager_search": "Audio Stack (mtb)"
+     },
+     {
+      "class_type": "AudioOrManualFrameCount",
+      "manager_search": "AudioOrManualFrameCount"
+     },
+     {
+      "class_type": "ComfyMathExpression",
+      "manager_search": "ComfyMathExpression"
+     },
+     {
+      "class_type": "ComfySwitchNode",
+      "manager_search": "ComfySwitchNode"
+     },
+     {
+      "class_type": "DualCLIPLoaderGGUF",
+      "manager_search": "DualCLIPLoaderGGUF"
+     },
+     {
+      "class_type": "EmptyLTXVLatentVideo",
+      "manager_search": "EmptyLTXVLatentVideo"
+     },
+     {
+      "class_type": "FancyTimerNode",
+      "manager_search": "FancyTimerNode"
+     },
+     {
+      "class_type": "Fast Bypasser (rgthree)",
+      "manager_search": "Fast Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Bypasser (rgthree)",
+      "manager_search": "Fast Groups Bypasser (rgthree)"
+     },
+     {
+      "class_type": "Fast Groups Muter (rgthree)",
+      "manager_search": "Fast Groups Muter (rgthree)"
+     },
+     {
+      "class_type": "GetImageSize",
+      "manager_search": "GetImageSize"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "GuiderParameters",
+      "manager_search": "GuiderParameters"
+     },
+     {
+      "class_type": "IFRNet VFI",
+      "manager_search": "IFRNet VFI"
+     },
+     {
+      "class_type": "INTConstant",
+      "manager_search": "INTConstant"
+     },
+     {
+      "class_type": "LTX2SamplingPreviewOverride",
+      "manager_search": "LTX2SamplingPreviewOverride"
+     },
+     {
+      "class_type": "LTX2_NAG",
+      "manager_search": "LTX2_NAG"
+     },
+     {
+      "class_type": "LTXVAddGuide",
+      "manager_search": "LTXVAddGuide"
+     },
+     {
+      "class_type": "LTXVAddGuideMulti",
+      "manager_search": "LTXVAddGuideMulti"
+     },
+     {
+      "class_type": "LTXVAudioVAEDecode",
+      "manager_search": "LTXVAudioVAEDecode"
+     },
+     {
+      "class_type": "LTXVAudioVAEEncode",
+      "manager_search": "LTXVAudioVAEEncode"
+     },
+     {
+      "class_type": "LTXVChunkFeedForward",
+      "manager_search": "LTXVChunkFeedForward"
+     },
+     {
+      "class_type": "LTXVConcatAVLatent",
+      "manager_search": "LTXVConcatAVLatent"
+     },
+     {
+      "class_type": "LTXVConditioning",
+      "manager_search": "LTXVConditioning"
+     },
+     {
+      "class_type": "LTXVCropGuides",
+      "manager_search": "LTXVCropGuides"
+     },
+     {
+      "class_type": "LTXVEmptyLatentAudio",
+      "manager_search": "LTXVEmptyLatentAudio"
+     },
+     {
+      "class_type": "LTXVImgToVideoInplace",
+      "manager_search": "LTXVImgToVideoInplace"
+     },
+     {
+      "class_type": "LTXVLatentUpsampler",
+      "manager_search": "LTXVLatentUpsampler"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "LTXVScheduler",
+      "manager_search": "LTXVScheduler"
+     },
+     {
+      "class_type": "LTXVSeparateAVLatent",
+      "manager_search": "LTXVSeparateAVLatent"
+     },
+     {
+      "class_type": "LTXVSpatioTemporalTiledVAEDecode",
+      "manager_search": "LTXVSpatioTemporalTiledVAEDecode"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LatentUpscaleModelLoader",
+      "manager_search": "LatentUpscaleModelLoader"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio V2"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "ManualSigmas",
+      "manager_search": "ManualSigmas"
+     },
+     {
+      "class_type": "MelBandRoFormerModelLoader",
+      "manager_search": "MelBandRoFormerModelLoader"
+     },
+     {
+      "class_type": "MelBandRoFormerSampler",
+      "manager_search": "MelBandRoFormerSampler"
+     },
+     {
+      "class_type": "MultimodalGuider",
+      "manager_search": "MultimodalGuider"
+     },
+     {
+      "class_type": "NormalizeAudioLoudness",
+      "manager_search": "NormalizeAudioLoudness"
+     },
+     {
+      "class_type": "PathchSageAttentionKJ",
+      "manager_search": "PathchSageAttentionKJ"
+     },
+     {
+      "class_type": "Power Lora Loader (rgthree)",
+      "manager_search": "Power Lora Loader (rgthree)"
+     },
+     {
+      "class_type": "PreviewAny",
+      "manager_search": "PreviewAny"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "PrimitiveBoolean",
+      "manager_search": "PrimitiveBoolean"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "PrimitiveInt",
+      "manager_search": "PrimitiveInt"
+     },
+     {
+      "class_type": "PrimitiveStringMultiline",
+      "manager_search": "PrimitiveStringMultiline"
+     },
+     {
+      "class_type": "RAMCleanup",
+      "manager_search": "RAMCleanup"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "SolidMask",
+      "manager_search": "SolidMask"
+     },
+     {
+      "class_type": "TextGenerateLTX2Prompt",
+      "manager_search": "TextGenerateLTX2Prompt"
+     },
+     {
+      "class_type": "TrimAudioDuration",
+      "manager_search": "TrimAudioDuration"
+     },
+     {
+      "class_type": "UnetLoaderGGUF",
+      "manager_search": "UnetLoaderGGUF"
+     },
+     {
+      "class_type": "VAELoaderKJ",
+      "manager_search": "VAELoaderKJ"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "VibeVoiceTTS",
+      "manager_search": "VibeVoiceTTS"
+     },
+     {
+      "class_type": "easy float",
+      "manager_search": "easy float"
+     },
+     {
+      "class_type": "easy seed",
+      "manager_search": "easy seed"
+     },
+     {
+      "class_type": "mxSlider",
+      "manager_search": "mxSlider"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -3042,7 +4335,8 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/width=450/117889046.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10e468ad-58af-4b37-b5c6-8921b9eb83aa/original=true/117889046.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8bbdb81-5997-42ec-840e-cdda178ecd0e/original=true/a8bbdb81-5997-42ec-840e-cdda178ecd0e.mp4"
    },
    "gallery": [],
    "stacks_on": [],
@@ -3093,15 +4387,114 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/width=450/124575015.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceb6462d-a446-4ef2-9839-ae9ae8b429dd/original=true/124575015.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/feceb440-86e5-43ba-b243-4003332dbde4/original=true/feceb440-86e5-43ba-b243-4003332dbde4.mp4"
    },
    "gallery": [],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2475570",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "LTXV2\\ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v2.safetensors",
+      "folder": "models/checkpoints/"
+     },
+     {
+      "name": "gemma_3_12B_it_fp8_e4m3fn.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "ltx-2.3_text_projection_bf16.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "taeltx2_3.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "829c80e2-64e5-40c7-a0f8-46de761523d0",
+      "manager_search": "829c80e2-64e5-40c7-a0f8-46de761523d0"
+     },
+     {
+      "class_type": "ComfyMathExpression",
+      "manager_search": "ComfyMathExpression"
+     },
+     {
+      "class_type": "DualCLIPLoaderGGUF",
+      "manager_search": "DualCLIPLoaderGGUF"
+     },
+     {
+      "class_type": "GetNode",
+      "manager_search": "GetNode"
+     },
+     {
+      "class_type": "ImageResizeKJv2",
+      "manager_search": "ImageResizeKJv2"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "LTXVPreprocess",
+      "manager_search": "LTXVPreprocess"
+     },
+     {
+      "class_type": "Label (rgthree)",
+      "manager_search": "Label (rgthree)"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "LowVRAMLatentUpscaleModelLoader",
+      "manager_search": "LowVRAMLatentUpscaleModelLoader"
+     },
+     {
+      "class_type": "PreviewAudio",
+      "manager_search": "PreviewAudio"
+     },
+     {
+      "class_type": "PrimitiveBoolean",
+      "manager_search": "PrimitiveBoolean"
+     },
+     {
+      "class_type": "PrimitiveFloat",
+      "manager_search": "PrimitiveFloat"
+     },
+     {
+      "class_type": "RT_LTX2_SelfRefiningPatch",
+      "manager_search": "RT_LTX2_SelfRefiningPatch"
+     },
+     {
+      "class_type": "RT_LTX2_Video_LoRA_Injector",
+      "manager_search": "RT_LTX2_Video_LoRA_Injector"
+     },
+     {
+      "class_type": "SetNode",
+      "manager_search": "SetNode"
+     },
+     {
+      "class_type": "TrimAudioDuration",
+      "manager_search": "TrimAudioDuration"
+     },
+     {
+      "class_type": "UnetLoaderGGUF",
+      "manager_search": "UnetLoaderGGUF"
+     },
+     {
+      "class_type": "VAELoaderKJ",
+      "manager_search": "VAELoaderKJ"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
@@ -3141,15 +4534,72 @@
    "pulled_at": null,
    "preview": {
     "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/width=450/97885281.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4"
+    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6569d64e-3604-496f-a626-752f170aaa4d/original=true/97885281.mp4",
+    "video": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ac5f96f-95bb-40da-bd54-43cf73c7317d/original=true/0ac5f96f-95bb-40da-bd54-43cf73c7317d.mp4"
    },
-   "gallery": [],
+   "gallery": [
+    "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a0f569f-16db-4f45-91c0-654a000cc3af/width=450/1a0f569f-16db-4f45-91c0-654a000cc3af.jpeg"
+   ],
    "stacks_on": [],
    "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1920627",
    "requirements": {
-    "models": [],
-    "nodes": []
+    "models": [
+     {
+      "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "folder": "models/text_encoders/"
+     },
+     {
+      "name": "wan2.2_s2v_14B_bf16.safetensors",
+      "folder": "models/diffusion_models/"
+     },
+     {
+      "name": "wan_2.1_vae.safetensors",
+      "folder": "models/vae/"
+     }
+    ],
+    "nodes": [
+     {
+      "class_type": "AudioEncoderEncode",
+      "manager_search": "AudioEncoderEncode"
+     },
+     {
+      "class_type": "AudioEncoderLoader",
+      "manager_search": "AudioEncoderLoader"
+     },
+     {
+      "class_type": "Int",
+      "manager_search": "Int"
+     },
+     {
+      "class_type": "LayerUtility: ImageScaleByAspectRatio",
+      "manager_search": "LayerUtility: ImageScaleByAspectRatio"
+     },
+     {
+      "class_type": "LoadAudio",
+      "manager_search": "LoadAudio"
+     },
+     {
+      "class_type": "SeedVR2",
+      "manager_search": "SeedVR2"
+     },
+     {
+      "class_type": "SeedVR2BlockSwap",
+      "manager_search": "SeedVR2BlockSwap"
+     },
+     {
+      "class_type": "SimpleMath+",
+      "manager_search": "SimpleMath+"
+     },
+     {
+      "class_type": "VHS_VideoCombine",
+      "manager_search": "VHS_VideoCombine"
+     },
+     {
+      "class_type": "WanSoundImageToVideo",
+      "manager_search": "WanSoundImageToVideo"
+     }
+    ]
    },
    "heuristic": {
     "lane": null,
