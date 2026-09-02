@@ -384,6 +384,26 @@ def layer_class_markup(data: dict[str, Any]) -> str:
     """
 
 
+def cut_list_markup(stage_id: str) -> str:
+    key = stage_id.upper().replace("-", "_")
+    try:
+        data = json.loads((STAGED / "cuts.json").read_text(encoding="utf-8"))
+        blob = (data.get("stages") or {}).get(key) or {}
+    except (OSError, json.JSONDecodeError):
+        blob = {}
+    cuts = blob.get("cuts") or []
+    if not cuts:
+        return ""
+    rows = "".join(
+        f'<li><strong>{esc(c.get("name") or c.get("id"))}</strong> — {esc(c.get("reason") or "")}</li>'
+        for c in cuts if isinstance(c, dict)
+    )
+    return (
+        f'<details class="cut-details"><summary>{len(cuts)} curated cuts — view why</summary>'
+        f"<ul>{rows}</ul></details>"
+    )
+
+
 def cut_panel(stage: dict[str, Any], data: dict[str, Any]) -> str:
     pulled = int(data.get("pulled", len(data.get("entries") or [])))
     source = source_label(stage["id"])
@@ -404,6 +424,7 @@ def cut_panel(stage: dict[str, Any], data: dict[str, Any]) -> str:
         <a class="text-link" href="#cut-reasons">why this count <span>↗</span></a>
       </div>
       <p class="cut-reason" id="cut-reasons">{esc(reason)} Preview-less candidates are cut before render.</p>
+      {cut_list_markup(stage["id"])}
     </section>
     """
 
@@ -899,6 +920,10 @@ h2 { font-size: clamp(25px, 3vw, 38px); letter-spacing: -.025em; line-height: 1.
 .cut-panel h2 { font: 700 21px/1.2 var(--mono); margin: 10px 0 0; white-space: nowrap; }
 .cut-panel h2 span { color: var(--amber); padding: 0 5px; }
 .cut-reason { color: var(--muted); margin: 0; max-width: 760px; }
+.cut-details { color: var(--muted); margin-top: 10px; max-width: 760px; }
+.cut-details summary { cursor: pointer; font-size: 15px; }
+.cut-details ul { margin: 8px 0 0; padding-left: 18px; }
+.cut-details li { font-size: 15px; margin: 4px 0; }
 .layers-class { background: var(--surface-raised); border: 1px solid var(--line-strong); margin-top: 58px; padding: 27px 28px 30px; }
 .section-kicker { align-items: center; display: flex; gap: 10px; }
 .section-rule { background: var(--cyan); display: inline-block; height: 1px; width: 27px; }
