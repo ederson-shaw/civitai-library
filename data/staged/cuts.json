@@ -62,7 +62,7 @@
    ]
   },
   "LAYERS": {
-   "count": 3,
+   "count": 5,
    "cuts": [
     {
      "id": "147751",
@@ -78,6 +78,16 @@
      "id": "5693",
      "name": "beautiful detailed eyes,",
      "reason": "corrupted preview (green bands) Q1"
+    },
+    {
+     "id": "129666",
+     "name": "⋅ ⊣ Realities Edge XL ⊢ ⋅ LIGHTNING + Turbo!",
+     "reason": "realities-edge lightning = speed checkpoint, not a stackable layer (misrouted)"
+    },
+    {
+     "id": "369575",
+     "name": "Envy Starlight XL 01 Lightning - Anime Western fusion digital painting / photography",
+     "reason": "anime-western lightning style base, not an enhancement layer"
     }
    ]
   },
