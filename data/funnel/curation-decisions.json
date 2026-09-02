@@ -1608,5 +1608,418 @@
   "stage_from": "ADS",
   "reviewed_by": "manager",
   "ts": "2026-09-02T04:50:56+00:00"
+ },
+ "394171": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2490072": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1526147": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1945414": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2411105": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1710081": {
+  "action": "keep",
+  "reason": "toy-like 3D demo character — acceptable stylized preview",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1553946": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1983539": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2306894": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2422765": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2498927": {
+  "action": "keep",
+  "reason": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1924833": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2294829": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2492652": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1815300": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2337329": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2299899": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1909425": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2041710": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2475570": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1920627": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2780640": {
+  "action": "keep",
+  "reason": "talking/lip-sync/S2V/TTS function — core speech stage work",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2028402": {
+  "action": "cut",
+  "reason": "UI screenshot Q5, redundant",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "363141": {
+  "action": "cut",
+  "reason": "sparse-ctrl animation = motion function, not speech",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1923801": {
+  "action": "cut",
+  "reason": "UI Q5, example wrapper",
+  "stage_from": "SPEECH_VOICE",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1105685": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "987736": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "888250": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1001945": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1231943": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1115090": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "974076": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "350450": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "633524": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "229213": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "402462": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "572473": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "598621": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "145545": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "104292": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "264681": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "122359": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "810000": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "153562": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "643886": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "124347": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "678808": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "62687": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "290860": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "280421": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "2026594": {
+  "action": "keep",
+  "reason": "the probe's soft-mismatch case — skin layer for anime bases, stacks_on noted",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "78283": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "562866": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "1333749": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "391031": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "572899": {
+  "action": "keep",
+  "reason": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "147751": {
+  "action": "cut",
+  "reason": "Q6 text-covered preview",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "78056": {
+  "action": "cut",
+  "reason": "checkpoint mix, not a layer — misrouted",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
+ },
+ "5693": {
+  "action": "cut",
+  "reason": "corrupted preview (green bands) Q1",
+  "stage_from": "LAYERS",
+  "reviewed_by": "manager",
+  "ts": "2026-09-02T04:55:29+00:00"
  }
 }

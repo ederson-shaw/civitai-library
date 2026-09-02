@@ -1,20 +1,20 @@
 {
  "stage": "LAYERS",
- "generated": "2026-09-02T04:53:58+00:00",
+ "generated": "2026-09-02T04:55:29+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
    "id": 1105685,
    "our_name": null,
    "source_name": "Dramatic Lighting Slider [Pony, Illustrious]",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 20.0,
    "tier": "S-candidate",
    "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
    "tradeoff": null,
@@ -32,7 +32,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/1105685",
    "requirements": {
     "models": [],
@@ -42,20 +42,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 987736,
    "our_name": null,
    "source_name": "NoobAI-XL Detailer",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 20.0,
    "tier": "S-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "NoobAI",
    "vram_class": null,
    "tradeoff": null,
@@ -73,7 +75,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/987736",
    "requirements": {
     "models": [],
@@ -83,7 +85,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 1280702,
@@ -130,14 +134,14 @@
    "id": 888250,
    "our_name": null,
    "source_name": "Vixon's Classic Art Styles - detailed painting",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 19.6,
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
    "tradeoff": null,
@@ -155,7 +159,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/888250",
    "requirements": {
     "models": [],
@@ -165,20 +169,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 1001945,
    "our_name": null,
    "source_name": "Detail Slider LoRA | Illustrious-XL",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 19.6,
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -196,7 +202,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/1001945",
    "requirements": {
     "models": [],
@@ -206,7 +212,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 768917,
@@ -253,14 +261,14 @@
    "id": 1231943,
    "our_name": null,
    "source_name": "Detailer IL",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 19.3,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -278,7 +286,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/1231943",
    "requirements": {
     "models": [],
@@ -288,20 +296,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 1115090,
    "our_name": null,
    "source_name": "Illustrious Realism Enhancer ✨",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 19.0,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -319,7 +329,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/1115090",
    "requirements": {
     "models": [],
@@ -329,20 +339,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 974076,
    "our_name": null,
    "source_name": "Enchanting Eyes (Anima, Illustrious, and Pony) (Detailed Eyes)",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 18.9,
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -360,7 +372,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/974076",
    "requirements": {
     "models": [],
@@ -370,61 +382,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 147751,
-   "our_name": null,
-   "source_name": "DarkLight",
-   "purpose": null,
-   "composite": 18.8,
-   "tier": "A-candidate",
-   "visual_class": "realism-photoreal",
-   "quality": 6,
-   "nsfw_bucket": "safe",
-   "name_fit": "fits",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 16336,
-    "thumbsUpCount": 2234
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26d76dc3-76e9-425a-9426-954704161610/width=450/2793258.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26d76dc3-76e9-425a-9426-954704161610/original=true/2793258.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [
-    "PERSONA"
-   ],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/147751",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 350450,
    "our_name": null,
    "source_name": "SDXL Lightning LoRAs",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 18.7,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -442,7 +415,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/350450",
    "requirements": {
     "models": [],
@@ -452,7 +425,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 661736,
@@ -499,14 +474,14 @@
    "id": 633524,
    "our_name": null,
    "source_name": "Background Detail Enhancer✨",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 18.5,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Krea 2",
    "vram_class": null,
    "tradeoff": null,
@@ -524,7 +499,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/633524",
    "requirements": {
     "models": [],
@@ -534,20 +509,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 229213,
    "our_name": null,
    "source_name": "extremely detailed (no trigger) - sliders.ntcai.xyz",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 18.3,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -565,7 +542,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/229213",
    "requirements": {
     "models": [],
@@ -575,20 +552,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 402462,
    "our_name": null,
    "source_name": "Detail Slider LoRA | PonyXL SDXL",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 18.3,
    "tier": "A-candidate",
    "visual_class": "anime-illustration",
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
    "tradeoff": null,
@@ -606,7 +585,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/402462",
    "requirements": {
     "models": [],
@@ -616,48 +595,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 78056,
-   "our_name": null,
-   "source_name": "SakushiMix (finished)",
-   "purpose": null,
-   "composite": 18.2,
-   "tier": "A-candidate",
-   "visual_class": "anime-illustration",
-   "quality": 7,
-   "nsfw_bucket": "moderate",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 42463,
-    "thumbsUpCount": 4614
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f094f00a-a0fd-43ae-a443-e306ccb0a86a/width=450/1869281.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f094f00a-a0fd-43ae-a443-e306ccb0a86a/original=true/1869281.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [
-    "PERSONA"
-   ],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/78056",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 162016,
@@ -704,14 +644,14 @@
    "id": 572473,
    "our_name": null,
    "source_name": "Glowing light",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 18.0,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -729,7 +669,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/572473",
    "requirements": {
     "models": [],
@@ -739,20 +679,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 598621,
    "our_name": null,
    "source_name": "(Detail Enhancer) 3D Blender Style",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 18.0,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -770,7 +712,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/598621",
    "requirements": {
     "models": [],
@@ -780,7 +722,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 1145743,
@@ -868,14 +812,14 @@
    "id": 145545,
    "our_name": null,
    "source_name": "Light Control SD15 - Left Right",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 17.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -893,7 +837,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/145545",
    "requirements": {
     "models": [],
@@ -903,20 +847,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 104292,
    "our_name": null,
    "source_name": "The forest light",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 17.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -934,7 +880,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/104292",
    "requirements": {
     "models": [],
@@ -944,20 +890,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 264681,
    "our_name": null,
    "source_name": "WildCardX-XL-Detail/Enhancer",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 17.7,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -975,7 +923,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/264681",
    "requirements": {
     "models": [],
@@ -985,20 +933,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 122359,
    "our_name": null,
    "source_name": "Detail Tweaker XL",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 17.6,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -1016,7 +966,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/122359",
    "requirements": {
     "models": [],
@@ -1026,7 +976,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 383086,
@@ -1155,14 +1107,14 @@
    "id": 810000,
    "our_name": null,
    "source_name": "NEW FANTASY CORE - ILL-FLUX-PONY-SDXL- ZIT(detailer)",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.7,
    "tier": "B-candidate",
    "visual_class": "anime-illustration",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -1180,7 +1132,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/810000",
    "requirements": {
     "models": [],
@@ -1190,20 +1142,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 153562,
    "our_name": null,
    "source_name": "Detail Slider - LoRA",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1221,7 +1175,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/153562",
    "requirements": {
     "models": [],
@@ -1231,7 +1185,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 263104,
@@ -1319,14 +1275,14 @@
    "id": 643886,
    "our_name": null,
    "source_name": "FLUX 🌟FaeTastic Details",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.4,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -1344,7 +1300,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/643886",
    "requirements": {
     "models": [],
@@ -1354,20 +1310,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 124347,
    "our_name": null,
    "source_name": "xl_more_art-full / xl_real / Enhancer",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.3,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SDXL 1.0",
    "vram_class": null,
    "tradeoff": null,
@@ -1385,7 +1343,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/124347",
    "requirements": {
     "models": [],
@@ -1395,48 +1353,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 5693,
-   "our_name": null,
-   "source_name": "beautiful detailed eyes,",
-   "purpose": null,
-   "composite": 16.3,
-   "tier": "B-candidate",
-   "visual_class": "other",
-   "quality": 1,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Other",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 49562,
-    "thumbsUpCount": 4107
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08a8ee1-e3f3-403f-22b3-7586100a5600/width=450/60376.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08a8ee1-e3f3-403f-22b3-7586100a5600/original=true/60376.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [
-    "PERSONA"
-   ],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/5693",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 280472,
@@ -1483,14 +1402,14 @@
    "id": 678808,
    "our_name": null,
    "source_name": "Mystic Enchantress Detail++",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.3,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -1508,7 +1427,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/678808",
    "requirements": {
     "models": [],
@@ -1518,20 +1437,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 62687,
    "our_name": null,
    "source_name": "Tangbohu Detail Maker LoRA (唐伯虎细节制造LoRA)",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.2,
    "tier": "B-candidate",
    "visual_class": "anime-illustration",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1549,7 +1470,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/62687",
    "requirements": {
     "models": [],
@@ -1559,20 +1480,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 290860,
    "our_name": null,
    "source_name": "Cinematic \"Warm Light\" 3200k Lighting Style XL + F1D + Illu + Pony",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.1,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -1590,7 +1513,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/290860",
    "requirements": {
     "models": [],
@@ -1600,7 +1523,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 1155749,
@@ -1647,14 +1572,14 @@
    "id": 280421,
    "our_name": null,
    "source_name": "Low-key lighting Style XL + F1D + Illu + Pony + zit",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 16.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -1672,7 +1597,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/280421",
    "requirements": {
     "models": [],
@@ -1682,20 +1607,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 2026594,
    "our_name": null,
    "source_name": "MiaoMiao RealSkin",
-   "purpose": null,
+   "purpose": "the probe's soft-mismatch case — skin layer for anime bases, stacks_on noted",
    "composite": 15.9,
    "tier": "B-candidate",
    "visual_class": "anime-illustration",
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "soft-mismatch",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Anima",
    "vram_class": null,
    "tradeoff": null,
@@ -1713,7 +1640,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "the probe's soft-mismatch case — skin layer for anime bases, stacks_on noted",
    "civitai_url": "https://civitai.com/models/2026594",
    "requirements": {
     "models": [],
@@ -1723,7 +1650,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "the probe's soft-mismatch case — skin layer for anime bases, stacks_on noted"
   },
   {
    "id": 280454,
@@ -1893,14 +1822,14 @@
    "id": 78283,
    "our_name": null,
    "source_name": "Elixir — Enhancer LoRA 🧪",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 15.7,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1918,7 +1847,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/78283",
    "requirements": {
     "models": [],
@@ -1928,7 +1857,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 391036,
@@ -2139,14 +2070,14 @@
    "id": 562866,
    "our_name": null,
    "source_name": "FLUX Image Upgrader / Detail Maximizer / Contrast Fix for low CFG [+ILLUSTRIOUS / SDXL / SD 1.5]",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 15.5,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Flux.1 D",
    "vram_class": null,
    "tradeoff": null,
@@ -2164,7 +2095,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/562866",
    "requirements": {
     "models": [],
@@ -2174,20 +2105,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 1333749,
    "our_name": null,
    "source_name": "Add Detail - Slider",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 15.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
    "tradeoff": null,
@@ -2205,7 +2138,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/1333749",
    "requirements": {
     "models": [],
@@ -2215,7 +2148,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 413466,
@@ -2344,14 +2279,14 @@
    "id": 391031,
    "our_name": null,
    "source_name": "Silhouette (cinematic lighting) style XL + F1D + zit",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 15.2,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "ZImageTurbo",
    "vram_class": null,
    "tradeoff": null,
@@ -2369,7 +2304,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/391031",
    "requirements": {
     "models": [],
@@ -2379,20 +2314,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 572899,
    "our_name": null,
    "source_name": "Realistic Skin for pony",
-   "purpose": null,
+   "purpose": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "composite": 15.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 6,
    "nsfw_bucket": "moderate",
    "name_fit": "fits",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Pony",
    "vram_class": null,
    "tradeoff": null,
@@ -2410,7 +2347,7 @@
    "stacks_on": [
     "PERSONA"
    ],
-   "verdict_keep": null,
+   "verdict_keep": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers",
    "civitai_url": "https://civitai.com/models/572899",
    "requirements": {
     "models": [],
@@ -2420,7 +2357,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "enhancement layer function (detail/light/skin/upscale) — 'other' previews expected for layers"
   },
   {
    "id": 1380970,

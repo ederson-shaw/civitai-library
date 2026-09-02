@@ -1,20 +1,20 @@
 {
  "stage": "SPEECH_VOICE",
- "generated": "2026-09-02T04:53:58+00:00",
+ "generated": "2026-09-02T04:55:29+00:00",
  "note": "auto-staged from funnel+vision; curation pass owns final fields",
  "entries": [
   {
    "id": 1983539,
    "our_name": null,
    "source_name": "Motion Forge: Wan2.2 S2V - High-Motion & Long-Format Workflow 4 Steps",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 17.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
    "tradeoff": null,
@@ -30,7 +30,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1983539",
    "requirements": {
     "models": [],
@@ -40,20 +40,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1945414,
    "our_name": null,
    "source_name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 17.5,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
    "tradeoff": null,
@@ -69,7 +71,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1945414",
    "requirements": {
     "models": [],
@@ -79,20 +81,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2411105,
    "our_name": null,
    "source_name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 17.3,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
    "tradeoff": null,
@@ -108,7 +112,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2411105",
    "requirements": {
     "models": [],
@@ -118,59 +122,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 2028402,
-   "our_name": null,
-   "source_name": "InfiniteTalk TTS BGM Foley US IP",
-   "purpose": null,
-   "composite": 17.3,
-   "tier": "B-candidate",
-   "visual_class": "other",
-   "quality": 5,
-   "nsfw_bucket": "safe",
-   "name_fit": "not-applicable",
-   "review_flag": true,
-   "baseModel": "Wan Video 14B i2v 480p",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 503,
-    "thumbsUpCount": 28
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1d9ca71-a953-45d9-9acc-31f22dded0cc/width=450/105045770.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1d9ca71-a953-45d9-9acc-31f22dded0cc/original=true/105045770.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/2028402",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2306894,
    "our_name": null,
    "source_name": "LTX-2.5 Image Audio to Video - Lipsync",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 17.2,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.5",
    "vram_class": null,
    "tradeoff": null,
@@ -186,7 +153,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2306894",
    "requirements": {
     "models": [],
@@ -196,20 +163,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2498927,
    "our_name": null,
    "source_name": "Text-to-Speech with Voice Clone in LTX 2.3",
-   "purpose": null,
+   "purpose": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted",
    "composite": 17.1,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 5,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -225,7 +194,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted",
    "civitai_url": "https://civitai.com/models/2498927",
    "requirements": {
     "models": [],
@@ -235,20 +204,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "voice-clone-in-LTX function-critical for thin stage, weak UI preview noted"
   },
   {
    "id": 1710081,
    "our_name": null,
    "source_name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
-   "purpose": null,
+   "purpose": "toy-like 3D demo character — acceptable stylized preview",
    "composite": 17.1,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
    "tradeoff": null,
@@ -264,7 +235,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "toy-like 3D demo character — acceptable stylized preview",
    "civitai_url": "https://civitai.com/models/1710081",
    "requirements": {
     "models": [],
@@ -274,20 +245,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "toy-like 3D demo character — acceptable stylized preview"
   },
   {
    "id": 1553946,
    "our_name": null,
    "source_name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 16.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -303,7 +276,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1553946",
    "requirements": {
     "models": [],
@@ -313,20 +286,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2422765,
    "our_name": null,
    "source_name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.8,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -342,7 +317,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2422765",
    "requirements": {
     "models": [],
@@ -352,20 +327,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1815300,
    "our_name": null,
    "source_name": "VideoFlow - LTX 2.3 All-in-One T2V / I2V / A2V / Stable Character Voice, Wan 2.2/2.1 I2V workflow",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.5,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -381,7 +358,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1815300",
    "requirements": {
     "models": [],
@@ -391,20 +368,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2337329,
    "our_name": null,
    "source_name": "Qwen3-TTS Voice Generation Collection V1",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.5,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Qwen",
    "vram_class": null,
    "tradeoff": null,
@@ -420,7 +399,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2337329",
    "requirements": {
     "models": [],
@@ -430,20 +409,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1924833,
    "our_name": null,
    "source_name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.3,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
    "tradeoff": null,
@@ -459,7 +440,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1924833",
    "requirements": {
     "models": [],
@@ -469,20 +450,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1909425,
    "our_name": null,
    "source_name": "Wan 2.2 14B S2V Ultimate Suite: GGUF & Lightning Speed with Extended Video Generation",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
    "tradeoff": null,
@@ -498,7 +481,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1909425",
    "requirements": {
     "models": [],
@@ -508,20 +491,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2041710,
    "our_name": null,
    "source_name": "InfiniteTalk | Image-to-Speech AI Workflow (All Files + Setup Guide Included)",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "moderate",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
    "tradeoff": null,
@@ -537,7 +522,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2041710",
    "requirements": {
     "models": [],
@@ -547,20 +532,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2294829,
    "our_name": null,
    "source_name": "Friendly LTX-2 T2V+I2V+Lipsync",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.0,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
    "tradeoff": null,
@@ -576,7 +563,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2294829",
    "requirements": {
     "models": [],
@@ -586,59 +573,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 363141,
-   "our_name": null,
-   "source_name": "Animatediff SparseCtrl img2img2vid 4/8frames2VideoPrediction LLM SD15",
-   "purpose": null,
-   "composite": 14.5,
-   "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "SD 1.5",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 2315,
-    "thumbsUpCount": 58
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc924ae5-42d6-49f3-8ac6-b32c42adf234/width=450/8389162.mp4",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc924ae5-42d6-49f3-8ac6-b32c42adf234/original=true/8389162.mp4"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/363141",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2299899,
    "our_name": null,
    "source_name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 14.3,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV",
    "vram_class": null,
    "tradeoff": null,
@@ -654,7 +604,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2299899",
    "requirements": {
     "models": [],
@@ -664,20 +614,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2475570,
    "our_name": null,
    "source_name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 14.1,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -693,7 +645,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2475570",
    "requirements": {
     "models": [],
@@ -703,20 +655,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2492652,
    "our_name": null,
    "source_name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 14.1,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -732,7 +686,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2492652",
    "requirements": {
     "models": [],
@@ -742,20 +696,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2780640,
    "our_name": null,
    "source_name": "JoyAI-Echo Multishot Workflow - one character, many shots, same face + voice",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 13.7,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -771,7 +727,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2780640",
    "requirements": {
     "models": [],
@@ -781,20 +737,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1920627,
    "our_name": null,
    "source_name": "Wan Speech To Video(Lip Sync With Speed Up)",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 13.0,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
    "tradeoff": null,
@@ -810,7 +768,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1920627",
    "requirements": {
     "models": [],
@@ -820,46 +778,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
-  },
-  {
-   "id": 1923801,
-   "our_name": null,
-   "source_name": "Microsoft Vibe Voice Text To Speech Example Workflow",
-   "purpose": null,
-   "composite": 10.9,
-   "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
-   "baseModel": "Other",
-   "vram_class": null,
-   "tradeoff": null,
-   "open_closed": null,
-   "stats": {
-    "downloadCount": 759,
-    "thumbsUpCount": 11
    },
-   "pulled_at": null,
-   "preview": {
-    "url_width450": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8aab064a-159f-4024-9bbc-d9d54fbef696/width=450/98090196.jpeg",
-    "url_original": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8aab064a-159f-4024-9bbc-d9d54fbef696/original=true/98090196.jpeg"
-   },
-   "gallery": [],
-   "stacks_on": [],
-   "verdict_keep": null,
-   "civitai_url": "https://civitai.com/models/1923801",
-   "requirements": {
-    "models": [],
-    "nodes": []
-   },
-   "heuristic": {
-    "lane": null,
-    "layer": null,
-    "era": null
-   }
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 489100,
@@ -907,11 +828,11 @@
    "purpose": null,
    "composite": 13.2,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "anime-illustration",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Illustrious",
    "vram_class": null,
    "tradeoff": null,
@@ -943,14 +864,14 @@
    "id": 394171,
    "our_name": null,
    "source_name": "Comfyui Generate Digital Talking Human Workflow",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 19.4,
    "tier": "A-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "SD 1.5",
    "vram_class": null,
    "tradeoff": null,
@@ -966,7 +887,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/394171",
    "requirements": {
     "models": [],
@@ -976,20 +897,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2490072,
    "our_name": null,
    "source_name": "LTX2.3 TI2V Audio Image Driven Digital Human",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 19.2,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -1005,7 +928,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2490072",
    "requirements": {
     "models": [],
@@ -1015,20 +938,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1526147,
    "our_name": null,
    "source_name": "Fantasy Talking+Cosyvoice Digital Person Skyreels+v2+I2V Stable Acceleration Version V2",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 18.8,
    "tier": "A-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -1044,7 +969,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1526147",
    "requirements": {
     "models": [],
@@ -1054,20 +979,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1945414,
    "our_name": null,
    "source_name": "Wan Video InfiniteTalk & ViveVoice (Talking Photo Perfect Voice Clone and Emotion Match)",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 18.7,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 14B i2v 480p",
    "vram_class": null,
    "tradeoff": null,
@@ -1083,7 +1010,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1945414",
    "requirements": {
     "models": [],
@@ -1093,20 +1020,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2411105,
    "our_name": null,
    "source_name": "LTX2 I2V 🏃Motion & 🫦 Lip sync to your own 🔊 +  SEEDVR2 Upacaler",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 18.5,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
    "tradeoff": null,
@@ -1122,7 +1051,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2411105",
    "requirements": {
     "models": [],
@@ -1132,20 +1061,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1710081,
    "our_name": null,
    "source_name": "InfiniteTalk - with Single speaker - Simple workflow (subgraphs)",
-   "purpose": null,
+   "purpose": "toy-like 3D demo character — acceptable stylized preview",
    "composite": 18.5,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 7,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 14B i2v 720p",
    "vram_class": null,
    "tradeoff": null,
@@ -1161,7 +1092,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "toy-like 3D demo character — acceptable stylized preview",
    "civitai_url": "https://civitai.com/models/1710081",
    "requirements": {
     "models": [],
@@ -1171,20 +1102,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "toy-like 3D demo character — acceptable stylized preview"
   },
   {
    "id": 1553946,
    "our_name": null,
    "source_name": "WAN 2.1 Fantasy Talk Workflow From Youtube",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 18.4,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video",
    "vram_class": null,
    "tradeoff": null,
@@ -1200,7 +1133,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1553946",
    "requirements": {
     "models": [],
@@ -1210,20 +1143,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2306894,
    "our_name": null,
    "source_name": "LTX-2.5 Image Audio to Video - Lipsync",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 17.6,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "moderate",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.5",
    "vram_class": null,
    "tradeoff": null,
@@ -1239,7 +1174,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2306894",
    "requirements": {
     "models": [],
@@ -1249,20 +1184,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2422765,
    "our_name": null,
    "source_name": "LTX 2.3 - Unlimited Video Length - Sing or Talk (Alternating Shots)",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 17.5,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -1278,7 +1215,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2422765",
    "requirements": {
     "models": [],
@@ -1288,20 +1225,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1924833,
    "our_name": null,
    "source_name": "Wan 2.2 S2V Speech to Video 5 Steps #ComfyUI Native Workflow + Step by Step #s2v #wan22 #lipsync#ai",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 17.0,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
    "tradeoff": null,
@@ -1317,7 +1256,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1924833",
    "requirements": {
     "models": [],
@@ -1327,20 +1266,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2294829,
    "our_name": null,
    "source_name": "Friendly LTX-2 T2V+I2V+Lipsync",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.9,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV2",
    "vram_class": null,
    "tradeoff": null,
@@ -1356,7 +1297,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2294829",
    "requirements": {
     "models": [],
@@ -1366,20 +1307,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2492652,
    "our_name": null,
    "source_name": "Friendly LTX-2.3 T2V+I2V+FLF+Lipsync",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.8,
    "tier": "B-candidate",
    "visual_class": "realism-photoreal",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -1395,7 +1338,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2492652",
    "requirements": {
     "models": [],
@@ -1405,20 +1348,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2299899,
    "our_name": null,
    "source_name": "LTX 2 For Low & High V-RAM GGUF + T2V + I2V with Lip Sync Using Comfy UI (1080p, 4K Videos) #ltx",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 15.4,
    "tier": "B-candidate",
    "visual_class": "other",
    "quality": 8,
    "nsfw_bucket": "safe",
    "name_fit": "not-applicable",
-   "review_flag": true,
+   "review_flag": false,
    "baseModel": "LTXV",
    "vram_class": null,
    "tradeoff": null,
@@ -1434,7 +1379,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2299899",
    "requirements": {
     "models": [],
@@ -1444,20 +1389,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 2475570,
    "our_name": null,
    "source_name": "LTX-2.3 22B GGUF / Safetensors 12GB VRAM ComfyUI Workflow T2V, I2V, A2V FLF, LipSync Audio #ltx23 #ltx #comfyui",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 14.9,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 8,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "LTXV 2.3",
    "vram_class": null,
    "tradeoff": null,
@@ -1473,7 +1420,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/2475570",
    "requirements": {
     "models": [],
@@ -1483,20 +1430,22 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": 1920627,
    "our_name": null,
    "source_name": "Wan Speech To Video(Lip Sync With Speed Up)",
-   "purpose": null,
+   "purpose": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "composite": 14.6,
    "tier": "B-candidate",
-   "visual_class": "unreviewed",
-   "quality": null,
-   "nsfw_bucket": null,
-   "name_fit": null,
-   "review_flag": true,
+   "visual_class": "realism-photoreal",
+   "quality": 7,
+   "nsfw_bucket": "safe",
+   "name_fit": "not-applicable",
+   "review_flag": false,
    "baseModel": "Wan Video 2.2 I2V-A14B",
    "vram_class": null,
    "tradeoff": null,
@@ -1512,7 +1461,7 @@
    },
    "gallery": [],
    "stacks_on": [],
-   "verdict_keep": null,
+   "verdict_keep": "talking/lip-sync/S2V/TTS function — core speech stage work",
    "civitai_url": "https://civitai.com/models/1920627",
    "requirements": {
     "models": [],
@@ -1522,7 +1471,9 @@
     "lane": null,
     "layer": null,
     "era": null
-   }
+   },
+   "curated_by": "manager",
+   "curated_note": "talking/lip-sync/S2V/TTS function — core speech stage work"
   },
   {
    "id": "engine-voice-realtime-tts-2",
