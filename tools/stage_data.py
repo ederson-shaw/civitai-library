@@ -281,6 +281,8 @@ def polish_entries(buckets):
                     e["purpose"] += " (modern video model underneath)"
             if stage == "ADS":
                 e["purpose"] = "your persona presenting a product — host style ad shot"
+            if stage == "LAYERS" and not e.get("stacks_on"):
+                e["stacks_on"] = [e["baseModel"]] if e.get("baseModel") else ["any base"]
     print("polish: photoreal +12, tradeoff chips, human purposes applied", file=sys.stderr)
 
 

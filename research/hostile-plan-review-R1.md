@@ -138,3 +138,9 @@ The "research" file opens with 50 lines of the codex system prompt (design-lead 
 1. **Finding #1** (DREAM:28 vs legal) — one doc edit now removes a repo-takedown path that survives into every downstream build artifact. Cheapest catastrophic-risk kill available.
 2. **Finding #2 + #3** (period stats / comment recency unpullable) — the owner's first criteria question is answered with fiction; every score computed before this is fixed is built on stats that don't exist. Re-anchor the time axis on snapshot deltas before P1 curation starts.
 3. **Finding #4 + #6 + #17** (scoring data-path audit) — before any entry is scored, each of the 100 points must name its collector + field. Right now ~55/100 points (external 20, completeness-verified 15 subshare, hardware 10, reactions+honesty 20→partially) have no data source or are creator/self-supplied. A score computed on undefined inputs cannot be re-validated by rank-keeper — the site's core honesty promise dies at birth.
+
+## SESSION NOTES (rebuild, 2026-09-02)
+- pipe-exit trap (m0320): `build_check2 | head -1` printed traceback but head's exit 0 greenlit the && chain — commit landed broken. Rule: check outputs are read unpiped or with PIPESTATUS; a piped check is not a gate.
+- grader-staleness family (3 instances): site interaction changes broke grader selectors/timing silently (stack rail selectors, hover 1000ms, score element) — behavioral probes proved the site right each time. Rule: when a grade fails after a site rework, suspect the grader first; prove with a dispatch-style probe before touching the site.
+- codex -i is variadic: a trailing prompt argument gets swallowed as another image; prompt must ride stdin with `-`.
+- civitai workflow zips carry ComfyUI UI-graph JSON ({nodes:[{type,widgets_values}]}), not API format — extract_reqs.py parses both.
